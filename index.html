@@ -465,11 +465,12 @@
   }
   .lang-pick select {
     background: rgba(21, 28, 51, 0.9);
-    color: var(--dim);
+    color: var(--text);
     border: 1.5px solid var(--line);
     border-radius: 10px;
-    padding: 7px 10px;
-    font-size: 0.85rem;
+    padding: 6px 8px;
+    font-size: 1.15rem;
+    line-height: 1;
     font-family: system-ui, sans-serif;
     cursor: pointer;
   }
@@ -513,14 +514,14 @@
 </head>
 <body>
 <div class="lang-pick">
-  <select id="langSelect" aria-label="Language">
-    <option value="en">English</option>
-    <option value="de">Deutsch</option>
-    <option value="es">Español</option>
-    <option value="pt">Português</option>
-    <option value="fr">Français</option>
-    <option value="ru">Русский</option>
-    <option value="ja">日本語</option>
+  <select id="langSelect" aria-label="Language / Sprache">
+    <option value="en" aria-label="English">🇬🇧</option>
+    <option value="de" aria-label="Deutsch">🇩🇪</option>
+    <option value="es" aria-label="Español">🇪🇸</option>
+    <option value="pt" aria-label="Português">🇧🇷</option>
+    <option value="fr" aria-label="Français">🇫🇷</option>
+    <option value="ru" aria-label="Русский">🇷🇺</option>
+    <option value="ja" aria-label="日本語">🇯🇵</option>
   </select>
 </div>
 <div class="wrap">
