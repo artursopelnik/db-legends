@@ -6,6 +6,8 @@
 
 const I18N = {
   en: {
+    legalNotice: 'Legal notice',
+    privacy: 'Privacy policy',
     installBtn: 'Install as app',
     toastInstalled: 'App installed!',
     howtoHeading: '📖 How it works',
@@ -54,6 +56,8 @@ const I18N = {
     qrAlt: 'QR code for {code}',
   },
   de: {
+    legalNotice: 'Impressum',
+    privacy: 'Datenschutz',
     installBtn: 'Als App installieren',
     toastInstalled: 'App installiert!',
     howtoHeading: '📖 So funktioniert’s',
@@ -102,6 +106,8 @@ const I18N = {
     qrAlt: 'QR-Code für {code}',
   },
   es: {
+    legalNotice: 'Aviso legal',
+    privacy: 'Política de privacidad',
     installBtn: 'Instalar como app',
     toastInstalled: '¡App instalada!',
     howtoHeading: '📖 Cómo funciona',
@@ -150,6 +156,8 @@ const I18N = {
     qrAlt: 'Código QR de {code}',
   },
   pt: {
+    legalNotice: 'Aviso legal',
+    privacy: 'Política de privacidade',
     installBtn: 'Instalar como app',
     toastInstalled: 'App instalado!',
     howtoHeading: '📖 Como funciona',
@@ -198,6 +206,8 @@ const I18N = {
     qrAlt: 'Código QR de {code}',
   },
   fr: {
+    legalNotice: 'Mentions légales',
+    privacy: 'Politique de confidentialité',
     installBtn: 'Installer comme app',
     toastInstalled: 'App installée !',
     howtoHeading: '📖 Comment ça marche',
@@ -246,6 +256,8 @@ const I18N = {
     qrAlt: 'QR code de {code}',
   },
   ru: {
+    legalNotice: 'Правовая информация',
+    privacy: 'Политика конфиденциальности',
     installBtn: 'Установить как приложение',
     toastInstalled: 'Приложение установлено!',
     howtoHeading: '📖 Как это работает',
@@ -294,6 +306,8 @@ const I18N = {
     qrAlt: 'QR-код для {code}',
   },
   ja: {
+    legalNotice: '運営者情報',
+    privacy: 'プライバシーポリシー',
     installBtn: 'アプリとしてインストール',
     toastInstalled: 'アプリをインストールしました！',
     howtoHeading: '📖 使い方',
