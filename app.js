@@ -456,6 +456,38 @@ document.addEventListener('visibilitychange', () => {
   }
 });
 
+// PWA-Installation: nativer Install-Prompt (Android/Chrome); auf iOS bleibt
+// der "Zum Startbildschirm"-Hinweis sichtbar. In der installierten App
+// verschwindet beides.
+const installBtn = document.getElementById('installBtn');
+const installHintEl = document.getElementById('installHint');
+const isStandalone = matchMedia('(display-mode: standalone)').matches || navigator.standalone === true;
+if (isStandalone) installHintEl.hidden = true;
+
+let installPromptEvent = null;
+window.addEventListener('beforeinstallprompt', (event) => {
+  event.preventDefault();
+  installPromptEvent = event;
+  if (!isStandalone) {
+    installBtn.hidden = false;
+    installHintEl.hidden = true;
+  }
+});
+
+installBtn.addEventListener('click', async () => {
+  if (!installPromptEvent) return;
+  installPromptEvent.prompt();
+  const { outcome } = await installPromptEvent.userChoice;
+  if (outcome === 'accepted') installBtn.hidden = true;
+  installPromptEvent = null;
+});
+
+window.addEventListener('appinstalled', () => {
+  installBtn.hidden = true;
+  installHintEl.hidden = true;
+  showToast(t('toastInstalled'));
+});
+
 // PWA: Service Worker fuer Offline-Betrieb (nur ueber http/https moeglich)
 if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
   navigator.serviceWorker.register('sw.js').catch(() => {
