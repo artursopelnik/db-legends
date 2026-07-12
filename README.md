@@ -16,15 +16,22 @@ jeder Code mit eigenem, frischem Timestamp.
   (das Spiel akzeptiert nur zeitnah generierte Codes; die Altersanzeige warnt bei alten Codes)
 - ⬇️ QR-Codes einzeln oder alle zusammen als **PNG herunterladen**
 - 📋 Friend Code in die Zwischenablage kopieren
-- 💾 Liste bleibt im Browser gespeichert (localStorage), plus **JSON-Export/-Import**
-- 📱 Responsive – funktioniert auch am Handy
+- 💾 Liste bleibt dauerhaft gespeichert (localStorage), plus **JSON-Export/-Import**
+- 📱 **PWA**: als App auf dem Home-Bildschirm installierbar, funktioniert **offline**
+  (Service Worker) – am nächsten Tag einfach öffnen, alle Codes sind automatisch frisch
+- 🔍 Tipp auf einen QR-Code öffnet ihn im **Vollbild** – ideal, wenn ein Freund
+  deinen Code vom Handy abscannt
+- ♻️ Beim Zurückkehren in die App werden alle QR-Codes automatisch neu generiert
 
 ## Nutzung
 
-Einfach `index.html` im Browser öffnen – kein Server, kein Build-Schritt nötig.
+**Als App installieren (empfohlen):** Die Seite über HTTPS hosten (z. B. GitHub Pages:
+*Settings → Pages → Deploy from branch*), am Handy öffnen und im Browser-Menü
+**„Zum Startbildschirm hinzufügen“** wählen. Danach startet die App wie eine native App,
+auch ohne Internet.
 
-Alternativ als GitHub Pages hosten: *Settings → Pages → Deploy from branch*
-auswählen, dann ist die App unter `https://<user>.github.io/db-legends/` erreichbar.
+Alternativ einfach `index.html` im Browser öffnen – kein Server, kein Build-Schritt nötig
+(ohne HTTPS gibt es nur keinen Offline-Modus/Installation, alles andere funktioniert).
 
 Im Spiel: **Menü → Freunde → QR-Code scannen** und die Codes vom Bildschirm abscannen.
 

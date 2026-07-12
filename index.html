@@ -5,6 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>DB Legends QR Generator – Anniversary 2026</title>
 <meta name="description" content="Erzeuge QR-Codes für mehrere Dragon Ball Legends Friend Codes gleichzeitig – zum Einscannen im Spiel (Shenron/Porunga Event).">
+<meta name="theme-color" content="#0e1220">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <style>
   :root {
     --bg: #0e1220;
@@ -147,6 +154,42 @@
     transition: opacity 0.25s ease;
   }
   .toast.show { opacity: 1; }
+
+  /* Vollbild-Ansicht eines QR-Codes (zum Abscannen vom Handy) */
+  .qr-modal {
+    position: fixed;
+    inset: 0;
+    background: #ffffff;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    z-index: 50;
+    cursor: pointer;
+    padding: 24px;
+  }
+  .qr-modal.open { display: flex; }
+  .qr-modal canvas { width: min(86vw, 70vh); height: min(86vw, 70vh); image-rendering: pixelated; }
+  .qr-modal .modal-name { color: #101420; font-weight: 800; font-size: 1.3rem; text-align: center; }
+  .qr-modal .modal-code { color: #4a5068; font-family: ui-monospace, Consolas, monospace; letter-spacing: 1px; }
+  .qr-modal .modal-hint { color: #8b90a5; font-size: 0.85rem; }
+
+  .install-hint { display: none; }
+
+  @media (max-width: 640px) {
+    body { padding: 16px 10px 48px; }
+    .card canvas { width: 170px; height: 170px; }
+    .toolbar .hint { flex-basis: 100%; }
+    button { padding: 12px 14px; }
+    .install-hint {
+      display: block;
+      color: var(--text-dim);
+      font-size: 0.85rem;
+      text-align: center;
+      margin: 14px 0 0;
+    }
+  }
 </style>
 </head>
 <body>
@@ -181,6 +224,9 @@
   <main class="grid" id="grid"></main>
   <div class="empty" id="empty">Noch keine Freunde gespeichert. Füge oben deinen ersten Friend Code hinzu!</div>
 
+  <p class="install-hint">📲 Tipp: Über das Browser-Menü „Zum Startbildschirm hinzufügen“ wird daraus eine App –
+     deine Freundesliste bleibt gespeichert und beim Öffnen sind alle QR-Codes automatisch frisch.</p>
+
   <footer>
     Inoffizielles Fan-Tool – nicht mit Bandai Namco verbunden. QR-Format kompatibel mit dem
     Dragon Ball Legends Freundes-Scanner.
@@ -188,6 +234,13 @@
 </div>
 
 <div class="toast" id="toast"></div>
+
+<div class="qr-modal" id="qrModal" title="Tippen zum Schließen">
+  <div class="modal-name" id="modalName"></div>
+  <canvas id="modalCanvas"></canvas>
+  <div class="modal-code" id="modalCode"></div>
+  <div class="modal-hint">Frisch generiert – zum Schließen tippen</div>
+</div>
 
 <script src="lib/qrcode.js"></script>
 <script src="app.js"></script>

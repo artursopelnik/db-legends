@@ -97,8 +97,10 @@ function render() {
 
     const holder = document.createElement('div');
     holder.className = 'qr-holder';
+    holder.title = 'Tippen für Vollbild';
     const canvas = document.createElement('canvas');
     holder.appendChild(canvas);
+    holder.addEventListener('click', () => openQrModal(friend));
 
     const name = document.createElement('div');
     name.className = 'name';
@@ -229,6 +231,15 @@ function downloadCard(friend) {
   link.click();
 }
 
+function openQrModal(friend) {
+  const modal = document.getElementById('qrModal');
+  document.getElementById('modalName').textContent = friend.name || friend.code;
+  document.getElementById('modalCode').textContent = friend.code;
+  // Fuer die Vollbild-Ansicht immer einen frischen Code erzeugen
+  drawQr(document.getElementById('modalCanvas'), buildQrText(friend.code));
+  modal.classList.add('open');
+}
+
 function showToast(message) {
   const toast = document.getElementById('toast');
   toast.textContent = message;
@@ -301,6 +312,28 @@ document.getElementById('importFile').addEventListener('change', async (event) =
     formError.textContent = 'Die Datei konnte nicht gelesen werden (erwartet: JSON-Export dieser App).';
   }
 });
+
+document.getElementById('qrModal').addEventListener('click', () => {
+  document.getElementById('qrModal').classList.remove('open');
+});
+
+// Beim Zurueckkehren in die App (z. B. am naechsten Tag) alle QR-Codes
+// automatisch mit frischem Timestamp neu generieren.
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState !== 'visible' || !friends.length) return;
+  const oldest = Math.min(...friends.map(f => generatedAt.get(f.id) || 0));
+  if (Date.now() - oldest > 30 * 1000) {
+    friends.forEach(regenerate);
+    showToast('QR-Codes automatisch aktualisiert');
+  }
+});
+
+// PWA: Service Worker fuer Offline-Betrieb (nur ueber http/https moeglich)
+if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
+  navigator.serviceWorker.register('sw.js').catch(() => {
+    /* Offline-Cache nicht verfuegbar – App funktioniert trotzdem */
+  });
+}
 
 setInterval(updateAges, 1000);
 render();
