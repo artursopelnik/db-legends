@@ -213,6 +213,36 @@
   }
 
   /* ---- Promo-Codes ---- */
+  .promo-h2 { margin-bottom: 0 !important; }
+  .promo-panel #promoBody { margin-top: 12px; }
+  .promo-toggle {
+    all: unset;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    cursor: pointer;
+    font: inherit;
+    color: inherit;
+    letter-spacing: inherit;
+  }
+  .promo-toggle:focus-visible { outline: 3px solid var(--orange-soft); outline-offset: 3px; border-radius: 6px; }
+  .promo-count {
+    font-family: system-ui, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #06230f;
+    background: var(--green);
+    border-radius: 999px;
+    padding: 2px 9px;
+  }
+  .promo-chev {
+    margin-left: auto;
+    color: var(--dim);
+    transition: transform 0.2s ease;
+  }
+  .promo-toggle[aria-expanded="true"] .promo-chev { transform: rotate(180deg); }
   .promo-list { display: flex; flex-direction: column; }
   .promo-row {
     display: flex;
@@ -461,12 +491,20 @@
     </form>
   </section>
 
-  <section class="panel" id="promoPanel" hidden>
-    <h2 data-i18n="promoHeading">🎁 Promo codes</h2>
-    <p class="hint" data-i18n="promoHint">Tap a code to copy it, then redeem it in-game.</p>
-    <div class="promo-list" id="promoList"></div>
-    <p class="hint promo-source"><span data-i18n="promoSource">Source</span>:
-      <a id="promoSourceLink" target="_blank" rel="noopener noreferrer"></a></p>
+  <section class="panel promo-panel" id="promoPanel" hidden>
+    <h2 class="promo-h2">
+      <button type="button" class="promo-toggle" id="promoToggle" aria-expanded="false" aria-controls="promoBody">
+        <span data-i18n="promoHeading">🎁 Promo codes</span>
+        <span class="promo-count" id="promoCount"></span>
+        <span class="promo-chev" aria-hidden="true">▾</span>
+      </button>
+    </h2>
+    <div id="promoBody" hidden>
+      <p class="hint" data-i18n="promoHint">Tap a code to copy it, then redeem it in-game.</p>
+      <div class="promo-list" id="promoList"></div>
+      <p class="hint promo-source"><span data-i18n="promoSource">Source</span>:
+        <a id="promoSourceLink" target="_blank" rel="noopener noreferrer"></a></p>
+    </div>
   </section>
 
   <div class="toolbar">
