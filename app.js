@@ -22,7 +22,6 @@ const generatedAt = new Map();
 const grid = document.getElementById('grid');
 const emptyHint = document.getElementById('empty');
 const formError = document.getElementById('formError');
-const nameInput = document.getElementById('nameInput');
 const codeInput = document.getElementById('codeInput');
 
 function loadFriends() {
@@ -109,13 +108,9 @@ function render() {
     holder.className = 'qr-holder';
     holder.title = 'Tippen für Vollbild – lange drücken, um das Bild zu speichern';
     const img = document.createElement('img');
-    img.alt = `QR-Code für ${friend.name || friend.code}`;
+    img.alt = `QR-Code für ${friend.code}`;
     holder.appendChild(img);
     holder.addEventListener('click', () => openQrModal(friend));
-
-    const name = document.createElement('div');
-    name.className = 'name';
-    name.textContent = friend.name || 'Ohne Namen';
 
     const code = document.createElement('div');
     code.className = 'code';
@@ -130,11 +125,10 @@ function render() {
       makeButton('🔄 Neu', 'secondary', () => regenerate(friend)),
       makeButton('🖼️ Bild', 'secondary', () => shareOrSaveCard(friend)),
       makeButton('📋 Code', 'secondary', () => copyCode(friend)),
-      makeButton('✏️', 'ghost', () => renameFriend(friend)),
       makeButton('🗑️', 'danger-ghost', () => deleteFriend(friend)),
     );
 
-    card.append(holder, name, code, age, actions);
+    card.append(holder, code, age, actions);
     grid.appendChild(card);
 
     regenerate(friend);
@@ -169,7 +163,7 @@ function updateAges() {
   }
 }
 
-function addFriend(name, code) {
+function addFriend(code) {
   formError.textContent = '';
   codeInput.classList.remove('invalid');
 
@@ -187,7 +181,6 @@ function addFriend(name, code) {
 
   friends.push({
     id: 'f' + Date.now().toString(36) + Math.random().toString(36).slice(2, 7),
-    name: name.trim(),
     code: cleanCode,
   });
   saveFriends();
@@ -196,16 +189,8 @@ function addFriend(name, code) {
 }
 
 function deleteFriend(friend) {
-  if (!confirm(`„${friend.name || friend.code}“ wirklich löschen?`)) return;
+  if (!confirm(`Friend Code „${friend.code}“ wirklich löschen?`)) return;
   friends = friends.filter(f => f.id !== friend.id);
-  saveFriends();
-  render();
-}
-
-function renameFriend(friend) {
-  const newName = prompt('Neuer Name:', friend.name || '');
-  if (newName === null) return;
-  friend.name = newName.trim();
   saveFriends();
   render();
 }
@@ -228,10 +213,6 @@ function fallbackCopy(text, done) {
   ta.remove();
 }
 
-function safeFileName(str) {
-  return (str || 'unbenannt').replace(/[^\w.-]+/g, '_').slice(0, 40);
-}
-
 function dataUrlToBlob(dataUrl) {
   const [head, base64] = dataUrl.split(',');
   const mime = head.match(/data:(.*?);/)[1];
@@ -243,7 +224,7 @@ function dataUrlToBlob(dataUrl) {
 
 function qrFile(friend) {
   const dataUrl = qrImages.get(friend.id) || renderQrDataUrl(buildQrText(friend.code));
-  const name = `dbl-qr_${safeFileName(friend.name)}_${friend.code}.png`;
+  const name = `dbl-qr_${friend.code}.png`;
   return new File([dataUrlToBlob(dataUrl)], name, { type: 'image/png' });
 }
 
@@ -275,7 +256,7 @@ function downloadFile(file) {
 
 async function shareOrSaveCard(friend) {
   const file = qrFile(friend);
-  if (!(await shareFiles([file], `DBL QR – ${friend.name || friend.code}`))) {
+  if (!(await shareFiles([file], `DBL QR – ${friend.code}`))) {
     downloadFile(file);
     showToast('PNG heruntergeladen');
   }
@@ -283,7 +264,6 @@ async function shareOrSaveCard(friend) {
 
 function openQrModal(friend) {
   const modal = document.getElementById('qrModal');
-  document.getElementById('modalName').textContent = friend.name || friend.code;
   document.getElementById('modalCode').textContent = friend.code;
   // Fuer die Vollbild-Ansicht immer einen frischen Code erzeugen
   document.getElementById('modalImg').src = renderQrDataUrl(buildQrText(friend.code));
@@ -302,10 +282,9 @@ function showToast(message) {
 
 document.getElementById('addForm').addEventListener('submit', (event) => {
   event.preventDefault();
-  if (addFriend(nameInput.value, codeInput.value)) {
-    nameInput.value = '';
+  if (addFriend(codeInput.value)) {
     codeInput.value = '';
-    nameInput.focus();
+    codeInput.focus();
   }
 });
 
@@ -325,7 +304,7 @@ document.getElementById('downloadAll').addEventListener('click', async () => {
 
 document.getElementById('exportBtn').addEventListener('click', () => {
   const blob = new Blob(
-    [JSON.stringify(friends.map(({ name, code }) => ({ name, code })), null, 2)],
+    [JSON.stringify(friends.map(({ code }) => ({ code })), null, 2)],
     { type: 'application/json' },
   );
   const link = document.createElement('a');
@@ -348,12 +327,11 @@ document.getElementById('importFile').addEventListener('change', async (event) =
     if (!Array.isArray(entries)) throw new Error('kein Array');
     let added = 0;
     for (const entry of entries) {
-      const code = String(entry.code || '').trim();
+      const code = String((entry && entry.code) || entry || '').trim();
       if (!CODE_PATTERN.test(code)) continue;
       if (friends.some(f => f.code.toLowerCase() === code.toLowerCase())) continue;
       friends.push({
         id: 'f' + Date.now().toString(36) + Math.random().toString(36).slice(2, 7),
-        name: String(entry.name || '').trim(),
         code,
       });
       added++;
