@@ -3,8 +3,34 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<title>DB Legends QR Generator – Anniversary 2026</title>
-<meta name="description" content="Generate QR codes for multiple Dragon Ball Legends friend codes at once – ready to scan in-game (Shenron/Porunga event).">
+<title>Dragon Ball Legends QR Generator – Anniversary 2026</title>
+<meta name="description" content="Free Dragon Ball Legends QR generator for the Anniversary 2026 event: turn your friend codes into working QR codes, scan them in-game and summon Shenron or Porunga. Works offline, no ads, multiple codes at once.">
+<link rel="canonical" href="https://artursopelnik.github.io/db-legends/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Dragon Ball Legends QR Generator">
+<meta property="og:title" content="Dragon Ball Legends QR Generator – Anniversary 2026">
+<meta property="og:description" content="Free tool: turn your DB Legends friend codes into working QR codes, scan them in-game and summon Shenron or Porunga. Multiple codes at once, works offline.">
+<meta property="og:url" content="https://artursopelnik.github.io/db-legends/">
+<meta property="og:image" content="https://artursopelnik.github.io/db-legends/icons/icon-512.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Dragon Ball Legends QR Generator – Anniversary 2026">
+<meta name="twitter:description" content="Free tool: turn your DB Legends friend codes into working QR codes and summon Shenron or Porunga. Multiple codes at once, works offline.">
+<meta name="twitter:image" content="https://artursopelnik.github.io/db-legends/icons/icon-512.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Dragon Ball Legends QR Generator",
+  "alternateName": "DBL QR Generator Anniversary 2026",
+  "url": "https://artursopelnik.github.io/db-legends/",
+  "description": "Free Dragon Ball Legends QR generator: turn friend codes into working QR codes, scan them in-game and summon Shenron or Porunga. Multiple codes at once, works offline as a PWA.",
+  "applicationCategory": "UtilityApplication",
+  "operatingSystem": "Any",
+  "browserRequirements": "Requires JavaScript",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" },
+  "inLanguage": ["en", "de", "es", "pt", "fr", "ru", "ja"]
+}
+</script>
 <meta name="theme-color" content="#0a0e1c">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icons/icon-192.png" type="image/png">
@@ -384,9 +410,10 @@
       <span class="dball">★</span><span class="dball">★</span><span class="dball">★</span>
       <span class="dball">★</span>
     </div>
-    <h1>DB Legends<br>QR Generator</h1>
-    <p data-i18n="subtitle">Save any number of friend codes and generate all QR codes at once –
-       always fresh and ready to scan in-game. Everything runs locally; your list stays on your device.</p>
+    <h1>Dragon Ball Legends<br>QR Generator</h1>
+    <p data-i18n="subtitle">Free tool: save any number of friend codes and generate working QR codes for the
+       Anniversary event – scan them in-game and summon Shenron or Porunga. Everything runs locally;
+       your list stays on your device.</p>
   </header>
 
   <section class="panel">
@@ -401,8 +428,8 @@
   <div class="toolbar">
     <button id="refreshAll" data-i18n="refreshAll">🔄 Regenerate</button>
     <button class="secondary" id="downloadAll" data-i18n="allImages">🖼️ All images</button>
-    <button class="ghost" id="exportBtn" data-i18n="export">Export</button>
-    <button class="ghost" id="importBtn" data-i18n="import">Import</button>
+    <button class="ghost" id="exportBtn" data-i18n="export" hidden>Export</button>
+    <button class="ghost" id="importBtn" data-i18n="import" hidden>Import</button>
     <input type="file" id="importFile" accept="application/json" hidden>
     <div class="spacer"></div>
   </div>

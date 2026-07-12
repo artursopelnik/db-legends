@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://artursopelnik.github.io/db-legends/sitemap.xml
