@@ -52,7 +52,10 @@ function buildQrText(code) {
   return '4,' + code + encodeDblTimestamp(Date.now());
 }
 
-function drawQr(canvas, text) {
+// Rendert den QR-Code auf ein Offscreen-Canvas und liefert eine PNG-Data-URL.
+// Die Anzeige erfolgt als <img>, damit am Handy "lange druecken -> Bild
+// speichern" funktioniert (das Spiel akzeptiert nur Bilder aus der Galerie).
+function renderQrDataUrl(text) {
   const qr = qrcode(0, 'H');
   qr.addData(text);
   qr.make();
@@ -63,6 +66,7 @@ function drawQr(canvas, text) {
   const scale = Math.floor(QR_CANVAS_SIZE / total);
   const size = total * scale;
 
+  const canvas = document.createElement('canvas');
   canvas.width = size;
   canvas.height = size;
   const ctx = canvas.getContext('2d');
@@ -76,12 +80,18 @@ function drawQr(canvas, text) {
       }
     }
   }
+  return canvas.toDataURL('image/png');
 }
 
+// id -> aktuelle PNG-Data-URL (fuer Teilen/Speichern)
+const qrImages = new Map();
+
 function regenerate(friend) {
-  const canvas = grid.querySelector(`[data-id="${friend.id}"] canvas`);
-  if (!canvas) return;
-  drawQr(canvas, buildQrText(friend.code));
+  const img = grid.querySelector(`[data-id="${friend.id}"] img`);
+  if (!img) return;
+  const dataUrl = renderQrDataUrl(buildQrText(friend.code));
+  img.src = dataUrl;
+  qrImages.set(friend.id, dataUrl);
   generatedAt.set(friend.id, Date.now());
   updateAges();
 }
@@ -97,9 +107,10 @@ function render() {
 
     const holder = document.createElement('div');
     holder.className = 'qr-holder';
-    holder.title = 'Tippen für Vollbild';
-    const canvas = document.createElement('canvas');
-    holder.appendChild(canvas);
+    holder.title = 'Tippen für Vollbild – lange drücken, um das Bild zu speichern';
+    const img = document.createElement('img');
+    img.alt = `QR-Code für ${friend.name || friend.code}`;
+    holder.appendChild(img);
     holder.addEventListener('click', () => openQrModal(friend));
 
     const name = document.createElement('div');
@@ -117,7 +128,7 @@ function render() {
     actions.className = 'actions';
     actions.append(
       makeButton('🔄 Neu', 'secondary', () => regenerate(friend)),
-      makeButton('⬇️ PNG', 'secondary', () => downloadCard(friend)),
+      makeButton('🖼️ Bild', 'secondary', () => shareOrSaveCard(friend)),
       makeButton('📋 Code', 'secondary', () => copyCode(friend)),
       makeButton('✏️', 'ghost', () => renameFriend(friend)),
       makeButton('🗑️', 'danger-ghost', () => deleteFriend(friend)),
@@ -126,8 +137,7 @@ function render() {
     card.append(holder, name, code, age, actions);
     grid.appendChild(card);
 
-    drawQr(canvas, buildQrText(friend.code));
-    generatedAt.set(friend.id, Date.now());
+    regenerate(friend);
   }
   updateAges();
 }
@@ -222,13 +232,53 @@ function safeFileName(str) {
   return (str || 'unbenannt').replace(/[^\w.-]+/g, '_').slice(0, 40);
 }
 
-function downloadCard(friend) {
-  const canvas = grid.querySelector(`[data-id="${friend.id}"] canvas`);
-  if (!canvas) return;
+function dataUrlToBlob(dataUrl) {
+  const [head, base64] = dataUrl.split(',');
+  const mime = head.match(/data:(.*?);/)[1];
+  const bin = atob(base64);
+  const bytes = new Uint8Array(bin.length);
+  for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+  return new Blob([bytes], { type: mime });
+}
+
+function qrFile(friend) {
+  const dataUrl = qrImages.get(friend.id) || renderQrDataUrl(buildQrText(friend.code));
+  const name = `dbl-qr_${safeFileName(friend.name)}_${friend.code}.png`;
+  return new File([dataUrlToBlob(dataUrl)], name, { type: 'image/png' });
+}
+
+// Am Handy: natives Teilen-Menue oeffnen ("Bild speichern" legt das PNG in
+// die Galerie ab – nur von dort kann das Spiel Bilder laden). Am Desktop
+// oder ohne Share-API: normaler PNG-Download.
+async function shareFiles(files, title) {
+  if (navigator.canShare && navigator.canShare({ files })) {
+    try {
+      await navigator.share({ files, title });
+      return true;
+    } catch (err) {
+      if (err.name === 'AbortError') return true; // Nutzer hat abgebrochen
+      // Share fehlgeschlagen -> Download-Fallback
+    }
+  }
+  return false;
+}
+
+function downloadFile(file) {
   const link = document.createElement('a');
-  link.download = `dbl-qr_${safeFileName(friend.name)}_${friend.code}.png`;
-  link.href = canvas.toDataURL('image/png');
+  link.download = file.name;
+  link.href = URL.createObjectURL(file);
+  document.body.appendChild(link);
   link.click();
+  link.remove();
+  setTimeout(() => URL.revokeObjectURL(link.href), 10000);
+}
+
+async function shareOrSaveCard(friend) {
+  const file = qrFile(friend);
+  if (!(await shareFiles([file], `DBL QR – ${friend.name || friend.code}`))) {
+    downloadFile(file);
+    showToast('PNG heruntergeladen');
+  }
 }
 
 function openQrModal(friend) {
@@ -236,7 +286,7 @@ function openQrModal(friend) {
   document.getElementById('modalName').textContent = friend.name || friend.code;
   document.getElementById('modalCode').textContent = friend.code;
   // Fuer die Vollbild-Ansicht immer einen frischen Code erzeugen
-  drawQr(document.getElementById('modalCanvas'), buildQrText(friend.code));
+  document.getElementById('modalImg').src = renderQrDataUrl(buildQrText(friend.code));
   modal.classList.add('open');
 }
 
@@ -264,10 +314,13 @@ document.getElementById('refreshAll').addEventListener('click', () => {
   if (friends.length) showToast('Alle QR-Codes neu generiert!');
 });
 
-document.getElementById('downloadAll').addEventListener('click', () => {
-  friends.forEach((friend, index) => {
-    setTimeout(() => downloadCard(friend), index * 300);
-  });
+document.getElementById('downloadAll').addEventListener('click', async () => {
+  if (!friends.length) return;
+  const files = friends.map(qrFile);
+  if (!(await shareFiles(files, 'DBL QR-Codes'))) {
+    files.forEach((file, index) => setTimeout(() => downloadFile(file), index * 300));
+    showToast(`${files.length} PNG(s) heruntergeladen`);
+  }
 });
 
 document.getElementById('exportBtn').addEventListener('click', () => {

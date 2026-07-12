@@ -113,7 +113,7 @@
     border-radius: 10px;
     line-height: 0;
   }
-  .card canvas { width: 200px; height: 200px; image-rendering: pixelated; }
+  .card img { width: 200px; height: 200px; image-rendering: pixelated; display: block; }
   .card .name { font-weight: 700; font-size: 1.05rem; text-align: center; word-break: break-word; }
   .card .code {
     font-family: ui-monospace, "Cascadia Mono", Consolas, monospace;
@@ -170,7 +170,7 @@
     padding: 24px;
   }
   .qr-modal.open { display: flex; }
-  .qr-modal canvas { width: min(86vw, 70vh); height: min(86vw, 70vh); image-rendering: pixelated; }
+  .qr-modal img { width: min(86vw, 70vh); height: min(86vw, 70vh); image-rendering: pixelated; }
   .qr-modal .modal-name { color: #101420; font-weight: 800; font-size: 1.3rem; text-align: center; }
   .qr-modal .modal-code { color: #4a5068; font-family: ui-monospace, Consolas, monospace; letter-spacing: 1px; }
   .qr-modal .modal-hint { color: #8b90a5; font-size: 0.85rem; }
@@ -179,7 +179,7 @@
 
   @media (max-width: 640px) {
     body { padding: 16px 10px 48px; }
-    .card canvas { width: 170px; height: 170px; }
+    .card img { width: 170px; height: 170px; }
     .toolbar .hint { flex-basis: 100%; }
     button { padding: 12px 14px; }
     .install-hint {
@@ -213,7 +213,7 @@
 
   <div class="toolbar">
     <button id="refreshAll">🔄 Alle QR-Codes neu generieren</button>
-    <button class="secondary" id="downloadAll">⬇️ Alle als PNG speichern</button>
+    <button class="secondary" id="downloadAll">🖼️ Alle Bilder speichern</button>
     <button class="ghost" id="exportBtn">Liste exportieren</button>
     <button class="ghost" id="importBtn">Liste importieren</button>
     <input type="file" id="importFile" accept="application/json" hidden>
@@ -237,9 +237,9 @@
 
 <div class="qr-modal" id="qrModal" title="Tippen zum Schließen">
   <div class="modal-name" id="modalName"></div>
-  <canvas id="modalCanvas"></canvas>
+  <img id="modalImg" alt="QR-Code in Vollbild">
   <div class="modal-code" id="modalCode"></div>
-  <div class="modal-hint">Frisch generiert – zum Schließen tippen</div>
+  <div class="modal-hint">Lange drücken, um das Bild in der Galerie zu speichern – zum Schließen tippen</div>
 </div>
 
 <script src="lib/qrcode.js"></script>
