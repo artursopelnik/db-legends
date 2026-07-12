@@ -283,10 +283,23 @@ function showToast(message) {
 let promoData = null;
 const PROMO_OPEN_KEY = 'dbl-promo-open';
 
-function setPromoOpen(open) {
-  document.getElementById('promoBody').hidden = !open;
-  document.getElementById('promoToggle').setAttribute('aria-expanded', String(open));
-  localStorage.setItem(PROMO_OPEN_KEY, open ? '1' : '0');
+// Macht ein Panel zum Accordion: Klick auf die Kopfzeile klappt um,
+// im eingeklappten Zustand ist das GESAMTE Panel Klickflaeche.
+function setupAccordion(panelId, bodyId, toggleId, storageKey) {
+  const panel = document.getElementById(panelId);
+  const body = document.getElementById(bodyId);
+  const toggle = document.getElementById(toggleId);
+  const apply = (open) => {
+    body.hidden = !open;
+    toggle.setAttribute('aria-expanded', String(open));
+    panel.classList.toggle('collapsed', !open);
+    localStorage.setItem(storageKey, open ? '1' : '0');
+  };
+  panel.addEventListener('click', (event) => {
+    if (event.target.closest('a')) return; // Links (z. B. Quelle) normal folgen
+    if (event.target.closest('.promo-toggle') || body.hidden) apply(body.hidden);
+  });
+  apply(localStorage.getItem(storageKey) === '1');
 }
 
 function renderPromos() {
@@ -345,9 +358,6 @@ function renderPromos() {
   link.href = promoData.source || '#';
   try { link.textContent = new URL(promoData.source).hostname.replace('www.', ''); } catch { link.textContent = ''; }
   document.getElementById('promoCount').textContent = active.length;
-  // Standard: eingeklappt, damit die QR-Codes ohne Scrollen erreichbar bleiben
-  document.getElementById('promoBody').hidden = localStorage.getItem(PROMO_OPEN_KEY) !== '1';
-  document.getElementById('promoToggle').setAttribute('aria-expanded', String(!document.getElementById('promoBody').hidden));
   panel.hidden = false;
 }
 
@@ -427,21 +437,9 @@ document.getElementById('importFile').addEventListener('change', async (event) =
   }
 });
 
-document.getElementById('promoToggle').addEventListener('click', () => {
-  setPromoOpen(document.getElementById('promoBody').hidden);
-});
-
-// How-to-Anleitung ein-/ausklappen (Zustand wird gemerkt)
-const HOWTO_OPEN_KEY = 'dbl-howto-open';
-const howtoBody = document.getElementById('howtoBody');
-const howtoToggle = document.getElementById('howtoToggle');
-howtoBody.hidden = localStorage.getItem(HOWTO_OPEN_KEY) !== '1';
-howtoToggle.setAttribute('aria-expanded', String(!howtoBody.hidden));
-howtoToggle.addEventListener('click', () => {
-  howtoBody.hidden = !howtoBody.hidden;
-  howtoToggle.setAttribute('aria-expanded', String(!howtoBody.hidden));
-  localStorage.setItem(HOWTO_OPEN_KEY, howtoBody.hidden ? '0' : '1');
-});
+// Beide Accordions: Kopfzeile klappt um, eingeklappt ist das ganze Panel Klickflaeche
+setupAccordion('promoPanel', 'promoBody', 'promoToggle', PROMO_OPEN_KEY);
+setupAccordion('howtoPanel', 'howtoBody', 'howtoToggle', 'dbl-howto-open');
 
 document.getElementById('qrModal').addEventListener('click', () => {
   document.getElementById('qrModal').classList.remove('open');
