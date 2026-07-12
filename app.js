@@ -106,9 +106,9 @@ function render() {
 
     const holder = document.createElement('div');
     holder.className = 'qr-holder';
-    holder.title = 'Tippen für Vollbild – lange drücken, um das Bild zu speichern';
+    holder.title = t('holderTitle');
     const img = document.createElement('img');
-    img.alt = `QR-Code für ${friend.code}`;
+    img.alt = t('qrAlt', { code: friend.code });
     holder.appendChild(img);
     holder.addEventListener('click', () => openQrModal(friend));
 
@@ -122,9 +122,9 @@ function render() {
     const actions = document.createElement('div');
     actions.className = 'actions';
     actions.append(
-      makeButton('🔄 Neu', 'secondary', () => regenerate(friend)),
-      makeButton('🖼️ Bild', 'secondary', () => shareOrSaveCard(friend)),
-      makeButton('📋 Code', 'secondary', () => copyCode(friend)),
+      makeButton(t('btnNew'), 'secondary', () => regenerate(friend)),
+      makeButton(t('btnImage'), 'secondary', () => shareOrSaveCard(friend)),
+      makeButton(t('btnCopy'), 'secondary', () => copyCode(friend)),
       makeButton('🗑️', 'danger-ghost', () => deleteFriend(friend)),
     );
 
@@ -156,9 +156,9 @@ function updateAges() {
     const stale = now - ts > STALE_AFTER_MS;
     label.classList.toggle('stale', stale);
     if (seconds < 60) {
-      label.textContent = `generiert vor ${seconds} s`;
+      label.textContent = t('ageSec', { s: seconds });
     } else {
-      label.textContent = `generiert vor ${Math.floor(seconds / 60)} min` + (stale ? ' – neu generieren!' : '');
+      label.textContent = t('ageMin', { m: Math.floor(seconds / 60) }) + (stale ? t('ageStale') : '');
     }
   }
 }
@@ -169,12 +169,12 @@ function addFriend(code) {
 
   const cleanCode = code.trim();
   if (!CODE_PATTERN.test(cleanCode)) {
-    formError.textContent = 'Der Friend Code muss 8–10 Zeichen lang sein und darf nur Buchstaben und Zahlen enthalten.';
+    formError.textContent = t('errInvalid');
     codeInput.classList.add('invalid');
     return false;
   }
   if (friends.some(f => f.code.toLowerCase() === cleanCode.toLowerCase())) {
-    formError.textContent = 'Dieser Friend Code ist bereits in deiner Liste.';
+    formError.textContent = t('errDuplicate');
     codeInput.classList.add('invalid');
     return false;
   }
@@ -189,14 +189,14 @@ function addFriend(code) {
 }
 
 function deleteFriend(friend) {
-  if (!confirm(`Friend Code „${friend.code}“ wirklich löschen?`)) return;
+  if (!confirm(t('deleteConfirm', { code: friend.code }))) return;
   friends = friends.filter(f => f.id !== friend.id);
   saveFriends();
   render();
 }
 
 function copyCode(friend) {
-  const done = () => showToast('Friend Code kopiert!');
+  const done = () => showToast(t('toastCopied'));
   if (navigator.clipboard && navigator.clipboard.writeText) {
     navigator.clipboard.writeText(friend.code).then(done, () => fallbackCopy(friend.code, done));
   } else {
@@ -258,7 +258,7 @@ async function shareOrSaveCard(friend) {
   const file = qrFile(friend);
   if (!(await shareFiles([file], `DBL QR – ${friend.code}`))) {
     downloadFile(file);
-    showToast('PNG heruntergeladen');
+    showToast(t('toastPng'));
   }
 }
 
@@ -290,7 +290,7 @@ document.getElementById('addForm').addEventListener('submit', (event) => {
 
 document.getElementById('refreshAll').addEventListener('click', () => {
   friends.forEach(regenerate);
-  if (friends.length) showToast('Alle QR-Codes neu generiert!');
+  if (friends.length) showToast(t('toastRefreshed'));
 });
 
 document.getElementById('downloadAll').addEventListener('click', async () => {
@@ -298,7 +298,7 @@ document.getElementById('downloadAll').addEventListener('click', async () => {
   const files = friends.map(qrFile);
   if (!(await shareFiles(files, 'DBL QR-Codes'))) {
     files.forEach((file, index) => setTimeout(() => downloadFile(file), index * 300));
-    showToast(`${files.length} PNG(s) heruntergeladen`);
+    showToast(t('toastPngs', { n: files.length }));
   }
 });
 
@@ -338,9 +338,9 @@ document.getElementById('importFile').addEventListener('change', async (event) =
     }
     saveFriends();
     render();
-    showToast(`${added} Freund(e) importiert`);
+    showToast(t('toastImported', { n: added }));
   } catch {
-    formError.textContent = 'Die Datei konnte nicht gelesen werden (erwartet: JSON-Export dieser App).';
+    formError.textContent = t('importError');
   }
 });
 
@@ -355,7 +355,7 @@ document.addEventListener('visibilitychange', () => {
   const oldest = Math.min(...friends.map(f => generatedAt.get(f.id) || 0));
   if (Date.now() - oldest > 30 * 1000) {
     friends.forEach(regenerate);
-    showToast('QR-Codes automatisch aktualisiert');
+    showToast(t('toastAuto'));
   }
 });
 
@@ -366,5 +366,12 @@ if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
   });
 }
 
+document.getElementById('langSelect').addEventListener('change', (event) => {
+  setLang(event.target.value);
+  applyStaticTranslations();
+  render();
+});
+
+applyStaticTranslations();
 setInterval(updateAges, 1000);
 render();

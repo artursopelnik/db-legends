@@ -1,8 +1,8 @@
 {
   "name": "DB Legends QR Generator",
   "short_name": "DBL QR",
-  "description": "QR-Codes für mehrere Dragon Ball Legends Friend Codes gleichzeitig erzeugen – offline nutzbar.",
-  "lang": "de",
+  "description": "Generate QR codes for multiple Dragon Ball Legends friend codes at once – works offline.",
+  "lang": "en",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

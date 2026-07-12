@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>DB Legends QR Generator – Anniversary 2026</title>
-<meta name="description" content="Erzeuge QR-Codes für mehrere Dragon Ball Legends Friend Codes gleichzeitig – zum Einscannen im Spiel (Shenron/Porunga Event).">
+<meta name="description" content="Generate QR codes for multiple Dragon Ball Legends friend codes at once – ready to scan in-game (Shenron/Porunga event).">
 <meta name="theme-color" content="#0a0e1c">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icons/icon-192.png" type="image/png">
@@ -311,6 +311,24 @@
 
   .install-hint { display: none; }
 
+  .lang-pick {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    z-index: 45;
+  }
+  .lang-pick select {
+    background: rgba(21, 28, 51, 0.9);
+    color: var(--dim);
+    border: 1.5px solid var(--line);
+    border-radius: 10px;
+    padding: 7px 10px;
+    font-size: 0.85rem;
+    font-family: system-ui, sans-serif;
+    cursor: pointer;
+  }
+  .lang-pick select:focus-visible { outline: 2px solid var(--orange); }
+
   /* ---- Mobile: App-Leiste unten ---- */
   @media (max-width: 640px) {
     body { padding: 14px 10px 108px; }
@@ -348,6 +366,17 @@
 </style>
 </head>
 <body>
+<div class="lang-pick">
+  <select id="langSelect" aria-label="Language">
+    <option value="en">English</option>
+    <option value="de">Deutsch</option>
+    <option value="es">Español</option>
+    <option value="pt">Português</option>
+    <option value="fr">Français</option>
+    <option value="ru">Русский</option>
+    <option value="ja">日本語</option>
+  </select>
+</div>
 <div class="wrap">
   <header>
     <div class="dballs" aria-hidden="true">
@@ -356,53 +385,54 @@
       <span class="dball">★</span>
     </div>
     <h1>DB Legends<br>QR Generator</h1>
-    <p>Speichere beliebig viele Friend Codes und erzeuge alle QR-Codes gleichzeitig –
-       frisch generiert und direkt im Spiel einscannbar. Alles läuft lokal, deine Liste bleibt gespeichert.</p>
+    <p data-i18n="subtitle">Save any number of friend codes and generate all QR codes at once –
+       always fresh and ready to scan in-game. Everything runs locally; your list stays on your device.</p>
   </header>
 
   <section class="panel">
-    <h2>Friend Code hinzufügen</h2>
+    <h2 data-i18n="addHeading">Add friend code</h2>
     <form class="add-form" id="addForm">
-      <input type="text" id="codeInput" placeholder="Friend Code (z. B. umd74s5q8)" maxlength="12" autocomplete="off" spellcheck="false">
-      <button type="submit">Hinzufügen</button>
+      <input type="text" id="codeInput" data-i18n-placeholder="codePlaceholder" placeholder="Friend code (e.g. umd74s5q8)" maxlength="12" autocomplete="off" spellcheck="false">
+      <button type="submit" data-i18n="addBtn">Add</button>
       <div class="error-msg" id="formError"></div>
     </form>
   </section>
 
   <div class="toolbar">
-    <button id="refreshAll">🔄 Neu generieren</button>
-    <button class="secondary" id="downloadAll">🖼️ Alle Bilder</button>
-    <button class="ghost" id="exportBtn">Export</button>
-    <button class="ghost" id="importBtn">Import</button>
+    <button id="refreshAll" data-i18n="refreshAll">🔄 Regenerate</button>
+    <button class="secondary" id="downloadAll" data-i18n="allImages">🖼️ All images</button>
+    <button class="ghost" id="exportBtn" data-i18n="export">Export</button>
+    <button class="ghost" id="importBtn" data-i18n="import">Import</button>
     <input type="file" id="importFile" accept="application/json" hidden>
     <div class="spacer"></div>
   </div>
-  <p class="hint toolbar-hint">Tipp: Vor dem Scannen im Spiel kurz „Neu generieren“ drücken – das Spiel mag frische Codes.</p>
+  <p class="hint toolbar-hint" data-i18n="freshHint">Tip: tap “Regenerate” right before scanning in-game – the game likes fresh codes.</p>
 
   <main class="grid" id="grid"></main>
   <div class="empty" id="empty">
-    <span class="empty-title">Sammle deine Krieger!</span>
-    Noch keine Friend Codes gespeichert. Füge oben deinen ersten Code hinzu.
+    <span class="empty-title" data-i18n="emptyTitle">Gather your warriors!</span>
+    <span data-i18n="emptyText">No friend codes saved yet. Add your first code above.</span>
   </div>
 
-  <p class="install-hint">📲 Tipp: Über das Browser-Menü „Zum Startbildschirm hinzufügen“ wird daraus eine App –
-     deine Liste bleibt gespeichert und beim Öffnen sind alle QR-Codes automatisch frisch.</p>
+  <p class="install-hint" data-i18n="installHint">📲 Tip: use your browser menu “Add to Home Screen” to turn this into an app –
+     your list is saved and all QR codes are fresh every time you open it.</p>
 
-  <footer>
-    Inoffizielles Fan-Tool – nicht mit Bandai Namco verbunden. QR-Format kompatibel mit dem
-    Dragon Ball Legends Freundes-Scanner.
+  <footer data-i18n="footer">
+    Unofficial fan tool – not affiliated with Bandai Namco. QR format compatible with the
+    Dragon Ball Legends friend scanner.
   </footer>
 </div>
 
 <div class="toast" id="toast"></div>
 
-<div class="qr-modal" id="qrModal" title="Tippen zum Schließen">
+<div class="qr-modal" id="qrModal">
   <img id="modalImg" alt="QR-Code in Vollbild">
   <div class="modal-code" id="modalCode"></div>
-  <div class="modal-hint">Lange drücken, um das Bild in der Galerie zu speichern – zum Schließen tippen</div>
+  <div class="modal-hint" data-i18n="modalHint">Long-press to save the image to your gallery – tap anywhere to close</div>
 </div>
 
 <script src="lib/qrcode.js"></script>
+<script src="i18n.js"></script>
 <script src="app.js"></script>
 </body>
 </html>
