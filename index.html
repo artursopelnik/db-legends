@@ -171,8 +171,7 @@
   }
   .qr-modal.open { display: flex; }
   .qr-modal img { width: min(86vw, 70vh); height: min(86vw, 70vh); image-rendering: pixelated; }
-  .qr-modal .modal-name { color: #101420; font-weight: 800; font-size: 1.3rem; text-align: center; }
-  .qr-modal .modal-code { color: #4a5068; font-family: ui-monospace, Consolas, monospace; letter-spacing: 1px; }
+  .qr-modal .modal-code { color: #101420; font-weight: 700; font-size: 1.2rem; font-family: ui-monospace, Consolas, monospace; letter-spacing: 1px; }
   .qr-modal .modal-hint { color: #8b90a5; font-size: 0.85rem; }
 
   .install-hint { display: none; }
@@ -197,14 +196,13 @@
   <header>
     <div class="balls">🟠🟠🟠🟠🟠🟠🟠</div>
     <h1>DB Legends QR Generator – Anniversary 2026</h1>
-    <p>Speichere beliebig viele Friend Codes mit Namen und erzeuge alle QR-Codes gleichzeitig –
+    <p>Speichere beliebig viele Friend Codes und erzeuge alle QR-Codes gleichzeitig –
        frisch generiert und direkt im Spiel einscannbar. Alles läuft lokal im Browser, deine Liste bleibt gespeichert.</p>
   </header>
 
   <section class="panel">
-    <h2>Freund hinzufügen</h2>
+    <h2>Friend Code hinzufügen</h2>
     <form class="add-form" id="addForm">
-      <input type="text" id="nameInput" placeholder="Name – optional (z. B. Goku_92)" maxlength="40" autocomplete="off">
       <input type="text" id="codeInput" placeholder="Friend Code (z. B. umd74s5q8)" maxlength="12" autocomplete="off" spellcheck="false">
       <button type="submit">Hinzufügen</button>
       <div class="error-msg" id="formError"></div>
@@ -236,7 +234,6 @@
 <div class="toast" id="toast"></div>
 
 <div class="qr-modal" id="qrModal" title="Tippen zum Schließen">
-  <div class="modal-name" id="modalName"></div>
   <img id="modalImg" alt="QR-Code in Vollbild">
   <div class="modal-code" id="modalCode"></div>
   <div class="modal-hint">Lange drücken, um das Bild in der Galerie zu speichern – zum Schließen tippen</div>

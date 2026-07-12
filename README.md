@@ -1,8 +1,8 @@
 # DB Legends QR Generator – Anniversary 2026
 
 Ein Fan-Tool für **Dragon Ball Legends**: Speichere beliebig viele Friend Codes
-mit Namen und erzeuge **alle QR-Codes gleichzeitig** – direkt im Spiel
-einscannbar (Shenron/Porunga-Event).
+und erzeuge **alle QR-Codes gleichzeitig** – direkt im Spiel einscannbar
+(Shenron/Porunga-Event).
 
 Im Gegensatz zu anderen Generatoren, die immer nur einen Code auf einmal
 verarbeiten, zeigt diese App die komplette Freundesliste als QR-Grid an –
@@ -10,7 +10,7 @@ jeder Code mit eigenem, frischem Timestamp.
 
 ## Features
 
-- ➕ Freunde mit **Name + Friend Code** anlegen (mit Validierung und Duplikat-Check)
+- ➕ Friend Codes anlegen (mit Validierung und Duplikat-Check)
 - 🔲 **Alle QR-Codes gleichzeitig** im Grid – kein Umschalten zwischen einzelnen Codes
 - 🔄 **„Alle neu generieren“**: jeder QR-Code bekommt einen frischen Timestamp
   (das Spiel akzeptiert nur zeitnah generierte Codes; die Altersanzeige warnt bei alten Codes)
