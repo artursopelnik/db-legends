@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DB Legends QR Generator – Anniversary 2026</title>
+<meta name="description" content="Erzeuge QR-Codes für mehrere Dragon Ball Legends Friend Codes gleichzeitig – zum Einscannen im Spiel (Shenron/Porunga Event).">
+<meta name="theme-color" content="#0e1220">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<style>
+  :root {
+    --bg: #0e1220;
+    --bg-card: #1a2035;
+    --bg-card-2: #202946;
+    --accent: #ff9f1c;
+    --accent-2: #ffbf69;
+    --text: #eef1f8;
+    --text-dim: #9aa3bc;
+    --danger: #ff5d5d;
+    --ok: #4cd97b;
+    --radius: 14px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    background: radial-gradient(1200px 600px at 50% -200px, #223057 0%, var(--bg) 60%);
+    color: var(--text);
+    min-height: 100vh;
+    padding: 24px 16px 64px;
+  }
+  .wrap { max-width: 1080px; margin: 0 auto; }
+
+  header { text-align: center; margin-bottom: 28px; }
+  header h1 {
+    font-size: clamp(1.5rem, 4vw, 2.4rem);
+    background: linear-gradient(180deg, var(--accent-2), var(--accent));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    letter-spacing: 0.5px;
+  }
+  header .balls { font-size: 1.3rem; letter-spacing: 6px; margin: 6px 0; }
+  header p { color: var(--text-dim); max-width: 640px; margin: 8px auto 0; font-size: 0.95rem; }
+
+  .panel {
+    background: var(--bg-card);
+    border: 1px solid #2b3557;
+    border-radius: var(--radius);
+    padding: 18px;
+    margin-bottom: 20px;
+  }
+  .panel h2 { font-size: 1.05rem; margin-bottom: 12px; color: var(--accent-2); }
+
+  form.add-form { display: flex; flex-wrap: wrap; gap: 10px; }
+  form.add-form input {
+    flex: 1 1 180px;
+    padding: 12px 14px;
+    border-radius: 10px;
+    border: 1px solid #38436e;
+    background: #131830;
+    color: var(--text);
+    font-size: 1rem;
+  }
+  form.add-form input:focus { outline: 2px solid var(--accent); border-color: transparent; }
+  input.invalid { border-color: var(--danger) !important; }
+
+  button {
+    padding: 12px 18px;
+    border: none;
+    border-radius: 10px;
+    background: var(--accent);
+    color: #201502;
+    font-weight: 700;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: transform 0.06s ease, filter 0.15s ease;
+  }
+  button:hover { filter: brightness(1.1); }
+  button:active { transform: scale(0.97); }
+  button.secondary { background: #38436e; color: var(--text); }
+  button.ghost { background: transparent; color: var(--text-dim); border: 1px solid #38436e; }
+  button.danger-ghost { background: transparent; color: var(--danger); border: 1px solid #5a3040; }
+
+  .error-msg { color: var(--danger); font-size: 0.88rem; margin-top: 8px; min-height: 1.2em; flex-basis: 100%; }
+
+  .toolbar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 20px; }
+  .toolbar .spacer { flex: 1; }
+  .toolbar .hint { color: var(--text-dim); font-size: 0.85rem; }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 16px;
+  }
+  .card {
+    background: var(--bg-card);
+    border: 1px solid #2b3557;
+    border-radius: var(--radius);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .card .qr-holder {
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    line-height: 0;
+  }
+  .card img { width: 200px; height: 200px; image-rendering: pixelated; display: block; }
+  .card .name { font-weight: 700; font-size: 1.05rem; text-align: center; word-break: break-word; }
+  .card .code {
+    font-family: ui-monospace, "Cascadia Mono", Consolas, monospace;
+    background: var(--bg-card-2);
+    padding: 4px 10px;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    letter-spacing: 1px;
+  }
+  .card .age { font-size: 0.8rem; color: var(--text-dim); }
+  .card .age.stale { color: var(--accent); }
+  .card .actions { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; }
+  .card .actions button { padding: 8px 12px; font-size: 0.82rem; }
+
+  .empty {
+    text-align: center;
+    color: var(--text-dim);
+    padding: 40px 16px;
+    border: 2px dashed #2b3557;
+    border-radius: var(--radius);
+  }
+
+  footer { text-align: center; margin-top: 36px; color: var(--text-dim); font-size: 0.8rem; }
+  footer a { color: var(--accent-2); }
+
+  .toast {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--ok);
+    color: #06230f;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 999px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s ease;
+  }
+  .toast.show { opacity: 1; }
+
+  /* Vollbild-Ansicht eines QR-Codes (zum Abscannen vom Handy) */
+  .qr-modal {
+    position: fixed;
+    inset: 0;
+    background: #ffffff;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    z-index: 50;
+    cursor: pointer;
+    padding: 24px;
+  }
+  .qr-modal.open { display: flex; }
+  .qr-modal img { width: min(86vw, 70vh); height: min(86vw, 70vh); image-rendering: pixelated; }
+  .qr-modal .modal-name { color: #101420; font-weight: 800; font-size: 1.3rem; text-align: center; }
+  .qr-modal .modal-code { color: #4a5068; font-family: ui-monospace, Consolas, monospace; letter-spacing: 1px; }
+  .qr-modal .modal-hint { color: #8b90a5; font-size: 0.85rem; }
+
+  .install-hint { display: none; }
+
+  @media (max-width: 640px) {
+    body { padding: 16px 10px 48px; }
+    .card img { width: 170px; height: 170px; }
+    .toolbar .hint { flex-basis: 100%; }
+    button { padding: 12px 14px; }
+    .install-hint {
+      display: block;
+      color: var(--text-dim);
+      font-size: 0.85rem;
+      text-align: center;
+      margin: 14px 0 0;
+    }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="balls">🟠🟠🟠🟠🟠🟠🟠</div>
+    <h1>DB Legends QR Generator – Anniversary 2026</h1>
+    <p>Speichere beliebig viele Friend Codes mit Namen und erzeuge alle QR-Codes gleichzeitig –
+       frisch generiert und direkt im Spiel einscannbar. Alles läuft lokal im Browser, deine Liste bleibt gespeichert.</p>
+  </header>
+
+  <section class="panel">
+    <h2>Freund hinzufügen</h2>
+    <form class="add-form" id="addForm">
+      <input type="text" id="nameInput" placeholder="Name (z. B. Goku_92)" maxlength="40" autocomplete="off">
+      <input type="text" id="codeInput" placeholder="Friend Code (z. B. umd74s5q8)" maxlength="12" autocomplete="off" spellcheck="false">
+      <button type="submit">Hinzufügen</button>
+      <div class="error-msg" id="formError"></div>
+    </form>
+  </section>
+
+  <div class="toolbar">
+    <button id="refreshAll">🔄 Alle QR-Codes neu generieren</button>
+    <button class="secondary" id="downloadAll">🖼️ Alle Bilder speichern</button>
+    <button class="ghost" id="exportBtn">Liste exportieren</button>
+    <button class="ghost" id="importBtn">Liste importieren</button>
+    <input type="file" id="importFile" accept="application/json" hidden>
+    <div class="spacer"></div>
+    <span class="hint">Tipp: Vor dem Scannen im Spiel kurz „neu generieren“ klicken – das Spiel mag frische Codes.</span>
+  </div>
+
+  <main class="grid" id="grid"></main>
+  <div class="empty" id="empty">Noch keine Freunde gespeichert. Füge oben deinen ersten Friend Code hinzu!</div>
+
+  <p class="install-hint">📲 Tipp: Über das Browser-Menü „Zum Startbildschirm hinzufügen“ wird daraus eine App –
+     deine Freundesliste bleibt gespeichert und beim Öffnen sind alle QR-Codes automatisch frisch.</p>
+
+  <footer>
+    Inoffizielles Fan-Tool – nicht mit Bandai Namco verbunden. QR-Format kompatibel mit dem
+    Dragon Ball Legends Freundes-Scanner.
+  </footer>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<div class="qr-modal" id="qrModal" title="Tippen zum Schließen">
+  <div class="modal-name" id="modalName"></div>
+  <img id="modalImg" alt="QR-Code in Vollbild">
+  <div class="modal-code" id="modalCode"></div>
+  <div class="modal-hint">Lange drücken, um das Bild in der Galerie zu speichern – zum Schließen tippen</div>
+</div>
+
+<script src="lib/qrcode.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
