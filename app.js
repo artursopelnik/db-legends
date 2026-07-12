@@ -163,9 +163,37 @@ function updateAges() {
   }
 }
 
+// Live-Validierung: waehrend der ersten Eingabe neutral (nur positives
+// Feedback), Fehler erst nach Verlassen des Feldes ("touched") – danach
+// live waehrend der Korrektur, bis der Code stimmt.
+let codeTouched = false;
+
+function validateCodeInput(showErrors) {
+  const value = codeInput.value.trim();
+  codeInput.classList.remove('invalid', 'valid');
+  if (!value) { formError.textContent = ''; return; }
+  const duplicate = friends.some(f => f.code.toLowerCase() === value.toLowerCase());
+  if (CODE_PATTERN.test(value) && !duplicate) {
+    codeInput.classList.add('valid');
+    formError.textContent = '';
+  } else if (showErrors) {
+    codeInput.classList.add('invalid');
+    formError.textContent = duplicate ? t('errDuplicate') : t('errInvalid');
+  } else {
+    formError.textContent = '';
+  }
+}
+
+codeInput.addEventListener('blur', () => {
+  if (codeInput.value.trim()) codeTouched = true;
+  validateCodeInput(codeTouched);
+});
+
+codeInput.addEventListener('input', () => validateCodeInput(codeTouched));
+
 function addFriend(code) {
   formError.textContent = '';
-  codeInput.classList.remove('invalid');
+  codeInput.classList.remove('invalid', 'valid');
 
   const cleanCode = code.trim();
   if (!CODE_PATTERN.test(cleanCode)) {
@@ -377,6 +405,8 @@ document.getElementById('addForm').addEventListener('submit', (event) => {
   event.preventDefault();
   if (addFriend(codeInput.value)) {
     codeInput.value = '';
+    codeTouched = false;
+    codeInput.classList.remove('invalid', 'valid');
     codeInput.focus();
   }
 });
