@@ -1,10 +1,11 @@
 /* Service Worker: macht die App offline nutzbar (App-Shell-Caching). */
-const CACHE_NAME = 'dbl-qr-v2';
+const CACHE_NAME = 'dbl-qr-v3';
 const ASSETS = [
   '.',
   'index.html',
   'app.js',
   'lib/qrcode.js',
+  'fonts/bangers.woff2',
   'manifest.webmanifest',
   'icons/icon-192.png',
   'icons/icon-512.png',
