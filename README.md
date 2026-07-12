@@ -25,8 +25,9 @@ jeder Code mit eigenem, frischem Timestamp.
 
 ## Nutzung
 
-**Als App installieren (empfohlen):** Die Seite über HTTPS hosten (z. B. GitHub Pages:
-*Settings → Pages → Deploy from branch*), am Handy öffnen und im Browser-Menü
+**Als App installieren (empfohlen):** Die App läuft live unter
+**https://artursopelnik.github.io/db-legends/** (automatischer Deploy via GitHub Actions
+bei jedem Push auf `main`). Am Handy öffnen und im Browser-Menü
 **„Zum Startbildschirm hinzufügen“** wählen. Danach startet die App wie eine native App,
 auch ohne Internet.
 
