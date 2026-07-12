@@ -216,16 +216,24 @@
   .promo-h2 { margin-bottom: 0 !important; }
   .promo-panel #promoBody { margin-top: 12px; }
   .promo-toggle {
-    all: unset;
     display: flex;
     align-items: center;
     gap: 10px;
     width: 100%;
     cursor: pointer;
+    background: none;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
     font: inherit;
     color: inherit;
     letter-spacing: inherit;
+    text-transform: inherit;
   }
+  .panel.collapsed { cursor: pointer; }
+  .panel.collapsed:hover { border-color: var(--orange); }
   .promo-toggle:focus-visible { outline: 3px solid var(--orange-soft); outline-offset: 3px; border-radius: 6px; }
   .promo-count {
     font-family: system-ui, sans-serif;
