@@ -55,6 +55,14 @@ wie vom Spiel-Scanner erwartet.
 
 Alles läuft rein clientseitig – es werden keine Daten an einen Server gesendet.
 
+## Lizenz
+
+© 2026 Artur Sopelnik – **Alle Rechte vorbehalten.** Der Code dieses Projekts darf ohne
+ausdrückliche Erlaubnis nicht kopiert, verändert oder weiterveröffentlicht werden.
+Ausgenommen sind die gebündelten Fremdbibliotheken, die unter ihren eigenen Lizenzen stehen:
+[qrcode-generator](https://github.com/kazuhikoarase/qrcode-generator) (MIT) und die
+Schriftart Bangers (SIL OFL 1.1, siehe `fonts/bangers-LICENSE`).
+
 ## Hinweis
 
 Inoffizielles Fan-Projekt, nicht mit Bandai Namco verbunden.
