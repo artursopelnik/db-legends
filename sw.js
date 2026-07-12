@@ -1,5 +1,5 @@
 /* Service Worker: macht die App offline nutzbar (App-Shell-Caching). */
-const CACHE_NAME = 'dbl-qr-v5';
+const CACHE_NAME = 'dbl-qr-v6';
 const ASSETS = [
   '.',
   'index.html',
@@ -8,6 +8,7 @@ const ASSETS = [
   'lib/qrcode.js',
   'fonts/bangers.woff2',
   'manifest.webmanifest',
+  'promo-codes.json',
   'icons/icon-192.png',
   'icons/icon-512.png',
   'icons/icon-maskable-512.png',
@@ -31,6 +32,23 @@ self.addEventListener('activate', (event) => {
 // Cache-first mit Netzwerk-Fallback; erfolgreiche Antworten aktualisieren den Cache.
 self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
+
+  // Promo-Codes immer zuerst frisch vom Netz holen (Fallback: Cache)
+  if (new URL(event.request.url).pathname.endsWith('promo-codes.json')) {
+    event.respondWith(
+      fetch(event.request)
+        .then((response) => {
+          if (response.ok) {
+            const copy = response.clone();
+            caches.open(CACHE_NAME).then((cache) => cache.put(event.request, copy));
+          }
+          return response;
+        })
+        .catch(() => caches.match(event.request))
+    );
+    return;
+  }
+
   event.respondWith(
     caches.match(event.request).then((cached) => {
       const fromNetwork = fetch(event.request)
