@@ -396,6 +396,9 @@
   }
 
   footer { text-align: center; margin-top: 36px; color: var(--dim); font-size: 0.8rem; }
+  .bmc-link { display: inline-block; margin-bottom: 14px; transition: transform 0.1s ease; }
+  .bmc-link:hover { transform: scale(1.04); }
+  .bmc-link img { border-radius: 12px; box-shadow: 0 4px 14px rgba(0,0,0,0.35); }
 
   .toast {
     position: fixed;
@@ -598,9 +601,10 @@
   <p class="install-hint" data-i18n="installHint">📲 Tip: use your browser menu “Add to Home Screen” to turn this into an app –
      your list is saved and all QR codes are fresh every time you open it.</p>
 
-  <footer data-i18n="footer">
-    Unofficial fan tool – not affiliated with Bandai Namco. QR format compatible with the
-    Dragon Ball Legends friend scanner.
+  <footer>
+    <a href="https://www.buymeacoffee.com/artursopely" target="_blank" rel="noopener noreferrer" class="bmc-link"><img src="bmc-button.png" alt="Buy Me a Coffee" style="height:48px;width:auto"></a>
+    <p data-i18n="footer">Unofficial fan tool – not affiliated with Bandai Namco. QR format compatible with the
+    Dragon Ball Legends friend scanner.</p>
   </footer>
 </div>
 
@@ -612,6 +616,21 @@
   <div class="modal-hint" data-i18n="modalHint">Long-press to save the image to your gallery – tap anywhere to close</div>
 </div>
 
+<!-- Matomo (cookielos, DSGVO-freundlich) -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  _paq.push(['disableCookies']);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://artursopelnik.de/matomo/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '5']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
 <script src="lib/qrcode.js"></script>
 <script src="i18n.js"></script>
 <script src="app.js"></script>

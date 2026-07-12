@@ -1,5 +1,5 @@
 /* Service Worker: macht die App offline nutzbar (App-Shell-Caching). */
-const CACHE_NAME = 'dbl-qr-v10';
+const CACHE_NAME = 'dbl-qr-v11';
 const ASSETS = [
   '.',
   'index.html',
@@ -13,6 +13,7 @@ const ASSETS = [
   'icons/icon-512.png',
   'icons/icon-maskable-512.png',
   'icons/apple-touch-icon.png',
+  'bmc-button.png',
 ];
 
 self.addEventListener('install', (event) => {
