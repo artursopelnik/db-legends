@@ -431,6 +431,18 @@ document.getElementById('promoToggle').addEventListener('click', () => {
   setPromoOpen(document.getElementById('promoBody').hidden);
 });
 
+// How-to-Anleitung ein-/ausklappen (Zustand wird gemerkt)
+const HOWTO_OPEN_KEY = 'dbl-howto-open';
+const howtoBody = document.getElementById('howtoBody');
+const howtoToggle = document.getElementById('howtoToggle');
+howtoBody.hidden = localStorage.getItem(HOWTO_OPEN_KEY) !== '1';
+howtoToggle.setAttribute('aria-expanded', String(!howtoBody.hidden));
+howtoToggle.addEventListener('click', () => {
+  howtoBody.hidden = !howtoBody.hidden;
+  howtoToggle.setAttribute('aria-expanded', String(!howtoBody.hidden));
+  localStorage.setItem(HOWTO_OPEN_KEY, howtoBody.hidden ? '0' : '1');
+});
+
 document.getElementById('qrModal').addEventListener('click', () => {
   document.getElementById('qrModal').classList.remove('open');
 });

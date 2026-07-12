@@ -278,6 +278,38 @@
   .promo-source { margin-top: 10px; }
   .promo-source a { color: var(--dim); }
 
+  /* ---- How-to ---- */
+  .howto-step {
+    display: flex;
+    gap: 14px;
+    padding: 12px 0;
+    border-bottom: 1px dashed var(--line);
+  }
+  .howto-step:last-child { border-bottom: none; }
+  .step-num {
+    flex: 0 0 auto;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 32% 28%, #ffe9b8, #ffc25e 30%, #ff9424 62%, #b95f04);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset -2px -3px 5px rgba(150,60,0,0.45);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--display);
+    font-size: 1.1rem;
+    color: #7a1408;
+  }
+  .howto-step h3 {
+    font-family: var(--display);
+    font-weight: 400;
+    font-size: 1.05rem;
+    letter-spacing: 1px;
+    color: var(--orange-soft);
+    margin-bottom: 4px;
+  }
+  .howto-step p { color: var(--dim); font-size: 0.92rem; line-height: 1.55; }
+
   /* ---- Toolbar ---- */
   .toolbar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 20px; }
   .toolbar .spacer { flex: 1; }
@@ -522,6 +554,38 @@
     <span class="empty-title" data-i18n="emptyTitle">Gather your warriors!</span>
     <span data-i18n="emptyText">No friend codes saved yet. Add your first code above.</span>
   </div>
+
+  <section class="panel" id="howtoPanel">
+    <h2 class="promo-h2">
+      <button type="button" class="promo-toggle" id="howtoToggle" aria-expanded="false" aria-controls="howtoBody">
+        <span data-i18n="howtoHeading">📖 How it works</span>
+        <span class="promo-chev" aria-hidden="true">▾</span>
+      </button>
+    </h2>
+    <div id="howtoBody" hidden>
+      <div class="howto-step">
+        <span class="step-num">1</span>
+        <div>
+          <h3 data-i18n="howto1Title">Find your friend code</h3>
+          <p data-i18n="howto1Text">In Dragon Ball Legends open Menu → Friends. Your own friend code (8–10 letters and numbers) is shown at the top – your friends find theirs the same way.</p>
+        </div>
+      </div>
+      <div class="howto-step">
+        <span class="step-num">2</span>
+        <div>
+          <h3 data-i18n="howto2Title">Add the codes here</h3>
+          <p data-i18n="howto2Text">Enter each friend code above – the QR codes are generated instantly and stay saved on your device for the next day.</p>
+        </div>
+      </div>
+      <div class="howto-step">
+        <span class="step-num">3</span>
+        <div>
+          <h3 data-i18n="howto3Title">Scan in the game</h3>
+          <p data-i18n="howto3Text">During the Anniversary event open the QR scanner in the game (Menu → Friends → Scan QR code) and point the camera at the QR codes on this screen. Each unique friend gives you a Dragon Ball – collect all 7 to summon Shenron!</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <p class="install-hint" data-i18n="installHint">📲 Tip: use your browser menu “Add to Home Screen” to turn this into an app –
      your list is saved and all QR codes are fresh every time you open it.</p>
