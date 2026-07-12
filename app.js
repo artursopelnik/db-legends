@@ -281,6 +281,13 @@ function showToast(message) {
 // --- Promo-Codes -------------------------------------------------------
 
 let promoData = null;
+const PROMO_OPEN_KEY = 'dbl-promo-open';
+
+function setPromoOpen(open) {
+  document.getElementById('promoBody').hidden = !open;
+  document.getElementById('promoToggle').setAttribute('aria-expanded', String(open));
+  localStorage.setItem(PROMO_OPEN_KEY, open ? '1' : '0');
+}
 
 function renderPromos() {
   const panel = document.getElementById('promoPanel');
@@ -337,6 +344,10 @@ function renderPromos() {
   const link = document.getElementById('promoSourceLink');
   link.href = promoData.source || '#';
   try { link.textContent = new URL(promoData.source).hostname.replace('www.', ''); } catch { link.textContent = ''; }
+  document.getElementById('promoCount').textContent = active.length;
+  // Standard: eingeklappt, damit die QR-Codes ohne Scrollen erreichbar bleiben
+  document.getElementById('promoBody').hidden = localStorage.getItem(PROMO_OPEN_KEY) !== '1';
+  document.getElementById('promoToggle').setAttribute('aria-expanded', String(!document.getElementById('promoBody').hidden));
   panel.hidden = false;
 }
 
@@ -414,6 +425,10 @@ document.getElementById('importFile').addEventListener('change', async (event) =
   } catch {
     formError.textContent = t('importError');
   }
+});
+
+document.getElementById('promoToggle').addEventListener('click', () => {
+  setPromoOpen(document.getElementById('promoBody').hidden);
 });
 
 document.getElementById('qrModal').addEventListener('click', () => {
