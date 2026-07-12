@@ -6,6 +6,8 @@
 
 const I18N = {
   en: {
+    installBtn: 'Install as app',
+    toastInstalled: 'App installed!',
     howtoHeading: '📖 How it works',
     howto1Title: 'Find your friend code',
     howto1Text: 'In Dragon Ball Legends open Menu → Friends. Your own friend code (8–10 letters and numbers) is shown at the top – your friends find theirs the same way.',
@@ -52,6 +54,8 @@ const I18N = {
     qrAlt: 'QR code for {code}',
   },
   de: {
+    installBtn: 'Als App installieren',
+    toastInstalled: 'App installiert!',
     howtoHeading: '📖 So funktioniert’s',
     howto1Title: 'Freundescode finden',
     howto1Text: 'Öffne in Dragon Ball Legends Menü → Freunde. Dort steht oben dein eigener Freundescode (8–10 Buchstaben und Zahlen) – deine Freunde finden ihren genauso.',
@@ -98,6 +102,8 @@ const I18N = {
     qrAlt: 'QR-Code für {code}',
   },
   es: {
+    installBtn: 'Instalar como app',
+    toastInstalled: '¡App instalada!',
     howtoHeading: '📖 Cómo funciona',
     howto1Title: 'Encuentra tu friend code',
     howto1Text: 'En Dragon Ball Legends abre Menú → Amigos. Arriba verás tu propio friend code (8–10 letras y números); tus amigos encuentran el suyo igual.',
@@ -144,6 +150,8 @@ const I18N = {
     qrAlt: 'Código QR de {code}',
   },
   pt: {
+    installBtn: 'Instalar como app',
+    toastInstalled: 'App instalado!',
     howtoHeading: '📖 Como funciona',
     howto1Title: 'Encontre seu friend code',
     howto1Text: 'No Dragon Ball Legends abra Menu → Amigos. Seu friend code (8–10 letras e números) aparece no topo – seus amigos encontram o deles do mesmo jeito.',
@@ -190,6 +198,8 @@ const I18N = {
     qrAlt: 'Código QR de {code}',
   },
   fr: {
+    installBtn: 'Installer comme app',
+    toastInstalled: 'App installée !',
     howtoHeading: '📖 Comment ça marche',
     howto1Title: 'Trouvez votre friend code',
     howto1Text: 'Dans Dragon Ball Legends, ouvrez Menu → Amis. Votre friend code (8–10 lettres et chiffres) s’affiche en haut – vos amis trouvent le leur de la même façon.',
@@ -236,6 +246,8 @@ const I18N = {
     qrAlt: 'QR code de {code}',
   },
   ru: {
+    installBtn: 'Установить как приложение',
+    toastInstalled: 'Приложение установлено!',
     howtoHeading: '📖 Как это работает',
     howto1Title: 'Найдите свой friend-код',
     howto1Text: 'В Dragon Ball Legends откройте Меню → Друзья. Вверху показан ваш friend-код (8–10 букв и цифр) – друзья находят свой так же.',
@@ -282,6 +294,8 @@ const I18N = {
     qrAlt: 'QR-код для {code}',
   },
   ja: {
+    installBtn: 'アプリとしてインストール',
+    toastInstalled: 'アプリをインストールしました！',
     howtoHeading: '📖 使い方',
     howto1Title: 'フレンドコードを確認',
     howto1Text: 'ドラゴンボール レジェンズでメニュー → フレンドを開くと、上部に自分のフレンドコード（8〜10文字の英数字）が表示されます。友だちも同じ場所で確認できます。',

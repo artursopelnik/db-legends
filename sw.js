@@ -1,5 +1,5 @@
 /* Service Worker: macht die App offline nutzbar (App-Shell-Caching). */
-const CACHE_NAME = 'dbl-qr-v11';
+const CACHE_NAME = 'dbl-qr-v12';
 const ASSETS = [
   '.',
   'index.html',

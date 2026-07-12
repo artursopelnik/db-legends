@@ -444,7 +444,12 @@
   }
   .qr-modal .modal-hint { color: #8b90a5; font-size: 0.85rem; text-align: center; }
 
+  .install-area { text-align: center; margin-top: 14px; }
   .install-hint { display: none; }
+  .install-hint[hidden] { display: none !important; }
+  #installBtn[hidden] { display: none !important; }
+  .copyright { margin-top: 8px; opacity: 0.85; }
+  .copyright a { color: var(--dim); }
 
   .lang-pick {
     position: absolute;
@@ -598,13 +603,17 @@
     </div>
   </section>
 
-  <p class="install-hint" data-i18n="installHint">📲 Tip: use your browser menu “Add to Home Screen” to turn this into an app –
-     your list is saved and all QR codes are fresh every time you open it.</p>
+  <div class="install-area">
+    <button type="button" class="secondary" id="installBtn" hidden>📲 <span data-i18n="installBtn">Install as app</span></button>
+    <p class="install-hint" id="installHint" data-i18n="installHint">📲 Tip: use your browser menu “Add to Home Screen” to turn this into an app –
+       your list is saved and all QR codes are fresh every time you open it.</p>
+  </div>
 
   <footer>
     <a href="https://www.buymeacoffee.com/artursopely" target="_blank" rel="noopener noreferrer" class="bmc-link"><img src="bmc-button.png" alt="Buy Me a Coffee" style="height:48px;width:auto"></a>
     <p data-i18n="footer">Unofficial fan tool – not affiliated with Bandai Namco. QR format compatible with the
     Dragon Ball Legends friend scanner.</p>
+    <p class="copyright">© 2026 <a href="https://dblqr.org">dblqr.org</a> · Artur Sopelnik</p>
   </footer>
 </div>
 
