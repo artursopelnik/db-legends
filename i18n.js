@@ -6,6 +6,10 @@
 
 const I18N = {
   en: {
+    shareBtn: '🔗 Share',
+    toastLinkCopied: 'Link copied – send it to your friends!',
+    importConfirm: 'Add {n} friend code(s) from this link?',
+    linkNoNew: 'All codes from this link are already in your list',
     legalNotice: 'Legal notice',
     privacy: 'Privacy policy',
     installBtn: 'Install as app',
@@ -56,6 +60,10 @@ const I18N = {
     qrAlt: 'QR code for {code}',
   },
   de: {
+    shareBtn: '🔗 Teilen',
+    toastLinkCopied: 'Link kopiert – schick ihn deinen Freunden!',
+    importConfirm: '{n} Freundescode(s) aus diesem Link übernehmen?',
+    linkNoNew: 'Alle Codes aus dem Link sind schon in deiner Liste',
     legalNotice: 'Impressum',
     privacy: 'Datenschutz',
     installBtn: 'Als App installieren',
@@ -106,6 +114,10 @@ const I18N = {
     qrAlt: 'QR-Code für {code}',
   },
   es: {
+    shareBtn: '🔗 Compartir',
+    toastLinkCopied: '¡Enlace copiado: envíaselo a tus amigos!',
+    importConfirm: '¿Añadir {n} friend code(s) de este enlace?',
+    linkNoNew: 'Todos los códigos del enlace ya están en tu lista',
     legalNotice: 'Aviso legal',
     privacy: 'Política de privacidad',
     installBtn: 'Instalar como app',
@@ -156,6 +168,10 @@ const I18N = {
     qrAlt: 'Código QR de {code}',
   },
   pt: {
+    shareBtn: '🔗 Compartilhar',
+    toastLinkCopied: 'Link copiado – envie para seus amigos!',
+    importConfirm: 'Adicionar {n} friend code(s) deste link?',
+    linkNoNew: 'Todos os códigos do link já estão na sua lista',
     legalNotice: 'Aviso legal',
     privacy: 'Política de privacidade',
     installBtn: 'Instalar como app',
@@ -206,6 +222,10 @@ const I18N = {
     qrAlt: 'Código QR de {code}',
   },
   fr: {
+    shareBtn: '🔗 Partager',
+    toastLinkCopied: 'Lien copié – envoyez-le à vos amis !',
+    importConfirm: 'Ajouter {n} friend code(s) depuis ce lien ?',
+    linkNoNew: 'Tous les codes du lien sont déjà dans votre liste',
     legalNotice: 'Mentions légales',
     privacy: 'Politique de confidentialité',
     installBtn: 'Installer comme app',
@@ -256,6 +276,10 @@ const I18N = {
     qrAlt: 'QR code de {code}',
   },
   ru: {
+    shareBtn: '🔗 Поделиться',
+    toastLinkCopied: 'Ссылка скопирована – отправьте её друзьям!',
+    importConfirm: 'Добавить {n} friend-код(ов) из этой ссылки?',
+    linkNoNew: 'Все коды из ссылки уже в вашем списке',
     legalNotice: 'Правовая информация',
     privacy: 'Политика конфиденциальности',
     installBtn: 'Установить как приложение',
@@ -306,6 +330,10 @@ const I18N = {
     qrAlt: 'QR-код для {code}',
   },
   ja: {
+    shareBtn: '🔗 共有',
+    toastLinkCopied: 'リンクをコピーしました – 友だちに送りましょう！',
+    importConfirm: 'このリンクから{n}件のフレンドコードを追加しますか？',
+    linkNoNew: 'リンクのコードはすべてリストにあります',
     legalNotice: '運営者情報',
     privacy: 'プライバシーポリシー',
     installBtn: 'アプリとしてインストール',

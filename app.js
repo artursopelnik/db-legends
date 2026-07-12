@@ -399,6 +399,54 @@ async function loadPromoCodes() {
   } catch { /* offline ohne Cache – Panel bleibt ausgeblendet */ }
 }
 
+// --- Liste per Link teilen ---------------------------------------------
+
+const SHARE_BASE = 'https://dblqr.org/';
+
+async function shareList() {
+  if (!friends.length) return;
+  const url = SHARE_BASE + '#codes=' + friends.map(f => f.code).join(',');
+  if (navigator.share) {
+    try {
+      await navigator.share({ title: 'DBL QR Generator', url });
+      return;
+    } catch (err) {
+      if (err.name === 'AbortError') return;
+      // Teilen fehlgeschlagen -> Link kopieren
+    }
+  }
+  const done = () => showToast(t('toastLinkCopied'));
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(url).then(done, () => fallbackCopy(url, done));
+  } else {
+    fallbackCopy(url, done);
+  }
+}
+
+// Beim Oeffnen eines geteilten Links (#codes=...) die Codes nach
+// Bestaetigung uebernehmen; der Hash wird danach aus der URL entfernt.
+function importFromHash() {
+  const match = location.hash.match(/codes=([a-zA-Z0-9,%-]+)/);
+  if (!match) return;
+  history.replaceState(null, '', location.pathname + location.search);
+  const codes = decodeURIComponent(match[1]).split(',')
+    .map(c => c.trim())
+    .filter(c => CODE_PATTERN.test(c));
+  if (!codes.length) return;
+  const fresh = codes.filter(c => !friends.some(f => f.code.toLowerCase() === c.toLowerCase()));
+  if (!fresh.length) { showToast(t('linkNoNew')); return; }
+  if (!confirm(t('importConfirm', { n: fresh.length }))) return;
+  for (const code of fresh) {
+    friends.push({
+      id: 'f' + Date.now().toString(36) + Math.random().toString(36).slice(2, 7),
+      code,
+    });
+  }
+  saveFriends();
+  render();
+  showToast(t('toastImported', { n: fresh.length }));
+}
+
 // --- Events -----------------------------------------------------------
 
 document.getElementById('addForm').addEventListener('submit', (event) => {
@@ -410,6 +458,8 @@ document.getElementById('addForm').addEventListener('submit', (event) => {
     codeInput.focus();
   }
 });
+
+document.getElementById('shareBtn').addEventListener('click', shareList);
 
 document.getElementById('refreshAll').addEventListener('click', () => {
   friends.forEach(regenerate);
@@ -535,4 +585,5 @@ document.getElementById('langSelect').addEventListener('change', (event) => {
 applyStaticTranslations();
 setInterval(updateAges, 1000);
 render();
+importFromHash();
 loadPromoCodes();
