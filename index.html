@@ -456,6 +456,18 @@
   .copyright a { color: var(--dim); }
   .legal { margin-top: 6px; }
   .legal a { color: var(--dim); }
+  .data-tools { margin-top: 10px; }
+  .linklike {
+    background: none;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    color: var(--dim);
+    text-decoration: underline;
+    font-family: system-ui, sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 0;
+  }
 
   .lang-pick {
     position: absolute;
@@ -565,8 +577,7 @@
   <div class="toolbar">
     <button id="refreshAll" data-i18n="refreshAll">🔄 Regenerate</button>
     <button class="secondary" id="downloadAll" data-i18n="allImages">🖼️ All images</button>
-    <button class="ghost" id="exportBtn" data-i18n="export" hidden>Export</button>
-    <button class="ghost" id="importBtn" data-i18n="import" hidden>Import</button>
+    <button class="secondary" id="shareBtn" data-i18n="shareBtn">🔗 Share</button>
     <input type="file" id="importFile" accept="application/json" hidden>
     <div class="spacer"></div>
   </div>
@@ -620,6 +631,10 @@
     <a href="https://www.buymeacoffee.com/artursopely" target="_blank" rel="noopener noreferrer" class="bmc-link"><img src="bmc-button.png" alt="Buy Me a Coffee" style="height:48px;width:auto"></a>
     <p data-i18n="footer">Unofficial fan tool – not affiliated with Bandai Namco. QR format compatible with the
     Dragon Ball Legends friend scanner.</p>
+    <p class="data-tools">
+      <button type="button" class="linklike" id="exportBtn" data-i18n="export">Export</button> ·
+      <button type="button" class="linklike" id="importBtn" data-i18n="import">Import</button>
+    </p>
     <p class="copyright">© 2026 <a href="https://dblqr.org">dblqr.org</a> · Artur Sopelnik</p>
     <p class="legal">
       <a href="https://artursopelnik.de/site-policy/" target="_blank" rel="noopener noreferrer" data-i18n="legalNotice">Legal notice</a> ·
