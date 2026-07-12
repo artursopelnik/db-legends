@@ -212,6 +212,42 @@
     box-shadow: none;
   }
 
+  /* ---- Promo-Codes ---- */
+  .promo-list { display: flex; flex-direction: column; }
+  .promo-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px 12px;
+    padding: 10px 0;
+    border-bottom: 1px dashed var(--line);
+  }
+  .promo-row:last-child { border-bottom: none; }
+  .promo-code {
+    font-family: ui-monospace, "Cascadia Mono", Consolas, monospace;
+    font-size: 0.98rem;
+    letter-spacing: 1.5px;
+    background: #0e1428;
+    color: var(--orange-soft);
+    border: 1.5px solid var(--orange);
+    border-radius: 999px;
+    padding: 7px 14px;
+    box-shadow: none;
+  }
+  .promo-reward { color: var(--text); font-size: 0.92rem; flex: 1; min-width: 140px; }
+  .promo-expires { color: var(--dim); font-size: 0.8rem; }
+  .promo-new {
+    font-family: var(--display);
+    font-size: 0.78rem;
+    letter-spacing: 1px;
+    color: #06230f;
+    background: var(--green);
+    border-radius: 999px;
+    padding: 2px 9px;
+  }
+  .promo-source { margin-top: 10px; }
+  .promo-source a { color: var(--dim); }
+
   /* ---- Toolbar ---- */
   .toolbar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 20px; }
   .toolbar .spacer { flex: 1; }
@@ -423,6 +459,14 @@
       <button type="submit" data-i18n="addBtn">Add</button>
       <div class="error-msg" id="formError"></div>
     </form>
+  </section>
+
+  <section class="panel" id="promoPanel" hidden>
+    <h2 data-i18n="promoHeading">🎁 Promo codes</h2>
+    <p class="hint" data-i18n="promoHint">Tap a code to copy it, then redeem it in-game.</p>
+    <div class="promo-list" id="promoList"></div>
+    <p class="hint promo-source"><span data-i18n="promoSource">Source</span>:
+      <a id="promoSourceLink" target="_blank" rel="noopener noreferrer"></a></p>
   </section>
 
   <div class="toolbar">

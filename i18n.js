@@ -6,6 +6,11 @@
 
 const I18N = {
   en: {
+    promoHeading: '🎁 Promo codes',
+    promoHint: 'Tap a code to copy it, then redeem it in-game.',
+    promoExpires: 'until {date}',
+    toastPromoCopied: 'Promo code copied!',
+    promoSource: 'Source',
     subtitle: 'Free tool: save any number of friend codes and generate working QR codes for the Anniversary event – scan them in-game and summon Shenron or Porunga. Everything runs locally; your list stays on your device.',
     addHeading: 'Add friend code',
     codePlaceholder: 'Friend code (e.g. umd74s5q8)',
@@ -40,6 +45,11 @@ const I18N = {
     qrAlt: 'QR code for {code}',
   },
   de: {
+    promoHeading: '🎁 Promo-Codes',
+    promoHint: 'Code antippen zum Kopieren, dann im Spiel einlösen.',
+    promoExpires: 'bis {date}',
+    toastPromoCopied: 'Promo-Code kopiert!',
+    promoSource: 'Quelle',
     subtitle: 'Kostenloses Tool: Speichere beliebig viele Freundescodes und erzeuge alle QR-Codes gleichzeitig – direkt im Spiel einscannen und Shenron oder Porunga beschwören. Alles läuft lokal, deine Liste bleibt gespeichert.',
     addHeading: 'Freundescode hinzufügen',
     codePlaceholder: 'Freundescode (z. B. umd74s5q8)',
@@ -74,6 +84,11 @@ const I18N = {
     qrAlt: 'QR-Code für {code}',
   },
   es: {
+    promoHeading: '🎁 Códigos promocionales',
+    promoHint: 'Toca un código para copiarlo y canjéalo en el juego.',
+    promoExpires: 'hasta el {date}',
+    toastPromoCopied: '¡Código promocional copiado!',
+    promoSource: 'Fuente',
     subtitle: 'Guarda todos los friend codes que quieras y genera todos los códigos QR a la vez, siempre frescos y listos para escanear en el juego. Todo funciona en local; tu lista se queda en tu dispositivo.',
     addHeading: 'Añadir friend code',
     codePlaceholder: 'Friend code (p. ej. umd74s5q8)',
@@ -108,6 +123,11 @@ const I18N = {
     qrAlt: 'Código QR de {code}',
   },
   pt: {
+    promoHeading: '🎁 Códigos promocionais',
+    promoHint: 'Toque em um código para copiá-lo e resgate no jogo.',
+    promoExpires: 'até {date}',
+    toastPromoCopied: 'Código promocional copiado!',
+    promoSource: 'Fonte',
     subtitle: 'Salve quantos friend codes quiser e gere todos os códigos QR de uma vez – sempre novos e prontos para escanear no jogo. Tudo roda localmente; sua lista fica no seu aparelho.',
     addHeading: 'Adicionar friend code',
     codePlaceholder: 'Friend code (ex.: umd74s5q8)',
@@ -142,6 +162,11 @@ const I18N = {
     qrAlt: 'Código QR de {code}',
   },
   fr: {
+    promoHeading: '🎁 Codes promo',
+    promoHint: 'Touchez un code pour le copier, puis échangez-le dans le jeu.',
+    promoExpires: 'jusqu’au {date}',
+    toastPromoCopied: 'Code promo copié !',
+    promoSource: 'Source',
     subtitle: 'Enregistrez autant de friend codes que vous voulez et générez tous les QR codes d’un coup – toujours frais et prêts à scanner dans le jeu. Tout fonctionne en local ; votre liste reste sur votre appareil.',
     addHeading: 'Ajouter un friend code',
     codePlaceholder: 'Friend code (ex. umd74s5q8)',
@@ -176,6 +201,11 @@ const I18N = {
     qrAlt: 'QR code de {code}',
   },
   ru: {
+    promoHeading: '🎁 Промокоды',
+    promoHint: 'Нажмите на код, чтобы скопировать, затем активируйте в игре.',
+    promoExpires: 'до {date}',
+    toastPromoCopied: 'Промокод скопирован!',
+    promoSource: 'Источник',
     subtitle: 'Сохраняйте любое количество friend-кодов и создавайте все QR-коды сразу – всегда свежие и готовые к сканированию в игре. Всё работает локально; список остаётся на вашем устройстве.',
     addHeading: 'Добавить friend-код',
     codePlaceholder: 'Friend-код (напр. umd74s5q8)',
@@ -210,6 +240,11 @@ const I18N = {
     qrAlt: 'QR-код для {code}',
   },
   ja: {
+    promoHeading: '🎁 プロモコード',
+    promoHint: 'コードをタップしてコピーし、ゲーム内で引き換えてください。',
+    promoExpires: '{date}まで',
+    toastPromoCopied: 'プロモコードをコピーしました！',
+    promoSource: '出典',
     subtitle: 'フレンドコードをいくつでも保存して、すべてのQRコードを一度に生成。常に新しい状態でゲーム内スキャンにすぐ使えます。すべて端末内で動作し、リストは保存されます。',
     addHeading: 'フレンドコードを追加',
     codePlaceholder: 'フレンドコード（例: umd74s5q8）',
