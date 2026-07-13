@@ -1,8 +1,90 @@
 {
-  "updatedAt": "2026-07-12T18:00:00Z",
+  "updatedAt": "2026-07-13T08:29:19Z",
   "source": "https://www.gamesradar.com/games/rpg/dragon-ball-legends-codes/",
   "codes": [
-    { "code": "STAGE8TH3632", "reward": "300 Chrono Crystals", "expires": "2026-07-20", "new": true },
-    { "code": "OPEN", "reward": "100 Chrono Crystals", "expires": null, "new": false }
+    {
+      "code": "STAGE8TH3632",
+      "reward": "300 Chrono Crystals",
+      "expires": "2026-07-20",
+      "new": true
+    },
+    {
+      "code": "OPEN",
+      "reward": "100 Chrono Crystals",
+      "expires": null,
+      "new": false
+    },
+    {
+      "code": "ORIGINAL8TH8953",
+      "reward": "300 Chrono Crystals (expired June 29, 2026)",
+      "expires": null,
+      "new": false
+    },
+    {
+      "code": "START8TH4779",
+      "reward": "300 Chrono Crystals (expired June 4, 2026)",
+      "expires": null,
+      "new": false
+    },
+    {
+      "code": "TEAM4689",
+      "reward": "200 Chrono Crystals (expired April 20, 2026)",
+      "expires": null,
+      "new": false
+    },
+    {
+      "code": "SPIRIT8832",
+      "reward": "150 Chrono Crystals (expired April 7, 2026)",
+      "expires": null,
+      "new": false
+    },
+    {
+      "code": "JOURNEY3474",
+      "reward": "200 Chrono Crystals (expired March 26, 2026)",
+      "expires": null,
+      "new": false
+    },
+    {
+      "code": "QUIET9371",
+      "reward": "200 Chrono Crystals (expired March 12, 2026)",
+      "expires": null,
+      "new": false
+    },
+    {
+      "code": "LEGEND6194",
+      "reward": "200 Chrono Crystals",
+      "expires": null,
+      "new": false
+    },
+    {
+      "code": "VICTORY0207",
+      "reward": "300 Chrono Crystals",
+      "expires": null,
+      "new": false
+    },
+    {
+      "code": "PVPENJOY",
+      "reward": "200 Chrono Crystals",
+      "expires": null,
+      "new": false
+    },
+    {
+      "code": "SMART4729",
+      "reward": "200 Chrono Crystals",
+      "expires": null,
+      "new": false
+    },
+    {
+      "code": "1187ENDYEAR",
+      "reward": "300 Chrono Crystals",
+      "expires": null,
+      "new": false
+    },
+    {
+      "code": "20CONTINUE25",
+      "reward": "Chrono Crystals",
+      "expires": null,
+      "new": false
+    }
   ]
 }
