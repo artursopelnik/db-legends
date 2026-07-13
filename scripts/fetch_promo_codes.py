@@ -38,6 +38,12 @@ def parse_expiry(text):
 
 
 def extract_codes(page_html):
+    # Alles ab der "Expired codes"-Ueberschrift verwerfen – dort listet
+    # GamesRadar die abgelaufenen Codes (oft ohne Datum im Eintrag).
+    cut = re.search(r'<h[1-6][^>]*>[^<]*expired', page_html, re.I)
+    if cut:
+        page_html = page_html[:cut.start()]
+
     codes = []
     seen = set()
     # Codes stehen ueblicherweise in <li>-Eintraegen, gelegentlich in <p>.
@@ -48,6 +54,9 @@ def extract_codes(page_html):
         if not m:
             continue
         code, rest = m.group(1), m.group(2)
+        # Sicherheitsnetz: als abgelaufen markierte Eintraege nie aufnehmen
+        if re.search(r'expired', rest, re.I):
+            continue
         if code in seen or not any(k in rest.lower() for k in REWARD_KEYWORDS):
             continue
         seen.add(code)
