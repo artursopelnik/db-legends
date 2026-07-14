@@ -1,8 +1,54 @@
 {
-  "updatedAt": "2026-07-13T09:00:00Z",
+  "updatedAt": "2026-07-14T07:22:20Z",
   "source": "https://www.gamesradar.com/games/rpg/dragon-ball-legends-codes/",
   "codes": [
-    { "code": "STAGE8TH3632", "reward": "300 Chrono Crystals", "expires": "2026-07-20", "new": true },
-    { "code": "OPEN", "reward": "100 Chrono Crystals", "expires": null, "new": false }
+    {
+      "code": "STAGE8TH3632",
+      "reward": "300 Chrono Crystals",
+      "expires": "2026-07-20",
+      "new": true
+    },
+    {
+      "code": "OPEN",
+      "reward": "100 Chrono Crystals",
+      "expires": null,
+      "new": false
+    },
+    {
+      "code": "LEGEND6194",
+      "reward": "200 Chrono Crystals",
+      "expires": null,
+      "new": false
+    },
+    {
+      "code": "VICTORY0207",
+      "reward": "300 Chrono Crystals",
+      "expires": null,
+      "new": false
+    },
+    {
+      "code": "PVPENJOY",
+      "reward": "200 Chrono Crystals",
+      "expires": null,
+      "new": false
+    },
+    {
+      "code": "SMART4729",
+      "reward": "200 Chrono Crystals",
+      "expires": null,
+      "new": false
+    },
+    {
+      "code": "1187ENDYEAR",
+      "reward": "300 Chrono Crystals",
+      "expires": null,
+      "new": false
+    },
+    {
+      "code": "20CONTINUE25",
+      "reward": "Chrono Crystals",
+      "expires": null,
+      "new": false
+    }
   ]
 }
