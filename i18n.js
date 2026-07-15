@@ -6,6 +6,18 @@
 
 const I18N = {
   en: {
+    metaTitle: 'Dragon Ball Legends QR Generator – Anniversary 2026',
+    metaDescription: 'Free Dragon Ball Legends QR generator for the Anniversary 2026 event: turn friend codes into working QR codes, scan them in-game and summon Shenron or Porunga. Works offline, no ads, multiple codes at once.',
+    qrModalAlt: 'QR code fullscreen',
+    faqHeading: '❓ Frequently asked questions',
+    faq1Q: 'Is this Dragon Ball Legends QR generator free?',
+    faq1A: 'Yes. The tool is completely free, has no ads and requires no login. Everything runs locally in your browser.',
+    faq2Q: 'Why do I need to regenerate the QR codes?',
+    faq2A: 'Dragon Ball Legends only accepts QR codes with a fresh timestamp. Tap “Regenerate” right before scanning in-game so the timestamp is current.',
+    faq3Q: 'Is this tool official or affiliated with Bandai Namco?',
+    faq3A: 'No. This is an unofficial fan tool. The QR format is compatible with the Dragon Ball Legends in-game friend scanner.',
+    faq4Q: 'Does my data leave my device?',
+    faq4A: 'No. All friend codes are stored in your browser (localStorage). Nothing is sent to a server.',
     shareBtn: '🔗 Share',
     toastLinkCopied: 'Link copied – send it to your friends!',
     importConfirm: 'Add {n} friend code(s) from this link?',
@@ -60,6 +72,18 @@ const I18N = {
     qrAlt: 'QR code for {code}',
   },
   de: {
+    metaTitle: 'Dragon Ball Legends QR-Generator – Anniversary 2026',
+    metaDescription: 'Kostenloser Dragon Ball Legends QR-Generator für das Anniversary-2026-Event: Freundescodes in scanbare QR-Codes umwandeln, im Spiel scannen und Shenron oder Porunga beschwören. Läuft offline, ohne Werbung, mehrere Codes gleichzeitig.',
+    qrModalAlt: 'QR-Code im Vollbild',
+    faqHeading: '❓ Häufige Fragen',
+    faq1Q: 'Ist dieser Dragon Ball Legends QR-Generator kostenlos?',
+    faq1A: 'Ja. Das Tool ist komplett kostenlos, ohne Werbung und ohne Anmeldung. Alles läuft lokal in deinem Browser.',
+    faq2Q: 'Warum muss ich die QR-Codes neu generieren?',
+    faq2A: 'Dragon Ball Legends akzeptiert nur QR-Codes mit frischem Zeitstempel. Drücke „Neu generieren“ direkt vor dem Scannen im Spiel, damit der Zeitstempel aktuell ist.',
+    faq3Q: 'Ist dieses Tool offiziell oder mit Bandai Namco verbunden?',
+    faq3A: 'Nein. Das ist ein inoffizielles Fan-Tool. Das QR-Format ist kompatibel mit dem Freundes-Scanner in Dragon Ball Legends.',
+    faq4Q: 'Verlassen meine Daten das Gerät?',
+    faq4A: 'Nein. Alle Freundescodes bleiben in deinem Browser (localStorage). Nichts wird an einen Server gesendet.',
     shareBtn: '🔗 Teilen',
     toastLinkCopied: 'Link kopiert – schick ihn deinen Freunden!',
     importConfirm: '{n} Freundescode(s) aus diesem Link übernehmen?',
@@ -114,6 +138,18 @@ const I18N = {
     qrAlt: 'QR-Code für {code}',
   },
   es: {
+    metaTitle: 'Generador de códigos QR de Dragon Ball Legends – Aniversario 2026',
+    metaDescription: 'Generador gratuito de QR para Dragon Ball Legends (Aniversario 2026): convierte tus friend codes en códigos QR listos para escanear en el juego e invocar a Shenron o Porunga. Funciona sin conexión, sin anuncios, varios códigos a la vez.',
+    qrModalAlt: 'Código QR a pantalla completa',
+    faqHeading: '❓ Preguntas frecuentes',
+    faq1Q: '¿Este generador de QR de Dragon Ball Legends es gratis?',
+    faq1A: 'Sí. La herramienta es totalmente gratis, sin anuncios y sin registro. Todo funciona localmente en tu navegador.',
+    faq2Q: '¿Por qué hay que regenerar los códigos QR?',
+    faq2A: 'Dragon Ball Legends solo acepta códigos QR con un timestamp reciente. Pulsa «Regenerar» justo antes de escanear en el juego para que la marca de tiempo esté al día.',
+    faq3Q: '¿Es una herramienta oficial o relacionada con Bandai Namco?',
+    faq3A: 'No. Es una herramienta de fans no oficial. El formato QR es compatible con el escáner de amigos dentro de Dragon Ball Legends.',
+    faq4Q: '¿Mis datos salen del dispositivo?',
+    faq4A: 'No. Todos los friend codes se guardan en tu navegador (localStorage). No se envía nada a ningún servidor.',
     shareBtn: '🔗 Compartir',
     toastLinkCopied: '¡Enlace copiado: envíaselo a tus amigos!',
     importConfirm: '¿Añadir {n} friend code(s) de este enlace?',
@@ -168,6 +204,18 @@ const I18N = {
     qrAlt: 'Código QR de {code}',
   },
   pt: {
+    metaTitle: 'Gerador de QR do Dragon Ball Legends – Aniversário 2026',
+    metaDescription: 'Gerador gratuito de QR do Dragon Ball Legends para o evento de Aniversário 2026: transforme friend codes em códigos QR prontos para escanear no jogo e invocar Shenron ou Porunga. Funciona offline, sem anúncios, vários códigos ao mesmo tempo.',
+    qrModalAlt: 'Código QR em tela cheia',
+    faqHeading: '❓ Perguntas frequentes',
+    faq1Q: 'Este gerador de QR do Dragon Ball Legends é gratuito?',
+    faq1A: 'Sim. A ferramenta é totalmente gratuita, sem anúncios e sem cadastro. Tudo funciona localmente no seu navegador.',
+    faq2Q: 'Por que preciso regenerar os códigos QR?',
+    faq2A: 'O Dragon Ball Legends só aceita códigos QR com timestamp recente. Toque em “Regenerar” logo antes de escanear no jogo para o timestamp ficar atual.',
+    faq3Q: 'Esta ferramenta é oficial ou tem ligação com a Bandai Namco?',
+    faq3A: 'Não. É uma ferramenta de fãs não oficial. O formato QR é compatível com o leitor de amigos dentro do Dragon Ball Legends.',
+    faq4Q: 'Meus dados saem do dispositivo?',
+    faq4A: 'Não. Todos os friend codes ficam no seu navegador (localStorage). Nada é enviado para um servidor.',
     shareBtn: '🔗 Compartilhar',
     toastLinkCopied: 'Link copiado – envie para seus amigos!',
     importConfirm: 'Adicionar {n} friend code(s) deste link?',
@@ -222,6 +270,18 @@ const I18N = {
     qrAlt: 'Código QR de {code}',
   },
   fr: {
+    metaTitle: 'Générateur de QR Dragon Ball Legends – Anniversaire 2026',
+    metaDescription: 'Générateur de QR Dragon Ball Legends gratuit pour l’événement Anniversaire 2026 : transformez vos friend codes en QR codes à scanner dans le jeu et invoquez Shenron ou Porunga. Fonctionne hors ligne, sans publicité, plusieurs codes à la fois.',
+    qrModalAlt: 'QR code en plein écran',
+    faqHeading: '❓ Questions fréquentes',
+    faq1Q: 'Ce générateur de QR Dragon Ball Legends est-il gratuit ?',
+    faq1A: 'Oui. L’outil est totalement gratuit, sans publicité et sans inscription. Tout fonctionne localement dans votre navigateur.',
+    faq2Q: 'Pourquoi faut-il régénérer les QR codes ?',
+    faq2A: 'Dragon Ball Legends n’accepte que les QR codes avec un timestamp récent. Appuyez sur « Régénérer » juste avant de scanner dans le jeu pour que le timestamp soit à jour.',
+    faq3Q: 'Cet outil est-il officiel ou lié à Bandai Namco ?',
+    faq3A: 'Non. Il s’agit d’un outil de fans non officiel. Le format QR est compatible avec le scanner d’amis intégré à Dragon Ball Legends.',
+    faq4Q: 'Mes données quittent-elles mon appareil ?',
+    faq4A: 'Non. Tous les friend codes restent dans votre navigateur (localStorage). Rien n’est envoyé à un serveur.',
     shareBtn: '🔗 Partager',
     toastLinkCopied: 'Lien copié – envoyez-le à vos amis !',
     importConfirm: 'Ajouter {n} friend code(s) depuis ce lien ?',
@@ -276,6 +336,18 @@ const I18N = {
     qrAlt: 'QR code de {code}',
   },
   ru: {
+    metaTitle: 'Генератор QR-кодов Dragon Ball Legends – Anniversary 2026',
+    metaDescription: 'Бесплатный генератор QR-кодов Dragon Ball Legends для события Anniversary 2026: превращайте friend-коды в рабочие QR-коды, сканируйте в игре и призывайте Шенрона или Порунгу. Работает офлайн, без рекламы, несколько кодов сразу.',
+    qrModalAlt: 'QR-код в полноэкранном режиме',
+    faqHeading: '❓ Частые вопросы',
+    faq1Q: 'Этот генератор QR-кодов Dragon Ball Legends бесплатный?',
+    faq1A: 'Да. Инструмент полностью бесплатный, без рекламы и без регистрации. Всё работает локально в вашем браузере.',
+    faq2Q: 'Зачем перегенерировать QR-коды?',
+    faq2A: 'Dragon Ball Legends принимает только QR-коды со свежим timestamp. Нажмите «Обновить все» прямо перед сканированием в игре, чтобы timestamp был актуальным.',
+    faq3Q: 'Это официальный инструмент или связан с Bandai Namco?',
+    faq3A: 'Нет. Это неофициальный фанатский инструмент. Формат QR совместим со сканером друзей внутри Dragon Ball Legends.',
+    faq4Q: 'Покидают ли мои данные устройство?',
+    faq4A: 'Нет. Все friend-коды хранятся в вашем браузере (localStorage). На сервер ничего не отправляется.',
     shareBtn: '🔗 Поделиться',
     toastLinkCopied: 'Ссылка скопирована – отправьте её друзьям!',
     importConfirm: 'Добавить {n} friend-код(ов) из этой ссылки?',
@@ -330,6 +402,18 @@ const I18N = {
     qrAlt: 'QR-код для {code}',
   },
   ja: {
+    metaTitle: 'ドラゴンボール レジェンズ QRコード生成 – Anniversary 2026',
+    metaDescription: 'Anniversary 2026イベント向けの無料QRコード生成ツール。フレンドコードをQRコードに変換してゲーム内でスキャンし、シェンロンやポルンガを召喚。オフライン動作、広告なし、複数コードを一度に生成。',
+    qrModalAlt: 'QRコード全画面表示',
+    faqHeading: '❓ よくある質問',
+    faq1Q: 'このドラゴンボール レジェンズのQRコード生成ツールは無料ですか？',
+    faq1A: 'はい。完全に無料、広告なし、ログイン不要です。すべてブラウザ内でローカルに動作します。',
+    faq2Q: 'なぜQRコードを再生成する必要があるのですか？',
+    faq2A: 'ドラゴンボール レジェンズは新しいタイムスタンプのQRコードしか受け付けません。ゲーム内でスキャンする直前に「再生成」をタップして、タイムスタンプを最新にしてください。',
+    faq3Q: 'このツールは公式ですか？バンダイナムコと関係がありますか？',
+    faq3A: 'いいえ。非公式のファンツールです。QR形式はドラゴンボール レジェンズのフレンドスキャナーと互換性があります。',
+    faq4Q: 'データは端末外に送信されますか？',
+    faq4A: 'いいえ。すべてのフレンドコードはブラウザ内（localStorage）に保存されます。サーバーへは何も送信されません。',
     shareBtn: '🔗 共有',
     toastLinkCopied: 'リンクをコピーしました – 友だちに送りましょう！',
     importConfirm: 'このリンクから{n}件のフレンドコードを追加しますか？',
@@ -388,23 +472,67 @@ const I18N = {
 const LANG_KEY = 'dbl-lang';
 const SUPPORTED_LANGS = Object.keys(I18N);
 
-function detectLang() {
-  const saved = localStorage.getItem(LANG_KEY);
-  if (saved && SUPPORTED_LANGS.includes(saved)) return saved;
-  for (const tag of navigator.languages || [navigator.language || 'en']) {
-    const base = String(tag).toLowerCase().split('-')[0];
+function langFromPath() {
+  if (typeof location === 'undefined') return null;
+  const seg = location.pathname.split('/').filter(Boolean)[0];
+  return seg && SUPPORTED_LANGS.includes(seg) ? seg : null;
+}
+
+function preferredLang() {
+  try {
+    const saved = localStorage.getItem(LANG_KEY);
+    if (saved && SUPPORTED_LANGS.includes(saved)) return saved;
+  } catch {}
+  const langs = (typeof navigator !== 'undefined' && (navigator.languages || [navigator.language]))
+    || ['en'];
+  for (const tag of langs) {
+    const base = String(tag || '').toLowerCase().split('-')[0];
     if (SUPPORTED_LANGS.includes(base)) return base;
   }
   return 'en';
 }
 
+function detectLang() {
+  if (typeof window === 'undefined') return 'en';
+  const fromPath = langFromPath();
+  if (fromPath) return fromPath;
+  return preferredLang();
+}
+
 let currentLang = detectLang();
+
+// Root-Redirect: URL ist "/", aber Nutzer bevorzugt andere Sprache -> einmalige
+// Weiterleitung pro Session, damit indexierte /-URL sauber bleibt.
+(function maybeRedirectFromRoot() {
+  if (typeof window === 'undefined' || typeof sessionStorage === 'undefined') return;
+  if (langFromPath()) return;
+  const pref = preferredLang();
+  if (pref === 'en') return;
+  try {
+    if (sessionStorage.getItem('dbl-lang-redirected')) return;
+    sessionStorage.setItem('dbl-lang-redirected', '1');
+  } catch {}
+  location.replace('/' + pref + '/' + location.search + location.hash);
+})();
+
+function langToPath(lang) {
+  return lang === 'en' ? '/' : '/' + lang + '/';
+}
 
 function setLang(lang) {
   if (!SUPPORTED_LANGS.includes(lang)) return;
   currentLang = lang;
-  localStorage.setItem(LANG_KEY, lang);
-  document.documentElement.lang = lang;
+  try { localStorage.setItem(LANG_KEY, lang); } catch {}
+  if (typeof document !== 'undefined') document.documentElement.lang = lang;
+}
+
+function navigateToLang(lang) {
+  if (!SUPPORTED_LANGS.includes(lang) || typeof location === 'undefined') return;
+  const target = langToPath(lang);
+  const current = langToPath(langFromPath() || 'en');
+  if (target === current) return;
+  try { localStorage.setItem(LANG_KEY, lang); } catch {}
+  location.assign(target + location.search + location.hash);
 }
 
 function t(key, vars) {
@@ -417,7 +545,7 @@ function t(key, vars) {
   return str;
 }
 
-// Uebertraegt alle data-i18n-Attribute (Text, Placeholder, title) in den DOM.
+// Uebertraegt alle data-i18n-Attribute (Text, Placeholder, Alt) in den DOM.
 function applyStaticTranslations() {
   document.documentElement.lang = currentLang;
   document.querySelectorAll('[data-i18n]').forEach((el) => {
@@ -426,6 +554,14 @@ function applyStaticTranslations() {
   document.querySelectorAll('[data-i18n-placeholder]').forEach((el) => {
     el.placeholder = t(el.dataset.i18nPlaceholder);
   });
+  document.querySelectorAll('[data-i18n-alt]').forEach((el) => {
+    el.alt = t(el.dataset.i18nAlt);
+  });
   const sel = document.getElementById('langSelect');
   if (sel) sel.value = currentLang;
+}
+
+// Node-Export für Build-Script (Browser: kein module).
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = { I18N, SUPPORTED_LANGS };
 }

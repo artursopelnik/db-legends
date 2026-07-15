@@ -520,6 +520,7 @@ document.getElementById('importFile').addEventListener('change', async (event) =
 // Beide Accordions: Kopfzeile klappt um, eingeklappt ist das ganze Panel Klickflaeche
 setupAccordion('promoPanel', 'promoBody', 'promoToggle', PROMO_OPEN_KEY);
 setupAccordion('howtoPanel', 'howtoBody', 'howtoToggle', 'dbl-howto-open');
+setupAccordion('faqPanel', 'faqBody', 'faqToggle', 'dbl-faq-open');
 
 document.getElementById('qrModal').addEventListener('click', () => {
   document.getElementById('qrModal').classList.remove('open');
@@ -570,16 +571,13 @@ window.addEventListener('appinstalled', () => {
 
 // PWA: Service Worker fuer Offline-Betrieb (nur ueber http/https moeglich)
 if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
-  navigator.serviceWorker.register('sw.js').catch(() => {
+  navigator.serviceWorker.register('/sw.js', { scope: '/' }).catch(() => {
     /* Offline-Cache nicht verfuegbar – App funktioniert trotzdem */
   });
 }
 
 document.getElementById('langSelect').addEventListener('change', (event) => {
-  setLang(event.target.value);
-  applyStaticTranslations();
-  render();
-  renderPromos();
+  navigateToLang(event.target.value);
 });
 
 applyStaticTranslations();
