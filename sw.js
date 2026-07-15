@@ -1,5 +1,5 @@
 /* Service Worker: macht die App offline nutzbar (App-Shell-Caching). */
-const CACHE_NAME = 'dbl-qr-v19';
+const CACHE_NAME = 'dbl-qr-v20';
 const ASSETS = [
   '/',
   '/index.html',
@@ -46,8 +46,16 @@ self.addEventListener('activate', (event) => {
 self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
 
+  const reqPath = new URL(event.request.url).pathname;
+
+  // Sitemap + robots.txt nie cachen – Crawler/GSC/Browser sollen immer die frische Version bekommen.
+  if (reqPath === '/sitemap.xml' || reqPath === '/robots.txt') {
+    event.respondWith(fetch(event.request).catch(() => caches.match(event.request)));
+    return;
+  }
+
   // Promo-Codes immer zuerst frisch vom Netz holen (Fallback: Cache)
-  if (new URL(event.request.url).pathname.endsWith('promo-codes.json')) {
+  if (reqPath.endsWith('promo-codes.json')) {
     event.respondWith(
       fetch(event.request)
         .then((response) => {
