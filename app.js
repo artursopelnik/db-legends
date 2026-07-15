@@ -392,7 +392,7 @@ function renderPromos() {
 async function loadPromoCodes() {
   if (window.__PROMO_DATA) { promoData = window.__PROMO_DATA; renderPromos(); return; }
   try {
-    const res = await fetch('promo-codes.json', { cache: 'no-cache' });
+    const res = await fetch('/promo-codes.json', { cache: 'no-cache' });
     if (!res.ok) return;
     promoData = await res.json();
     renderPromos();
