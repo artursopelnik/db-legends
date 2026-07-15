@@ -531,6 +531,14 @@
       text-align: center;
       margin: 14px 0 0;
     }
+    .install-hint p { margin: 0; }
+    .install-hint ul {
+      display: inline-block;
+      margin: 6px 0 0;
+      padding: 0 0 0 1.2em;
+      text-align: left;
+    }
+    .install-hint li { margin-top: 4px; }
   }
 </style>
 </head>
@@ -658,7 +666,13 @@
 
   <div class="install-area">
     <button type="button" class="secondary" id="installBtn" hidden>📲 <span data-i18n="installBtn">Installer comme app</span></button>
-    <p class="install-hint" id="installHint" data-i18n="installHint">📲 Astuce : via le menu du navigateur « Ajouter à l’écran d’accueil », transformez cette page en app – votre liste est conservée et les QR codes sont régénérés à chaque ouverture.</p>
+    <div class="install-hint" id="installHint">
+      <p data-i18n="installHint">📲 Astuce : enregistrez cette page comme app sur votre écran d’accueil.</p>
+      <ul>
+        <li data-i18n="installHintIos">iPhone (Safari) : touchez l’icône de partage et choisissez « Sur l’écran d’accueil ».</li>
+        <li data-i18n="installHintAndroid">Android (Chrome et bien d’autres navigateurs) : touchez le menu ⋮ et choisissez « Ajouter à l’écran d’accueil » ou « Installer l’application » (selon le navigateur).</li>
+      </ul>
+    </div>
   </div>
 
   <footer>

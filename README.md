@@ -27,9 +27,11 @@ jeder Code mit eigenem, frischem Timestamp.
 
 **Als App installieren (empfohlen):** Die App läuft live unter
 **https://dblqr.org/** (automatischer Deploy via GitHub Actions
-bei jedem Push auf `main`). Am Handy öffnen und im Browser-Menü
-**„Zum Startbildschirm hinzufügen“** wählen. Danach startet die App wie eine native App,
-auch ohne Internet.
+bei jedem Push auf `main`). Am Handy öffnen und als App speichern:
+auf dem iPhone (Safari) über das Teilen-Symbol → **„Zum Home-Bildschirm“**,
+auf Android (Chrome & viele andere Browser) über das ⋮-Menü →
+**„Zum Startbildschirm hinzufügen“** bzw. **„App installieren“**. Danach startet
+die App wie eine native App, auch ohne Internet.
 
 Alternativ einfach `index.html` im Browser öffnen – kein Server, kein Build-Schritt nötig
 (ohne HTTPS gibt es nur keinen Offline-Modus/Installation, alles andere funktioniert).

@@ -531,6 +531,14 @@
       text-align: center;
       margin: 14px 0 0;
     }
+    .install-hint p { margin: 0; }
+    .install-hint ul {
+      display: inline-block;
+      margin: 6px 0 0;
+      padding: 0 0 0 1.2em;
+      text-align: left;
+    }
+    .install-hint li { margin-top: 4px; }
   }
 </style>
 </head>
@@ -658,7 +666,13 @@
 
   <div class="install-area">
     <button type="button" class="secondary" id="installBtn" hidden>📲 <span data-i18n="installBtn">Instalar como app</span></button>
-    <p class="install-hint" id="installHint" data-i18n="installHint">📲 Dica: use “Adicionar à tela inicial” no menu do navegador para transformar isto em um app – sua lista fica salva e os códigos QR são renovados a cada abertura.</p>
+    <div class="install-hint" id="installHint">
+      <p data-i18n="installHint">📲 Dica: salve esta página como app na sua tela inicial.</p>
+      <ul>
+        <li data-i18n="installHintIos">iPhone (Safari): toque no ícone de compartilhar e escolha “Adicionar à Tela de Início”.</li>
+        <li data-i18n="installHintAndroid">Android (Chrome e muitos outros navegadores): toque no menu ⋮ e escolha “Adicionar à tela inicial” ou “Instalar app” (dependendo do navegador).</li>
+      </ul>
+    </div>
   </div>
 
   <footer>

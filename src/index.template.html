@@ -517,6 +517,14 @@
       text-align: center;
       margin: 14px 0 0;
     }
+    .install-hint p { margin: 0; }
+    .install-hint ul {
+      display: inline-block;
+      margin: 6px 0 0;
+      padding: 0 0 0 1.2em;
+      text-align: left;
+    }
+    .install-hint li { margin-top: 4px; }
   }
 </style>
 </head>
@@ -644,7 +652,13 @@
 
   <div class="install-area">
     <button type="button" class="secondary" id="installBtn" hidden>📲 <span data-i18n="installBtn">{{TEXT_installBtn}}</span></button>
-    <p class="install-hint" id="installHint" data-i18n="installHint">{{TEXT_installHint}}</p>
+    <div class="install-hint" id="installHint">
+      <p data-i18n="installHint">{{TEXT_installHint}}</p>
+      <ul>
+        <li data-i18n="installHintIos">{{TEXT_installHintIos}}</li>
+        <li data-i18n="installHintAndroid">{{TEXT_installHintAndroid}}</li>
+      </ul>
+    </div>
   </div>
 
   <footer>
