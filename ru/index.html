@@ -531,6 +531,14 @@
       text-align: center;
       margin: 14px 0 0;
     }
+    .install-hint p { margin: 0; }
+    .install-hint ul {
+      display: inline-block;
+      margin: 6px 0 0;
+      padding: 0 0 0 1.2em;
+      text-align: left;
+    }
+    .install-hint li { margin-top: 4px; }
   }
 </style>
 </head>
@@ -658,7 +666,13 @@
 
   <div class="install-area">
     <button type="button" class="secondary" id="installBtn" hidden>📲 <span data-i18n="installBtn">Установить как приложение</span></button>
-    <p class="install-hint" id="installHint" data-i18n="installHint">📲 Совет: через меню браузера «Добавить на главный экран» превратите страницу в приложение – список сохранится, а QR-коды будут свежими при каждом запуске.</p>
+    <div class="install-hint" id="installHint">
+      <p data-i18n="installHint">📲 Совет: сохраните эту страницу как приложение на главном экране.</p>
+      <ul>
+        <li data-i18n="installHintIos">iPhone (Safari): нажмите значок «Поделиться» и выберите «На экран „Домой“».</li>
+        <li data-i18n="installHintAndroid">Android (Chrome и многие другие браузеры): нажмите меню ⋮ и выберите «Добавить на главный экран» или «Установить приложение» (в зависимости от браузера).</li>
+      </ul>
+    </div>
   </div>
 
   <footer>

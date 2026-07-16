@@ -531,6 +531,14 @@
       text-align: center;
       margin: 14px 0 0;
     }
+    .install-hint p { margin: 0; }
+    .install-hint ul {
+      display: inline-block;
+      margin: 6px 0 0;
+      padding: 0 0 0 1.2em;
+      text-align: left;
+    }
+    .install-hint li { margin-top: 4px; }
   }
 </style>
 </head>
@@ -658,7 +666,13 @@
 
   <div class="install-area">
     <button type="button" class="secondary" id="installBtn" hidden>📲 <span data-i18n="installBtn">Install as app</span></button>
-    <p class="install-hint" id="installHint" data-i18n="installHint">📲 Tip: use your browser menu “Add to Home Screen” to turn this into an app – your list is saved and all QR codes are fresh every time you open it.</p>
+    <div class="install-hint" id="installHint">
+      <p data-i18n="installHint">📲 Tip: save this page as an app on your home screen.</p>
+      <ul>
+        <li data-i18n="installHintIos">iPhone (Safari): tap the Share icon and choose “Add to Home Screen”.</li>
+        <li data-i18n="installHintAndroid">Android (Chrome &amp; many other browsers): tap the ⋮ menu and choose “Add to Home screen” or “Install app” (depending on the browser).</li>
+      </ul>
+    </div>
   </div>
 
   <footer>
