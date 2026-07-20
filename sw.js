@@ -1,5 +1,5 @@
 /* Service Worker: macht die App offline nutzbar (App-Shell-Caching). */
-const CACHE_NAME = 'dbl-qr-v21';
+const CACHE_NAME = 'dbl-qr-v22';
 const ASSETS = [
   '/',
   '/index.html',
@@ -51,6 +51,22 @@ self.addEventListener('fetch', (event) => {
   // Sitemap + robots.txt nie cachen – Crawler/GSC/Browser sollen immer die frische Version bekommen.
   if (reqPath === '/sitemap.xml' || reqPath === '/robots.txt') {
     event.respondWith(fetch(event.request).catch(() => caches.match(event.request)));
+    return;
+  }
+
+  // Blog: network-first, damit neue/aktualisierte Artikel ohne SW-Release ankommen.
+  if (reqPath === '/blog' || reqPath.startsWith('/blog/')) {
+    event.respondWith(
+      fetch(event.request)
+        .then((response) => {
+          if (response.ok) {
+            const copy = response.clone();
+            caches.open(CACHE_NAME).then((cache) => cache.put(event.request, copy));
+          }
+          return response;
+        })
+        .catch(() => caches.match(event.request))
+    );
     return;
   }
 
