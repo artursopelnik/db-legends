@@ -19,6 +19,7 @@ const SITEMAP_PATH = path.join(ROOT, 'sitemap.xml');
 const SITE_URL = 'https://dblqr.org';
 
 const { I18N, SUPPORTED_LANGS } = require(path.join(ROOT, 'i18n.js'));
+const { loadPosts, BLOG_URL } = require('./blog-lib.js');
 
 // Canonical primary lang = en (served at site root).
 const DEFAULT_LANG = 'en';
@@ -172,6 +173,23 @@ ${alternates.join('\n')}
     <priority>${priority}</priority>
   </url>`;
   });
+  // Blog pages (English only, no hreflang alternates).
+  const posts = loadPosts();
+  const latest = posts.reduce((max, p) => (p.updated > max ? p.updated : max), '');
+  urls.push(`  <url>
+    <loc>${BLOG_URL}</loc>
+    <lastmod>${latest}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>`);
+  for (const post of posts) {
+    urls.push(`  <url>
+    <loc>${post.url}</loc>
+    <lastmod>${post.updated}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>`);
+  }
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"

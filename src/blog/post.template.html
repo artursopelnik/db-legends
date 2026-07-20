@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>{{TITLE}} – dblqr.org</title>
+<meta name="description" content="{{DESCRIPTION}}">
+<meta name="author" content="Artur Sopelnik">
+<link rel="canonical" href="{{CANONICAL}}">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Dragon Ball Legends QR Generator">
+<meta property="og:title" content="{{TITLE}}">
+<meta property="og:description" content="{{DESCRIPTION}}">
+<meta property="og:url" content="{{CANONICAL}}">
+<meta property="og:image" content="https://dblqr.org/icons/icon-512.png">
+<meta property="og:image:width" content="512">
+<meta property="og:image:height" content="512">
+<meta property="og:image:alt" content="Dragon Ball Legends QR Generator">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="{{DATE_ISO}}">
+<meta property="article:modified_time" content="{{UPDATED_ISO}}">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{TITLE}}">
+<meta name="twitter:description" content="{{DESCRIPTION}}">
+<meta name="twitter:image" content="https://dblqr.org/icons/icon-512.png">
+{{JSON_LD}}
+<meta name="theme-color" content="#0a0e1c">
+<link rel="preload" href="/fonts/bangers.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="icon" href="/icons/icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+<style>
+{{BLOG_CSS}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav class="site-nav">
+    <a class="brand" href="/">DBL QR Generator</a>
+    <span class="spacer"></span>
+    <a href="/blog/">Blog</a>
+    <a href="/">QR Generator</a>
+  </nav>
+
+  <article>
+    <h1>{{TITLE}}</h1>
+    <p class="post-meta">Updated {{UPDATED_HUMAN}} · <a href="/blog/" style="color:inherit">DBL QR Blog</a></p>
+{{CONTENT}}
+    <div class="cta">
+      <p><strong>Ready to scan?</strong> Turn any Dragon Ball Legends friend code into a working QR code – free, no ads, works offline, and your codes never leave your device.</p>
+      <a class="cta-btn" href="/">Open the QR Generator →</a>
+    </div>
+  </article>
+
+  <section class="related">
+    <h2>More guides</h2>
+    <ul>
+{{RELATED}}
+    </ul>
+  </section>
+
+  <footer>
+    <p>Unofficial fan content – not affiliated with Bandai Namco. Dragon Ball Legends is a trademark of its respective owners.</p>
+    <p>© 2026 <a href="https://dblqr.org" rel="author">dblqr.org</a> · Artur Sopelnik ·
+      <a href="https://artursopelnik.de/site-policy/" target="_blank" rel="noopener noreferrer">Legal notice</a> ·
+      <a href="https://artursopelnik.de/data-privacy/" target="_blank" rel="noopener noreferrer">Privacy policy</a></p>
+  </footer>
+</div>
+
+<!-- Matomo (cookieless) -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  _paq.push(['disableCookies']);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://artursopelnik.de/matomo/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '5']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+</body>
+</html>
