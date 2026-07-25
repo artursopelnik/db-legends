@@ -19,7 +19,7 @@ const SITEMAP_PATH = path.join(ROOT, 'sitemap.xml');
 const SITE_URL = 'https://dblqr.org';
 
 const { I18N, SUPPORTED_LANGS } = require(path.join(ROOT, 'i18n.js'));
-const { loadPosts, BLOG_URL } = require('./blog-lib.js');
+const { loadPosts, blogUrlForLang, postUrl } = require('./blog-lib.js');
 
 // Canonical primary lang = en (served at site root).
 const DEFAULT_LANG = 'en';
@@ -134,6 +134,7 @@ function renderPage(template, lang) {
   html = html.replaceAll('{{OG_LOCALE}}', OG_LOCALE[lang]);
   html = html.replaceAll('{{OG_LOCALE_ALTERNATES}}', buildOgLocaleAlternates(lang));
   html = html.replaceAll('{{JSON_LD}}', buildJsonLd(lang));
+  html = html.replaceAll('{{BLOG_HREF}}', lang === DEFAULT_LANG ? '/blog/' : `/${lang}/blog/`);
 
   // Translated text nodes: {{TEXT_key}} → dict[key], HTML-escaped.
   html = html.replace(/\{\{TEXT_([a-zA-Z0-9_]+)\}\}/g, (_, key) => {
@@ -173,22 +174,51 @@ ${alternates.join('\n')}
     <priority>${priority}</priority>
   </url>`;
   });
-  // Blog pages (English only, no hreflang alternates).
-  const posts = loadPosts();
-  const latest = posts.reduce((max, p) => (p.updated > max ? p.updated : max), '');
-  urls.push(`  <url>
-    <loc>${BLOG_URL}</loc>
+  // Blog pages: one entry per language for the index and each post, with
+  // hreflang alternates so search engines pick the right locale.
+  const postsByLang = {};
+  for (const lang of SUPPORTED_LANGS) {
+    postsByLang[lang] = loadPosts(lang);
+  }
+  const enPosts = postsByLang[DEFAULT_LANG];
+  const latest = enPosts.reduce((max, p) => (p.updated > max ? p.updated : max), '');
+
+  const blogIndexAlternates = SUPPORTED_LANGS.map(
+    (l) => `    <xhtml:link rel="alternate" hreflang="${l}" href="${blogUrlForLang(l)}"/>`,
+  );
+  blogIndexAlternates.push(
+    `    <xhtml:link rel="alternate" hreflang="x-default" href="${blogUrlForLang(DEFAULT_LANG)}"/>`,
+  );
+  for (const lang of SUPPORTED_LANGS) {
+    urls.push(`  <url>
+    <loc>${blogUrlForLang(lang)}</loc>
+${blogIndexAlternates.join('\n')}
     <lastmod>${latest}</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>${lang === DEFAULT_LANG ? '0.7' : '0.6'}</priority>
   </url>`);
-  for (const post of posts) {
-    urls.push(`  <url>
-    <loc>${post.url}</loc>
-    <lastmod>${post.updated}</lastmod>
+  }
+
+  for (const enPost of enPosts) {
+    const alternates = SUPPORTED_LANGS.map(
+      (l) => `    <xhtml:link rel="alternate" hreflang="${l}" href="${postUrl(l, enPost.slug)}"/>`,
+    );
+    alternates.push(
+      `    <xhtml:link rel="alternate" hreflang="x-default" href="${postUrl(DEFAULT_LANG, enPost.slug)}"/>`,
+    );
+    for (const lang of SUPPORTED_LANGS) {
+      const langPost = postsByLang[lang].find((p) => p.slug === enPost.slug);
+      if (!langPost) {
+        throw new Error(`Post "${enPost.slug}" is missing translation for lang "${lang}"`);
+      }
+      urls.push(`  <url>
+    <loc>${langPost.url}</loc>
+${alternates.join('\n')}
+    <lastmod>${langPost.updated}</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>${lang === DEFAULT_LANG ? '0.6' : '0.5'}</priority>
   </url>`);
+    }
   }
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>

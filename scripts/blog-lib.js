@@ -1,6 +1,6 @@
 /*
- * Shared helpers for the blog build: loads posts from src/blog/posts and
- * parses their front matter. Used by build-blog.js (rendering) and
+ * Shared helpers for the blog build: loads posts from src/blog/posts/{lang}/
+ * and parses their front matter. Used by build-blog.js (rendering) and
  * build-i18n.js (sitemap).
  *
  * Post format: an HTML fragment starting with a front-matter comment:
@@ -13,7 +13,8 @@
  *   -->
  *   <p>Post body as HTML…</p>
  *
- * The slug (and URL) is derived from the file name.
+ * The slug (and URL) is derived from the file name and must match across
+ * languages so cross-post links resolve for every locale.
  */
 
 'use strict';
@@ -22,8 +23,29 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.resolve(__dirname, '..');
-const POSTS_DIR = path.join(ROOT, 'src', 'blog', 'posts');
+const POSTS_ROOT = path.join(ROOT, 'src', 'blog', 'posts');
 const SITE_URL = 'https://dblqr.org';
+const DEFAULT_LANG = 'en';
+
+function blogPathForLang(lang) {
+  return lang === DEFAULT_LANG ? '/blog/' : `/${lang}/blog/`;
+}
+
+function blogUrlForLang(lang) {
+  return `${SITE_URL}${blogPathForLang(lang)}`;
+}
+
+function homePathForLang(lang) {
+  return lang === DEFAULT_LANG ? '/' : `/${lang}/`;
+}
+
+function postPath(lang, slug) {
+  return `${blogPathForLang(lang)}${slug}/`;
+}
+
+function postUrl(lang, slug) {
+  return `${SITE_URL}${postPath(lang, slug)}`;
+}
 
 function parseFrontMatter(raw, file) {
   const m = raw.match(/^<!--\s*\n([\s\S]*?)\n-->\s*\n?/);
@@ -45,18 +67,31 @@ function parseFrontMatter(raw, file) {
   return { meta, body: raw.slice(m[0].length).trim() };
 }
 
-function loadPosts() {
-  const files = fs.readdirSync(POSTS_DIR).filter((f) => f.endsWith('.html'));
+// Rewrites in-body blog links (`href="/blog/…"`) to the current language's
+// blog path so cross-post links stay within the localized blog.
+function localizeBodyLinks(body, lang) {
+  if (lang === DEFAULT_LANG) return body;
+  const target = blogPathForLang(lang);
+  return body.replace(/href="\/blog\//g, `href="${target}`);
+}
+
+function loadPosts(lang) {
+  const dir = path.join(POSTS_ROOT, lang);
+  if (!fs.existsSync(dir)) {
+    throw new Error(`Missing blog posts directory for lang "${lang}": ${dir}`);
+  }
+  const files = fs.readdirSync(dir).filter((f) => f.endsWith('.html'));
   const posts = files.map((file) => {
-    const raw = fs.readFileSync(path.join(POSTS_DIR, file), 'utf8');
-    const { meta, body } = parseFrontMatter(raw, file);
+    const raw = fs.readFileSync(path.join(dir, file), 'utf8');
+    const { meta, body } = parseFrontMatter(raw, `${lang}/${file}`);
     const slug = file.replace(/\.html$/, '');
     return {
       slug,
-      url: `${SITE_URL}/blog/${slug}/`,
-      path: `/blog/${slug}/`,
+      lang,
+      url: postUrl(lang, slug),
+      path: postPath(lang, slug),
       ...meta,
-      body,
+      body: localizeBodyLinks(body, lang),
     };
   });
   // Newest first.
@@ -64,4 +99,15 @@ function loadPosts() {
   return posts;
 }
 
-module.exports = { loadPosts, SITE_URL, BLOG_URL: `${SITE_URL}/blog/` };
+module.exports = {
+  loadPosts,
+  SITE_URL,
+  DEFAULT_LANG,
+  blogPathForLang,
+  blogUrlForLang,
+  homePathForLang,
+  postPath,
+  postUrl,
+  // Back-compat: URL of the default (English) blog.
+  BLOG_URL: blogUrlForLang(DEFAULT_LANG),
+};

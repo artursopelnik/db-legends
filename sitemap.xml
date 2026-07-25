@@ -95,38 +95,590 @@
   </url>
   <url>
     <loc>https://dblqr.org/blog/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/blog/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/blog/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/blog/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/blog/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/blog/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/"/>
     <lastmod>2026-07-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://dblqr.org/de/blog/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/blog/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/blog/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/blog/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/blog/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/blog/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/"/>
+    <lastmod>2026-07-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/es/blog/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/blog/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/blog/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/blog/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/blog/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/blog/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/"/>
+    <lastmod>2026-07-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/pt/blog/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/blog/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/blog/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/blog/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/blog/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/blog/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/"/>
+    <lastmod>2026-07-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/fr/blog/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/blog/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/blog/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/blog/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/blog/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/blog/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/"/>
+    <lastmod>2026-07-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/ru/blog/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/blog/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/blog/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/blog/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/blog/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/blog/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/"/>
+    <lastmod>2026-07-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/ja/blog/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/blog/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/blog/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/blog/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/blog/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/blog/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/"/>
+    <lastmod>2026-07-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://dblqr.org/blog/how-to-scan-qr-codes-in-dragon-ball-legends/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
     <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://dblqr.org/de/blog/how-to-scan-qr-codes-in-dragon-ball-legends/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <lastmod>2026-07-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/es/blog/how-to-scan-qr-codes-in-dragon-ball-legends/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <lastmod>2026-07-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/pt/blog/how-to-scan-qr-codes-in-dragon-ball-legends/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <lastmod>2026-07-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/fr/blog/how-to-scan-qr-codes-in-dragon-ball-legends/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <lastmod>2026-07-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/ru/blog/how-to-scan-qr-codes-in-dragon-ball-legends/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <lastmod>2026-07-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/ja/blog/how-to-scan-qr-codes-in-dragon-ball-legends/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/how-to-scan-qr-codes-in-dragon-ball-legends/"/>
+    <lastmod>2026-07-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://dblqr.org/blog/dragon-ball-legends-friend-codes-explained/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/dragon-ball-legends-friend-codes-explained/"/>
     <lastmod>2026-07-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://dblqr.org/de/blog/dragon-ball-legends-friend-codes-explained/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/es/blog/dragon-ball-legends-friend-codes-explained/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/pt/blog/dragon-ball-legends-friend-codes-explained/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/fr/blog/dragon-ball-legends-friend-codes-explained/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/ru/blog/dragon-ball-legends-friend-codes-explained/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/ja/blog/dragon-ball-legends-friend-codes-explained/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/dragon-ball-legends-friend-codes-explained/"/>
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://dblqr.org/blog/qr-code-not-scanning-dragon-ball-legends/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/qr-code-not-scanning-dragon-ball-legends/"/>
     <lastmod>2026-07-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://dblqr.org/de/blog/qr-code-not-scanning-dragon-ball-legends/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/es/blog/qr-code-not-scanning-dragon-ball-legends/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/pt/blog/qr-code-not-scanning-dragon-ball-legends/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/fr/blog/qr-code-not-scanning-dragon-ball-legends/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/ru/blog/qr-code-not-scanning-dragon-ball-legends/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/ja/blog/qr-code-not-scanning-dragon-ball-legends/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/qr-code-not-scanning-dragon-ball-legends/"/>
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://dblqr.org/blog/summon-shenron-dragon-ball-legends-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/summon-shenron-dragon-ball-legends-guide/"/>
     <lastmod>2026-07-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://dblqr.org/de/blog/summon-shenron-dragon-ball-legends-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/es/blog/summon-shenron-dragon-ball-legends-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/pt/blog/summon-shenron-dragon-ball-legends-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/fr/blog/summon-shenron-dragon-ball-legends-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/ru/blog/summon-shenron-dragon-ball-legends-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/ja/blog/summon-shenron-dragon-ball-legends-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/summon-shenron-dragon-ball-legends-guide/"/>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://dblqr.org/blog/dragon-ball-legends-promo-codes-how-to-redeem/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
     <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/de/blog/dragon-ball-legends-promo-codes-how-to-redeem/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/es/blog/dragon-ball-legends-promo-codes-how-to-redeem/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/pt/blog/dragon-ball-legends-promo-codes-how-to-redeem/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/fr/blog/dragon-ball-legends-promo-codes-how-to-redeem/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/ru/blog/dragon-ball-legends-promo-codes-how-to-redeem/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/ja/blog/dragon-ball-legends-promo-codes-how-to-redeem/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/dragon-ball-legends-promo-codes-how-to-redeem/"/>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>
