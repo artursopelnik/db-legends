@@ -227,6 +227,40 @@ footer a { color: var(--dim); }
   text-transform: uppercase;
 }
 .team-card p { color: var(--dim); font-size: 0.94rem; line-height: 1.6; }
+details.team-card summary {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+details.team-card summary::-webkit-details-marker { display: none; }
+details.team-card summary h2 { margin-bottom: 0; }
+details.team-card summary::after {
+  content: '▾';
+  margin-left: auto;
+  color: var(--dim);
+  font-size: 1.1rem;
+  transition: transform 0.2s;
+}
+details.team-card[open] summary::after { transform: rotate(180deg); }
+details.team-card[open] summary { margin-bottom: 10px; }
+.team-card-best {
+  border-color: var(--orange);
+  box-shadow: 0 10px 30px rgba(248, 85, 31, 0.25);
+}
+.team-card p.best-badge {
+  display: inline-block;
+  background: var(--orange);
+  color: #26130a;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 999px;
+  padding: 3px 12px;
+  margin-bottom: 10px;
+}
 .fighter-list { list-style: none; display: flex; flex-direction: column; gap: 6px; }
 .fighter-list li {
   display: flex;
@@ -277,7 +311,8 @@ footer a { color: var(--dim); }
 .builder-controls select,
 .builder-team select {
   font: inherit;
-  font-size: 0.9rem;
+  /* 16px minimum, otherwise iOS Safari zooms in on focus. */
+  font-size: 1rem;
   color: var(--text);
   background: #0e1428;
   border: 1.5px solid var(--line);
@@ -445,7 +480,8 @@ footer a { color: var(--dim); }
   <p class="post-meta">Сильнейшие команды текущей меты, отобранные вручную: три основных бойца, варианты скамейки и советы по экипировке для каждого топового тега.</p>
   <p class="teams-updated">Обновлено: <time datetime="2026-08-06">6 августа 2026 г.</time></p>
 
-  <section class="team-card" id="fusion-warrior">
+  <section class="team-card team-card-best" id="fusion-warrior">
+    <p class="best-badge">🏆 Лучшая команда августа 2026</p>
     <h2>🔀 Fusion Warrior</h2>
     <p>Визитная карточка текущей меты: ULTRA SSGSS Гогета наносит огромный strike-урон, а оба Замасу лечат и наказывают неосторожные смены. Z-Abilities сочетаются почти идеально. Ядро работает даже без самых новых юнитов.</p>
     <h3>Основной состав</h3>
@@ -459,8 +495,8 @@ footer a { color: var(--dim); }
     <h3>Советы по экипировке</h3>
     <p>Чистые strike-attack экипировки на Гогету, смешанный набор атака/защита на Слитого Замасу и экипировка на здоровье для саппорта. Экипировки с условием Fusion Warrior дают самые большие бонусы.</p>
   </section>
-  <section class="team-card" id="god-ki">
-    <h2>✨ God Ki</h2>
+  <details class="team-card" id="god-ki">
+    <summary><h2>✨ God Ki</h2></summary>
     <p>Объединяет двух сильнейших атакующих игры, ULTRA SSGSS Гогету и ULTRA Ultra Instinct -Sign- Гоку, со Слитым Замасу в роли прочного якоря. Огромный burst-урон и достаточно живучести, чтобы отыграться после неудачного размена.</p>
     <h3>Основной состав</h3>
     <ul class="fighter-list">
@@ -472,9 +508,9 @@ footer a { color: var(--dim); }
     <p class="bench-list">LF Super Saiyan God Goku · SP Super Saiyan God SS Evolved Vegeta · SP God of Destruction Beerus</p>
     <h3>Советы по экипировке</h3>
     <p>Strike-экипировки на обоих Ультра, одна экипировка с условием God Ki для больших бонусов и защитный набор на здоровье для Замасу на позднюю игру.</p>
-  </section>
-  <section class="team-card" id="son-family">
-    <h2>👨‍👦 Son Family</h2>
+  </details>
+  <details class="team-card" id="son-family">
+    <summary><h2>👨‍👦 Son Family</h2></summary>
     <p>Классический универсал: огромный запас здоровья, сильная защита от strike-атак и большие множители урона благодаря идеально совпадающим Z-Abilities. Бист Гохан и UI Гоку несут урон, юный Гохан держит защитный слот.</p>
     <h3>Основной состав</h3>
     <ul class="fighter-list">
@@ -486,9 +522,9 @@ footer a { color: var(--dim); }
     <p class="bench-list">LF Bardock · SP Super Saiyan God Goku · SP Super Saiyan Goten (Kid)</p>
     <h3>Советы по экипировке</h3>
     <p>Blast-экипировки на Бист Гохана, strike на UI Гоку, здоровье/защита на юного Гохана. Экипировки с условием Son Family усиливают и без того высокое здоровье команды.</p>
-  </section>
-  <section class="team-card" id="regeneration">
-    <h2>♻️ Regeneration</h2>
+  </details>
+  <details class="team-card" id="regeneration">
+    <summary><h2>♻️ Regeneration</h2></summary>
     <p>Выигрывает длинную игру: Джанемба, Слитый Замасу и Маджин Буу лечатся каждый ход и просто переживают burst-команды. Идеально, если вам нравится оборонительный, терпеливый PvP.</p>
     <h3>Основной состав</h3>
     <ul class="fighter-list">
@@ -500,9 +536,9 @@ footer a { color: var(--dim); }
     <p class="bench-list">LF Super Baby 2 · SP Orange Piccolo · SP Perfect Cell (Revived)</p>
     <h3>Советы по экипировке</h3>
     <p>Сначала здоровье и защита: процентные экипировки на здоровье на весь костяк (лечение Regeneration зависит от максимального здоровья) плюс одна экипировка на урон для Джанембы.</p>
-  </section>
-  <section class="team-card" id="hybrid-saiyan">
-    <h2>⚡ Hybrid Saiyan</h2>
+  </details>
+  <details class="team-card" id="hybrid-saiyan">
+    <summary><h2>⚡ Hybrid Saiyan</h2></summary>
     <p>Гибридные саяны бьют быстро и часто: Бист Гохан и Гохан и Транкс цепляют комбо одно за другим, а юный Гохан прикрывает оборону. Сильный выбор, если вы выбили юнитов 8-й годовщины.</p>
     <h3>Основной состав</h3>
     <ul class="fighter-list">
@@ -514,9 +550,9 @@ footer a { color: var(--dim); }
     <p class="bench-list">SP Super Saiyan Trunks (Kid) · SP Super Saiyan Goten (Kid) · LF Super Trunks</p>
     <h3>Советы по экипировке</h3>
     <p>Делите по основной характеристике: blast-экипировки для Бист Гохана, strike для Гохана и Транкса, плюс одна экипировка с условием Hybrid Saiyan и защитный набор на слот юного Гохана.</p>
-  </section>
-  <section class="team-card" id="gt-super-saiyan-4">
-    <h2>🐒 GT</h2>
+  </details>
+  <details class="team-card" id="gt-super-saiyan-4">
+    <summary><h2>🐒 GT</h2></summary>
     <p>Чистая агрессия вокруг ULTRA Супер Саяна 4 Полной Мощи Гоку: SS4 Веджета и SS4 Гогета держат ки-давление и заканчивают матчи до того, как раскачаются команды на выживание. Простой план игры, очень высокий потолок урона.</p>
     <h3>Основной состав</h3>
     <ul class="fighter-list">
@@ -528,7 +564,7 @@ footer a { color: var(--dim); }
     <p class="bench-list">SP Pan (GT) · SP Super Baby 2 · SP Majuub</p>
     <h3>Советы по экипировке</h3>
     <p>Полная атака: strike-экипировки на SS4 Гоку и Гогету, смешанный набор на Веджету и одна экипировка с условием GT. Здесь урон побеждает раньше, чем живучесть начнёт иметь значение.</p>
-  </section>
+  </details>
 
   <section class="team-card builder" id="builder">
     <h2>🛠️ Конструктор команды</h2>
@@ -561,7 +597,7 @@ footer a { color: var(--dim); }
   <p class="teams-disclaimer">Мета меняется с каждым новым баннером. Воспринимайте эти сборки как проверенную отправную точку, а не единственный вариант. Имена персонажей соответствуют английской версии игры.</p>
 
   <div class="cta">
-    <p><strong>Ищете инструмент?</strong> Превращайте friend-коды в QR-коды для сканера друзей в Dragon Ball Legends – бесплатно, без рекламы, работает офлайн.</p>
+    <p><strong>Ваш friend-код как QR-код:</strong> бесплатный генератор превращает каждый friend-код в код, который можно отсканировать прямо с экрана. Без рекламы, работает офлайн.</p>
     <a class="cta-btn" href="/ru/">Открыть генератор QR →</a>
   </div>
 

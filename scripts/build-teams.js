@@ -121,7 +121,13 @@ function teamsJsonLd(lang, data) {
     .join('\n');
 }
 
-function renderTeamCard(team, lang) {
+function bestBadgeText(lang, updatedAt) {
+  const [y, m] = updatedAt.split('-').map(Number);
+  const date = lang === 'ja' ? `${y}年${m}月` : `${(MONTH_NAMES[lang] || MONTH_NAMES.en)[m - 1]} ${y}`;
+  return I18N[lang].teamsBestBadge.replace('{date}', date);
+}
+
+function renderTeamCard(team, lang, badge) {
   const dict = I18N[lang];
   const roleLabel = {
     damage: dict.teamsRoleDamage,
@@ -135,9 +141,7 @@ function renderTeamCard(team, lang) {
     )
     .join('\n');
   const text = team.text[lang];
-  return `  <section class="team-card" id="${team.slug}">
-    <h2>${team.emoji} ${escapeHtmlText(team.tag)}</h2>
-    <p>${escapeHtmlText(text.why)}</p>
+  const body = `    <p>${escapeHtmlText(text.why)}</p>
     <h3>${escapeHtmlText(dict.teamsCoreLabel)}</h3>
     <ul class="fighter-list">
 ${core}
@@ -145,8 +149,18 @@ ${core}
     <h3>${escapeHtmlText(dict.teamsBenchLabel)}</h3>
     <p class="bench-list">${team.bench.map(escapeHtmlText).join(' · ')}</p>
     <h3>${escapeHtmlText(dict.teamsEquipLabel)}</h3>
-    <p>${escapeHtmlText(text.equip)}</p>
+    <p>${escapeHtmlText(text.equip)}</p>`;
+  if (badge) {
+    return `  <section class="team-card team-card-best" id="${team.slug}">
+    <p class="best-badge">🏆 ${escapeHtmlText(badge)}</p>
+    <h2>${team.emoji} ${escapeHtmlText(team.tag)}</h2>
+${body}
   </section>`;
+  }
+  return `  <details class="team-card" id="${team.slug}">
+    <summary><h2>${team.emoji} ${escapeHtmlText(team.tag)}</h2></summary>
+${body}
+  </details>`;
 }
 
 function loadEquipsByTag() {
@@ -155,7 +169,9 @@ function loadEquipsByTag() {
 
 function renderPage(template, css, lang, data, characters, equips) {
   const dict = I18N[lang];
-  const cards = data.teams.map((team) => renderTeamCard(team, lang)).join('\n');
+  const cards = data.teams
+    .map((team, i) => renderTeamCard(team, lang, i === 0 ? bestBadgeText(lang, data.updatedAt) : null))
+    .join('\n');
   const builderText = {
     count: dict.builderCount,
     roleDamage: dict.teamsRoleDamage,

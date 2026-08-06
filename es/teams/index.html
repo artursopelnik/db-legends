@@ -227,6 +227,40 @@ footer a { color: var(--dim); }
   text-transform: uppercase;
 }
 .team-card p { color: var(--dim); font-size: 0.94rem; line-height: 1.6; }
+details.team-card summary {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+details.team-card summary::-webkit-details-marker { display: none; }
+details.team-card summary h2 { margin-bottom: 0; }
+details.team-card summary::after {
+  content: '▾';
+  margin-left: auto;
+  color: var(--dim);
+  font-size: 1.1rem;
+  transition: transform 0.2s;
+}
+details.team-card[open] summary::after { transform: rotate(180deg); }
+details.team-card[open] summary { margin-bottom: 10px; }
+.team-card-best {
+  border-color: var(--orange);
+  box-shadow: 0 10px 30px rgba(248, 85, 31, 0.25);
+}
+.team-card p.best-badge {
+  display: inline-block;
+  background: var(--orange);
+  color: #26130a;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 999px;
+  padding: 3px 12px;
+  margin-bottom: 10px;
+}
 .fighter-list { list-style: none; display: flex; flex-direction: column; gap: 6px; }
 .fighter-list li {
   display: flex;
@@ -277,7 +311,8 @@ footer a { color: var(--dim); }
 .builder-controls select,
 .builder-team select {
   font: inherit;
-  font-size: 0.9rem;
+  /* 16px minimum, otherwise iOS Safari zooms in on focus. */
+  font-size: 1rem;
   color: var(--text);
   background: #0e1428;
   border: 1.5px solid var(--line);
@@ -445,7 +480,8 @@ footer a { color: var(--dim); }
   <p class="post-meta">Los equipos más fuertes del meta actual, seleccionados a mano: tres luchadores principales, opciones de banquillo y consejos de equipamiento para cada tag destacado.</p>
   <p class="teams-updated">Actualizado: <time datetime="2026-08-06">6 de agosto de 2026</time></p>
 
-  <section class="team-card" id="fusion-warrior">
+  <section class="team-card team-card-best" id="fusion-warrior">
+    <p class="best-badge">🏆 Mejor equipo agosto 2026</p>
     <h2>🔀 Fusion Warrior</h2>
     <p>El equipo estrella del meta actual: ULTRA SSGSS Gogeta inflige un daño de golpe enorme mientras ambos Zamasu curan y castigan los cambios descuidados. Las Z-Abilities encajan casi a la perfección, así que el núcleo funciona incluso sin las unidades más nuevas.</p>
     <h3>Equipo principal</h3>
@@ -459,8 +495,8 @@ footer a { color: var(--dim); }
     <h3>Consejos de equipamiento</h3>
     <p>Equipos de ataque de golpe puros para Gogeta, un set mixto de ataque/defensa para Fused Zamasu y un equipo de salud en el soporte: los equipos con condición Fusion Warrior dan los mayores aumentos.</p>
   </section>
-  <section class="team-card" id="god-ki">
-    <h2>✨ God Ki</h2>
+  <details class="team-card" id="god-ki">
+    <summary><h2>✨ God Ki</h2></summary>
     <p>Combina a los dos atacantes más fuertes del juego, ULTRA SSGSS Gogeta y ULTRA Ultra Instinct -Sign- Goku, con Fused Zamasu como ancla resistente. Daño explosivo masivo con suficiente aguante para recuperarse de un intercambio perdido.</p>
     <h3>Equipo principal</h3>
     <ul class="fighter-list">
@@ -472,9 +508,9 @@ footer a { color: var(--dim); }
     <p class="bench-list">LF Super Saiyan God Goku · SP Super Saiyan God SS Evolved Vegeta · SP God of Destruction Beerus</p>
     <h3>Consejos de equipamiento</h3>
     <p>Equipos de golpe para ambos Ultras, un equipo con condición God Ki para los grandes aumentos y un set defensivo de salud para Zamasu de cara al final de partida.</p>
-  </section>
-  <section class="team-card" id="son-family">
-    <h2>👨‍👦 Son Family</h2>
+  </details>
+  <details class="team-card" id="son-family">
+    <summary><h2>👨‍👦 Son Family</h2></summary>
     <p>El todoterreno clásico: enormes reservas de salud, fuerte defensa contra golpes y grandes multiplicadores de daño gracias a Z-Abilities perfectamente alineadas. Beast Gohan y UI Goku llevan el daño; Youth Gohan ocupa el puesto defensivo.</p>
     <h3>Equipo principal</h3>
     <ul class="fighter-list">
@@ -486,9 +522,9 @@ footer a { color: var(--dim); }
     <p class="bench-list">LF Bardock · SP Super Saiyan God Goku · SP Super Saiyan Goten (Kid)</p>
     <h3>Consejos de equipamiento</h3>
     <p>Equipos de ataque de ráfaga para Beast Gohan, de golpe para UI Goku y equipos de salud/defensa de golpe para Youth Gohan. Los equipos con condición Son Family aprovechan la salud naturalmente alta del equipo.</p>
-  </section>
-  <section class="team-card" id="regeneration">
-    <h2>♻️ Regeneration</h2>
+  </details>
+  <details class="team-card" id="regeneration">
+    <summary><h2>♻️ Regeneration</h2></summary>
     <p>Gana la partida larga: Janemba, Fusion Zamasu y Majin Buu se curan cada turno y simplemente sobreviven a los equipos de daño explosivo. Ideal si te gusta el PvP defensivo y paciente.</p>
     <h3>Equipo principal</h3>
     <ul class="fighter-list">
@@ -500,9 +536,9 @@ footer a { color: var(--dim); }
     <p class="bench-list">LF Super Baby 2 · SP Orange Piccolo · SP Perfect Cell (Revived)</p>
     <h3>Consejos de equipamiento</h3>
     <p>Salud y defensa primero: acumula equipos de porcentaje de salud en todo el núcleo (la curación de Regeneration escala con la salud máxima) más un equipo de daño para Janemba.</p>
-  </section>
-  <section class="team-card" id="hybrid-saiyan">
-    <h2>⚡ Hybrid Saiyan</h2>
+  </details>
+  <details class="team-card" id="hybrid-saiyan">
+    <summary><h2>⚡ Hybrid Saiyan</h2></summary>
     <p>Los Hybrid Saiyan golpean rápido y a menudo: Beast Gohan y Gohan &amp; Trunks encadenan combos mientras Youth Gohan cubre la defensa. Una gran elección si conseguiste las unidades del octavo aniversario.</p>
     <h3>Equipo principal</h3>
     <ul class="fighter-list">
@@ -514,9 +550,9 @@ footer a { color: var(--dim); }
     <p class="bench-list">SP Super Saiyan Trunks (Kid) · SP Super Saiyan Goten (Kid) · LF Super Trunks</p>
     <h3>Consejos de equipamiento</h3>
     <p>Divide por estadística principal: equipos de ráfaga para Beast Gohan, de golpe para Gohan &amp; Trunks, más un equipo con condición Hybrid Saiyan y un set defensivo en el puesto de Youth Gohan.</p>
-  </section>
-  <section class="team-card" id="gt-super-saiyan-4">
-    <h2>🐒 GT</h2>
+  </details>
+  <details class="team-card" id="gt-super-saiyan-4">
+    <summary><h2>🐒 GT</h2></summary>
     <p>Agresión pura en torno a ULTRA Super Full Power Saiyan 4 Goku: SS4 Vegeta y SS4 Gogeta mantienen la presión de ki y terminan las partidas antes de que los equipos de aguante despeguen. Plan de juego simple, techo de daño altísimo.</p>
     <h3>Equipo principal</h3>
     <ul class="fighter-list">
@@ -528,7 +564,7 @@ footer a { color: var(--dim); }
     <p class="bench-list">SP Pan (GT) · SP Super Baby 2 · SP Majuub</p>
     <h3>Consejos de equipamiento</h3>
     <p>Ofensiva total: equipos de ataque de golpe para SS4 Goku y Gogeta, un set mixto para Vegeta y un equipo con condición GT. Aquí el daño gana antes de que importe el aguante.</p>
-  </section>
+  </details>
 
   <section class="team-card builder" id="builder">
     <h2>🛠️ Creador de equipos</h2>
@@ -561,7 +597,7 @@ footer a { color: var(--dim); }
   <p class="teams-disclaimer">El meta cambia con cada nuevo banner: toma estas composiciones como un punto de partida probado, no como la única opción. Los nombres de personajes siguen la versión inglesa del juego.</p>
 
   <div class="cta">
-    <p><strong>¿Buscas la herramienta?</strong> Convierte friend codes en códigos QR listos para el escáner de amigos de Dragon Ball Legends: gratis, sin anuncios y funciona sin conexión.</p>
+    <p><strong>Tu friend code como código QR:</strong> el generador gratuito convierte cada friend code en un código que puedes escanear directamente desde la pantalla. Sin anuncios y funciona sin conexión.</p>
     <a class="cta-btn" href="/es/">Abrir el generador de QR →</a>
   </div>
 
