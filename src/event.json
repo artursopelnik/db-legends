@@ -1,0 +1,4 @@
+{
+  "comment": "Steuert den Hinweis-Banner auf der Startseite. nextEventDate: 'YYYY-MM-DD' sobald der Termin des naechsten QR-Events bekannt ist, sonst null (zeigt den Text ohne Datum).",
+  "nextEventDate": null
+}

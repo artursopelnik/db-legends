@@ -166,6 +166,16 @@
   .pchip:hover { border-color: var(--orange); color: var(--orange-soft); }
   .pchip.active { border-color: var(--orange); color: var(--orange-soft); }
 
+  /* ---- Event-Hinweis ---- */
+  .event-notice {
+    border-left: 4px solid var(--orange);
+    padding: 14px 18px;
+  }
+  .event-notice p { color: var(--text); font-size: 0.92rem; line-height: 1.55; }
+  .event-notice .event-links { color: var(--dim); margin-top: 6px; }
+  .event-notice .event-links a { color: var(--orange-soft); text-decoration: none; }
+  .event-notice .event-links a:hover { text-decoration: underline; }
+
   /* ---- Panels & Form ---- */
   .panel {
     background: linear-gradient(180deg, var(--panel-2), var(--panel));
@@ -594,6 +604,14 @@
     <a class="pchip" href="/ja/teams/">⚔️ <span data-i18n="navTeams">チームガイド</span></a>
     <a class="pchip" href="/ja/blog/">📖 <span data-i18n="blogNavBlog">ブログ</span></a>
   </nav>
+
+  <section class="panel event-notice">
+    <p>⏳ <span data-i18n="eventNotice">周年イベントは現在休止中です。次のイベントでQRスキャナーがまた活躍します。保存したコードはそのまま使えます。</span></p>
+    <p class="event-links"><span data-i18n="eventUntilThen">それまでは：</span>
+      <a href="/ja/teams/">⚔️ <span data-i18n="navTeams">チームガイド</span></a> ·
+      <a href="#promoPanel" data-i18n="promoHeading">🎁 プロモコード</a> ·
+      <a href="/ja/blog/">📖 <span data-i18n="blogLink">ガイド＆ブログ</span></a></p>
+  </section>
 
   <section class="panel">
     <h2 data-i18n="addHeading">フレンドコードを追加</h2>

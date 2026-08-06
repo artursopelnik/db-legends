@@ -116,6 +116,9 @@ const I18N = {
     builderTipNeedDamage: 'Add a damage dealer – without one you can’t close out matches.',
     builderTipNeedTank: 'Add a defensive fighter so you can switch safely under pressure.',
     builderTipFull: 'Full team! Three fighters battle, three boost the team from the bench via their Z-Abilities.',
+    eventNotice: 'The Anniversary event is currently paused – the QR scanner will be needed again for the next event, and your saved codes stay ready.',
+    eventNoticeDate: 'The Anniversary event is paused – it starts again on {date}, and your saved codes stay ready.',
+    eventUntilThen: 'Until then:',
   },
   de: {
     metaTitle: 'Dragon Ball Legends QR-Generator – Anniversary 2026',
@@ -228,6 +231,9 @@ const I18N = {
     builderTipNeedDamage: 'Füge einen Schadens-Dealer hinzu – ohne ihn kannst du Matches nicht beenden.',
     builderTipNeedTank: 'Füge einen defensiven Kämpfer hinzu, damit du unter Druck sicher wechseln kannst.',
     builderTipFull: 'Team komplett! Drei Kämpfer kämpfen, drei boosten das Team von der Bank über ihre Z-Abilities.',
+    eventNotice: 'Das Anniversary-Event pausiert gerade – beim nächsten Event wird der QR-Scanner wieder gebraucht, deine gespeicherten Codes bleiben startklar.',
+    eventNoticeDate: 'Das Anniversary-Event pausiert – am {date} geht es wieder los, deine gespeicherten Codes bleiben startklar.',
+    eventUntilThen: 'Bis dahin:',
   },
   es: {
     metaTitle: 'Generador de códigos QR de Dragon Ball Legends – Aniversario 2026',
@@ -340,6 +346,9 @@ const I18N = {
     builderTipNeedDamage: 'Añade un atacante: sin él no puedes cerrar las partidas.',
     builderTipNeedTank: 'Añade un luchador defensivo para poder cambiar con seguridad bajo presión.',
     builderTipFull: '¡Equipo completo! Tres luchadores combaten y tres potencian al equipo desde el banquillo con sus Z-Abilities.',
+    eventNotice: 'El evento de aniversario está en pausa: el escáner QR volverá a usarse en el próximo evento y tus códigos guardados quedan listos.',
+    eventNoticeDate: 'El evento de aniversario está en pausa: vuelve el {date} y tus códigos guardados quedan listos.',
+    eventUntilThen: 'Mientras tanto:',
   },
   pt: {
     metaTitle: 'Gerador de QR do Dragon Ball Legends – Aniversário 2026',
@@ -452,6 +461,9 @@ const I18N = {
     builderTipNeedDamage: 'Adicione um atacante – sem ele você não fecha as partidas.',
     builderTipNeedTank: 'Adicione um lutador defensivo para trocar com segurança sob pressão.',
     builderTipFull: 'Time completo! Três lutadores batalham e três fortalecem o time do banco com suas Z-Abilities.',
+    eventNotice: 'O evento de aniversário está em pausa – o leitor de QR será usado de novo no próximo evento, e seus códigos salvos ficam prontos.',
+    eventNoticeDate: 'O evento de aniversário está em pausa – volta em {date}, e seus códigos salvos ficam prontos.',
+    eventUntilThen: 'Até lá:',
   },
   fr: {
     metaTitle: 'Générateur de QR Dragon Ball Legends – Anniversaire 2026',
@@ -564,6 +576,9 @@ const I18N = {
     builderTipNeedDamage: 'Ajoutez un attaquant – sans lui, impossible de conclure les matchs.',
     builderTipNeedTank: 'Ajoutez un combattant défensif pour pouvoir changer en sécurité sous pression.',
     builderTipFull: 'Équipe complète ! Trois combattants se battent, trois renforcent l’équipe depuis le banc grâce à leurs Z-Abilities.',
+    eventNotice: 'L’événement anniversaire est en pause – le scanner QR resservira au prochain événement, et vos codes enregistrés restent prêts.',
+    eventNoticeDate: 'L’événement anniversaire est en pause – il reprend le {date}, et vos codes enregistrés restent prêts.',
+    eventUntilThen: 'En attendant :',
   },
   ru: {
     metaTitle: 'Генератор QR-кодов Dragon Ball Legends – Anniversary 2026',
@@ -676,6 +691,9 @@ const I18N = {
     builderTipNeedDamage: 'Добавьте атакующего – без него не получится доводить матчи до победы.',
     builderTipNeedTank: 'Добавьте защитного бойца, чтобы безопасно меняться под давлением.',
     builderTipFull: 'Команда собрана! Трое сражаются, трое усиливают команду со скамейки своими Z-Abilities.',
+    eventNotice: 'Юбилейное событие сейчас на паузе – QR-сканер снова понадобится на следующем событии, а сохранённые коды останутся наготове.',
+    eventNoticeDate: 'Юбилейное событие на паузе – оно вернётся {date}, а сохранённые коды останутся наготове.',
+    eventUntilThen: 'А пока:',
   },
   ja: {
     metaTitle: 'ドラゴンボール レジェンズ QRコード生成 – Anniversary 2026',
@@ -788,6 +806,9 @@ const I18N = {
     builderTipNeedDamage: 'アタッカーを追加しましょう。火力がないと試合を決めきれません。',
     builderTipNeedTank: '防御キャラを追加しましょう。プレッシャー下でも安全に交代できます。',
     builderTipFull: 'チーム完成！3体が戦い、3体は控えからZアビリティでチームを強化します。',
+    eventNotice: '周年イベントは現在休止中です。次のイベントでQRスキャナーがまた活躍します。保存したコードはそのまま使えます。',
+    eventNoticeDate: '周年イベントは休止中です。{date}に再開予定。保存したコードはそのまま使えます。',
+    eventUntilThen: 'それまでは：',
   },
 };
 
@@ -871,7 +892,11 @@ function t(key, vars) {
 function applyStaticTranslations() {
   document.documentElement.lang = currentLang;
   document.querySelectorAll('[data-i18n]').forEach((el) => {
-    el.textContent = t(el.dataset.i18n);
+    let vars;
+    if (el.dataset.i18nVars) {
+      try { vars = JSON.parse(el.dataset.i18nVars); } catch {}
+    }
+    el.textContent = t(el.dataset.i18n, vars);
   });
   document.querySelectorAll('[data-i18n-placeholder]').forEach((el) => {
     el.placeholder = t(el.dataset.i18nPlaceholder);

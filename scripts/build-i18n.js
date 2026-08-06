@@ -25,6 +25,42 @@ const { loadTeams, teamsPathForLang, teamsUrlForLang } = require('./teams-lib.js
 // Canonical primary lang = en (served at site root).
 const DEFAULT_LANG = 'en';
 
+// Event-Konfiguration: steuert den Hinweis-Banner auf der Startseite.
+const EVENT_CONFIG = JSON.parse(
+  fs.readFileSync(path.join(ROOT, 'src', 'event.json'), 'utf8'),
+);
+if (EVENT_CONFIG.nextEventDate !== null && !/^\d{4}-\d{2}-\d{2}$/.test(EVENT_CONFIG.nextEventDate)) {
+  throw new Error('src/event.json: nextEventDate must be null or YYYY-MM-DD');
+}
+
+const MONTH_NAMES = {
+  en: ['January', 'February', 'March', 'April', 'May', 'June', 'July',
+    'August', 'September', 'October', 'November', 'December'],
+  de: ['Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli',
+    'August', 'September', 'Oktober', 'November', 'Dezember'],
+  es: ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio',
+    'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'],
+  pt: ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho',
+    'agosto', 'setembro', 'outubro', 'novembro', 'dezembro'],
+  fr: ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet',
+    'août', 'septembre', 'octobre', 'novembre', 'décembre'],
+  ru: ['января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля',
+    'августа', 'сентября', 'октября', 'ноября', 'декабря'],
+  ja: null, // handled specially: YYYY年M月D日
+};
+
+function humanDate(iso, lang) {
+  const [y, m, d] = iso.split('-').map(Number);
+  if (lang === 'ja') return `${y}年${m}月${d}日`;
+  const months = MONTH_NAMES[lang] || MONTH_NAMES.en;
+  if (lang === 'en') return `${months[m - 1]} ${d}, ${y}`;
+  if (lang === 'de') return `${d}. ${months[m - 1]} ${y}`;
+  if (lang === 'es' || lang === 'pt') return `${d} de ${months[m - 1]} de ${y}`;
+  if (lang === 'fr') return `${d} ${months[m - 1]} ${y}`;
+  if (lang === 'ru') return `${d} ${months[m - 1]} ${y} г.`;
+  return `${d} ${months[m - 1]} ${y}`;
+}
+
 const OG_LOCALE = {
   en: 'en_US',
   de: 'de_DE',
@@ -137,6 +173,22 @@ function renderPage(template, lang) {
   html = html.replaceAll('{{JSON_LD}}', buildJsonLd(lang));
   html = html.replaceAll('{{BLOG_HREF}}', lang === DEFAULT_LANG ? '/blog/' : `/${lang}/blog/`);
   html = html.replaceAll('{{TEAMS_HREF}}', teamsPathForLang(lang));
+
+  // Event-Hinweis: mit Datum (sobald bekannt) oder ohne. data-i18n-vars wird
+  // von applyStaticTranslations() beim clientseitigen Übersetzen eingesetzt.
+  if (EVENT_CONFIG.nextEventDate) {
+    const date = humanDate(EVENT_CONFIG.nextEventDate, lang);
+    const text = dict.eventNoticeDate.replace('{date}', date);
+    html = html.replaceAll(
+      '{{EVENT_NOTICE_SPAN}}',
+      `<span data-i18n="eventNoticeDate" data-i18n-vars='${escapeHtmlAttr(JSON.stringify({ date }))}'>${escapeHtmlText(text)}</span>`,
+    );
+  } else {
+    html = html.replaceAll(
+      '{{EVENT_NOTICE_SPAN}}',
+      `<span data-i18n="eventNotice">${escapeHtmlText(dict.eventNotice)}</span>`,
+    );
+  }
 
   // Translated text nodes: {{TEXT_key}} → dict[key], HTML-escaped.
   html = html.replace(/\{\{TEXT_([a-zA-Z0-9_]+)\}\}/g, (_, key) => {

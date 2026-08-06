@@ -166,6 +166,16 @@
   .pchip:hover { border-color: var(--orange); color: var(--orange-soft); }
   .pchip.active { border-color: var(--orange); color: var(--orange-soft); }
 
+  /* ---- Event-Hinweis ---- */
+  .event-notice {
+    border-left: 4px solid var(--orange);
+    padding: 14px 18px;
+  }
+  .event-notice p { color: var(--text); font-size: 0.92rem; line-height: 1.55; }
+  .event-notice .event-links { color: var(--dim); margin-top: 6px; }
+  .event-notice .event-links a { color: var(--orange-soft); text-decoration: none; }
+  .event-notice .event-links a:hover { text-decoration: underline; }
+
   /* ---- Panels & Form ---- */
   .panel {
     background: linear-gradient(180deg, var(--panel-2), var(--panel));
@@ -594,6 +604,14 @@
     <a class="pchip" href="/fr/teams/">⚔️ <span data-i18n="navTeams">Guide des équipes</span></a>
     <a class="pchip" href="/fr/blog/">📖 <span data-i18n="blogNavBlog">Blog</span></a>
   </nav>
+
+  <section class="panel event-notice">
+    <p>⏳ <span data-i18n="eventNotice">L’événement anniversaire est en pause – le scanner QR resservira au prochain événement, et vos codes enregistrés restent prêts.</span></p>
+    <p class="event-links"><span data-i18n="eventUntilThen">En attendant :</span>
+      <a href="/fr/teams/">⚔️ <span data-i18n="navTeams">Guide des équipes</span></a> ·
+      <a href="#promoPanel" data-i18n="promoHeading">🎁 Codes promo</a> ·
+      <a href="/fr/blog/">📖 <span data-i18n="blogLink">Guides et blog</span></a></p>
+  </section>
 
   <section class="panel">
     <h2 data-i18n="addHeading">Ajouter un friend code</h2>
