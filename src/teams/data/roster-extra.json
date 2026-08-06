@@ -1,0 +1,4 @@
+{
+  "comment": "Units missing from characters-source.json (full export of de.dblegends.net, see convert-dblegends-json.js). New banner units go here, then run: node scripts/import-roster.js && npm run build",
+  "characters": []
+}

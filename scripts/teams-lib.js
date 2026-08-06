@@ -75,7 +75,7 @@ function loadCharacters() {
     if (!c.name) throw new Error('characters.json: character without name');
     if (seen.has(c.name)) throw new Error(`characters.json: duplicate character "${c.name}"`);
     seen.add(c.name);
-    if (!['UL', 'LF', 'SP'].includes(c.rarity)) {
+    if (!['LG', 'UL', 'LF', 'SP', 'EX', 'HE'].includes(c.rarity)) {
       throw new Error(`characters.json: "${c.name}" has invalid rarity "${c.rarity}"`);
     }
     if (!ROLES.includes(c.role)) {

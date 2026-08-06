@@ -1,0 +1,10909 @@
+[
+ {
+  "name": "Goku",
+  "id": "DBL01-02E",
+  "color": "BLU",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Goku",
+  "id": "DBL01-01H",
+  "color": "YEL",
+  "rarity": "HERO",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Gohan (Kid)",
+  "id": "DBL01-36S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Hybrid Saiyan",
+   "Son Family",
+   "Kids",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Gohan (Kid)",
+  "id": "DBL01-06H",
+  "color": "GRN",
+  "rarity": "HERO",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Hybrid Saiyan",
+   "Son Family",
+   "Kids",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Piccolo",
+  "id": "DBL01-07S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Regeneration",
+   "Namekian",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Krillin",
+  "id": "DBL01-33E",
+  "color": "RED",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Super Warrior",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Krillin",
+  "id": "DBL01-09H",
+  "color": "PUR",
+  "rarity": "HERO",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Super Warrior",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Yamcha",
+  "id": "DBL01-38E",
+  "color": "GRN",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Super Warrior",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Tien",
+  "id": "DBL01-11E",
+  "color": "YEL",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Super Warrior",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Chiaotzu",
+  "id": "DBL01-12E",
+  "color": "PUR",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Super Warrior",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Raditz",
+  "id": "DBL01-22H",
+  "color": "BLU",
+  "rarity": "HERO",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Frieza Force",
+   "Saiyan",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Saibaman",
+  "id": "DBL01-23H",
+  "color": "YEL",
+  "rarity": "HERO",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Minion",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Nappa",
+  "id": "DBL01-19E",
+  "color": "RED",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Frieza Force",
+   "Saiyan",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Nappa",
+  "id": "DBL01-20H",
+  "color": "YEL",
+  "rarity": "HERO",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Frieza Force",
+   "Saiyan",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Vegeta",
+  "id": "DBL01-17S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "Frieza Force",
+   "Saiyan",
+   "Powerful Opponent",
+   "Vegeta Clan",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Goku",
+  "id": "DBL-EVT-00S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Goku",
+  "id": "DBL01-04S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan",
+   "Son Family",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Fused with Nail Piccolo",
+  "id": "DBL01-37E",
+  "color": "YEL",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Super Warrior",
+   "Regeneration",
+   "Namekian",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Vegeta",
+  "id": "DBL01-39E",
+  "color": "GRN",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Vegeta Clan",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Vegeta",
+  "id": "DBL01-18H",
+  "color": "BLU",
+  "rarity": "HERO",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Vegeta Clan",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Zarbon",
+  "id": "DBL01-25H",
+  "color": "GRN",
+  "rarity": "HERO",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Frieza Force",
+   "Transforming Warrior",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Dodoria",
+  "id": "DBL01-26H",
+  "color": "RED",
+  "rarity": "HERO",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Frieza Force",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Guldo",
+  "id": "DBL01-30H",
+  "color": "BLU",
+  "rarity": "HERO",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Frieza Force",
+   "Ginyu Force",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Burter",
+  "id": "DBL01-29H",
+  "color": "BLU",
+  "rarity": "HERO",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Frieza Force",
+   "Ginyu Force",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Recoome",
+  "id": "DBL01-27H",
+  "color": "RED",
+  "rarity": "HERO",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Frieza Force",
+   "Ginyu Force",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Jeice",
+  "id": "DBL01-28H",
+  "color": "PUR",
+  "rarity": "HERO",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Frieza Force",
+   "Ginyu Force",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Captain Ginyu",
+  "id": "DBL01-45H",
+  "color": "RED",
+  "rarity": "HERO",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Frieza Force",
+   "Ginyu Force",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Captain Ginyu",
+  "id": "DBL01-44S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Frieza Force",
+   "Ginyu Force",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "1st Form Frieza",
+  "id": "DBL01-40E",
+  "color": "BLU",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "Frieza Force",
+   "Transforming Warrior",
+   "Lineage of Evil",
+   "Powerful Opponent",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "1st Form Frieza",
+  "id": "DBL01-24H",
+  "color": "GRN",
+  "rarity": "HERO",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Frieza Force",
+   "Transforming Warrior",
+   "Lineage of Evil",
+   "Powerful Opponent",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "2nd Form Frieza",
+  "id": "DBL01-42H",
+  "color": "RED",
+  "rarity": "HERO",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Frieza Force",
+   "Transforming Warrior",
+   "Lineage of Evil",
+   "Powerful Opponent",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "3rd Form Frieza",
+  "id": "DBL01-43E",
+  "color": "PUR",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Frieza Force",
+   "Transforming Warrior",
+   "Lineage of Evil",
+   "Powerful Opponent",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Final Form Frieza",
+  "id": "DBL01-41S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Frieza Force",
+   "Transforming Warrior",
+   "Lineage of Evil",
+   "Powerful Opponent",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Mercenary Tao",
+  "id": "DBL01-31E",
+  "color": "PUR",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Pikkon",
+  "id": "DBL01-34H",
+  "color": "GRN",
+  "rarity": "HERO",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Otherworld Warrior",
+   "Defense Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Pikkon",
+  "id": "DBL01-16S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Otherworld Warrior",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Jaco",
+  "id": "DBL01-15H",
+  "color": "RED",
+  "rarity": "HERO",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Weapon Wielder",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Final Form Frost",
+  "id": "DBL01-46E",
+  "color": "BLU",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Universe 6",
+   "Transforming Warrior",
+   "Lineage of Evil",
+   "Rival Universe",
+   "Universe Rep",
+   "Weapon Wielder",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Pan",
+  "id": "DBL01-05S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Hybrid Saiyan",
+   "GT",
+   "Son Family",
+   "Girls",
+   "Female",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Pan",
+  "id": "DBL01-32H",
+  "color": "GRN",
+  "rarity": "HERO",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Hybrid Saiyan",
+   "GT",
+   "Son Family",
+   "Girls",
+   "Female",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Fused with Nail Piccolo",
+  "id": "DBL01-08H",
+  "color": "RED",
+  "rarity": "HERO",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Super Warrior",
+   "Regeneration",
+   "Namekian",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Yamcha",
+  "id": "DBL01-10H",
+  "color": "GRN",
+  "rarity": "HERO",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Super Warrior",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Tien",
+  "id": "DBL01-13H",
+  "color": "BLU",
+  "rarity": "HERO",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Super Warrior",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Chiaotzu",
+  "id": "DBL01-14H",
+  "color": "GRN",
+  "rarity": "HERO",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Super Warrior",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Final Form Frost",
+  "id": "DBL01-47H",
+  "color": "YEL",
+  "rarity": "HERO",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Universe 6",
+   "Transforming Warrior",
+   "Lineage of Evil",
+   "Rival Universe",
+   "Universe Rep",
+   "Weapon Wielder",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Goku",
+  "id": "DBL-EVT-08S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "Super Saiyan",
+   "Legends Road",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Vegeta",
+  "id": "DBL02-01S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Vegeta Clan",
+   "Super Saiyan",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Trunks (Teen)",
+  "id": "DBL02-02S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Hybrid Saiyan",
+   "Vegeta Clan",
+   "Super Saiyan",
+   "Future",
+   "Weapon Wielder",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Android #20",
+  "id": "DBL02-09E",
+  "color": "YEL",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Android",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Android #19",
+  "id": "DBL02-07E",
+  "color": "RED",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Android",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Turles",
+  "id": "DBL02-13S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Powerful Opponent",
+   "Turles Crusher Corps",
+   "Ranged Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Mai",
+  "id": "DBL08-03S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Girls",
+   "Future",
+   "Weapon Wielder",
+   "Female",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Trunks (Teen)",
+  "id": "DBL02-03E",
+  "color": "YEL",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Hybrid Saiyan",
+   "Vegeta Clan",
+   "Future",
+   "Weapon Wielder",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Vegeta",
+  "id": "DBL02-12E",
+  "color": "RED",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Vegeta Clan",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Turles",
+  "id": "DBL02-14E",
+  "color": "GRN",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Powerful Opponent",
+   "Turles Crusher Corps",
+   "Ranged Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Android #20",
+  "id": "DBL02-10H",
+  "color": "PUR",
+  "rarity": "HERO",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Android",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Android #19",
+  "id": "DBL02-08H",
+  "color": "BLU",
+  "rarity": "HERO",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Android",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Yamcha",
+  "id": "DBL02-04H",
+  "color": "YEL",
+  "rarity": "HERO",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Super Warrior",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Saibaman",
+  "id": "DBL02-06H",
+  "color": "PUR",
+  "rarity": "HERO",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Minion",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Jaco",
+  "id": "DBL02-05H",
+  "color": "GRN",
+  "rarity": "HERO",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Weapon Wielder",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Goku",
+  "id": "DBL03-01S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "Super Saiyan",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Krillin",
+  "id": "DBL03-03S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Super Warrior",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Android #17",
+  "id": "DBL03-05S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "Android",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Android #18",
+  "id": "DBL03-06S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Android",
+   "Girls",
+   "Female",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "1st Form Cell",
+  "id": "DBL03-08E",
+  "color": "YEL",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Android",
+   "Regeneration",
+   "Future",
+   "Powerful Opponent",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Master Roshi",
+  "id": "DBL04-13E",
+  "color": "PUR",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Cabba",
+  "id": "DBL09-01S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan",
+   "Universe 6",
+   "Rival Universe",
+   "Universe Rep",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Android #18",
+  "id": "DBL03-07E",
+  "color": "GRN",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Android",
+   "Girls",
+   "Female",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Cabba",
+  "id": "DBL03-12H",
+  "color": "BLU",
+  "rarity": "HERO",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Universe 6",
+   "Rival Universe",
+   "Universe Rep",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Master Roshi",
+  "id": "DBL04-14H",
+  "color": "YEL",
+  "rarity": "HERO",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Android #17",
+  "id": "DBL03-16E",
+  "color": "RED",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Android",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Goku",
+  "id": "DBL03-02H",
+  "color": "PUR",
+  "rarity": "HERO",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "1st Form Cell",
+  "id": "DBL03-09H",
+  "color": "PUR",
+  "rarity": "HERO",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Android",
+   "Regeneration",
+   "Future",
+   "Powerful Opponent",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Goku",
+  "id": "DBL04-10S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "Super Saiyan",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Goku (Youth)",
+  "id": "DBL-EVT-01S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Kids",
+   "Son Family",
+   "Legends Road",
+   "Weapon Wielder",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Vegeta",
+  "id": "DBL11-02S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Vegeta Clan",
+   "Super Saiyan",
+   "GT",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Bardock",
+  "id": "DBL03-10S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Team Bardock",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Demon King Piccolo",
+  "id": "DBL05-08S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Regeneration",
+   "Namekian",
+   "Powerful Opponent",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Legendary Super Saiyan Broly",
+  "id": "DBL01-35S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan",
+   "Powerful Opponent",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "1st Form Frieza",
+  "id": "DBL03-13S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Frieza Force",
+   "Transforming Warrior",
+   "Lineage of Evil",
+   "Powerful Opponent",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Goku",
+  "id": "DBL11-01S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "Super Saiyan",
+   "GT",
+   "Kids",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Trunks",
+  "id": "DBL11-03E",
+  "color": "GRN",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Hybrid Saiyan",
+   "Vegeta Clan",
+   "GT",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Demon King Piccolo",
+  "id": "DBL05-09E",
+  "color": "PUR",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Regeneration",
+   "Namekian",
+   "Powerful Opponent",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Pan",
+  "id": "DBL04-12E",
+  "color": "PUR",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Hybrid Saiyan",
+   "Son Family",
+   "GT",
+   "Girls",
+   "Female",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "1st Form Frieza",
+  "id": "DBL04-07E",
+  "color": "YEL",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Frieza Force",
+   "Transforming Warrior",
+   "Lineage of Evil",
+   "Powerful Opponent",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Bardock",
+  "id": "DBL04-06E",
+  "color": "YEL",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Team Bardock",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Raditz",
+  "id": "DBL01-21E",
+  "color": "BLU",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "Frieza Force",
+   "Saiyan",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Zarbon",
+  "id": "DBL04-08E",
+  "color": "BLU",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Frieza Force",
+   "Transforming Warrior",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Dodoria",
+  "id": "DBL04-09E",
+  "color": "GRN",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Frieza Force",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Super Vegeta",
+  "id": "DBL03-14S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Vegeta Clan",
+   "Super Saiyan",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Fused with Kami Piccolo",
+  "id": "DBL05-05S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "Regeneration",
+   "Super Warrior",
+   "Namekian",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Android #16",
+  "id": "DBL05-06S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Android",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "2nd Form Cell",
+  "id": "DBL04-02E",
+  "color": "BLU",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Android",
+   "Regeneration",
+   "Future",
+   "Powerful Opponent",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Cooler",
+  "id": "DBL02-15S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "Transforming Warrior",
+   "Lineage of Evil",
+   "Powerful Opponent",
+   "Ranged Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Thouser",
+  "id": "DBL08-11E",
+  "color": "PUR",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Cooler",
+  "id": "DBL07-06E",
+  "color": "BLU",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Transforming Warrior",
+   "Lineage of Evil",
+   "Powerful Opponent",
+   "Support Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Super Saiyan Goku",
+  "id": "DBL04-01S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "Super Saiyan",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Trunks (Kid)",
+  "id": "DBL05-04E",
+  "color": "BLU",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Hybrid Saiyan",
+   "Kids",
+   "Vegeta Clan",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Goten (Kid)",
+  "id": "DBL05-02E",
+  "color": "BLU",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Hybrid Saiyan",
+   "Kids",
+   "Son Family",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Perfect Form Cell",
+  "id": "DBL23-03E",
+  "color": "PUR",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Android",
+   "Regeneration",
+   "Future",
+   "Powerful Opponent",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Thouser",
+  "id": "DBL08-12H",
+  "color": "RED",
+  "rarity": "HERO",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Support Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Android #16",
+  "id": "DBL06-09E",
+  "color": "YEL",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Android",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Android #18",
+  "id": "DBL06-10S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Android",
+   "Girls",
+   "Female",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Perfect Form Cell",
+  "id": "DBL04-04S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "Android",
+   "Regeneration",
+   "Future",
+   "Powerful Opponent",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Super Trunks",
+  "id": "DBL03-15S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Hybrid Saiyan",
+   "Vegeta Clan",
+   "Super Saiyan",
+   "Future",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Cell Jr.",
+  "id": "DBL04-05H",
+  "color": "GRN",
+  "rarity": "HERO",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Android",
+   "Minion",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan 2 Gohan (Youth)",
+  "id": "DBL04-11S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Hybrid Saiyan",
+   "Son Family",
+   "Super Saiyan 2",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan 3 Goku",
+  "id": "DBL06-11S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan 3",
+   "Son Family",
+   "Otherworld Warrior",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Majin Buu: Good",
+  "id": "DBL06-06S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Regeneration",
+   "Powerful Opponent",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Goku",
+  "id": "DBL26-01E",
+  "color": "PUR",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan",
+   "Son Family",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "World Champion Hercule",
+  "id": "DBL05-07S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Majin Buu: Good",
+  "id": "DBL21-04E",
+  "color": "BLU",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Regeneration",
+   "Powerful Opponent",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Gohan (Youth)",
+  "id": "DBL06-03E",
+  "color": "RED",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Hybrid Saiyan",
+   "Son Family",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Cell Jr.",
+  "id": "DBL06-05E",
+  "color": "YEL",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Android",
+   "Minion",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Turles",
+  "id": "DBL06-08H",
+  "color": "BLU",
+  "rarity": "HERO",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Powerful Opponent",
+   "Turles Crusher Corps",
+   "Defense Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Super Saiyan Goku",
+  "id": "DBL06-02H",
+  "color": "PUR",
+  "rarity": "HERO",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan",
+   "Son Family",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Krillin",
+  "id": "DBL06-04H",
+  "color": "BLU",
+  "rarity": "HERO",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Super Warrior",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Gohan",
+  "id": "DBL08-01S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Hybrid Saiyan",
+   "Son Family",
+   "Super Saiyan",
+   "Future",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan 2 Trunks (Adult)",
+  "id": "DBL08-02S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "Hybrid Saiyan",
+   "Vegeta Clan",
+   "Super Saiyan 2",
+   "Future",
+   "Weapon Wielder",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Goku",
+  "id": "DBL07-08S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Goku Black",
+  "id": "DBL06-13S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Future",
+   "Powerful Opponent",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Zamasu",
+  "id": "DBL08-14S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "God Ki",
+   "Future",
+   "Regeneration",
+   "Powerful Opponent",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Kale (Berserk)",
+  "id": "DBL09-04S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan",
+   "Girls",
+   "Universe 6",
+   "Rival Universe",
+   "Universe Rep",
+   "Female",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Mai",
+  "id": "DBL09-08E",
+  "color": "PUR",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Girls",
+   "Future",
+   "Weapon Wielder",
+   "Female",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Goku Black",
+  "id": "DBL15-02S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Future",
+   "Powerful Opponent",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Vegeta",
+  "id": "DBL07-10S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Frieza Force",
+   "Powerful Opponent",
+   "Vegeta Clan",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Zamasu",
+  "id": "DBL16-05E",
+  "color": "GRN",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "God Ki",
+   "Future",
+   "Regeneration",
+   "Powerful Opponent",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Android #17",
+  "id": "DBL08-04E",
+  "color": "GRN",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Android",
+   "Future",
+   "Powerful Opponent",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Android #18",
+  "id": "DBL08-05E",
+  "color": "PUR",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Android",
+   "Girls",
+   "Future",
+   "Powerful Opponent",
+   "Female",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Vegeta",
+  "id": "DBL03-04E",
+  "color": "YEL",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "Frieza Force",
+   "Saiyan",
+   "Powerful Opponent",
+   "Vegeta Clan",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "2nd Form Cell",
+  "id": "DBL04-03H",
+  "color": "BLU",
+  "rarity": "HERO",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Android",
+   "Regeneration",
+   "Future",
+   "Powerful Opponent",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Vegito",
+  "id": "DBL-EVT-07S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Fusion Warrior",
+   "Potara",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Trunks (Kid)",
+  "id": "DBL05-03S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Hybrid Saiyan",
+   "Vegeta Clan",
+   "Kids",
+   "Super Saiyan",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Goten (Kid)",
+  "id": "DBL05-01S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Hybrid Saiyan",
+   "Son Family",
+   "Kids",
+   "Super Saiyan",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Majin Vegeta",
+  "id": "DBL06-12S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan 2",
+   "Vegeta Clan",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Gotenks",
+  "id": "DBL06-01S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Hybrid Saiyan",
+   "Super Saiyan",
+   "Fusion Warrior",
+   "Kids",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "King of the Demon Realm Dabura",
+  "id": "DBL06-07S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "Weapon Wielder",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "King of the Demon Realm Dabura",
+  "id": "DBL26-04E",
+  "color": "RED",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Weapon Wielder",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Broly: Fury",
+  "id": "DBL-EVT-02S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Frieza Force",
+   "Powerful Opponent",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Super Gogeta",
+  "id": "DBL05-10S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan",
+   "Otherworld Warrior",
+   "Fusion Warrior",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Super Janemba",
+  "id": "DBL05-11S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Transforming Warrior",
+   "Regeneration",
+   "Powerful Opponent",
+   "Weapon Wielder",
+   "Defense Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Super Saiyan 2 Goku",
+  "id": "DBL07-01S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan 2",
+   "Son Family",
+   "Otherworld Warrior",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Bardock",
+  "id": "DBL07-04S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan",
+   "Team Bardock",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Chilled",
+  "id": "DBL07-05S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Lineage of Evil",
+   "Powerful Opponent",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Trunks (Teen)",
+  "id": "DBL07-03E",
+  "color": "GRN",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Hybrid Saiyan",
+   "Vegeta Clan",
+   "Super Saiyan",
+   "Future",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Pan: Honey",
+  "id": "DBL08-07E",
+  "color": "RED",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Hybrid Saiyan",
+   "GT",
+   "Son Family",
+   "Girls",
+   "Female",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Vegeta",
+  "id": "DBL07-02E",
+  "color": "PUR",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan",
+   "Vegeta Clan",
+   "Otherworld Warrior",
+   "Ranged Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Super Saiyan Gohan (Teen)",
+  "id": "DBL-EVT-12S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Hybrid Saiyan",
+   "Son Family",
+   "Super Saiyan",
+   "Legends Road",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Fasha",
+  "id": "DBL08-09E",
+  "color": "RED",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Girls",
+   "Team Bardock",
+   "Female",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Tora",
+  "id": "DBL08-08E",
+  "color": "PUR",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Team Bardock",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Goku",
+  "id": "DBL02-11S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "Defense Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Cabba",
+  "id": "DBL03-11E",
+  "color": "GRN",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Universe 6",
+   "Rival Universe",
+   "Universe Rep",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Nappa (Young)",
+  "id": "DBL-EVT-11S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Frieza Force",
+   "Saiyan",
+   "Support Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Nappa",
+  "id": "DBL39-04S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Frieza Force",
+   "Saiyan",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Broly",
+  "id": "DBL07-07S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan",
+   "Powerful Opponent",
+   "Ranged Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Super Saiyan God Goku",
+  "id": "DBL07-09S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "God Ki",
+   "Super Saiyan God",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "God of Destruction Beerus",
+  "id": "DBL07-11S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "God of Destruction",
+   "God Ki",
+   "Powerful Opponent",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Boujack",
+  "id": "DBL08-13S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Transforming Warrior",
+   "Powerful Opponent",
+   "Hera Clan",
+   "Ranged Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Final Form Cooler",
+  "id": "DBL08-10S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Transforming Warrior",
+   "Lineage of Evil",
+   "Powerful Opponent",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Trunks (Youth)",
+  "id": "DBL-EVT-03S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Hybrid Saiyan",
+   "Vegeta Clan",
+   "Future",
+   "Legends Road",
+   "Melee Type",
+   "Super Saiyan"
+  ]
+ },
+ {
+  "name": "Whis",
+  "id": "DBL13-05E",
+  "color": "RED",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Angel",
+   "God Ki",
+   "Weapon Wielder",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Gohan",
+  "id": "DBL08-06E",
+  "color": "GRN",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "Hybrid Saiyan",
+   "Son Family",
+   "Future",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan 2 Caulifla",
+  "id": "DBL09-03S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan 2",
+   "Girls",
+   "Universe 6",
+   "Rival Universe",
+   "Universe Rep",
+   "Female",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Ribrianne",
+  "id": "DBL11-07S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Transforming Warrior",
+   "Girls",
+   "Universe 2",
+   "Rival Universe",
+   "Universe Rep",
+   "Female",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Chi-Chi",
+  "id": "DBL09-06S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Girls",
+   "Weapon Wielder",
+   "Female",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Bulma (Youth)",
+  "id": "DBL09-05S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "Girls",
+   "Weapon Wielder",
+   "Female",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Videl",
+  "id": "DBL09-07S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Girls",
+   "Female",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Launch",
+  "id": "DBL31-05S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "Girls",
+   "Weapon Wielder",
+   "Female",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Caulifla",
+  "id": "DBL09-02E",
+  "color": "RED",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Girls",
+   "Universe 6",
+   "Rival Universe",
+   "Universe Rep",
+   "Female",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Kakunsa",
+  "id": "DBL16-08S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Transforming Warrior",
+   "Girls",
+   "Universe 2",
+   "Rival Universe",
+   "Universe Rep",
+   "Female",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Rozie",
+  "id": "DBL16-09S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Transforming Warrior",
+   "Girls",
+   "Universe 2",
+   "Rival Universe",
+   "Universe Rep",
+   "Female",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Chi-Chi",
+  "id": "DBL21-03E",
+  "color": "PUR",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Girls",
+   "Weapon Wielder",
+   "Female",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Videl",
+  "id": "DBL24-07H",
+  "color": "RED",
+  "rarity": "HERO",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Girls",
+   "Female",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Great Saiyaman 1",
+  "id": "DBL-EVT-05S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Hybrid Saiyan",
+   "Son Family",
+   "Transforming Warrior",
+   "Legends Road",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Great Saiyaman 2",
+  "id": "DBL11-06S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Girls",
+   "Transforming Warrior",
+   "Female",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Super Saiyan God Vegeta",
+  "id": "DBL09-09S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Vegeta Clan",
+   "God Ki",
+   "Super Saiyan God",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Ultimate Gohan",
+  "id": "DBL10-02S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Hybrid Saiyan",
+   "Son Family",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan 3 Goku",
+  "id": "DBL10-01S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan 3",
+   "Son Family",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan 2 Vegeta",
+  "id": "DBL10-03S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan 2",
+   "Vegeta Clan",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Super Namekian Lord Slug",
+  "id": "DBL10-10S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Regeneration",
+   "Namekian",
+   "Powerful Opponent",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Perfect Cell",
+  "id": "DBL10-09S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Android",
+   "Regeneration",
+   "Future",
+   "Powerful Opponent",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan 2 Gohan (Youth)",
+  "id": "DBL10-06S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "Hybrid Saiyan",
+   "Son Family",
+   "Super Saiyan 2",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Gogeta",
+  "id": "DBL10-11S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Fusion Warrior",
+   "Ranged Type",
+   "Sagas From the Movies",
+   "Super Saiyan"
+  ]
+ },
+ {
+  "name": "Gotenks",
+  "id": "DBL-EVT-04S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Hybrid Saiyan",
+   "Fusion Warrior",
+   "Kids",
+   "Legends Road",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Trunks (Teen)",
+  "id": "DBL10-07E",
+  "color": "PUR",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Hybrid Saiyan",
+   "Vegeta Clan",
+   "Future",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Tien",
+  "id": "DBL10-08E",
+  "color": "RED",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Super Warrior",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Majin Buu: Pure Evil",
+  "id": "DBL10-05E",
+  "color": "BLU",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "Regeneration",
+   "Powerful Opponent",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Vegeta",
+  "id": "DBL10-04E",
+  "color": "BLU",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan",
+   "Vegeta Clan",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Hyper Meta-Rilldo",
+  "id": "DBL11-04S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "GT",
+   "Powerful Opponent",
+   "Weapon Wielder",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan 3 Gotenks",
+  "id": "DBL11-08S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Hybrid Saiyan",
+   "Super Saiyan 3",
+   "Fusion Warrior",
+   "Kids",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Buu: Super",
+  "id": "DBL11-09S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Regeneration",
+   "Powerful Opponent",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Taitans Yamcha",
+  "id": "DBL-EVT-06S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Super Warrior",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Namekian Lord Slug",
+  "id": "DBL11-10E",
+  "color": "YEL",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Regeneration",
+   "Namekian",
+   "Powerful Opponent",
+   "Defense Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Bulma (Youth)",
+  "id": "DBL11-05E",
+  "color": "YEL",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Girls",
+   "Weapon Wielder",
+   "Female",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Goten (Kid)",
+  "id": "DBL12-06S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "Hybrid Saiyan",
+   "Son Family",
+   "Super Saiyan",
+   "Kids",
+   "Ranged Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Super Saiyan Gohan (Teen)",
+  "id": "DBL12-05S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Hybrid Saiyan",
+   "Son Family",
+   "Super Saiyan",
+   "Defense Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Super Saiyan Goku",
+  "id": "DBL12-04S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "Super Saiyan",
+   "Otherworld Warrior",
+   "Support Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Legendary Super Saiyan Broly",
+  "id": "DBL12-01S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan",
+   "Powerful Opponent",
+   "Defense Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Metal Cooler",
+  "id": "DBL12-02S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Lineage of Evil",
+   "Regeneration",
+   "Powerful Opponent",
+   "Defense Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Zangya",
+  "id": "DBL15-04E",
+  "color": "BLU",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Girls",
+   "Hera Clan",
+   "Female",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Videl",
+  "id": "DBL12-03E",
+  "color": "PUR",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Girls",
+   "Female",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "World Champion Hercule",
+  "id": "DBL24-11H",
+  "color": "BLU",
+  "rarity": "HERO",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Fused with Kami Piccolo",
+  "id": "DBL-EVT-09S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "Regeneration",
+   "Super Warrior",
+   "Namekian",
+   "Legends Road",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Boujack",
+  "id": "DBL15-03E",
+  "color": "GRN",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Transforming Warrior",
+   "Powerful Opponent",
+   "Hera Clan",
+   "Support Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Ultimate Gohan Absorbed Buu: Super",
+  "id": "DBL13-09S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Regeneration",
+   "Powerful Opponent",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan God SS Goku",
+  "id": "DBL13-01S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "God Ki",
+   "Super Saiyan God SS",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan God SS Vegeta",
+  "id": "DBL13-02S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Vegeta Clan",
+   "God Ki",
+   "Super Saiyan God SS",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Golden Frieza",
+  "id": "DBL13-06S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "Frieza Force",
+   "Transforming Warrior",
+   "Lineage of Evil",
+   "Powerful Opponent",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Final Form Frieza: Full Power",
+  "id": "DBL15-06S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Frieza Force",
+   "Transforming Warrior",
+   "Lineage of Evil",
+   "Powerful Opponent",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Goku",
+  "id": "DBL15-05S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "Ranged Type",
+   "Super Saiyan"
+  ]
+ },
+ {
+  "name": "Super Janemba",
+  "id": "DBL13-08E",
+  "color": "YEL",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Transforming Warrior",
+   "Regeneration",
+   "Powerful Opponent",
+   "Weapon Wielder",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Chilled",
+  "id": "DBL13-07E",
+  "color": "YEL",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Lineage of Evil",
+   "Powerful Opponent",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "God of Destruction Beerus",
+  "id": "DBL13-04E",
+  "color": "YEL",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "God of Destruction",
+   "God Ki",
+   "Powerful Opponent",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Super Vegito",
+  "id": "DBL13-03S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan",
+   "Fusion Warrior",
+   "Potara",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Buu: Kid",
+  "id": "DBL17-06S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Regeneration",
+   "Powerful Opponent",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Trunks (Teen)",
+  "id": "DBL14-04S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Hybrid Saiyan",
+   "Vegeta Clan",
+   "Future",
+   "Weapon Wielder",
+   "Melee Type",
+   "Sagas From the Movies",
+   "Super Saiyan"
+  ]
+ },
+ {
+  "name": "Android #13",
+  "id": "DBL14-05S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Android",
+   "Powerful Opponent",
+   "Ranged Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Android #14",
+  "id": "DBL14-02S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Android",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Android #15",
+  "id": "DBL14-03S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Android",
+   "Support Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Vados",
+  "id": "DBL28-06S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Angel",
+   "God Ki",
+   "Universe 6",
+   "Rival Universe",
+   "Girls",
+   "Universe Rep",
+   "Weapon Wielder",
+   "Female",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Guldo",
+  "id": "DBL14-09E",
+  "color": "GRN",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Frieza Force",
+   "Ginyu Force",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Burter",
+  "id": "DBL14-07E",
+  "color": "YEL",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Frieza Force",
+   "Ginyu Force",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Recoome",
+  "id": "DBL14-06E",
+  "color": "BLU",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Frieza Force",
+   "Ginyu Force",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Jeice",
+  "id": "DBL14-08E",
+  "color": "RED",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Frieza Force",
+   "Ginyu Force",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Captain Ginyu",
+  "id": "DBL14-10E",
+  "color": "PUR",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Frieza Force",
+   "Ginyu Force",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan God SS Goku",
+  "id": "DBL15-07S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "God Ki",
+   "Super Saiyan God SS",
+   "Universe Rep",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Hit",
+  "id": "DBL15-08S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Universe 6",
+   "Powerful Opponent",
+   "Rival Universe",
+   "Universe Rep",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Gohan (Youth)",
+  "id": "DBL17-01S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Hybrid Saiyan",
+   "Son Family",
+   "Super Saiyan",
+   "Melee Type",
+   "Sagas From the Movies",
+   "Super Saiyan 2"
+  ]
+ },
+ {
+  "name": "Goku",
+  "id": "DBL16-10S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "GT",
+   "Kids",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super #17",
+  "id": "DBL16-13S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "Android",
+   "Fusion Warrior",
+   "GT",
+   "Powerful Opponent",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Fusion Android #13",
+  "id": "DBL16-02S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Android",
+   "Fusion Warrior",
+   "Powerful Opponent",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Goku",
+  "id": "DBL16-01S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "Defense Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Android #18",
+  "id": "DBL16-07S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Android",
+   "Girls",
+   "Female",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Bunny Girl Bulma (Youth)",
+  "id": "DBL16-06S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Girls",
+   "Weapon Wielder",
+   "Female",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Goku Captain Ginyu",
+  "id": "DBL-EVT-10S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Frieza Force",
+   "Ginyu Force",
+   "Saiyan",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Gohan (Kid)",
+  "id": "DBL16-11E",
+  "color": "YEL",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Hybrid Saiyan",
+   "Son Family",
+   "Kids",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Krillin",
+  "id": "DBL16-12E",
+  "color": "PUR",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "Super Warrior",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Nail",
+  "id": "DBL16-03E",
+  "color": "PUR",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Regeneration",
+   "Namekian",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Nail",
+  "id": "DBL16-04H",
+  "color": "GRN",
+  "rarity": "HERO",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Regeneration",
+   "Namekian",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan 3 Goku",
+  "id": "DBL17-05S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan 3",
+   "Son Family",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Goku",
+  "id": "DBL22-01S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Piccolo",
+  "id": "DBL22-03S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "Regeneration",
+   "Namekian",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "God of Destruction Champa",
+  "id": "DBL28-05S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "God of Destruction",
+   "God Ki",
+   "Universe 6",
+   "Rival Universe",
+   "Universe Rep",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Bardock",
+  "id": "DBL19-01S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Defense Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Full Power Boujack",
+  "id": "DBL17-03S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Transforming Warrior",
+   "Powerful Opponent",
+   "Hera Clan",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Vegeta",
+  "id": "DBL14-01S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Vegeta Clan",
+   "Melee Type",
+   "Sagas From the Movies",
+   "Super Saiyan"
+  ]
+ },
+ {
+  "name": "Gohan",
+  "id": "DBL15-01S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "Hybrid Saiyan",
+   "Son Family",
+   "Future",
+   "Ranged Type",
+   "Super Saiyan"
+  ]
+ },
+ {
+  "name": "Raditz",
+  "id": "DBL22-04S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Frieza Force",
+   "Saiyan",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Ultimate Gohan Absorbed Buu: Super",
+  "id": "DBL-EVT-16S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Regeneration",
+   "Powerful Opponent",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Buu: Kid",
+  "id": "DBL-EVT-37S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Regeneration",
+   "Powerful Opponent",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Legendary Super Saiyan Broly",
+  "id": "DBL17-02E",
+  "color": "YEL",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan",
+   "Powerful Opponent",
+   "Ranged Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Android #13",
+  "id": "DBL17-04E",
+  "color": "RED",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Android",
+   "Powerful Opponent",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Super Saiyan Rosé Goku Black",
+  "id": "DBL18-06S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Future",
+   "God Ki",
+   "Super Saiyan Rosé",
+   "Powerful Opponent",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan God SS Vegeta",
+  "id": "DBL18-05S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Vegeta Clan",
+   "God Ki",
+   "Super Saiyan God SS",
+   "Future",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Cooler",
+  "id": "DBL18-03S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Transforming Warrior",
+   "Lineage of Evil",
+   "Powerful Opponent",
+   "Defense Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Final Form Frieza",
+  "id": "DBL18-01S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Frieza Force",
+   "Transforming Warrior",
+   "Lineage of Evil",
+   "Powerful Opponent",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Shisami",
+  "id": "DBL18-04E",
+  "color": "GRN",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Frieza Force",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan 4 Goku",
+  "id": "DBL19-05S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "GT",
+   "Super Saiyan 4",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan 4 Vegeta",
+  "id": "DBL19-07S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Vegeta Clan",
+   "GT",
+   "Super Saiyan 4",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Nuova Shenron",
+  "id": "DBL35-04S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Shadow Dragon",
+   "GT",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Syn Shenron",
+  "id": "DBL21-01S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Shadow Dragon",
+   "GT",
+   "Powerful Opponent",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Eis Shenron",
+  "id": "DBL35-03S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Shadow Dragon",
+   "GT",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Hero Tapion",
+  "id": "DBL19-03S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Weapon Wielder",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Broly: Cheelai (Assist)",
+  "id": "DBL22-09S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Frieza Force",
+   "Girls",
+   "Weapon Wielder",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Kakarot Goku",
+  "id": "DBL-EVT-14S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Buu: Super",
+  "id": "DBL19-04E",
+  "color": "RED",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Regeneration",
+   "Powerful Opponent",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Goku",
+  "id": "DBL19-06E",
+  "color": "PUR",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "GT",
+   "Kids",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Trunks (Kid)",
+  "id": "DBL19-02E",
+  "color": "GRN",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Hybrid Saiyan",
+   "Vegeta Clan",
+   "Kids",
+   "Weapon Wielder",
+   "Support Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "2nd Form Frieza",
+  "id": "DBL18-02E",
+  "color": "YEL",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Frieza Force",
+   "Transforming Warrior",
+   "Lineage of Evil",
+   "Powerful Opponent",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Trunks",
+  "id": "DBL24-06E",
+  "color": "PUR",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Hybrid Saiyan",
+   "Vegeta Clan",
+   "Super Saiyan",
+   "Future",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Hyper Meta-Rilldo",
+  "id": "DBL19-09E",
+  "color": "YEL",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "GT",
+   "Powerful Opponent",
+   "Weapon Wielder",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan God SS Gogeta",
+  "id": "DBL30-01S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan God SS",
+   "Fusion Warrior",
+   "God Ki",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Super Saiyan God Goku",
+  "id": "DBL20-05S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "God Ki",
+   "Super Saiyan God",
+   "Defense Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Super Saiyan Vegeta",
+  "id": "DBL20-06S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Vegeta Clan",
+   "Super Saiyan",
+   "Ranged Type",
+   "Sagas From the Movies",
+   "God Ki",
+   "Super Saiyan God"
+  ]
+ },
+ {
+  "name": "Super Gogeta",
+  "id": "DBL20-01S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan",
+   "Otherworld Warrior",
+   "Fusion Warrior",
+   "Ranged Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Super Janemba",
+  "id": "DBL20-02S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Transforming Warrior",
+   "Regeneration",
+   "Powerful Opponent",
+   "Weapon Wielder",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Super Baby 2",
+  "id": "DBL19-08S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "GT",
+   "Transforming Warrior",
+   "Regeneration",
+   "Saiyan",
+   "Powerful Opponent",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Android #14",
+  "id": "DBL20-03E",
+  "color": "BLU",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Android",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Android #15",
+  "id": "DBL20-04E",
+  "color": "GRN",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Android",
+   "Ranged Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Super Saiyan 2 Kefla",
+  "id": "DBL23-05S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan 2",
+   "Girls",
+   "Fusion Warrior",
+   "Potara",
+   "Universe 6",
+   "Rival Universe",
+   "Universe Rep",
+   "Female",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Trunks (Teen)",
+  "id": "DBL23-01S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Hybrid Saiyan",
+   "Super Saiyan",
+   "Vegeta Clan",
+   "Future",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "1st Form Cell",
+  "id": "DBL23-02S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "Android",
+   "Regeneration",
+   "Future",
+   "Powerful Opponent",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Baby Vegeta",
+  "id": "DBL21-02S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "GT",
+   "Transforming Warrior",
+   "Regeneration",
+   "Saiyan",
+   "Powerful Opponent",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Android #21",
+  "id": "DBL-EVT-13S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Android",
+   "Regeneration",
+   "Girls",
+   "Transforming Warrior",
+   "Powerful Opponent",
+   "Female",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Android #21: Evil",
+  "id": "DBL21-05S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Android",
+   "Regeneration",
+   "Girls",
+   "Transforming Warrior",
+   "Powerful Opponent",
+   "Female",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Android #21",
+  "id": "DBL-EVT-42S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "Android",
+   "Regeneration",
+   "Girls",
+   "Transforming Warrior",
+   "Female",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Android #21: Good",
+  "id": "DBL31-02S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "Android",
+   "Regeneration",
+   "Girls",
+   "Transforming Warrior",
+   "Female",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Basil",
+  "id": "DBL28-03S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Universe 9",
+   "Rival Universe",
+   "Universe Rep",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Bergamo",
+  "id": "DBL28-01S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Universe 9",
+   "Rival Universe",
+   "Universe Rep",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Lavender",
+  "id": "DBL28-02S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Universe 9",
+   "Rival Universe",
+   "Universe Rep",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "1st Form Frieza",
+  "id": "DBL22-05S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "Frieza Force",
+   "Transforming Warrior",
+   "Lineage of Evil",
+   "Powerful Opponent",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Bardock",
+  "id": "DBL22-02S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Team Bardock",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Vegito",
+  "id": "DBL22-08S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Fusion Warrior",
+   "Potara",
+   "Ranged Type",
+   "Super Saiyan"
+  ]
+ },
+ {
+  "name": "Shugesh",
+  "id": "DBL22-07E",
+  "color": "YEL",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Team Bardock",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Borgos",
+  "id": "DBL22-06E",
+  "color": "GRN",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Team Bardock",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Mercenary Tao",
+  "id": "DBL24-12H",
+  "color": "YEL",
+  "rarity": "HERO",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Super Kaioken Goku",
+  "id": "DBL24-13S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan",
+   "Son Family",
+   "Otherworld Warrior",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Pikkon",
+  "id": "DBL24-15S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Otherworld Warrior",
+   "Powerful Opponent",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Kale",
+  "id": "DBL47-04E",
+  "color": "BLU",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Girls",
+   "Universe 6",
+   "Rival Universe",
+   "Universe Rep",
+   "Female",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Gotenks",
+  "id": "DBL23-04S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Hybrid Saiyan",
+   "Super Saiyan",
+   "Fusion Warrior",
+   "Kids",
+   "Melee Type",
+   "Super Saiyan 3"
+  ]
+ },
+ {
+  "name": "Super Saiyan God SS Goku",
+  "id": "DBL25-04S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "God Ki",
+   "Super Saiyan God SS",
+   "Future",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan God SS Vegeta",
+  "id": "DBL25-05S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Vegeta Clan",
+   "God Ki",
+   "Super Saiyan God SS",
+   "Future",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Goku (Youth)",
+  "id": "DBL24-14E",
+  "color": "BLU",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Kids",
+   "Son Family",
+   "Weapon Wielder",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Hit",
+  "id": "DBL25-06E",
+  "color": "RED",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Universe 6",
+   "Powerful Opponent",
+   "Rival Universe",
+   "Universe Rep",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan God SS Vegito",
+  "id": "DBL24-01S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan God SS",
+   "God Ki",
+   "Future",
+   "Fusion Warrior",
+   "Potara",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Trunks (Adult) (Rage)",
+  "id": "DBL24-05S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Hybrid Saiyan",
+   "Super Saiyan",
+   "Future",
+   "Vegeta Clan",
+   "Weapon Wielder",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Fusion Zamasu",
+  "id": "DBL24-08S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "God Ki",
+   "Future",
+   "Regeneration",
+   "Fusion Warrior",
+   "Potara",
+   "Powerful Opponent",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Omega Shenron",
+  "id": "DBL24-09S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Shadow Dragon",
+   "GT",
+   "Regeneration",
+   "Fusion Warrior",
+   "Powerful Opponent",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Full Power Saiyan 4 Goku",
+  "id": "DBL24-03S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan 4",
+   "GT",
+   "Son Family",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Syn Shenron",
+  "id": "DBL24-10E",
+  "color": "BLU",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Shadow Dragon",
+   "GT",
+   "Powerful Opponent",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Gogeta",
+  "id": "DBL24-02E",
+  "color": "RED",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Fusion Warrior",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Super Vegeta",
+  "id": "DBL24-04E",
+  "color": "GRN",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Vegeta Clan",
+   "Super Saiyan",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Gohan (Adult)",
+  "id": "DBL26-02S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Hybrid Saiyan",
+   "Son Family",
+   "Universe Rep",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Gotenks Absorbed Buu: Super",
+  "id": "DBL26-03S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "Regeneration",
+   "Powerful Opponent",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Wasteland Bandit Yamcha",
+  "id": "DBL31-03S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Weapon Wielder",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Tien",
+  "id": "DBL25-03E",
+  "color": "GRN",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Super Warrior",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Krillin",
+  "id": "DBL25-01E",
+  "color": "PUR",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Super Warrior",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Yamcha",
+  "id": "DBL25-02E",
+  "color": "RED",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Super Warrior",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Bido",
+  "id": "DBL36-06E",
+  "color": "PUR",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Hera Clan",
+   "Support Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Bujin",
+  "id": "DBL36-07E",
+  "color": "GRN",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Hera Clan",
+   "Support Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Gokua",
+  "id": "DBL36-05E",
+  "color": "BLU",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Transforming Warrior",
+   "Hera Clan",
+   "Weapon Wielder",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Hit",
+  "id": "DBL33-04S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Universe 6",
+   "Rival Universe",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Turles",
+  "id": "DBL25-08S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Powerful Opponent",
+   "Turles Crusher Corps",
+   "Ranged Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Super Saiyan Goku",
+  "id": "DBL25-07S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "Super Saiyan",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Jiren",
+  "id": "DBL29-06S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Rival Universe",
+   "Universe 11",
+   "Powerful Opponent",
+   "Universe Rep",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Toppo",
+  "id": "DBL29-07S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Rival Universe",
+   "Universe 11",
+   "Universe Rep",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Dyspo",
+  "id": "DBL29-08S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Rival Universe",
+   "Universe 11",
+   "Universe Rep",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Goten (Kid)",
+  "id": "DBL27-02S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Hybrid Saiyan",
+   "Son Family",
+   "Kids",
+   "Support Type",
+   "Super Saiyan"
+  ]
+ },
+ {
+  "name": "Trunks (Kid)",
+  "id": "DBL27-03S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Hybrid Saiyan",
+   "Vegeta Clan",
+   "Kids",
+   "Melee Type",
+   "Super Saiyan"
+  ]
+ },
+ {
+  "name": "Perfect Form Cell",
+  "id": "DBL26-08S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Android",
+   "Regeneration",
+   "Future",
+   "Powerful Opponent",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Vegeta",
+  "id": "DBL26-06S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Vegeta Clan",
+   "Melee Type",
+   "Super Saiyan 2"
+  ]
+ },
+ {
+  "name": "Super Saiyan 2 Goku",
+  "id": "DBL26-05E",
+  "color": "PUR",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan 2",
+   "Son Family",
+   "Otherworld Warrior",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Videl",
+  "id": "DBL26-07E",
+  "color": "RED",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Girls",
+   "Female",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Great Saiyaman 1 &amp; 2 (Assist)",
+  "id": "DBL27-05S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Hybrid Saiyan",
+   "Son Family",
+   "Transforming Warrior",
+   "Girls",
+   "Support Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Goku Black",
+  "id": "DBL27-06S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Future",
+   "Powerful Opponent",
+   "Ranged Type",
+   "God Ki",
+   "Super Saiyan Rosé"
+  ]
+ },
+ {
+  "name": "Ribrianne",
+  "id": "DBL27-07E",
+  "color": "YEL",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Transforming Warrior",
+   "Girls",
+   "Universe 2",
+   "Rival Universe",
+   "Universe Rep",
+   "Female",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Kakunsa",
+  "id": "DBL28-04E",
+  "color": "GRN",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Transforming Warrior",
+   "Girls",
+   "Universe 2",
+   "Rival Universe",
+   "Universe Rep",
+   "Female",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Rozie",
+  "id": "DBL28-07E",
+  "color": "RED",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Transforming Warrior",
+   "Girls",
+   "Universe 2",
+   "Rival Universe",
+   "Universe Rep",
+   "Female",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Gohan (Kid)",
+  "id": "DBL27-01E",
+  "color": "PUR",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Hybrid Saiyan",
+   "Son Family",
+   "Kids",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Yurin",
+  "id": "DBL47-03E",
+  "color": "GRN",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Girls",
+   "Female",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Vegeta",
+  "id": "DBL29-01S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan",
+   "Vegeta Clan",
+   "Defense Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Metal Cooler",
+  "id": "DBL29-02S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Lineage of Evil",
+   "Regeneration",
+   "Powerful Opponent",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Full Power Boujack",
+  "id": "DBL29-03E",
+  "color": "YEL",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Transforming Warrior",
+   "Powerful Opponent",
+   "Hera Clan",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Ultra Instinct -Sign- Goku",
+  "id": "DBL29-04S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "God Ki",
+   "Universe Rep",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Final Form Frieza",
+  "id": "DBL29-05E",
+  "color": "BLU",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Frieza Force",
+   "Transforming Warrior",
+   "Lineage of Evil",
+   "Powerful Opponent",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Broly: Full Power",
+  "id": "DBL30-03S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan",
+   "Powerful Opponent",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Final Form Frieza",
+  "id": "DBL30-02S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "Frieza Force",
+   "Transforming Warrior",
+   "Lineage of Evil",
+   "Ranged Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Broly",
+  "id": "DBL30-04E",
+  "color": "YEL",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Frieza Force",
+   "Defense Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Vegeta",
+  "id": "DBL-EVT-15S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Vegeta Clan",
+   "Ranged Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Goku",
+  "id": "DBL-EVT-40S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "Defense Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Super Saiyan Gohan",
+  "id": "DBL31-01S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Hybrid Saiyan",
+   "Son Family",
+   "Super Saiyan",
+   "Future",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Master Roshi",
+  "id": "DBL31-04E",
+  "color": "BLU",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Buu: Kid",
+  "id": "DBL32-02S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "Regeneration",
+   "Powerful Opponent",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Vegeta",
+  "id": "DBL32-01S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Vegeta Clan",
+   "Otherworld Warrior",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Bulma (Youth)",
+  "id": "DBL-EVT-THX1000",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Girls",
+   "Weapon Wielder",
+   "Female",
+   "Defense Type",
+   "Game Originals"
+  ]
+ },
+ {
+  "name": "Super Saiyan Broly",
+  "id": "DBL32-05S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan",
+   "Powerful Opponent",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Demon King Piccolo (Aged)",
+  "id": "DBL32-04S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Regeneration",
+   "Namekian",
+   "Powerful Opponent",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Trunks (Youth)",
+  "id": "DBL32-03E",
+  "color": "GRN",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Hybrid Saiyan",
+   "Vegeta Clan",
+   "Future",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Rosé Goku Black",
+  "id": "DBL33-02S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Future",
+   "God Ki",
+   "Super Saiyan Rosé",
+   "Powerful Opponent",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Trunks: Mai (Assist)",
+  "id": "DBL33-01S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Hybrid Saiyan",
+   "Future",
+   "Vegeta Clan",
+   "Girls",
+   "Weapon Wielder",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Goku",
+  "id": "DBL-EVT-17U",
+  "color": "RED",
+  "rarity": "ULTRA",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan",
+   "Son Family",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan God SS Goku",
+  "id": "DBL33-03S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "God Ki",
+   "Super Saiyan God SS",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Goku Black",
+  "id": "DBL34-02E",
+  "color": "BLU",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Future",
+   "Powerful Opponent",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan 4 Goku",
+  "id": "DBL34-01S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "GT",
+   "Super Saiyan 4",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Android #18",
+  "id": "DBL34-04S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Android",
+   "Girls",
+   "Universe Rep",
+   "Female",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Android #17",
+  "id": "DBL34-03S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Android",
+   "Universe Rep",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Baby Vegeta",
+  "id": "DBL34-05E",
+  "color": "BLU",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "GT",
+   "Transforming Warrior",
+   "Regeneration",
+   "Saiyan",
+   "Powerful Opponent",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan 4 Gogeta",
+  "id": "DBL35-01S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan 4",
+   "Fusion Warrior",
+   "GT",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Super #17",
+  "id": "DBL35-06E",
+  "color": "PUR",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Android",
+   "Fusion Warrior",
+   "GT",
+   "Powerful Opponent",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Super Baby 2",
+  "id": "DBL35-07E",
+  "color": "RED",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "GT",
+   "Transforming Warrior",
+   "Regeneration",
+   "Saiyan",
+   "Powerful Opponent",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Half-Corrupted Fusion Zamasu",
+  "id": "DBL35-08S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "God Ki",
+   "Future",
+   "Regeneration",
+   "Fusion Warrior",
+   "Potara",
+   "Powerful Opponent",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan God SS Vegito",
+  "id": "DBL35-02S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan God SS",
+   "God Ki",
+   "Future",
+   "Fusion Warrior",
+   "Potara",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan 2 Kefla",
+  "id": "DBL35-10S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan 2",
+   "Girls",
+   "Fusion Warrior",
+   "Potara",
+   "Universe 6",
+   "Rival Universe",
+   "Universe Rep",
+   "Female",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan 3 Gotenks",
+  "id": "DBL35-05E",
+  "color": "GRN",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Hybrid Saiyan",
+   "Super Saiyan 3",
+   "Fusion Warrior",
+   "Kids",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Rosé Goku Black",
+  "id": "DBL35-09E",
+  "color": "YEL",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Future",
+   "God Ki",
+   "Super Saiyan Rosé",
+   "Powerful Opponent",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Vegeta",
+  "id": "DBL-EVT-24U",
+  "color": "PUR",
+  "rarity": "ULTRA",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Vegeta Clan",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Goku",
+  "id": "DBL-EVT-18S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Goku",
+  "id": "DBL-EVT-19S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan",
+   "Son Family",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan 2 Goku",
+  "id": "DBL-EVT-20S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan 2",
+   "Son Family",
+   "Otherworld Warrior",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan 3 Goku",
+  "id": "DBL-EVT-21S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan 3",
+   "Son Family",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan God Goku",
+  "id": "DBL-EVT-22S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "God Ki",
+   "Super Saiyan God",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan God SS Goku",
+  "id": "DBL-EVT-23S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "God Ki",
+   "Super Saiyan God SS",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Gohan (Kid)",
+  "id": "DBL-EVT-98S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Hybrid Saiyan",
+   "Son Family",
+   "Kids",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Trunks (Kid)",
+  "id": "DBL-EVT-106S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Hybrid Saiyan",
+   "Vegeta Clan",
+   "Kids",
+   "Super Saiyan",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Gohan (Youth)",
+  "id": "DBL36-01S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Hybrid Saiyan",
+   "Son Family",
+   "Super Saiyan",
+   "Melee Type",
+   "Sagas From the Movies",
+   "Super Saiyan 2"
+  ]
+ },
+ {
+  "name": "Zangya",
+  "id": "DBL36-04E",
+  "color": "YEL",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Girls",
+   "Hera Clan",
+   "Female",
+   "Ranged Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Boujack",
+  "id": "DBL36-03S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Transforming Warrior",
+   "Powerful Opponent",
+   "Hera Clan",
+   "Defense Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Super Saiyan Trunks (Teen)",
+  "id": "DBL36-02S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Hybrid Saiyan",
+   "Super Saiyan",
+   "Vegeta Clan",
+   "Future",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Final Form Frieza: Full Power",
+  "id": "DBL37-02S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Frieza Force",
+   "Transforming Warrior",
+   "Lineage of Evil",
+   "Powerful Opponent",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Appule",
+  "id": "DBL-EVT-25E",
+  "color": "PUR",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Frieza Force",
+   "Minion",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Ramon",
+  "id": "DBL-EVT-26E",
+  "color": "GRN",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Frieza Force",
+   "Minion",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Orlen",
+  "id": "DBL-EVT-27E",
+  "color": "YEL",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Frieza Force",
+   "Minion",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Nabana",
+  "id": "DBL-EVT-28E",
+  "color": "BLU",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Frieza Force",
+   "Minion",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Roberry",
+  "id": "DBL-EVT-29E",
+  "color": "RED",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Frieza Force",
+   "Minion",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Raspberry",
+  "id": "DBL-EVT-52E",
+  "color": "RED",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Frieza Force",
+   "Minion",
+   "Weapon Wielder",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Navel",
+  "id": "DBL-EVT-53E",
+  "color": "GRN",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Frieza Force",
+   "Minion",
+   "Weapon Wielder",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Monrei",
+  "id": "DBL-EVT-54E",
+  "color": "YEL",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Frieza Force",
+   "Minion",
+   "Weapon Wielder",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Guprei",
+  "id": "DBL-EVT-55E",
+  "color": "PUR",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Frieza Force",
+   "Minion",
+   "Weapon Wielder",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan 3 Goku",
+  "id": "DBL37-03S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan 3",
+   "Son Family",
+   "GT",
+   "Kids",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Majuub",
+  "id": "DBL37-04S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "GT",
+   "Fusion Warrior",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Goku",
+  "id": "DBL37-01E",
+  "color": "GRN",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan",
+   "Son Family",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Legendary Super Saiyan Broly",
+  "id": "DBL-EVT-30S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan",
+   "Powerful Opponent",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Super Saiyan God SS Evolved Vegeta",
+  "id": "DBL38-01S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Vegeta Clan",
+   "God Ki",
+   "Super Saiyan God SS",
+   "Universe Rep",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Jiren",
+  "id": "DBL38-02E",
+  "color": "BLU",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Universe 11",
+   "Rival Universe",
+   "Powerful Opponent",
+   "Universe Rep",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "God of Destruction Toppo",
+  "id": "DBL38-03S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "God of Destruction",
+   "God Ki",
+   "Universe 11",
+   "Rival Universe",
+   "Universe Rep",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan 2 Caulifla: Kale (Assist)",
+  "id": "DBL38-04S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan 2",
+   "Universe 6",
+   "Rival Universe",
+   "Girls",
+   "Universe Rep",
+   "Female",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Perfect Cell",
+  "id": "DBL40-02S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Android",
+   "Regeneration",
+   "Future",
+   "Powerful Opponent",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Vegeta",
+  "id": "DBL39-01S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Frieza Force",
+   "Saiyan",
+   "Powerful Opponent",
+   "Vegeta Clan",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Yajirobe",
+  "id": "DBL39-02E",
+  "color": "PUR",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Super Warrior",
+   "Weapon Wielder",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Saibaman",
+  "id": "DBL-EVT-31E",
+  "color": "GRN",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Minion",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Kaiwareman",
+  "id": "DBL-EVT-32E",
+  "color": "BLU",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Minion",
+   "Ranged Type",
+   "Game Originals"
+  ]
+ },
+ {
+  "name": "Kyukonman",
+  "id": "DBL-EVT-33E",
+  "color": "YEL",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Minion",
+   "Defense Type",
+   "Game Originals"
+  ]
+ },
+ {
+  "name": "Tennenman",
+  "id": "DBL-EVT-34E",
+  "color": "RED",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Minion",
+   "Ranged Type",
+   "Game Originals"
+  ]
+ },
+ {
+  "name": "Jinkouman",
+  "id": "DBL-EVT-35E",
+  "color": "RED",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Minion",
+   "Melee Type",
+   "Game Originals"
+  ]
+ },
+ {
+  "name": "Copyman",
+  "id": "DBL-EVT-36E",
+  "color": "PUR",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Minion",
+   "Support Type",
+   "Game Originals"
+  ]
+ },
+ {
+  "name": "Gohan (Kid): Piccolo (Assist)",
+  "id": "DBL39-03S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Hybrid Saiyan",
+   "Son Family",
+   "Kids",
+   "Regeneration",
+   "Namekian",
+   "Super Warrior",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan 2 Gohan (Youth)",
+  "id": "DBL40-01E",
+  "color": "BLU",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Hybrid Saiyan",
+   "Son Family",
+   "Super Saiyan 2",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Omega Shenron",
+  "id": "DBL-EVT-38U",
+  "color": "RED",
+  "rarity": "ULTRA",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Shadow Dragon",
+   "GT",
+   "Regeneration",
+   "Fusion Warrior",
+   "Powerful Opponent",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Goku",
+  "id": "DBL40-03S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "Super Saiyan",
+   "Defense Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Fused with Nail Piccolo",
+  "id": "DBL40-04S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Super Warrior",
+   "Regeneration",
+   "Namekian",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Super Saiyan Rosé Goku Black",
+  "id": "DBL-EVT-39S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Future",
+   "God Ki",
+   "Super Saiyan Rosé",
+   "Powerful Opponent",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan God SS Goku &amp; Vegeta",
+  "id": "DBL41-01S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "God Ki",
+   "Super Saiyan God SS",
+   "Son Family",
+   "Vegeta Clan",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Broly",
+  "id": "DBL41-03S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Frieza Force",
+   "Powerful Opponent",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Final Form Frieza",
+  "id": "DBL41-05E",
+  "color": "GRN",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Frieza Force",
+   "Transforming Warrior",
+   "Lineage of Evil",
+   "Defense Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Super Saiyan Trunks (Adult)",
+  "id": "DBL41-02S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Hybrid Saiyan",
+   "Super Saiyan",
+   "Future",
+   "Vegeta Clan",
+   "Weapon Wielder",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Zamasu: Goku Black (Assist)",
+  "id": "DBL41-04S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "God Ki",
+   "Future",
+   "Regeneration",
+   "Saiyan",
+   "Super Saiyan Rosé",
+   "Powerful Opponent",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Mai",
+  "id": "DBL41-06E",
+  "color": "RED",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Girls",
+   "Future",
+   "Weapon Wielder",
+   "Female",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Super Gogeta",
+  "id": "DBL42-01U",
+  "color": "BLU",
+  "rarity": "ULTRA",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan",
+   "Otherworld Warrior",
+   "Fusion Warrior",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "1st Form Frieza",
+  "id": "DBL-EVT-41S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Frieza Force",
+   "Transforming Warrior",
+   "Lineage of Evil",
+   "Powerful Opponent",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Bardock",
+  "id": "DBL43-01S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Team Bardock",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Tora",
+  "id": "DBL43-02E",
+  "color": "GRN",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Team Bardock",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Fasha",
+  "id": "DBL43-03E",
+  "color": "BLU",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Girls",
+   "Team Bardock",
+   "Female",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Kaioken Goku",
+  "id": "DBL43-04S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Final Form Frieza",
+  "id": "DBL43-05S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Frieza Force",
+   "Transforming Warrior",
+   "Lineage of Evil",
+   "Powerful Opponent",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Android #18",
+  "id": "DBL-EVT-43S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Android",
+   "Girls",
+   "Female",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Jiren: Full Power",
+  "id": "DBL44-01S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Rival Universe",
+   "Universe 11",
+   "Powerful Opponent",
+   "Universe Rep",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "God of Destruction Beerus",
+  "id": "DBL44-02S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "God of Destruction",
+   "God Ki",
+   "Universe Rep",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Toppo",
+  "id": "DBL44-03E",
+  "color": "YEL",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Rival Universe",
+   "Universe 11",
+   "Universe Rep",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Dyspo",
+  "id": "DBL44-04E",
+  "color": "GRN",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Rival Universe",
+   "Universe 11",
+   "Universe Rep",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan God SS Goku",
+  "id": "DBL-EVT-44S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "God Ki",
+   "Super Saiyan God SS",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan God SS Vegeta",
+  "id": "DBL-EVT-45S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Vegeta Clan",
+   "God Ki",
+   "Super Saiyan God SS",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan God SS Kaioken Goku",
+  "id": "DBL45-01U",
+  "color": "YEL",
+  "rarity": "ULTRA",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "God Ki",
+   "Super Saiyan God SS",
+   "Universe Rep",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Golden Frieza",
+  "id": "DBL45-02S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Frieza Force",
+   "Transforming Warrior",
+   "Lineage of Evil",
+   "Otherworld Warrior",
+   "Universe Rep",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Whis",
+  "id": "DBL45-03S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Angel",
+   "God Ki",
+   "Weapon Wielder",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Trunks (Teen)",
+  "id": "DBL-EVT-46S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Hybrid Saiyan",
+   "Vegeta Clan",
+   "Super Saiyan",
+   "Future",
+   "Weapon Wielder",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Android #17 &amp; Android #18",
+  "id": "DBL46-01S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Android",
+   "Girls",
+   "Future",
+   "Powerful Opponent",
+   "Ranged Type",
+   "Female"
+  ]
+ },
+ {
+  "name": "Gohan &amp; Trunks (Youth)",
+  "id": "DBL46-02E",
+  "color": "GRN",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Hybrid Saiyan",
+   "Son Family",
+   "Vegeta Clan",
+   "Future",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Gogeta",
+  "id": "DBL-EVT-50S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan",
+   "Fusion Warrior",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Gamma 1",
+  "id": "DBL46-03S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Android",
+   "Weapon Wielder",
+   "Sagas From the Movies",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Gamma 2",
+  "id": "DBL46-04S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Android",
+   "Weapon Wielder",
+   "Sagas From the Movies",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Ultra Instinct Goku",
+  "id": "DBL47-01S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "God Ki",
+   "Universe Rep",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Vegeta",
+  "id": "DBL47-02S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Vegeta Clan",
+   "Super Saiyan",
+   "Universe Rep",
+   "Defense Type",
+   "God Ki",
+   "Super Saiyan God SS"
+  ]
+ },
+ {
+  "name": "Goku",
+  "id": "DBL-EVT-47S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "Universe Rep",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Krillin",
+  "id": "DBL-EVT-48S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Super Warrior",
+   "Universe Rep",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Tien",
+  "id": "DBL-EVT-49S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Super Warrior",
+   "Universe Rep",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan 3 Goku",
+  "id": "DBL48-01S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan 3",
+   "Son Family",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Hero Tapion",
+  "id": "DBL48-02S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Powerful Opponent",
+   "Weapon Wielder",
+   "Support Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Turles",
+  "id": "DBL48-03E",
+  "color": "RED",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Powerful Opponent",
+   "Turles Crusher Corps",
+   "Defense Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Final Form Cooler",
+  "id": "DBL48-04E",
+  "color": "BLU",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Transforming Warrior",
+   "Lineage of Evil",
+   "Powerful Opponent",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Majin Vegeta",
+  "id": "DBL-EVT-51S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan 2",
+   "Vegeta Clan",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Super Vegito",
+  "id": "DBL49-01U",
+  "color": "YEL",
+  "rarity": "ULTRA",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan",
+   "Fusion Warrior",
+   "Potara",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Ultimate Gohan Absorbed Buu: Super",
+  "id": "DBL49-03S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Regeneration",
+   "Powerful Opponent",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Tien",
+  "id": "DBL49-02S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Super Warrior",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Perfect Form Cell",
+  "id": "DBL-EVT-56S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Android",
+   "Regeneration",
+   "Future",
+   "Powerful Opponent",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Beast Gohan",
+  "id": "DBL52-01S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Hybrid Saiyan",
+   "Son Family",
+   "Sagas From the Movies",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Power Awakening Piccolo",
+  "id": "DBL52-03S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Regeneration",
+   "Super Warrior",
+   "Namekian",
+   "Transforming Warrior",
+   "Sagas From the Movies",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Metal Cooler",
+  "id": "DBL-EVT-57S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Lineage of Evil",
+   "Regeneration",
+   "Powerful Opponent",
+   "Ranged Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Final Form Cooler",
+  "id": "DBL51-01S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Transforming Warrior",
+   "Lineage of Evil",
+   "Powerful Opponent",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Legendary Super Saiyan Broly",
+  "id": "DBL51-03U",
+  "color": "PUR",
+  "rarity": "ULTRA",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan",
+   "Powerful Opponent",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Thouser",
+  "id": "DBL51-02E",
+  "color": "GRN",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Super Saiyan Trunks (Teen)",
+  "id": "DBL50-01S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Hybrid Saiyan",
+   "Vegeta Clan",
+   "Super Saiyan",
+   "Future",
+   "Weapon Wielder",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Mecha Frieza",
+  "id": "DBL50-02S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Frieza Force",
+   "Lineage of Evil",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Goku Black",
+  "id": "DBL50-03S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Future",
+   "Powerful Opponent",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Pan",
+  "id": "DBL52-02S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Hybrid Saiyan",
+   "Son Family",
+   "Girls",
+   "Kids",
+   "Sagas From the Movies",
+   "Female",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan 4 Goku &amp; Vegeta",
+  "id": "DBL53-01S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "GT",
+   "Super Saiyan 4",
+   "Son Family",
+   "Vegeta Clan",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Android #17",
+  "id": "DBL53-03S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Android",
+   "GT",
+   "Powerful Opponent",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Buu: Super",
+  "id": "DBL-EVT-65S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Regeneration",
+   "Powerful Opponent",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Super #17",
+  "id": "DBL-EVT-58S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Android",
+   "Fusion Warrior",
+   "GT",
+   "Powerful Opponent",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan God SS Gogeta",
+  "id": "DBL54-05U",
+  "color": "PUR",
+  "rarity": "ULTRA",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan God SS",
+   "Fusion Warrior",
+   "God Ki",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Android #18",
+  "id": "DBL55-02E",
+  "color": "YEL",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Android",
+   "Girls",
+   "Universe Rep",
+   "Female",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Android #17",
+  "id": "DBL55-01S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Android",
+   "Universe Rep",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Hit",
+  "id": "DBL55-03U",
+  "color": "RED",
+  "rarity": "ULTRA",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Universe 6",
+   "Powerful Opponent",
+   "Rival Universe",
+   "Universe Rep",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan 2 &amp; Super Saiyan God SS Trunks (Adult) &amp; Vegeta",
+  "id": "DBL54-03S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": true,
+  "stat": "blast",
+  "tags": [
+   "Vegeta Clan",
+   "Hybrid Saiyan",
+   "Future",
+   "Super Saiyan 2",
+   "Weapon Wielder",
+   "Saiyan",
+   "God Ki",
+   "Super Saiyan God SS",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Zamasu",
+  "id": "DBL54-04S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "God Ki",
+   "Future",
+   "Regeneration",
+   "Powerful Opponent",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Fusion Zamasu",
+  "id": "DBL-EVT-60S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "God Ki",
+   "Future",
+   "Regeneration",
+   "Fusion Warrior",
+   "Potara",
+   "Powerful Opponent",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan God SS Goku",
+  "id": "DBL54-01E",
+  "color": "GRN",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "God Ki",
+   "Super Saiyan God SS",
+   "Future",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan God SS Vegeta",
+  "id": "DBL54-02E",
+  "color": "RED",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Vegeta Clan",
+   "God Ki",
+   "Super Saiyan God SS",
+   "Future",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Broly: Full Power",
+  "id": "DBL-EVT-61S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan",
+   "Powerful Opponent",
+   "Defense Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Omega Shenron",
+  "id": "DBL53-04E",
+  "color": "BLU",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Shadow Dragon",
+   "GT",
+   "Regeneration",
+   "Fusion Warrior",
+   "Powerful Opponent",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Majuub",
+  "id": "DBL53-02E",
+  "color": "RED",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "GT",
+   "Fusion Warrior",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Goku",
+  "id": "DBL-EVT-59S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "Super Saiyan",
+   "GT",
+   "Kids",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Giblet",
+  "id": "DBL00-04",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Defense Type",
+   "Game Originals"
+  ]
+ },
+ {
+  "name": "Zahha",
+  "id": "DBL00-02",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Weapon Wielder",
+   "Support Type",
+   "Game Originals"
+  ]
+ },
+ {
+  "name": "Saiyan in Red",
+  "id": "DBL00-03",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Ranged Type",
+   "Game Originals"
+  ]
+ },
+ {
+  "name": "Super Saiyan 2 Kefla",
+  "id": "DBL-EVT-62S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan 2",
+   "Girls",
+   "Fusion Warrior",
+   "Potara",
+   "Universe 6",
+   "Rival Universe",
+   "Universe Rep",
+   "Female",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan God SS Goku",
+  "id": "DBL56-01S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "God Ki",
+   "Super Saiyan God SS",
+   "Universe Rep",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Master Roshi",
+  "id": "DBL56-02S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Super Warrior",
+   "Universe Rep",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Bergamo",
+  "id": "DBL56-04E",
+  "color": "PUR",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Universe 9",
+   "Rival Universe",
+   "Universe Rep",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Kale (Berserk)",
+  "id": "DBL56-03E",
+  "color": "BLU",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan",
+   "Girls",
+   "Universe 6",
+   "Rival Universe",
+   "Universe Rep",
+   "Female",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan 2 Trunks (Adult)",
+  "id": "DBL-EVT-63S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Hybrid Saiyan",
+   "Vegeta Clan",
+   "Super Saiyan 2",
+   "Future",
+   "Weapon Wielder",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Rosé Goku Black",
+  "id": "DBL57-01U",
+  "color": "GRN",
+  "rarity": "ULTRA",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Future",
+   "God Ki",
+   "Super Saiyan Rosé",
+   "Powerful Opponent",
+   "Weapon Wielder",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Trunks (Adult)",
+  "id": "DBL57-02S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Hybrid Saiyan",
+   "Vegeta Clan",
+   "Super Saiyan",
+   "Future",
+   "Weapon Wielder",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "2nd Form Cell",
+  "id": "DBL57-03S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Android",
+   "Regeneration",
+   "Future",
+   "Powerful Opponent",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Pui Pui",
+  "id": "DBL-EVT-64S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan 3 &amp; Super Saiyan 2 Goku &amp; Vegeta",
+  "id": "DBL58-01S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan 3",
+   "Son Family",
+   "Super Saiyan 2",
+   "Vegeta Clan",
+   "Otherworld Warrior",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Buu: Kid",
+  "id": "DBL58-03U",
+  "color": "YEL",
+  "rarity": "ULTRA",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Regeneration",
+   "Powerful Opponent",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Goku &amp; Final Form Frieza",
+  "id": "DBL59-01S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "Universe Rep",
+   "Frieza Force",
+   "Transforming Warrior",
+   "Lineage of Evil",
+   "Otherworld Warrior",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Jiren",
+  "id": "DBL59-04S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Rival Universe",
+   "Universe 11",
+   "Powerful Opponent",
+   "Universe Rep",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Kahseral",
+  "id": "DBL59-06S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Rival Universe",
+   "Universe 11",
+   "Universe Rep",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Kyawei",
+  "id": "DBL59-05S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Rival Universe",
+   "Universe 4",
+   "Girls",
+   "Universe Rep",
+   "Weapon Wielder",
+   "Female",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "God of Destruction Champa",
+  "id": "DBL59-02E",
+  "color": "BLU",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "God of Destruction",
+   "God Ki",
+   "Universe 6",
+   "Rival Universe",
+   "Universe Rep",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Vados",
+  "id": "DBL59-03E",
+  "color": "PUR",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Angel",
+   "God Ki",
+   "Universe 6",
+   "Rival Universe",
+   "Girls",
+   "Universe Rep",
+   "Weapon Wielder",
+   "Female",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Ultimate Gohan",
+  "id": "DBL-EVT-66S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Hybrid Saiyan",
+   "Son Family",
+   "Universe Rep",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan God SS Vegeta",
+  "id": "DBL-EVT-67S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Vegeta Clan",
+   "God Ki",
+   "Super Saiyan God SS",
+   "Universe Rep",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Final Form Cooler",
+  "id": "DBL-EVT-68S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Transforming Warrior",
+   "Lineage of Evil",
+   "Powerful Opponent",
+   "Ranged Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Android #13",
+  "id": "DBL-EVT-69S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Android",
+   "Powerful Opponent",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Gamma 1 & Gamma 2",
+  "id": "DBL60-03S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Android",
+   "Weapon Wielder",
+   "Sagas From the Movies",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Magenta",
+  "id": "DBL60-04S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Powerful Opponent",
+   "Android",
+   "Sagas From the Movies",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Power Awakening Piccolo",
+  "id": "DBL60-02S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Regeneration",
+   "Super Warrior",
+   "Namekian",
+   "Transforming Warrior",
+   "Sagas From the Movies",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Gohan",
+  "id": "DBL60-01S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Hybrid Saiyan",
+   "Son Family",
+   "Sagas From the Movies",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Goku Black",
+  "id": "DBL-EVT-70S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Future",
+   "Powerful Opponent",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan God SS Vegito",
+  "id": "DBL61-01U",
+  "color": "RED",
+  "rarity": "ULTRA",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan God SS",
+   "God Ki",
+   "Future",
+   "Fusion Warrior",
+   "Potara",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Perfect Form Cell",
+  "id": "DBL61-03S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Android",
+   "Regeneration",
+   "Future",
+   "Powerful Opponent",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Gohan (Youth)",
+  "id": "DBL61-02S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Hybrid Saiyan",
+   "Son Family",
+   "Super Saiyan",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Cell Jr.",
+  "id": "DBL61-04E",
+  "color": "RED",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Android",
+   "Minion",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Android #18",
+  "id": "DBL-EVT-71S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Android",
+   "Girls",
+   "Female",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Goku",
+  "id": "DBL-EVT-72S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Captain Ginyu",
+  "id": "DBL62-01S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Frieza Force",
+   "Ginyu Force",
+   "Melee Type",
+   "Saiyan"
+  ]
+ },
+ {
+  "name": "Jeice & Burter",
+  "id": "DBL62-03S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Frieza Force",
+   "Ginyu Force",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Recoome & Guldo",
+  "id": "DBL62-02S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Frieza Force",
+   "Ginyu Force",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Goku",
+  "id": "DBL62-04S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan",
+   "Son Family",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Gohan (Kid) & Krillin",
+  "id": "DBL62-05E",
+  "color": "PUR",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Hybrid Saiyan",
+   "Son Family",
+   "Kids",
+   "Super Warrior",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Goku (Youth)",
+  "id": "DBL63-01S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Kids",
+   "Son Family",
+   "Weapon Wielder",
+   "Ranged Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Android #8",
+  "id": "DBL63-03S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Android",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Master Roshi",
+  "id": "DBL63-02S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Ranged Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Goku",
+  "id": "DBL63-04S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Piccolo Jr.",
+  "id": "DBL63-05S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Regeneration",
+   "Namekian",
+   "Powerful Opponent",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Demon King Piccolo",
+  "id": "DBL-EVT-73S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Regeneration",
+   "Namekian",
+   "Powerful Opponent",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Hero Tapion",
+  "id": "DBL-EVT-74S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Weapon Wielder",
+   "Defense Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Super Janemba",
+  "id": "DBL64-01U",
+  "color": "BLU",
+  "rarity": "ULTRA",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Transforming Warrior",
+   "Regeneration",
+   "Powerful Opponent",
+   "Weapon Wielder",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Pikkon",
+  "id": "DBL64-02S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Otherworld Warrior",
+   "Saiyan",
+   "Super Saiyan",
+   "Fusion Warrior",
+   "Defense Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Metal Cooler",
+  "id": "DBL64-03E",
+  "color": "YEL",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Lineage of Evil",
+   "Regeneration",
+   "Powerful Opponent",
+   "Ranged Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Super Saiyan Gohan (Youth)",
+  "id": "DBL-EVT-75S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Hybrid Saiyan",
+   "Son Family",
+   "Super Saiyan",
+   "Ranged Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Super Saiyan God SS Evolved & Super Saiyan God SS Kaioken Vegeta & Goku",
+  "id": "DBL65-01S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Vegeta Clan",
+   "God Ki",
+   "Super Saiyan God SS",
+   "Universe Rep",
+   "Son Family",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Golden Frieza",
+  "id": "DBL65-04S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Frieza Force",
+   "Transforming Warrior",
+   "Lineage of Evil",
+   "Otherworld Warrior",
+   "Universe Rep",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Cooler",
+  "id": "DBL-EVT-100S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Transforming Warrior",
+   "Lineage of Evil",
+   "Powerful Opponent",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Ultimate Gohan",
+  "id": "DBL65-02S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Hybrid Saiyan",
+   "Son Family",
+   "Sagas From the Movies",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Gotenks",
+  "id": "DBL65-03S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Hybrid Saiyan",
+   "Fusion Warrior",
+   "Sagas From the Movies",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Golden Frieza",
+  "id": "DBL-EVT-96S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Frieza Force",
+   "Transforming Warrior",
+   "Lineage of Evil",
+   "Otherworld Warrior",
+   "Universe Rep",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Final Form Frieza",
+  "id": "DBL-EVT-77S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Frieza Force",
+   "Transforming Warrior",
+   "Lineage of Evil",
+   "Powerful Opponent",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Goku & Bardock",
+  "id": "DBL66-01S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "Team Bardock",
+   "Melee Type",
+   "Game Originals"
+  ]
+ },
+ {
+  "name": "Final Form Frieza",
+  "id": "DBL66-03E",
+  "color": "RED",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Frieza Force",
+   "Transforming Warrior",
+   "Lineage of Evil",
+   "Powerful Opponent",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Bardock",
+  "id": "DBL66-02E",
+  "color": "PUR",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Ranged Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Ultra Instinct -Sign- Goku",
+  "id": "DBL66-04U",
+  "color": "YEL",
+  "rarity": "ULTRA",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "God Ki",
+   "Universe Rep",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "God of Destruction Beerus",
+  "id": "DBL-EVT-78S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "God of Destruction",
+   "God Ki",
+   "Universe Rep",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Goku",
+  "id": "DBL67-01S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "GT",
+   "Kids",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Pan: Trunks & Giru (Assist)",
+  "id": "DBL67-02S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Hybrid Saiyan",
+   "GT",
+   "Son Family",
+   "Girls",
+   "Vegeta Clan",
+   "Female",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Trunks",
+  "id": "DBL67-03E",
+  "color": "GRN",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Hybrid Saiyan",
+   "Vegeta Clan",
+   "GT",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Whis",
+  "id": "DBL-EVT-82S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Angel",
+   "God Ki",
+   "Weapon Wielder",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Bulla: Vegeta (Assist)",
+  "id": "DBL67-04S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Hybrid Saiyan",
+   "GT",
+   "Vegeta Clan",
+   "Girls",
+   "Saiyan",
+   "Female",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Rage Shenron",
+  "id": "DBL73-03S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Shadow Dragon",
+   "GT",
+   "Regeneration",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Red Ribbon Army Piccolo",
+  "id": "DBL-EVT-76S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Regeneration",
+   "Super Warrior",
+   "Namekian",
+   "Weapon Wielder",
+   "Sagas From the Movies",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Super #17",
+  "id": "DBL67-05S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Android",
+   "Fusion Warrior",
+   "GT",
+   "Powerful Opponent",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "1st Form Cell",
+  "id": "DBL-EVT-79S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Android",
+   "Regeneration",
+   "Future",
+   "Powerful Opponent",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Super Vegeta",
+  "id": "DBL68-01S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": true,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Vegeta Clan",
+   "Super Saiyan",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Android #16",
+  "id": "DBL68-02S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Android",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan 2 Gohan (Youth)",
+  "id": "DBL68-03U",
+  "color": "GRN",
+  "rarity": "ULTRA",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Hybrid Saiyan",
+   "Son Family",
+   "Super Saiyan 2",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Broly: Fury",
+  "id": "DBL-EVT-80S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Frieza Force",
+   "Powerful Opponent",
+   "Ranged Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Super Baby 2",
+  "id": "DBL69-01S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "GT",
+   "Transforming Warrior",
+   "Regeneration",
+   "Saiyan",
+   "Powerful Opponent",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Trunks (Parasitism) Baby",
+  "id": "DBL69-02S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "GT",
+   "Transforming Warrior",
+   "Regeneration",
+   "Hybrid Saiyan",
+   "Powerful Opponent",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Golden Frieza",
+  "id": "DBL69-03U",
+  "color": "PUR",
+  "rarity": "ULTRA",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Frieza Force",
+   "Transforming Warrior",
+   "Lineage of Evil",
+   "Powerful Opponent",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Raditz",
+  "id": "DBL-EVT-81S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Frieza Force",
+   "Saiyan",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Goku",
+  "id": "DBL70-01S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Yamcha",
+  "id": "DBL70-02S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Super Warrior",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Nappa",
+  "id": "DBL70-03S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Frieza Force",
+   "Saiyan",
+   "Vegeta Clan",
+   "Powerful Opponent",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan God SS Goku & Vegeta",
+  "id": "DBL71-02S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "God Ki",
+   "Super Saiyan God SS",
+   "Vegeta Clan",
+   "Fusion Warrior",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Vegeta & Goku",
+  "id": "DBL71-01S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Vegeta Clan",
+   "Otherworld Warrior",
+   "Son Family",
+   "Super Saiyan",
+   "Fusion Warrior",
+   "Potara",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Broly: Fury",
+  "id": "DBL71-04S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Frieza Force",
+   "Powerful Opponent",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "East Supreme Kai Shin",
+  "id": "DBL71-03S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "God Ki",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Android #18",
+  "id": "DBL-EVT-83S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Android",
+   "Girls",
+   "Female",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Bulma (Youth)",
+  "id": "DBL-EVT-84S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Girls",
+   "Weapon Wielder",
+   "Female",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan God Goku",
+  "id": "DBL72-01S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "God Ki",
+   "Super Saiyan God",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "God of Destruction Beerus",
+  "id": "DBL72-03S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "God of Destruction",
+   "God Ki",
+   "Powerful Opponent",
+   "Ranged Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Ultimate Gohan",
+  "id": "DBL72-02S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Hybrid Saiyan",
+   "Son Family",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Majin Buu: Pure Evil",
+  "id": "DBL72-04S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Regeneration",
+   "Powerful Opponent",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Trunks (Adult) (Rage)",
+  "id": "DBL-EVT-90S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Hybrid Saiyan",
+   "Super Saiyan",
+   "Future",
+   "Vegeta Clan",
+   "Weapon Wielder",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Syn Shenron",
+  "id": "DBL-EVT-89S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Shadow Dragon",
+   "GT",
+   "Powerful Opponent",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan 4 Gogeta",
+  "id": "DBL73-01U",
+  "color": "PUR",
+  "rarity": "ULTRA",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan 4",
+   "Fusion Warrior",
+   "GT",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Omega Shenron",
+  "id": "DBL73-02S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Shadow Dragon",
+   "GT",
+   "Regeneration",
+   "Fusion Warrior",
+   "Powerful Opponent",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Goten (Kid)",
+  "id": "DBL-EVT-85S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Hybrid Saiyan",
+   "Son Family",
+   "Super Saiyan",
+   "Kids",
+   "Defense Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Super Saiyan Broly",
+  "id": "DBL74-03S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan",
+   "Powerful Opponent",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Super Saiyan Goku",
+  "id": "DBL-EVT-86S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "Super Saiyan",
+   "Otherworld Warrior",
+   "Ranged Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Videl",
+  "id": "DBL74-02S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Girls",
+   "Female",
+   "Support Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Jiren",
+  "id": "DBL-EVT-97S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Rival Universe",
+   "Universe 11",
+   "Powerful Opponent",
+   "Universe Rep",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Gohan (Teen)",
+  "id": "DBL74-01E",
+  "color": "BLU",
+  "rarity": "EXTREME",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Hybrid Saiyan",
+   "Son Family",
+   "Super Saiyan",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Piccolo & Goku",
+  "id": "DBL74-04S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Regeneration",
+   "Namekian",
+   "Saiyan",
+   "Son Family",
+   "Ranged Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Garlic Jr.",
+  "id": "DBL74-05S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Transforming Warrior",
+   "Regeneration",
+   "Powerful Opponent",
+   "Defense Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Boujack",
+  "id": "DBL-EVT-87S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Transforming Warrior",
+   "Powerful Opponent",
+   "Hera Clan",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Goku",
+  "id": "DBL75-01S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "Ranged Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Daiz",
+  "id": "DBL75-02S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Turles Crusher Corps",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Amond",
+  "id": "DBL75-03S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Turles Crusher Corps",
+   "Ranged Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Cacao",
+  "id": "DBL75-04S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Turles Crusher Corps",
+   "Defense Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Turles",
+  "id": "DBL75-06U",
+  "color": "BLU",
+  "rarity": "ULTRA",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Powerful Opponent",
+   "Turles Crusher Corps",
+   "Defense Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Rasin: Lakasei (Assist)",
+  "id": "DBL75-05S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Turles Crusher Corps",
+   "Support Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Super Saiyan 3 Goku",
+  "id": "DBL-EVT-88S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan 3",
+   "Son Family",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan 3 Gotenks",
+  "id": "DBL76-02S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Hybrid Saiyan",
+   "Super Saiyan 3",
+   "Fusion Warrior",
+   "Kids",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Majin Buu (Good): Hercule (Assist)",
+  "id": "DBL76-03S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Regeneration",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Majin Vegeta",
+  "id": "DBL76-04U",
+  "color": "YEL",
+  "rarity": "ULTRA",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan 2",
+   "Vegeta Clan",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Goku (Mini)",
+  "id": "DBL76-01S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "DAIMA",
+   "Weapon Wielder",
+   "Kids",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Hyper Meta-Rilldo",
+  "id": "DBL-EVT-101S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "GT",
+   "Powerful Opponent",
+   "Weapon Wielder",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Goku (Mini)",
+  "id": "DBL77-01S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "DAIMA",
+   "Weapon Wielder",
+   "Kids",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Glorio",
+  "id": "DBL77-02S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "DAIMA",
+   "Weapon Wielder",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Vegito",
+  "id": "DBL77-03S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Future",
+   "Fusion Warrior",
+   "Potara",
+   "Ranged Type",
+   "Super Saiyan God SS",
+   "God Ki"
+  ]
+ },
+ {
+  "name": "Mai",
+  "id": "DBL77-04S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Girls",
+   "Future",
+   "Weapon Wielder",
+   "Female",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Goku Black",
+  "id": "DBL77-05S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Future",
+   "Powerful Opponent",
+   "Defense Type",
+   "God Ki",
+   "Super Saiyan Rosé"
+  ]
+ },
+ {
+  "name": "Perfect Form & Final Form Cell & Frieza",
+  "id": "DBL77-06S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Android",
+   "Regeneration",
+   "Future",
+   "Otherworld Warrior",
+   "GT",
+   "Frieza Force",
+   "Transforming Warrior",
+   "Lineage of Evil",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Trunks (Teen)",
+  "id": "DBL-EVT-102S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Hybrid Saiyan",
+   "Vegeta Clan",
+   "Super Saiyan",
+   "Future",
+   "Weapon Wielder",
+   "Support Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Vegeta",
+  "id": "DBL-EVT-91S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Vegeta Clan",
+   "Otherworld Warrior",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan 2 Goku",
+  "id": "DBL78-02S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan 2",
+   "Son Family",
+   "Otherworld Warrior",
+   "Melee Type",
+   "Super Saiyan 3"
+  ]
+ },
+ {
+  "name": "Videl",
+  "id": "DBL78-03S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Girls",
+   "Female",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Goku (Mini)",
+  "id": "DBL78-01S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan",
+   "Son Family",
+   "DAIMA",
+   "Weapon Wielder",
+   "Kids",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Tamagami Number Three",
+  "id": "DBL78-04S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": true,
+  "stat": "strike",
+  "tags": [
+   "DAIMA",
+   "Weapon Wielder",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Beast Gohan",
+  "id": "DBL78-05U",
+  "color": "YEL",
+  "rarity": "ULTRA",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Hybrid Saiyan",
+   "Son Family",
+   "Sagas From the Movies",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan God SS Goku",
+  "id": "DBL-EVT-92S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "God Ki",
+   "Super Saiyan God SS",
+   "Future",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Goten (Kid)",
+  "id": "DBL-EVT-103S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Hybrid Saiyan",
+   "Son Family",
+   "Super Saiyan",
+   "Kids",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Gohan & Trunks (Youth)",
+  "id": "DBL79-01S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Hybrid Saiyan",
+   "Son Family",
+   "Super Saiyan",
+   "Future",
+   "Vegeta Clan",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Android #18",
+  "id": "DBL79-02S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Android",
+   "Girls",
+   "Future",
+   "Powerful Opponent",
+   "Female",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Fusion Zamasu",
+  "id": "DBL79-04S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "God Ki",
+   "Future",
+   "Regeneration",
+   "Fusion Warrior",
+   "Potara",
+   "Powerful Opponent",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Android #17",
+  "id": "DBL79-03S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Android",
+   "Future",
+   "Powerful Opponent",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Fused with Kami Piccolo",
+  "id": "DBL-EVT-93S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Regeneration",
+   "Super Warrior",
+   "Namekian",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Goku",
+  "id": "DBL80-01S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan",
+   "Son Family",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Super Trunks",
+  "id": "DBL80-02S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Hybrid Saiyan",
+   "Vegeta Clan",
+   "Super Saiyan",
+   "Future",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Perfect Cell",
+  "id": "DBL81-01U",
+  "color": "RED",
+  "rarity": "ULTRA",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Android",
+   "Regeneration",
+   "Future",
+   "Powerful Opponent",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "2nd Form Cell",
+  "id": "DBL-EVT-94S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Android",
+   "Regeneration",
+   "Future",
+   "Powerful Opponent",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan 3 Vegeta",
+  "id": "DBL81-02S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Vegeta Clan",
+   "Super Saiyan 3",
+   "DAIMA",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Majin Kuu",
+  "id": "DBL81-03S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "DAIMA",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan 4 Goku",
+  "id": "DBL81-04S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "Super Saiyan 4",
+   "DAIMA",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Majin Duu",
+  "id": "DBL81-05S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "DAIMA",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Cyborg Tao",
+  "id": "DBL-EVT-95S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Weapon Wielder",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Demon King Piccolo",
+  "id": "DBL82-01S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Regeneration",
+   "Namekian",
+   "Powerful Opponent",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Tambourine",
+  "id": "DBL82-02S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Goku (Youth)",
+  "id": "DBL82-03S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Kids",
+   "Son Family",
+   "Weapon Wielder",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Jackie Chun",
+  "id": "DBL82-04S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Goku",
+  "id": "DBL84-01S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Vegeta",
+  "id": "DBL84-03S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Frieza Force",
+   "Saiyan",
+   "Powerful Opponent",
+   "Vegeta Clan",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Goku",
+  "id": "DBL85-01U",
+  "color": "YEL",
+  "rarity": "ULTRA",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan",
+   "Son Family",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Krillin",
+  "id": "DBL85-02S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Super Warrior",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Jiren: Full Power",
+  "id": "DBL-EVT-104S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Rival Universe",
+   "Universe 11",
+   "Powerful Opponent",
+   "Universe Rep",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan God Shallot",
+  "id": "DBL96-01L",
+  "color": "GRN+",
+  "rarity": "LEGEND",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan God",
+   "Fusion Warrior",
+   "God Ki",
+   "Ranged Type",
+   "Game Originals"
+  ]
+ },
+ {
+  "name": "Ultra Instinct -Sign- Goku",
+  "id": "DBL83-01S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "God Ki",
+   "Universe Rep",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan 2 Caulifla & Kale",
+  "id": "DBL83-04S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan 2",
+   "Universe 6",
+   "Rival Universe",
+   "Girls",
+   "Universe Rep",
+   "Female",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan God SS Vegeta",
+  "id": "DBL83-02S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Vegeta Clan",
+   "God Ki",
+   "Super Saiyan God SS",
+   "Universe Rep",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Cabba",
+  "id": "DBL83-03S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan",
+   "Universe 6",
+   "Rival Universe",
+   "Universe Rep",
+   "Ranged Type",
+   "Super Saiyan 2"
+  ]
+ },
+ {
+  "name": "Tien & Chiaotzu",
+  "id": "DBL84-02S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Super Warrior",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Nappa",
+  "id": "DBL84-04S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Frieza Force",
+   "Saiyan",
+   "Ranged Type",
+   "Minion"
+  ]
+ },
+ {
+  "name": "Final Form Frieza: Full Power",
+  "id": "DBL85-03U",
+  "color": "GRN",
+  "rarity": "ULTRA",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Frieza Force",
+   "Transforming Warrior",
+   "Lineage of Evil",
+   "Powerful Opponent",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "3rd Form Frieza",
+  "id": "DBL-EVT-99S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Frieza Force",
+   "Transforming Warrior",
+   "Lineage of Evil",
+   "Powerful Opponent",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan 2 Kefla",
+  "id": "DBL85-04S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan 2",
+   "Girls",
+   "Fusion Warrior",
+   "Potara",
+   "Universe 6",
+   "Rival Universe",
+   "Universe Rep",
+   "Female",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Final Form Frost: Full Power",
+  "id": "DBL85-05S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Universe 6",
+   "Transforming Warrior",
+   "Lineage of Evil",
+   "Rival Universe",
+   "Universe Rep",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Metal Cooler",
+  "id": "DBL86-02S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Lineage of Evil",
+   "Regeneration",
+   "Powerful Opponent",
+   "Defense Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "King Cold",
+  "id": "DBL86-01S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Lineage of Evil",
+   "Weapon Wielder",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan 4 Vegeta",
+  "id": "DBL86-03U",
+  "color": "RED",
+  "rarity": "ULTRA",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Vegeta Clan",
+   "GT",
+   "Super Saiyan 4",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan 3 Goku",
+  "id": "DBL87-01S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan 3",
+   "Son Family",
+   "GT",
+   "Kids",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Android #13",
+  "id": "DBL87-02S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Android",
+   "Powerful Opponent",
+   "Support Type",
+   "Sagas From the Movies",
+   "Fusion Warrior"
+  ]
+ },
+ {
+  "name": "Android #14 & Android #15",
+  "id": "DBL87-03S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Android",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Half-Corrupted Fusion Zamasu",
+  "id": "DBL88-01U",
+  "color": "PUR",
+  "rarity": "ULTRA",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "God Ki",
+   "Future",
+   "Regeneration",
+   "Fusion Warrior",
+   "Potara",
+   "Powerful Opponent",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Goku",
+  "id": "DBL88-02S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Gohan (Youth)",
+  "id": "DBL88-03S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Hybrid Saiyan",
+   "Son Family",
+   "Super Saiyan",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Goku & Vegeta",
+  "id": "DBL89-01S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "Otherworld Warrior",
+   "Vegeta Clan",
+   "Super Saiyan",
+   "Fusion Warrior",
+   "Ranged Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Super Janemba",
+  "id": "DBL89-03S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Transforming Warrior",
+   "Regeneration",
+   "Powerful Opponent",
+   "Weapon Wielder",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Super Saiyan Gotenks",
+  "id": "DBL89-02S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Hybrid Saiyan",
+   "Super Saiyan",
+   "Fusion Warrior",
+   "Kids",
+   "Defense Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Super Saiyan 2 Gohan (Youth)",
+  "id": "DBL90-02S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Hybrid Saiyan",
+   "Son Family",
+   "Super Saiyan 2",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan God Goku & Hit",
+  "id": "DBL90-01S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "God Ki",
+   "Super Saiyan God",
+   "Universe Rep",
+   "Universe 6",
+   "Rival Universe",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Full Power Saiyan 4 Goku",
+  "id": "DBL90-03U",
+  "color": "GRN",
+  "rarity": "ULTRA",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan 4",
+   "GT",
+   "Son Family",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Goku",
+  "id": "DBL-EVT-105S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "Super Saiyan",
+   "GT",
+   "Kids",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan 3 Vegeta (Mini)",
+  "id": "DBL91-01S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": true,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Vegeta Clan",
+   "Super Saiyan 3",
+   "DAIMA",
+   "Kids",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Tamagami Number Two",
+  "id": "DBL91-02S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "DAIMA",
+   "Weapon Wielder",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Ultimate Gohan Absorbed Buu: Super",
+  "id": "DBL91-03U",
+  "color": "RED",
+  "rarity": "ULTRA",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Regeneration",
+   "Powerful Opponent",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Vegito",
+  "id": "DBL92-01L",
+  "color": "PUR+",
+  "rarity": "LEGEND",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan",
+   "Fusion Warrior",
+   "Potara",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan God SS Goku & Vegeta",
+  "id": "DBL92-02S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "God Ki",
+   "Super Saiyan God SS",
+   "Vegeta Clan",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Fused with Kami Piccolo",
+  "id": "DBL92-03L",
+  "color": "BLU+",
+  "rarity": "LEGEND",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Regeneration",
+   "Super Warrior",
+   "Namekian",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Mai",
+  "id": "DBL-EVT-107S",
+  "color": "BLU",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Girls",
+   "Future",
+   "Weapon Wielder",
+   "Female",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Trunks (Adult)",
+  "id": "DBL93-01U",
+  "color": "GRN",
+  "rarity": "ULTRA",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Hybrid Saiyan",
+   "Super Saiyan",
+   "Future",
+   "Vegeta Clan",
+   "Weapon Wielder",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan 3 Goku (Mini)",
+  "id": "DBL93-02L",
+  "color": "PUR+",
+  "rarity": "LEGEND",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "Super Saiyan 3",
+   "DAIMA",
+   "Kids",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Tamagami Number One",
+  "id": "DBL93-03S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "DAIMA",
+   "Weapon Wielder",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Farmer Goku",
+  "id": "DBL-EVT-108S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Son Family",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Bardock",
+  "id": "DBL94-01L",
+  "color": "YEL+",
+  "rarity": "LEGEND",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Team Bardock",
+   "Defense Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Rosé: Ultra Supervillain Goku Black",
+  "id": "DBL94-04L",
+  "color": "BLU+",
+  "rarity": "LEGEND",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Future",
+   "God Ki",
+   "Super Saiyan Rosé",
+   "Powerful Opponent",
+   "Weapon Wielder",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan God: Ultra Supervillain Vegeta",
+  "id": "DBL94-02S",
+  "color": "RED",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Vegeta Clan",
+   "God Ki",
+   "Super Saiyan God",
+   "Ranged Type"
+  ]
+ },
+ {
+  "name": "Trunks: Xeno",
+  "id": "DBL94-03S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Hybrid Saiyan",
+   "Vegeta Clan",
+   "Future",
+   "Weapon Wielder",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan God SS Gogeta",
+  "id": "DBL95-01U",
+  "color": "RED",
+  "rarity": "ULTRA",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan God SS",
+   "Fusion Warrior",
+   "God Ki",
+   "Ranged Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Wrathful Broly",
+  "id": "DBL95-02L",
+  "color": "GRN+",
+  "rarity": "LEGEND",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Frieza Force",
+   "Powerful Opponent",
+   "Defense Type",
+   "Sagas From the Movies",
+   "Super Saiyan"
+  ]
+ },
+ {
+  "name": "Paragus: Broly (Assist)",
+  "id": "DBL95-03S",
+  "color": "PUR",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Frieza Force",
+   "Powerful Opponent",
+   "Melee Type",
+   "Sagas From the Movies"
+  ]
+ },
+ {
+  "name": "Whis",
+  "id": "DBL-EVT-109S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Angel",
+   "God Ki",
+   "Weapon Wielder",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan Trunks (Adult) & Gohan",
+  "id": "DBL96-02L",
+  "color": "RED+",
+  "rarity": "LEGEND",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "blast",
+  "tags": [
+   "Hybrid Saiyan",
+   "Vegeta Clan",
+   "Future",
+   "Super Saiyan",
+   "Weapon Wielder",
+   "Son Family",
+   "Ranged Type",
+   "Game Originals"
+  ]
+ },
+ {
+  "name": "Pan",
+  "id": "DBL96-03S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Hybrid Saiyan",
+   "Son Family",
+   "Girls",
+   "Kids",
+   "Sagas From the Movies",
+   "Female",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan 3 & Super Saiyan 2 Goku & Vegeta",
+  "id": "DBL97-01U",
+  "color": "BLU",
+  "rarity": "ULTRA",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "strike",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan 3",
+   "Son Family",
+   "Super Saiyan 2",
+   "Vegeta Clan",
+   "Otherworld Warrior",
+   "Melee Type"
+  ]
+ },
+ {
+  "name": "Vados",
+  "id": "DBL-EVT-111S",
+  "color": "GRN",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Angel",
+   "God Ki",
+   "Universe 6",
+   "Rival Universe",
+   "Girls",
+   "Universe Rep",
+   "Weapon Wielder",
+   "Female",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Android #17 & Golden Frieza",
+  "id": "DBL97-02L",
+  "color": "BLU+",
+  "rarity": "LEGEND",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Android",
+   "Universe Rep",
+   "Frieza Force",
+   "Transforming Warrior",
+   "Lineage of Evil",
+   "Otherworld Warrior",
+   "Support Type"
+  ]
+ },
+ {
+  "name": "Super Saiyan God Giblet",
+  "id": "DBL-EVT-110S",
+  "color": "YEL",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "God Ki",
+   "Super Saiyan God",
+   "Melee Type",
+   "Game Originals"
+  ]
+ },
+ {
+  "name": "Shallot",
+  "id": "DBL00-01",
+  "color": "LGT",
+  "rarity": "HERO",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Melee Type",
+   "Game Originals",
+   "Super Saiyan",
+   "Super Saiyan 2",
+   "Super Saiyan 3",
+   "God Ki",
+   "Super Saiyan God"
+  ]
+ },
+ {
+  "name": "Shallot",
+  "id": "DBL00-01",
+  "color": "LGT",
+  "rarity": "SPARKING",
+  "is_lf": false,
+  "is_zenkai": false,
+  "stat": "mixed",
+  "tags": [
+   "Saiyan",
+   "Super Saiyan",
+   "Melee Type",
+   "Game Originals",
+   "Super Saiyan 2",
+   "Super Saiyan 3",
+   "God Ki",
+   "Super Saiyan God",
+   "Super Saiyan God SS"
+  ]
+ }
+]

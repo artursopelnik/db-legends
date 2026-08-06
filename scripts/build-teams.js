@@ -157,11 +157,25 @@ function renderPage(template, css, lang, data, characters) {
     roleDamage: dict.teamsRoleDamage,
     roleTank: dict.teamsRoleTank,
     roleSupport: dict.teamsRoleSupport,
-    tipAllShare: dict.builderTipAllShare,
-    tipNoShared: dict.builderTipNoShared,
-    tipNeedDamage: dict.builderTipNeedDamage,
-    tipNeedTank: dict.builderTipNeedTank,
-    tipFull: dict.builderTipFull,
+    verdictGreat: dict.builderVerdictGreat,
+    verdictOk: dict.builderVerdictOk,
+    verdictWeak: dict.builderVerdictWeak,
+    recPerfect: dict.builderRecPerfect,
+    recSwap: dict.builderRecSwap,
+    recRole: dict.builderRecRole,
+    recFill: dict.builderRecFill,
+    recLead: dict.builderRecLead,
+    recLeadBase: dict.builderRecLeadBase,
+    recLeadOk: dict.builderRecLeadOk,
+    recEquipParts: dict.builderRecEquipParts,
+    recEquipPartsNoTag: dict.builderRecEquipPartsNoTag,
+    equipStrike: dict.builderEquipStrike,
+    equipBlast: dict.builderEquipBlast,
+    equipMixed: dict.builderEquipMixed,
+    equipDefense: dict.builderEquipDefense,
+    starsLabel: dict.builderStarsLabel,
+    moveUp: dict.builderMoveUp,
+    moveDown: dict.builderMoveDown,
   };
   return template
     .replaceAll('{{LANG}}', lang)
@@ -193,6 +207,9 @@ function renderPage(template, css, lang, data, characters) {
     .replaceAll('{{BUILDER_ROLES}}', escapeHtmlText(dict.builderRoles))
     .replaceAll('{{BUILDER_TIPS}}', escapeHtmlText(dict.builderTips))
     .replaceAll('{{BUILDER_CLEAR}}', escapeHtmlText(dict.builderClear))
+    .replaceAll('{{BUILDER_SEARCH}}', escapeHtmlAttr(dict.builderSearch))
+    .replaceAll('{{BUILDER_FILTER_ALL}}', escapeHtmlText(dict.builderFilterAll))
+    .replaceAll('{{BUILDER_NO_MATCHES}}', escapeHtmlText(dict.builderNoMatches))
     .replaceAll('{{ROSTER_JSON}}', jsonSafe(characters))
     .replaceAll('{{BUILDER_TEXT_JSON}}', jsonSafe(builderText))
     .replaceAll('{{CTA_HTML}}', dict.blogIndexCtaHtml)

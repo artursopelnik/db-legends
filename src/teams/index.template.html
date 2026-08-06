@@ -99,11 +99,43 @@
 
 /* ---- Team builder ---- */
 .builder { margin: 26px 0; }
+.builder-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 14px 0 0;
+}
+.builder-controls input,
+.builder-controls select,
+.builder-team select {
+  font: inherit;
+  font-size: 0.9rem;
+  color: var(--text);
+  background: #0e1428;
+  border: 1.5px solid var(--line);
+  border-radius: 10px;
+  padding: 8px 12px;
+}
+.builder-controls input { flex: 1 1 160px; min-width: 0; }
+.builder-controls input:focus,
+.builder-controls select:focus { outline: none; border-color: var(--orange); }
+.builder-none { color: var(--dim); font-size: 0.9rem; margin: 0 0 10px; }
 .builder-grid {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
   margin: 14px 0;
+}
+@media (max-width: 640px) {
+  .builder-grid {
+    max-height: 300px;
+    overflow-y: auto;
+    align-content: flex-start;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 10px;
+    -webkit-overflow-scrolling: touch;
+  }
 }
 .b-chip {
   display: inline-flex;
@@ -127,6 +159,7 @@
   color: var(--orange-soft);
 }
 .b-chip:disabled { opacity: 0.4; cursor: not-allowed; }
+.b-chip[hidden] { display: none; }
 .b-rarity {
   font-size: 0.68rem;
   font-weight: 800;
@@ -137,8 +170,11 @@
   border: 1px solid var(--line);
   color: var(--dim);
 }
+.b-rarity-LG { color: #26130a; background: #ffd75e; border-color: #ffd75e; }
 .b-rarity-UL { color: #2a1204; background: var(--orange-soft); border-color: var(--orange); }
 .b-rarity-LF { color: #fff; background: var(--flame); border-color: var(--flame); }
+.b-rarity-EX { color: #101a3a; background: #9db8ff; border-color: #9db8ff; }
+.b-rarity-HE { color: #06230f; background: var(--green); border-color: var(--green); }
 .builder-summary {
   border: 1px solid var(--line);
   border-radius: var(--radius);
@@ -157,6 +193,35 @@
 .builder-summary h3:first-child { margin-top: 0; }
 .builder-summary p, .builder-summary li { color: var(--dim); font-size: 0.92rem; line-height: 1.55; }
 .builder-summary ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; }
+.builder-summary ul.builder-team {
+  flex-direction: column;
+  align-items: stretch;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+.builder-team li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.92rem;
+  color: var(--text);
+}
+.builder-team li .fighter-name { flex: 1; min-width: 0; }
+.builder-team select { padding: 4px 8px; }
+.b-move {
+  background: transparent;
+  border: 1.5px solid var(--line);
+  color: var(--dim);
+  border-radius: 8px;
+  padding: 3px 9px;
+  font: inherit;
+  font-size: 0.75rem;
+  letter-spacing: 0;
+  box-shadow: none;
+  cursor: pointer;
+}
+.b-move:hover:not(:disabled) { border-color: var(--orange); color: var(--orange-soft); }
+.b-move:disabled { opacity: 0.35; cursor: not-allowed; }
 .tag-pill {
   display: inline-flex;
   align-items: center;
@@ -176,6 +241,15 @@
   padding: 0 6px;
 }
 .builder-tips li { margin: 4px 0; }
+.builder-summary p.builder-verdict {
+  font-weight: 700;
+  color: var(--text);
+  border-left: 3px solid var(--green);
+  padding-left: 10px;
+  margin-bottom: 4px;
+}
+.builder-summary p.builder-verdict.v-ok { border-left-color: var(--orange); }
+.builder-summary p.builder-verdict.v-weak { border-left-color: var(--flame); }
 .builder-reset {
   margin-top: 12px;
   background: transparent;
@@ -208,11 +282,20 @@
   <section class="team-card builder" id="builder">
     <h2>🛠️ {{BUILDER_HEADING}}</h2>
     <p>{{BUILDER_INTRO}}</p>
+    <div class="builder-controls">
+      <input type="search" id="builderSearch" placeholder="{{BUILDER_SEARCH}}" aria-label="{{BUILDER_SEARCH}}">
+      <select id="builderFilter" aria-label="{{BUILDER_FILTER_ALL}}">
+        <option value="">{{BUILDER_FILTER_ALL}}</option>
+      </select>
+    </div>
     <div class="builder-grid" id="builderGrid"></div>
+    <p class="builder-none" id="builderNone" hidden>{{BUILDER_NO_MATCHES}}</p>
     <div class="builder-summary" id="builderSummary">
       <h3 id="builderCount"></h3>
+      <ul class="builder-team" id="builderTeam"></ul>
       <p id="builderEmpty">{{BUILDER_EMPTY}}</p>
       <div id="builderResult" hidden>
+        <p class="builder-verdict" id="builderVerdict"></p>
         <h3>{{BUILDER_SHARED_TAGS}}</h3>
         <ul id="builderTags"></ul>
         <h3>{{BUILDER_ROLES}}</h3>
@@ -246,11 +329,14 @@
   var TEXT = {{BUILDER_TEXT_JSON}};
   var MAX = 6;
   var selected = [];
+  var stars = {};
 
   var grid = document.getElementById('builderGrid');
   var countEl = document.getElementById('builderCount');
+  var teamEl = document.getElementById('builderTeam');
   var emptyEl = document.getElementById('builderEmpty');
   var resultEl = document.getElementById('builderResult');
+  var verdictEl = document.getElementById('builderVerdict');
   var tagsEl = document.getElementById('builderTags');
   var rolesEl = document.getElementById('builderRoles');
   var tipsEl = document.getElementById('builderTips');
@@ -259,8 +345,67 @@
     return role === 'damage' ? TEXT.roleDamage : role === 'tank' ? TEXT.roleTank : TEXT.roleSupport;
   }
 
+  function moveBtn(label, symbol, disabled, onClick) {
+    var btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'b-move';
+    btn.textContent = symbol;
+    btn.setAttribute('aria-label', label);
+    btn.disabled = disabled;
+    btn.addEventListener('click', onClick);
+    return btn;
+  }
+
+  function renderTeamList() {
+    teamEl.innerHTML = '';
+    selected.forEach(function (idx, pos) {
+      var c = ROSTER[idx];
+      var li = document.createElement('li');
+      var name = document.createElement('span');
+      name.className = 'fighter-name';
+      name.textContent = (pos === 0 ? '👑 ' : '') + c.name;
+      var sel = document.createElement('select');
+      sel.setAttribute('aria-label', TEXT.starsLabel + ': ' + c.name);
+      for (var s = 0; s <= 14; s++) {
+        var opt = document.createElement('option');
+        opt.value = String(s);
+        opt.textContent = s + '★';
+        sel.appendChild(opt);
+      }
+      sel.value = String(stars[idx] || 0);
+      sel.addEventListener('change', function () {
+        stars[idx] = parseInt(sel.value, 10) || 0;
+        render();
+      });
+      li.appendChild(name);
+      li.appendChild(moveBtn(TEXT.moveUp + ': ' + c.name, '▲', pos === 0, function () {
+        selected.splice(pos, 1);
+        selected.splice(pos - 1, 0, idx);
+        render();
+      }));
+      li.appendChild(moveBtn(TEXT.moveDown + ': ' + c.name, '▼', pos === selected.length - 1, function () {
+        selected.splice(pos, 1);
+        selected.splice(pos + 1, 0, idx);
+        render();
+      }));
+      li.appendChild(sel);
+      teamEl.appendChild(li);
+    });
+  }
+
+  // Effective strength: rarity base, limit-break stars, main-tag synergy,
+  // and a small opener bonus for damage dealers. Soul Boost is ignored.
+  function effScore(c, idx, mainTag) {
+    var base = { LG: 110, UL: 100, LF: 85, SP: 70, EX: 55, HE: 45 }[c.rarity] || 70;
+    var score = base + (stars[idx] || 0) * 3;
+    if (mainTag && c.tags.indexOf(mainTag) !== -1) score += 15;
+    if (c.role === 'damage') score += 5;
+    return score;
+  }
+
   function render() {
     countEl.textContent = TEXT.count.replace('{n}', String(selected.length));
+    renderTeamList();
     var full = selected.length >= MAX;
     grid.querySelectorAll('button').forEach(function (btn, i) {
       var on = selected.indexOf(i) !== -1;
@@ -312,21 +457,108 @@
       rolesEl.appendChild(li);
     });
 
-    // Tips.
-    tipsEl.innerHTML = '';
-    var tips = [];
-    var allShare = shared.filter(function (tag) { return counts[tag] === chars.length; });
-    if (allShare.length) {
-      tips.push(TEXT.tipAllShare.replace('{tag}', allShare.join(' + ')));
-    } else if (!shared.length) {
-      tips.push(TEXT.tipNoShared);
+    // Verdict: synergy (50) + role coverage (30) + team size (20).
+    var mainTag = shared.length ? shared[0] : null;
+    var mainCount = mainTag ? counts[mainTag] : 0;
+    var rolesCovered = ['damage', 'tank', 'support'].filter(function (role) {
+      return chars.some(function (c) { return c.role === role; });
+    }).length;
+    var score = (mainCount / chars.length) * 50 + rolesCovered * 10 + (chars.length / MAX) * 20;
+    verdictEl.textContent = score >= 80 ? TEXT.verdictGreat : score >= 55 ? TEXT.verdictOk : TEXT.verdictWeak;
+    verdictEl.className = 'builder-verdict' + (score >= 80 ? '' : score >= 55 ? ' v-ok' : ' v-weak');
+
+    // Recommendations.
+    var byRarity = function (a, b) {
+      var rank = { UL: 3, LF: 2, SP: 1 };
+      return rank[b.rarity] - rank[a.rarity];
+    };
+    var selectedNames = {};
+    chars.forEach(function (c) { selectedNames[c.name] = true; });
+    var pool = ROSTER.filter(function (c) { return !selectedNames[c.name]; });
+    var recs = [];
+    var issues = 0;
+
+    ['damage', 'tank', 'support'].forEach(function (role) {
+      if (chars.some(function (c) { return c.role === role; })) return;
+      var cands = pool.filter(function (c) {
+        return c.role === role && (!mainTag || c.tags.indexOf(mainTag) !== -1);
+      });
+      if (!cands.length) cands = pool.filter(function (c) { return c.role === role; });
+      cands = cands.slice().sort(byRarity).slice(0, 2);
+      if (cands.length) {
+        issues++;
+        recs.push(TEXT.recRole
+          .replace('{role}', roleLabel(role))
+          .replace('{names}', cands.map(function (c) { return c.name; }).join(', ')));
+      }
+    });
+
+    if (mainTag && mainCount >= 2) {
+      var usedAlts = {};
+      chars.forEach(function (c) {
+        if (c.tags.indexOf(mainTag) !== -1) return;
+        var onTag = pool.filter(function (p) {
+          return p.tags.indexOf(mainTag) !== -1 && !usedAlts[p.name];
+        });
+        var alt = onTag.filter(function (p) { return p.role === c.role; }).sort(byRarity)[0] ||
+          onTag.sort(byRarity)[0];
+        if (alt) {
+          usedAlts[alt.name] = true;
+          issues++;
+          recs.push(TEXT.recSwap
+            .replace('{name}', c.name)
+            .replace('{alt}', alt.name)
+            .replace('{tag}', mainTag));
+        }
+      });
     }
-    if (!chars.some(function (c) { return c.role === 'damage'; })) tips.push(TEXT.tipNeedDamage);
-    if (!chars.some(function (c) { return c.role === 'tank'; })) tips.push(TEXT.tipNeedTank);
-    if (chars.length === MAX) tips.push(TEXT.tipFull);
-    tips.forEach(function (tip) {
+
+    if (chars.length < MAX) recs.push(TEXT.recFill);
+
+    // Equipment advice from each fighter's stat leaning; tanks get a
+    // defensive set instead.
+    var shortName = function (c) { return c.name.replace(/^(LEGEND|ULTRA|LF|SP|EX|HE) /, ''); };
+    var equipGroups = { strike: [], blast: [], mixed: [], defense: [] };
+    chars.forEach(function (c) {
+      if (c.role === 'tank') equipGroups.defense.push(shortName(c));
+      else if (c.stat === 'strike') equipGroups.strike.push(shortName(c));
+      else if (c.stat === 'blast') equipGroups.blast.push(shortName(c));
+      else equipGroups.mixed.push(shortName(c));
+    });
+    var parts = [];
+    ['strike', 'blast', 'mixed', 'defense'].forEach(function (key) {
+      if (!equipGroups[key].length) return;
+      var tpl = key === 'strike' ? TEXT.equipStrike : key === 'blast' ? TEXT.equipBlast :
+        key === 'mixed' ? TEXT.equipMixed : TEXT.equipDefense;
+      parts.push(tpl.replace('{names}', equipGroups[key].join(', ')));
+    });
+    if (parts.length) {
+      var equipTpl = mainTag ? TEXT.recEquipParts.replace('{tag}', mainTag) : TEXT.recEquipPartsNoTag;
+      recs.push(equipTpl.replace('{parts}', parts.join(', ')));
+    }
+
+    if (!issues && chars.length === MAX) recs.unshift(TEXT.recPerfect);
+
+    // Lead recommendation: the strongest fighter belongs in the first slot.
+    var best = null;
+    selected.forEach(function (idx) {
+      var score = effScore(ROSTER[idx], idx, mainTag);
+      if (!best || score > best.score) best = { idx: idx, score: score };
+    });
+    if (best) {
+      var bestStars = stars[best.idx] || 0;
+      var leadText = best.idx === selected[0]
+        ? TEXT.recLeadOk.replace('{name}', ROSTER[best.idx].name)
+        : bestStars > 0
+          ? TEXT.recLead.replace('{name}', ROSTER[best.idx].name).replace('{stars}', String(bestStars))
+          : TEXT.recLeadBase.replace('{name}', ROSTER[best.idx].name);
+      recs.unshift(leadText);
+    }
+
+    tipsEl.innerHTML = '';
+    recs.forEach(function (rec) {
       var li = document.createElement('li');
-      li.textContent = tip;
+      li.textContent = rec;
       tipsEl.appendChild(li);
     });
   }
@@ -340,7 +572,7 @@
     rar.className = 'b-rarity b-rarity-' + c.rarity;
     rar.textContent = c.rarity;
     btn.appendChild(rar);
-    btn.appendChild(document.createTextNode(c.name.replace(/^(ULTRA|LF|SP) /, '')));
+    btn.appendChild(document.createTextNode(c.name.replace(/^(LEGEND|ULTRA|LF|SP|EX|HE) /, '')));
     btn.title = c.tags.join(' · ');
     btn.addEventListener('click', function () {
       var pos = selected.indexOf(i);
@@ -354,6 +586,39 @@
     });
     grid.appendChild(btn);
   });
+
+  var searchEl = document.getElementById('builderSearch');
+  var filterEl = document.getElementById('builderFilter');
+  var noneEl = document.getElementById('builderNone');
+
+  var allTags = {};
+  ROSTER.forEach(function (c) {
+    c.tags.forEach(function (tag) { allTags[tag] = true; });
+  });
+  Object.keys(allTags).sort().forEach(function (tag) {
+    var opt = document.createElement('option');
+    opt.value = tag;
+    opt.textContent = tag;
+    filterEl.appendChild(opt);
+  });
+
+  function applyFilter() {
+    var q = searchEl.value.trim().toLowerCase();
+    var tag = filterEl.value;
+    var visible = 0;
+    grid.querySelectorAll('button').forEach(function (btn, i) {
+      var c = ROSTER[i];
+      var nameHit = c.name.toLowerCase().indexOf(q) !== -1;
+      var tagHit = c.tags.some(function (t) { return t.toLowerCase().indexOf(q) !== -1; });
+      var match = (!q || nameHit || tagHit) &&
+        (!tag || c.tags.indexOf(tag) !== -1);
+      btn.hidden = !match;
+      if (match) visible++;
+    });
+    noneEl.hidden = visible > 0;
+  }
+  searchEl.addEventListener('input', applyFilter);
+  filterEl.addEventListener('change', applyFilter);
 
   document.getElementById('builderReset').addEventListener('click', function () {
     selected = [];
