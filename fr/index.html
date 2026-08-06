@@ -143,6 +143,29 @@
     line-height: 1.5;
   }
 
+  /* ---- Portal-Nav ---- */
+  .portal-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin: 16px 0 24px;
+  }
+  .pchip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 14px;
+    border-radius: 999px;
+    border: 1.5px solid var(--line);
+    background: linear-gradient(180deg, var(--panel-2), var(--panel));
+    color: var(--text);
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  .pchip:hover { border-color: var(--orange); color: var(--orange-soft); }
+  .pchip.active { border-color: var(--orange); color: var(--orange-soft); }
+
   /* ---- Panels & Form ---- */
   .panel {
     background: linear-gradient(180deg, var(--panel-2), var(--panel));
@@ -565,6 +588,13 @@
     <p data-i18n="subtitle">Enregistrez autant de friend codes que vous voulez et générez tous les QR codes d’un coup – toujours frais et prêts à scanner dans le jeu. Tout fonctionne en local ; votre liste reste sur votre appareil.</p>
   </header>
 
+  <nav class="portal-nav" aria-label="dblqr.org">
+    <span class="pchip active" aria-current="page">🔲 <span data-i18n="blogNavGenerator">Générateur de QR</span></span>
+    <a class="pchip" href="#promoPanel" data-i18n="promoHeading">🎁 Codes promo</a>
+    <a class="pchip" href="/fr/teams/">⚔️ <span data-i18n="navTeams">Guide des équipes</span></a>
+    <a class="pchip" href="/fr/blog/">📖 <span data-i18n="blogNavBlog">Blog</span></a>
+  </nav>
+
   <section class="panel">
     <h2 data-i18n="addHeading">Ajouter un friend code</h2>
     <form class="add-form" id="addForm">
@@ -684,6 +714,7 @@
     </p>
     <p class="copyright">© 2026 <a href="https://dblqr.org" rel="author">dblqr.org</a> · Artur Sopelnik</p>
     <p class="legal">
+      <a href="/fr/teams/" data-i18n="navTeams">Guide des équipes</a> ·
       <a href="/fr/blog/" data-i18n="blogLink">Guides et blog</a> ·
       <a href="https://artursopelnik.de/site-policy/" target="_blank" rel="noopener noreferrer" data-i18n="legalNotice">Mentions légales</a> ·
       <a href="https://artursopelnik.de/data-privacy/" target="_blank" rel="noopener noreferrer" data-i18n="privacy">Politique de confidentialité</a>

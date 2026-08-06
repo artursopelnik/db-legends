@@ -143,6 +143,29 @@
     line-height: 1.5;
   }
 
+  /* ---- Portal-Nav ---- */
+  .portal-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin: 16px 0 24px;
+  }
+  .pchip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 14px;
+    border-radius: 999px;
+    border: 1.5px solid var(--line);
+    background: linear-gradient(180deg, var(--panel-2), var(--panel));
+    color: var(--text);
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  .pchip:hover { border-color: var(--orange); color: var(--orange-soft); }
+  .pchip.active { border-color: var(--orange); color: var(--orange-soft); }
+
   /* ---- Panels & Form ---- */
   .panel {
     background: linear-gradient(180deg, var(--panel-2), var(--panel));
@@ -565,6 +588,13 @@
     <p data-i18n="subtitle">Сохраняйте любое количество friend-кодов и создавайте все QR-коды сразу – всегда свежие и готовые к сканированию в игре. Всё работает локально; список остаётся на вашем устройстве.</p>
   </header>
 
+  <nav class="portal-nav" aria-label="dblqr.org">
+    <span class="pchip active" aria-current="page">🔲 <span data-i18n="blogNavGenerator">Генератор QR</span></span>
+    <a class="pchip" href="#promoPanel" data-i18n="promoHeading">🎁 Промокоды</a>
+    <a class="pchip" href="/ru/teams/">⚔️ <span data-i18n="navTeams">Гайд по командам</span></a>
+    <a class="pchip" href="/ru/blog/">📖 <span data-i18n="blogNavBlog">Блог</span></a>
+  </nav>
+
   <section class="panel">
     <h2 data-i18n="addHeading">Добавить friend-код</h2>
     <form class="add-form" id="addForm">
@@ -684,6 +714,7 @@
     </p>
     <p class="copyright">© 2026 <a href="https://dblqr.org" rel="author">dblqr.org</a> · Artur Sopelnik</p>
     <p class="legal">
+      <a href="/ru/teams/" data-i18n="navTeams">Гайд по командам</a> ·
       <a href="/ru/blog/" data-i18n="blogLink">Гайды и блог</a> ·
       <a href="https://artursopelnik.de/site-policy/" target="_blank" rel="noopener noreferrer" data-i18n="legalNotice">Правовая информация</a> ·
       <a href="https://artursopelnik.de/data-privacy/" target="_blank" rel="noopener noreferrer" data-i18n="privacy">Политика конфиденциальности</a>

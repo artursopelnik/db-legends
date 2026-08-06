@@ -20,6 +20,7 @@ const SITE_URL = 'https://dblqr.org';
 
 const { I18N, SUPPORTED_LANGS } = require(path.join(ROOT, 'i18n.js'));
 const { loadPosts, blogUrlForLang, postUrl } = require('./blog-lib.js');
+const { loadTeams, teamsPathForLang, teamsUrlForLang } = require('./teams-lib.js');
 
 // Canonical primary lang = en (served at site root).
 const DEFAULT_LANG = 'en';
@@ -135,6 +136,7 @@ function renderPage(template, lang) {
   html = html.replaceAll('{{OG_LOCALE_ALTERNATES}}', buildOgLocaleAlternates(lang));
   html = html.replaceAll('{{JSON_LD}}', buildJsonLd(lang));
   html = html.replaceAll('{{BLOG_HREF}}', lang === DEFAULT_LANG ? '/blog/' : `/${lang}/blog/`);
+  html = html.replaceAll('{{TEAMS_HREF}}', teamsPathForLang(lang));
 
   // Translated text nodes: {{TEXT_key}} → dict[key], HTML-escaped.
   html = html.replace(/\{\{TEXT_([a-zA-Z0-9_]+)\}\}/g, (_, key) => {
@@ -194,6 +196,24 @@ ${alternates.join('\n')}
     <loc>${blogUrlForLang(lang)}</loc>
 ${blogIndexAlternates.join('\n')}
     <lastmod>${latest}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>${lang === DEFAULT_LANG ? '0.7' : '0.6'}</priority>
+  </url>`);
+  }
+
+  // Team-guide pages: one entry per language with hreflang alternates.
+  const teamsData = loadTeams(SUPPORTED_LANGS);
+  const teamsAlternates = SUPPORTED_LANGS.map(
+    (l) => `    <xhtml:link rel="alternate" hreflang="${l}" href="${teamsUrlForLang(l)}"/>`,
+  );
+  teamsAlternates.push(
+    `    <xhtml:link rel="alternate" hreflang="x-default" href="${teamsUrlForLang(DEFAULT_LANG)}"/>`,
+  );
+  for (const lang of SUPPORTED_LANGS) {
+    urls.push(`  <url>
+    <loc>${teamsUrlForLang(lang)}</loc>
+${teamsAlternates.join('\n')}
+    <lastmod>${teamsData.updatedAt}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>${lang === DEFAULT_LANG ? '0.7' : '0.6'}</priority>
   </url>`);

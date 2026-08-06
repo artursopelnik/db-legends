@@ -129,6 +129,29 @@
     line-height: 1.5;
   }
 
+  /* ---- Portal-Nav ---- */
+  .portal-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin: 16px 0 24px;
+  }
+  .pchip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 14px;
+    border-radius: 999px;
+    border: 1.5px solid var(--line);
+    background: linear-gradient(180deg, var(--panel-2), var(--panel));
+    color: var(--text);
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  .pchip:hover { border-color: var(--orange); color: var(--orange-soft); }
+  .pchip.active { border-color: var(--orange); color: var(--orange-soft); }
+
   /* ---- Panels & Form ---- */
   .panel {
     background: linear-gradient(180deg, var(--panel-2), var(--panel));
@@ -551,6 +574,13 @@
     <p data-i18n="subtitle">{{TEXT_subtitle}}</p>
   </header>
 
+  <nav class="portal-nav" aria-label="dblqr.org">
+    <span class="pchip active" aria-current="page">🔲 <span data-i18n="blogNavGenerator">{{TEXT_blogNavGenerator}}</span></span>
+    <a class="pchip" href="#promoPanel" data-i18n="promoHeading">{{TEXT_promoHeading}}</a>
+    <a class="pchip" href="{{TEAMS_HREF}}">⚔️ <span data-i18n="navTeams">{{TEXT_navTeams}}</span></a>
+    <a class="pchip" href="{{BLOG_HREF}}">📖 <span data-i18n="blogNavBlog">{{TEXT_blogNavBlog}}</span></a>
+  </nav>
+
   <section class="panel">
     <h2 data-i18n="addHeading">{{TEXT_addHeading}}</h2>
     <form class="add-form" id="addForm">
@@ -670,6 +700,7 @@
     </p>
     <p class="copyright">© 2026 <a href="https://dblqr.org" rel="author">dblqr.org</a> · Artur Sopelnik</p>
     <p class="legal">
+      <a href="{{TEAMS_HREF}}" data-i18n="navTeams">{{TEXT_navTeams}}</a> ·
       <a href="{{BLOG_HREF}}" data-i18n="blogLink">{{TEXT_blogLink}}</a> ·
       <a href="https://artursopelnik.de/site-policy/" target="_blank" rel="noopener noreferrer" data-i18n="legalNotice">{{TEXT_legalNotice}}</a> ·
       <a href="https://artursopelnik.de/data-privacy/" target="_blank" rel="noopener noreferrer" data-i18n="privacy">{{TEXT_privacy}}</a>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="{{LANG}}">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>{{META_TITLE}}</title>
+<meta name="description" content="{{META_DESCRIPTION}}">
+<meta name="author" content="Artur Sopelnik">
+<link rel="canonical" href="{{CANONICAL}}">
+{{HREFLANG}}
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Dragon Ball Legends QR Generator">
+<meta property="og:title" content="{{OG_TITLE}}">
+<meta property="og:description" content="{{META_DESCRIPTION}}">
+<meta property="og:url" content="{{CANONICAL}}">
+<meta property="og:image" content="https://dblqr.org/icons/icon-512.png">
+<meta property="og:image:width" content="512">
+<meta property="og:image:height" content="512">
+<meta property="og:image:alt" content="Dragon Ball Legends QR Generator">
+<meta property="og:locale" content="{{OG_LOCALE}}">
+{{OG_LOCALE_ALTERNATES}}
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{OG_TITLE}}">
+<meta name="twitter:description" content="{{META_DESCRIPTION}}">
+<meta name="twitter:image" content="https://dblqr.org/icons/icon-512.png">
+{{JSON_LD}}
+<meta name="theme-color" content="#0a0e1c">
+<link rel="preload" href="/fonts/bangers.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="icon" href="/icons/icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+<style>
+{{BLOG_CSS}}
+
+/* ---- Teams page ---- */
+.team-card {
+  background: linear-gradient(180deg, var(--panel-2), var(--panel));
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 18px;
+  margin-bottom: 18px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+}
+.team-card h2 {
+  font-family: var(--display);
+  font-weight: 400;
+  font-size: 1.5rem;
+  letter-spacing: 1.5px;
+  color: var(--orange-soft);
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.team-card h3 {
+  font-family: var(--display);
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  color: var(--orange-soft);
+  margin: 14px 0 6px;
+  text-transform: uppercase;
+}
+.team-card p { color: var(--dim); font-size: 0.94rem; line-height: 1.6; }
+.fighter-list { list-style: none; display: flex; flex-direction: column; gap: 6px; }
+.fighter-list li {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 0.95rem;
+}
+.fighter-name {
+  font-weight: 600;
+  color: var(--text);
+}
+.role-chip {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  border-radius: 999px;
+  padding: 2px 9px;
+  text-transform: uppercase;
+}
+.role-damage { color: #2a1204; background: var(--orange-soft); }
+.role-tank { color: #06230f; background: var(--green); }
+.role-support { color: #101a3a; background: #9db8ff; }
+.bench-list { color: var(--dim); font-size: 0.92rem; }
+.teams-updated {
+  color: var(--dim);
+  font-size: 0.85rem;
+  margin-bottom: 22px;
+}
+.teams-disclaimer {
+  color: var(--dim);
+  font-size: 0.85rem;
+  border: 1px dashed var(--line);
+  border-radius: var(--radius);
+  padding: 12px 14px;
+  margin: 8px 0 26px;
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav class="site-nav">
+    <a class="brand" href="{{HOME_URL}}">DBL QR Generator</a>
+    <span class="spacer"></span>
+    <a href="{{BLOG_URL}}">{{NAV_BLOG_LABEL}}</a>
+    <a href="{{HOME_URL}}">{{NAV_GENERATOR_LABEL}}</a>
+  </nav>
+
+  <h1>{{TEAMS_H1}}</h1>
+  <p class="post-meta">{{TEAMS_INTRO}}</p>
+  <p class="teams-updated">{{UPDATED_LABEL}}: <time datetime="{{UPDATED_ISO}}">{{UPDATED_HUMAN}}</time></p>
+
+{{TEAM_CARDS}}
+
+  <p class="teams-disclaimer">{{TEAMS_DISCLAIMER}}</p>
+
+  <div class="cta">
+    <p>{{CTA_HTML}}</p>
+    <a class="cta-btn" href="{{HOME_URL}}">{{CTA_BTN}}</a>
+  </div>
+
+  <footer>
+    <p>{{FOOTER_DISCLAIMER}}</p>
+    <p>© 2026 <a href="https://dblqr.org" rel="author">dblqr.org</a> · Artur Sopelnik ·
+      <a href="https://artursopelnik.de/site-policy/" target="_blank" rel="noopener noreferrer">{{LEGAL_NOTICE_LABEL}}</a> ·
+      <a href="https://artursopelnik.de/data-privacy/" target="_blank" rel="noopener noreferrer">{{PRIVACY_LABEL}}</a></p>
+  </footer>
+</div>
+
+<!-- Matomo (cookieless) -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  _paq.push(['disableCookies']);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://artursopelnik.de/matomo/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '5']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+</body>
+</html>
