@@ -172,6 +172,8 @@
 }
 .b-rarity-UL { color: #2a1204; background: var(--orange-soft); border-color: var(--orange); }
 .b-rarity-LF { color: #fff; background: var(--flame); border-color: var(--flame); }
+.b-rarity-EX { color: #101a3a; background: #9db8ff; border-color: #9db8ff; }
+.b-rarity-HE { color: #06230f; background: var(--green); border-color: var(--green); }
 .builder-summary {
   border: 1px solid var(--line);
   border-radius: var(--radius);
@@ -358,7 +360,7 @@
   // Effective strength: rarity base, limit-break stars, main-tag synergy,
   // and a small opener bonus for damage dealers. Soul Boost is ignored.
   function effScore(c, idx, mainTag) {
-    var base = { UL: 100, LF: 85, SP: 70 }[c.rarity] || 70;
+    var base = { UL: 100, LF: 85, SP: 70, EX: 55, HE: 45 }[c.rarity] || 70;
     var score = base + (stars[idx] || 0) * 3;
     if (mainTag && c.tags.indexOf(mainTag) !== -1) score += 15;
     if (c.role === 'damage') score += 5;
@@ -510,7 +512,7 @@
     rar.className = 'b-rarity b-rarity-' + c.rarity;
     rar.textContent = c.rarity;
     btn.appendChild(rar);
-    btn.appendChild(document.createTextNode(c.name.replace(/^(ULTRA|LF|SP) /, '')));
+    btn.appendChild(document.createTextNode(c.name.replace(/^(ULTRA|LF|SP|EX|HE) /, '')));
     btn.title = c.tags.join(' · ');
     btn.addEventListener('click', function () {
       var pos = selected.indexOf(i);
