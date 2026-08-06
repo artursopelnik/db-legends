@@ -18,6 +18,7 @@ const fs = require('fs');
 const path = require('path');
 
 const TAG_DE = require('./tag-map-de.js');
+const EN_TAGS = new Set(Object.values(TAG_DE));
 
 const ROOT = path.resolve(__dirname, '..');
 const OUT = path.join(ROOT, 'src', 'teams', 'data', 'equips-by-tag.json');
@@ -48,9 +49,9 @@ function main() {
   for (const equip of usable) {
     // conditions is a list of alternatives; every German tag appearing in any
     // alternative makes the equip relevant for that tag.
-    const tagsDe = new Set((equip.conditions || []).flat());
-    for (const de of tagsDe) {
-      const mapped = TAG_DE[de];
+    const condTags = new Set((equip.conditions || []).flat());
+    for (const raw of condTags) {
+      const mapped = EN_TAGS.has(raw) ? raw : TAG_DE[raw];
       if (!mapped || STYLE_TAGS.has(mapped)) continue;
       const tag = FINAL_NAME[mapped] || mapped;
       const list = (byTag[tag] = byTag[tag] || []);

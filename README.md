@@ -45,16 +45,15 @@ Der Team-Builder auf `/teams/` kennt alle Charaktere aus
 de.dblegends.net generiert. So bringst du sie auf den neuesten Stand:
 
 1. `python3 scripts/scrape_dblegends.py` – lädt alle Charakter- und
-   Equipment-Seiten und schreibt `data/dblegends_full.json` sowie
-   `data/dblegends_equipment.json` (auf einem Rechner ausführen, der
-   de.dblegends.net erreichen kann; braucht nur die Python-Standardbibliothek).
+   Equipment-Seiten der englischen Seite (dblegends.net) und schreibt
+   `data/dblegends_full.json` sowie `data/dblegends_equipment.json`
+   (auf einem Rechner ausführen, der dblegends.net erreichen kann;
+   braucht nur die Python-Standardbibliothek).
 2. `npm run update-roster` – konvertiert beide Scrapes, generiert Roster und
    Equip-Empfehlungen und baut alle Seiten neu.
 
-Meldet der Konverter Einheiten ohne englischen Namen (neue Banner), ergänzt du
-sie in `src/teams/data/names-en.json` (Card-ID → englischer Name) und führst
-`npm run update-roster` erneut aus. Manuelle Ausnahmen für Einheiten, die dem
-Scrape fehlen, kommen nach `src/teams/data/roster-extra.json`.
+Manuelle Ausnahmen für Einheiten, die dem Scrape fehlen, kommen nach
+`src/teams/data/roster-extra.json`.
 
 ## Technik
 

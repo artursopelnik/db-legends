@@ -23,7 +23,8 @@ import time
 import urllib.request
 from datetime import date
 
-BASE = "https://de.dblegends.net"
+# Sprachversion: https://dblegends.net (EN), https://de.dblegends.net (DE), …
+BASE = "https://dblegends.net"
 UA = {"User-Agent": "Mozilla/5.0 (compatible; dblegends-scraper)"}
 
 
@@ -322,6 +323,7 @@ def scrape_equipment(out_dir: str, cache_dir: str, workers: int, tagmap: dict) -
 # ---------------------------------------------------------------- Main
 
 def main() -> int:
+    global BASE
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument("--out", default="data", help="Ausgabeordner (Default: data)")
     p.add_argument("--workers", type=int, default=10, help="Parallele Downloads")
@@ -329,7 +331,11 @@ def main() -> int:
                    help="Cache-Ordner für HTML-Seiten ('' = kein Cache)")
     p.add_argument("--skip-equipment", action="store_true",
                    help="Equipment-Scrape überspringen")
+    p.add_argument("--base", default=BASE,
+                   help="Basis-URL der Sprachversion (z.B. https://de.dblegends.net)")
     args = p.parse_args()
+
+    BASE = args.base.rstrip("/")
 
     os.makedirs(args.out, exist_ok=True)
     if args.cache:
