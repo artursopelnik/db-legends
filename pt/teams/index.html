@@ -376,6 +376,15 @@ footer a { color: var(--dim); }
   padding: 0 6px;
 }
 .builder-tips li { margin: 4px 0; }
+.builder-summary p.builder-verdict {
+  font-weight: 700;
+  color: var(--text);
+  border-left: 3px solid var(--green);
+  padding-left: 10px;
+  margin-bottom: 4px;
+}
+.builder-summary p.builder-verdict.v-ok { border-left-color: var(--orange); }
+.builder-summary p.builder-verdict.v-weak { border-left-color: var(--flame); }
 .builder-reset {
   margin-top: 12px;
   background: transparent;
@@ -405,7 +414,7 @@ footer a { color: var(--dim); }
 
   <section class="team-card" id="fusion-warrior">
     <h2>🔀 Fusion Warrior</h2>
-    <p>O time símbolo do meta atual: ULTRA SSGSS Gogeta causa dano de golpe enorme enquanto os dois Zamasu curam e punem trocas descuidadas. As Z-Abilities se encaixam quase perfeitamente – o núcleo funciona mesmo sem as unidades mais novas.</p>
+    <p>O time símbolo do meta atual: ULTRA SSGSS Gogeta causa dano de golpe enorme enquanto os dois Zamasu curam e punem trocas descuidadas. As Z-Abilities se encaixam quase perfeitamente. O núcleo funciona mesmo sem as unidades mais novas.</p>
     <h3>Time principal</h3>
     <ul class="fighter-list">
       <li><span class="fighter-name">ULTRA Super Saiyan God SS Gogeta</span><span class="role-chip role-damage">Dano</span></li>
@@ -415,11 +424,11 @@ footer a { color: var(--dim); }
     <h3>Banco</h3>
     <p class="bench-list">LF Super Saiyan 4 Gogeta · LF Vegito Blue · SP Super Gogeta (Red)</p>
     <h3>Dicas de equipamento</h3>
-    <p>Equipamentos puros de ataque de golpe no Gogeta, um conjunto misto de ataque/defesa no Fused Zamasu e um equipamento de vida no suporte – equipamentos com condição Fusion Warrior dão os maiores bônus.</p>
+    <p>Equipamentos puros de ataque de golpe no Gogeta, um conjunto misto de ataque/defesa no Fused Zamasu e um equipamento de vida no suporte. Equipamentos com condição Fusion Warrior dão os maiores bônus.</p>
   </section>
   <section class="team-card" id="god-ki">
     <h2>✨ God Ki</h2>
-    <p>Combina os dois atacantes mais fortes do jogo – ULTRA SSGSS Gogeta e ULTRA Ultra Instinct Goku – com Fused Zamasu como âncora resistente. Dano explosivo massivo com sustain suficiente para se recuperar de uma troca perdida.</p>
+    <p>Combina os dois atacantes mais fortes do jogo, ULTRA SSGSS Gogeta e ULTRA Ultra Instinct Goku, com Fused Zamasu como âncora resistente. Dano explosivo massivo com sustain suficiente para se recuperar de uma troca perdida.</p>
     <h3>Time principal</h3>
     <ul class="fighter-list">
       <li><span class="fighter-name">ULTRA Super Saiyan God SS Gogeta</span><span class="role-chip role-damage">Dano</span></li>
@@ -443,7 +452,7 @@ footer a { color: var(--dim); }
     <h3>Banco</h3>
     <p class="bench-list">LF Bardock · SP Super Saiyan God Goku · SP Super Saiyan Goten (Kid)</p>
     <h3>Dicas de equipamento</h3>
-    <p>Equipamentos de ataque de rajada no Beast Gohan, de golpe no UI Goku e equipamentos de vida/defesa de golpe no Youth Gohan – equipamentos com condição Son Family aproveitam a vida naturalmente alta do time.</p>
+    <p>Equipamentos de ataque de rajada no Beast Gohan, de golpe no UI Goku e equipamentos de vida/defesa de golpe no Youth Gohan. Equipamentos com condição Son Family aproveitam a vida naturalmente alta do time.</p>
   </section>
   <section class="team-card" id="regeneration">
     <h2>♻️ Regeneration</h2>
@@ -457,7 +466,7 @@ footer a { color: var(--dim); }
     <h3>Banco</h3>
     <p class="bench-list">LF Super Baby 2 · SP Orange Piccolo · SP Perfect Cell (Revived)</p>
     <h3>Dicas de equipamento</h3>
-    <p>Vida e defesa primeiro: acumule equipamentos de porcentagem de vida em todo o núcleo – a cura de Regeneration escala com a vida máxima – mais um equipamento de dano no Janemba.</p>
+    <p>Vida e defesa primeiro: acumule equipamentos de porcentagem de vida em todo o núcleo (a cura de Regeneration escala com a vida máxima) mais um equipamento de dano no Janemba.</p>
   </section>
   <section class="team-card" id="hybrid-saiyan">
     <h2>⚡ Hybrid Saiyan</h2>
@@ -485,12 +494,12 @@ footer a { color: var(--dim); }
     <h3>Banco</h3>
     <p class="bench-list">SP Pan (GT) · SP Super Baby 2 · SP Majuub</p>
     <h3>Dicas de equipamento</h3>
-    <p>Ofensiva total: equipamentos de ataque de golpe no SS4 Goku e no Gogeta, um conjunto misto no Vegeta e um equipamento com condição GT – aqui o dano vence antes que o sustain importe.</p>
+    <p>Ofensiva total: equipamentos de ataque de golpe no SS4 Goku e no Gogeta, um conjunto misto no Vegeta e um equipamento com condição GT. Aqui o dano vence antes que o sustain importe.</p>
   </section>
 
   <section class="team-card builder" id="builder">
     <h2>🛠️ Montador de times</h2>
-    <p>Toque em até seis lutadores e veja como eles combinam – tags em comum significam Z-Abilities alinhadas e bônus maiores.</p>
+    <p>Monte seu time e receba na hora uma avaliação com recomendações de sinergia, funções e equipamento.</p>
     <div class="builder-controls">
       <input type="search" id="builderSearch" placeholder="Buscar lutadores…" aria-label="Buscar lutadores…">
       <select id="builderFilter" aria-label="Todas as tags">
@@ -501,20 +510,21 @@ footer a { color: var(--dim); }
     <p class="builder-none" id="builderNone" hidden>Nenhum lutador corresponde à busca.</p>
     <div class="builder-summary" id="builderSummary">
       <h3 id="builderCount"></h3>
-      <p id="builderEmpty">Escolha pelo menos dois lutadores – o ideal é começar pelo seu melhor atacante.</p>
+      <p id="builderEmpty">Escolha pelo menos dois lutadores. O ideal é começar pelo seu melhor atacante.</p>
       <div id="builderResult" hidden>
+        <p class="builder-verdict" id="builderVerdict"></p>
         <h3>Tags em comum</h3>
         <ul id="builderTags"></ul>
         <h3>Cobertura de funções</h3>
         <ul id="builderRoles"></ul>
-        <h3>Dicas</h3>
+        <h3>Recomendações</h3>
         <ul class="builder-tips" id="builderTips"></ul>
       </div>
       <button type="button" class="builder-reset" id="builderReset">Limpar seleção</button>
     </div>
   </section>
 
-  <p class="teams-disclaimer">O meta muda a cada novo banner – use estas composições como um ponto de partida comprovado, não como a única opção. Os nomes dos personagens seguem a versão inglesa do jogo.</p>
+  <p class="teams-disclaimer">O meta muda a cada novo banner. Use estas composições como um ponto de partida comprovado, não como a única opção. Os nomes dos personagens seguem a versão inglesa do jogo.</p>
 
   <div class="cta">
     <p><strong>Procurando a ferramenta?</strong> Transforme friend codes em códigos QR prontos para o leitor de amigos do Dragon Ball Legends – grátis, sem anúncios e funciona offline.</p>
@@ -533,7 +543,7 @@ footer a { color: var(--dim); }
 (function () {
   'use strict';
   var ROSTER = [{"name":"ULTRA Super Full Power Saiyan 4 Goku","rarity":"UL","role":"damage","tags":["Saiyan","Son Family","GT"]},{"name":"ULTRA Ultra Instinct Goku","rarity":"UL","role":"damage","tags":["Saiyan","Son Family","God Ki"]},{"name":"ULTRA Super Saiyan God SS Gogeta","rarity":"UL","role":"damage","tags":["Saiyan","God Ki","Fusion Warrior","Movies"]},{"name":"ULTRA Beast Gohan","rarity":"UL","role":"damage","tags":["Hybrid Saiyan","Son Family","Movies"]},{"name":"ULTRA Janemba","rarity":"UL","role":"damage","tags":["Regeneration","Movies","Powerful Opponent"]},{"name":"ULTRA Ultra Instinct -Sign- Goku","rarity":"UL","role":"tank","tags":["Saiyan","Son Family","God Ki"]},{"name":"ULTRA Super Saiyan 3 Goku","rarity":"UL","role":"damage","tags":["Saiyan","Son Family"]},{"name":"ULTRA Super Vegito","rarity":"UL","role":"tank","tags":["Saiyan","Fusion Warrior"]},{"name":"ULTRA Super Saiyan Goku","rarity":"UL","role":"damage","tags":["Saiyan","Son Family"]},{"name":"ULTRA Majin Vegeta","rarity":"UL","role":"damage","tags":["Saiyan","Vegeta Family"]},{"name":"ULTRA Super Saiyan 2 Gohan (Youth)","rarity":"UL","role":"damage","tags":["Hybrid Saiyan","Son Family"]},{"name":"ULTRA Vegito","rarity":"UL","role":"damage","tags":["Saiyan","Fusion Warrior"]},{"name":"LF Fused Zamasu (Red)","rarity":"LF","role":"tank","tags":["God Ki","Fusion Warrior","Future","Regeneration"]},{"name":"LF Half-Corrupted Fusion Zamasu","rarity":"LF","role":"support","tags":["God Ki","Fusion Warrior","Future","Regeneration"]},{"name":"LF Super Saiyan 4 Goku","rarity":"LF","role":"damage","tags":["Saiyan","Son Family","GT"]},{"name":"LF Super Saiyan 4 Vegeta","rarity":"LF","role":"tank","tags":["Saiyan","Vegeta Family","GT"]},{"name":"LF Super Saiyan 4 Gogeta","rarity":"LF","role":"damage","tags":["Saiyan","Fusion Warrior","GT"]},{"name":"LF Ultra Instinct Goku","rarity":"LF","role":"damage","tags":["Saiyan","Son Family","God Ki"]},{"name":"LF Super Saiyan God SS Gogeta","rarity":"LF","role":"damage","tags":["Saiyan","Fusion Warrior","God Ki","Movies"]},{"name":"LF Super Saiyan God SS Evolved Vegeta","rarity":"LF","role":"damage","tags":["Saiyan","Vegeta Family","God Ki"]},{"name":"LF Gohan & Trunks (Adult)","rarity":"LF","role":"damage","tags":["Hybrid Saiyan","Son Family","Vegeta Family","Future"]},{"name":"LF Super Saiyan 2 Youth Gohan","rarity":"LF","role":"tank","tags":["Hybrid Saiyan","Son Family"]},{"name":"LF Vegito Blue","rarity":"LF","role":"damage","tags":["Saiyan","God Ki","Fusion Warrior","Future"]},{"name":"LF Super Saiyan God Goku","rarity":"LF","role":"damage","tags":["Saiyan","Son Family","God Ki"]},{"name":"LF Bardock","rarity":"LF","role":"damage","tags":["Saiyan","Son Family"]},{"name":"LF Super Saiyan 2 Kefla","rarity":"LF","role":"damage","tags":["Saiyan","Fusion Warrior","Girls"]},{"name":"LF Majin Buu: Good","rarity":"LF","role":"tank","tags":["Regeneration"]},{"name":"LF Kid Buu","rarity":"LF","role":"damage","tags":["Regeneration","Powerful Opponent"]},{"name":"LF Super Baby 2","rarity":"LF","role":"damage","tags":["Regeneration","GT","Lineage of Evil"]},{"name":"LF Super Trunks","rarity":"LF","role":"damage","tags":["Hybrid Saiyan","Vegeta Family","Future"]},{"name":"LF Goku Black (Super Saiyan Rosé)","rarity":"LF","role":"damage","tags":["God Ki","Future","Lineage of Evil"]},{"name":"LF Android #17 & #18","rarity":"LF","role":"tank","tags":["Android","Future"]},{"name":"LF Perfect Cell","rarity":"LF","role":"tank","tags":["Android","Regeneration","Lineage of Evil"]},{"name":"LF Cell Max","rarity":"LF","role":"tank","tags":["Android","Powerful Opponent","Movies"]},{"name":"LF Jiren","rarity":"LF","role":"damage","tags":["Powerful Opponent"]},{"name":"LF Full Power Broly","rarity":"LF","role":"damage","tags":["Saiyan","Movies","Powerful Opponent"]},{"name":"LF Full Power Frieza","rarity":"LF","role":"damage","tags":["Lineage of Evil","Powerful Opponent"]},{"name":"SP Super Gogeta (Red)","rarity":"SP","role":"damage","tags":["Saiyan","Fusion Warrior","Movies"]},{"name":"SP Super Saiyan God SS Evolved Vegeta","rarity":"SP","role":"damage","tags":["Saiyan","Vegeta Family","God Ki"]},{"name":"SP God of Destruction Beerus","rarity":"SP","role":"support","tags":["God Ki","Powerful Opponent"]},{"name":"SP Super Saiyan God Goku","rarity":"SP","role":"support","tags":["Saiyan","Son Family","God Ki"]},{"name":"SP Super Saiyan Goten (Kid)","rarity":"SP","role":"support","tags":["Hybrid Saiyan","Son Family"]},{"name":"SP Super Saiyan Trunks (Kid)","rarity":"SP","role":"support","tags":["Hybrid Saiyan","Vegeta Family"]},{"name":"SP Orange Piccolo","rarity":"SP","role":"tank","tags":["Regeneration","Movies"]},{"name":"SP Perfect Cell (Revived)","rarity":"SP","role":"tank","tags":["Regeneration","Android","Lineage of Evil"]},{"name":"SP Ultimate Gohan","rarity":"SP","role":"damage","tags":["Hybrid Saiyan","Son Family"]},{"name":"SP Android #21 (Evil)","rarity":"SP","role":"support","tags":["Android","Regeneration","Girls"]},{"name":"SP Videl","rarity":"SP","role":"support","tags":["Girls"]},{"name":"SP Golden Frieza","rarity":"SP","role":"damage","tags":["Lineage of Evil","Powerful Opponent"]},{"name":"SP Final Form Cooler","rarity":"SP","role":"damage","tags":["Lineage of Evil","Movies","Powerful Opponent"]},{"name":"SP Pan (GT)","rarity":"SP","role":"support","tags":["Hybrid Saiyan","Son Family","GT","Girls"]},{"name":"SP Super Baby 2","rarity":"SP","role":"damage","tags":["Regeneration","GT","Lineage of Evil"]},{"name":"SP Majuub","rarity":"SP","role":"damage","tags":["GT","Regeneration"]}];
-  var TEXT = {"count":"Seu time ({n}/6)","roleDamage":"Dano","roleTank":"Defesa","roleSupport":"Suporte","tipAllShare":"Perfeito: todos os lutadores selecionados compartilham o tag “{tag}” – as Z-Abilities fortalecem todo mundo.","tipNoShared":"Ainda não há tag em comum – as Z-Abilities não se fortalecem entre si. Tente montar em torno de um tag principal.","tipNeedDamage":"Adicione um atacante – sem ele você não fecha as partidas.","tipNeedTank":"Adicione um lutador defensivo para trocar com segurança sob pressão.","tipFull":"Time completo! Três lutadores batalham e três fortalecem o time do banco com suas Z-Abilities."};
+  var TEXT = {"count":"Seu time ({n}/6)","roleDamage":"Dano","roleTank":"Defesa","roleSupport":"Suporte","verdictGreat":"Seu time está muito bem montado!","verdictOk":"Base sólida com espaço para melhorar.","verdictWeak":"Seu time ainda precisa de ajustes.","recPerfect":"Nenhuma troca necessária: sinergia e funções se encaixam.","recSwap":"Troque {name} por {alt} para mais sinergia {tag}.","recRole":"Falta a função {role} no seu time. Boas opções: {names}.","recFill":"Preencha as seis vagas: três lutam e três reforçam do banco com suas Z-Abilities.","recEquip":"Equipamento: três equipamentos no atributo principal dos seus atacantes mais um com a condição {tag}."};
   var MAX = 6;
   var selected = [];
 
@@ -541,6 +551,7 @@ footer a { color: var(--dim); }
   var countEl = document.getElementById('builderCount');
   var emptyEl = document.getElementById('builderEmpty');
   var resultEl = document.getElementById('builderResult');
+  var verdictEl = document.getElementById('builderVerdict');
   var tagsEl = document.getElementById('builderTags');
   var rolesEl = document.getElementById('builderRoles');
   var tipsEl = document.getElementById('builderTips');
@@ -602,21 +613,70 @@ footer a { color: var(--dim); }
       rolesEl.appendChild(li);
     });
 
-    // Tips.
-    tipsEl.innerHTML = '';
-    var tips = [];
-    var allShare = shared.filter(function (tag) { return counts[tag] === chars.length; });
-    if (allShare.length) {
-      tips.push(TEXT.tipAllShare.replace('{tag}', allShare.join(' + ')));
-    } else if (!shared.length) {
-      tips.push(TEXT.tipNoShared);
+    // Verdict: synergy (50) + role coverage (30) + team size (20).
+    var mainTag = shared.length ? shared[0] : null;
+    var mainCount = mainTag ? counts[mainTag] : 0;
+    var rolesCovered = ['damage', 'tank', 'support'].filter(function (role) {
+      return chars.some(function (c) { return c.role === role; });
+    }).length;
+    var score = (mainCount / chars.length) * 50 + rolesCovered * 10 + (chars.length / MAX) * 20;
+    verdictEl.textContent = score >= 80 ? TEXT.verdictGreat : score >= 55 ? TEXT.verdictOk : TEXT.verdictWeak;
+    verdictEl.className = 'builder-verdict' + (score >= 80 ? '' : score >= 55 ? ' v-ok' : ' v-weak');
+
+    // Recommendations.
+    var byRarity = function (a, b) {
+      var rank = { UL: 3, LF: 2, SP: 1 };
+      return rank[b.rarity] - rank[a.rarity];
+    };
+    var selectedNames = {};
+    chars.forEach(function (c) { selectedNames[c.name] = true; });
+    var pool = ROSTER.filter(function (c) { return !selectedNames[c.name]; });
+    var recs = [];
+    var issues = 0;
+
+    ['damage', 'tank', 'support'].forEach(function (role) {
+      if (chars.some(function (c) { return c.role === role; })) return;
+      var cands = pool.filter(function (c) {
+        return c.role === role && (!mainTag || c.tags.indexOf(mainTag) !== -1);
+      });
+      if (!cands.length) cands = pool.filter(function (c) { return c.role === role; });
+      cands = cands.slice().sort(byRarity).slice(0, 2);
+      if (cands.length) {
+        issues++;
+        recs.push(TEXT.recRole
+          .replace('{role}', roleLabel(role))
+          .replace('{names}', cands.map(function (c) { return c.name; }).join(', ')));
+      }
+    });
+
+    if (mainTag && mainCount >= 2) {
+      var usedAlts = {};
+      chars.forEach(function (c) {
+        if (c.tags.indexOf(mainTag) !== -1) return;
+        var onTag = pool.filter(function (p) {
+          return p.tags.indexOf(mainTag) !== -1 && !usedAlts[p.name];
+        });
+        var alt = onTag.filter(function (p) { return p.role === c.role; }).sort(byRarity)[0] ||
+          onTag.sort(byRarity)[0];
+        if (alt) {
+          usedAlts[alt.name] = true;
+          issues++;
+          recs.push(TEXT.recSwap
+            .replace('{name}', c.name)
+            .replace('{alt}', alt.name)
+            .replace('{tag}', mainTag));
+        }
+      });
     }
-    if (!chars.some(function (c) { return c.role === 'damage'; })) tips.push(TEXT.tipNeedDamage);
-    if (!chars.some(function (c) { return c.role === 'tank'; })) tips.push(TEXT.tipNeedTank);
-    if (chars.length === MAX) tips.push(TEXT.tipFull);
-    tips.forEach(function (tip) {
+
+    if (chars.length < MAX) recs.push(TEXT.recFill);
+    if (mainTag) recs.push(TEXT.recEquip.replace('{tag}', mainTag));
+    if (!issues && chars.length === MAX) recs.unshift(TEXT.recPerfect);
+
+    tipsEl.innerHTML = '';
+    recs.forEach(function (rec) {
       var li = document.createElement('li');
-      li.textContent = tip;
+      li.textContent = rec;
       tipsEl.appendChild(li);
     });
   }

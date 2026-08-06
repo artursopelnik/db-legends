@@ -208,6 +208,15 @@
   padding: 0 6px;
 }
 .builder-tips li { margin: 4px 0; }
+.builder-summary p.builder-verdict {
+  font-weight: 700;
+  color: var(--text);
+  border-left: 3px solid var(--green);
+  padding-left: 10px;
+  margin-bottom: 4px;
+}
+.builder-summary p.builder-verdict.v-ok { border-left-color: var(--orange); }
+.builder-summary p.builder-verdict.v-weak { border-left-color: var(--flame); }
 .builder-reset {
   margin-top: 12px;
   background: transparent;
@@ -252,6 +261,7 @@
       <h3 id="builderCount"></h3>
       <p id="builderEmpty">{{BUILDER_EMPTY}}</p>
       <div id="builderResult" hidden>
+        <p class="builder-verdict" id="builderVerdict"></p>
         <h3>{{BUILDER_SHARED_TAGS}}</h3>
         <ul id="builderTags"></ul>
         <h3>{{BUILDER_ROLES}}</h3>
@@ -290,6 +300,7 @@
   var countEl = document.getElementById('builderCount');
   var emptyEl = document.getElementById('builderEmpty');
   var resultEl = document.getElementById('builderResult');
+  var verdictEl = document.getElementById('builderVerdict');
   var tagsEl = document.getElementById('builderTags');
   var rolesEl = document.getElementById('builderRoles');
   var tipsEl = document.getElementById('builderTips');
@@ -351,21 +362,70 @@
       rolesEl.appendChild(li);
     });
 
-    // Tips.
-    tipsEl.innerHTML = '';
-    var tips = [];
-    var allShare = shared.filter(function (tag) { return counts[tag] === chars.length; });
-    if (allShare.length) {
-      tips.push(TEXT.tipAllShare.replace('{tag}', allShare.join(' + ')));
-    } else if (!shared.length) {
-      tips.push(TEXT.tipNoShared);
+    // Verdict: synergy (50) + role coverage (30) + team size (20).
+    var mainTag = shared.length ? shared[0] : null;
+    var mainCount = mainTag ? counts[mainTag] : 0;
+    var rolesCovered = ['damage', 'tank', 'support'].filter(function (role) {
+      return chars.some(function (c) { return c.role === role; });
+    }).length;
+    var score = (mainCount / chars.length) * 50 + rolesCovered * 10 + (chars.length / MAX) * 20;
+    verdictEl.textContent = score >= 80 ? TEXT.verdictGreat : score >= 55 ? TEXT.verdictOk : TEXT.verdictWeak;
+    verdictEl.className = 'builder-verdict' + (score >= 80 ? '' : score >= 55 ? ' v-ok' : ' v-weak');
+
+    // Recommendations.
+    var byRarity = function (a, b) {
+      var rank = { UL: 3, LF: 2, SP: 1 };
+      return rank[b.rarity] - rank[a.rarity];
+    };
+    var selectedNames = {};
+    chars.forEach(function (c) { selectedNames[c.name] = true; });
+    var pool = ROSTER.filter(function (c) { return !selectedNames[c.name]; });
+    var recs = [];
+    var issues = 0;
+
+    ['damage', 'tank', 'support'].forEach(function (role) {
+      if (chars.some(function (c) { return c.role === role; })) return;
+      var cands = pool.filter(function (c) {
+        return c.role === role && (!mainTag || c.tags.indexOf(mainTag) !== -1);
+      });
+      if (!cands.length) cands = pool.filter(function (c) { return c.role === role; });
+      cands = cands.slice().sort(byRarity).slice(0, 2);
+      if (cands.length) {
+        issues++;
+        recs.push(TEXT.recRole
+          .replace('{role}', roleLabel(role))
+          .replace('{names}', cands.map(function (c) { return c.name; }).join(', ')));
+      }
+    });
+
+    if (mainTag && mainCount >= 2) {
+      var usedAlts = {};
+      chars.forEach(function (c) {
+        if (c.tags.indexOf(mainTag) !== -1) return;
+        var onTag = pool.filter(function (p) {
+          return p.tags.indexOf(mainTag) !== -1 && !usedAlts[p.name];
+        });
+        var alt = onTag.filter(function (p) { return p.role === c.role; }).sort(byRarity)[0] ||
+          onTag.sort(byRarity)[0];
+        if (alt) {
+          usedAlts[alt.name] = true;
+          issues++;
+          recs.push(TEXT.recSwap
+            .replace('{name}', c.name)
+            .replace('{alt}', alt.name)
+            .replace('{tag}', mainTag));
+        }
+      });
     }
-    if (!chars.some(function (c) { return c.role === 'damage'; })) tips.push(TEXT.tipNeedDamage);
-    if (!chars.some(function (c) { return c.role === 'tank'; })) tips.push(TEXT.tipNeedTank);
-    if (chars.length === MAX) tips.push(TEXT.tipFull);
-    tips.forEach(function (tip) {
+
+    if (chars.length < MAX) recs.push(TEXT.recFill);
+    if (mainTag) recs.push(TEXT.recEquip.replace('{tag}', mainTag));
+    if (!issues && chars.length === MAX) recs.unshift(TEXT.recPerfect);
+
+    tipsEl.innerHTML = '';
+    recs.forEach(function (rec) {
       var li = document.createElement('li');
-      li.textContent = tip;
+      li.textContent = rec;
       tipsEl.appendChild(li);
     });
   }

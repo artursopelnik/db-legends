@@ -157,11 +157,14 @@ function renderPage(template, css, lang, data, characters) {
     roleDamage: dict.teamsRoleDamage,
     roleTank: dict.teamsRoleTank,
     roleSupport: dict.teamsRoleSupport,
-    tipAllShare: dict.builderTipAllShare,
-    tipNoShared: dict.builderTipNoShared,
-    tipNeedDamage: dict.builderTipNeedDamage,
-    tipNeedTank: dict.builderTipNeedTank,
-    tipFull: dict.builderTipFull,
+    verdictGreat: dict.builderVerdictGreat,
+    verdictOk: dict.builderVerdictOk,
+    verdictWeak: dict.builderVerdictWeak,
+    recPerfect: dict.builderRecPerfect,
+    recSwap: dict.builderRecSwap,
+    recRole: dict.builderRecRole,
+    recFill: dict.builderRecFill,
+    recEquip: dict.builderRecEquip,
   };
   return template
     .replaceAll('{{LANG}}', lang)
