@@ -21,65 +21,9 @@ const ROOT = path.resolve(__dirname, '..');
 const DATA = path.join(ROOT, 'src', 'teams', 'data');
 const OUT = path.join(DATA, 'characters-source.json');
 
-const ELEMENT = { Blue: 'BLU', Yellow: 'YEL', Green: 'GRN', Red: 'RED', Purple: 'PUR', Light: 'LGT' };
+const TAG_DE = require('./tag-map-de.js');
 
-// German site tags -> the English tag names import-roster.js knows.
-// Battle styles are passed through in English so the role detection works.
-const TAG_DE = {
-  'Schlagangriffstyp': 'Melee Type',
-  'Fernangriffstyp': 'Ranged Type',
-  'Verteidigungstyp': 'Defense Type',
-  'Unterstützungstyp': 'Support Type',
-  'Saiyajin': 'Saiyan',
-  'Halb-Saiyajin': 'Hybrid Saiyan',
-  'Son-Familie': 'Son Family',
-  'Vegeta-Clan': 'Vegeta Clan',
-  'Göttliches Ki': 'God Ki',
-  'Fusionierter Kämpfer': 'Fusion Warrior',
-  'Zukunft': 'Future',
-  'GT': 'GT',
-  'DAIMA': 'DAIMA',
-  'Erneuerung': 'Regeneration',
-  'Cyborg': 'Android',
-  'Böse Abstammung': 'Lineage of Evil',
-  'Mächtiger Feind': 'Powerful Opponent',
-  'Kinoversion-Saga': 'Sagas From the Movies',
-  'Kinoversion-Saga (SUPER HERO)': 'Sagas From the Movies',
-  'Mädels': 'Girls',
-  'Weiblich': 'Female',
-  'Super-Saiyajin': 'Super Saiyan',
-  'Super-Saiyajin 2': 'Super Saiyan 2',
-  'Super-Saiyajin 3': 'Super Saiyan 3',
-  'Super-Saiyajin 4': 'Super Saiyan 4',
-  'Super-Saiyajin-Gott': 'Super Saiyan God',
-  'Super-Saiyajin Blue': 'Super Saiyan God SS',
-  'Super-Saiyajin Rosé': 'Super Saiyan Rosé',
-  'Verwandelter Kämpfer': 'Transforming Warrior',
-  'Kämpfer des Jenseits': 'Otherworld Warrior',
-  'Freezer-Armee': 'Frieza Force',
-  'Ginyu-Kommando': 'Ginyu Force',
-  'Namekianer': 'Namekian',
-  'Kids': 'Kids',
-  'Minion': 'Minion',
-  'Gegnerisches Universum': 'Rival Universe',
-  'Universums-Repräsentant': 'Universe Rep',
-  '2. Universum': 'Universe 2',
-  '4. Universum': 'Universe 4',
-  '6. Universum': 'Universe 6',
-  '9. Universum': 'Universe 9',
-  '11. Universum': 'Universe 11',
-  'Potara': 'Potara',
-  'Superkämpfer': 'Super Warrior',
-  'Bardocks Team': 'Team Bardock',
-  'Volk der Hera': 'Hera Clan',
-  'Teufelsdrachen': 'Shadow Dragon',
-  'Legends Road': 'Legends Road',
-  'Spiel-Original': 'Game Originals',
-  'Engel': 'Angel',
-  'Gott der Zerstörung': 'God of Destruction',
-  'Waffenträger': 'Weapon Wielder',
-  'Turles-Armee': 'Turles Crusher Corps',
-};
+const ELEMENT = { Blue: 'BLU', Yellow: 'YEL', Green: 'GRN', Red: 'RED', Purple: 'PUR', Light: 'LGT' };
 
 function main() {
   const inputPath = process.argv[2];

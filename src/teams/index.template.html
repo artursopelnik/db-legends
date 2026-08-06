@@ -326,6 +326,7 @@
 (function () {
   'use strict';
   var ROSTER = {{ROSTER_JSON}};
+  var EQUIPS = {{EQUIPS_JSON}};
   var TEXT = {{BUILDER_TEXT_JSON}};
   var MAX = 6;
   var selected = [];
@@ -535,6 +536,11 @@
     if (parts.length) {
       var equipTpl = mainTag ? TEXT.recEquipParts.replace('{tag}', mainTag) : TEXT.recEquipPartsNoTag;
       recs.push(equipTpl.replace('{parts}', parts.join(', ')));
+    }
+    if (mainTag && EQUIPS[mainTag] && EQUIPS[mainTag].length) {
+      recs.push(TEXT.recEquipItems
+        .replace('{tag}', mainTag)
+        .replace('{items}', EQUIPS[mainTag].join(' · ')));
     }
 
     if (!issues && chars.length === MAX) recs.unshift(TEXT.recPerfect);
