@@ -143,6 +143,39 @@
     line-height: 1.5;
   }
 
+  /* ---- Portal-Nav ---- */
+  .portal-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin: 16px 0 24px;
+  }
+  .pchip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 14px;
+    border-radius: 999px;
+    border: 1.5px solid var(--line);
+    background: linear-gradient(180deg, var(--panel-2), var(--panel));
+    color: var(--text);
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  .pchip:hover { border-color: var(--orange); color: var(--orange-soft); }
+  .pchip.active { border-color: var(--orange); color: var(--orange-soft); }
+
+  /* ---- Event-Hinweis ---- */
+  .event-notice {
+    border-left: 4px solid var(--orange);
+    padding: 14px 18px;
+  }
+  .event-notice p { color: var(--text); font-size: 0.92rem; line-height: 1.55; }
+  .event-notice .event-links { color: var(--dim); margin-top: 6px; }
+  .event-notice .event-links a { color: var(--orange-soft); text-decoration: none; }
+  .event-notice .event-links a:hover { text-decoration: underline; }
+
   /* ---- Panels & Form ---- */
   .panel {
     background: linear-gradient(180deg, var(--panel-2), var(--panel));
@@ -223,9 +256,8 @@
     box-shadow: none;
   }
 
-  /* ---- Promo-Codes ---- */
+  /* ---- Accordion (How-to & FAQ) ---- */
   .promo-h2 { margin-bottom: 0 !important; }
-  .promo-panel #promoBody { margin-top: 12px; }
   .promo-toggle {
     display: flex;
     align-items: center;
@@ -246,56 +278,12 @@
   .panel.collapsed { cursor: pointer; }
   .panel.collapsed:hover { border-color: var(--orange); }
   .promo-toggle:focus-visible { outline: 3px solid var(--orange-soft); outline-offset: 3px; border-radius: 6px; }
-  .promo-count {
-    font-family: system-ui, sans-serif;
-    font-size: 0.8rem;
-    font-weight: 700;
-    letter-spacing: 0;
-    color: #06230f;
-    background: var(--green);
-    border-radius: 999px;
-    padding: 2px 9px;
-  }
   .promo-chev {
     margin-left: auto;
     color: var(--dim);
     transition: transform 0.2s ease;
   }
   .promo-toggle[aria-expanded="true"] .promo-chev { transform: rotate(180deg); }
-  .promo-list { display: flex; flex-direction: column; }
-  .promo-row {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 8px 12px;
-    padding: 10px 0;
-    border-bottom: 1px dashed var(--line);
-  }
-  .promo-row:last-child { border-bottom: none; }
-  .promo-code {
-    font-family: ui-monospace, "Cascadia Mono", Consolas, monospace;
-    font-size: 0.98rem;
-    letter-spacing: 1.5px;
-    background: #0e1428;
-    color: var(--orange-soft);
-    border: 1.5px solid var(--orange);
-    border-radius: 999px;
-    padding: 7px 14px;
-    box-shadow: none;
-  }
-  .promo-reward { color: var(--text); font-size: 0.92rem; flex: 1; min-width: 140px; }
-  .promo-expires { color: var(--dim); font-size: 0.8rem; }
-  .promo-new {
-    font-family: var(--display);
-    font-size: 0.78rem;
-    letter-spacing: 1px;
-    color: #06230f;
-    background: var(--green);
-    border-radius: 999px;
-    padding: 2px 9px;
-  }
-  .promo-source { margin-top: 10px; }
-  .promo-source a { color: var(--dim); }
 
   /* ---- How-to ---- */
   #howtoPanel, #faqPanel { margin-top: 18px; }
@@ -565,6 +553,21 @@
     <p data-i18n="subtitle">Salve quantos friend codes quiser e gere todos os códigos QR de uma vez – sempre novos e prontos para escanear no jogo. Tudo roda localmente; sua lista fica no seu aparelho.</p>
   </header>
 
+  <nav class="portal-nav" aria-label="dblqr.org">
+    <span class="pchip active" aria-current="page">🔲 <span data-i18n="blogNavGenerator">Gerador de QR</span></span>
+    <a class="pchip" href="/pt/promo-codes/" data-i18n="promoHeading">🎁 Códigos promocionais</a>
+    <a class="pchip" href="/pt/teams/">⚔️ <span data-i18n="navTeams">Guia de times</span></a>
+    <a class="pchip" href="/pt/blog/">📖 <span data-i18n="blogNavBlog">Blog</span></a>
+  </nav>
+
+  <section class="panel event-notice">
+    <p>⏳ <span data-i18n="eventNotice">O evento de aniversário está em pausa – o leitor de QR será usado de novo no próximo evento.</span></p>
+    <p class="event-links"><span data-i18n="eventUntilThen">Até lá:</span>
+      <a href="/pt/teams/">⚔️ <span data-i18n="navTeams">Guia de times</span></a> ·
+      <a href="/pt/promo-codes/" data-i18n="promoHeading">🎁 Códigos promocionais</a> ·
+      <a href="/pt/blog/">📖 <span data-i18n="blogLink">Guias e blog</span></a></p>
+  </section>
+
   <section class="panel">
     <h2 data-i18n="addHeading">Adicionar friend code</h2>
     <form class="add-form" id="addForm">
@@ -572,22 +575,6 @@
       <button type="submit" data-i18n="addBtn">Adicionar</button>
       <div class="error-msg" id="formError"></div>
     </form>
-  </section>
-
-  <section class="panel promo-panel" id="promoPanel" hidden>
-    <h2 class="promo-h2">
-      <button type="button" class="promo-toggle" id="promoToggle" aria-expanded="false" aria-controls="promoBody">
-        <span data-i18n="promoHeading">🎁 Códigos promocionais</span>
-        <span class="promo-count" id="promoCount"></span>
-        <span class="promo-chev" aria-hidden="true">▾</span>
-      </button>
-    </h2>
-    <div id="promoBody" hidden>
-      <p class="hint" data-i18n="promoHint">Toque em um código para copiá-lo e resgate no jogo.</p>
-      <div class="promo-list" id="promoList"></div>
-      <p class="hint promo-source"><span data-i18n="promoSource">Fonte</span>:
-        <a id="promoSourceLink" target="_blank" rel="noopener noreferrer"></a></p>
-    </div>
   </section>
 
   <div class="toolbar">
@@ -684,6 +671,8 @@
     </p>
     <p class="copyright">© 2026 <a href="https://dblqr.org" rel="author">dblqr.org</a> · Artur Sopelnik</p>
     <p class="legal">
+      <a href="/pt/promo-codes/" data-i18n="navPromo">Códigos promocionais</a> ·
+      <a href="/pt/teams/" data-i18n="navTeams">Guia de times</a> ·
       <a href="/pt/blog/" data-i18n="blogLink">Guias e blog</a> ·
       <a href="https://artursopelnik.de/site-policy/" target="_blank" rel="noopener noreferrer" data-i18n="legalNotice">Aviso legal</a> ·
       <a href="https://artursopelnik.de/data-privacy/" target="_blank" rel="noopener noreferrer" data-i18n="privacy">Política de privacidade</a>

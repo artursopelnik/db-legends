@@ -103,7 +103,7 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/"/>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-08-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -117,7 +117,7 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/"/>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-08-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -131,7 +131,7 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/"/>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-08-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -145,7 +145,7 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/"/>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-08-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -159,7 +159,7 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/"/>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-08-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -173,7 +173,7 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/"/>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-08-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -187,9 +187,296 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/"/>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-08-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/teams/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/teams/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/teams/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/teams/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/teams/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/teams/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/teams/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/teams/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/teams/"/>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/de/teams/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/teams/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/teams/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/teams/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/teams/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/teams/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/teams/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/teams/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/teams/"/>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/es/teams/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/teams/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/teams/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/teams/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/teams/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/teams/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/teams/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/teams/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/teams/"/>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/pt/teams/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/teams/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/teams/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/teams/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/teams/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/teams/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/teams/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/teams/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/teams/"/>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/fr/teams/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/teams/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/teams/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/teams/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/teams/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/teams/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/teams/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/teams/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/teams/"/>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/ru/teams/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/teams/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/teams/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/teams/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/teams/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/teams/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/teams/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/teams/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/teams/"/>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/ja/teams/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/teams/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/teams/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/teams/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/teams/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/teams/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/teams/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/teams/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/teams/"/>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/promo-codes/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/promo-codes/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/promo-codes/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/promo-codes/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/promo-codes/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/promo-codes/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/promo-codes/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/promo-codes/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/promo-codes/"/>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/de/promo-codes/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/promo-codes/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/promo-codes/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/promo-codes/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/promo-codes/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/promo-codes/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/promo-codes/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/promo-codes/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/promo-codes/"/>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/es/promo-codes/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/promo-codes/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/promo-codes/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/promo-codes/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/promo-codes/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/promo-codes/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/promo-codes/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/promo-codes/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/promo-codes/"/>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/pt/promo-codes/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/promo-codes/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/promo-codes/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/promo-codes/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/promo-codes/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/promo-codes/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/promo-codes/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/promo-codes/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/promo-codes/"/>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/fr/promo-codes/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/promo-codes/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/promo-codes/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/promo-codes/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/promo-codes/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/promo-codes/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/promo-codes/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/promo-codes/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/promo-codes/"/>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/ru/promo-codes/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/promo-codes/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/promo-codes/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/promo-codes/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/promo-codes/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/promo-codes/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/promo-codes/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/promo-codes/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/promo-codes/"/>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/ja/promo-codes/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/promo-codes/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/promo-codes/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/promo-codes/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/promo-codes/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/promo-codes/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/promo-codes/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/promo-codes/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/promo-codes/"/>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/blog/dragon-ball-legends-team-building-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/blog/dragon-ball-legends-team-building-guide/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/blog/dragon-ball-legends-team-building-guide/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/blog/dragon-ball-legends-team-building-guide/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/blog/dragon-ball-legends-team-building-guide/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/blog/dragon-ball-legends-team-building-guide/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/dragon-ball-legends-team-building-guide/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/dragon-ball-legends-team-building-guide/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/dragon-ball-legends-team-building-guide/"/>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/de/blog/dragon-ball-legends-team-building-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/blog/dragon-ball-legends-team-building-guide/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/blog/dragon-ball-legends-team-building-guide/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/blog/dragon-ball-legends-team-building-guide/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/blog/dragon-ball-legends-team-building-guide/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/blog/dragon-ball-legends-team-building-guide/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/dragon-ball-legends-team-building-guide/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/dragon-ball-legends-team-building-guide/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/dragon-ball-legends-team-building-guide/"/>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/es/blog/dragon-ball-legends-team-building-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/blog/dragon-ball-legends-team-building-guide/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/blog/dragon-ball-legends-team-building-guide/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/blog/dragon-ball-legends-team-building-guide/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/blog/dragon-ball-legends-team-building-guide/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/blog/dragon-ball-legends-team-building-guide/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/dragon-ball-legends-team-building-guide/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/dragon-ball-legends-team-building-guide/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/dragon-ball-legends-team-building-guide/"/>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/pt/blog/dragon-ball-legends-team-building-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/blog/dragon-ball-legends-team-building-guide/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/blog/dragon-ball-legends-team-building-guide/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/blog/dragon-ball-legends-team-building-guide/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/blog/dragon-ball-legends-team-building-guide/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/blog/dragon-ball-legends-team-building-guide/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/dragon-ball-legends-team-building-guide/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/dragon-ball-legends-team-building-guide/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/dragon-ball-legends-team-building-guide/"/>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/fr/blog/dragon-ball-legends-team-building-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/blog/dragon-ball-legends-team-building-guide/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/blog/dragon-ball-legends-team-building-guide/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/blog/dragon-ball-legends-team-building-guide/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/blog/dragon-ball-legends-team-building-guide/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/blog/dragon-ball-legends-team-building-guide/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/dragon-ball-legends-team-building-guide/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/dragon-ball-legends-team-building-guide/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/dragon-ball-legends-team-building-guide/"/>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/ru/blog/dragon-ball-legends-team-building-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/blog/dragon-ball-legends-team-building-guide/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/blog/dragon-ball-legends-team-building-guide/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/blog/dragon-ball-legends-team-building-guide/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/blog/dragon-ball-legends-team-building-guide/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/blog/dragon-ball-legends-team-building-guide/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/dragon-ball-legends-team-building-guide/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/dragon-ball-legends-team-building-guide/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/dragon-ball-legends-team-building-guide/"/>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://dblqr.org/ja/blog/dragon-ball-legends-team-building-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dblqr.org/blog/dragon-ball-legends-team-building-guide/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dblqr.org/de/blog/dragon-ball-legends-team-building-guide/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dblqr.org/es/blog/dragon-ball-legends-team-building-guide/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dblqr.org/pt/blog/dragon-ball-legends-team-building-guide/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dblqr.org/fr/blog/dragon-ball-legends-team-building-guide/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://dblqr.org/ru/blog/dragon-ball-legends-team-building-guide/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dblqr.org/ja/blog/dragon-ball-legends-team-building-guide/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dblqr.org/blog/dragon-ball-legends-team-building-guide/"/>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://dblqr.org/blog/how-to-scan-qr-codes-in-dragon-ball-legends/</loc>

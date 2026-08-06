@@ -1,0 +1,251 @@
+{
+  "updatedAt": "2026-08-06",
+  "teams": [
+    {
+      "slug": "fusion-warrior",
+      "tag": "Fusion Warrior",
+      "emoji": "🔀",
+      "core": [
+        { "name": "ULTRA Super Saiyan God SS Gogeta", "role": "damage" },
+        { "name": "LF Fused Zamasu (Red)", "role": "tank" },
+        { "name": "LF Half-Corrupted Fusion Zamasu", "role": "support" }
+      ],
+      "bench": ["LF Super Saiyan 4 Gogeta", "LF Vegito Blue", "SP Super Gogeta (Red)"],
+      "text": {
+        "en": {
+          "why": "The poster team of the current meta: ULTRA SSGSS Gogeta delivers enormous strike damage while both Zamasu builds add healing and punish careless switches. The Z-Abilities line up almost perfectly, so the core works even without the newest banner units.",
+          "equip": "Pure strike-attack equips on Gogeta, a mixed attack/defense set on Fused Zamasu and one health-focused equip on the support slot – Fusion Warrior tag equips give the biggest flat boosts."
+        },
+        "de": {
+          "why": "Das Aushängeschild der aktuellen Meta: ULTRA SSGSS Gogeta liefert enormen Strike-Schaden, während beide Zamasu-Varianten heilen und unvorsichtige Wechsel bestrafen. Die Z-Abilities greifen fast perfekt ineinander – der Kern funktioniert auch ohne die neuesten Banner-Einheiten.",
+          "equip": "Reine Strike-Attack-Equips auf Gogeta, ein gemischtes Angriff/Verteidigung-Set auf Fused Zamasu und ein Health-Equip auf dem Support-Slot – Equips mit Fusion-Warrior-Bedingung geben die größten Boosts."
+        },
+        "es": {
+          "why": "El equipo estrella del meta actual: ULTRA SSGSS Gogeta inflige un daño de golpe enorme mientras ambos Zamasu curan y castigan los cambios descuidados. Las Z-Abilities encajan casi a la perfección, así que el núcleo funciona incluso sin las unidades más nuevas.",
+          "equip": "Equipos de ataque de golpe puros para Gogeta, un set mixto de ataque/defensa para Fused Zamasu y un equipo de salud en el soporte: los equipos con condición Fusion Warrior dan los mayores aumentos."
+        },
+        "pt": {
+          "why": "O time símbolo do meta atual: ULTRA SSGSS Gogeta causa dano de golpe enorme enquanto os dois Zamasu curam e punem trocas descuidadas. As Z-Abilities se encaixam quase perfeitamente – o núcleo funciona mesmo sem as unidades mais novas.",
+          "equip": "Equipamentos puros de ataque de golpe no Gogeta, um conjunto misto de ataque/defesa no Fused Zamasu e um equipamento de vida no suporte – equipamentos com condição Fusion Warrior dão os maiores bônus."
+        },
+        "fr": {
+          "why": "L'équipe vitrine de la méta actuelle : ULTRA SSGSS Gogeta inflige d'énormes dégâts de frappe tandis que les deux Zamasu soignent et punissent les changements imprudents. Les Z-Abilities s'alignent presque parfaitement – le noyau fonctionne même sans les toutes dernières unités.",
+          "equip": "Équipements purs d'attaque de frappe sur Gogeta, un set mixte attaque/défense sur Fused Zamasu et un équipement de santé sur le support – les équipements à condition Fusion Warrior donnent les plus gros bonus."
+        },
+        "ru": {
+          "why": "Визитная карточка текущей меты: ULTRA SSGSS Гогета наносит огромный strike-урон, а оба Замасу лечат и наказывают неосторожные смены. Z-Abilities сочетаются почти идеально – ядро работает даже без самых новых юнитов.",
+          "equip": "Чистые strike-attack экипировки на Гогету, смешанный набор атака/защита на Слитого Замасу и экипировка на здоровье для саппорта – экипировки с условием Fusion Warrior дают самые большие бонусы."
+        },
+        "ja": {
+          "why": "現環境の看板チーム。ULTRA SSGSSゴジータが圧倒的な打撃ダメージを出し、2種のザマスが回復と交代狩りで支えます。Zアビリティの噛み合いがほぼ完璧で、最新ガシャキャラなしでもコアが成立します。",
+          "equip": "ゴジータには打撃攻撃特化の装備、合体ザマスには攻防ミックス、サポート枠には体力重視の装備を。「合体戦士」条件付き装備が最も大きく伸びます。"
+        }
+      }
+    },
+    {
+      "slug": "god-ki",
+      "tag": "God Ki",
+      "emoji": "✨",
+      "core": [
+        { "name": "ULTRA Super Saiyan God SS Gogeta", "role": "damage" },
+        { "name": "ULTRA Ultra Instinct Goku", "role": "damage" },
+        { "name": "LF Fused Zamasu (Red)", "role": "tank" }
+      ],
+      "bench": ["LF Super Saiyan God Goku", "SP Super Saiyan God SS Evolved Vegeta", "SP God of Destruction Beerus"],
+      "text": {
+        "en": {
+          "why": "Combines the two strongest attackers in the game – ULTRA SSGSS Gogeta and ULTRA Ultra Instinct Goku – with Fused Zamasu as a durable anchor. Massive burst damage with enough sustain to recover from a lost exchange.",
+          "equip": "Strike equips on both Ultras, one God Ki tag equip for the big flat boosts, and a defensive health set on Zamasu for the late game."
+        },
+        "de": {
+          "why": "Kombiniert die zwei stärksten Angreifer des Spiels – ULTRA SSGSS Gogeta und ULTRA Ultra Instinct Goku – mit Fused Zamasu als stabilem Anker. Massiver Burst-Schaden mit genug Nachhaltigkeit, um einen verlorenen Schlagabtausch aufzuholen.",
+          "equip": "Strike-Equips auf beide Ultras, ein Equip mit God-Ki-Bedingung für die großen Boosts und ein defensives Health-Set auf Zamasu fürs Lategame."
+        },
+        "es": {
+          "why": "Combina a los dos atacantes más fuertes del juego – ULTRA SSGSS Gogeta y ULTRA Ultra Instinct Goku – con Fused Zamasu como ancla resistente. Daño explosivo masivo con suficiente aguante para recuperarse de un intercambio perdido.",
+          "equip": "Equipos de golpe para ambos Ultras, un equipo con condición God Ki para los grandes aumentos y un set defensivo de salud para Zamasu de cara al final de partida."
+        },
+        "pt": {
+          "why": "Combina os dois atacantes mais fortes do jogo – ULTRA SSGSS Gogeta e ULTRA Ultra Instinct Goku – com Fused Zamasu como âncora resistente. Dano explosivo massivo com sustain suficiente para se recuperar de uma troca perdida.",
+          "equip": "Equipamentos de golpe nos dois Ultras, um equipamento com condição God Ki para os grandes bônus e um conjunto defensivo de vida no Zamasu para o fim de partida."
+        },
+        "fr": {
+          "why": "Combine les deux meilleurs attaquants du jeu – ULTRA SSGSS Gogeta et ULTRA Ultra Instinct Goku – avec Fused Zamasu comme ancre solide. D'énormes dégâts éclatés avec assez d'endurance pour rattraper un échange perdu.",
+          "equip": "Équipements de frappe sur les deux Ultras, un équipement à condition God Ki pour les gros bonus et un set défensif de santé sur Zamasu pour la fin de match."
+        },
+        "ru": {
+          "why": "Объединяет двух сильнейших атакующих игры – ULTRA SSGSS Гогету и ULTRA Ultra Instinct Гоку – со Слитым Замасу в роли прочного якоря. Огромный burst-урон и достаточно живучести, чтобы отыграться после неудачного размена.",
+          "equip": "Strike-экипировки на обоих Ультра, одна экипировка с условием God Ki для больших бонусов и защитный набор на здоровье для Замасу на позднюю игру."
+        },
+        "ja": {
+          "why": "ゲーム内最強のアタッカー2枚 – ULTRA SSGSSゴジータとULTRA身勝手の極意悟空 – を、耐久の高い合体ザマスで支える構成。爆発的な火力に加え、不利な交換から立て直せる持久力もあります。",
+          "equip": "両ULTRAには打撃装備、「神の気」条件付き装備を1枠、ザマスには終盤用の体力・防御セットを。"
+        }
+      }
+    },
+    {
+      "slug": "son-family",
+      "tag": "Son Family",
+      "emoji": "👨‍👦",
+      "core": [
+        { "name": "ULTRA Ultra Instinct Goku", "role": "damage" },
+        { "name": "ULTRA Beast Gohan", "role": "damage" },
+        { "name": "LF Super Saiyan 2 Youth Gohan", "role": "tank" }
+      ],
+      "bench": ["LF Bardock", "SP Super Saiyan God Goku", "SP Super Saiyan Goten (Kid)"],
+      "text": {
+        "en": {
+          "why": "The classic all-rounder: huge health pools, strong strike defense and big damage multipliers thanks to perfectly aligned Z-Abilities. Beast Gohan and UI Goku carry the damage, Youth Gohan holds the defensive slot.",
+          "equip": "Blast-attack equips on Beast Gohan, strike on UI Goku, and health/strike-defense equips on Youth Gohan – Son Family tag equips play into the team's naturally high health."
+        },
+        "de": {
+          "why": "Der klassische Allrounder: riesige Lebenspools, starke Strike-Verteidigung und große Schadensmultiplikatoren dank perfekt abgestimmter Z-Abilities. Beast Gohan und UI Goku tragen den Schaden, Youth Gohan hält den defensiven Slot.",
+          "equip": "Blast-Attack-Equips auf Beast Gohan, Strike auf UI Goku und Health/Strike-Defense-Equips auf Youth Gohan – Equips mit Son-Family-Bedingung nutzen die von Natur aus hohen Lebenspunkte des Teams."
+        },
+        "es": {
+          "why": "El todoterreno clásico: enormes reservas de salud, fuerte defensa contra golpes y grandes multiplicadores de daño gracias a Z-Abilities perfectamente alineadas. Beast Gohan y UI Goku llevan el daño; Youth Gohan ocupa el puesto defensivo.",
+          "equip": "Equipos de ataque de ráfaga para Beast Gohan, de golpe para UI Goku y equipos de salud/defensa de golpe para Youth Gohan – los equipos con condición Son Family aprovechan la salud naturalmente alta del equipo."
+        },
+        "pt": {
+          "why": "O clássico versátil: reservas enormes de vida, forte defesa de golpe e grandes multiplicadores de dano graças a Z-Abilities perfeitamente alinhadas. Beast Gohan e UI Goku carregam o dano; Youth Gohan segura a vaga defensiva.",
+          "equip": "Equipamentos de ataque de rajada no Beast Gohan, de golpe no UI Goku e equipamentos de vida/defesa de golpe no Youth Gohan – equipamentos com condição Son Family aproveitam a vida naturalmente alta do time."
+        },
+        "fr": {
+          "why": "Le polyvalent classique : d'énormes réserves de santé, une forte défense de frappe et de gros multiplicateurs de dégâts grâce à des Z-Abilities parfaitement alignées. Beast Gohan et UI Goku portent les dégâts, Youth Gohan tient le rôle défensif.",
+          "equip": "Équipements d'attaque de tir sur Beast Gohan, de frappe sur UI Goku et équipements santé/défense de frappe sur Youth Gohan – les équipements à condition Son Family exploitent la santé naturellement élevée de l'équipe."
+        },
+        "ru": {
+          "why": "Классический универсал: огромный запас здоровья, сильная защита от strike-атак и большие множители урона благодаря идеально совпадающим Z-Abilities. Бист Гохан и UI Гоку несут урон, юный Гохан держит защитный слот.",
+          "equip": "Blast-экипировки на Бист Гохана, strike – на UI Гоку, здоровье/защита – на юного Гохана. Экипировки с условием Son Family усиливают и без того высокое здоровье команды."
+        },
+        "ja": {
+          "why": "王道のバランス型。豊富な体力、高い打撃防御、そして完璧に揃ったZアビリティによる大きなダメージ倍率が魅力です。ビースト悟飯と身勝手悟空が火力を担い、少年悟飯が防御枠を支えます。",
+          "equip": "ビースト悟飯には射撃攻撃装備、身勝手悟空には打撃装備、少年悟飯には体力・打撃防御装備を。「孫一族」条件付き装備はチームの高い体力とよく噛み合います。"
+        }
+      }
+    },
+    {
+      "slug": "regeneration",
+      "tag": "Regeneration",
+      "emoji": "♻️",
+      "core": [
+        { "name": "ULTRA Janemba", "role": "damage" },
+        { "name": "LF Half-Corrupted Fusion Zamasu", "role": "support" },
+        { "name": "LF Majin Buu: Good", "role": "tank" }
+      ],
+      "bench": ["LF Super Baby 2", "SP Orange Piccolo", "SP Perfect Cell (Revived)"],
+      "text": {
+        "en": {
+          "why": "Wins the long game: Janemba, Fusion Zamasu and Majin Buu heal every turn and simply outlast burst-oriented teams. Ideal if you like defensive, patient PvP.",
+          "equip": "Health and defense first: stack health-percentage equips on the whole core – Regeneration healing scales with max health – plus one damage equip on Janemba."
+        },
+        "de": {
+          "why": "Gewinnt das lange Spiel: Janemba, Fusion Zamasu und Majin Buu heilen jede Runde und überdauern Burst-lastige Teams einfach. Ideal, wenn du defensives, geduldiges PvP magst.",
+          "equip": "Leben und Verteidigung zuerst: Health-Prozent-Equips auf den ganzen Kern – die Regeneration-Heilung skaliert mit maximalen Lebenspunkten – plus ein Schadens-Equip auf Janemba."
+        },
+        "es": {
+          "why": "Gana la partida larga: Janemba, Fusion Zamasu y Majin Buu se curan cada turno y simplemente sobreviven a los equipos de daño explosivo. Ideal si te gusta el PvP defensivo y paciente.",
+          "equip": "Salud y defensa primero: acumula equipos de porcentaje de salud en todo el núcleo – la curación de Regeneration escala con la salud máxima – más un equipo de daño para Janemba."
+        },
+        "pt": {
+          "why": "Vence o jogo longo: Janemba, Fusion Zamasu e Majin Buu se curam a cada turno e simplesmente sobrevivem aos times de dano explosivo. Ideal se você gosta de PvP defensivo e paciente.",
+          "equip": "Vida e defesa primeiro: acumule equipamentos de porcentagem de vida em todo o núcleo – a cura de Regeneration escala com a vida máxima – mais um equipamento de dano no Janemba."
+        },
+        "fr": {
+          "why": "Gagne sur la durée : Janemba, Fusion Zamasu et Majin Buu se soignent à chaque tour et épuisent tout simplement les équipes orientées burst. Idéal si vous aimez un PvP défensif et patient.",
+          "equip": "Santé et défense d'abord : cumulez des équipements de pourcentage de santé sur tout le noyau – les soins de Regeneration dépendent de la santé max – plus un équipement de dégâts sur Janemba."
+        },
+        "ru": {
+          "why": "Выигрывает длинную игру: Джанемба, Слитый Замасу и Маджин Буу лечатся каждый ход и просто переживают burst-команды. Идеально, если вам нравится оборонительный, терпеливый PvP.",
+          "equip": "Сначала здоровье и защита: процентные экипировки на здоровье на весь костяк – лечение Regeneration зависит от максимального здоровья – плюс одна экипировка на урон для Джанембы."
+        },
+        "ja": {
+          "why": "長期戦の覇者。ジャネンバ、合体ザマス、魔人ブウが毎ターン回復し、瞬発力型チームを消耗戦で圧倒します。守り重視でじっくり戦うPvPが好きな人に最適です。",
+          "equip": "まず体力と防御。コア全員に体力％装備を積みましょう – 「再生」の回復量は最大体力に依存します。ジャネンバにだけ火力装備を1枠。"
+        }
+      }
+    },
+    {
+      "slug": "hybrid-saiyan",
+      "tag": "Hybrid Saiyan",
+      "emoji": "⚡",
+      "core": [
+        { "name": "ULTRA Beast Gohan", "role": "damage" },
+        { "name": "LF Gohan & Trunks (Adult)", "role": "damage" },
+        { "name": "LF Super Saiyan 2 Youth Gohan", "role": "tank" }
+      ],
+      "bench": ["SP Super Saiyan Trunks (Kid)", "SP Super Saiyan Goten (Kid)", "LF Super Trunks"],
+      "text": {
+        "en": {
+          "why": "Hybrid Saiyans hit fast and often: Beast Gohan and Gohan & Trunks chain combos while Youth Gohan covers defense. A strong pick if you pulled the 8th-anniversary units.",
+          "equip": "Split by main stat: blast equips for Beast Gohan, strike for Gohan & Trunks, plus one Hybrid Saiyan tag equip and a defensive set on the Youth Gohan slot."
+        },
+        "de": {
+          "why": "Hybrid-Saiyajins schlagen schnell und oft zu: Beast Gohan und Gohan & Trunks ketten Combos aneinander, während Youth Gohan die Verteidigung übernimmt. Eine starke Wahl, wenn du die Einheiten vom 8. Jubiläum gezogen hast.",
+          "equip": "Nach Hauptwert aufteilen: Blast-Equips für Beast Gohan, Strike für Gohan & Trunks, dazu ein Equip mit Hybrid-Saiyan-Bedingung und ein defensives Set auf dem Youth-Gohan-Slot."
+        },
+        "es": {
+          "why": "Los Hybrid Saiyan golpean rápido y a menudo: Beast Gohan y Gohan & Trunks encadenan combos mientras Youth Gohan cubre la defensa. Una gran elección si conseguiste las unidades del octavo aniversario.",
+          "equip": "Divide por estadística principal: equipos de ráfaga para Beast Gohan, de golpe para Gohan & Trunks, más un equipo con condición Hybrid Saiyan y un set defensivo en el puesto de Youth Gohan."
+        },
+        "pt": {
+          "why": "Os Hybrid Saiyan batem rápido e com frequência: Beast Gohan e Gohan & Trunks emendam combos enquanto Youth Gohan cuida da defesa. Ótima escolha se você tirou as unidades do 8º aniversário.",
+          "equip": "Divida pela estatística principal: equipamentos de rajada para o Beast Gohan, de golpe para Gohan & Trunks, mais um equipamento com condição Hybrid Saiyan e um conjunto defensivo na vaga do Youth Gohan."
+        },
+        "fr": {
+          "why": "Les Hybrid Saiyan frappent vite et souvent : Beast Gohan et Gohan & Trunks enchaînent les combos tandis que Youth Gohan assure la défense. Un excellent choix si vous avez obtenu les unités du 8e anniversaire.",
+          "equip": "Répartissez selon la statistique principale : équipements de tir pour Beast Gohan, de frappe pour Gohan & Trunks, plus un équipement à condition Hybrid Saiyan et un set défensif sur le rôle de Youth Gohan."
+        },
+        "ru": {
+          "why": "Гибридные саяны бьют быстро и часто: Бист Гохан и Гохан и Транкс цепляют комбо одно за другим, а юный Гохан прикрывает оборону. Сильный выбор, если вы выбили юнитов 8-й годовщины.",
+          "equip": "Делите по основной характеристике: blast-экипировки для Бист Гохана, strike – для Гохана и Транкса, плюс одна экипировка с условием Hybrid Saiyan и защитный набор на слот юного Гохана."
+        },
+        "ja": {
+          "why": "ハイブリッドサイヤ人は手数で圧倒します。ビースト悟飯と悟飯&トランクスがコンボを繋ぎ、少年悟飯が防御を担当。8周年キャラを引けたなら有力な選択肢です。",
+          "equip": "メインステータスで分担：ビースト悟飯は射撃装備、悟飯&トランクスは打撃装備。「ハイブリッドサイヤ人」条件付き装備を1枠と、少年悟飯枠には防御セットを。"
+        }
+      }
+    },
+    {
+      "slug": "gt-super-saiyan-4",
+      "tag": "GT",
+      "emoji": "🐒",
+      "core": [
+        { "name": "ULTRA Super Saiyan 4 Goku", "role": "damage" },
+        { "name": "LF Super Saiyan 4 Vegeta", "role": "tank" },
+        { "name": "LF Super Saiyan 4 Gogeta", "role": "damage" }
+      ],
+      "bench": ["SP Pan (GT)", "SP Super Baby 2", "SP Majuub"],
+      "text": {
+        "en": {
+          "why": "Pure aggression around ULTRA Super Saiyan 4 Goku: SS4 Vegeta and SS4 Gogeta keep up the ki pressure and end matches before sustain teams come online. Simple game plan, very high damage ceiling.",
+          "equip": "Full aggression: strike-attack equips on SS4 Goku and Gogeta, a mixed set on Vegeta, and one GT tag equip – here damage wins before sustain matters."
+        },
+        "de": {
+          "why": "Pure Aggression rund um ULTRA Super Saiyan 4 Goku: SS4 Vegeta und SS4 Gogeta halten den Ki-Druck hoch und beenden Matches, bevor Sustain-Teams ins Spiel kommen. Simpler Spielplan, sehr hohe Schadensobergrenze.",
+          "equip": "Volle Offensive: Strike-Attack-Equips auf SS4 Goku und Gogeta, ein gemischtes Set auf Vegeta und ein Equip mit GT-Bedingung – hier gewinnt Schaden, bevor Nachhaltigkeit zählt."
+        },
+        "es": {
+          "why": "Agresión pura en torno a ULTRA Super Saiyan 4 Goku: SS4 Vegeta y SS4 Gogeta mantienen la presión de ki y terminan las partidas antes de que los equipos de aguante despeguen. Plan de juego simple, techo de daño altísimo.",
+          "equip": "Ofensiva total: equipos de ataque de golpe para SS4 Goku y Gogeta, un set mixto para Vegeta y un equipo con condición GT – aquí el daño gana antes de que importe el aguante."
+        },
+        "pt": {
+          "why": "Agressão pura em torno do ULTRA Super Saiyan 4 Goku: SS4 Vegeta e SS4 Gogeta mantêm a pressão de ki e encerram as partidas antes que os times de sustain engatem. Plano de jogo simples, teto de dano altíssimo.",
+          "equip": "Ofensiva total: equipamentos de ataque de golpe no SS4 Goku e no Gogeta, um conjunto misto no Vegeta e um equipamento com condição GT – aqui o dano vence antes que o sustain importe."
+        },
+        "fr": {
+          "why": "De l'agression pure autour d'ULTRA Super Saiyan 4 Goku : SS4 Vegeta et SS4 Gogeta maintiennent la pression de ki et terminent les matchs avant que les équipes d'endurance ne se mettent en place. Plan de jeu simple, plafond de dégâts très élevé.",
+          "equip": "Offensive totale : équipements d'attaque de frappe sur SS4 Goku et Gogeta, un set mixte sur Vegeta et un équipement à condition GT – ici les dégâts gagnent avant que l'endurance ne compte."
+        },
+        "ru": {
+          "why": "Чистая агрессия вокруг ULTRA Супер Саяна 4 Гоку: SS4 Веджета и SS4 Гогета держат ки-давление и заканчивают матчи до того, как раскачаются команды на выживание. Простой план игры, очень высокий потолок урона.",
+          "equip": "Полная атака: strike-экипировки на SS4 Гоку и Гогету, смешанный набор на Веджету и одна экипировка с условием GT – здесь урон побеждает раньше, чем живучесть начнёт иметь значение."
+        },
+        "ja": {
+          "why": "ULTRA超サイヤ人4悟空を軸にした超攻撃型。SS4ベジータとSS4ゴジータが気圧力を維持し、持久型チームが本領を発揮する前に試合を終わらせます。シンプルな戦略で火力上限は最高クラス。",
+          "equip": "全力攻撃：SS4悟空とゴジータには打撃攻撃装備、ベジータには攻防ミックス、「GT」条件付き装備を1枠。このチームは持久力より火力が正義です。"
+        }
+      }
+    }
+  ]
+}

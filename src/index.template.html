@@ -129,6 +129,39 @@
     line-height: 1.5;
   }
 
+  /* ---- Portal-Nav ---- */
+  .portal-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin: 16px 0 24px;
+  }
+  .pchip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 14px;
+    border-radius: 999px;
+    border: 1.5px solid var(--line);
+    background: linear-gradient(180deg, var(--panel-2), var(--panel));
+    color: var(--text);
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  .pchip:hover { border-color: var(--orange); color: var(--orange-soft); }
+  .pchip.active { border-color: var(--orange); color: var(--orange-soft); }
+
+  /* ---- Event-Hinweis ---- */
+  .event-notice {
+    border-left: 4px solid var(--orange);
+    padding: 14px 18px;
+  }
+  .event-notice p { color: var(--text); font-size: 0.92rem; line-height: 1.55; }
+  .event-notice .event-links { color: var(--dim); margin-top: 6px; }
+  .event-notice .event-links a { color: var(--orange-soft); text-decoration: none; }
+  .event-notice .event-links a:hover { text-decoration: underline; }
+
   /* ---- Panels & Form ---- */
   .panel {
     background: linear-gradient(180deg, var(--panel-2), var(--panel));
@@ -209,9 +242,8 @@
     box-shadow: none;
   }
 
-  /* ---- Promo-Codes ---- */
+  /* ---- Accordion (How-to & FAQ) ---- */
   .promo-h2 { margin-bottom: 0 !important; }
-  .promo-panel #promoBody { margin-top: 12px; }
   .promo-toggle {
     display: flex;
     align-items: center;
@@ -232,56 +264,12 @@
   .panel.collapsed { cursor: pointer; }
   .panel.collapsed:hover { border-color: var(--orange); }
   .promo-toggle:focus-visible { outline: 3px solid var(--orange-soft); outline-offset: 3px; border-radius: 6px; }
-  .promo-count {
-    font-family: system-ui, sans-serif;
-    font-size: 0.8rem;
-    font-weight: 700;
-    letter-spacing: 0;
-    color: #06230f;
-    background: var(--green);
-    border-radius: 999px;
-    padding: 2px 9px;
-  }
   .promo-chev {
     margin-left: auto;
     color: var(--dim);
     transition: transform 0.2s ease;
   }
   .promo-toggle[aria-expanded="true"] .promo-chev { transform: rotate(180deg); }
-  .promo-list { display: flex; flex-direction: column; }
-  .promo-row {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 8px 12px;
-    padding: 10px 0;
-    border-bottom: 1px dashed var(--line);
-  }
-  .promo-row:last-child { border-bottom: none; }
-  .promo-code {
-    font-family: ui-monospace, "Cascadia Mono", Consolas, monospace;
-    font-size: 0.98rem;
-    letter-spacing: 1.5px;
-    background: #0e1428;
-    color: var(--orange-soft);
-    border: 1.5px solid var(--orange);
-    border-radius: 999px;
-    padding: 7px 14px;
-    box-shadow: none;
-  }
-  .promo-reward { color: var(--text); font-size: 0.92rem; flex: 1; min-width: 140px; }
-  .promo-expires { color: var(--dim); font-size: 0.8rem; }
-  .promo-new {
-    font-family: var(--display);
-    font-size: 0.78rem;
-    letter-spacing: 1px;
-    color: #06230f;
-    background: var(--green);
-    border-radius: 999px;
-    padding: 2px 9px;
-  }
-  .promo-source { margin-top: 10px; }
-  .promo-source a { color: var(--dim); }
 
   /* ---- How-to ---- */
   #howtoPanel, #faqPanel { margin-top: 18px; }
@@ -551,6 +539,21 @@
     <p data-i18n="subtitle">{{TEXT_subtitle}}</p>
   </header>
 
+  <nav class="portal-nav" aria-label="dblqr.org">
+    <span class="pchip active" aria-current="page">🔲 <span data-i18n="blogNavGenerator">{{TEXT_blogNavGenerator}}</span></span>
+    <a class="pchip" href="{{PROMO_HREF}}" data-i18n="promoHeading">{{TEXT_promoHeading}}</a>
+    <a class="pchip" href="{{TEAMS_HREF}}">⚔️ <span data-i18n="navTeams">{{TEXT_navTeams}}</span></a>
+    <a class="pchip" href="{{BLOG_HREF}}">📖 <span data-i18n="blogNavBlog">{{TEXT_blogNavBlog}}</span></a>
+  </nav>
+
+  <section class="panel event-notice">
+    <p>⏳ {{EVENT_NOTICE_SPAN}}</p>
+    <p class="event-links"><span data-i18n="eventUntilThen">{{TEXT_eventUntilThen}}</span>
+      <a href="{{TEAMS_HREF}}">⚔️ <span data-i18n="navTeams">{{TEXT_navTeams}}</span></a> ·
+      <a href="{{PROMO_HREF}}" data-i18n="promoHeading">{{TEXT_promoHeading}}</a> ·
+      <a href="{{BLOG_HREF}}">📖 <span data-i18n="blogLink">{{TEXT_blogLink}}</span></a></p>
+  </section>
+
   <section class="panel">
     <h2 data-i18n="addHeading">{{TEXT_addHeading}}</h2>
     <form class="add-form" id="addForm">
@@ -558,22 +561,6 @@
       <button type="submit" data-i18n="addBtn">{{TEXT_addBtn}}</button>
       <div class="error-msg" id="formError"></div>
     </form>
-  </section>
-
-  <section class="panel promo-panel" id="promoPanel" hidden>
-    <h2 class="promo-h2">
-      <button type="button" class="promo-toggle" id="promoToggle" aria-expanded="false" aria-controls="promoBody">
-        <span data-i18n="promoHeading">{{TEXT_promoHeading}}</span>
-        <span class="promo-count" id="promoCount"></span>
-        <span class="promo-chev" aria-hidden="true">▾</span>
-      </button>
-    </h2>
-    <div id="promoBody" hidden>
-      <p class="hint" data-i18n="promoHint">{{TEXT_promoHint}}</p>
-      <div class="promo-list" id="promoList"></div>
-      <p class="hint promo-source"><span data-i18n="promoSource">{{TEXT_promoSource}}</span>:
-        <a id="promoSourceLink" target="_blank" rel="noopener noreferrer"></a></p>
-    </div>
   </section>
 
   <div class="toolbar">
@@ -670,6 +657,8 @@
     </p>
     <p class="copyright">© 2026 <a href="https://dblqr.org" rel="author">dblqr.org</a> · Artur Sopelnik</p>
     <p class="legal">
+      <a href="{{PROMO_HREF}}" data-i18n="navPromo">{{TEXT_navPromo}}</a> ·
+      <a href="{{TEAMS_HREF}}" data-i18n="navTeams">{{TEXT_navTeams}}</a> ·
       <a href="{{BLOG_HREF}}" data-i18n="blogLink">{{TEXT_blogLink}}</a> ·
       <a href="https://artursopelnik.de/site-policy/" target="_blank" rel="noopener noreferrer" data-i18n="legalNotice">{{TEXT_legalNotice}}</a> ·
       <a href="https://artursopelnik.de/data-privacy/" target="_blank" rel="noopener noreferrer" data-i18n="privacy">{{TEXT_privacy}}</a>

@@ -29,6 +29,8 @@ const {
   postUrl,
 } = require('./blog-lib.js');
 const { I18N, SUPPORTED_LANGS } = require(path.join(ROOT, 'i18n.js'));
+const { teamsPathForLang } = require('./teams-lib.js');
+const { promoPathForLang } = require('./promo-lib.js');
 
 const OG_LOCALE = {
   en: 'en_US',
@@ -181,6 +183,10 @@ function renderPost(template, css, post, allPosts) {
     .replaceAll('{{BLOG_URL}}', blogPathForLang(post.lang))
     .replaceAll('{{NAV_BLOG_LABEL}}', escapeHtmlText(dict.blogNavBlog))
     .replaceAll('{{NAV_GENERATOR_LABEL}}', escapeHtmlText(dict.blogNavGenerator))
+    .replaceAll('{{TEAMS_URL}}', teamsPathForLang(post.lang))
+    .replaceAll('{{NAV_TEAMS_LABEL}}', escapeHtmlText(dict.navTeams))
+    .replaceAll('{{PROMO_URL}}', promoPathForLang(post.lang))
+    .replaceAll('{{NAV_PROMO_LABEL}}', escapeHtmlText(dict.navPromo))
     .replaceAll('{{UPDATED_LABEL}}', escapeHtmlText(dict.blogPostUpdatedLabel))
     .replaceAll('{{BLOG_LABEL}}', escapeHtmlText(dict.blogPostBlogLabel))
     .replaceAll('{{CTA_HTML}}', dict.blogPostCtaHtml)
@@ -219,6 +225,10 @@ function renderIndex(template, css, lang, posts) {
     .replaceAll('{{BLOG_CSS}}', css)
     .replaceAll('{{HOME_URL}}', homePathForLang(lang))
     .replaceAll('{{NAV_GENERATOR_LABEL}}', escapeHtmlText(dict.blogNavGenerator))
+    .replaceAll('{{TEAMS_URL}}', teamsPathForLang(lang))
+    .replaceAll('{{NAV_TEAMS_LABEL}}', escapeHtmlText(dict.navTeams))
+    .replaceAll('{{PROMO_URL}}', promoPathForLang(lang))
+    .replaceAll('{{NAV_PROMO_LABEL}}', escapeHtmlText(dict.navPromo))
     .replaceAll('{{INDEX_H1}}', escapeHtmlText(dict.blogIndexH1))
     .replaceAll('{{INDEX_INTRO_HTML}}', introHtml)
     .replaceAll('{{CTA_HTML}}', dict.blogIndexCtaHtml)
