@@ -211,38 +211,38 @@
       "tag": "GT",
       "emoji": "🐒",
       "core": [
-        { "name": "ULTRA Super Saiyan 4 Goku", "role": "damage" },
+        { "name": "ULTRA Super Full Power Saiyan 4 Goku", "role": "damage" },
         { "name": "LF Super Saiyan 4 Vegeta", "role": "tank" },
         { "name": "LF Super Saiyan 4 Gogeta", "role": "damage" }
       ],
       "bench": ["SP Pan (GT)", "SP Super Baby 2", "SP Majuub"],
       "text": {
         "en": {
-          "why": "Pure aggression around ULTRA Super Saiyan 4 Goku: SS4 Vegeta and SS4 Gogeta keep up the ki pressure and end matches before sustain teams come online. Simple game plan, very high damage ceiling.",
+          "why": "Pure aggression around ULTRA Super Full Power Saiyan 4 Goku: SS4 Vegeta and SS4 Gogeta keep up the ki pressure and end matches before sustain teams come online. Simple game plan, very high damage ceiling.",
           "equip": "Full aggression: strike-attack equips on SS4 Goku and Gogeta, a mixed set on Vegeta, and one GT tag equip – here damage wins before sustain matters."
         },
         "de": {
-          "why": "Pure Aggression rund um ULTRA Super Saiyan 4 Goku: SS4 Vegeta und SS4 Gogeta halten den Ki-Druck hoch und beenden Matches, bevor Sustain-Teams ins Spiel kommen. Simpler Spielplan, sehr hohe Schadensobergrenze.",
+          "why": "Pure Aggression rund um ULTRA Super Full Power Saiyan 4 Goku: SS4 Vegeta und SS4 Gogeta halten den Ki-Druck hoch und beenden Matches, bevor Sustain-Teams ins Spiel kommen. Simpler Spielplan, sehr hohe Schadensobergrenze.",
           "equip": "Volle Offensive: Strike-Attack-Equips auf SS4 Goku und Gogeta, ein gemischtes Set auf Vegeta und ein Equip mit GT-Bedingung – hier gewinnt Schaden, bevor Nachhaltigkeit zählt."
         },
         "es": {
-          "why": "Agresión pura en torno a ULTRA Super Saiyan 4 Goku: SS4 Vegeta y SS4 Gogeta mantienen la presión de ki y terminan las partidas antes de que los equipos de aguante despeguen. Plan de juego simple, techo de daño altísimo.",
+          "why": "Agresión pura en torno a ULTRA Super Full Power Saiyan 4 Goku: SS4 Vegeta y SS4 Gogeta mantienen la presión de ki y terminan las partidas antes de que los equipos de aguante despeguen. Plan de juego simple, techo de daño altísimo.",
           "equip": "Ofensiva total: equipos de ataque de golpe para SS4 Goku y Gogeta, un set mixto para Vegeta y un equipo con condición GT – aquí el daño gana antes de que importe el aguante."
         },
         "pt": {
-          "why": "Agressão pura em torno do ULTRA Super Saiyan 4 Goku: SS4 Vegeta e SS4 Gogeta mantêm a pressão de ki e encerram as partidas antes que os times de sustain engatem. Plano de jogo simples, teto de dano altíssimo.",
+          "why": "Agressão pura em torno do ULTRA Super Full Power Saiyan 4 Goku: SS4 Vegeta e SS4 Gogeta mantêm a pressão de ki e encerram as partidas antes que os times de sustain engatem. Plano de jogo simples, teto de dano altíssimo.",
           "equip": "Ofensiva total: equipamentos de ataque de golpe no SS4 Goku e no Gogeta, um conjunto misto no Vegeta e um equipamento com condição GT – aqui o dano vence antes que o sustain importe."
         },
         "fr": {
-          "why": "De l'agression pure autour d'ULTRA Super Saiyan 4 Goku : SS4 Vegeta et SS4 Gogeta maintiennent la pression de ki et terminent les matchs avant que les équipes d'endurance ne se mettent en place. Plan de jeu simple, plafond de dégâts très élevé.",
+          "why": "De l'agression pure autour d'ULTRA Super Full Power Saiyan 4 Goku : SS4 Vegeta et SS4 Gogeta maintiennent la pression de ki et terminent les matchs avant que les équipes d'endurance ne se mettent en place. Plan de jeu simple, plafond de dégâts très élevé.",
           "equip": "Offensive totale : équipements d'attaque de frappe sur SS4 Goku et Gogeta, un set mixte sur Vegeta et un équipement à condition GT – ici les dégâts gagnent avant que l'endurance ne compte."
         },
         "ru": {
-          "why": "Чистая агрессия вокруг ULTRA Супер Саяна 4 Гоку: SS4 Веджета и SS4 Гогета держат ки-давление и заканчивают матчи до того, как раскачаются команды на выживание. Простой план игры, очень высокий потолок урона.",
+          "why": "Чистая агрессия вокруг ULTRA Супер Саяна 4 Полной Мощи Гоку: SS4 Веджета и SS4 Гогета держат ки-давление и заканчивают матчи до того, как раскачаются команды на выживание. Простой план игры, очень высокий потолок урона.",
           "equip": "Полная атака: strike-экипировки на SS4 Гоку и Гогету, смешанный набор на Веджету и одна экипировка с условием GT – здесь урон побеждает раньше, чем живучесть начнёт иметь значение."
         },
         "ja": {
-          "why": "ULTRA超サイヤ人4悟空を軸にした超攻撃型。SS4ベジータとSS4ゴジータが気圧力を維持し、持久型チームが本領を発揮する前に試合を終わらせます。シンプルな戦略で火力上限は最高クラス。",
+          "why": "ULTRA超フルパワーサイヤ人4悟空を軸にした超攻撃型。SS4ベジータとSS4ゴジータが気圧力を維持し、持久型チームが本領を発揮する前に試合を終わらせます。シンプルな戦略で火力上限は最高クラス。",
           "equip": "全力攻撃：SS4悟空とゴジータには打撃攻撃装備、ベジータには攻防ミックス、「GT」条件付き装備を1枠。このチームは持久力より火力が正義です。"
         }
       }
