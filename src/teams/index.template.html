@@ -488,8 +488,9 @@
       cands = cands.slice().sort(byRarity).slice(0, 2);
       if (cands.length) {
         issues++;
-        recs.push(TEXT.recRole
-          .replace('{role}', roleLabel(role))
+        var roleTpl = role === 'damage' ? TEXT.recRoleDamage :
+          role === 'tank' ? TEXT.recRoleTank : TEXT.recRoleSupport;
+        recs.push(roleTpl
           .replace('{names}', cands.map(function (c) { return c.name; }).join(', ')));
       }
     });
