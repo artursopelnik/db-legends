@@ -164,10 +164,18 @@ function renderPage(template, css, lang, data, characters) {
     recSwap: dict.builderRecSwap,
     recRole: dict.builderRecRole,
     recFill: dict.builderRecFill,
-    recEquip: dict.builderRecEquip,
     recLead: dict.builderRecLead,
     recLeadBase: dict.builderRecLeadBase,
+    recLeadOk: dict.builderRecLeadOk,
+    recEquipParts: dict.builderRecEquipParts,
+    recEquipPartsNoTag: dict.builderRecEquipPartsNoTag,
+    equipStrike: dict.builderEquipStrike,
+    equipBlast: dict.builderEquipBlast,
+    equipMixed: dict.builderEquipMixed,
+    equipDefense: dict.builderEquipDefense,
     starsLabel: dict.builderStarsLabel,
+    moveUp: dict.builderMoveUp,
+    moveDown: dict.builderMoveDown,
   };
   return template
     .replaceAll('{{LANG}}', lang)

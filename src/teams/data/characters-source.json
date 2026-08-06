@@ -6,6 +6,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -19,6 +20,7 @@
   "rarity": "HERO",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -32,6 +34,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -46,6 +49,7 @@
   "rarity": "HERO",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -60,6 +64,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Regeneration",
    "Namekian",
@@ -73,6 +78,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Super Warrior",
    "Support Type"
@@ -85,6 +91,7 @@
   "rarity": "HERO",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Super Warrior",
    "Defense Type"
@@ -97,6 +104,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Super Warrior",
    "Melee Type"
@@ -109,6 +117,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Super Warrior",
    "Defense Type"
@@ -121,6 +130,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Super Warrior",
    "Support Type"
@@ -133,6 +143,7 @@
   "rarity": "HERO",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Frieza Force",
    "Saiyan",
@@ -146,6 +157,7 @@
   "rarity": "HERO",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Minion",
    "Support Type"
@@ -158,6 +170,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Frieza Force",
    "Saiyan",
@@ -171,6 +184,7 @@
   "rarity": "HERO",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Frieza Force",
    "Saiyan",
@@ -184,6 +198,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "Frieza Force",
    "Saiyan",
@@ -199,6 +214,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -212,6 +228,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -226,6 +243,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Super Warrior",
    "Regeneration",
@@ -240,6 +258,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -253,6 +272,7 @@
   "rarity": "HERO",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -266,6 +286,7 @@
   "rarity": "HERO",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -279,6 +300,7 @@
   "rarity": "HERO",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Frieza Force",
    "Melee Type"
@@ -291,6 +313,7 @@
   "rarity": "HERO",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Frieza Force",
    "Ginyu Force",
@@ -304,6 +327,7 @@
   "rarity": "HERO",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Frieza Force",
    "Ginyu Force",
@@ -317,6 +341,7 @@
   "rarity": "HERO",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Frieza Force",
    "Ginyu Force",
@@ -330,6 +355,7 @@
   "rarity": "HERO",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Frieza Force",
    "Ginyu Force",
@@ -343,6 +369,7 @@
   "rarity": "HERO",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Frieza Force",
    "Ginyu Force",
@@ -356,6 +383,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Frieza Force",
    "Ginyu Force",
@@ -369,6 +397,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -384,6 +413,7 @@
   "rarity": "HERO",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -399,6 +429,7 @@
   "rarity": "HERO",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -414,6 +445,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -429,6 +461,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -444,6 +477,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Support Type"
   ]
@@ -455,6 +489,7 @@
   "rarity": "HERO",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Otherworld Warrior",
    "Defense Type",
@@ -468,6 +503,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Otherworld Warrior",
    "Melee Type",
@@ -481,6 +517,7 @@
   "rarity": "HERO",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Weapon Wielder",
    "Defense Type"
@@ -493,6 +530,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Universe 6",
    "Transforming Warrior",
@@ -510,6 +548,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Hybrid Saiyan",
    "GT",
@@ -526,6 +565,7 @@
   "rarity": "HERO",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Hybrid Saiyan",
    "GT",
@@ -542,6 +582,7 @@
   "rarity": "HERO",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Super Warrior",
    "Regeneration",
@@ -556,6 +597,7 @@
   "rarity": "HERO",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Super Warrior",
    "Support Type"
@@ -568,6 +610,7 @@
   "rarity": "HERO",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Super Warrior",
    "Defense Type"
@@ -580,6 +623,7 @@
   "rarity": "HERO",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Super Warrior",
    "Ranged Type"
@@ -592,6 +636,7 @@
   "rarity": "HERO",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Universe 6",
    "Transforming Warrior",
@@ -609,6 +654,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -624,6 +670,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -638,6 +685,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Hybrid Saiyan",
    "Vegeta Clan",
@@ -654,6 +702,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Android",
    "Ranged Type"
@@ -666,6 +715,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Android",
    "Melee Type"
@@ -678,6 +728,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Powerful Opponent",
@@ -693,6 +744,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Girls",
    "Future",
@@ -708,6 +760,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Hybrid Saiyan",
    "Vegeta Clan",
@@ -723,6 +776,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -736,6 +790,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Powerful Opponent",
@@ -751,6 +806,7 @@
   "rarity": "HERO",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Android",
    "Defense Type"
@@ -763,6 +819,7 @@
   "rarity": "HERO",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Android",
    "Support Type"
@@ -775,6 +832,7 @@
   "rarity": "HERO",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Super Warrior",
    "Defense Type"
@@ -787,6 +845,7 @@
   "rarity": "HERO",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Minion",
    "Defense Type"
@@ -799,6 +858,7 @@
   "rarity": "HERO",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Weapon Wielder",
    "Support Type"
@@ -811,6 +871,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -825,6 +886,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Super Warrior",
    "Ranged Type"
@@ -837,6 +899,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "Android",
    "Defense Type"
@@ -849,6 +912,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Android",
    "Girls",
@@ -863,6 +927,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Android",
    "Regeneration",
@@ -878,6 +943,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Support Type"
   ]
@@ -889,6 +955,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -905,6 +972,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Android",
    "Girls",
@@ -919,6 +987,7 @@
   "rarity": "HERO",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Universe 6",
@@ -934,6 +1003,7 @@
   "rarity": "HERO",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Ranged Type"
   ]
@@ -945,6 +1015,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Android",
    "Melee Type"
@@ -957,6 +1028,7 @@
   "rarity": "HERO",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -970,6 +1042,7 @@
   "rarity": "HERO",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Android",
    "Regeneration",
@@ -985,6 +1058,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -1000,6 +1074,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Kids",
@@ -1016,6 +1091,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -1031,6 +1107,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Team Bardock",
@@ -1044,6 +1121,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Regeneration",
    "Namekian",
@@ -1058,6 +1136,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -1073,6 +1152,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -1088,6 +1168,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -1104,6 +1185,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Hybrid Saiyan",
    "Vegeta Clan",
@@ -1118,6 +1200,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Regeneration",
    "Namekian",
@@ -1132,6 +1215,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -1148,6 +1232,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -1163,6 +1248,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Team Bardock",
@@ -1176,6 +1262,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "Frieza Force",
    "Saiyan",
@@ -1189,6 +1276,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -1202,6 +1290,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Frieza Force",
    "Support Type"
@@ -1214,6 +1303,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -1228,6 +1318,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "Regeneration",
    "Super Warrior",
@@ -1242,6 +1333,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Android",
    "Defense Type"
@@ -1254,6 +1346,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Android",
    "Regeneration",
@@ -1269,6 +1362,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "Transforming Warrior",
    "Lineage of Evil",
@@ -1284,6 +1378,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Melee Type",
    "Sagas From the Movies"
@@ -1296,6 +1391,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Transforming Warrior",
    "Lineage of Evil",
@@ -1311,6 +1407,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -1325,6 +1422,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Hybrid Saiyan",
    "Kids",
@@ -1339,6 +1437,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Hybrid Saiyan",
    "Kids",
@@ -1353,6 +1452,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Android",
    "Regeneration",
@@ -1368,6 +1468,7 @@
   "rarity": "HERO",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Support Type",
    "Sagas From the Movies"
@@ -1380,6 +1481,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Android",
    "Support Type"
@@ -1392,6 +1494,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Android",
    "Girls",
@@ -1406,6 +1509,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "Android",
    "Regeneration",
@@ -1421,6 +1525,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Hybrid Saiyan",
    "Vegeta Clan",
@@ -1436,6 +1541,7 @@
   "rarity": "HERO",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Android",
    "Minion",
@@ -1449,6 +1555,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -1463,6 +1570,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Super Saiyan 3",
@@ -1478,6 +1586,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Regeneration",
    "Powerful Opponent",
@@ -1491,6 +1600,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -1505,6 +1615,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Defense Type"
   ]
@@ -1516,6 +1627,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Regeneration",
    "Powerful Opponent",
@@ -1529,6 +1641,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -1542,6 +1655,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Android",
    "Minion",
@@ -1555,6 +1669,7 @@
   "rarity": "HERO",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Powerful Opponent",
@@ -1570,6 +1685,7 @@
   "rarity": "HERO",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -1584,6 +1700,7 @@
   "rarity": "HERO",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Super Warrior",
    "Support Type"
@@ -1596,6 +1713,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -1611,6 +1729,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "Hybrid Saiyan",
    "Vegeta Clan",
@@ -1627,6 +1746,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -1640,6 +1760,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Future",
@@ -1654,6 +1775,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "God Ki",
    "Future",
@@ -1669,6 +1791,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -1687,6 +1810,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Girls",
    "Future",
@@ -1702,6 +1826,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Future",
@@ -1716,6 +1841,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Frieza Force",
@@ -1731,6 +1857,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "God Ki",
    "Future",
@@ -1746,6 +1873,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Android",
    "Future",
@@ -1760,6 +1888,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Android",
    "Girls",
@@ -1776,6 +1905,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "Frieza Force",
    "Saiyan",
@@ -1791,6 +1921,7 @@
   "rarity": "HERO",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Android",
    "Regeneration",
@@ -1806,6 +1937,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Fusion Warrior",
@@ -1820,6 +1952,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Hybrid Saiyan",
    "Vegeta Clan",
@@ -1835,6 +1968,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -1850,6 +1984,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Super Saiyan 2",
@@ -1864,6 +1999,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Hybrid Saiyan",
    "Super Saiyan",
@@ -1879,6 +2015,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "Weapon Wielder",
    "Support Type"
@@ -1891,6 +2028,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Weapon Wielder",
    "Defense Type"
@@ -1903,6 +2041,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Frieza Force",
@@ -1918,6 +2057,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -1934,6 +2074,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Transforming Warrior",
    "Regeneration",
@@ -1950,6 +2091,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Super Saiyan 2",
@@ -1965,6 +2107,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -1979,6 +2122,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Lineage of Evil",
    "Powerful Opponent",
@@ -1992,6 +2136,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Hybrid Saiyan",
    "Vegeta Clan",
@@ -2007,6 +2152,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Hybrid Saiyan",
    "GT",
@@ -2023,6 +2169,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -2039,6 +2186,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -2054,6 +2202,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Girls",
@@ -2069,6 +2218,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Team Bardock",
@@ -2082,6 +2232,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -2096,6 +2247,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Universe 6",
@@ -2111,6 +2263,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Frieza Force",
    "Saiyan",
@@ -2125,6 +2278,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Frieza Force",
    "Saiyan",
@@ -2138,6 +2292,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -2153,6 +2308,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -2168,6 +2324,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "God of Destruction",
    "God Ki",
@@ -2182,6 +2339,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Transforming Warrior",
    "Powerful Opponent",
@@ -2197,6 +2355,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Transforming Warrior",
    "Lineage of Evil",
@@ -2212,6 +2371,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Hybrid Saiyan",
    "Vegeta Clan",
@@ -2228,6 +2388,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Angel",
    "God Ki",
@@ -2242,6 +2403,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -2256,6 +2418,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Super Saiyan 2",
@@ -2274,6 +2437,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Transforming Warrior",
    "Girls",
@@ -2291,6 +2455,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Girls",
    "Weapon Wielder",
@@ -2305,6 +2470,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "Girls",
    "Weapon Wielder",
@@ -2319,6 +2485,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Girls",
    "Female",
@@ -2332,6 +2499,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "Girls",
    "Weapon Wielder",
@@ -2346,6 +2514,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Girls",
@@ -2363,6 +2532,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Transforming Warrior",
    "Girls",
@@ -2380,6 +2550,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Transforming Warrior",
    "Girls",
@@ -2397,6 +2568,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Girls",
    "Weapon Wielder",
@@ -2411,6 +2583,7 @@
   "rarity": "HERO",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Girls",
    "Female",
@@ -2424,6 +2597,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -2439,6 +2613,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Girls",
    "Transforming Warrior",
@@ -2454,6 +2629,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -2470,6 +2646,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -2483,6 +2660,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Super Saiyan 3",
@@ -2497,6 +2675,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Super Saiyan 2",
@@ -2511,6 +2690,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Regeneration",
    "Namekian",
@@ -2526,6 +2706,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Android",
    "Regeneration",
@@ -2541,6 +2722,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -2555,6 +2737,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Fusion Warrior",
@@ -2570,6 +2753,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Hybrid Saiyan",
    "Fusion Warrior",
@@ -2585,6 +2769,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Hybrid Saiyan",
    "Vegeta Clan",
@@ -2599,6 +2784,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Super Warrior",
    "Support Type"
@@ -2611,6 +2797,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "Regeneration",
    "Powerful Opponent",
@@ -2624,6 +2811,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -2638,6 +2826,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "GT",
    "Powerful Opponent",
@@ -2652,6 +2841,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Hybrid Saiyan",
    "Super Saiyan 3",
@@ -2667,6 +2857,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Regeneration",
    "Powerful Opponent",
@@ -2680,6 +2871,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Super Warrior",
    "Melee Type"
@@ -2692,6 +2884,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Regeneration",
    "Namekian",
@@ -2707,6 +2900,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Girls",
    "Weapon Wielder",
@@ -2721,6 +2915,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -2737,6 +2932,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -2752,6 +2948,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -2768,6 +2965,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -2783,6 +2981,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Lineage of Evil",
    "Regeneration",
@@ -2798,6 +2997,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Girls",
    "Hera Clan",
@@ -2813,6 +3013,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Girls",
    "Female",
@@ -2826,6 +3027,7 @@
   "rarity": "HERO",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Support Type"
   ]
@@ -2837,6 +3039,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "Regeneration",
    "Super Warrior",
@@ -2852,6 +3055,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Transforming Warrior",
    "Powerful Opponent",
@@ -2867,6 +3071,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Regeneration",
    "Powerful Opponent",
@@ -2880,6 +3085,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -2895,6 +3101,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -2910,6 +3117,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -2925,6 +3133,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -2940,6 +3149,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -2954,6 +3164,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Transforming Warrior",
    "Regeneration",
@@ -2970,6 +3181,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Lineage of Evil",
    "Powerful Opponent",
@@ -2983,6 +3195,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "God of Destruction",
    "God Ki",
@@ -2997,6 +3210,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -3012,6 +3226,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Regeneration",
    "Powerful Opponent",
@@ -3025,6 +3240,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Hybrid Saiyan",
    "Vegeta Clan",
@@ -3042,6 +3258,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Android",
    "Powerful Opponent",
@@ -3056,6 +3273,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Android",
    "Melee Type",
@@ -3069,6 +3287,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Android",
    "Support Type",
@@ -3082,6 +3301,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Angel",
    "God Ki",
@@ -3101,6 +3321,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Frieza Force",
    "Ginyu Force",
@@ -3114,6 +3335,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Frieza Force",
    "Ginyu Force",
@@ -3127,6 +3349,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Frieza Force",
    "Ginyu Force",
@@ -3140,6 +3363,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Frieza Force",
    "Ginyu Force",
@@ -3153,6 +3377,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Frieza Force",
    "Ginyu Force",
@@ -3166,6 +3391,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -3182,6 +3408,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Universe 6",
    "Powerful Opponent",
@@ -3197,6 +3424,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -3213,6 +3441,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -3228,6 +3457,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "Android",
    "Fusion Warrior",
@@ -3243,6 +3473,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Android",
    "Fusion Warrior",
@@ -3258,6 +3489,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -3272,6 +3504,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Android",
    "Girls",
@@ -3286,6 +3519,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Girls",
    "Weapon Wielder",
@@ -3300,6 +3534,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Frieza Force",
    "Ginyu Force",
@@ -3314,6 +3549,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -3328,6 +3564,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "Super Warrior",
    "Support Type"
@@ -3340,6 +3577,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Regeneration",
    "Namekian",
@@ -3353,6 +3591,7 @@
   "rarity": "HERO",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Regeneration",
    "Namekian",
@@ -3366,6 +3605,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Super Saiyan 3",
@@ -3380,6 +3620,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -3393,6 +3634,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "Regeneration",
    "Namekian",
@@ -3406,6 +3648,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "God of Destruction",
    "God Ki",
@@ -3422,6 +3665,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Defense Type",
@@ -3435,6 +3679,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Transforming Warrior",
    "Powerful Opponent",
@@ -3450,6 +3695,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -3465,6 +3711,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -3480,6 +3727,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Frieza Force",
    "Saiyan",
@@ -3493,6 +3741,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Regeneration",
    "Powerful Opponent",
@@ -3506,6 +3755,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Regeneration",
    "Powerful Opponent",
@@ -3519,6 +3769,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -3534,6 +3785,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Android",
    "Powerful Opponent",
@@ -3548,6 +3800,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Future",
@@ -3564,6 +3817,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -3580,6 +3834,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Transforming Warrior",
    "Lineage of Evil",
@@ -3595,6 +3850,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -3610,6 +3866,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Frieza Force",
    "Melee Type"
@@ -3622,6 +3879,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -3637,6 +3895,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -3652,6 +3911,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Shadow Dragon",
    "GT",
@@ -3665,6 +3925,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Shadow Dragon",
    "GT",
@@ -3679,6 +3940,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Shadow Dragon",
    "GT",
@@ -3692,6 +3954,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Weapon Wielder",
    "Melee Type",
@@ -3705,6 +3968,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Frieza Force",
@@ -3721,6 +3985,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -3734,6 +3999,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Regeneration",
    "Powerful Opponent",
@@ -3747,6 +4013,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -3762,6 +4029,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Hybrid Saiyan",
    "Vegeta Clan",
@@ -3778,6 +4046,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -3793,6 +4062,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Hybrid Saiyan",
    "Vegeta Clan",
@@ -3808,6 +4078,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "GT",
    "Powerful Opponent",
@@ -3822,6 +4093,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Super Saiyan God SS",
@@ -3838,6 +4110,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -3854,6 +4127,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -3871,6 +4145,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -3887,6 +4162,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Transforming Warrior",
    "Regeneration",
@@ -3903,6 +4179,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "GT",
    "Transforming Warrior",
@@ -3919,6 +4196,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Android",
    "Melee Type",
@@ -3932,6 +4210,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Android",
    "Ranged Type",
@@ -3945,6 +4224,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Super Saiyan 2",
@@ -3965,6 +4245,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Hybrid Saiyan",
    "Super Saiyan",
@@ -3980,6 +4261,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "Android",
    "Regeneration",
@@ -3995,6 +4277,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "GT",
    "Transforming Warrior",
@@ -4011,6 +4294,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Android",
    "Regeneration",
@@ -4028,6 +4312,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Android",
    "Regeneration",
@@ -4045,6 +4330,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "Android",
    "Regeneration",
@@ -4061,6 +4347,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "Android",
    "Regeneration",
@@ -4077,6 +4364,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Universe 9",
    "Rival Universe",
@@ -4091,6 +4379,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Universe 9",
    "Rival Universe",
@@ -4105,6 +4394,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Universe 9",
    "Rival Universe",
@@ -4119,6 +4409,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -4134,6 +4425,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Team Bardock",
@@ -4147,6 +4439,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Fusion Warrior",
@@ -4162,6 +4455,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Team Bardock",
@@ -4175,6 +4469,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Team Bardock",
@@ -4188,6 +4483,7 @@
   "rarity": "HERO",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Support Type"
   ]
@@ -4199,6 +4495,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -4214,6 +4511,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Otherworld Warrior",
    "Powerful Opponent",
@@ -4227,6 +4525,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Girls",
@@ -4244,6 +4543,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Hybrid Saiyan",
    "Super Saiyan",
@@ -4260,6 +4560,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -4276,6 +4577,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -4292,6 +4594,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Kids",
@@ -4307,6 +4610,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Universe 6",
    "Powerful Opponent",
@@ -4322,6 +4626,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Super Saiyan God SS",
@@ -4339,6 +4644,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Hybrid Saiyan",
    "Super Saiyan",
@@ -4355,6 +4661,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "God Ki",
    "Future",
@@ -4372,6 +4679,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Shadow Dragon",
    "GT",
@@ -4388,6 +4696,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Super Saiyan 4",
@@ -4403,6 +4712,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Shadow Dragon",
    "GT",
@@ -4417,6 +4727,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Fusion Warrior",
@@ -4431,6 +4742,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -4445,6 +4757,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -4459,6 +4772,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "Regeneration",
    "Powerful Opponent",
@@ -4472,6 +4786,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Weapon Wielder",
    "Melee Type"
@@ -4484,6 +4799,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Super Warrior",
    "Defense Type"
@@ -4496,6 +4812,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Super Warrior",
    "Support Type"
@@ -4508,6 +4825,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Super Warrior",
    "Ranged Type"
@@ -4520,6 +4838,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Hera Clan",
    "Support Type",
@@ -4533,6 +4852,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Hera Clan",
    "Support Type",
@@ -4546,6 +4866,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Transforming Warrior",
    "Hera Clan",
@@ -4561,6 +4882,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Universe 6",
    "Rival Universe",
@@ -4574,6 +4896,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Powerful Opponent",
@@ -4589,6 +4912,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -4604,6 +4928,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Rival Universe",
    "Universe 11",
@@ -4619,6 +4944,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Rival Universe",
    "Universe 11",
@@ -4633,6 +4959,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Rival Universe",
    "Universe 11",
@@ -4647,6 +4974,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -4662,6 +4990,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Hybrid Saiyan",
    "Vegeta Clan",
@@ -4677,6 +5006,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Android",
    "Regeneration",
@@ -4692,6 +5022,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -4706,6 +5037,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Super Saiyan 2",
@@ -4721,6 +5053,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Girls",
    "Female",
@@ -4734,6 +5067,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -4750,6 +5084,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Future",
@@ -4766,6 +5101,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Transforming Warrior",
    "Girls",
@@ -4783,6 +5119,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Transforming Warrior",
    "Girls",
@@ -4800,6 +5137,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Transforming Warrior",
    "Girls",
@@ -4817,6 +5155,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -4831,6 +5170,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Girls",
    "Female",
@@ -4844,6 +5184,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -4859,6 +5200,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Lineage of Evil",
    "Regeneration",
@@ -4874,6 +5216,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Transforming Warrior",
    "Powerful Opponent",
@@ -4889,6 +5232,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -4904,6 +5248,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -4919,6 +5264,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -4934,6 +5280,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -4949,6 +5296,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Frieza Force",
@@ -4963,6 +5311,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -4977,6 +5326,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -4991,6 +5341,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -5006,6 +5357,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Support Type"
   ]
@@ -5017,6 +5369,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "Regeneration",
    "Powerful Opponent",
@@ -5030,6 +5383,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -5044,6 +5398,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Girls",
    "Weapon Wielder",
@@ -5059,6 +5414,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -5074,6 +5430,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Regeneration",
    "Namekian",
@@ -5088,6 +5445,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Hybrid Saiyan",
    "Vegeta Clan",
@@ -5102,6 +5460,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Future",
@@ -5118,6 +5477,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Hybrid Saiyan",
    "Future",
@@ -5134,6 +5494,7 @@
   "rarity": "ULTRA",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -5148,6 +5509,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -5163,6 +5525,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Future",
@@ -5177,6 +5540,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -5192,6 +5556,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Android",
    "Girls",
@@ -5207,6 +5572,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Android",
    "Universe Rep",
@@ -5220,6 +5586,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "GT",
    "Transforming Warrior",
@@ -5236,6 +5603,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Super Saiyan 4",
@@ -5251,6 +5619,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Android",
    "Fusion Warrior",
@@ -5266,6 +5635,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "GT",
    "Transforming Warrior",
@@ -5282,6 +5652,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "God Ki",
    "Future",
@@ -5299,6 +5670,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Super Saiyan God SS",
@@ -5316,6 +5688,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Super Saiyan 2",
@@ -5336,6 +5709,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Hybrid Saiyan",
    "Super Saiyan 3",
@@ -5351,6 +5725,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Future",
@@ -5367,6 +5742,7 @@
   "rarity": "ULTRA",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -5380,6 +5756,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -5393,6 +5770,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -5407,6 +5785,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Super Saiyan 2",
@@ -5422,6 +5801,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Super Saiyan 3",
@@ -5436,6 +5816,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -5451,6 +5832,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -5466,6 +5848,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -5480,6 +5863,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Hybrid Saiyan",
    "Vegeta Clan",
@@ -5495,6 +5879,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -5511,6 +5896,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Girls",
    "Hera Clan",
@@ -5526,6 +5912,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Transforming Warrior",
    "Powerful Opponent",
@@ -5541,6 +5928,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Hybrid Saiyan",
    "Super Saiyan",
@@ -5557,6 +5945,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -5572,6 +5961,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Frieza Force",
    "Minion",
@@ -5585,6 +5975,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Frieza Force",
    "Minion",
@@ -5598,6 +5989,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Frieza Force",
    "Minion",
@@ -5611,6 +6003,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Frieza Force",
    "Minion",
@@ -5624,6 +6017,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Frieza Force",
    "Minion",
@@ -5637,6 +6031,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Frieza Force",
    "Minion",
@@ -5651,6 +6046,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Frieza Force",
    "Minion",
@@ -5665,6 +6061,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Frieza Force",
    "Minion",
@@ -5679,6 +6076,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Frieza Force",
    "Minion",
@@ -5693,6 +6091,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Super Saiyan 3",
@@ -5709,6 +6108,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "GT",
    "Fusion Warrior",
@@ -5722,6 +6122,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -5736,6 +6137,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -5751,6 +6153,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -5767,6 +6170,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Universe 11",
    "Rival Universe",
@@ -5782,6 +6186,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "God of Destruction",
    "God Ki",
@@ -5798,6 +6203,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Super Saiyan 2",
@@ -5816,6 +6222,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Android",
    "Regeneration",
@@ -5831,6 +6238,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Frieza Force",
    "Saiyan",
@@ -5846,6 +6254,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Super Warrior",
    "Weapon Wielder",
@@ -5859,6 +6268,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Minion",
    "Melee Type"
@@ -5871,6 +6281,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Minion",
    "Ranged Type",
@@ -5884,6 +6295,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Minion",
    "Defense Type",
@@ -5897,6 +6309,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Minion",
    "Ranged Type",
@@ -5910,6 +6323,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Minion",
    "Melee Type",
@@ -5923,6 +6337,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Minion",
    "Support Type",
@@ -5936,6 +6351,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -5953,6 +6369,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -5967,6 +6384,7 @@
   "rarity": "ULTRA",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Shadow Dragon",
    "GT",
@@ -5983,6 +6401,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -5998,6 +6417,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Super Warrior",
    "Regeneration",
@@ -6013,6 +6433,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Future",
@@ -6029,6 +6450,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "God Ki",
@@ -6046,6 +6468,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Frieza Force",
@@ -6061,6 +6484,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -6076,6 +6500,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Hybrid Saiyan",
    "Super Saiyan",
@@ -6092,6 +6517,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "God Ki",
    "Future",
@@ -6109,6 +6535,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Girls",
    "Future",
@@ -6124,6 +6551,7 @@
   "rarity": "ULTRA",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -6140,6 +6568,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -6155,6 +6584,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Team Bardock",
@@ -6168,6 +6598,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Team Bardock",
@@ -6181,6 +6612,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Girls",
@@ -6196,6 +6628,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -6209,6 +6642,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -6224,6 +6658,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Android",
    "Girls",
@@ -6238,6 +6673,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Rival Universe",
    "Universe 11",
@@ -6253,6 +6689,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "God of Destruction",
    "God Ki",
@@ -6267,6 +6704,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Rival Universe",
    "Universe 11",
@@ -6281,6 +6719,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Rival Universe",
    "Universe 11",
@@ -6295,6 +6734,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -6310,6 +6750,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -6325,6 +6766,7 @@
   "rarity": "ULTRA",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -6341,6 +6783,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -6357,6 +6800,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Angel",
    "God Ki",
@@ -6371,6 +6815,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Hybrid Saiyan",
    "Vegeta Clan",
@@ -6387,6 +6832,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Android",
    "Girls",
@@ -6403,6 +6849,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -6418,6 +6865,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -6433,6 +6881,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Android",
    "Weapon Wielder",
@@ -6447,6 +6896,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Android",
    "Weapon Wielder",
@@ -6461,6 +6911,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -6476,6 +6927,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -6493,6 +6945,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -6507,6 +6960,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Super Warrior",
    "Universe Rep",
@@ -6520,6 +6974,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Super Warrior",
    "Universe Rep",
@@ -6533,6 +6988,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Super Saiyan 3",
@@ -6548,6 +7004,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Powerful Opponent",
    "Weapon Wielder",
@@ -6562,6 +7019,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Powerful Opponent",
@@ -6577,6 +7035,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Transforming Warrior",
    "Lineage of Evil",
@@ -6592,6 +7051,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Super Saiyan 2",
@@ -6606,6 +7066,7 @@
   "rarity": "ULTRA",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -6621,6 +7082,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Regeneration",
    "Powerful Opponent",
@@ -6634,6 +7096,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Super Warrior",
    "Ranged Type"
@@ -6646,6 +7109,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Android",
    "Regeneration",
@@ -6661,6 +7125,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -6675,6 +7140,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Regeneration",
    "Super Warrior",
@@ -6691,6 +7157,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Lineage of Evil",
    "Regeneration",
@@ -6706,6 +7173,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Transforming Warrior",
    "Lineage of Evil",
@@ -6721,6 +7189,7 @@
   "rarity": "ULTRA",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -6736,6 +7205,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Melee Type",
    "Sagas From the Movies"
@@ -6748,6 +7218,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Hybrid Saiyan",
    "Vegeta Clan",
@@ -6764,6 +7235,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Frieza Force",
    "Lineage of Evil",
@@ -6777,6 +7249,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Future",
@@ -6791,6 +7264,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -6808,6 +7282,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "GT",
@@ -6824,6 +7299,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Android",
    "GT",
@@ -6838,6 +7314,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Regeneration",
    "Powerful Opponent",
@@ -6851,6 +7328,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Android",
    "Fusion Warrior",
@@ -6866,6 +7344,7 @@
   "rarity": "ULTRA",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Super Saiyan God SS",
@@ -6882,6 +7361,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Android",
    "Girls",
@@ -6897,6 +7377,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Android",
    "Universe Rep",
@@ -6910,6 +7391,7 @@
   "rarity": "ULTRA",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Universe 6",
    "Powerful Opponent",
@@ -6925,6 +7407,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": true,
+  "stat": "blast",
   "tags": [
    "Vegeta Clan",
    "Hybrid Saiyan",
@@ -6944,6 +7427,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "God Ki",
    "Future",
@@ -6959,6 +7443,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "God Ki",
    "Future",
@@ -6976,6 +7461,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -6992,6 +7478,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -7008,6 +7495,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -7023,6 +7511,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Shadow Dragon",
    "GT",
@@ -7039,6 +7528,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "GT",
    "Fusion Warrior",
@@ -7052,6 +7542,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -7068,6 +7559,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Defense Type",
@@ -7081,6 +7573,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Weapon Wielder",
    "Support Type",
@@ -7094,6 +7587,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Ranged Type",
@@ -7107,6 +7601,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Super Saiyan 2",
@@ -7127,6 +7622,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -7143,6 +7639,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Super Warrior",
    "Universe Rep",
@@ -7156,6 +7653,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Universe 9",
    "Rival Universe",
@@ -7170,6 +7668,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -7188,6 +7687,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Hybrid Saiyan",
    "Vegeta Clan",
@@ -7204,6 +7704,7 @@
   "rarity": "ULTRA",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Future",
@@ -7221,6 +7722,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Hybrid Saiyan",
    "Vegeta Clan",
@@ -7237,6 +7739,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Android",
    "Regeneration",
@@ -7252,6 +7755,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Ranged Type"
   ]
@@ -7263,6 +7767,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Super Saiyan 3",
@@ -7280,6 +7785,7 @@
   "rarity": "ULTRA",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Regeneration",
    "Powerful Opponent",
@@ -7293,6 +7799,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -7311,6 +7818,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Rival Universe",
    "Universe 11",
@@ -7326,6 +7834,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Rival Universe",
    "Universe 11",
@@ -7340,6 +7849,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Rival Universe",
    "Universe 4",
@@ -7357,6 +7867,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "God of Destruction",
    "God Ki",
@@ -7373,6 +7884,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Angel",
    "God Ki",
@@ -7392,6 +7904,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -7406,6 +7919,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -7422,6 +7936,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Transforming Warrior",
    "Lineage of Evil",
@@ -7437,6 +7952,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Android",
    "Powerful Opponent",
@@ -7451,6 +7967,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Android",
    "Weapon Wielder",
@@ -7465,6 +7982,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Powerful Opponent",
    "Android",
@@ -7479,6 +7997,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Regeneration",
    "Super Warrior",
@@ -7495,6 +8014,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -7509,6 +8029,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Future",
@@ -7523,6 +8044,7 @@
   "rarity": "ULTRA",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Super Saiyan God SS",
@@ -7540,6 +8062,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Android",
    "Regeneration",
@@ -7555,6 +8078,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -7569,6 +8093,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Android",
    "Minion",
@@ -7582,6 +8107,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Android",
    "Girls",
@@ -7596,6 +8122,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -7609,6 +8136,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Frieza Force",
    "Ginyu Force",
@@ -7623,6 +8151,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Frieza Force",
    "Ginyu Force",
@@ -7636,6 +8165,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Frieza Force",
    "Ginyu Force",
@@ -7649,6 +8179,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -7663,6 +8194,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -7678,6 +8210,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Kids",
@@ -7694,6 +8227,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Android",
    "Melee Type",
@@ -7707,6 +8241,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Ranged Type",
    "Sagas From the Movies"
@@ -7719,6 +8254,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -7732,6 +8268,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Regeneration",
    "Namekian",
@@ -7746,6 +8283,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Regeneration",
    "Namekian",
@@ -7760,6 +8298,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Weapon Wielder",
    "Defense Type",
@@ -7773,6 +8312,7 @@
   "rarity": "ULTRA",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Transforming Warrior",
    "Regeneration",
@@ -7789,6 +8329,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Otherworld Warrior",
    "Saiyan",
@@ -7805,6 +8346,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Lineage of Evil",
    "Regeneration",
@@ -7820,6 +8362,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -7835,6 +8378,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -7852,6 +8396,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -7868,6 +8413,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Transforming Warrior",
    "Lineage of Evil",
@@ -7883,6 +8429,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -7897,6 +8444,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Hybrid Saiyan",
    "Fusion Warrior",
@@ -7911,6 +8459,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -7927,6 +8476,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -7942,6 +8492,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -7957,6 +8508,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -7972,6 +8524,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Ranged Type",
@@ -7985,6 +8538,7 @@
   "rarity": "ULTRA",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -8000,6 +8554,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "God of Destruction",
    "God Ki",
@@ -8014,6 +8569,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -8029,6 +8585,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Hybrid Saiyan",
    "GT",
@@ -8046,6 +8603,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Hybrid Saiyan",
    "Vegeta Clan",
@@ -8060,6 +8618,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Angel",
    "God Ki",
@@ -8074,6 +8633,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Hybrid Saiyan",
    "GT",
@@ -8091,6 +8651,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Shadow Dragon",
    "GT",
@@ -8105,6 +8666,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Regeneration",
    "Super Warrior",
@@ -8121,6 +8683,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Android",
    "Fusion Warrior",
@@ -8136,6 +8699,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Android",
    "Regeneration",
@@ -8151,6 +8715,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": true,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -8165,6 +8730,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Android",
    "Melee Type"
@@ -8177,6 +8743,7 @@
   "rarity": "ULTRA",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -8191,6 +8758,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Frieza Force",
@@ -8206,6 +8774,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "GT",
    "Transforming Warrior",
@@ -8222,6 +8791,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "GT",
    "Transforming Warrior",
@@ -8238,6 +8808,7 @@
   "rarity": "ULTRA",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -8254,6 +8825,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Frieza Force",
    "Saiyan",
@@ -8267,6 +8839,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -8280,6 +8853,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Super Warrior",
    "Melee Type"
@@ -8292,6 +8866,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Frieza Force",
    "Saiyan",
@@ -8307,6 +8882,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -8325,6 +8901,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -8343,6 +8920,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Frieza Force",
@@ -8358,6 +8936,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "God Ki",
    "Support Type"
@@ -8370,6 +8949,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Android",
    "Girls",
@@ -8384,6 +8964,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Girls",
    "Weapon Wielder",
@@ -8398,6 +8979,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -8414,6 +8996,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "God of Destruction",
    "God Ki",
@@ -8429,6 +9012,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -8442,6 +9026,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Regeneration",
    "Powerful Opponent",
@@ -8455,6 +9040,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Hybrid Saiyan",
    "Super Saiyan",
@@ -8471,6 +9057,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Shadow Dragon",
    "GT",
@@ -8485,6 +9072,7 @@
   "rarity": "ULTRA",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Super Saiyan 4",
@@ -8500,6 +9088,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Shadow Dragon",
    "GT",
@@ -8516,6 +9105,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -8532,6 +9122,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -8547,6 +9138,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -8563,6 +9155,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Girls",
    "Female",
@@ -8577,6 +9170,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Rival Universe",
    "Universe 11",
@@ -8592,6 +9186,7 @@
   "rarity": "EXTREME",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -8607,6 +9202,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Regeneration",
    "Namekian",
@@ -8623,6 +9219,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Transforming Warrior",
    "Regeneration",
@@ -8638,6 +9235,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Transforming Warrior",
    "Powerful Opponent",
@@ -8653,6 +9251,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -8667,6 +9266,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Turles Crusher Corps",
    "Melee Type",
@@ -8680,6 +9280,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Turles Crusher Corps",
    "Ranged Type",
@@ -8693,6 +9294,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Turles Crusher Corps",
    "Defense Type",
@@ -8706,6 +9308,7 @@
   "rarity": "ULTRA",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Powerful Opponent",
@@ -8721,6 +9324,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Turles Crusher Corps",
    "Support Type",
@@ -8734,6 +9338,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Super Saiyan 3",
@@ -8748,6 +9353,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Hybrid Saiyan",
    "Super Saiyan 3",
@@ -8763,6 +9369,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Regeneration",
    "Support Type"
@@ -8775,6 +9382,7 @@
   "rarity": "ULTRA",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Super Saiyan 2",
@@ -8789,6 +9397,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -8805,6 +9414,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "GT",
    "Powerful Opponent",
@@ -8819,6 +9429,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -8835,6 +9446,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "DAIMA",
    "Weapon Wielder",
@@ -8848,6 +9460,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Future",
@@ -8865,6 +9478,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Girls",
    "Future",
@@ -8880,6 +9494,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Future",
@@ -8896,6 +9511,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Android",
    "Regeneration",
@@ -8915,6 +9531,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Hybrid Saiyan",
    "Vegeta Clan",
@@ -8932,6 +9549,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -8946,6 +9564,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Super Saiyan 2",
@@ -8962,6 +9581,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Girls",
    "Female",
@@ -8975,6 +9595,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -8992,6 +9613,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": true,
+  "stat": "strike",
   "tags": [
    "DAIMA",
    "Weapon Wielder",
@@ -9005,6 +9627,7 @@
   "rarity": "ULTRA",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -9019,6 +9642,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -9035,6 +9659,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -9050,6 +9675,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -9066,6 +9692,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Android",
    "Girls",
@@ -9082,6 +9709,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "God Ki",
    "Future",
@@ -9099,6 +9727,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Android",
    "Future",
@@ -9113,6 +9742,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Regeneration",
    "Super Warrior",
@@ -9127,6 +9757,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -9141,6 +9772,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Hybrid Saiyan",
    "Vegeta Clan",
@@ -9156,6 +9788,7 @@
   "rarity": "ULTRA",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Android",
    "Regeneration",
@@ -9171,6 +9804,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Android",
    "Regeneration",
@@ -9186,6 +9820,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -9201,6 +9836,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "DAIMA",
    "Support Type"
@@ -9213,6 +9849,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -9228,6 +9865,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "DAIMA",
    "Ranged Type"
@@ -9240,6 +9878,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Weapon Wielder",
    "Melee Type"
@@ -9252,6 +9891,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Regeneration",
    "Namekian",
@@ -9266,6 +9906,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Support Type"
   ]
@@ -9277,6 +9918,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Kids",
@@ -9292,6 +9934,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Defense Type"
   ]
@@ -9303,6 +9946,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -9316,6 +9960,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Frieza Force",
    "Saiyan",
@@ -9331,6 +9976,7 @@
   "rarity": "ULTRA",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -9345,6 +9991,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Super Warrior",
    "Support Type"
@@ -9357,6 +10004,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Rival Universe",
    "Universe 11",
@@ -9372,6 +10020,7 @@
   "rarity": "LEGEND",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Super Saiyan God",
@@ -9388,6 +10037,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -9403,6 +10053,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Super Saiyan 2",
@@ -9421,6 +10072,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -9437,6 +10089,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -9454,6 +10107,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Super Warrior",
    "Melee Type"
@@ -9466,6 +10120,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Frieza Force",
    "Saiyan",
@@ -9480,6 +10135,7 @@
   "rarity": "ULTRA",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -9495,6 +10151,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -9510,6 +10167,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Super Saiyan 2",
@@ -9530,6 +10188,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Universe 6",
    "Transforming Warrior",
@@ -9546,6 +10205,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Lineage of Evil",
    "Regeneration",
@@ -9561,6 +10221,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Lineage of Evil",
    "Weapon Wielder",
@@ -9574,6 +10235,7 @@
   "rarity": "ULTRA",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -9589,6 +10251,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Super Saiyan 3",
@@ -9605,6 +10268,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Android",
    "Powerful Opponent",
@@ -9620,6 +10284,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Android",
    "Melee Type",
@@ -9633,6 +10298,7 @@
   "rarity": "ULTRA",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "God Ki",
    "Future",
@@ -9650,6 +10316,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -9663,6 +10330,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -9677,6 +10345,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -9695,6 +10364,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Transforming Warrior",
    "Regeneration",
@@ -9711,6 +10381,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Hybrid Saiyan",
    "Super Saiyan",
@@ -9727,6 +10398,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -9741,6 +10413,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -9759,6 +10432,7 @@
   "rarity": "ULTRA",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Super Saiyan 4",
@@ -9774,6 +10448,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -9790,6 +10465,7 @@
   "rarity": "SPARKING",
   "is_lf": true,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -9806,6 +10482,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "DAIMA",
    "Weapon Wielder",
@@ -9819,6 +10496,7 @@
   "rarity": "ULTRA",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Regeneration",
    "Powerful Opponent",
@@ -9832,6 +10510,7 @@
   "rarity": "LEGEND",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -9847,6 +10526,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -9863,6 +10543,7 @@
   "rarity": "LEGEND",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Regeneration",
    "Super Warrior",
@@ -9877,6 +10558,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Girls",
    "Future",
@@ -9892,6 +10574,7 @@
   "rarity": "ULTRA",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Hybrid Saiyan",
    "Super Saiyan",
@@ -9908,6 +10591,7 @@
   "rarity": "LEGEND",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -9924,6 +10608,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "DAIMA",
    "Weapon Wielder",
@@ -9937,6 +10622,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -9950,6 +10636,7 @@
   "rarity": "LEGEND",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Team Bardock",
@@ -9963,6 +10650,7 @@
   "rarity": "LEGEND",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Future",
@@ -9980,6 +10668,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -9995,6 +10684,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Hybrid Saiyan",
    "Vegeta Clan",
@@ -10010,6 +10700,7 @@
   "rarity": "ULTRA",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Saiyan",
    "Super Saiyan God SS",
@@ -10026,6 +10717,7 @@
   "rarity": "LEGEND",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Frieza Force",
@@ -10042,6 +10734,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Frieza Force",
@@ -10057,6 +10750,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Angel",
    "God Ki",
@@ -10071,6 +10765,7 @@
   "rarity": "LEGEND",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "blast",
   "tags": [
    "Hybrid Saiyan",
    "Vegeta Clan",
@@ -10089,6 +10784,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -10106,6 +10802,7 @@
   "rarity": "ULTRA",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "strike",
   "tags": [
    "Saiyan",
    "Super Saiyan 3",
@@ -10123,6 +10820,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Angel",
    "God Ki",
@@ -10142,6 +10840,7 @@
   "rarity": "LEGEND",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Android",
    "Universe Rep",
@@ -10159,6 +10858,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "God Ki",
@@ -10174,6 +10874,7 @@
   "rarity": "HERO",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Melee Type",
@@ -10192,6 +10893,7 @@
   "rarity": "SPARKING",
   "is_lf": false,
   "is_zenkai": false,
+  "stat": "mixed",
   "tags": [
    "Saiyan",
    "Super Saiyan",

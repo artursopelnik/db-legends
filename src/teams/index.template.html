@@ -208,6 +208,20 @@
 }
 .builder-team li .fighter-name { flex: 1; min-width: 0; }
 .builder-team select { padding: 4px 8px; }
+.b-move {
+  background: transparent;
+  border: 1.5px solid var(--line);
+  color: var(--dim);
+  border-radius: 8px;
+  padding: 3px 9px;
+  font: inherit;
+  font-size: 0.75rem;
+  letter-spacing: 0;
+  box-shadow: none;
+  cursor: pointer;
+}
+.b-move:hover:not(:disabled) { border-color: var(--orange); color: var(--orange-soft); }
+.b-move:disabled { opacity: 0.35; cursor: not-allowed; }
 .tag-pill {
   display: inline-flex;
   align-items: center;
@@ -331,14 +345,25 @@
     return role === 'damage' ? TEXT.roleDamage : role === 'tank' ? TEXT.roleTank : TEXT.roleSupport;
   }
 
+  function moveBtn(label, symbol, disabled, onClick) {
+    var btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'b-move';
+    btn.textContent = symbol;
+    btn.setAttribute('aria-label', label);
+    btn.disabled = disabled;
+    btn.addEventListener('click', onClick);
+    return btn;
+  }
+
   function renderTeamList() {
     teamEl.innerHTML = '';
-    selected.forEach(function (idx) {
+    selected.forEach(function (idx, pos) {
       var c = ROSTER[idx];
       var li = document.createElement('li');
       var name = document.createElement('span');
       name.className = 'fighter-name';
-      name.textContent = c.name;
+      name.textContent = (pos === 0 ? '👑 ' : '') + c.name;
       var sel = document.createElement('select');
       sel.setAttribute('aria-label', TEXT.starsLabel + ': ' + c.name);
       for (var s = 0; s <= 14; s++) {
@@ -353,6 +378,16 @@
         render();
       });
       li.appendChild(name);
+      li.appendChild(moveBtn(TEXT.moveUp + ': ' + c.name, '▲', pos === 0, function () {
+        selected.splice(pos, 1);
+        selected.splice(pos - 1, 0, idx);
+        render();
+      }));
+      li.appendChild(moveBtn(TEXT.moveDown + ': ' + c.name, '▼', pos === selected.length - 1, function () {
+        selected.splice(pos, 1);
+        selected.splice(pos + 1, 0, idx);
+        render();
+      }));
       li.appendChild(sel);
       teamEl.appendChild(li);
     });
@@ -479,10 +514,32 @@
     }
 
     if (chars.length < MAX) recs.push(TEXT.recFill);
-    if (mainTag) recs.push(TEXT.recEquip.replace('{tag}', mainTag));
+
+    // Equipment advice from each fighter's stat leaning; tanks get a
+    // defensive set instead.
+    var shortName = function (c) { return c.name.replace(/^(LEGEND|ULTRA|LF|SP|EX|HE) /, ''); };
+    var equipGroups = { strike: [], blast: [], mixed: [], defense: [] };
+    chars.forEach(function (c) {
+      if (c.role === 'tank') equipGroups.defense.push(shortName(c));
+      else if (c.stat === 'strike') equipGroups.strike.push(shortName(c));
+      else if (c.stat === 'blast') equipGroups.blast.push(shortName(c));
+      else equipGroups.mixed.push(shortName(c));
+    });
+    var parts = [];
+    ['strike', 'blast', 'mixed', 'defense'].forEach(function (key) {
+      if (!equipGroups[key].length) return;
+      var tpl = key === 'strike' ? TEXT.equipStrike : key === 'blast' ? TEXT.equipBlast :
+        key === 'mixed' ? TEXT.equipMixed : TEXT.equipDefense;
+      parts.push(tpl.replace('{names}', equipGroups[key].join(', ')));
+    });
+    if (parts.length) {
+      var equipTpl = mainTag ? TEXT.recEquipParts.replace('{tag}', mainTag) : TEXT.recEquipPartsNoTag;
+      recs.push(equipTpl.replace('{parts}', parts.join(', ')));
+    }
+
     if (!issues && chars.length === MAX) recs.unshift(TEXT.recPerfect);
 
-    // Lead recommendation: the fighter with the highest effective strength.
+    // Lead recommendation: the strongest fighter belongs in the first slot.
     var best = null;
     selected.forEach(function (idx) {
       var score = effScore(ROSTER[idx], idx, mainTag);
@@ -490,9 +547,11 @@
     });
     if (best) {
       var bestStars = stars[best.idx] || 0;
-      var leadText = bestStars > 0
-        ? TEXT.recLead.replace('{name}', ROSTER[best.idx].name).replace('{stars}', String(bestStars))
-        : TEXT.recLeadBase.replace('{name}', ROSTER[best.idx].name);
+      var leadText = best.idx === selected[0]
+        ? TEXT.recLeadOk.replace('{name}', ROSTER[best.idx].name)
+        : bestStars > 0
+          ? TEXT.recLead.replace('{name}', ROSTER[best.idx].name).replace('{stars}', String(bestStars))
+          : TEXT.recLeadBase.replace('{name}', ROSTER[best.idx].name);
       recs.unshift(leadText);
     }
 

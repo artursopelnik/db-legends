@@ -99,6 +99,11 @@ function main() {
       missing.push(`${c.card_id}: ${name}`);
     }
     const plus = c.element.endsWith('+') ? '+' : '';
+    // Strike vs blast leaning from the min-level attack stats; within 5%
+    // counts as mixed.
+    const lm = (c.stats && c.stats.level_min) || {};
+    const stat = lm.sa > (lm.ba || 0) * 1.05 ? 'strike'
+      : (lm.ba || 0) > (lm.sa || 0) * 1.05 ? 'blast' : 'mixed';
     return {
       name,
       id: c.card_id,
@@ -106,6 +111,7 @@ function main() {
       rarity: c.rarity,
       is_lf: !!c.legends_limited,
       is_zenkai: !!c.zenkai,
+      stat,
       tags: [...new Set(c.tags.map((t) => TAG_DE[t]).filter(Boolean))],
     };
   });
