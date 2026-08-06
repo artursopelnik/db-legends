@@ -546,7 +546,9 @@
     var visible = 0;
     grid.querySelectorAll('button').forEach(function (btn, i) {
       var c = ROSTER[i];
-      var match = (!q || c.name.toLowerCase().indexOf(q) !== -1) &&
+      var nameHit = c.name.toLowerCase().indexOf(q) !== -1;
+      var tagHit = c.tags.some(function (t) { return t.toLowerCase().indexOf(q) !== -1; });
+      var match = (!q || nameHit || tagHit) &&
         (!tag || c.tags.indexOf(tag) !== -1);
       btn.hidden = !match;
       if (match) visible++;
