@@ -165,6 +165,9 @@ function renderPage(template, css, lang, data, characters) {
     recRole: dict.builderRecRole,
     recFill: dict.builderRecFill,
     recEquip: dict.builderRecEquip,
+    recLead: dict.builderRecLead,
+    recLeadBase: dict.builderRecLeadBase,
+    starsLabel: dict.builderStarsLabel,
   };
   return template
     .replaceAll('{{LANG}}', lang)

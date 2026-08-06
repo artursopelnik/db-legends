@@ -274,7 +274,8 @@ footer a { color: var(--dim); }
   margin: 14px 0 0;
 }
 .builder-controls input,
-.builder-controls select {
+.builder-controls select,
+.builder-team select {
   font: inherit;
   font-size: 0.9rem;
   color: var(--text);
@@ -357,6 +358,21 @@ footer a { color: var(--dim); }
 .builder-summary h3:first-child { margin-top: 0; }
 .builder-summary p, .builder-summary li { color: var(--dim); font-size: 0.92rem; line-height: 1.55; }
 .builder-summary ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; }
+.builder-summary ul.builder-team {
+  flex-direction: column;
+  align-items: stretch;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+.builder-team li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.92rem;
+  color: var(--text);
+}
+.builder-team li .fighter-name { flex: 1; min-width: 0; }
+.builder-team select { padding: 4px 8px; }
 .tag-pill {
   display: inline-flex;
   align-items: center;
@@ -510,6 +526,7 @@ footer a { color: var(--dim); }
     <p class="builder-none" id="builderNone" hidden>Ни один боец не подходит под поиск.</p>
     <div class="builder-summary" id="builderSummary">
       <h3 id="builderCount"></h3>
+      <ul class="builder-team" id="builderTeam"></ul>
       <p id="builderEmpty">Выберите минимум двух бойцов. Лучше всего начать с сильнейшего атакующего.</p>
       <div id="builderResult" hidden>
         <p class="builder-verdict" id="builderVerdict"></p>
@@ -543,12 +560,14 @@ footer a { color: var(--dim); }
 (function () {
   'use strict';
   var ROSTER = [{"name":"ULTRA Super Full Power Saiyan 4 Goku","rarity":"UL","role":"damage","tags":["Saiyan","Son Family","GT"]},{"name":"ULTRA Ultra Instinct Goku","rarity":"UL","role":"damage","tags":["Saiyan","Son Family","God Ki"]},{"name":"ULTRA Super Saiyan God SS Gogeta","rarity":"UL","role":"damage","tags":["Saiyan","God Ki","Fusion Warrior","Movies"]},{"name":"ULTRA Beast Gohan","rarity":"UL","role":"damage","tags":["Hybrid Saiyan","Son Family","Movies"]},{"name":"ULTRA Janemba","rarity":"UL","role":"damage","tags":["Regeneration","Movies","Powerful Opponent"]},{"name":"ULTRA Ultra Instinct -Sign- Goku","rarity":"UL","role":"tank","tags":["Saiyan","Son Family","God Ki"]},{"name":"ULTRA Super Saiyan 3 Goku","rarity":"UL","role":"damage","tags":["Saiyan","Son Family"]},{"name":"ULTRA Super Vegito","rarity":"UL","role":"tank","tags":["Saiyan","Fusion Warrior"]},{"name":"ULTRA Super Saiyan Goku","rarity":"UL","role":"damage","tags":["Saiyan","Son Family"]},{"name":"ULTRA Majin Vegeta","rarity":"UL","role":"damage","tags":["Saiyan","Vegeta Family"]},{"name":"ULTRA Super Saiyan 2 Gohan (Youth)","rarity":"UL","role":"damage","tags":["Hybrid Saiyan","Son Family"]},{"name":"ULTRA Vegito","rarity":"UL","role":"damage","tags":["Saiyan","Fusion Warrior"]},{"name":"LF Fused Zamasu (Red)","rarity":"LF","role":"tank","tags":["God Ki","Fusion Warrior","Future","Regeneration"]},{"name":"LF Half-Corrupted Fusion Zamasu","rarity":"LF","role":"support","tags":["God Ki","Fusion Warrior","Future","Regeneration"]},{"name":"LF Super Saiyan 4 Goku","rarity":"LF","role":"damage","tags":["Saiyan","Son Family","GT"]},{"name":"LF Super Saiyan 4 Vegeta","rarity":"LF","role":"tank","tags":["Saiyan","Vegeta Family","GT"]},{"name":"LF Super Saiyan 4 Gogeta","rarity":"LF","role":"damage","tags":["Saiyan","Fusion Warrior","GT"]},{"name":"LF Ultra Instinct Goku","rarity":"LF","role":"damage","tags":["Saiyan","Son Family","God Ki"]},{"name":"LF Super Saiyan God SS Gogeta","rarity":"LF","role":"damage","tags":["Saiyan","Fusion Warrior","God Ki","Movies"]},{"name":"LF Super Saiyan God SS Evolved Vegeta","rarity":"LF","role":"damage","tags":["Saiyan","Vegeta Family","God Ki"]},{"name":"LF Gohan & Trunks (Adult)","rarity":"LF","role":"damage","tags":["Hybrid Saiyan","Son Family","Vegeta Family","Future"]},{"name":"LF Super Saiyan 2 Youth Gohan","rarity":"LF","role":"tank","tags":["Hybrid Saiyan","Son Family"]},{"name":"LF Vegito Blue","rarity":"LF","role":"damage","tags":["Saiyan","God Ki","Fusion Warrior","Future"]},{"name":"LF Super Saiyan God Goku","rarity":"LF","role":"damage","tags":["Saiyan","Son Family","God Ki"]},{"name":"LF Bardock","rarity":"LF","role":"damage","tags":["Saiyan","Son Family"]},{"name":"LF Super Saiyan 2 Kefla","rarity":"LF","role":"damage","tags":["Saiyan","Fusion Warrior","Girls"]},{"name":"LF Majin Buu: Good","rarity":"LF","role":"tank","tags":["Regeneration"]},{"name":"LF Kid Buu","rarity":"LF","role":"damage","tags":["Regeneration","Powerful Opponent"]},{"name":"LF Super Baby 2","rarity":"LF","role":"damage","tags":["Regeneration","GT","Lineage of Evil"]},{"name":"LF Super Trunks","rarity":"LF","role":"damage","tags":["Hybrid Saiyan","Vegeta Family","Future"]},{"name":"LF Goku Black (Super Saiyan Rosé)","rarity":"LF","role":"damage","tags":["God Ki","Future","Lineage of Evil"]},{"name":"LF Android #17 & #18","rarity":"LF","role":"tank","tags":["Android","Future"]},{"name":"LF Perfect Cell","rarity":"LF","role":"tank","tags":["Android","Regeneration","Lineage of Evil"]},{"name":"LF Cell Max","rarity":"LF","role":"tank","tags":["Android","Powerful Opponent","Movies"]},{"name":"LF Jiren","rarity":"LF","role":"damage","tags":["Powerful Opponent"]},{"name":"LF Full Power Broly","rarity":"LF","role":"damage","tags":["Saiyan","Movies","Powerful Opponent"]},{"name":"LF Full Power Frieza","rarity":"LF","role":"damage","tags":["Lineage of Evil","Powerful Opponent"]},{"name":"SP Super Gogeta (Red)","rarity":"SP","role":"damage","tags":["Saiyan","Fusion Warrior","Movies"]},{"name":"SP Super Saiyan God SS Evolved Vegeta","rarity":"SP","role":"damage","tags":["Saiyan","Vegeta Family","God Ki"]},{"name":"SP God of Destruction Beerus","rarity":"SP","role":"support","tags":["God Ki","Powerful Opponent"]},{"name":"SP Super Saiyan God Goku","rarity":"SP","role":"support","tags":["Saiyan","Son Family","God Ki"]},{"name":"SP Super Saiyan Goten (Kid)","rarity":"SP","role":"support","tags":["Hybrid Saiyan","Son Family"]},{"name":"SP Super Saiyan Trunks (Kid)","rarity":"SP","role":"support","tags":["Hybrid Saiyan","Vegeta Family"]},{"name":"SP Orange Piccolo","rarity":"SP","role":"tank","tags":["Regeneration","Movies"]},{"name":"SP Perfect Cell (Revived)","rarity":"SP","role":"tank","tags":["Regeneration","Android","Lineage of Evil"]},{"name":"SP Ultimate Gohan","rarity":"SP","role":"damage","tags":["Hybrid Saiyan","Son Family"]},{"name":"SP Android #21 (Evil)","rarity":"SP","role":"support","tags":["Android","Regeneration","Girls"]},{"name":"SP Videl","rarity":"SP","role":"support","tags":["Girls"]},{"name":"SP Golden Frieza","rarity":"SP","role":"damage","tags":["Lineage of Evil","Powerful Opponent"]},{"name":"SP Final Form Cooler","rarity":"SP","role":"damage","tags":["Lineage of Evil","Movies","Powerful Opponent"]},{"name":"SP Pan (GT)","rarity":"SP","role":"support","tags":["Hybrid Saiyan","Son Family","GT","Girls"]},{"name":"SP Super Baby 2","rarity":"SP","role":"damage","tags":["Regeneration","GT","Lineage of Evil"]},{"name":"SP Majuub","rarity":"SP","role":"damage","tags":["GT","Regeneration"]}];
-  var TEXT = {"count":"Ваша команда ({n}/6)","roleDamage":"Урон","roleTank":"Защита","roleSupport":"Поддержка","verdictGreat":"Ваша команда собрана очень хорошо!","verdictOk":"Крепкая основа, но есть куда расти.","verdictWeak":"Команде ещё нужна доработка.","recPerfect":"Замены не нужны: синергия и роли сочетаются.","recSwap":"Замените {name} на {alt} для большей синергии {tag}.","recRole":"Команде не хватает роли «{role}». Хорошие варианты: {names}.","recFill":"Заполните все шесть мест: трое сражаются, трое усиливают команду со скамейки своими Z-Abilities.","recEquip":"Экипировка: три предмета на основную характеристику атакующих плюс один с условием {tag}."};
+  var TEXT = {"count":"Ваша команда ({n}/6)","roleDamage":"Урон","roleTank":"Защита","roleSupport":"Поддержка","verdictGreat":"Ваша команда собрана очень хорошо!","verdictOk":"Крепкая основа, но есть куда расти.","verdictWeak":"Команде ещё нужна доработка.","recPerfect":"Замены не нужны: синергия и роли сочетаются.","recSwap":"Замените {name} на {alt} для большей синергии {tag}.","recRole":"Команде не хватает роли «{role}». Хорошие варианты: {names}.","recFill":"Заполните все шесть мест: трое сражаются, трое усиливают команду со скамейки своими Z-Abilities.","recEquip":"Экипировка: три предмета на основную характеристику атакующих плюс один с условием {tag}.","recLead":"Начинайте с {name}: с {stars}★ этот боец получает больше всего от командных бустов.","recLeadBase":"Начинайте с {name}: этот боец получает больше всего от командных бустов.","starsLabel":"Звёзды лимит-брейка"};
   var MAX = 6;
   var selected = [];
+  var stars = {};
 
   var grid = document.getElementById('builderGrid');
   var countEl = document.getElementById('builderCount');
+  var teamEl = document.getElementById('builderTeam');
   var emptyEl = document.getElementById('builderEmpty');
   var resultEl = document.getElementById('builderResult');
   var verdictEl = document.getElementById('builderVerdict');
@@ -560,8 +579,46 @@ footer a { color: var(--dim); }
     return role === 'damage' ? TEXT.roleDamage : role === 'tank' ? TEXT.roleTank : TEXT.roleSupport;
   }
 
+  function renderTeamList() {
+    teamEl.innerHTML = '';
+    selected.forEach(function (idx) {
+      var c = ROSTER[idx];
+      var li = document.createElement('li');
+      var name = document.createElement('span');
+      name.className = 'fighter-name';
+      name.textContent = c.name;
+      var sel = document.createElement('select');
+      sel.setAttribute('aria-label', TEXT.starsLabel + ': ' + c.name);
+      for (var s = 0; s <= 14; s++) {
+        var opt = document.createElement('option');
+        opt.value = String(s);
+        opt.textContent = s + '★';
+        sel.appendChild(opt);
+      }
+      sel.value = String(stars[idx] || 0);
+      sel.addEventListener('change', function () {
+        stars[idx] = parseInt(sel.value, 10) || 0;
+        render();
+      });
+      li.appendChild(name);
+      li.appendChild(sel);
+      teamEl.appendChild(li);
+    });
+  }
+
+  // Effective strength: rarity base, limit-break stars, main-tag synergy,
+  // and a small opener bonus for damage dealers. Soul Boost is ignored.
+  function effScore(c, idx, mainTag) {
+    var base = { UL: 100, LF: 85, SP: 70 }[c.rarity] || 70;
+    var score = base + (stars[idx] || 0) * 3;
+    if (mainTag && c.tags.indexOf(mainTag) !== -1) score += 15;
+    if (c.role === 'damage') score += 5;
+    return score;
+  }
+
   function render() {
     countEl.textContent = TEXT.count.replace('{n}', String(selected.length));
+    renderTeamList();
     var full = selected.length >= MAX;
     grid.querySelectorAll('button').forEach(function (btn, i) {
       var on = selected.indexOf(i) !== -1;
@@ -672,6 +729,20 @@ footer a { color: var(--dim); }
     if (chars.length < MAX) recs.push(TEXT.recFill);
     if (mainTag) recs.push(TEXT.recEquip.replace('{tag}', mainTag));
     if (!issues && chars.length === MAX) recs.unshift(TEXT.recPerfect);
+
+    // Lead recommendation: the fighter with the highest effective strength.
+    var best = null;
+    selected.forEach(function (idx) {
+      var score = effScore(ROSTER[idx], idx, mainTag);
+      if (!best || score > best.score) best = { idx: idx, score: score };
+    });
+    if (best) {
+      var bestStars = stars[best.idx] || 0;
+      var leadText = bestStars > 0
+        ? TEXT.recLead.replace('{name}', ROSTER[best.idx].name).replace('{stars}', String(bestStars))
+        : TEXT.recLeadBase.replace('{name}', ROSTER[best.idx].name);
+      recs.unshift(leadText);
+    }
 
     tipsEl.innerHTML = '';
     recs.forEach(function (rec) {

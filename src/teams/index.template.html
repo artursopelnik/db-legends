@@ -106,7 +106,8 @@
   margin: 14px 0 0;
 }
 .builder-controls input,
-.builder-controls select {
+.builder-controls select,
+.builder-team select {
   font: inherit;
   font-size: 0.9rem;
   color: var(--text);
@@ -189,6 +190,21 @@
 .builder-summary h3:first-child { margin-top: 0; }
 .builder-summary p, .builder-summary li { color: var(--dim); font-size: 0.92rem; line-height: 1.55; }
 .builder-summary ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; }
+.builder-summary ul.builder-team {
+  flex-direction: column;
+  align-items: stretch;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+.builder-team li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.92rem;
+  color: var(--text);
+}
+.builder-team li .fighter-name { flex: 1; min-width: 0; }
+.builder-team select { padding: 4px 8px; }
 .tag-pill {
   display: inline-flex;
   align-items: center;
@@ -259,6 +275,7 @@
     <p class="builder-none" id="builderNone" hidden>{{BUILDER_NO_MATCHES}}</p>
     <div class="builder-summary" id="builderSummary">
       <h3 id="builderCount"></h3>
+      <ul class="builder-team" id="builderTeam"></ul>
       <p id="builderEmpty">{{BUILDER_EMPTY}}</p>
       <div id="builderResult" hidden>
         <p class="builder-verdict" id="builderVerdict"></p>
@@ -295,9 +312,11 @@
   var TEXT = {{BUILDER_TEXT_JSON}};
   var MAX = 6;
   var selected = [];
+  var stars = {};
 
   var grid = document.getElementById('builderGrid');
   var countEl = document.getElementById('builderCount');
+  var teamEl = document.getElementById('builderTeam');
   var emptyEl = document.getElementById('builderEmpty');
   var resultEl = document.getElementById('builderResult');
   var verdictEl = document.getElementById('builderVerdict');
@@ -309,8 +328,46 @@
     return role === 'damage' ? TEXT.roleDamage : role === 'tank' ? TEXT.roleTank : TEXT.roleSupport;
   }
 
+  function renderTeamList() {
+    teamEl.innerHTML = '';
+    selected.forEach(function (idx) {
+      var c = ROSTER[idx];
+      var li = document.createElement('li');
+      var name = document.createElement('span');
+      name.className = 'fighter-name';
+      name.textContent = c.name;
+      var sel = document.createElement('select');
+      sel.setAttribute('aria-label', TEXT.starsLabel + ': ' + c.name);
+      for (var s = 0; s <= 14; s++) {
+        var opt = document.createElement('option');
+        opt.value = String(s);
+        opt.textContent = s + '★';
+        sel.appendChild(opt);
+      }
+      sel.value = String(stars[idx] || 0);
+      sel.addEventListener('change', function () {
+        stars[idx] = parseInt(sel.value, 10) || 0;
+        render();
+      });
+      li.appendChild(name);
+      li.appendChild(sel);
+      teamEl.appendChild(li);
+    });
+  }
+
+  // Effective strength: rarity base, limit-break stars, main-tag synergy,
+  // and a small opener bonus for damage dealers. Soul Boost is ignored.
+  function effScore(c, idx, mainTag) {
+    var base = { UL: 100, LF: 85, SP: 70 }[c.rarity] || 70;
+    var score = base + (stars[idx] || 0) * 3;
+    if (mainTag && c.tags.indexOf(mainTag) !== -1) score += 15;
+    if (c.role === 'damage') score += 5;
+    return score;
+  }
+
   function render() {
     countEl.textContent = TEXT.count.replace('{n}', String(selected.length));
+    renderTeamList();
     var full = selected.length >= MAX;
     grid.querySelectorAll('button').forEach(function (btn, i) {
       var on = selected.indexOf(i) !== -1;
@@ -421,6 +478,20 @@
     if (chars.length < MAX) recs.push(TEXT.recFill);
     if (mainTag) recs.push(TEXT.recEquip.replace('{tag}', mainTag));
     if (!issues && chars.length === MAX) recs.unshift(TEXT.recPerfect);
+
+    // Lead recommendation: the fighter with the highest effective strength.
+    var best = null;
+    selected.forEach(function (idx) {
+      var score = effScore(ROSTER[idx], idx, mainTag);
+      if (!best || score > best.score) best = { idx: idx, score: score };
+    });
+    if (best) {
+      var bestStars = stars[best.idx] || 0;
+      var leadText = bestStars > 0
+        ? TEXT.recLead.replace('{name}', ROSTER[best.idx].name).replace('{stars}', String(bestStars))
+        : TEXT.recLeadBase.replace('{name}', ROSTER[best.idx].name);
+      recs.unshift(leadText);
+    }
 
     tipsEl.innerHTML = '';
     recs.forEach(function (rec) {
