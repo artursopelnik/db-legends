@@ -4,6 +4,7 @@
   "private": true,
   "description": "Dragon Ball Legends QR Generator – dblqr.org",
   "scripts": {
-    "build": "node scripts/build-i18n.js && node scripts/build-blog.js && node scripts/build-teams.js && node scripts/build-promo.js"
+    "build": "node scripts/build-i18n.js && node scripts/build-blog.js && node scripts/build-teams.js && node scripts/build-promo.js",
+    "update-roster": "node scripts/convert-dblegends-json.js data/dblegends_full.json && node scripts/import-roster.js && npm run build"
   }
 }
