@@ -1,11 +1,10 @@
 #!/usr/bin/env node
 /*
  * Generates src/teams/characters.json (the team-builder roster) from:
- * - src/teams/data/characters-source.json: trimmed snapshot of the community
- *   dataset scraped from DBZ Space (github.com/feijoes/DBlegendsAPI),
- *   covering releases up to set DBL59 (mid 2023).
+ * - src/teams/data/characters-source.json: produced by convert-dbl-dump.js
+ *   from the community database dump (state May 2026).
  * - src/teams/data/roster-extra.json: hand-maintained units missing from the
- *   snapshot (newer releases and scraper gaps). Add new banner units here.
+ *   snapshot (newer releases and gaps). Add new banner units here.
  *
  * Run manually after changing either input: node scripts/import-roster.js
  * Then rebuild the pages with: npm run build
@@ -64,6 +63,12 @@ const TAG_MAP = {
   'Shadow Dragon': 'Shadow Dragon',
   'Legends Road': 'Legends Road',
   'Game Originals': 'Game Originals',
+  'Angel': 'Angel',
+  'God of Destruction': 'God of Destruction',
+  'Universe 4': 'Universe 4',
+  'Universe 9': 'Universe 9',
+  'Weapon Wielder': 'Weapon Wielder',
+  'Turles Crusher Corps': 'Turles Crusher Corps',
 };
 
 const RARITY_PREFIX = { UL: 'ULTRA', LF: 'LF', SP: 'SP', EX: 'EX', HE: 'HE' };
@@ -107,13 +112,15 @@ function main() {
 
   const fromSource = deduped.map((entry) => {
     const rarity = shortRarity(entry);
+    const tags = mapTags(entry.tags);
+    if (entry.is_zenkai) tags.push('Zenkai');
     return {
       name: `${RARITY_PREFIX[rarity]} ${entry.name}`,
       color: entry.color,
       id: entry.id,
       rarity,
       role: roleFromTags(entry.tags),
-      tags: mapTags(entry.tags),
+      tags,
     };
   });
 

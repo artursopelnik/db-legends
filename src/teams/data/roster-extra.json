@@ -1,25 +1,6 @@
 {
-  "comment": "Units missing from characters-source.json: releases after set DBL59 (mid 2023) plus scraper gaps. Maintained by hand, name prefix marks rarity. New banner units go here, then run: node scripts/import-roster.js && npm run build",
+  "comment": "Units missing from characters-source.json (dump from github.com/shamarahDiana/dbl-character-database, state 2026-05-01). New banner units go here, then run: node scripts/import-roster.js && npm run build",
   "characters": [
-    { "name": "ULTRA Vegito", "rarity": "UL", "role": "damage", "tags": ["Saiyan", "Fusion Warrior", "Potara"] },
-    { "name": "ULTRA Super Saiyan 2 Gohan (Youth)", "rarity": "UL", "role": "damage", "tags": ["Hybrid Saiyan", "Son Family", "Super Saiyan 2"] },
-    { "name": "ULTRA Majin Vegeta", "rarity": "UL", "role": "damage", "tags": ["Saiyan", "Vegeta Family", "Super Saiyan 2"] },
-    { "name": "ULTRA Super Saiyan 3 Goku", "rarity": "UL", "role": "damage", "tags": ["Saiyan", "Son Family", "Super Saiyan 3"] },
-    { "name": "ULTRA Ultra Instinct -Sign- Goku", "rarity": "UL", "role": "tank", "tags": ["Saiyan", "Son Family", "God Ki"] },
-    { "name": "ULTRA Beast Gohan", "rarity": "UL", "role": "damage", "tags": ["Hybrid Saiyan", "Son Family", "Movies"] },
-    { "name": "ULTRA Janemba", "rarity": "UL", "role": "damage", "tags": ["Regeneration", "Movies", "Powerful Opponent"] },
-    { "name": "ULTRA Ultra Instinct Goku", "rarity": "UL", "role": "damage", "tags": ["Saiyan", "Son Family", "God Ki"] },
-    { "name": "ULTRA Super Full Power Saiyan 4 Goku", "rarity": "UL", "role": "damage", "tags": ["Saiyan", "Son Family", "GT", "Super Saiyan 4"] },
-    { "name": "LF Goku (Mini)", "rarity": "LF", "role": "damage", "tags": ["Saiyan", "Son Family", "DAIMA", "Kids"] },
-    { "name": "LF Super Saiyan Goku (Mini)", "rarity": "LF", "role": "damage", "tags": ["Saiyan", "Son Family", "DAIMA", "Kids", "Super Saiyan"] },
-    { "name": "LF Super Saiyan 3 Vegeta (Mini)", "rarity": "LF", "role": "damage", "tags": ["Saiyan", "Vegeta Family", "DAIMA", "Kids", "Super Saiyan 3"] },
-    { "name": "LF Fused Zamasu (Red)", "rarity": "LF", "role": "tank", "tags": ["God Ki", "Fusion Warrior", "Future", "Regeneration"] },
-    { "name": "LF Ultra Instinct Goku", "rarity": "LF", "role": "damage", "tags": ["Saiyan", "Son Family", "God Ki"] },
-    { "name": "LF Gohan & Trunks (Adult)", "rarity": "LF", "role": "damage", "tags": ["Hybrid Saiyan", "Son Family", "Vegeta Family", "Future"] },
-    { "name": "LF Cell Max", "rarity": "LF", "role": "tank", "tags": ["Android", "Powerful Opponent", "Movies"] },
-    { "name": "SP Glorio", "rarity": "SP", "role": "damage", "tags": ["DAIMA"] },
-    { "name": "SP Majin Kuu", "rarity": "SP", "role": "tank", "tags": ["DAIMA", "Regeneration"] },
-    { "name": "SP Majin Duu", "rarity": "SP", "role": "support", "tags": ["DAIMA", "Regeneration"] },
-    { "name": "SP Perfect Cell (Revived)", "rarity": "SP", "role": "tank", "tags": ["Regeneration", "Android", "Lineage of Evil"] }
+    { "name": "ULTRA Ultra Instinct Goku", "rarity": "UL", "role": "damage", "tags": ["Saiyan", "Son Family", "God Ki"] }
   ]
 }

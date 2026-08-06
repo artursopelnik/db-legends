@@ -5,8 +5,8 @@
       "rarity": "UL",
       "role": "damage",
       "tags": [
-        "Hybrid Saiyan",
         "Son Family",
+        "Hybrid Saiyan",
         "Movies"
       ]
     },
@@ -20,6 +20,42 @@
       ]
     },
     {
+      "name": "ULTRA Final Form Frieza: Full Power",
+      "rarity": "UL",
+      "role": "damage",
+      "tags": [
+        "Frieza Force",
+        "Transforming Warrior",
+        "Lineage of Evil",
+        "Powerful Opponent"
+      ]
+    },
+    {
+      "name": "ULTRA Golden Frieza",
+      "rarity": "UL",
+      "role": "damage",
+      "tags": [
+        "Frieza Force",
+        "Transforming Warrior",
+        "Lineage of Evil",
+        "Powerful Opponent",
+        "Movies"
+      ]
+    },
+    {
+      "name": "ULTRA Half-Corrupted Fusion Zamasu",
+      "rarity": "UL",
+      "role": "damage",
+      "tags": [
+        "Future",
+        "Regeneration",
+        "Potara",
+        "Fusion Warrior",
+        "God Ki",
+        "Powerful Opponent"
+      ]
+    },
+    {
       "name": "ULTRA Hit",
       "rarity": "UL",
       "role": "damage",
@@ -28,16 +64,6 @@
         "Powerful Opponent",
         "Rival Universe",
         "Universe Rep"
-      ]
-    },
-    {
-      "name": "ULTRA Janemba",
-      "rarity": "UL",
-      "role": "damage",
-      "tags": [
-        "Regeneration",
-        "Movies",
-        "Powerful Opponent"
       ]
     },
     {
@@ -56,8 +82,8 @@
       "rarity": "UL",
       "role": "damage",
       "tags": [
-        "Saiyan",
         "Vegeta Family",
+        "Saiyan",
         "Super Saiyan 2"
       ]
     },
@@ -74,12 +100,23 @@
       ]
     },
     {
+      "name": "ULTRA Perfect Cell",
+      "rarity": "UL",
+      "role": "damage",
+      "tags": [
+        "Android",
+        "Future",
+        "Regeneration",
+        "Powerful Opponent"
+      ]
+    },
+    {
       "name": "ULTRA Super Full Power Saiyan 4 Goku",
       "rarity": "UL",
       "role": "damage",
       "tags": [
-        "Saiyan",
         "Son Family",
+        "Saiyan",
         "GT",
         "Super Saiyan 4"
       ]
@@ -97,23 +134,47 @@
       ]
     },
     {
+      "name": "ULTRA Super Janemba",
+      "rarity": "UL",
+      "role": "damage",
+      "tags": [
+        "Transforming Warrior",
+        "Regeneration",
+        "Powerful Opponent",
+        "Weapon Wielder",
+        "Movies"
+      ]
+    },
+    {
       "name": "ULTRA Super Saiyan 2 Gohan (Youth)",
       "rarity": "UL",
       "role": "damage",
       "tags": [
-        "Hybrid Saiyan",
         "Son Family",
+        "Hybrid Saiyan",
         "Super Saiyan 2"
       ]
     },
     {
-      "name": "ULTRA Super Saiyan 3 Goku",
+      "name": "ULTRA Super Saiyan 4 Gogeta",
       "rarity": "UL",
       "role": "damage",
       "tags": [
         "Saiyan",
-        "Son Family",
-        "Super Saiyan 3"
+        "GT",
+        "Fusion Warrior",
+        "Super Saiyan 4"
+      ]
+    },
+    {
+      "name": "ULTRA Super Saiyan 4 Vegeta",
+      "rarity": "UL",
+      "role": "damage",
+      "tags": [
+        "Vegeta Family",
+        "Saiyan",
+        "GT",
+        "Super Saiyan 4"
       ]
     },
     {
@@ -141,7 +202,30 @@
       ]
     },
     {
-      "name": "ULTRA Super Saiyan Goku",
+      "name": "ULTRA Super Saiyan God SS Vegito",
+      "rarity": "UL",
+      "role": "damage",
+      "tags": [
+        "Saiyan",
+        "Future",
+        "Potara",
+        "Fusion Warrior",
+        "God Ki",
+        "Super Saiyan God SS"
+      ]
+    },
+    {
+      "name": "ULTRA Super Saiyan Goku (RED)",
+      "rarity": "UL",
+      "role": "damage",
+      "tags": [
+        "Son Family",
+        "Saiyan",
+        "Super Saiyan"
+      ]
+    },
+    {
+      "name": "ULTRA Super Saiyan Goku (YEL)",
       "rarity": "UL",
       "role": "damage",
       "tags": [
@@ -158,7 +242,20 @@
         "Saiyan",
         "Future",
         "God Ki",
-        "Powerful Opponent"
+        "Powerful Opponent",
+        "Weapon Wielder"
+      ]
+    },
+    {
+      "name": "ULTRA Super Saiyan Trunks (Adult)",
+      "rarity": "UL",
+      "role": "damage",
+      "tags": [
+        "Vegeta Family",
+        "Hybrid Saiyan",
+        "Super Saiyan",
+        "Future",
+        "Weapon Wielder"
       ]
     },
     {
@@ -173,13 +270,34 @@
       ]
     },
     {
-      "name": "ULTRA Ultra Instinct -Sign- Goku",
+      "name": "ULTRA Turles",
       "rarity": "UL",
       "role": "tank",
       "tags": [
         "Saiyan",
+        "Powerful Opponent",
+        "Turles Crusher Corps",
+        "Movies"
+      ]
+    },
+    {
+      "name": "ULTRA Ultimate Gohan Absorbed Buu: Super",
+      "rarity": "UL",
+      "role": "damage",
+      "tags": [
+        "Regeneration",
+        "Powerful Opponent"
+      ]
+    },
+    {
+      "name": "ULTRA Ultra Instinct -Sign- Goku",
+      "rarity": "UL",
+      "role": "damage",
+      "tags": [
         "Son Family",
-        "God Ki"
+        "Saiyan",
+        "God Ki",
+        "Universe Rep"
       ]
     },
     {
@@ -202,16 +320,6 @@
       ]
     },
     {
-      "name": "ULTRA Vegito",
-      "rarity": "UL",
-      "role": "damage",
-      "tags": [
-        "Saiyan",
-        "Fusion Warrior",
-        "Potara"
-      ]
-    },
-    {
       "name": "LF 1st Form Frieza",
       "rarity": "LF",
       "role": "support",
@@ -219,7 +327,19 @@
         "Frieza Force",
         "Transforming Warrior",
         "Lineage of Evil",
-        "Powerful Opponent"
+        "Powerful Opponent",
+        "Zenkai"
+      ]
+    },
+    {
+      "name": "LF Android #13",
+      "rarity": "LF",
+      "role": "support",
+      "tags": [
+        "Android",
+        "Powerful Opponent",
+        "Movies",
+        "Fusion Warrior"
       ]
     },
     {
@@ -232,7 +352,7 @@
       ]
     },
     {
-      "name": "LF Android #17 &amp; Android #18",
+      "name": "LF Android #17 & Android #18",
       "rarity": "LF",
       "role": "damage",
       "tags": [
@@ -248,7 +368,8 @@
       "role": "damage",
       "tags": [
         "Saiyan",
-        "Team Bardock"
+        "Team Bardock",
+        "Zenkai"
       ]
     },
     {
@@ -267,17 +388,18 @@
       "role": "damage",
       "tags": [
         "Regeneration",
-        "Powerful Opponent"
+        "Powerful Opponent",
+        "Zenkai"
       ]
     },
     {
-      "name": "LF Cell Max",
+      "name": "LF Demon King Piccolo",
       "rarity": "LF",
-      "role": "tank",
+      "role": "damage",
       "tags": [
-        "Android",
-        "Powerful Opponent",
-        "Movies"
+        "Regeneration",
+        "Namekian",
+        "Powerful Opponent"
       ]
     },
     {
@@ -288,7 +410,8 @@
         "Transforming Warrior",
         "Lineage of Evil",
         "Powerful Opponent",
-        "Movies"
+        "Movies",
+        "Zenkai"
       ]
     },
     {
@@ -299,18 +422,31 @@
         "Frieza Force",
         "Transforming Warrior",
         "Lineage of Evil",
+        "Powerful Opponent",
+        "Zenkai"
+      ]
+    },
+    {
+      "name": "LF Fusion Zamasu",
+      "rarity": "LF",
+      "role": "damage",
+      "tags": [
+        "Future",
+        "Regeneration",
+        "Potara",
+        "Fusion Warrior",
+        "God Ki",
         "Powerful Opponent"
       ]
     },
     {
-      "name": "LF Fused Zamasu (Red)",
+      "name": "LF Gamma 1 & Gamma 2",
       "rarity": "LF",
-      "role": "tank",
+      "role": "damage",
       "tags": [
-        "God Ki",
-        "Fusion Warrior",
-        "Future",
-        "Regeneration"
+        "Android",
+        "Weapon Wielder",
+        "Movies"
       ]
     },
     {
@@ -318,44 +454,90 @@
       "rarity": "LF",
       "role": "support",
       "tags": [
+        "God of Destruction",
         "God Ki",
-        "Powerful Opponent"
+        "Powerful Opponent",
+        "Zenkai"
       ]
     },
     {
-      "name": "LF Gohan & Trunks (Adult)",
-      "rarity": "LF",
-      "role": "damage",
-      "tags": [
-        "Hybrid Saiyan",
-        "Son Family",
-        "Vegeta Family",
-        "Future"
-      ]
-    },
-    {
-      "name": "LF Goku",
+      "name": "LF Goku (BLU) [#210]",
       "rarity": "LF",
       "role": "damage",
       "tags": [
         "Son Family",
         "Saiyan",
-        "Super Saiyan"
+        "Super Saiyan",
+        "Zenkai"
       ]
     },
     {
-      "name": "LF Goku (Mini)",
+      "name": "LF Goku (BLU) [#556]",
+      "rarity": "LF",
+      "role": "tank",
+      "tags": [
+        "Son Family",
+        "Saiyan",
+        "Kids",
+        "GT",
+        "Zenkai"
+      ]
+    },
+    {
+      "name": "LF Goku (RED)",
       "rarity": "LF",
       "role": "damage",
       "tags": [
-        "Saiyan",
         "Son Family",
-        "DAIMA",
-        "Kids"
+        "Saiyan"
       ]
     },
     {
-      "name": "LF Goku &amp; Final Form Frieza",
+      "name": "LF Goku (YEL)",
+      "rarity": "LF",
+      "role": "damage",
+      "tags": [
+        "Son Family",
+        "Saiyan",
+        "Movies"
+      ]
+    },
+    {
+      "name": "LF Goku (Youth) (PUR)",
+      "rarity": "LF",
+      "role": "damage",
+      "tags": [
+        "Son Family",
+        "Saiyan",
+        "Kids",
+        "Weapon Wielder",
+        "Movies"
+      ]
+    },
+    {
+      "name": "LF Goku (Youth) (YEL)",
+      "rarity": "LF",
+      "role": "damage",
+      "tags": [
+        "Son Family",
+        "Saiyan",
+        "Kids",
+        "Weapon Wielder"
+      ]
+    },
+    {
+      "name": "LF Goku & Bardock",
+      "rarity": "LF",
+      "role": "damage",
+      "tags": [
+        "Son Family",
+        "Saiyan",
+        "Team Bardock",
+        "Game Originals"
+      ]
+    },
+    {
+      "name": "LF Goku & Final Form Frieza",
       "rarity": "LF",
       "role": "damage",
       "tags": [
@@ -369,6 +551,31 @@
       ]
     },
     {
+      "name": "LF Goku & Vegeta",
+      "rarity": "LF",
+      "role": "damage",
+      "tags": [
+        "Son Family",
+        "Vegeta Family",
+        "Saiyan",
+        "Super Saiyan",
+        "Otherworld Warrior",
+        "Fusion Warrior",
+        "Movies"
+      ]
+    },
+    {
+      "name": "LF Goku Black",
+      "rarity": "LF",
+      "role": "tank",
+      "tags": [
+        "Saiyan",
+        "Future",
+        "Powerful Opponent",
+        "God Ki"
+      ]
+    },
+    {
       "name": "LF Half-Corrupted Fusion Zamasu",
       "rarity": "LF",
       "role": "damage",
@@ -378,7 +585,8 @@
         "Potara",
         "Fusion Warrior",
         "God Ki",
-        "Powerful Opponent"
+        "Powerful Opponent",
+        "Zenkai"
       ]
     },
     {
@@ -389,11 +597,58 @@
         "Universe 11",
         "Powerful Opponent",
         "Rival Universe",
-        "Universe Rep"
+        "Universe Rep",
+        "Zenkai"
+      ]
+    },
+    {
+      "name": "LF Metal Cooler",
+      "rarity": "LF",
+      "role": "tank",
+      "tags": [
+        "Regeneration",
+        "Lineage of Evil",
+        "Powerful Opponent",
+        "Movies"
+      ]
+    },
+    {
+      "name": "LF Nappa",
+      "rarity": "LF",
+      "role": "damage",
+      "tags": [
+        "Vegeta Family",
+        "Frieza Force",
+        "Saiyan",
+        "Powerful Opponent"
+      ]
+    },
+    {
+      "name": "LF Omega Shenron",
+      "rarity": "LF",
+      "role": "damage",
+      "tags": [
+        "Regeneration",
+        "GT",
+        "Fusion Warrior",
+        "Shadow Dragon",
+        "Powerful Opponent"
       ]
     },
     {
       "name": "LF Perfect Cell",
+      "rarity": "LF",
+      "role": "damage",
+      "tags": [
+        "Android",
+        "Future",
+        "Regeneration",
+        "Powerful Opponent",
+        "Zenkai"
+      ]
+    },
+    {
+      "name": "LF Perfect Form Cell",
       "rarity": "LF",
       "role": "damage",
       "tags": [
@@ -409,11 +664,72 @@
       "role": "tank",
       "tags": [
         "Regeneration",
-        "Namekian"
+        "Namekian",
+        "Zenkai"
       ]
     },
     {
-      "name": "LF Super Saiyan 2 &amp; Super Saiyan God SS Trunks (Adult) &amp; Vegeta",
+      "name": "LF Pikkon",
+      "rarity": "LF",
+      "role": "tank",
+      "tags": [
+        "Saiyan",
+        "Super Saiyan",
+        "Otherworld Warrior",
+        "Fusion Warrior",
+        "Movies"
+      ]
+    },
+    {
+      "name": "LF Power Awakening Piccolo",
+      "rarity": "LF",
+      "role": "damage",
+      "tags": [
+        "Super Warrior",
+        "Transforming Warrior",
+        "Regeneration",
+        "Namekian",
+        "Movies"
+      ]
+    },
+    {
+      "name": "LF Super #17",
+      "rarity": "LF",
+      "role": "damage",
+      "tags": [
+        "Android",
+        "GT",
+        "Fusion Warrior",
+        "Powerful Opponent"
+      ]
+    },
+    {
+      "name": "LF Super Baby 2",
+      "rarity": "LF",
+      "role": "damage",
+      "tags": [
+        "Saiyan",
+        "Transforming Warrior",
+        "Regeneration",
+        "GT",
+        "Powerful Opponent",
+        "Zenkai"
+      ]
+    },
+    {
+      "name": "LF Super Janemba",
+      "rarity": "LF",
+      "role": "damage",
+      "tags": [
+        "Transforming Warrior",
+        "Regeneration",
+        "Powerful Opponent",
+        "Weapon Wielder",
+        "Movies"
+      ]
+    },
+    {
+      "name": "LF Super Saiyan 2 & Super Saiyan God SS Trunks (Adult) & Vegeta",
       "rarity": "LF",
       "role": "damage",
       "tags": [
@@ -423,11 +739,13 @@
         "Future",
         "Super Saiyan 2",
         "God Ki",
-        "Super Saiyan God SS"
+        "Super Saiyan God SS",
+        "Weapon Wielder",
+        "Zenkai"
       ]
     },
     {
-      "name": "LF Super Saiyan 2 Gohan (Youth)",
+      "name": "LF Super Saiyan 2 Gohan (Youth) (BLU)",
       "rarity": "LF",
       "role": "damage",
       "tags": [
@@ -437,7 +755,45 @@
       ]
     },
     {
-      "name": "LF Super Saiyan 3 &amp; Super Saiyan 2 Goku &amp; Vegeta",
+      "name": "LF Super Saiyan 2 Gohan (Youth) (RED)",
+      "rarity": "LF",
+      "role": "damage",
+      "tags": [
+        "Son Family",
+        "Hybrid Saiyan",
+        "Super Saiyan 2",
+        "Zenkai"
+      ]
+    },
+    {
+      "name": "LF Super Saiyan 2 Goku",
+      "rarity": "LF",
+      "role": "damage",
+      "tags": [
+        "Son Family",
+        "Saiyan",
+        "Otherworld Warrior",
+        "Super Saiyan 2",
+        "Super Saiyan 3"
+      ]
+    },
+    {
+      "name": "LF Super Saiyan 2 Kefla",
+      "rarity": "LF",
+      "role": "damage",
+      "tags": [
+        "Girls",
+        "Saiyan",
+        "Universe 6",
+        "Potara",
+        "Super Saiyan 2",
+        "Fusion Warrior",
+        "Rival Universe",
+        "Universe Rep"
+      ]
+    },
+    {
+      "name": "LF Super Saiyan 3 & Super Saiyan 2 Goku & Vegeta",
       "rarity": "LF",
       "role": "damage",
       "tags": [
@@ -446,28 +802,65 @@
         "Saiyan",
         "Otherworld Warrior",
         "Super Saiyan 2",
-        "Super Saiyan 3"
+        "Super Saiyan 3",
+        "Zenkai"
       ]
     },
     {
-      "name": "LF Super Saiyan 3 Goku (GRN) [DBL17-05S]",
-      "rarity": "LF",
-      "role": "damage",
-      "tags": [
-        "Son Family",
-        "Saiyan",
-        "Super Saiyan 3"
-      ]
-    },
-    {
-      "name": "LF Super Saiyan 3 Goku (GRN) [DBL48-01S]",
+      "name": "LF Super Saiyan 3 Goku (GRN) [#240]",
       "rarity": "LF",
       "role": "damage",
       "tags": [
         "Son Family",
         "Saiyan",
         "Super Saiyan 3",
-        "Movies"
+        "Zenkai"
+      ]
+    },
+    {
+      "name": "LF Super Saiyan 3 Goku (GRN) [#456]",
+      "rarity": "LF",
+      "role": "damage",
+      "tags": [
+        "Son Family",
+        "Saiyan",
+        "Super Saiyan 3",
+        "Movies",
+        "Zenkai"
+      ]
+    },
+    {
+      "name": "LF Super Saiyan 3 Goku (PUR)",
+      "rarity": "LF",
+      "role": "damage",
+      "tags": [
+        "Son Family",
+        "Saiyan",
+        "Kids",
+        "GT",
+        "Super Saiyan 3"
+      ]
+    },
+    {
+      "name": "LF Super Saiyan 3 Gotenks",
+      "rarity": "LF",
+      "role": "damage",
+      "tags": [
+        "Hybrid Saiyan",
+        "Kids",
+        "Fusion Warrior",
+        "Super Saiyan 3"
+      ]
+    },
+    {
+      "name": "LF Super Saiyan 3 Vegeta",
+      "rarity": "LF",
+      "role": "damage",
+      "tags": [
+        "Vegeta Family",
+        "Saiyan",
+        "Super Saiyan 3",
+        "DAIMA"
       ]
     },
     {
@@ -475,11 +868,11 @@
       "rarity": "LF",
       "role": "damage",
       "tags": [
-        "Saiyan",
         "Vegeta Family",
-        "DAIMA",
+        "Saiyan",
         "Kids",
-        "Super Saiyan 3"
+        "Super Saiyan 3",
+        "DAIMA"
       ]
     },
     {
@@ -490,22 +883,35 @@
         "Saiyan",
         "GT",
         "Fusion Warrior",
-        "Super Saiyan 4"
+        "Super Saiyan 4",
+        "Zenkai"
       ]
     },
     {
-      "name": "LF Super Saiyan 4 Goku",
+      "name": "LF Super Saiyan 4 Goku (BLU)",
+      "rarity": "LF",
+      "role": "damage",
+      "tags": [
+        "Son Family",
+        "Saiyan",
+        "Super Saiyan 4",
+        "DAIMA"
+      ]
+    },
+    {
+      "name": "LF Super Saiyan 4 Goku (YEL)",
       "rarity": "LF",
       "role": "damage",
       "tags": [
         "Son Family",
         "Saiyan",
         "GT",
-        "Super Saiyan 4"
+        "Super Saiyan 4",
+        "Zenkai"
       ]
     },
     {
-      "name": "LF Super Saiyan 4 Goku &amp; Vegeta",
+      "name": "LF Super Saiyan 4 Goku & Vegeta",
       "rarity": "LF",
       "role": "damage",
       "tags": [
@@ -517,7 +923,7 @@
       ]
     },
     {
-      "name": "LF Super Saiyan Broly: Full Power",
+      "name": "LF Super Saiyan Broly",
       "rarity": "LF",
       "role": "damage",
       "tags": [
@@ -525,6 +931,57 @@
         "Super Saiyan",
         "Powerful Opponent",
         "Movies"
+      ]
+    },
+    {
+      "name": "LF Super Saiyan Broly: Full Power",
+      "rarity": "LF",
+      "role": "damage",
+      "tags": [
+        "Saiyan",
+        "Super Saiyan",
+        "Powerful Opponent",
+        "Movies",
+        "Zenkai"
+      ]
+    },
+    {
+      "name": "LF Super Saiyan God Goku",
+      "rarity": "LF",
+      "role": "damage",
+      "tags": [
+        "Son Family",
+        "Saiyan",
+        "God Ki",
+        "Super Saiyan God",
+        "Movies"
+      ]
+    },
+    {
+      "name": "LF Super Saiyan God Goku & Hit",
+      "rarity": "LF",
+      "role": "damage",
+      "tags": [
+        "Son Family",
+        "Saiyan",
+        "Universe 6",
+        "God Ki",
+        "Super Saiyan God",
+        "Rival Universe",
+        "Universe Rep"
+      ]
+    },
+    {
+      "name": "LF Super Saiyan God SS Evolved & Super Saiyan God SS Kaioken Vegeta & Goku",
+      "rarity": "LF",
+      "role": "damage",
+      "tags": [
+        "Son Family",
+        "Vegeta Family",
+        "Saiyan",
+        "God Ki",
+        "Super Saiyan God SS",
+        "Universe Rep"
       ]
     },
     {
@@ -536,7 +993,8 @@
         "Saiyan",
         "God Ki",
         "Super Saiyan God SS",
-        "Universe Rep"
+        "Universe Rep",
+        "Zenkai"
       ]
     },
     {
@@ -548,7 +1006,8 @@
         "Fusion Warrior",
         "God Ki",
         "Super Saiyan God SS",
-        "Movies"
+        "Movies",
+        "Zenkai"
       ]
     },
     {
@@ -560,11 +1019,12 @@
         "Saiyan",
         "God Ki",
         "Super Saiyan God SS",
-        "Universe Rep"
+        "Universe Rep",
+        "Zenkai"
       ]
     },
     {
-      "name": "LF Super Saiyan God SS Goku &amp; Vegeta",
+      "name": "LF Super Saiyan God SS Goku & Vegeta (PUR)",
       "rarity": "LF",
       "role": "damage",
       "tags": [
@@ -573,11 +1033,26 @@
         "Saiyan",
         "God Ki",
         "Super Saiyan God SS",
+        "Movies",
+        "Zenkai"
+      ]
+    },
+    {
+      "name": "LF Super Saiyan God SS Goku & Vegeta (YEL)",
+      "rarity": "LF",
+      "role": "damage",
+      "tags": [
+        "Son Family",
+        "Vegeta Family",
+        "Saiyan",
+        "Fusion Warrior",
+        "God Ki",
+        "Super Saiyan God SS",
         "Movies"
       ]
     },
     {
-      "name": "LF Super Saiyan God SS Vegeta",
+      "name": "LF Super Saiyan God SS Vegeta (GRN)",
       "rarity": "LF",
       "role": "damage",
       "tags": [
@@ -585,7 +1060,20 @@
         "Saiyan",
         "Future",
         "God Ki",
-        "Super Saiyan God SS"
+        "Super Saiyan God SS",
+        "Zenkai"
+      ]
+    },
+    {
+      "name": "LF Super Saiyan God SS Vegeta (PUR)",
+      "rarity": "LF",
+      "role": "damage",
+      "tags": [
+        "Vegeta Family",
+        "Saiyan",
+        "God Ki",
+        "Super Saiyan God SS",
+        "Universe Rep"
       ]
     },
     {
@@ -598,7 +1086,8 @@
         "Potara",
         "Fusion Warrior",
         "God Ki",
-        "Super Saiyan God SS"
+        "Super Saiyan God SS",
+        "Zenkai"
       ]
     },
     {
@@ -609,7 +1098,8 @@
         "Son Family",
         "Hybrid Saiyan",
         "Super Saiyan",
-        "Future"
+        "Future",
+        "Zenkai"
       ]
     },
     {
@@ -620,8 +1110,30 @@
         "Son Family",
         "Hybrid Saiyan",
         "Super Saiyan",
-        "Super Saiyan 2",
-        "Movies"
+        "Movies",
+        "Super Saiyan 2"
+      ]
+    },
+    {
+      "name": "LF Super Saiyan Gohan & Trunks (Youth)",
+      "rarity": "LF",
+      "role": "damage",
+      "tags": [
+        "Son Family",
+        "Vegeta Family",
+        "Hybrid Saiyan",
+        "Super Saiyan",
+        "Future"
+      ]
+    },
+    {
+      "name": "LF Super Saiyan Goku (BLU)",
+      "rarity": "LF",
+      "role": "damage",
+      "tags": [
+        "Son Family",
+        "Saiyan",
+        "Super Saiyan"
       ]
     },
     {
@@ -629,10 +1141,22 @@
       "rarity": "LF",
       "role": "damage",
       "tags": [
-        "Saiyan",
         "Son Family",
-        "DAIMA",
+        "Saiyan",
+        "Super Saiyan",
         "Kids",
+        "DAIMA",
+        "Weapon Wielder",
+        "Zenkai"
+      ]
+    },
+    {
+      "name": "LF Super Saiyan Goku (PUR)",
+      "rarity": "LF",
+      "role": "damage",
+      "tags": [
+        "Son Family",
+        "Saiyan",
         "Super Saiyan"
       ]
     },
@@ -645,7 +1169,8 @@
         "Hybrid Saiyan",
         "Super Saiyan",
         "Kids",
-        "Movies"
+        "Movies",
+        "Zenkai"
       ]
     },
     {
@@ -656,7 +1181,8 @@
         "Saiyan",
         "Future",
         "God Ki",
-        "Powerful Opponent"
+        "Powerful Opponent",
+        "Zenkai"
       ]
     },
     {
@@ -667,7 +1193,9 @@
         "Vegeta Family",
         "Hybrid Saiyan",
         "Super Saiyan",
-        "Future"
+        "Future",
+        "Weapon Wielder",
+        "Zenkai"
       ]
     },
     {
@@ -678,7 +1206,20 @@
         "Vegeta Family",
         "Hybrid Saiyan",
         "Super Saiyan",
-        "Future"
+        "Future",
+        "Weapon Wielder",
+        "Zenkai"
+      ]
+    },
+    {
+      "name": "LF Super Vegeta",
+      "rarity": "LF",
+      "role": "damage",
+      "tags": [
+        "Vegeta Family",
+        "Saiyan",
+        "Super Saiyan",
+        "Zenkai"
       ]
     },
     {
@@ -689,11 +1230,31 @@
         "Saiyan",
         "Super Saiyan",
         "Potara",
-        "Fusion Warrior"
+        "Fusion Warrior",
+        "Zenkai"
       ]
     },
     {
-      "name": "LF Ultra Instinct -Sign- Goku",
+      "name": "LF Ultimate Gohan (PUR)",
+      "rarity": "LF",
+      "role": "damage",
+      "tags": [
+        "Son Family",
+        "Hybrid Saiyan"
+      ]
+    },
+    {
+      "name": "LF Ultimate Gohan (RED)",
+      "rarity": "LF",
+      "role": "damage",
+      "tags": [
+        "Son Family",
+        "Hybrid Saiyan",
+        "Movies"
+      ]
+    },
+    {
+      "name": "LF Ultra Instinct -Sign- Goku (BLU)",
       "rarity": "LF",
       "role": "damage",
       "tags": [
@@ -704,17 +1265,19 @@
       ]
     },
     {
-      "name": "LF Ultra Instinct Goku",
+      "name": "LF Ultra Instinct -Sign- Goku (PUR)",
       "rarity": "LF",
       "role": "damage",
       "tags": [
-        "Saiyan",
         "Son Family",
-        "God Ki"
+        "Saiyan",
+        "God Ki",
+        "Universe Rep",
+        "Zenkai"
       ]
     },
     {
-      "name": "LF Ultra Instinct Goku (RED)",
+      "name": "LF Ultra Instinct Goku",
       "rarity": "LF",
       "role": "damage",
       "tags": [
@@ -731,11 +1294,12 @@
       "tags": [
         "Vegeta Family",
         "Saiyan",
-        "Super Saiyan 2"
+        "Super Saiyan 2",
+        "Zenkai"
       ]
     },
     {
-      "name": "LF Vegeta (RED)",
+      "name": "LF Vegeta (GRN)",
       "rarity": "LF",
       "role": "damage",
       "tags": [
@@ -746,9 +1310,60 @@
       ]
     },
     {
-      "name": "SP 1st Form Cell",
+      "name": "LF Vegeta (RED)",
+      "rarity": "LF",
+      "role": "damage",
+      "tags": [
+        "Vegeta Family",
+        "Frieza Force",
+        "Saiyan",
+        "Powerful Opponent",
+        "Zenkai"
+      ]
+    },
+    {
+      "name": "LF Vegeta & Goku",
+      "rarity": "LF",
+      "role": "damage",
+      "tags": [
+        "Son Family",
+        "Vegeta Family",
+        "Saiyan",
+        "Super Saiyan",
+        "Otherworld Warrior",
+        "Potara",
+        "Fusion Warrior"
+      ]
+    },
+    {
+      "name": "LF Vegito",
+      "rarity": "LF",
+      "role": "damage",
+      "tags": [
+        "Saiyan",
+        "Future",
+        "Potara",
+        "Fusion Warrior",
+        "God Ki",
+        "Super Saiyan God SS"
+      ]
+    },
+    {
+      "name": "SP 1st Form Cell (GRN)",
       "rarity": "SP",
       "role": "damage",
+      "tags": [
+        "Android",
+        "Future",
+        "Regeneration",
+        "Powerful Opponent",
+        "Zenkai"
+      ]
+    },
+    {
+      "name": "SP 1st Form Cell (YEL)",
+      "rarity": "SP",
+      "role": "tank",
       "tags": [
         "Android",
         "Future",
@@ -779,7 +1394,7 @@
       ]
     },
     {
-      "name": "SP 2nd Form Cell",
+      "name": "SP 2nd Form Cell (BLU)",
       "rarity": "SP",
       "role": "damage",
       "tags": [
@@ -790,7 +1405,38 @@
       ]
     },
     {
-      "name": "SP Android #13 (BLU) [DBL-EVT-69S]",
+      "name": "SP 2nd Form Cell (RED)",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Android",
+        "Future",
+        "Regeneration",
+        "Powerful Opponent"
+      ]
+    },
+    {
+      "name": "SP 3rd Form Frieza",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Frieza Force",
+        "Transforming Warrior",
+        "Lineage of Evil",
+        "Powerful Opponent"
+      ]
+    },
+    {
+      "name": "SP Amond",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Turles Crusher Corps",
+        "Movies"
+      ]
+    },
+    {
+      "name": "SP Android #13 (BLU) [#217]",
       "rarity": "SP",
       "role": "damage",
       "tags": [
@@ -800,7 +1446,7 @@
       ]
     },
     {
-      "name": "SP Android #13 (BLU) [DBL14-05S]",
+      "name": "SP Android #13 (BLU) [#516]",
       "rarity": "SP",
       "role": "damage",
       "tags": [
@@ -819,6 +1465,15 @@
       ]
     },
     {
+      "name": "SP Android #14 & Android #15",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Android",
+        "Movies"
+      ]
+    },
+    {
       "name": "SP Android #15",
       "rarity": "SP",
       "role": "support",
@@ -828,29 +1483,49 @@
       ]
     },
     {
-      "name": "SP Android #16",
+      "name": "SP Android #16 (GRN) [#566]",
       "rarity": "SP",
-      "role": "tank",
+      "role": "damage",
       "tags": [
         "Android"
       ]
     },
     {
-      "name": "SP Android #17 (PUR) [DBL03-05S]",
+      "name": "SP Android #16 (GRN) [#92]",
       "rarity": "SP",
       "role": "tank",
       "tags": [
-        "Android"
+        "Android",
+        "Zenkai"
       ]
     },
     {
-      "name": "SP Android #17 (PUR) [DBL53-03S]",
+      "name": "SP Android #17 (PUR) [#476]",
       "rarity": "SP",
       "role": "support",
       "tags": [
         "Android",
         "GT",
         "Powerful Opponent"
+      ]
+    },
+    {
+      "name": "SP Android #17 (PUR) [#629]",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Android",
+        "Future",
+        "Powerful Opponent"
+      ]
+    },
+    {
+      "name": "SP Android #17 (PUR) [#63]",
+      "rarity": "SP",
+      "role": "tank",
+      "tags": [
+        "Android",
+        "Zenkai"
       ]
     },
     {
@@ -863,7 +1538,7 @@
       ]
     },
     {
-      "name": "SP Android #18 (BLU) [DBL06-10S]",
+      "name": "SP Android #18 (BLU) [#103]",
       "rarity": "SP",
       "role": "damage",
       "tags": [
@@ -872,13 +1547,14 @@
       ]
     },
     {
-      "name": "SP Android #18 (BLU) [DBL34-04S]",
+      "name": "SP Android #18 (BLU) [#365]",
       "rarity": "SP",
       "role": "damage",
       "tags": [
         "Girls",
         "Android",
-        "Universe Rep"
+        "Universe Rep",
+        "Zenkai"
       ]
     },
     {
@@ -891,7 +1567,7 @@
       ]
     },
     {
-      "name": "SP Android #18 (RED)",
+      "name": "SP Android #18 (RED) [#233]",
       "rarity": "SP",
       "role": "tank",
       "tags": [
@@ -900,12 +1576,42 @@
       ]
     },
     {
-      "name": "SP Android #18 (YEL)",
+      "name": "SP Android #18 (RED) [#526]",
+      "rarity": "SP",
+      "role": "support",
+      "tags": [
+        "Girls",
+        "Android"
+      ]
+    },
+    {
+      "name": "SP Android #18 (YEL) [#580]",
+      "rarity": "SP",
+      "role": "support",
+      "tags": [
+        "Girls",
+        "Android"
+      ]
+    },
+    {
+      "name": "SP Android #18 (YEL) [#627]",
+      "rarity": "SP",
+      "role": "support",
+      "tags": [
+        "Girls",
+        "Android",
+        "Future",
+        "Powerful Opponent"
+      ]
+    },
+    {
+      "name": "SP Android #18 (YEL) [#64]",
       "rarity": "SP",
       "role": "damage",
       "tags": [
         "Girls",
-        "Android"
+        "Android",
+        "Zenkai"
       ]
     },
     {
@@ -917,7 +1623,8 @@
         "Transforming Warrior",
         "Android",
         "Regeneration",
-        "Powerful Opponent"
+        "Powerful Opponent",
+        "Zenkai"
       ]
     },
     {
@@ -928,7 +1635,8 @@
         "Girls",
         "Transforming Warrior",
         "Android",
-        "Regeneration"
+        "Regeneration",
+        "Zenkai"
       ]
     },
     {
@@ -940,7 +1648,8 @@
         "Transforming Warrior",
         "Android",
         "Regeneration",
-        "Powerful Opponent"
+        "Powerful Opponent",
+        "Zenkai"
       ]
     },
     {
@@ -951,7 +1660,17 @@
         "Girls",
         "Transforming Warrior",
         "Android",
-        "Regeneration"
+        "Regeneration",
+        "Zenkai"
+      ]
+    },
+    {
+      "name": "SP Android #8",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Android",
+        "Movies"
       ]
     },
     {
@@ -990,7 +1709,8 @@
       "role": "tank",
       "tags": [
         "Saiyan",
-        "Movies"
+        "Movies",
+        "Zenkai"
       ]
     },
     {
@@ -998,6 +1718,7 @@
       "rarity": "SP",
       "role": "damage",
       "tags": [
+        "Universe 9",
         "Rival Universe",
         "Universe Rep"
       ]
@@ -1007,8 +1728,21 @@
       "rarity": "SP",
       "role": "tank",
       "tags": [
+        "Universe 9",
         "Rival Universe",
-        "Universe Rep"
+        "Universe Rep",
+        "Zenkai"
+      ]
+    },
+    {
+      "name": "SP Boujack (BLU)",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Transforming Warrior",
+        "Powerful Opponent",
+        "Hera Clan",
+        "Movies"
       ]
     },
     {
@@ -1019,7 +1753,8 @@
         "Transforming Warrior",
         "Powerful Opponent",
         "Hera Clan",
-        "Movies"
+        "Movies",
+        "Zenkai"
       ]
     },
     {
@@ -1052,11 +1787,13 @@
         "Girls",
         "Frieza Force",
         "Saiyan",
-        "Movies"
+        "Weapon Wielder",
+        "Movies",
+        "Zenkai"
       ]
     },
     {
-      "name": "SP Broly: Fury",
+      "name": "SP Broly: Fury (BLU)",
       "rarity": "SP",
       "role": "damage",
       "tags": [
@@ -1067,11 +1804,57 @@
       ]
     },
     {
-      "name": "SP Bulma (Youth) (BLU)",
+      "name": "SP Broly: Fury (GRN)",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Frieza Force",
+        "Saiyan",
+        "Powerful Opponent",
+        "Movies"
+      ]
+    },
+    {
+      "name": "SP Broly: Fury (RED)",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Frieza Force",
+        "Saiyan",
+        "Powerful Opponent",
+        "Movies",
+        "Zenkai"
+      ]
+    },
+    {
+      "name": "SP Bulla: Vegeta (Assist)",
       "rarity": "SP",
       "role": "support",
       "tags": [
-        "Girls"
+        "Vegeta Family",
+        "Girls",
+        "Saiyan",
+        "Hybrid Saiyan",
+        "GT"
+      ]
+    },
+    {
+      "name": "SP Bulma (Youth) (BLU) [#166]",
+      "rarity": "SP",
+      "role": "support",
+      "tags": [
+        "Girls",
+        "Weapon Wielder",
+        "Zenkai"
+      ]
+    },
+    {
+      "name": "SP Bulma (Youth) (BLU) [#581]",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Girls",
+        "Weapon Wielder"
       ]
     },
     {
@@ -1080,6 +1863,7 @@
       "role": "tank",
       "tags": [
         "Girls",
+        "Weapon Wielder",
         "Game Originals"
       ]
     },
@@ -1088,7 +1872,8 @@
       "rarity": "SP",
       "role": "support",
       "tags": [
-        "Girls"
+        "Girls",
+        "Weapon Wielder"
       ]
     },
     {
@@ -1110,7 +1895,17 @@
       ]
     },
     {
-      "name": "SP Buu: Super (PUR) [DBL-EVT-65S]",
+      "name": "SP Buu: Super (PUR) [#191]",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Regeneration",
+        "Powerful Opponent",
+        "Zenkai"
+      ]
+    },
+    {
+      "name": "SP Buu: Super (PUR) [#477]",
       "rarity": "SP",
       "role": "support",
       "tags": [
@@ -1119,16 +1914,16 @@
       ]
     },
     {
-      "name": "SP Buu: Super (PUR) [DBL11-09S]",
+      "name": "SP Cacao",
       "rarity": "SP",
-      "role": "damage",
+      "role": "tank",
       "tags": [
-        "Regeneration",
-        "Powerful Opponent"
+        "Turles Crusher Corps",
+        "Movies"
       ]
     },
     {
-      "name": "SP Captain Ginyu",
+      "name": "SP Captain Ginyu (GRN)",
       "rarity": "SP",
       "role": "tank",
       "tags": [
@@ -1137,11 +1932,23 @@
       ]
     },
     {
+      "name": "SP Captain Ginyu (PUR)",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Frieza Force",
+        "Ginyu Force",
+        "Saiyan"
+      ]
+    },
+    {
       "name": "SP Chi-Chi",
       "rarity": "SP",
       "role": "damage",
       "tags": [
-        "Girls"
+        "Girls",
+        "Weapon Wielder",
+        "Zenkai"
       ]
     },
     {
@@ -1150,11 +1957,12 @@
       "role": "support",
       "tags": [
         "Lineage of Evil",
-        "Powerful Opponent"
+        "Powerful Opponent",
+        "Zenkai"
       ]
     },
     {
-      "name": "SP Cooler (GRN)",
+      "name": "SP Cooler (GRN) [#546]",
       "rarity": "SP",
       "role": "damage",
       "tags": [
@@ -1162,6 +1970,18 @@
         "Lineage of Evil",
         "Powerful Opponent",
         "Movies"
+      ]
+    },
+    {
+      "name": "SP Cooler (GRN) [#94]",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Transforming Warrior",
+        "Lineage of Evil",
+        "Powerful Opponent",
+        "Movies",
+        "Zenkai"
       ]
     },
     {
@@ -1176,13 +1996,20 @@
       ]
     },
     {
-      "name": "SP Demon King Piccolo",
+      "name": "SP Cyborg Tao",
       "rarity": "SP",
       "role": "damage",
       "tags": [
-        "Regeneration",
-        "Namekian",
-        "Powerful Opponent"
+        "Weapon Wielder"
+      ]
+    },
+    {
+      "name": "SP Daiz",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Turles Crusher Corps",
+        "Movies"
       ]
     },
     {
@@ -1196,6 +2023,27 @@
       ]
     },
     {
+      "name": "SP Demon King Piccolo (GRN)",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Regeneration",
+        "Namekian",
+        "Powerful Opponent"
+      ]
+    },
+    {
+      "name": "SP Demon King Piccolo (YEL)",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Regeneration",
+        "Namekian",
+        "Powerful Opponent",
+        "Zenkai"
+      ]
+    },
+    {
       "name": "SP Dyspo",
       "rarity": "SP",
       "role": "damage",
@@ -1203,6 +2051,14 @@
         "Universe 11",
         "Rival Universe",
         "Universe Rep"
+      ]
+    },
+    {
+      "name": "SP East Supreme Kai Shin",
+      "rarity": "SP",
+      "role": "support",
+      "tags": [
+        "God Ki"
       ]
     },
     {
@@ -1222,7 +2078,8 @@
         "Transforming Warrior",
         "Lineage of Evil",
         "Powerful Opponent",
-        "Movies"
+        "Movies",
+        "Zenkai"
       ]
     },
     {
@@ -1244,11 +2101,12 @@
         "Frieza Force",
         "Transforming Warrior",
         "Lineage of Evil",
-        "Powerful Opponent"
+        "Powerful Opponent",
+        "Zenkai"
       ]
     },
     {
-      "name": "SP Final Form Frieza (RED) [DBL18-01S]",
+      "name": "SP Final Form Frieza (GRN)",
       "rarity": "SP",
       "role": "damage",
       "tags": [
@@ -1259,14 +2117,26 @@
       ]
     },
     {
-      "name": "SP Final Form Frieza (RED) [DBL30-02S]",
+      "name": "SP Final Form Frieza (RED) [#256]",
       "rarity": "SP",
       "role": "damage",
       "tags": [
         "Frieza Force",
         "Transforming Warrior",
         "Lineage of Evil",
-        "Movies"
+        "Powerful Opponent"
+      ]
+    },
+    {
+      "name": "SP Final Form Frieza (RED) [#347]",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Frieza Force",
+        "Transforming Warrior",
+        "Lineage of Evil",
+        "Movies",
+        "Zenkai"
       ]
     },
     {
@@ -1277,7 +2147,8 @@
         "Frieza Force",
         "Transforming Warrior",
         "Lineage of Evil",
-        "Powerful Opponent"
+        "Powerful Opponent",
+        "Zenkai"
       ]
     },
     {
@@ -1288,7 +2159,20 @@
         "Frieza Force",
         "Transforming Warrior",
         "Lineage of Evil",
-        "Powerful Opponent"
+        "Powerful Opponent",
+        "Zenkai"
+      ]
+    },
+    {
+      "name": "SP Final Form Frost: Full Power",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Universe 6",
+        "Transforming Warrior",
+        "Lineage of Evil",
+        "Rival Universe",
+        "Universe Rep"
       ]
     },
     {
@@ -1309,17 +2193,29 @@
       "tags": [
         "Super Warrior",
         "Regeneration",
-        "Namekian"
+        "Namekian",
+        "Zenkai"
       ]
     },
     {
-      "name": "SP Fused with Kami Piccolo (YEL)",
+      "name": "SP Fused with Kami Piccolo (YEL) [#203]",
       "rarity": "SP",
       "role": "support",
       "tags": [
         "Super Warrior",
         "Regeneration",
         "Legends Road",
+        "Namekian",
+        "Zenkai"
+      ]
+    },
+    {
+      "name": "SP Fused with Kami Piccolo (YEL) [#630]",
+      "rarity": "SP",
+      "role": "tank",
+      "tags": [
+        "Super Warrior",
+        "Regeneration",
         "Namekian"
       ]
     },
@@ -1342,7 +2238,8 @@
         "Android",
         "Fusion Warrior",
         "Powerful Opponent",
-        "Movies"
+        "Movies",
+        "Zenkai"
       ]
     },
     {
@@ -1368,7 +2265,8 @@
         "Potara",
         "Fusion Warrior",
         "God Ki",
-        "Powerful Opponent"
+        "Powerful Opponent",
+        "Zenkai"
       ]
     },
     {
@@ -1377,6 +2275,7 @@
       "role": "damage",
       "tags": [
         "Android",
+        "Weapon Wielder",
         "Movies"
       ]
     },
@@ -1386,7 +2285,28 @@
       "role": "damage",
       "tags": [
         "Android",
+        "Weapon Wielder",
         "Movies"
+      ]
+    },
+    {
+      "name": "SP Garlic Jr.",
+      "rarity": "SP",
+      "role": "tank",
+      "tags": [
+        "Transforming Warrior",
+        "Regeneration",
+        "Powerful Opponent",
+        "Movies"
+      ]
+    },
+    {
+      "name": "SP Giblet",
+      "rarity": "SP",
+      "role": "tank",
+      "tags": [
+        "Saiyan",
+        "Game Originals"
       ]
     },
     {
@@ -1394,16 +2314,39 @@
       "rarity": "SP",
       "role": "damage",
       "tags": [
-        "DAIMA"
+        "DAIMA",
+        "Weapon Wielder"
       ]
     },
     {
-      "name": "SP God of Destruction Beerus",
+      "name": "SP God of Destruction Beerus (BLU) [#437]",
       "rarity": "SP",
       "role": "damage",
       "tags": [
+        "God of Destruction",
         "God Ki",
         "Universe Rep"
+      ]
+    },
+    {
+      "name": "SP God of Destruction Beerus (BLU) [#555]",
+      "rarity": "SP",
+      "role": "support",
+      "tags": [
+        "God of Destruction",
+        "God Ki",
+        "Universe Rep"
+      ]
+    },
+    {
+      "name": "SP God of Destruction Beerus (BLU) [#583]",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "God of Destruction",
+        "God Ki",
+        "Powerful Opponent",
+        "Movies"
       ]
     },
     {
@@ -1412,6 +2355,7 @@
       "role": "damage",
       "tags": [
         "Universe 6",
+        "God of Destruction",
         "God Ki",
         "Rival Universe",
         "Universe Rep"
@@ -1423,9 +2367,11 @@
       "role": "damage",
       "tags": [
         "Universe 11",
+        "God of Destruction",
         "God Ki",
         "Rival Universe",
-        "Universe Rep"
+        "Universe Rep",
+        "Zenkai"
       ]
     },
     {
@@ -1434,20 +2380,10 @@
       "role": "damage",
       "tags": [
         "Saiyan",
-        "Super Saiyan",
         "Fusion Warrior",
-        "Movies"
-      ]
-    },
-    {
-      "name": "SP Gohan",
-      "rarity": "SP",
-      "role": "damage",
-      "tags": [
-        "Son Family",
-        "Hybrid Saiyan",
+        "Movies",
         "Super Saiyan",
-        "Future"
+        "Zenkai"
       ]
     },
     {
@@ -1461,7 +2397,29 @@
       ]
     },
     {
-      "name": "SP Gohan (Kid)",
+      "name": "SP Gohan (GRN)",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Son Family",
+        "Hybrid Saiyan",
+        "Future",
+        "Super Saiyan",
+        "Zenkai"
+      ]
+    },
+    {
+      "name": "SP Gohan (Kid) (BLU)",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Son Family",
+        "Hybrid Saiyan",
+        "Kids"
+      ]
+    },
+    {
+      "name": "SP Gohan (Kid) (YEL)",
       "rarity": "SP",
       "role": "damage",
       "tags": [
@@ -1480,29 +2438,63 @@
         "Hybrid Saiyan",
         "Kids",
         "Regeneration",
-        "Namekian"
+        "Namekian",
+        "Zenkai"
       ]
     },
     {
-      "name": "SP Goku (BLU) [DBL-EVT-00S]",
+      "name": "SP Gohan (RED)",
       "rarity": "SP",
-      "role": "tank",
+      "role": "support",
       "tags": [
         "Son Family",
-        "Saiyan"
+        "Hybrid Saiyan",
+        "Movies"
       ]
     },
     {
-      "name": "SP Goku (BLU) [DBL07-08S]",
+      "name": "SP Goku (BLU) [#120]",
       "rarity": "SP",
       "role": "damage",
       "tags": [
         "Son Family",
-        "Saiyan"
+        "Saiyan",
+        "Zenkai"
       ]
     },
     {
-      "name": "SP Goku (BLU) [DBL22-01S]",
+      "name": "SP Goku (BLU) [#16]",
+      "rarity": "SP",
+      "role": "tank",
+      "tags": [
+        "Son Family",
+        "Saiyan",
+        "Zenkai"
+      ]
+    },
+    {
+      "name": "SP Goku (BLU) [#241]",
+      "rarity": "SP",
+      "role": "support",
+      "tags": [
+        "Son Family",
+        "Saiyan",
+        "Zenkai"
+      ]
+    },
+    {
+      "name": "SP Goku (GRN) [#232]",
+      "rarity": "SP",
+      "role": "tank",
+      "tags": [
+        "Son Family",
+        "Saiyan",
+        "Movies",
+        "Zenkai"
+      ]
+    },
+    {
+      "name": "SP Goku (GRN) [#536]",
       "rarity": "SP",
       "role": "support",
       "tags": [
@@ -1511,7 +2503,41 @@
       ]
     },
     {
-      "name": "SP Goku (GRN)",
+      "name": "SP Goku (GRN) [#666]",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Son Family",
+        "Saiyan"
+      ]
+    },
+    {
+      "name": "SP Goku (Mini) (BLU)",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Son Family",
+        "Saiyan",
+        "Kids",
+        "DAIMA",
+        "Weapon Wielder"
+      ]
+    },
+    {
+      "name": "SP Goku (Mini) (GRN)",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Son Family",
+        "Saiyan",
+        "Kids",
+        "DAIMA",
+        "Weapon Wielder",
+        "Zenkai"
+      ]
+    },
+    {
+      "name": "SP Goku (PUR) [#151]",
       "rarity": "SP",
       "role": "tank",
       "tags": [
@@ -1521,7 +2547,7 @@
       ]
     },
     {
-      "name": "SP Goku (PUR) [DBL-EVT-40S]",
+      "name": "SP Goku (PUR) [#350]",
       "rarity": "SP",
       "role": "tank",
       "tags": [
@@ -1531,7 +2557,7 @@
       ]
     },
     {
-      "name": "SP Goku (PUR) [DBL-EVT-47S]",
+      "name": "SP Goku (PUR) [#453]",
       "rarity": "SP",
       "role": "damage",
       "tags": [
@@ -1541,17 +2567,19 @@
       ]
     },
     {
-      "name": "SP Goku (PUR) [DBL02-11S]",
+      "name": "SP Goku (RED) [#229]",
       "rarity": "SP",
-      "role": "tank",
+      "role": "damage",
       "tags": [
         "Son Family",
         "Saiyan",
-        "Movies"
+        "Kids",
+        "GT",
+        "Zenkai"
       ]
     },
     {
-      "name": "SP Goku (RED) [DBL-EVT-18S]",
+      "name": "SP Goku (RED) [#377]",
       "rarity": "SP",
       "role": "damage",
       "tags": [
@@ -1560,14 +2588,21 @@
       ]
     },
     {
-      "name": "SP Goku (RED) [DBL16-10S]",
+      "name": "SP Goku (YEL) [#527]",
       "rarity": "SP",
       "role": "damage",
       "tags": [
         "Son Family",
-        "Saiyan",
-        "Kids",
-        "GT"
+        "Saiyan"
+      ]
+    },
+    {
+      "name": "SP Goku (YEL) [#573]",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Son Family",
+        "Saiyan"
       ]
     },
     {
@@ -1578,7 +2613,9 @@
         "Son Family",
         "Saiyan",
         "Kids",
-        "Legends Road"
+        "Legends Road",
+        "Weapon Wielder",
+        "Zenkai"
       ]
     },
     {
@@ -1598,8 +2635,8 @@
       "tags": [
         "Saiyan",
         "Future",
-        "God Ki",
-        "Powerful Opponent"
+        "Powerful Opponent",
+        "God Ki"
       ]
     },
     {
@@ -1613,13 +2650,24 @@
       ]
     },
     {
-      "name": "SP Goku Black (YEL)",
+      "name": "SP Goku Black (RED)",
       "rarity": "SP",
       "role": "damage",
       "tags": [
         "Saiyan",
         "Future",
         "Powerful Opponent"
+      ]
+    },
+    {
+      "name": "SP Goku Black (YEL)",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Saiyan",
+        "Future",
+        "Powerful Opponent",
+        "Zenkai"
       ]
     },
     {
@@ -1633,18 +2681,43 @@
       ]
     },
     {
-      "name": "SP Golden Frieza (GRN) [DBL13-06S]",
+      "name": "SP Golden Frieza (GRN) [#208]",
       "rarity": "SP",
       "role": "damage",
       "tags": [
         "Frieza Force",
         "Transforming Warrior",
         "Lineage of Evil",
-        "Powerful Opponent"
+        "Powerful Opponent",
+        "Zenkai"
       ]
     },
     {
-      "name": "SP Golden Frieza (GRN) [DBL45-02S]",
+      "name": "SP Golden Frieza (GRN) [#443]",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Frieza Force",
+        "Otherworld Warrior",
+        "Transforming Warrior",
+        "Lineage of Evil",
+        "Universe Rep"
+      ]
+    },
+    {
+      "name": "SP Golden Frieza (GRN) [#549]",
+      "rarity": "SP",
+      "role": "support",
+      "tags": [
+        "Frieza Force",
+        "Otherworld Warrior",
+        "Transforming Warrior",
+        "Lineage of Evil",
+        "Universe Rep"
+      ]
+    },
+    {
+      "name": "SP Golden Frieza (YEL)",
       "rarity": "SP",
       "role": "damage",
       "tags": [
@@ -1662,19 +2735,30 @@
       "tags": [
         "Son Family",
         "Hybrid Saiyan",
-        "Super Saiyan",
-        "Kids"
+        "Kids",
+        "Super Saiyan"
       ]
     },
     {
-      "name": "SP Gotenks",
+      "name": "SP Gotenks (GRN)",
       "rarity": "SP",
       "role": "tank",
       "tags": [
         "Hybrid Saiyan",
         "Kids",
         "Fusion Warrior",
-        "Legends Road"
+        "Legends Road",
+        "Zenkai"
+      ]
+    },
+    {
+      "name": "SP Gotenks (YEL)",
+      "rarity": "SP",
+      "role": "tank",
+      "tags": [
+        "Hybrid Saiyan",
+        "Fusion Warrior",
+        "Movies"
       ]
     },
     {
@@ -1683,7 +2767,8 @@
       "role": "damage",
       "tags": [
         "Regeneration",
-        "Powerful Opponent"
+        "Powerful Opponent",
+        "Zenkai"
       ]
     },
     {
@@ -1698,7 +2783,7 @@
       ]
     },
     {
-      "name": "SP Great Saiyaman 1 &amp; 2 (Assist)",
+      "name": "SP Great Saiyaman 1 & 2 (Assist)",
       "rarity": "SP",
       "role": "support",
       "tags": [
@@ -1706,7 +2791,8 @@
         "Girls",
         "Hybrid Saiyan",
         "Transforming Warrior",
-        "Movies"
+        "Movies",
+        "Zenkai"
       ]
     },
     {
@@ -1720,11 +2806,22 @@
       ]
     },
     {
+      "name": "SP Hero Tapion (PUR)",
+      "rarity": "SP",
+      "role": "tank",
+      "tags": [
+        "Weapon Wielder",
+        "Movies"
+      ]
+    },
+    {
       "name": "SP Hero Tapion (RED)",
       "rarity": "SP",
       "role": "damage",
       "tags": [
-        "Movies"
+        "Weapon Wielder",
+        "Movies",
+        "Zenkai"
       ]
     },
     {
@@ -1733,6 +2830,7 @@
       "role": "support",
       "tags": [
         "Powerful Opponent",
+        "Weapon Wielder",
         "Movies"
       ]
     },
@@ -1757,12 +2855,40 @@
       ]
     },
     {
-      "name": "SP Hyper Meta-Rilldo",
+      "name": "SP Hyper Meta-Rilldo (RED)",
       "rarity": "SP",
       "role": "damage",
       "tags": [
         "GT",
-        "Powerful Opponent"
+        "Powerful Opponent",
+        "Weapon Wielder"
+      ]
+    },
+    {
+      "name": "SP Hyper Meta-Rilldo (YEL)",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "GT",
+        "Powerful Opponent",
+        "Weapon Wielder"
+      ]
+    },
+    {
+      "name": "SP Jackie Chun",
+      "rarity": "SP",
+      "role": "tank",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "name": "SP Jeice & Burter",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Frieza Force",
+        "Ginyu Force"
       ]
     },
     {
@@ -1773,11 +2899,34 @@
         "Universe 11",
         "Powerful Opponent",
         "Rival Universe",
+        "Universe Rep",
+        "Zenkai"
+      ]
+    },
+    {
+      "name": "SP Jiren (PUR)",
+      "rarity": "SP",
+      "role": "support",
+      "tags": [
+        "Universe 11",
+        "Powerful Opponent",
+        "Rival Universe",
         "Universe Rep"
       ]
     },
     {
       "name": "SP Jiren (YEL)",
+      "rarity": "SP",
+      "role": "tank",
+      "tags": [
+        "Universe 11",
+        "Powerful Opponent",
+        "Rival Universe",
+        "Universe Rep"
+      ]
+    },
+    {
+      "name": "SP Jiren: Full Power",
       "rarity": "SP",
       "role": "tank",
       "tags": [
@@ -1803,7 +2952,8 @@
       "role": "damage",
       "tags": [
         "Son Family",
-        "Saiyan"
+        "Saiyan",
+        "Zenkai"
       ]
     },
     {
@@ -1812,7 +2962,8 @@
       "role": "damage",
       "tags": [
         "Son Family",
-        "Saiyan"
+        "Saiyan",
+        "Zenkai"
       ]
     },
     {
@@ -1828,17 +2979,35 @@
       ]
     },
     {
+      "name": "SP King Cold",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Lineage of Evil",
+        "Weapon Wielder"
+      ]
+    },
+    {
       "name": "SP King of the Demon Realm Dabura",
       "rarity": "SP",
       "role": "support",
       "tags": [
-        "Other"
+        "Weapon Wielder",
+        "Zenkai"
       ]
     },
     {
       "name": "SP Krillin (BLU)",
       "rarity": "SP",
       "role": "damage",
+      "tags": [
+        "Super Warrior"
+      ]
+    },
+    {
+      "name": "SP Krillin (RED)",
+      "rarity": "SP",
+      "role": "support",
       "tags": [
         "Super Warrior"
       ]
@@ -1858,8 +3027,10 @@
       "role": "support",
       "tags": [
         "Girls",
+        "Universe 4",
         "Rival Universe",
-        "Universe Rep"
+        "Universe Rep",
+        "Weapon Wielder"
       ]
     },
     {
@@ -1867,7 +3038,9 @@
       "rarity": "SP",
       "role": "damage",
       "tags": [
-        "Girls"
+        "Girls",
+        "Weapon Wielder",
+        "Zenkai"
       ]
     },
     {
@@ -1875,6 +3048,7 @@
       "rarity": "SP",
       "role": "damage",
       "tags": [
+        "Universe 9",
         "Rival Universe",
         "Universe Rep"
       ]
@@ -1887,7 +3061,8 @@
         "Saiyan",
         "Super Saiyan",
         "Powerful Opponent",
-        "Movies"
+        "Movies",
+        "Zenkai"
       ]
     },
     {
@@ -1898,7 +3073,8 @@
         "Saiyan",
         "Super Saiyan",
         "Powerful Opponent",
-        "Movies"
+        "Movies",
+        "Zenkai"
       ]
     },
     {
@@ -1913,16 +3089,65 @@
       ]
     },
     {
-      "name": "SP Mai",
+      "name": "SP Magenta",
+      "rarity": "SP",
+      "role": "support",
+      "tags": [
+        "Android",
+        "Powerful Opponent",
+        "Movies"
+      ]
+    },
+    {
+      "name": "SP Mai (BLU)",
+      "rarity": "SP",
+      "role": "tank",
+      "tags": [
+        "Girls",
+        "Future",
+        "Weapon Wielder"
+      ]
+    },
+    {
+      "name": "SP Mai (GRN)",
       "rarity": "SP",
       "role": "support",
       "tags": [
         "Girls",
-        "Future"
+        "Future",
+        "Weapon Wielder"
+      ]
+    },
+    {
+      "name": "SP Mai (RED)",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Girls",
+        "Future",
+        "Weapon Wielder"
+      ]
+    },
+    {
+      "name": "SP Majin Buu (Good): Hercule (Assist)",
+      "rarity": "SP",
+      "role": "support",
+      "tags": [
+        "Regeneration"
       ]
     },
     {
       "name": "SP Majin Buu: Good",
+      "rarity": "SP",
+      "role": "tank",
+      "tags": [
+        "Regeneration",
+        "Powerful Opponent",
+        "Zenkai"
+      ]
+    },
+    {
+      "name": "SP Majin Buu: Pure Evil",
       "rarity": "SP",
       "role": "tank",
       "tags": [
@@ -1933,19 +3158,17 @@
     {
       "name": "SP Majin Duu",
       "rarity": "SP",
-      "role": "support",
+      "role": "damage",
       "tags": [
-        "DAIMA",
-        "Regeneration"
+        "DAIMA"
       ]
     },
     {
       "name": "SP Majin Kuu",
       "rarity": "SP",
-      "role": "tank",
+      "role": "support",
       "tags": [
-        "DAIMA",
-        "Regeneration"
+        "DAIMA"
       ]
     },
     {
@@ -1965,7 +3188,8 @@
       "tags": [
         "Vegeta Family",
         "Saiyan",
-        "Super Saiyan 2"
+        "Super Saiyan 2",
+        "Zenkai"
       ]
     },
     {
@@ -1978,12 +3202,20 @@
       ]
     },
     {
-      "name": "SP Master Roshi",
+      "name": "SP Master Roshi (YEL) [#497]",
       "rarity": "SP",
       "role": "damage",
       "tags": [
         "Super Warrior",
         "Universe Rep"
+      ]
+    },
+    {
+      "name": "SP Master Roshi (YEL) [#535]",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Movies"
       ]
     },
     {
@@ -2025,16 +3257,27 @@
         "Regeneration",
         "Lineage of Evil",
         "Powerful Opponent",
-        "Movies"
+        "Movies",
+        "Zenkai"
       ]
     },
     {
-      "name": "SP Nappa",
+      "name": "SP Nappa (BLU)",
       "rarity": "SP",
       "role": "damage",
       "tags": [
         "Frieza Force",
         "Saiyan"
+      ]
+    },
+    {
+      "name": "SP Nappa (YEL)",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Frieza Force",
+        "Saiyan",
+        "Minion"
       ]
     },
     {
@@ -2053,7 +3296,8 @@
       "role": "damage",
       "tags": [
         "GT",
-        "Shadow Dragon"
+        "Shadow Dragon",
+        "Zenkai"
       ]
     },
     {
@@ -2065,7 +3309,8 @@
         "GT",
         "Fusion Warrior",
         "Shadow Dragon",
-        "Powerful Opponent"
+        "Powerful Opponent",
+        "Zenkai"
       ]
     },
     {
@@ -2076,7 +3321,8 @@
         "Son Family",
         "Girls",
         "Hybrid Saiyan",
-        "GT"
+        "GT",
+        "Zenkai"
       ]
     },
     {
@@ -2092,6 +3338,18 @@
       ]
     },
     {
+      "name": "SP Pan: Trunks & Giru (Assist)",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Son Family",
+        "Vegeta Family",
+        "Girls",
+        "Hybrid Saiyan",
+        "GT"
+      ]
+    },
+    {
       "name": "SP Perfect Cell",
       "rarity": "SP",
       "role": "damage",
@@ -2099,39 +3357,47 @@
         "Android",
         "Future",
         "Regeneration",
-        "Powerful Opponent"
+        "Powerful Opponent",
+        "Zenkai"
       ]
     },
     {
-      "name": "SP Perfect Cell (Revived)",
+      "name": "SP Perfect Form & Final Form Cell & Frieza",
       "rarity": "SP",
-      "role": "tank",
+      "role": "damage",
       "tags": [
-        "Regeneration",
+        "Frieza Force",
+        "Otherworld Warrior",
+        "Transforming Warrior",
         "Android",
+        "Future",
+        "Regeneration",
+        "GT",
         "Lineage of Evil"
       ]
     },
     {
-      "name": "SP Perfect Form Cell (RED) [DBL04-04S]",
+      "name": "SP Perfect Form Cell (RED) [#104]",
       "rarity": "SP",
       "role": "damage",
       "tags": [
         "Android",
         "Future",
         "Regeneration",
-        "Powerful Opponent"
+        "Powerful Opponent",
+        "Zenkai"
       ]
     },
     {
-      "name": "SP Perfect Form Cell (RED) [DBL26-08S]",
+      "name": "SP Perfect Form Cell (RED) [#330]",
       "rarity": "SP",
       "role": "damage",
       "tags": [
         "Android",
         "Future",
         "Regeneration",
-        "Powerful Opponent"
+        "Powerful Opponent",
+        "Zenkai"
       ]
     },
     {
@@ -2151,7 +3417,30 @@
       "role": "tank",
       "tags": [
         "Regeneration",
-        "Namekian"
+        "Namekian",
+        "Zenkai"
+      ]
+    },
+    {
+      "name": "SP Piccolo & Goku",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Son Family",
+        "Saiyan",
+        "Regeneration",
+        "Namekian",
+        "Movies"
+      ]
+    },
+    {
+      "name": "SP Piccolo Jr.",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Regeneration",
+        "Namekian",
+        "Powerful Opponent"
       ]
     },
     {
@@ -2178,6 +3467,7 @@
       "role": "damage",
       "tags": [
         "Super Warrior",
+        "Transforming Warrior",
         "Regeneration",
         "Namekian",
         "Movies"
@@ -2192,12 +3482,61 @@
       ]
     },
     {
-      "name": "SP Raditz",
+      "name": "SP Raditz (GRN)",
       "rarity": "SP",
       "role": "damage",
       "tags": [
         "Frieza Force",
         "Saiyan"
+      ]
+    },
+    {
+      "name": "SP Raditz (RED)",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Frieza Force",
+        "Saiyan"
+      ]
+    },
+    {
+      "name": "SP Rage Shenron",
+      "rarity": "SP",
+      "role": "support",
+      "tags": [
+        "Regeneration",
+        "GT",
+        "Shadow Dragon"
+      ]
+    },
+    {
+      "name": "SP Rasin: Lakasei (Assist)",
+      "rarity": "SP",
+      "role": "support",
+      "tags": [
+        "Turles Crusher Corps",
+        "Movies"
+      ]
+    },
+    {
+      "name": "SP Recoome & Guldo",
+      "rarity": "SP",
+      "role": "tank",
+      "tags": [
+        "Frieza Force",
+        "Ginyu Force"
+      ]
+    },
+    {
+      "name": "SP Red Ribbon Army Piccolo",
+      "rarity": "SP",
+      "role": "support",
+      "tags": [
+        "Super Warrior",
+        "Regeneration",
+        "Namekian",
+        "Weapon Wielder",
+        "Movies"
       ]
     },
     {
@@ -2234,6 +3573,21 @@
       ]
     },
     {
+      "name": "SP Shallot",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Saiyan",
+        "Game Originals",
+        "Super Saiyan",
+        "Super Saiyan 2",
+        "Super Saiyan 3",
+        "God Ki",
+        "Super Saiyan God",
+        "Super Saiyan God SS"
+      ]
+    },
+    {
       "name": "SP Super #17 (GRN)",
       "rarity": "SP",
       "role": "tank",
@@ -2241,7 +3595,8 @@
         "Android",
         "GT",
         "Fusion Warrior",
-        "Powerful Opponent"
+        "Powerful Opponent",
+        "Zenkai"
       ]
     },
     {
@@ -2264,7 +3619,8 @@
         "Transforming Warrior",
         "Regeneration",
         "GT",
-        "Powerful Opponent"
+        "Powerful Opponent",
+        "Zenkai"
       ]
     },
     {
@@ -2275,7 +3631,8 @@
         "Son Family",
         "Saiyan",
         "GT",
-        "Super Saiyan 4"
+        "Super Saiyan 4",
+        "Zenkai"
       ]
     },
     {
@@ -2287,7 +3644,8 @@
         "Super Saiyan",
         "Otherworld Warrior",
         "Fusion Warrior",
-        "Movies"
+        "Movies",
+        "Zenkai"
       ]
     },
     {
@@ -2299,7 +3657,8 @@
         "Super Saiyan",
         "Otherworld Warrior",
         "Fusion Warrior",
-        "Movies"
+        "Movies",
+        "Zenkai"
       ]
     },
     {
@@ -2310,7 +3669,9 @@
         "Transforming Warrior",
         "Regeneration",
         "Powerful Opponent",
-        "Movies"
+        "Weapon Wielder",
+        "Movies",
+        "Zenkai"
       ]
     },
     {
@@ -2321,7 +3682,9 @@
         "Transforming Warrior",
         "Regeneration",
         "Powerful Opponent",
-        "Movies"
+        "Weapon Wielder",
+        "Movies",
+        "Zenkai"
       ]
     },
     {
@@ -2343,11 +3706,26 @@
         "Regeneration",
         "Namekian",
         "Powerful Opponent",
-        "Movies"
+        "Movies",
+        "Zenkai"
       ]
     },
     {
       "name": "SP Super Saiyan 2 Caulifla",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Girls",
+        "Saiyan",
+        "Universe 6",
+        "Super Saiyan 2",
+        "Rival Universe",
+        "Universe Rep",
+        "Zenkai"
+      ]
+    },
+    {
+      "name": "SP Super Saiyan 2 Caulifla & Kale",
       "rarity": "SP",
       "role": "damage",
       "tags": [
@@ -2379,7 +3757,8 @@
       "tags": [
         "Son Family",
         "Hybrid Saiyan",
-        "Super Saiyan 2"
+        "Super Saiyan 2",
+        "Zenkai"
       ]
     },
     {
@@ -2401,7 +3780,8 @@
         "Son Family",
         "Saiyan",
         "Otherworld Warrior",
-        "Super Saiyan 2"
+        "Super Saiyan 2",
+        "Zenkai"
       ]
     },
     {
@@ -2416,7 +3796,8 @@
         "Super Saiyan 2",
         "Fusion Warrior",
         "Rival Universe",
-        "Universe Rep"
+        "Universe Rep",
+        "Zenkai"
       ]
     },
     {
@@ -2450,25 +3831,28 @@
       ]
     },
     {
-      "name": "SP Super Saiyan 2 Trunks (Adult) (BLU) [DBL-EVT-63S]",
-      "rarity": "SP",
-      "role": "support",
-      "tags": [
-        "Vegeta Family",
-        "Hybrid Saiyan",
-        "Future",
-        "Super Saiyan 2"
-      ]
-    },
-    {
-      "name": "SP Super Saiyan 2 Trunks (Adult) (BLU) [DBL08-02S]",
+      "name": "SP Super Saiyan 2 Trunks (Adult) (BLU) [#119]",
       "rarity": "SP",
       "role": "damage",
       "tags": [
         "Vegeta Family",
         "Hybrid Saiyan",
         "Future",
-        "Super Saiyan 2"
+        "Super Saiyan 2",
+        "Weapon Wielder",
+        "Zenkai"
+      ]
+    },
+    {
+      "name": "SP Super Saiyan 2 Trunks (Adult) (BLU) [#500]",
+      "rarity": "SP",
+      "role": "support",
+      "tags": [
+        "Vegeta Family",
+        "Hybrid Saiyan",
+        "Future",
+        "Super Saiyan 2",
+        "Weapon Wielder"
       ]
     },
     {
@@ -2490,17 +3874,29 @@
         "Saiyan",
         "Kids",
         "GT",
-        "Super Saiyan 3"
+        "Super Saiyan 3",
+        "Zenkai"
       ]
     },
     {
-      "name": "SP Super Saiyan 3 Goku (PUR)",
+      "name": "SP Super Saiyan 3 Goku (PUR) [#108]",
       "rarity": "SP",
       "role": "damage",
       "tags": [
         "Son Family",
         "Saiyan",
         "Otherworld Warrior",
+        "Super Saiyan 3",
+        "Zenkai"
+      ]
+    },
+    {
+      "name": "SP Super Saiyan 3 Goku (PUR) [#605]",
+      "rarity": "SP",
+      "role": "support",
+      "tags": [
+        "Son Family",
+        "Saiyan",
         "Super Saiyan 3"
       ]
     },
@@ -2511,7 +3907,8 @@
       "tags": [
         "Son Family",
         "Saiyan",
-        "Super Saiyan 3"
+        "Super Saiyan 3",
+        "Zenkai"
       ]
     },
     {
@@ -2532,7 +3929,8 @@
         "Hybrid Saiyan",
         "Kids",
         "Fusion Warrior",
-        "Super Saiyan 3"
+        "Super Saiyan 3",
+        "Zenkai"
       ]
     },
     {
@@ -2543,7 +3941,8 @@
         "Son Family",
         "Saiyan",
         "GT",
-        "Super Saiyan 4"
+        "Super Saiyan 4",
+        "Zenkai"
       ]
     },
     {
@@ -2554,7 +3953,8 @@
         "Vegeta Family",
         "Saiyan",
         "GT",
-        "Super Saiyan 4"
+        "Super Saiyan 4",
+        "Zenkai"
       ]
     },
     {
@@ -2564,7 +3964,8 @@
       "tags": [
         "Saiyan",
         "Super Saiyan",
-        "Team Bardock"
+        "Team Bardock",
+        "Zenkai"
       ]
     },
     {
@@ -2575,7 +3976,8 @@
         "Saiyan",
         "Super Saiyan",
         "Powerful Opponent",
-        "Movies"
+        "Movies",
+        "Zenkai"
       ]
     },
     {
@@ -2586,7 +3988,8 @@
         "Saiyan",
         "Super Saiyan",
         "Powerful Opponent",
-        "Movies"
+        "Movies",
+        "Zenkai"
       ]
     },
     {
@@ -2601,7 +4004,7 @@
       ]
     },
     {
-      "name": "SP Super Saiyan Cabba",
+      "name": "SP Super Saiyan Cabba (GRN)",
       "rarity": "SP",
       "role": "support",
       "tags": [
@@ -2609,7 +4012,21 @@
         "Super Saiyan",
         "Universe 6",
         "Rival Universe",
-        "Universe Rep"
+        "Universe Rep",
+        "Zenkai"
+      ]
+    },
+    {
+      "name": "SP Super Saiyan Cabba (RED)",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Saiyan",
+        "Super Saiyan",
+        "Universe 6",
+        "Rival Universe",
+        "Universe Rep",
+        "Super Saiyan 2"
       ]
     },
     {
@@ -2647,9 +4064,21 @@
       ]
     },
     {
-      "name": "SP Super Saiyan God SS Goku (BLU) [DBL13-01S]",
+      "name": "SP Super Saiyan God SS Goku (BLU) [#206]",
       "rarity": "SP",
       "role": "damage",
+      "tags": [
+        "Son Family",
+        "Saiyan",
+        "God Ki",
+        "Super Saiyan God SS",
+        "Zenkai"
+      ]
+    },
+    {
+      "name": "SP Super Saiyan God SS Goku (BLU) [#362]",
+      "rarity": "SP",
+      "role": "tank",
       "tags": [
         "Son Family",
         "Saiyan",
@@ -2658,12 +4087,13 @@
       ]
     },
     {
-      "name": "SP Super Saiyan God SS Goku (BLU) [DBL33-03S]",
+      "name": "SP Super Saiyan God SS Goku (BLU) [#624]",
       "rarity": "SP",
-      "role": "tank",
+      "role": "damage",
       "tags": [
         "Son Family",
         "Saiyan",
+        "Future",
         "God Ki",
         "Super Saiyan God SS"
       ]
@@ -2680,24 +4110,24 @@
       ]
     },
     {
-      "name": "SP Super Saiyan God SS Goku (RED) [DBL-EVT-44S]",
-      "rarity": "SP",
-      "role": "tank",
-      "tags": [
-        "Son Family",
-        "Saiyan",
-        "God Ki",
-        "Super Saiyan God SS"
-      ]
-    },
-    {
-      "name": "SP Super Saiyan God SS Goku (RED) [DBL25-04S]",
+      "name": "SP Super Saiyan God SS Goku (RED) [#301]",
       "rarity": "SP",
       "role": "damage",
       "tags": [
         "Son Family",
         "Saiyan",
         "Future",
+        "God Ki",
+        "Super Saiyan God SS"
+      ]
+    },
+    {
+      "name": "SP Super Saiyan God SS Goku (RED) [#440]",
+      "rarity": "SP",
+      "role": "tank",
+      "tags": [
+        "Son Family",
+        "Saiyan",
         "God Ki",
         "Super Saiyan God SS"
       ]
@@ -2711,7 +4141,20 @@
         "Saiyan",
         "God Ki",
         "Super Saiyan God SS",
-        "Universe Rep"
+        "Universe Rep",
+        "Zenkai"
+      ]
+    },
+    {
+      "name": "SP Super Saiyan God SS Goku & Vegeta",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Son Family",
+        "Vegeta Family",
+        "Saiyan",
+        "God Ki",
+        "Super Saiyan God SS"
       ]
     },
     {
@@ -2738,18 +4181,19 @@
       ]
     },
     {
-      "name": "SP Super Saiyan God SS Vegeta (PUR) [DBL13-02S]",
+      "name": "SP Super Saiyan God SS Vegeta (PUR) [#207]",
       "rarity": "SP",
       "role": "damage",
       "tags": [
         "Vegeta Family",
         "Saiyan",
         "God Ki",
-        "Super Saiyan God SS"
+        "Super Saiyan God SS",
+        "Zenkai"
       ]
     },
     {
-      "name": "SP Super Saiyan God SS Vegeta (PUR) [DBL25-05S]",
+      "name": "SP Super Saiyan God SS Vegeta (PUR) [#302]",
       "rarity": "SP",
       "role": "damage",
       "tags": [
@@ -2757,7 +4201,8 @@
         "Saiyan",
         "Future",
         "God Ki",
-        "Super Saiyan God SS"
+        "Super Saiyan God SS",
+        "Zenkai"
       ]
     },
     {
@@ -2770,7 +4215,8 @@
         "Potara",
         "Fusion Warrior",
         "God Ki",
-        "Super Saiyan God SS"
+        "Super Saiyan God SS",
+        "Zenkai"
       ]
     },
     {
@@ -2782,7 +4228,8 @@
         "Saiyan",
         "God Ki",
         "Super Saiyan God",
-        "Movies"
+        "Movies",
+        "Zenkai"
       ]
     },
     {
@@ -2815,7 +4262,8 @@
         "Son Family",
         "Hybrid Saiyan",
         "Super Saiyan",
-        "Movies"
+        "Movies",
+        "Zenkai"
       ]
     },
     {
@@ -2830,19 +4278,74 @@
       ]
     },
     {
-      "name": "SP Super Saiyan Gohan (Youth)",
+      "name": "SP Super Saiyan Gohan (Youth) (BLU)",
       "rarity": "SP",
       "role": "damage",
       "tags": [
         "Son Family",
         "Hybrid Saiyan",
         "Super Saiyan",
-        "Super Saiyan 2",
         "Movies"
       ]
     },
     {
-      "name": "SP Super Saiyan Goku (BLU)",
+      "name": "SP Super Saiyan Gohan (Youth) (GRN)",
+      "rarity": "SP",
+      "role": "tank",
+      "tags": [
+        "Son Family",
+        "Hybrid Saiyan",
+        "Super Saiyan"
+      ]
+    },
+    {
+      "name": "SP Super Saiyan Gohan (Youth) (RED)",
+      "rarity": "SP",
+      "role": "support",
+      "tags": [
+        "Son Family",
+        "Hybrid Saiyan",
+        "Super Saiyan"
+      ]
+    },
+    {
+      "name": "SP Super Saiyan Gohan (Youth) (YEL)",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Son Family",
+        "Hybrid Saiyan",
+        "Super Saiyan",
+        "Movies",
+        "Super Saiyan 2"
+      ]
+    },
+    {
+      "name": "SP Super Saiyan Goku (BLU) [#674]",
+      "rarity": "SP",
+      "role": "support",
+      "tags": [
+        "Son Family",
+        "Saiyan",
+        "Super Saiyan",
+        "Kids",
+        "GT"
+      ]
+    },
+    {
+      "name": "SP Super Saiyan Goku (BLU) [#74]",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Son Family",
+        "Saiyan",
+        "Super Saiyan",
+        "Movies",
+        "Zenkai"
+      ]
+    },
+    {
+      "name": "SP Super Saiyan Goku (GRN) [#324]",
       "rarity": "SP",
       "role": "damage",
       "tags": [
@@ -2853,17 +4356,7 @@
       ]
     },
     {
-      "name": "SP Super Saiyan Goku (GRN) [DBL04-01S]",
-      "rarity": "SP",
-      "role": "support",
-      "tags": [
-        "Son Family",
-        "Saiyan",
-        "Super Saiyan"
-      ]
-    },
-    {
-      "name": "SP Super Saiyan Goku (GRN) [DBL11-01S]",
+      "name": "SP Super Saiyan Goku (GRN) [#81]",
       "rarity": "SP",
       "role": "damage",
       "tags": [
@@ -2875,18 +4368,28 @@
       ]
     },
     {
-      "name": "SP Super Saiyan Goku (GRN) [DBL25-07S]",
+      "name": "SP Super Saiyan Goku (GRN) [#97]",
+      "rarity": "SP",
+      "role": "support",
+      "tags": [
+        "Son Family",
+        "Saiyan",
+        "Super Saiyan"
+      ]
+    },
+    {
+      "name": "SP Super Saiyan Goku (RED) [#17]",
       "rarity": "SP",
       "role": "damage",
       "tags": [
         "Son Family",
         "Saiyan",
         "Super Saiyan",
-        "Movies"
+        "Zenkai"
       ]
     },
     {
-      "name": "SP Super Saiyan Goku (RED) [DBL-EVT-08S]",
+      "name": "SP Super Saiyan Goku (RED) [#46]",
       "rarity": "SP",
       "role": "tank",
       "tags": [
@@ -2897,7 +4400,7 @@
       ]
     },
     {
-      "name": "SP Super Saiyan Goku (RED) [DBL-EVT-59S]",
+      "name": "SP Super Saiyan Goku (RED) [#491]",
       "rarity": "SP",
       "role": "damage",
       "tags": [
@@ -2909,37 +4412,7 @@
       ]
     },
     {
-      "name": "SP Super Saiyan Goku (RED) [DBL01-04S]",
-      "rarity": "SP",
-      "role": "damage",
-      "tags": [
-        "Son Family",
-        "Saiyan",
-        "Super Saiyan"
-      ]
-    },
-    {
-      "name": "SP Super Saiyan Goku (YEL) [DBL-EVT-19S]",
-      "rarity": "SP",
-      "role": "damage",
-      "tags": [
-        "Son Family",
-        "Saiyan",
-        "Super Saiyan"
-      ]
-    },
-    {
-      "name": "SP Super Saiyan Goku (YEL) [DBL03-01S]",
-      "rarity": "SP",
-      "role": "damage",
-      "tags": [
-        "Son Family",
-        "Saiyan",
-        "Super Saiyan"
-      ]
-    },
-    {
-      "name": "SP Super Saiyan Goku (YEL) [DBL12-04S]",
+      "name": "SP Super Saiyan Goku (YEL) [#197]",
       "rarity": "SP",
       "role": "support",
       "tags": [
@@ -2947,11 +4420,22 @@
         "Saiyan",
         "Super Saiyan",
         "Otherworld Warrior",
-        "Movies"
+        "Movies",
+        "Zenkai"
       ]
     },
     {
-      "name": "SP Super Saiyan Goku (YEL) [DBL40-03S]",
+      "name": "SP Super Saiyan Goku (YEL) [#378]",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Son Family",
+        "Saiyan",
+        "Super Saiyan"
+      ]
+    },
+    {
+      "name": "SP Super Saiyan Goku (YEL) [#419]",
       "rarity": "SP",
       "role": "tank",
       "tags": [
@@ -2962,7 +4446,52 @@
       ]
     },
     {
-      "name": "SP Super Saiyan Goten (Kid)",
+      "name": "SP Super Saiyan Goku (YEL) [#592]",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Son Family",
+        "Saiyan",
+        "Super Saiyan",
+        "Otherworld Warrior",
+        "Movies"
+      ]
+    },
+    {
+      "name": "SP Super Saiyan Goku (YEL) [#61]",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Son Family",
+        "Saiyan",
+        "Super Saiyan"
+      ]
+    },
+    {
+      "name": "SP Super Saiyan Goten (Kid) (GRN)",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Son Family",
+        "Hybrid Saiyan",
+        "Super Saiyan",
+        "Kids"
+      ]
+    },
+    {
+      "name": "SP Super Saiyan Goten (Kid) (PUR) [#590]",
+      "rarity": "SP",
+      "role": "tank",
+      "tags": [
+        "Son Family",
+        "Hybrid Saiyan",
+        "Super Saiyan",
+        "Kids",
+        "Movies"
+      ]
+    },
+    {
+      "name": "SP Super Saiyan Goten (Kid) (PUR) [#625]",
       "rarity": "SP",
       "role": "damage",
       "tags": [
@@ -2984,7 +4513,7 @@
       ]
     },
     {
-      "name": "SP Super Saiyan Gotenks (RED)",
+      "name": "SP Super Saiyan Gotenks (RED) [#300]",
       "rarity": "SP",
       "role": "damage",
       "tags": [
@@ -2992,7 +4521,20 @@
         "Super Saiyan",
         "Kids",
         "Fusion Warrior",
-        "Super Saiyan 3"
+        "Super Saiyan 3",
+        "Zenkai"
+      ]
+    },
+    {
+      "name": "SP Super Saiyan Gotenks (RED) [#670]",
+      "rarity": "SP",
+      "role": "tank",
+      "tags": [
+        "Hybrid Saiyan",
+        "Super Saiyan",
+        "Kids",
+        "Fusion Warrior",
+        "Movies"
       ]
     },
     {
@@ -3005,7 +4547,8 @@
         "Super Saiyan",
         "Universe 6",
         "Rival Universe",
-        "Universe Rep"
+        "Universe Rep",
+        "Zenkai"
       ]
     },
     {
@@ -3016,7 +4559,8 @@
         "Saiyan",
         "Future",
         "God Ki",
-        "Powerful Opponent"
+        "Powerful Opponent",
+        "Zenkai"
       ]
     },
     {
@@ -3038,22 +4582,36 @@
         "Vegeta Family",
         "Hybrid Saiyan",
         "Super Saiyan",
-        "Future"
+        "Future",
+        "Weapon Wielder"
       ]
     },
     {
-      "name": "SP Super Saiyan Trunks (Adult) (Rage)",
+      "name": "SP Super Saiyan Trunks (Adult) (Rage) (PUR)",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Vegeta Family",
+        "Hybrid Saiyan",
+        "Super Saiyan",
+        "Future",
+        "Weapon Wielder"
+      ]
+    },
+    {
+      "name": "SP Super Saiyan Trunks (Adult) (Rage) (YEL)",
       "rarity": "SP",
       "role": "tank",
       "tags": [
         "Vegeta Family",
         "Hybrid Saiyan",
         "Super Saiyan",
-        "Future"
+        "Future",
+        "Weapon Wielder"
       ]
     },
     {
-      "name": "SP Super Saiyan Trunks (Kid)",
+      "name": "SP Super Saiyan Trunks (Kid) (GRN)",
       "rarity": "SP",
       "role": "damage",
       "tags": [
@@ -3061,6 +4619,30 @@
         "Hybrid Saiyan",
         "Super Saiyan",
         "Kids"
+      ]
+    },
+    {
+      "name": "SP Super Saiyan Trunks (Kid) (YEL)",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Vegeta Family",
+        "Hybrid Saiyan",
+        "Super Saiyan",
+        "Kids"
+      ]
+    },
+    {
+      "name": "SP Super Saiyan Trunks (Teen) (BLU)",
+      "rarity": "SP",
+      "role": "support",
+      "tags": [
+        "Vegeta Family",
+        "Hybrid Saiyan",
+        "Super Saiyan",
+        "Future",
+        "Weapon Wielder",
+        "Movies"
       ]
     },
     {
@@ -3076,25 +4658,28 @@
       ]
     },
     {
-      "name": "SP Super Saiyan Trunks (Teen) (RED) [DBL02-02S]",
-      "rarity": "SP",
-      "role": "tank",
-      "tags": [
-        "Vegeta Family",
-        "Hybrid Saiyan",
-        "Super Saiyan",
-        "Future"
-      ]
-    },
-    {
-      "name": "SP Super Saiyan Trunks (Teen) (RED) [DBL23-01S]",
+      "name": "SP Super Saiyan Trunks (Teen) (RED) [#281]",
       "rarity": "SP",
       "role": "damage",
       "tags": [
         "Vegeta Family",
         "Hybrid Saiyan",
         "Super Saiyan",
-        "Future"
+        "Future",
+        "Zenkai"
+      ]
+    },
+    {
+      "name": "SP Super Saiyan Trunks (Teen) (RED) [#48]",
+      "rarity": "SP",
+      "role": "tank",
+      "tags": [
+        "Vegeta Family",
+        "Hybrid Saiyan",
+        "Super Saiyan",
+        "Future",
+        "Weapon Wielder",
+        "Zenkai"
       ]
     },
     {
@@ -3105,33 +4690,34 @@
         "Vegeta Family",
         "Hybrid Saiyan",
         "Super Saiyan",
-        "Future"
+        "Future",
+        "Weapon Wielder"
       ]
     },
     {
-      "name": "SP Super Saiyan Vegeta (BLU) [DBL20-06S]",
+      "name": "SP Super Saiyan Vegeta (BLU) [#274]",
       "rarity": "SP",
       "role": "damage",
       "tags": [
         "Vegeta Family",
         "Saiyan",
         "Super Saiyan",
+        "Movies",
         "God Ki",
-        "Super Saiyan God",
-        "Movies"
+        "Super Saiyan God"
       ]
     },
     {
-      "name": "SP Super Saiyan Vegeta (BLU) [DBL47-02S]",
+      "name": "SP Super Saiyan Vegeta (BLU) [#452]",
       "rarity": "SP",
       "role": "tank",
       "tags": [
         "Vegeta Family",
         "Saiyan",
         "Super Saiyan",
+        "Universe Rep",
         "God Ki",
-        "Super Saiyan God SS",
-        "Universe Rep"
+        "Super Saiyan God SS"
       ]
     },
     {
@@ -3163,13 +4749,26 @@
         "Vegeta Family",
         "Saiyan",
         "Super Saiyan",
-        "GT"
+        "GT",
+        "Zenkai"
       ]
     },
     {
-      "name": "SP Super Trunks",
+      "name": "SP Super Trunks (GRN)",
       "rarity": "SP",
       "role": "damage",
+      "tags": [
+        "Vegeta Family",
+        "Hybrid Saiyan",
+        "Super Saiyan",
+        "Future",
+        "Zenkai"
+      ]
+    },
+    {
+      "name": "SP Super Trunks (RED)",
+      "rarity": "SP",
+      "role": "tank",
       "tags": [
         "Vegeta Family",
         "Hybrid Saiyan",
@@ -3184,17 +4783,29 @@
       "tags": [
         "Vegeta Family",
         "Saiyan",
-        "Super Saiyan"
+        "Super Saiyan",
+        "Zenkai"
       ]
     },
     {
-      "name": "SP Syn Shenron",
+      "name": "SP Syn Shenron (RED)",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "GT",
+        "Shadow Dragon",
+        "Powerful Opponent"
+      ]
+    },
+    {
+      "name": "SP Syn Shenron (YEL)",
       "rarity": "SP",
       "role": "tank",
       "tags": [
         "GT",
         "Shadow Dragon",
-        "Powerful Opponent"
+        "Powerful Opponent",
+        "Zenkai"
       ]
     },
     {
@@ -3203,6 +4814,33 @@
       "role": "damage",
       "tags": [
         "Super Warrior"
+      ]
+    },
+    {
+      "name": "SP Tamagami Number Three",
+      "rarity": "SP",
+      "role": "tank",
+      "tags": [
+        "DAIMA",
+        "Weapon Wielder",
+        "Zenkai"
+      ]
+    },
+    {
+      "name": "SP Tamagami Number Two",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "DAIMA",
+        "Weapon Wielder"
+      ]
+    },
+    {
+      "name": "SP Tambourine",
+      "rarity": "SP",
+      "role": "support",
+      "tags": [
+        "Other"
       ]
     },
     {
@@ -3223,6 +4861,14 @@
       ]
     },
     {
+      "name": "SP Tien & Chiaotzu",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Super Warrior"
+      ]
+    },
+    {
       "name": "SP Toppo",
       "rarity": "SP",
       "role": "tank",
@@ -3239,8 +4885,20 @@
       "tags": [
         "Vegeta Family",
         "Hybrid Saiyan",
-        "Super Saiyan",
-        "Kids"
+        "Kids",
+        "Super Saiyan"
+      ]
+    },
+    {
+      "name": "SP Trunks (Parasitism) Baby",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Hybrid Saiyan",
+        "Transforming Warrior",
+        "Regeneration",
+        "GT",
+        "Powerful Opponent"
       ]
     },
     {
@@ -3250,9 +4908,10 @@
       "tags": [
         "Vegeta Family",
         "Hybrid Saiyan",
-        "Super Saiyan",
         "Future",
-        "Movies"
+        "Weapon Wielder",
+        "Movies",
+        "Super Saiyan"
       ]
     },
     {
@@ -3262,9 +4921,10 @@
       "tags": [
         "Vegeta Family",
         "Hybrid Saiyan",
-        "Super Saiyan",
         "Future",
-        "Legends Road"
+        "Legends Road",
+        "Super Saiyan",
+        "Zenkai"
       ]
     },
     {
@@ -3275,7 +4935,9 @@
         "Vegeta Family",
         "Girls",
         "Hybrid Saiyan",
-        "Future"
+        "Future",
+        "Weapon Wielder",
+        "Zenkai"
       ]
     },
     {
@@ -3285,7 +4947,9 @@
       "tags": [
         "Saiyan",
         "Powerful Opponent",
-        "Movies"
+        "Turles Crusher Corps",
+        "Movies",
+        "Zenkai"
       ]
     },
     {
@@ -3295,6 +4959,7 @@
       "tags": [
         "Saiyan",
         "Powerful Opponent",
+        "Turles Crusher Corps",
         "Movies"
       ]
     },
@@ -3304,7 +4969,8 @@
       "role": "damage",
       "tags": [
         "Son Family",
-        "Hybrid Saiyan"
+        "Hybrid Saiyan",
+        "Zenkai"
       ]
     },
     {
@@ -3351,9 +5017,11 @@
       "tags": [
         "Girls",
         "Universe 6",
+        "Angel",
         "God Ki",
         "Rival Universe",
-        "Universe Rep"
+        "Universe Rep",
+        "Weapon Wielder"
       ]
     },
     {
@@ -3363,8 +5031,8 @@
       "tags": [
         "Vegeta Family",
         "Saiyan",
-        "Super Saiyan",
-        "Movies"
+        "Movies",
+        "Super Saiyan"
       ]
     },
     {
@@ -3386,17 +5054,28 @@
         "Vegeta Family",
         "Frieza Force",
         "Saiyan",
-        "Powerful Opponent"
+        "Powerful Opponent",
+        "Zenkai"
       ]
     },
     {
-      "name": "SP Vegeta (RED)",
+      "name": "SP Vegeta (RED) [#349]",
       "rarity": "SP",
       "role": "damage",
       "tags": [
         "Vegeta Family",
         "Saiyan",
         "Movies"
+      ]
+    },
+    {
+      "name": "SP Vegeta (RED) [#618]",
+      "rarity": "SP",
+      "role": "support",
+      "tags": [
+        "Vegeta Family",
+        "Saiyan",
+        "Otherworld Warrior"
       ]
     },
     {
@@ -3416,7 +5095,8 @@
       "tags": [
         "Saiyan",
         "Potara",
-        "Fusion Warrior"
+        "Fusion Warrior",
+        "Zenkai"
       ]
     },
     {
@@ -3425,13 +5105,30 @@
       "role": "damage",
       "tags": [
         "Saiyan",
-        "Super Saiyan",
         "Potara",
-        "Fusion Warrior"
+        "Fusion Warrior",
+        "Super Saiyan"
       ]
     },
     {
-      "name": "SP Videl",
+      "name": "SP Videl (BLU)",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Girls"
+      ]
+    },
+    {
+      "name": "SP Videl (GRN)",
+      "rarity": "SP",
+      "role": "support",
+      "tags": [
+        "Girls",
+        "Movies"
+      ]
+    },
+    {
+      "name": "SP Videl (YEL)",
       "rarity": "SP",
       "role": "damage",
       "tags": [
@@ -3443,15 +5140,28 @@
       "rarity": "SP",
       "role": "damage",
       "tags": [
-        "Other"
+        "Weapon Wielder",
+        "Zenkai"
       ]
     },
     {
-      "name": "SP Whis",
+      "name": "SP Whis (PUR) [#444]",
       "rarity": "SP",
       "role": "support",
       "tags": [
-        "God Ki"
+        "Angel",
+        "God Ki",
+        "Weapon Wielder"
+      ]
+    },
+    {
+      "name": "SP Whis (PUR) [#559]",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Angel",
+        "God Ki",
+        "Weapon Wielder"
       ]
     },
     {
@@ -3463,10 +5173,19 @@
       ]
     },
     {
+      "name": "SP Yamcha",
+      "rarity": "SP",
+      "role": "damage",
+      "tags": [
+        "Super Warrior"
+      ]
+    },
+    {
       "name": "SP Zahha",
       "rarity": "SP",
       "role": "support",
       "tags": [
+        "Weapon Wielder",
         "Game Originals"
       ]
     },
@@ -3489,7 +5208,8 @@
         "Future",
         "Regeneration",
         "God Ki",
-        "Powerful Opponent"
+        "Powerful Opponent",
+        "Zenkai"
       ]
     },
     {
@@ -3501,7 +5221,8 @@
         "Future",
         "Regeneration",
         "God Ki",
-        "Powerful Opponent"
+        "Powerful Opponent",
+        "Zenkai"
       ]
     },
     {
@@ -3512,7 +5233,8 @@
         "Android",
         "Future",
         "Regeneration",
-        "Powerful Opponent"
+        "Powerful Opponent",
+        "Zenkai"
       ]
     },
     {
@@ -3523,7 +5245,8 @@
         "Frieza Force",
         "Transforming Warrior",
         "Lineage of Evil",
-        "Powerful Opponent"
+        "Powerful Opponent",
+        "Zenkai"
       ]
     },
     {
@@ -3545,7 +5268,8 @@
         "Android",
         "Future",
         "Regeneration",
-        "Powerful Opponent"
+        "Powerful Opponent",
+        "Zenkai"
       ]
     },
     {
@@ -3621,7 +5345,8 @@
       "rarity": "EX",
       "role": "damage",
       "tags": [
-        "Android"
+        "Android",
+        "Zenkai"
       ]
     },
     {
@@ -3630,7 +5355,8 @@
       "role": "tank",
       "tags": [
         "Girls",
-        "Android"
+        "Android",
+        "Zenkai"
       ]
     },
     {
@@ -3692,7 +5418,16 @@
       ]
     },
     {
-      "name": "EX Bardock",
+      "name": "EX Bardock (PUR)",
+      "rarity": "EX",
+      "role": "damage",
+      "tags": [
+        "Saiyan",
+        "Movies"
+      ]
+    },
+    {
+      "name": "EX Bardock (YEL)",
       "rarity": "EX",
       "role": "tank",
       "tags": [
@@ -3705,6 +5440,7 @@
       "rarity": "EX",
       "role": "damage",
       "tags": [
+        "Universe 9",
         "Rival Universe",
         "Universe Rep"
       ]
@@ -3762,7 +5498,8 @@
       "rarity": "EX",
       "role": "damage",
       "tags": [
-        "Girls"
+        "Girls",
+        "Weapon Wielder"
       ]
     },
     {
@@ -3800,7 +5537,8 @@
       "role": "support",
       "tags": [
         "Frieza Force",
-        "Ginyu Force"
+        "Ginyu Force",
+        "Zenkai"
       ]
     },
     {
@@ -3816,7 +5554,16 @@
       ]
     },
     {
-      "name": "EX Cell Jr.",
+      "name": "EX Cell Jr. (RED)",
+      "rarity": "EX",
+      "role": "damage",
+      "tags": [
+        "Android",
+        "Minion"
+      ]
+    },
+    {
+      "name": "EX Cell Jr. (YEL)",
       "rarity": "EX",
       "role": "damage",
       "tags": [
@@ -3829,7 +5576,8 @@
       "rarity": "EX",
       "role": "support",
       "tags": [
-        "Girls"
+        "Girls",
+        "Weapon Wielder"
       ]
     },
     {
@@ -3951,6 +5699,17 @@
       ]
     },
     {
+      "name": "EX Final Form Frieza (RED)",
+      "rarity": "EX",
+      "role": "tank",
+      "tags": [
+        "Frieza Force",
+        "Transforming Warrior",
+        "Lineage of Evil",
+        "Powerful Opponent"
+      ]
+    },
+    {
       "name": "EX Final Form Frost",
       "rarity": "EX",
       "role": "tank",
@@ -3959,7 +5718,8 @@
         "Transforming Warrior",
         "Lineage of Evil",
         "Rival Universe",
-        "Universe Rep"
+        "Universe Rep",
+        "Weapon Wielder"
       ]
     },
     {
@@ -3988,8 +5748,10 @@
       "rarity": "EX",
       "role": "damage",
       "tags": [
+        "God of Destruction",
         "God Ki",
-        "Powerful Opponent"
+        "Powerful Opponent",
+        "Zenkai"
       ]
     },
     {
@@ -3998,6 +5760,7 @@
       "role": "damage",
       "tags": [
         "Universe 6",
+        "God of Destruction",
         "God Ki",
         "Rival Universe",
         "Universe Rep"
@@ -4020,7 +5783,8 @@
       "tags": [
         "Son Family",
         "Hybrid Saiyan",
-        "Future"
+        "Future",
+        "Zenkai"
       ]
     },
     {
@@ -4044,6 +5808,17 @@
       ]
     },
     {
+      "name": "EX Gohan (Kid) & Krillin",
+      "rarity": "EX",
+      "role": "damage",
+      "tags": [
+        "Son Family",
+        "Super Warrior",
+        "Hybrid Saiyan",
+        "Kids"
+      ]
+    },
+    {
       "name": "EX Gohan (Youth)",
       "rarity": "EX",
       "role": "support",
@@ -4053,7 +5828,7 @@
       ]
     },
     {
-      "name": "EX Gohan &amp; Trunks (Youth)",
+      "name": "EX Gohan & Trunks (Youth)",
       "rarity": "EX",
       "role": "tank",
       "tags": [
@@ -4090,7 +5865,8 @@
       "tags": [
         "Son Family",
         "Saiyan",
-        "Kids"
+        "Kids",
+        "Weapon Wielder"
       ]
     },
     {
@@ -4110,6 +5886,7 @@
       "tags": [
         "Transforming Warrior",
         "Hera Clan",
+        "Weapon Wielder",
         "Movies"
       ]
     },
@@ -4138,7 +5915,8 @@
       "role": "damage",
       "tags": [
         "Frieza Force",
-        "Minion"
+        "Minion",
+        "Weapon Wielder"
       ]
     },
     {
@@ -4158,7 +5936,8 @@
       "role": "tank",
       "tags": [
         "GT",
-        "Powerful Opponent"
+        "Powerful Opponent",
+        "Weapon Wielder"
       ]
     },
     {
@@ -4228,19 +6007,20 @@
       "rarity": "EX",
       "role": "tank",
       "tags": [
-        "Other"
+        "Weapon Wielder"
       ]
     },
     {
-      "name": "EX Krillin (PUR) [DBL16-12E]",
+      "name": "EX Krillin (PUR) [#237]",
       "rarity": "EX",
       "role": "support",
       "tags": [
-        "Super Warrior"
+        "Super Warrior",
+        "Zenkai"
       ]
     },
     {
-      "name": "EX Krillin (PUR) [DBL25-01E]",
+      "name": "EX Krillin (PUR) [#317]",
       "rarity": "EX",
       "role": "support",
       "tags": [
@@ -4281,7 +6061,8 @@
       "role": "support",
       "tags": [
         "Girls",
-        "Future"
+        "Future",
+        "Weapon Wielder"
       ]
     },
     {
@@ -4290,7 +6071,8 @@
       "role": "damage",
       "tags": [
         "Girls",
-        "Future"
+        "Future",
+        "Weapon Wielder"
       ]
     },
     {
@@ -4308,7 +6090,8 @@
       "role": "damage",
       "tags": [
         "Regeneration",
-        "Powerful Opponent"
+        "Powerful Opponent",
+        "Zenkai"
       ]
     },
     {
@@ -4345,12 +6128,24 @@
       ]
     },
     {
+      "name": "EX Metal Cooler",
+      "rarity": "EX",
+      "role": "damage",
+      "tags": [
+        "Regeneration",
+        "Lineage of Evil",
+        "Powerful Opponent",
+        "Movies"
+      ]
+    },
+    {
       "name": "EX Monrei",
       "rarity": "EX",
       "role": "tank",
       "tags": [
         "Frieza Force",
-        "Minion"
+        "Minion",
+        "Weapon Wielder"
       ]
     },
     {
@@ -4377,7 +6172,8 @@
       "role": "damage",
       "tags": [
         "Frieza Force",
-        "Saiyan"
+        "Saiyan",
+        "Zenkai"
       ]
     },
     {
@@ -4386,7 +6182,8 @@
       "role": "support",
       "tags": [
         "Frieza Force",
-        "Minion"
+        "Minion",
+        "Weapon Wielder"
       ]
     },
     {
@@ -4449,7 +6246,8 @@
       "role": "damage",
       "tags": [
         "Frieza Force",
-        "Saiyan"
+        "Saiyan",
+        "Zenkai"
       ]
     },
     {
@@ -4467,7 +6265,8 @@
       "role": "damage",
       "tags": [
         "Frieza Force",
-        "Minion"
+        "Minion",
+        "Weapon Wielder"
       ]
     },
     {
@@ -4568,6 +6367,7 @@
         "Transforming Warrior",
         "Regeneration",
         "Powerful Opponent",
+        "Weapon Wielder",
         "Movies"
       ]
     },
@@ -4636,6 +6436,17 @@
         "Future",
         "God Ki",
         "Super Saiyan God SS"
+      ]
+    },
+    {
+      "name": "EX Super Saiyan Gohan (Teen)",
+      "rarity": "EX",
+      "role": "damage",
+      "tags": [
+        "Son Family",
+        "Hybrid Saiyan",
+        "Super Saiyan",
+        "Movies"
       ]
     },
     {
@@ -4824,7 +6635,17 @@
       ]
     },
     {
-      "name": "EX Trunks",
+      "name": "EX Trunks (GRN) [#558]",
+      "rarity": "EX",
+      "role": "damage",
+      "tags": [
+        "Vegeta Family",
+        "Hybrid Saiyan",
+        "GT"
+      ]
+    },
+    {
+      "name": "EX Trunks (GRN) [#82]",
       "rarity": "EX",
       "role": "support",
       "tags": [
@@ -4851,6 +6672,7 @@
         "Vegeta Family",
         "Hybrid Saiyan",
         "Kids",
+        "Weapon Wielder",
         "Movies"
       ]
     },
@@ -4871,7 +6693,8 @@
       "tags": [
         "Vegeta Family",
         "Hybrid Saiyan",
-        "Future"
+        "Future",
+        "Weapon Wielder"
       ]
     },
     {
@@ -4891,6 +6714,7 @@
       "tags": [
         "Saiyan",
         "Powerful Opponent",
+        "Turles Crusher Corps",
         "Movies"
       ]
     },
@@ -4901,6 +6725,7 @@
       "tags": [
         "Saiyan",
         "Powerful Opponent",
+        "Turles Crusher Corps",
         "Movies"
       ]
     },
@@ -4911,9 +6736,11 @@
       "tags": [
         "Girls",
         "Universe 6",
+        "Angel",
         "God Ki",
         "Rival Universe",
-        "Universe Rep"
+        "Universe Rep",
+        "Weapon Wielder"
       ]
     },
     {
@@ -4942,7 +6769,8 @@
         "Vegeta Family",
         "Frieza Force",
         "Saiyan",
-        "Powerful Opponent"
+        "Powerful Opponent",
+        "Zenkai"
       ]
     },
     {
@@ -4966,7 +6794,9 @@
       "rarity": "EX",
       "role": "support",
       "tags": [
-        "God Ki"
+        "Angel",
+        "God Ki",
+        "Weapon Wielder"
       ]
     },
     {
@@ -4974,7 +6804,8 @@
       "rarity": "EX",
       "role": "damage",
       "tags": [
-        "Super Warrior"
+        "Super Warrior",
+        "Weapon Wielder"
       ]
     },
     {
@@ -5164,7 +6995,8 @@
         "Transforming Warrior",
         "Lineage of Evil",
         "Rival Universe",
-        "Universe Rep"
+        "Universe Rep",
+        "Weapon Wielder"
       ]
     },
     {
@@ -5219,7 +7051,7 @@
       "rarity": "HE",
       "role": "support",
       "tags": [
-        "Other"
+        "Weapon Wielder"
       ]
     },
     {
@@ -5227,7 +7059,7 @@
       "rarity": "HE",
       "role": "tank",
       "tags": [
-        "Other"
+        "Weapon Wielder"
       ]
     },
     {
@@ -5349,12 +7181,12 @@
       "role": "damage",
       "tags": [
         "Saiyan",
+        "Game Originals",
         "Super Saiyan",
         "Super Saiyan 2",
-        "God Ki",
         "Super Saiyan 3",
-        "Super Saiyan God",
-        "Game Originals"
+        "God Ki",
+        "Super Saiyan God"
       ]
     },
     {
@@ -5390,6 +7222,7 @@
       "tags": [
         "Saiyan",
         "Powerful Opponent",
+        "Turles Crusher Corps",
         "Movies"
       ]
     },
