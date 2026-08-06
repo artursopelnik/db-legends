@@ -1,6 +1,4 @@
 {
-  "comment": "Units missing from characters-source.json (dump from github.com/shamarahDiana/dbl-character-database, state 2026-05-01). New banner units go here, then run: node scripts/import-roster.js && npm run build",
-  "characters": [
-    { "name": "ULTRA Ultra Instinct Goku", "rarity": "UL", "role": "damage", "tags": ["Saiyan", "Son Family", "God Ki"] }
-  ]
+  "comment": "Units missing from characters-source.json (full export of de.dblegends.net, see convert-dblegends-json.js). New banner units go here, then run: node scripts/import-roster.js && npm run build",
+  "characters": []
 }

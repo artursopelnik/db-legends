@@ -71,10 +71,11 @@ const TAG_MAP = {
   'Turles Crusher Corps': 'Turles Crusher Corps',
 };
 
-const RARITY_PREFIX = { UL: 'ULTRA', LF: 'LF', SP: 'SP', EX: 'EX', HE: 'HE' };
-const RARITY_ORDER = { UL: 0, LF: 1, SP: 2, EX: 3, HE: 4 };
+const RARITY_PREFIX = { LG: 'LEGEND', UL: 'ULTRA', LF: 'LF', SP: 'SP', EX: 'EX', HE: 'HE' };
+const RARITY_ORDER = { LG: 0, UL: 1, LF: 2, SP: 3, EX: 4, HE: 5 };
 
 function shortRarity(entry) {
+  if (entry.rarity === 'LEGEND') return 'LG';
   if (entry.rarity === 'ULTRA') return 'UL';
   if (entry.is_lf) return 'LF';
   if (entry.rarity === 'SPARKING') return 'SP';

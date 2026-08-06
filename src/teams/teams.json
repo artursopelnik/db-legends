@@ -48,37 +48,37 @@
       "emoji": "✨",
       "core": [
         { "name": "ULTRA Super Saiyan God SS Gogeta", "role": "damage" },
-        { "name": "ULTRA Ultra Instinct Goku", "role": "damage" },
+        { "name": "ULTRA Ultra Instinct -Sign- Goku", "role": "damage" },
         { "name": "LF Fused Zamasu (Red)", "role": "tank" }
       ],
       "bench": ["LF Super Saiyan God Goku", "SP Super Saiyan God SS Evolved Vegeta", "SP God of Destruction Beerus"],
       "text": {
         "en": {
-          "why": "Combines the two strongest attackers in the game, ULTRA SSGSS Gogeta and ULTRA Ultra Instinct Goku, with Fused Zamasu as a durable anchor. Massive burst damage with enough sustain to recover from a lost exchange.",
+          "why": "Combines the two strongest attackers in the game, ULTRA SSGSS Gogeta and ULTRA Ultra Instinct -Sign- Goku, with Fused Zamasu as a durable anchor. Massive burst damage with enough sustain to recover from a lost exchange.",
           "equip": "Strike equips on both Ultras, one God Ki tag equip for the big flat boosts, and a defensive health set on Zamasu for the late game."
         },
         "de": {
-          "why": "Kombiniert die zwei stärksten Angreifer des Spiels, ULTRA SSGSS Gogeta und ULTRA Ultra Instinct Goku, mit Fused Zamasu als stabilem Anker. Massiver Burst-Schaden mit genug Nachhaltigkeit, um einen verlorenen Schlagabtausch aufzuholen.",
+          "why": "Kombiniert die zwei stärksten Angreifer des Spiels, ULTRA SSGSS Gogeta und ULTRA Ultra Instinct -Sign- Goku, mit Fused Zamasu als stabilem Anker. Massiver Burst-Schaden mit genug Nachhaltigkeit, um einen verlorenen Schlagabtausch aufzuholen.",
           "equip": "Strike-Equips auf beide Ultras, ein Equip mit God-Ki-Bedingung für die großen Boosts und ein defensives Health-Set auf Zamasu fürs Lategame."
         },
         "es": {
-          "why": "Combina a los dos atacantes más fuertes del juego, ULTRA SSGSS Gogeta y ULTRA Ultra Instinct Goku, con Fused Zamasu como ancla resistente. Daño explosivo masivo con suficiente aguante para recuperarse de un intercambio perdido.",
+          "why": "Combina a los dos atacantes más fuertes del juego, ULTRA SSGSS Gogeta y ULTRA Ultra Instinct -Sign- Goku, con Fused Zamasu como ancla resistente. Daño explosivo masivo con suficiente aguante para recuperarse de un intercambio perdido.",
           "equip": "Equipos de golpe para ambos Ultras, un equipo con condición God Ki para los grandes aumentos y un set defensivo de salud para Zamasu de cara al final de partida."
         },
         "pt": {
-          "why": "Combina os dois atacantes mais fortes do jogo, ULTRA SSGSS Gogeta e ULTRA Ultra Instinct Goku, com Fused Zamasu como âncora resistente. Dano explosivo massivo com sustain suficiente para se recuperar de uma troca perdida.",
+          "why": "Combina os dois atacantes mais fortes do jogo, ULTRA SSGSS Gogeta e ULTRA Ultra Instinct -Sign- Goku, com Fused Zamasu como âncora resistente. Dano explosivo massivo com sustain suficiente para se recuperar de uma troca perdida.",
           "equip": "Equipamentos de golpe nos dois Ultras, um equipamento com condição God Ki para os grandes bônus e um conjunto defensivo de vida no Zamasu para o fim de partida."
         },
         "fr": {
-          "why": "Combine les deux meilleurs attaquants du jeu, ULTRA SSGSS Gogeta et ULTRA Ultra Instinct Goku, avec Fused Zamasu comme ancre solide. D'énormes dégâts éclatés avec assez d'endurance pour rattraper un échange perdu.",
+          "why": "Combine les deux meilleurs attaquants du jeu, ULTRA SSGSS Gogeta et ULTRA Ultra Instinct -Sign- Goku, avec Fused Zamasu comme ancre solide. D'énormes dégâts éclatés avec assez d'endurance pour rattraper un échange perdu.",
           "equip": "Équipements de frappe sur les deux Ultras, un équipement à condition God Ki pour les gros bonus et un set défensif de santé sur Zamasu pour la fin de match."
         },
         "ru": {
-          "why": "Объединяет двух сильнейших атакующих игры, ULTRA SSGSS Гогету и ULTRA Ultra Instinct Гоку, со Слитым Замасу в роли прочного якоря. Огромный burst-урон и достаточно живучести, чтобы отыграться после неудачного размена.",
+          "why": "Объединяет двух сильнейших атакующих игры, ULTRA SSGSS Гогету и ULTRA Ultra Instinct -Sign- Гоку, со Слитым Замасу в роли прочного якоря. Огромный burst-урон и достаточно живучести, чтобы отыграться после неудачного размена.",
           "equip": "Strike-экипировки на обоих Ультра, одна экипировка с условием God Ki для больших бонусов и защитный набор на здоровье для Замасу на позднюю игру."
         },
         "ja": {
-          "why": "ゲーム内最強のアタッカーであるULTRA SSGSSゴジータとULTRA身勝手の極意悟空を、耐久の高い合体ザマスで支える構成。爆発的な火力に加え、不利な交換から立て直せる持久力もあります。",
+          "why": "ゲーム内最強のアタッカーであるULTRA SSGSSゴジータとULTRA身勝手の極意「兆」悟空を、耐久の高い合体ザマスで支える構成。爆発的な火力に加え、不利な交換から立て直せる持久力もあります。",
           "equip": "両ULTRAには打撃装備、「神の気」条件付き装備を1枠、ザマスには終盤用の体力・防御セットを。"
         }
       }
@@ -88,7 +88,7 @@
       "tag": "Son Family",
       "emoji": "👨‍👦",
       "core": [
-        { "name": "ULTRA Ultra Instinct Goku", "role": "damage" },
+        { "name": "ULTRA Ultra Instinct -Sign- Goku", "role": "damage" },
         { "name": "ULTRA Beast Gohan", "role": "damage" },
         { "name": "LF Super Saiyan 2 Youth Gohan", "role": "tank" }
       ],
