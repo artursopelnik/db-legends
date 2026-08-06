@@ -25,6 +25,19 @@
       ]
     },
     {
+      "name": "LEGEND Broly: Fury",
+      "rarity": "LG",
+      "role": "tank",
+      "stat": "strike",
+      "tags": [
+        "Saiyan",
+        "Frieza Force",
+        "Powerful Opponent",
+        "Movies",
+        "Super Saiyan"
+      ]
+    },
+    {
       "name": "LEGEND Fused with Kami Piccolo",
       "rarity": "LG",
       "role": "damage",
@@ -49,7 +62,7 @@
       ]
     },
     {
-      "name": "LEGEND Super Saiyan God Shallot",
+      "name": "LEGEND Super Saiyan God Shallet",
       "rarity": "LG",
       "role": "damage",
       "stat": "blast",
@@ -62,7 +75,7 @@
       ]
     },
     {
-      "name": "LEGEND Super Saiyan Rosé: Ultra Supervillain Goku Black",
+      "name": "LEGEND Super Saiyan Rosé Ultra Supervillain Goku Black",
       "rarity": "LG",
       "role": "damage",
       "stat": "strike",
@@ -75,7 +88,7 @@
       ]
     },
     {
-      "name": "LEGEND Super Saiyan Trunks (Adult) & Gohan",
+      "name": "LEGEND Super Saiyan Trunks (Teen) & Gohan",
       "rarity": "LG",
       "role": "damage",
       "stat": "blast",
@@ -99,19 +112,6 @@
         "Super Saiyan",
         "Fusion Warrior",
         "Potara"
-      ]
-    },
-    {
-      "name": "LEGEND Wrathful Broly",
-      "rarity": "LG",
-      "role": "tank",
-      "stat": "strike",
-      "tags": [
-        "Saiyan",
-        "Frieza Force",
-        "Powerful Opponent",
-        "Movies",
-        "Super Saiyan"
       ]
     },
     {
@@ -514,7 +514,7 @@
       ]
     },
     {
-      "name": "LF Android #17 &amp; Android #18",
+      "name": "LF Android #17 & Android #18",
       "rarity": "LF",
       "role": "damage",
       "stat": "mixed",
@@ -717,6 +717,21 @@
       ]
     },
     {
+      "name": "LF Goku & Final Form Frieza",
+      "rarity": "LF",
+      "role": "damage",
+      "stat": "mixed",
+      "tags": [
+        "Saiyan",
+        "Son Family",
+        "Universe Rep",
+        "Frieza Force",
+        "Transforming Warrior",
+        "Lineage of Evil",
+        "Otherworld Warrior"
+      ]
+    },
+    {
       "name": "LF Goku & Vegeta",
       "rarity": "LF",
       "role": "damage",
@@ -729,21 +744,6 @@
         "Super Saiyan",
         "Fusion Warrior",
         "Movies"
-      ]
-    },
-    {
-      "name": "LF Goku &amp; Final Form Frieza",
-      "rarity": "LF",
-      "role": "damage",
-      "stat": "mixed",
-      "tags": [
-        "Saiyan",
-        "Son Family",
-        "Universe Rep",
-        "Frieza Force",
-        "Transforming Warrior",
-        "Lineage of Evil",
-        "Otherworld Warrior"
       ]
     },
     {
@@ -926,7 +926,7 @@
       ]
     },
     {
-      "name": "LF Super Saiyan 2 &amp; Super Saiyan God SS Trunks (Adult) &amp; Vegeta",
+      "name": "LF Super Saiyan 2 & Super Saiyan God SS Trunks (Adult) & Vegeta",
       "rarity": "LF",
       "role": "damage",
       "stat": "blast",
@@ -995,7 +995,7 @@
       ]
     },
     {
-      "name": "LF Super Saiyan 3 &amp; Super Saiyan 2 Goku &amp; Vegeta",
+      "name": "LF Super Saiyan 3 & Super Saiyan 2 Goku & Vegeta",
       "rarity": "LF",
       "role": "damage",
       "stat": "mixed",
@@ -1123,7 +1123,7 @@
       ]
     },
     {
-      "name": "LF Super Saiyan 4 Goku &amp; Vegeta",
+      "name": "LF Super Saiyan 4 Goku & Vegeta",
       "rarity": "LF",
       "role": "damage",
       "stat": "mixed",
@@ -1245,22 +1245,7 @@
       ]
     },
     {
-      "name": "LF Super Saiyan God SS Goku & Vegeta",
-      "rarity": "LF",
-      "role": "damage",
-      "stat": "mixed",
-      "tags": [
-        "Saiyan",
-        "Son Family",
-        "God Ki",
-        "Super Saiyan God SS",
-        "Vegeta Family",
-        "Fusion Warrior",
-        "Movies"
-      ]
-    },
-    {
-      "name": "LF Super Saiyan God SS Goku &amp; Vegeta",
+      "name": "LF Super Saiyan God SS Goku & Vegeta (PUR)",
       "rarity": "LF",
       "role": "damage",
       "stat": "mixed",
@@ -1272,6 +1257,21 @@
         "Vegeta Family",
         "Movies",
         "Zenkai"
+      ]
+    },
+    {
+      "name": "LF Super Saiyan God SS Goku & Vegeta (YEL)",
+      "rarity": "LF",
+      "role": "damage",
+      "stat": "mixed",
+      "tags": [
+        "Saiyan",
+        "Son Family",
+        "God Ki",
+        "Super Saiyan God SS",
+        "Vegeta Family",
+        "Fusion Warrior",
+        "Movies"
       ]
     },
     {
@@ -3180,7 +3180,7 @@
       ]
     },
     {
-      "name": "SP Great Saiyaman 1 &amp; 2 (Assist)",
+      "name": "SP Great Saiyaman 1 & 2 (Assist)",
       "rarity": "SP",
       "role": "support",
       "stat": "strike",
@@ -4770,6 +4770,18 @@
       ]
     },
     {
+      "name": "SP Super Saiyan God Ultra Supervillain Vegeta",
+      "rarity": "SP",
+      "role": "damage",
+      "stat": "blast",
+      "tags": [
+        "Saiyan",
+        "Vegeta Family",
+        "God Ki",
+        "Super Saiyan God"
+      ]
+    },
+    {
       "name": "SP Super Saiyan God Vegeta",
       "rarity": "SP",
       "role": "damage",
@@ -4781,18 +4793,6 @@
         "Super Saiyan God",
         "Movies",
         "Zenkai"
-      ]
-    },
-    {
-      "name": "SP Super Saiyan God: Ultra Supervillain Vegeta",
-      "rarity": "SP",
-      "role": "damage",
-      "stat": "blast",
-      "tags": [
-        "Saiyan",
-        "Vegeta Family",
-        "God Ki",
-        "Super Saiyan God"
       ]
     },
     {
@@ -5550,6 +5550,18 @@
       ]
     },
     {
+      "name": "SP Trunks (Xeno)",
+      "rarity": "SP",
+      "role": "support",
+      "stat": "mixed",
+      "tags": [
+        "Hybrid Saiyan",
+        "Vegeta Family",
+        "Future",
+        "Weapon Wielder"
+      ]
+    },
+    {
       "name": "SP Trunks (Youth)",
       "rarity": "SP",
       "role": "damage",
@@ -5575,18 +5587,6 @@
         "Girls",
         "Weapon Wielder",
         "Zenkai"
-      ]
-    },
-    {
-      "name": "SP Trunks: Xeno",
-      "rarity": "SP",
-      "role": "support",
-      "stat": "mixed",
-      "tags": [
-        "Hybrid Saiyan",
-        "Vegeta Family",
-        "Future",
-        "Weapon Wielder"
       ]
     },
     {
@@ -6592,7 +6592,7 @@
       ]
     },
     {
-      "name": "EX Gohan &amp; Trunks (Youth)",
+      "name": "EX Gohan & Trunks (Youth)",
       "rarity": "EX",
       "role": "tank",
       "stat": "mixed",

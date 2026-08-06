@@ -121,7 +121,13 @@ function teamsJsonLd(lang, data) {
     .join('\n');
 }
 
-function renderTeamCard(team, lang) {
+function bestBadgeText(lang, updatedAt) {
+  const [y, m] = updatedAt.split('-').map(Number);
+  const date = lang === 'ja' ? `${y}年${m}月` : `${(MONTH_NAMES[lang] || MONTH_NAMES.en)[m - 1]} ${y}`;
+  return I18N[lang].teamsBestBadge.replace('{date}', date);
+}
+
+function renderTeamCard(team, lang, badge) {
   const dict = I18N[lang];
   const roleLabel = {
     damage: dict.teamsRoleDamage,
@@ -135,9 +141,7 @@ function renderTeamCard(team, lang) {
     )
     .join('\n');
   const text = team.text[lang];
-  return `  <section class="team-card" id="${team.slug}">
-    <h2>${team.emoji} ${escapeHtmlText(team.tag)}</h2>
-    <p>${escapeHtmlText(text.why)}</p>
+  const body = `    <p>${escapeHtmlText(text.why)}</p>
     <h3>${escapeHtmlText(dict.teamsCoreLabel)}</h3>
     <ul class="fighter-list">
 ${core}
@@ -145,13 +149,29 @@ ${core}
     <h3>${escapeHtmlText(dict.teamsBenchLabel)}</h3>
     <p class="bench-list">${team.bench.map(escapeHtmlText).join(' · ')}</p>
     <h3>${escapeHtmlText(dict.teamsEquipLabel)}</h3>
-    <p>${escapeHtmlText(text.equip)}</p>
+    <p>${escapeHtmlText(text.equip)}</p>`;
+  if (badge) {
+    return `  <section class="team-card team-card-best" id="${team.slug}">
+    <p class="best-badge">🏆 ${escapeHtmlText(badge)}</p>
+    <h2>${team.emoji} ${escapeHtmlText(team.tag)}</h2>
+${body}
   </section>`;
+  }
+  return `  <details class="team-card" id="${team.slug}">
+    <summary><h2>${team.emoji} ${escapeHtmlText(team.tag)}</h2></summary>
+${body}
+  </details>`;
 }
 
-function renderPage(template, css, lang, data, characters) {
+function loadEquipsByTag() {
+  return JSON.parse(fs.readFileSync(path.join(SRC, 'data', 'equips-by-tag.json'), 'utf8'));
+}
+
+function renderPage(template, css, lang, data, characters, equips) {
   const dict = I18N[lang];
-  const cards = data.teams.map((team) => renderTeamCard(team, lang)).join('\n');
+  const cards = data.teams
+    .map((team, i) => renderTeamCard(team, lang, i === 0 ? bestBadgeText(lang, data.updatedAt) : null))
+    .join('\n');
   const builderText = {
     count: dict.builderCount,
     roleDamage: dict.teamsRoleDamage,
@@ -162,7 +182,9 @@ function renderPage(template, css, lang, data, characters) {
     verdictWeak: dict.builderVerdictWeak,
     recPerfect: dict.builderRecPerfect,
     recSwap: dict.builderRecSwap,
-    recRole: dict.builderRecRole,
+    recRoleDamage: dict.builderRecRoleDamage,
+    recRoleTank: dict.builderRecRoleTank,
+    recRoleSupport: dict.builderRecRoleSupport,
     recFill: dict.builderRecFill,
     recLead: dict.builderRecLead,
     recLeadBase: dict.builderRecLeadBase,
@@ -173,6 +195,7 @@ function renderPage(template, css, lang, data, characters) {
     equipBlast: dict.builderEquipBlast,
     equipMixed: dict.builderEquipMixed,
     equipDefense: dict.builderEquipDefense,
+    recEquipItems: dict.builderRecEquipItems,
     starsLabel: dict.builderStarsLabel,
     moveUp: dict.builderMoveUp,
     moveDown: dict.builderMoveDown,
@@ -211,6 +234,7 @@ function renderPage(template, css, lang, data, characters) {
     .replaceAll('{{BUILDER_FILTER_ALL}}', escapeHtmlText(dict.builderFilterAll))
     .replaceAll('{{BUILDER_NO_MATCHES}}', escapeHtmlText(dict.builderNoMatches))
     .replaceAll('{{ROSTER_JSON}}', jsonSafe(characters))
+    .replaceAll('{{EQUIPS_JSON}}', jsonSafe(equips))
     .replaceAll('{{BUILDER_TEXT_JSON}}', jsonSafe(builderText))
     .replaceAll('{{CTA_HTML}}', dict.blogIndexCtaHtml)
     .replaceAll('{{CTA_BTN}}', escapeHtmlText(dict.blogIndexCtaBtn))
@@ -234,10 +258,11 @@ function outDirForLang(lang) {
 function main() {
   const data = loadTeams(SUPPORTED_LANGS);
   const characters = loadCharacters();
+  const equips = loadEquipsByTag();
   const css = fs.readFileSync(path.join(ROOT, 'src', 'blog', 'blog.css'), 'utf8').trim();
   const template = fs.readFileSync(path.join(SRC, 'index.template.html'), 'utf8');
   for (const lang of SUPPORTED_LANGS) {
-    const html = renderPage(template, css, lang, data, characters);
+    const html = renderPage(template, css, lang, data, characters, equips);
     checkNoLeftoverTokens(html, `${lang}/teams/index`);
     const outDir = outDirForLang(lang);
     fs.mkdirSync(outDir, { recursive: true });

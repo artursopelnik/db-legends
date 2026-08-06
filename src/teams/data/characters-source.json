@@ -5061,7 +5061,7 @@
   ]
  },
  {
-  "name": "Great Saiyaman 1 &amp; 2 (Assist)",
+  "name": "Great Saiyaman 1 & 2 (Assist)",
   "id": "DBL27-05S",
   "color": "RED",
   "rarity": "SPARKING",
@@ -6444,7 +6444,7 @@
   ]
  },
  {
-  "name": "Super Saiyan God SS Goku &amp; Vegeta",
+  "name": "Super Saiyan God SS Goku & Vegeta",
   "id": "DBL41-01S",
   "color": "PUR",
   "rarity": "SPARKING",
@@ -6826,7 +6826,7 @@
   ]
  },
  {
-  "name": "Android #17 &amp; Android #18",
+  "name": "Android #17 & Android #18",
   "id": "DBL46-01S",
   "color": "RED",
   "rarity": "SPARKING",
@@ -6843,7 +6843,7 @@
   ]
  },
  {
-  "name": "Gohan &amp; Trunks (Youth)",
+  "name": "Gohan & Trunks (Youth)",
   "id": "DBL46-02E",
   "color": "GRN",
   "rarity": "EXTREME",
@@ -6885,8 +6885,8 @@
   "tags": [
    "Android",
    "Weapon Wielder",
-   "Sagas From the Movies",
-   "Ranged Type"
+   "Ranged Type",
+   "Sagas From the Movies"
   ]
  },
  {
@@ -6900,8 +6900,8 @@
   "tags": [
    "Android",
    "Weapon Wielder",
-   "Sagas From the Movies",
-   "Melee Type"
+   "Melee Type",
+   "Sagas From the Movies"
   ]
  },
  {
@@ -7129,8 +7129,8 @@
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
-   "Sagas From the Movies",
-   "Melee Type"
+   "Melee Type",
+   "Sagas From the Movies"
   ]
  },
  {
@@ -7146,8 +7146,8 @@
    "Super Warrior",
    "Namekian",
    "Transforming Warrior",
-   "Sagas From the Movies",
-   "Ranged Type"
+   "Ranged Type",
+   "Sagas From the Movies"
   ]
  },
  {
@@ -7270,13 +7270,13 @@
    "Son Family",
    "Girls",
    "Kids",
-   "Sagas From the Movies",
    "Female",
-   "Support Type"
+   "Support Type",
+   "Sagas From the Movies"
   ]
  },
  {
-  "name": "Super Saiyan 4 Goku &amp; Vegeta",
+  "name": "Super Saiyan 4 Goku & Vegeta",
   "id": "DBL53-01S",
   "color": "GRN",
   "rarity": "SPARKING",
@@ -7401,7 +7401,7 @@
   ]
  },
  {
-  "name": "Super Saiyan 2 &amp; Super Saiyan God SS Trunks (Adult) &amp; Vegeta",
+  "name": "Super Saiyan 2 & Super Saiyan God SS Trunks (Adult) & Vegeta",
   "id": "DBL54-03S",
   "color": "YEL",
   "rarity": "SPARKING",
@@ -7761,7 +7761,7 @@
   ]
  },
  {
-  "name": "Super Saiyan 3 &amp; Super Saiyan 2 Goku &amp; Vegeta",
+  "name": "Super Saiyan 3 & Super Saiyan 2 Goku & Vegeta",
   "id": "DBL58-01S",
   "color": "BLU",
   "rarity": "SPARKING",
@@ -7793,7 +7793,7 @@
   ]
  },
  {
-  "name": "Goku &amp; Final Form Frieza",
+  "name": "Goku & Final Form Frieza",
   "id": "DBL59-01S",
   "color": "PUR",
   "rarity": "SPARKING",
@@ -7971,8 +7971,8 @@
   "tags": [
    "Android",
    "Weapon Wielder",
-   "Sagas From the Movies",
-   "Ranged Type"
+   "Ranged Type",
+   "Sagas From the Movies"
   ]
  },
  {
@@ -7986,8 +7986,8 @@
   "tags": [
    "Powerful Opponent",
    "Android",
-   "Sagas From the Movies",
-   "Support Type"
+   "Support Type",
+   "Sagas From the Movies"
   ]
  },
  {
@@ -8003,8 +8003,8 @@
    "Super Warrior",
    "Namekian",
    "Transforming Warrior",
-   "Sagas From the Movies",
-   "Melee Type"
+   "Melee Type",
+   "Sagas From the Movies"
   ]
  },
  {
@@ -8018,8 +8018,8 @@
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
-   "Sagas From the Movies",
-   "Support Type"
+   "Support Type",
+   "Sagas From the Movies"
   ]
  },
  {
@@ -8433,8 +8433,8 @@
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
-   "Sagas From the Movies",
-   "Melee Type"
+   "Melee Type",
+   "Sagas From the Movies"
   ]
  },
  {
@@ -8448,8 +8448,8 @@
   "tags": [
    "Hybrid Saiyan",
    "Fusion Warrior",
-   "Sagas From the Movies",
-   "Defense Type"
+   "Defense Type",
+   "Sagas From the Movies"
   ]
  },
  {
@@ -8672,8 +8672,8 @@
    "Super Warrior",
    "Namekian",
    "Weapon Wielder",
-   "Sagas From the Movies",
-   "Support Type"
+   "Support Type",
+   "Sagas From the Movies"
   ]
  },
  {
@@ -9631,8 +9631,8 @@
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
-   "Sagas From the Movies",
-   "Melee Type"
+   "Melee Type",
+   "Sagas From the Movies"
   ]
  },
  {
@@ -10014,7 +10014,7 @@
   ]
  },
  {
-  "name": "Super Saiyan God Shallot",
+  "name": "Super Saiyan God Shallet",
   "id": "DBL96-01L",
   "color": "GRN+",
   "rarity": "LEGEND",
@@ -10644,7 +10644,7 @@
   ]
  },
  {
-  "name": "Super Saiyan Rosé: Ultra Supervillain Goku Black",
+  "name": "Super Saiyan Rosé Ultra Supervillain Goku Black",
   "id": "DBL94-04L",
   "color": "BLU+",
   "rarity": "LEGEND",
@@ -10662,7 +10662,7 @@
   ]
  },
  {
-  "name": "Super Saiyan God: Ultra Supervillain Vegeta",
+  "name": "Super Saiyan God Ultra Supervillain Vegeta",
   "id": "DBL94-02S",
   "color": "RED",
   "rarity": "SPARKING",
@@ -10678,7 +10678,7 @@
   ]
  },
  {
-  "name": "Trunks: Xeno",
+  "name": "Trunks (Xeno)",
   "id": "DBL94-03S",
   "color": "PUR",
   "rarity": "SPARKING",
@@ -10711,7 +10711,7 @@
   ]
  },
  {
-  "name": "Wrathful Broly",
+  "name": "Broly: Fury",
   "id": "DBL95-02L",
   "color": "GRN+",
   "rarity": "LEGEND",
@@ -10759,7 +10759,7 @@
   ]
  },
  {
-  "name": "Super Saiyan Trunks (Adult) & Gohan",
+  "name": "Super Saiyan Trunks (Teen) & Gohan",
   "id": "DBL96-02L",
   "color": "RED+",
   "rarity": "LEGEND",
@@ -10790,9 +10790,9 @@
    "Son Family",
    "Girls",
    "Kids",
-   "Sagas From the Movies",
    "Female",
-   "Support Type"
+   "Support Type",
+   "Sagas From the Movies"
   ]
  },
  {

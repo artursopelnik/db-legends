@@ -23,7 +23,8 @@ import time
 import urllib.request
 from datetime import date
 
-BASE = "https://de.dblegends.net"
+# Sprachversion: https://dblegends.net (EN), https://de.dblegends.net (DE), …
+BASE = "https://dblegends.net"
 UA = {"User-Agent": "Mozilla/5.0 (compatible; dblegends-scraper)"}
 
 
@@ -201,15 +202,140 @@ def parse_detail(f: dict, AB: dict, AM: dict, AC) -> dict:
     }
 
 
+
+
+# ---------------------------------------------------------------- Equipment
+
+def parse_equipment_list(html: str) -> dict[int, dict]:
+    """Extrahiert alle Equipment-Kacheln aus /equipment."""
+    out = {}
+    for m in re.finditer(
+        r'<a href="/equip/(\d+)" class="eqx-card"\s+([^>]+)>(.*?)</a>', html, re.S
+    ):
+        eid = int(m.group(1))
+        attrs = dict(re.findall(r'data-(\w+)="([^"]*)"', m.group(2)))
+        img = re.search(r'src="([^"]+)"', m.group(3))
+        frame = re.search(r'eqx-frame (\w+)', m.group(3))
+        out[eid] = {"attrs": attrs, "img": img.group(1) if img else None,
+                    "frame": frame.group(1) if frame else None}
+    return out
+
+
+def _clean(s: str) -> str:
+    import html as _h
+    return _h.unescape(re.sub(r"<[^>]+>", "", s)).strip()
+
+
+def parse_equipment_detail(eid: int, page: str, ld: dict, tagmap: dict) -> dict:
+    name = re.search(r'class="eqd-name">(.*?)</div>', page, re.S)
+    detail = re.search(r'class="eqd-detail">(.*?)</div>', page, re.S)
+
+    conditions = []
+    cond_sec = re.search(r'class="eqd-cond"(.*?)(<!-- ── Slots|class="eqd-slot)', page, re.S)
+    if cond_sec:
+        for grp in re.findall(r'class="eqd-condgrp">(.*?)</div>', cond_sec.group(1), re.S):
+            badges = [_clean(b) for b in
+                      re.findall(r'class="eqd-badge[^"]*">(.*?)</span>', grp, re.S)]
+            if badges:
+                conditions.append(badges)  # Badges innerhalb einer Gruppe: AND
+
+    slots = []
+    for sm in re.finditer(
+        r'class="eqd-slot">\s*<div class="eqd-slot-label">([^<]+)</div>(.*?)</div>\s*'
+        r'(?=<div class="eqd-slot">|<!--|<div class="eqd-rank|$)', page, re.S
+    ):
+        opts = [_clean(o) for o in re.findall(r'class="eqd-eff">(.*?)</div>', sm.group(2), re.S)]
+        slots.append({"slot": _clean(sm.group(1)), "options": opts})
+
+    eqc = re.search(r'EQUIPPABLE CHARACTERS(.*?)(<footer|DBLegends\.net)', page, re.S)
+    seg = eqc.group(1) if eqc else ""
+    char_ids = sorted(set(int(x) for x in re.findall(r'href="character/(\d+)"', seg)))
+    any_char = "any character" in seg
+
+    attrs = ld["attrs"]
+    cond_tag_ids = [int(v) for k, v in attrs.items()
+                    if k.startswith("element") and v.isdigit()]
+    return {
+        "id": eid,
+        "name": _clean(name.group(1)) if name else attrs.get("name"),
+        "url": f"{BASE}/equip/{eid}",
+        "image": (BASE + "/" + ld["img"].lstrip("/")) if ld.get("img") else None,
+        "rarity": int(attrs.get("rarity", 0)),
+        "frame": ld.get("frame"),
+        "type": _clean(detail.group(1)).split("\n")[0] if detail else None,
+        "condition_tag_ids": cond_tag_ids,
+        "condition_tags": [tagmap[t] for t in cond_tag_ids if t in tagmap],
+        "conditions": conditions,
+        "equippable": "any" if any_char else char_ids,
+        "slots": slots,
+    }
+
+
+def scrape_equipment(out_dir: str, cache_dir: str, workers: int, tagmap: dict) -> None:
+    print("Lade Equipment-Liste …")
+    list_html = http_get(f"{BASE}/equipment").decode("utf-8")
+    list_data = parse_equipment_list(list_html)
+    print(f"  {len(list_data)} Equips gefunden")
+
+    eq_cache = os.path.join(cache_dir, "equip") if cache_dir else None
+    if eq_cache:
+        os.makedirs(eq_cache, exist_ok=True)
+
+    def fetch(eid: int) -> tuple[int, str]:
+        cache_file = os.path.join(eq_cache, f"{eid}.html") if eq_cache else None
+        if cache_file and os.path.exists(cache_file) and os.path.getsize(cache_file) > 20_000:
+            return eid, open(cache_file, encoding="utf-8").read()
+        page = http_get(f"{BASE}/equip/{eid}").decode("utf-8")
+        if cache_file:
+            with open(cache_file, "w", encoding="utf-8") as fh:
+                fh.write(page)
+        return eid, page
+
+    print(f"Lade {len(list_data)} Equip-Detailseiten ({workers} parallel) …")
+    t0 = time.time()
+    equips, errors = [], []
+    with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as ex:
+        futures = {ex.submit(fetch, eid): eid for eid in sorted(list_data)}
+        for i, fut in enumerate(concurrent.futures.as_completed(futures), 1):
+            eid = futures[fut]
+            try:
+                _, page = fut.result()
+                equips.append(parse_equipment_detail(eid, page, list_data[eid], tagmap))
+            except Exception as e:  # noqa: BLE001
+                errors.append((eid, repr(e)))
+            if i % 200 == 0:
+                print(f"  {i}/{len(list_data)} ({time.time() - t0:.0f}s)")
+
+    equips.sort(key=lambda e: e["id"])
+    path = os.path.join(out_dir, "dblegends_equipment.json")
+    with open(path, "w", encoding="utf-8") as fh:
+        json.dump({
+            "source": f"{BASE}/equipment",
+            "generated": date.today().isoformat(),
+            "count": len(equips),
+            "equipment": equips,
+        }, fh, ensure_ascii=False, indent=1)
+    print(f"  -> {path}  ({os.path.getsize(path) / 1e6:.1f} MB)")
+    if errors:
+        print(f"WARNUNG: {len(errors)} Equip-Fehler: {errors[:5]}", file=sys.stderr)
+
+
 # ---------------------------------------------------------------- Main
 
 def main() -> int:
+    global BASE
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument("--out", default="data", help="Ausgabeordner (Default: data)")
     p.add_argument("--workers", type=int, default=10, help="Parallele Downloads")
     p.add_argument("--cache", default=".cache/dbl",
                    help="Cache-Ordner für HTML-Seiten ('' = kein Cache)")
+    p.add_argument("--skip-equipment", action="store_true",
+                   help="Equipment-Scrape überspringen")
+    p.add_argument("--base", default=BASE,
+                   help="Basis-URL der Sprachversion (z.B. https://de.dblegends.net)")
     args = p.parse_args()
+
+    BASE = args.base.rstrip("/")
 
     os.makedirs(args.out, exist_ok=True)
     if args.cache:
@@ -292,6 +418,11 @@ def main() -> int:
         }, fh, ensure_ascii=False, indent=1)
 
     print(f"  -> {full_path}  ({os.path.getsize(full_path) / 1e6:.1f} MB)")
+
+    # 4) Equipment
+    if not args.skip_equipment:
+        scrape_equipment(args.out, args.cache, args.workers, tagmap)
+
     if errors:
         print(f"WARNUNG: {len(errors)} Fehler: {errors[:5]}", file=sys.stderr)
         return 1
