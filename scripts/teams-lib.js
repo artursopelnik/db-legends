@@ -15,6 +15,7 @@ const path = require('path');
 
 const ROOT = path.resolve(__dirname, '..');
 const TEAMS_JSON = path.join(ROOT, 'src', 'teams', 'teams.json');
+const CHARACTERS_JSON = path.join(ROOT, 'src', 'teams', 'characters.json');
 const SITE_URL = 'https://dblqr.org';
 const DEFAULT_LANG = 'en';
 
@@ -62,8 +63,34 @@ function loadTeams(supportedLangs) {
   return data;
 }
 
+// Roster for the interactive team builder. Kept separate from teams.json so
+// the curated builds and the selectable character pool can evolve independently.
+function loadCharacters() {
+  const data = JSON.parse(fs.readFileSync(CHARACTERS_JSON, 'utf8'));
+  if (!Array.isArray(data.characters) || !data.characters.length) {
+    throw new Error('characters.json: no characters defined');
+  }
+  const seen = new Set();
+  for (const c of data.characters) {
+    if (!c.name) throw new Error('characters.json: character without name');
+    if (seen.has(c.name)) throw new Error(`characters.json: duplicate character "${c.name}"`);
+    seen.add(c.name);
+    if (!['UL', 'LF', 'SP'].includes(c.rarity)) {
+      throw new Error(`characters.json: "${c.name}" has invalid rarity "${c.rarity}"`);
+    }
+    if (!ROLES.includes(c.role)) {
+      throw new Error(`characters.json: "${c.name}" has invalid role "${c.role}"`);
+    }
+    if (!Array.isArray(c.tags) || !c.tags.length) {
+      throw new Error(`characters.json: "${c.name}" needs at least one tag`);
+    }
+  }
+  return data.characters;
+}
+
 module.exports = {
   loadTeams,
+  loadCharacters,
   teamsPathForLang,
   teamsUrlForLang,
   SITE_URL,

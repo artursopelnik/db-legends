@@ -16,7 +16,7 @@ const path = require('path');
 const ROOT = path.resolve(__dirname, '..');
 const SRC = path.join(ROOT, 'src', 'teams');
 
-const { loadTeams, teamsPathForLang, teamsUrlForLang, SITE_URL, DEFAULT_LANG } =
+const { loadTeams, loadCharacters, teamsPathForLang, teamsUrlForLang, SITE_URL, DEFAULT_LANG } =
   require('./teams-lib.js');
 const { blogPathForLang, homePathForLang } = require('./blog-lib.js');
 const { I18N, SUPPORTED_LANGS } = require(path.join(ROOT, 'i18n.js'));
@@ -148,9 +148,20 @@ ${core}
   </section>`;
 }
 
-function renderPage(template, css, lang, data) {
+function renderPage(template, css, lang, data, characters) {
   const dict = I18N[lang];
   const cards = data.teams.map((team) => renderTeamCard(team, lang)).join('\n');
+  const builderText = {
+    count: dict.builderCount,
+    roleDamage: dict.teamsRoleDamage,
+    roleTank: dict.teamsRoleTank,
+    roleSupport: dict.teamsRoleSupport,
+    tipAllShare: dict.builderTipAllShare,
+    tipNoShared: dict.builderTipNoShared,
+    tipNeedDamage: dict.builderTipNeedDamage,
+    tipNeedTank: dict.builderTipNeedTank,
+    tipFull: dict.builderTipFull,
+  };
   return template
     .replaceAll('{{LANG}}', lang)
     .replaceAll('{{META_TITLE}}', escapeHtmlAttr(dict.teamsMetaTitle))
@@ -172,6 +183,15 @@ function renderPage(template, css, lang, data) {
     .replaceAll('{{UPDATED_ISO}}', data.updatedAt)
     .replaceAll('{{UPDATED_HUMAN}}', humanDate(data.updatedAt, lang))
     .replaceAll('{{TEAMS_DISCLAIMER}}', escapeHtmlText(dict.teamsDisclaimer))
+    .replaceAll('{{BUILDER_HEADING}}', escapeHtmlText(dict.builderHeading))
+    .replaceAll('{{BUILDER_INTRO}}', escapeHtmlText(dict.builderIntro))
+    .replaceAll('{{BUILDER_EMPTY}}', escapeHtmlText(dict.builderEmpty))
+    .replaceAll('{{BUILDER_SHARED_TAGS}}', escapeHtmlText(dict.builderSharedTags))
+    .replaceAll('{{BUILDER_ROLES}}', escapeHtmlText(dict.builderRoles))
+    .replaceAll('{{BUILDER_TIPS}}', escapeHtmlText(dict.builderTips))
+    .replaceAll('{{BUILDER_CLEAR}}', escapeHtmlText(dict.builderClear))
+    .replaceAll('{{ROSTER_JSON}}', jsonSafe(characters))
+    .replaceAll('{{BUILDER_TEXT_JSON}}', jsonSafe(builderText))
     .replaceAll('{{CTA_HTML}}', dict.blogIndexCtaHtml)
     .replaceAll('{{CTA_BTN}}', escapeHtmlText(dict.blogIndexCtaBtn))
     .replaceAll('{{FOOTER_DISCLAIMER}}', escapeHtmlText(dict.blogFooterDisclaimer))
@@ -193,10 +213,11 @@ function outDirForLang(lang) {
 
 function main() {
   const data = loadTeams(SUPPORTED_LANGS);
+  const characters = loadCharacters();
   const css = fs.readFileSync(path.join(ROOT, 'src', 'blog', 'blog.css'), 'utf8').trim();
   const template = fs.readFileSync(path.join(SRC, 'index.template.html'), 'utf8');
   for (const lang of SUPPORTED_LANGS) {
-    const html = renderPage(template, css, lang, data);
+    const html = renderPage(template, css, lang, data, characters);
     checkNoLeftoverTokens(html, `${lang}/teams/index`);
     const outDir = outDirForLang(lang);
     fs.mkdirSync(outDir, { recursive: true });

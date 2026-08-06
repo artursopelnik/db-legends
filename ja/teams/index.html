@@ -263,6 +263,97 @@ footer a { color: var(--dim); }
   padding: 12px 14px;
   margin: 8px 0 26px;
 }
+
+/* ---- Team builder ---- */
+.builder { margin: 26px 0; }
+.builder-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 14px 0;
+}
+.b-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 7px 12px;
+  border-radius: 999px;
+  border: 1.5px solid var(--line);
+  background: #0e1428;
+  color: var(--text);
+  font: inherit;
+  font-size: 0.86rem;
+  cursor: pointer;
+  box-shadow: none;
+  letter-spacing: 0;
+}
+.b-chip:hover { border-color: var(--orange); }
+.b-chip[aria-pressed="true"] {
+  border-color: var(--orange);
+  background: linear-gradient(180deg, rgba(255,148,36,0.22), rgba(248,85,31,0.16));
+  color: var(--orange-soft);
+}
+.b-chip:disabled { opacity: 0.4; cursor: not-allowed; }
+.b-rarity {
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  border-radius: 6px;
+  padding: 1px 5px;
+  background: var(--panel-2);
+  border: 1px solid var(--line);
+  color: var(--dim);
+}
+.b-rarity-UL { color: #2a1204; background: var(--orange-soft); border-color: var(--orange); }
+.b-rarity-LF { color: #fff; background: var(--flame); border-color: var(--flame); }
+.builder-summary {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: #0e1428;
+  padding: 14px 16px;
+}
+.builder-summary h3 {
+  font-family: var(--display);
+  font-weight: 400;
+  font-size: 0.98rem;
+  letter-spacing: 1px;
+  color: var(--orange-soft);
+  text-transform: uppercase;
+  margin: 12px 0 6px;
+}
+.builder-summary h3:first-child { margin-top: 0; }
+.builder-summary p, .builder-summary li { color: var(--dim); font-size: 0.92rem; line-height: 1.55; }
+.builder-summary ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; }
+.tag-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid var(--orange);
+  color: var(--orange-soft);
+  border-radius: 999px;
+  padding: 3px 10px;
+  font-size: 0.82rem;
+}
+.tag-pill .cnt {
+  background: var(--orange);
+  color: #26130a;
+  border-radius: 999px;
+  font-weight: 800;
+  font-size: 0.72rem;
+  padding: 0 6px;
+}
+.builder-tips li { margin: 4px 0; }
+.builder-reset {
+  margin-top: 12px;
+  background: transparent;
+  color: var(--dim);
+  border: 1.5px solid var(--line);
+  box-shadow: none;
+  font-family: system-ui, sans-serif;
+  font-size: 0.86rem;
+  letter-spacing: 0;
+  padding: 8px 14px;
+}
 </style>
 </head>
 <body>
@@ -302,7 +393,7 @@ footer a { color: var(--dim); }
       <li><span class="fighter-name">LF Fused Zamasu (Red)</span><span class="role-chip role-tank">防御</span></li>
     </ul>
     <h3>控え</h3>
-    <p class="bench-list">LF SSGSS Vegito · LF Super Saiyan God Goku · SP God of Destruction Beerus</p>
+    <p class="bench-list">LF Super Saiyan God Goku · SP Super Saiyan God SS Evolved Vegeta · SP God of Destruction Beerus</p>
     <h3>装備のヒント</h3>
     <p>両ULTRAには打撃装備、「神の気」条件付き装備を1枠、ザマスには終盤用の体力・防御セットを。</p>
   </section>
@@ -363,6 +454,25 @@ footer a { color: var(--dim); }
     <p>全力攻撃：SS4悟空とゴジータには打撃攻撃装備、ベジータには攻防ミックス、「GT」条件付き装備を1枠。このチームは持久力より火力が正義です。</p>
   </section>
 
+  <section class="team-card builder" id="builder">
+    <h2>🛠️ チームビルダー</h2>
+    <p>最大6体のキャラをタップして相性をチェック。共通タグが多いほどZアビリティが噛み合い、バフが大きくなります。</p>
+    <div class="builder-grid" id="builderGrid"></div>
+    <div class="builder-summary" id="builderSummary">
+      <h3 id="builderCount"></h3>
+      <p id="builderEmpty">まず2体以上選んでください。最強のアタッカーから始めるのがおすすめです。</p>
+      <div id="builderResult" hidden>
+        <h3>共通タグ</h3>
+        <ul id="builderTags"></ul>
+        <h3>ロール構成</h3>
+        <ul id="builderRoles"></ul>
+        <h3>ヒント</h3>
+        <ul class="builder-tips" id="builderTips"></ul>
+      </div>
+      <button type="button" class="builder-reset" id="builderReset">選択をリセット</button>
+    </div>
+  </section>
+
   <p class="teams-disclaimer">環境は新しいガシャのたびに変わります。この編成は実績ある出発点として活用し、唯一の正解とは考えないでください。キャラクター名は英語版に準拠しています。</p>
 
   <div class="cta">
@@ -377,6 +487,131 @@ footer a { color: var(--dim); }
       <a href="https://artursopelnik.de/data-privacy/" target="_blank" rel="noopener noreferrer">プライバシーポリシー</a></p>
   </footer>
 </div>
+
+<script>
+(function () {
+  'use strict';
+  var ROSTER = [{"name":"ULTRA Super Saiyan God SS Gogeta","rarity":"UL","role":"damage","tags":["Saiyan","God Ki","Fusion Warrior","Movies"]},{"name":"ULTRA Ultra Instinct Goku","rarity":"UL","role":"damage","tags":["Saiyan","Son Family","God Ki"]},{"name":"ULTRA Beast Gohan","rarity":"UL","role":"damage","tags":["Hybrid Saiyan","Son Family","Movies"]},{"name":"ULTRA Janemba","rarity":"UL","role":"damage","tags":["Regeneration","Movies","Powerful Opponent"]},{"name":"ULTRA Super Saiyan 4 Goku","rarity":"UL","role":"damage","tags":["Saiyan","Son Family","GT"]},{"name":"LF Fused Zamasu (Red)","rarity":"LF","role":"tank","tags":["God Ki","Fusion Warrior","Future","Regeneration"]},{"name":"LF Half-Corrupted Fusion Zamasu","rarity":"LF","role":"support","tags":["God Ki","Fusion Warrior","Future","Regeneration"]},{"name":"LF Super Saiyan 4 Vegeta","rarity":"LF","role":"tank","tags":["Saiyan","Vegeta Family","GT"]},{"name":"LF Super Saiyan 4 Gogeta","rarity":"LF","role":"damage","tags":["Saiyan","Fusion Warrior","GT"]},{"name":"LF Gohan & Trunks (Adult)","rarity":"LF","role":"damage","tags":["Hybrid Saiyan","Son Family","Vegeta Family","Future"]},{"name":"LF Super Saiyan 2 Youth Gohan","rarity":"LF","role":"tank","tags":["Hybrid Saiyan","Son Family"]},{"name":"LF Vegito Blue","rarity":"LF","role":"damage","tags":["Saiyan","God Ki","Fusion Warrior","Future"]},{"name":"LF Super Saiyan God Goku","rarity":"LF","role":"damage","tags":["Saiyan","Son Family","God Ki"]},{"name":"LF Bardock","rarity":"LF","role":"damage","tags":["Saiyan","Son Family"]},{"name":"LF Majin Buu: Good","rarity":"LF","role":"tank","tags":["Regeneration"]},{"name":"LF Super Baby 2","rarity":"LF","role":"damage","tags":["Regeneration","GT","Lineage of Evil"]},{"name":"LF Super Trunks","rarity":"LF","role":"damage","tags":["Hybrid Saiyan","Vegeta Family","Future"]},{"name":"LF Goku Black (Super Saiyan Rosé)","rarity":"LF","role":"damage","tags":["God Ki","Future","Lineage of Evil"]},{"name":"LF Android #17 & #18","rarity":"LF","role":"tank","tags":["Android","Future"]},{"name":"LF Full Power Broly","rarity":"LF","role":"damage","tags":["Saiyan","Movies","Powerful Opponent"]},{"name":"LF Full Power Frieza","rarity":"LF","role":"damage","tags":["Lineage of Evil","Powerful Opponent"]},{"name":"SP Super Gogeta (Red)","rarity":"SP","role":"damage","tags":["Saiyan","Fusion Warrior","Movies"]},{"name":"SP Super Saiyan God SS Evolved Vegeta","rarity":"SP","role":"damage","tags":["Saiyan","Vegeta Family","God Ki"]},{"name":"SP God of Destruction Beerus","rarity":"SP","role":"support","tags":["God Ki","Powerful Opponent"]},{"name":"SP Super Saiyan God Goku","rarity":"SP","role":"support","tags":["Saiyan","Son Family","God Ki"]},{"name":"SP Super Saiyan Goten (Kid)","rarity":"SP","role":"support","tags":["Hybrid Saiyan","Son Family"]},{"name":"SP Super Saiyan Trunks (Kid)","rarity":"SP","role":"support","tags":["Hybrid Saiyan","Vegeta Family"]},{"name":"SP Orange Piccolo","rarity":"SP","role":"tank","tags":["Regeneration","Movies"]},{"name":"SP Perfect Cell (Revived)","rarity":"SP","role":"tank","tags":["Regeneration","Android","Lineage of Evil"]},{"name":"SP Ultimate Gohan","rarity":"SP","role":"damage","tags":["Hybrid Saiyan","Son Family"]},{"name":"SP Pan (GT)","rarity":"SP","role":"support","tags":["Hybrid Saiyan","Son Family","GT","Girls"]},{"name":"SP Majuub","rarity":"SP","role":"damage","tags":["GT","Regeneration"]}];
+  var TEXT = {"count":"あなたのチーム（{n}/6）","roleDamage":"アタッカー","roleTank":"防御","roleSupport":"サポート","tipAllShare":"完璧です。選択した全キャラが「{tag}」タグを共有しており、Zアビリティが全員に効きます。","tipNoShared":"まだ共通タグがありません。Zアビリティが互いに機能しないため、1つのメインタグを軸に編成してみましょう。","tipNeedDamage":"アタッカーを追加しましょう。火力がないと試合を決めきれません。","tipNeedTank":"防御キャラを追加しましょう。プレッシャー下でも安全に交代できます。","tipFull":"チーム完成！3体が戦い、3体は控えからZアビリティでチームを強化します。"};
+  var MAX = 6;
+  var selected = [];
+
+  var grid = document.getElementById('builderGrid');
+  var countEl = document.getElementById('builderCount');
+  var emptyEl = document.getElementById('builderEmpty');
+  var resultEl = document.getElementById('builderResult');
+  var tagsEl = document.getElementById('builderTags');
+  var rolesEl = document.getElementById('builderRoles');
+  var tipsEl = document.getElementById('builderTips');
+
+  function roleLabel(role) {
+    return role === 'damage' ? TEXT.roleDamage : role === 'tank' ? TEXT.roleTank : TEXT.roleSupport;
+  }
+
+  function render() {
+    countEl.textContent = TEXT.count.replace('{n}', String(selected.length));
+    var full = selected.length >= MAX;
+    grid.querySelectorAll('button').forEach(function (btn, i) {
+      var on = selected.indexOf(i) !== -1;
+      btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+      btn.disabled = full && !on;
+    });
+
+    if (selected.length < 2) {
+      emptyEl.hidden = false;
+      resultEl.hidden = true;
+      return;
+    }
+    emptyEl.hidden = true;
+    resultEl.hidden = false;
+
+    var chars = selected.map(function (i) { return ROSTER[i]; });
+
+    // Tag counts (only tags shared by at least two fighters).
+    var counts = {};
+    chars.forEach(function (c) {
+      c.tags.forEach(function (tag) { counts[tag] = (counts[tag] || 0) + 1; });
+    });
+    var shared = Object.keys(counts)
+      .filter(function (tag) { return counts[tag] >= 2; })
+      .sort(function (a, b) { return counts[b] - counts[a] || a.localeCompare(b); });
+    tagsEl.innerHTML = '';
+    shared.forEach(function (tag) {
+      var li = document.createElement('li');
+      li.className = 'tag-pill';
+      li.textContent = tag + ' ';
+      var cnt = document.createElement('span');
+      cnt.className = 'cnt';
+      cnt.textContent = counts[tag] + '/' + chars.length;
+      li.appendChild(cnt);
+      tagsEl.appendChild(li);
+    });
+
+    // Role coverage.
+    rolesEl.innerHTML = '';
+    ['damage', 'tank', 'support'].forEach(function (role) {
+      var n = chars.filter(function (c) { return c.role === role; }).length;
+      var li = document.createElement('li');
+      li.className = 'tag-pill';
+      li.textContent = (n ? '✅ ' : '❌ ') + roleLabel(role) + ' ';
+      var cnt = document.createElement('span');
+      cnt.className = 'cnt';
+      cnt.textContent = String(n);
+      li.appendChild(cnt);
+      rolesEl.appendChild(li);
+    });
+
+    // Tips.
+    tipsEl.innerHTML = '';
+    var tips = [];
+    var allShare = shared.filter(function (tag) { return counts[tag] === chars.length; });
+    if (allShare.length) {
+      tips.push(TEXT.tipAllShare.replace('{tag}', allShare.join(' + ')));
+    } else if (!shared.length) {
+      tips.push(TEXT.tipNoShared);
+    }
+    if (!chars.some(function (c) { return c.role === 'damage'; })) tips.push(TEXT.tipNeedDamage);
+    if (!chars.some(function (c) { return c.role === 'tank'; })) tips.push(TEXT.tipNeedTank);
+    if (chars.length === MAX) tips.push(TEXT.tipFull);
+    tips.forEach(function (tip) {
+      var li = document.createElement('li');
+      li.textContent = tip;
+      tipsEl.appendChild(li);
+    });
+  }
+
+  ROSTER.forEach(function (c, i) {
+    var btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'b-chip';
+    btn.setAttribute('aria-pressed', 'false');
+    var rar = document.createElement('span');
+    rar.className = 'b-rarity b-rarity-' + c.rarity;
+    rar.textContent = c.rarity;
+    btn.appendChild(rar);
+    btn.appendChild(document.createTextNode(c.name.replace(/^(ULTRA|LF|SP) /, '')));
+    btn.title = c.tags.join(' · ');
+    btn.addEventListener('click', function () {
+      var pos = selected.indexOf(i);
+      if (pos === -1) {
+        if (selected.length >= MAX) return;
+        selected.push(i);
+      } else {
+        selected.splice(pos, 1);
+      }
+      render();
+    });
+    grid.appendChild(btn);
+  });
+
+  document.getElementById('builderReset').addEventListener('click', function () {
+    selected = [];
+    render();
+  });
+
+  render();
+})();
+</script>
 
 <!-- Matomo (cookieless) -->
 <script>
