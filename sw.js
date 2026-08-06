@@ -1,5 +1,5 @@
 /* Service Worker: macht die App offline nutzbar (App-Shell-Caching). */
-const CACHE_NAME = 'dbl-qr-v24';
+const CACHE_NAME = 'dbl-qr-v25';
 const ASSETS = [
   '/',
   '/index.html',
@@ -54,9 +54,9 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // Blog + Team-Guide (alle Sprachen): network-first, damit neue/aktualisierte
-  // Inhalte ohne SW-Release ankommen.
-  if (/^\/(?:[a-z]{2}\/)?(?:blog|teams)(?:\/|$)/.test(reqPath)) {
+  // Blog, Team-Guide + Promo-Codes-Seite (alle Sprachen): network-first,
+  // damit neue/aktualisierte Inhalte ohne SW-Release ankommen.
+  if (/^\/(?:[a-z]{2}\/)?(?:blog|teams|promo-codes)(?:\/|$)/.test(reqPath)) {
     event.respondWith(
       fetch(event.request)
         .then((response) => {

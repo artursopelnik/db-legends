@@ -306,10 +306,7 @@ function showToast(message) {
   showToast._timer = setTimeout(() => toast.classList.remove('show'), 1800);
 }
 
-// --- Promo-Codes -------------------------------------------------------
-
-let promoData = null;
-const PROMO_OPEN_KEY = 'dbl-promo-open';
+// --- Accordions (How-to & FAQ) -----------------------------------------
 
 // Macht ein Panel zum Accordion: Klick auf die Kopfzeile klappt um,
 // im eingeklappten Zustand ist das GESAMTE Panel Klickflaeche.
@@ -328,75 +325,6 @@ function setupAccordion(panelId, bodyId, toggleId, storageKey) {
     if (event.target.closest('.promo-toggle') || body.hidden) apply(body.hidden);
   });
   apply(localStorage.getItem(storageKey) === '1');
-}
-
-function renderPromos() {
-  const panel = document.getElementById('promoPanel');
-  const list = document.getElementById('promoList');
-  if (!promoData || !Array.isArray(promoData.codes)) return;
-
-  const today = new Date();
-  const active = promoData.codes.filter(c =>
-    c.code && (!c.expires || new Date(c.expires + 'T23:59:59') >= today));
-  if (!active.length) { panel.hidden = true; return; }
-
-  list.innerHTML = '';
-  for (const promo of active) {
-    const row = document.createElement('div');
-    row.className = 'promo-row';
-
-    const btn = document.createElement('button');
-    btn.className = 'promo-code';
-    btn.type = 'button';
-    btn.textContent = promo.code;
-    btn.addEventListener('click', () => {
-      const done = () => showToast(t('toastPromoCopied'));
-      if (navigator.clipboard && navigator.clipboard.writeText) {
-        navigator.clipboard.writeText(promo.code).then(done, () => fallbackCopy(promo.code, done));
-      } else {
-        fallbackCopy(promo.code, done);
-      }
-    });
-    row.appendChild(btn);
-
-    if (promo.new) {
-      const badge = document.createElement('span');
-      badge.className = 'promo-new';
-      badge.textContent = 'NEW';
-      row.appendChild(badge);
-    }
-
-    const reward = document.createElement('span');
-    reward.className = 'promo-reward';
-    reward.textContent = promo.reward || '';
-    row.appendChild(reward);
-
-    if (promo.expires) {
-      const exp = document.createElement('span');
-      exp.className = 'promo-expires';
-      const date = new Intl.DateTimeFormat(currentLang, { day: 'numeric', month: 'short', year: 'numeric' })
-        .format(new Date(promo.expires + 'T12:00:00'));
-      exp.textContent = t('promoExpires', { date });
-      row.appendChild(exp);
-    }
-    list.appendChild(row);
-  }
-
-  const link = document.getElementById('promoSourceLink');
-  link.href = promoData.source || '#';
-  try { link.textContent = new URL(promoData.source).hostname.replace('www.', ''); } catch { link.textContent = ''; }
-  document.getElementById('promoCount').textContent = active.length;
-  panel.hidden = false;
-}
-
-async function loadPromoCodes() {
-  if (window.__PROMO_DATA) { promoData = window.__PROMO_DATA; renderPromos(); return; }
-  try {
-    const res = await fetch('/promo-codes.json', { cache: 'no-cache' });
-    if (!res.ok) return;
-    promoData = await res.json();
-    renderPromos();
-  } catch { /* offline ohne Cache – Panel bleibt ausgeblendet */ }
 }
 
 // --- Liste per Link teilen ---------------------------------------------
@@ -518,7 +446,6 @@ document.getElementById('importFile').addEventListener('change', async (event) =
 });
 
 // Beide Accordions: Kopfzeile klappt um, eingeklappt ist das ganze Panel Klickflaeche
-setupAccordion('promoPanel', 'promoBody', 'promoToggle', PROMO_OPEN_KEY);
 setupAccordion('howtoPanel', 'howtoBody', 'howtoToggle', 'dbl-howto-open');
 setupAccordion('faqPanel', 'faqBody', 'faqToggle', 'dbl-faq-open');
 
@@ -584,4 +511,3 @@ applyStaticTranslations();
 setInterval(updateAges, 1000);
 render();
 importFromHash();
-loadPromoCodes();

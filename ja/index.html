@@ -256,9 +256,8 @@
     box-shadow: none;
   }
 
-  /* ---- Promo-Codes ---- */
+  /* ---- Accordion (How-to & FAQ) ---- */
   .promo-h2 { margin-bottom: 0 !important; }
-  .promo-panel #promoBody { margin-top: 12px; }
   .promo-toggle {
     display: flex;
     align-items: center;
@@ -279,56 +278,12 @@
   .panel.collapsed { cursor: pointer; }
   .panel.collapsed:hover { border-color: var(--orange); }
   .promo-toggle:focus-visible { outline: 3px solid var(--orange-soft); outline-offset: 3px; border-radius: 6px; }
-  .promo-count {
-    font-family: system-ui, sans-serif;
-    font-size: 0.8rem;
-    font-weight: 700;
-    letter-spacing: 0;
-    color: #06230f;
-    background: var(--green);
-    border-radius: 999px;
-    padding: 2px 9px;
-  }
   .promo-chev {
     margin-left: auto;
     color: var(--dim);
     transition: transform 0.2s ease;
   }
   .promo-toggle[aria-expanded="true"] .promo-chev { transform: rotate(180deg); }
-  .promo-list { display: flex; flex-direction: column; }
-  .promo-row {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 8px 12px;
-    padding: 10px 0;
-    border-bottom: 1px dashed var(--line);
-  }
-  .promo-row:last-child { border-bottom: none; }
-  .promo-code {
-    font-family: ui-monospace, "Cascadia Mono", Consolas, monospace;
-    font-size: 0.98rem;
-    letter-spacing: 1.5px;
-    background: #0e1428;
-    color: var(--orange-soft);
-    border: 1.5px solid var(--orange);
-    border-radius: 999px;
-    padding: 7px 14px;
-    box-shadow: none;
-  }
-  .promo-reward { color: var(--text); font-size: 0.92rem; flex: 1; min-width: 140px; }
-  .promo-expires { color: var(--dim); font-size: 0.8rem; }
-  .promo-new {
-    font-family: var(--display);
-    font-size: 0.78rem;
-    letter-spacing: 1px;
-    color: #06230f;
-    background: var(--green);
-    border-radius: 999px;
-    padding: 2px 9px;
-  }
-  .promo-source { margin-top: 10px; }
-  .promo-source a { color: var(--dim); }
 
   /* ---- How-to ---- */
   #howtoPanel, #faqPanel { margin-top: 18px; }
@@ -600,7 +555,7 @@
 
   <nav class="portal-nav" aria-label="dblqr.org">
     <span class="pchip active" aria-current="page">🔲 <span data-i18n="blogNavGenerator">QRジェネレーター</span></span>
-    <a class="pchip" href="#promoPanel" data-i18n="promoHeading">🎁 プロモコード</a>
+    <a class="pchip" href="/ja/promo-codes/" data-i18n="promoHeading">🎁 プロモコード</a>
     <a class="pchip" href="/ja/teams/">⚔️ <span data-i18n="navTeams">チームガイド</span></a>
     <a class="pchip" href="/ja/blog/">📖 <span data-i18n="blogNavBlog">ブログ</span></a>
   </nav>
@@ -609,7 +564,7 @@
     <p>⏳ <span data-i18n="eventNotice">周年イベントは現在休止中です。次のイベントでQRスキャナーがまた活躍します。保存したコードはそのまま使えます。</span></p>
     <p class="event-links"><span data-i18n="eventUntilThen">それまでは：</span>
       <a href="/ja/teams/">⚔️ <span data-i18n="navTeams">チームガイド</span></a> ·
-      <a href="#promoPanel" data-i18n="promoHeading">🎁 プロモコード</a> ·
+      <a href="/ja/promo-codes/" data-i18n="promoHeading">🎁 プロモコード</a> ·
       <a href="/ja/blog/">📖 <span data-i18n="blogLink">ガイド＆ブログ</span></a></p>
   </section>
 
@@ -620,22 +575,6 @@
       <button type="submit" data-i18n="addBtn">追加</button>
       <div class="error-msg" id="formError"></div>
     </form>
-  </section>
-
-  <section class="panel promo-panel" id="promoPanel" hidden>
-    <h2 class="promo-h2">
-      <button type="button" class="promo-toggle" id="promoToggle" aria-expanded="false" aria-controls="promoBody">
-        <span data-i18n="promoHeading">🎁 プロモコード</span>
-        <span class="promo-count" id="promoCount"></span>
-        <span class="promo-chev" aria-hidden="true">▾</span>
-      </button>
-    </h2>
-    <div id="promoBody" hidden>
-      <p class="hint" data-i18n="promoHint">コードをタップしてコピーし、ゲーム内で引き換えてください。</p>
-      <div class="promo-list" id="promoList"></div>
-      <p class="hint promo-source"><span data-i18n="promoSource">出典</span>:
-        <a id="promoSourceLink" target="_blank" rel="noopener noreferrer"></a></p>
-    </div>
   </section>
 
   <div class="toolbar">
@@ -732,6 +671,7 @@
     </p>
     <p class="copyright">© 2026 <a href="https://dblqr.org" rel="author">dblqr.org</a> · Artur Sopelnik</p>
     <p class="legal">
+      <a href="/ja/promo-codes/" data-i18n="navPromo">プロモコード</a> ·
       <a href="/ja/teams/" data-i18n="navTeams">チームガイド</a> ·
       <a href="/ja/blog/" data-i18n="blogLink">ガイド＆ブログ</a> ·
       <a href="https://artursopelnik.de/site-policy/" target="_blank" rel="noopener noreferrer" data-i18n="legalNotice">運営者情報</a> ·

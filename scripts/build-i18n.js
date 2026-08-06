@@ -21,6 +21,7 @@ const SITE_URL = 'https://dblqr.org';
 const { I18N, SUPPORTED_LANGS } = require(path.join(ROOT, 'i18n.js'));
 const { loadPosts, blogUrlForLang, postUrl } = require('./blog-lib.js');
 const { loadTeams, teamsPathForLang, teamsUrlForLang } = require('./teams-lib.js');
+const { promoPathForLang, promoUrlForLang } = require('./promo-lib.js');
 
 // Canonical primary lang = en (served at site root).
 const DEFAULT_LANG = 'en';
@@ -173,6 +174,7 @@ function renderPage(template, lang) {
   html = html.replaceAll('{{JSON_LD}}', buildJsonLd(lang));
   html = html.replaceAll('{{BLOG_HREF}}', lang === DEFAULT_LANG ? '/blog/' : `/${lang}/blog/`);
   html = html.replaceAll('{{TEAMS_HREF}}', teamsPathForLang(lang));
+  html = html.replaceAll('{{PROMO_HREF}}', promoPathForLang(lang));
 
   // Event-Hinweis: mit Datum (sobald bekannt) oder ohne. data-i18n-vars wird
   // von applyStaticTranslations() beim clientseitigen Übersetzen eingesetzt.
@@ -267,6 +269,23 @@ ${blogIndexAlternates.join('\n')}
 ${teamsAlternates.join('\n')}
     <lastmod>${teamsData.updatedAt}</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>${lang === DEFAULT_LANG ? '0.7' : '0.6'}</priority>
+  </url>`);
+  }
+
+  // Promo-codes pages: one entry per language; the codes update twice a day
+  // without a rebuild, so changefreq daily and no lastmod.
+  const promoAlternates = SUPPORTED_LANGS.map(
+    (l) => `    <xhtml:link rel="alternate" hreflang="${l}" href="${promoUrlForLang(l)}"/>`,
+  );
+  promoAlternates.push(
+    `    <xhtml:link rel="alternate" hreflang="x-default" href="${promoUrlForLang(DEFAULT_LANG)}"/>`,
+  );
+  for (const lang of SUPPORTED_LANGS) {
+    urls.push(`  <url>
+    <loc>${promoUrlForLang(lang)}</loc>
+${promoAlternates.join('\n')}
+    <changefreq>daily</changefreq>
     <priority>${lang === DEFAULT_LANG ? '0.7' : '0.6'}</priority>
   </url>`);
   }
