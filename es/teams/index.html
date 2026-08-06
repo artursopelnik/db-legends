@@ -267,11 +267,42 @@ footer a { color: var(--dim); }
 
 /* ---- Team builder ---- */
 .builder { margin: 26px 0; }
+.builder-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 14px 0 0;
+}
+.builder-controls input,
+.builder-controls select {
+  font: inherit;
+  font-size: 0.9rem;
+  color: var(--text);
+  background: #0e1428;
+  border: 1.5px solid var(--line);
+  border-radius: 10px;
+  padding: 8px 12px;
+}
+.builder-controls input { flex: 1 1 160px; min-width: 0; }
+.builder-controls input:focus,
+.builder-controls select:focus { outline: none; border-color: var(--orange); }
+.builder-none { color: var(--dim); font-size: 0.9rem; margin: 0 0 10px; }
 .builder-grid {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
   margin: 14px 0;
+}
+@media (max-width: 640px) {
+  .builder-grid {
+    max-height: 300px;
+    overflow-y: auto;
+    align-content: flex-start;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 10px;
+    -webkit-overflow-scrolling: touch;
+  }
 }
 .b-chip {
   display: inline-flex;
@@ -295,6 +326,7 @@ footer a { color: var(--dim); }
   color: var(--orange-soft);
 }
 .b-chip:disabled { opacity: 0.4; cursor: not-allowed; }
+.b-chip[hidden] { display: none; }
 .b-rarity {
   font-size: 0.68rem;
   font-weight: 800;
@@ -459,7 +491,14 @@ footer a { color: var(--dim); }
   <section class="team-card builder" id="builder">
     <h2>🛠️ Creador de equipos</h2>
     <p>Toca hasta seis luchadores y comprueba lo bien que encajan: los tags compartidos significan Z-Abilities alineadas y mayores mejoras.</p>
+    <div class="builder-controls">
+      <input type="search" id="builderSearch" placeholder="Buscar luchadores…" aria-label="Buscar luchadores…">
+      <select id="builderFilter" aria-label="Todas las etiquetas">
+        <option value="">Todas las etiquetas</option>
+      </select>
+    </div>
     <div class="builder-grid" id="builderGrid"></div>
+    <p class="builder-none" id="builderNone" hidden>Ningún luchador coincide con la búsqueda.</p>
     <div class="builder-summary" id="builderSummary">
       <h3 id="builderCount"></h3>
       <p id="builderEmpty">Elige al menos dos luchadores; lo ideal es empezar por tu mejor atacante.</p>
@@ -493,7 +532,7 @@ footer a { color: var(--dim); }
 <script>
 (function () {
   'use strict';
-  var ROSTER = [{"name":"ULTRA Super Saiyan God SS Gogeta","rarity":"UL","role":"damage","tags":["Saiyan","God Ki","Fusion Warrior","Movies"]},{"name":"ULTRA Ultra Instinct Goku","rarity":"UL","role":"damage","tags":["Saiyan","Son Family","God Ki"]},{"name":"ULTRA Beast Gohan","rarity":"UL","role":"damage","tags":["Hybrid Saiyan","Son Family","Movies"]},{"name":"ULTRA Janemba","rarity":"UL","role":"damage","tags":["Regeneration","Movies","Powerful Opponent"]},{"name":"ULTRA Super Full Power Saiyan 4 Goku","rarity":"UL","role":"damage","tags":["Saiyan","Son Family","GT"]},{"name":"LF Fused Zamasu (Red)","rarity":"LF","role":"tank","tags":["God Ki","Fusion Warrior","Future","Regeneration"]},{"name":"LF Half-Corrupted Fusion Zamasu","rarity":"LF","role":"support","tags":["God Ki","Fusion Warrior","Future","Regeneration"]},{"name":"LF Super Saiyan 4 Vegeta","rarity":"LF","role":"tank","tags":["Saiyan","Vegeta Family","GT"]},{"name":"LF Super Saiyan 4 Gogeta","rarity":"LF","role":"damage","tags":["Saiyan","Fusion Warrior","GT"]},{"name":"LF Gohan & Trunks (Adult)","rarity":"LF","role":"damage","tags":["Hybrid Saiyan","Son Family","Vegeta Family","Future"]},{"name":"LF Super Saiyan 2 Youth Gohan","rarity":"LF","role":"tank","tags":["Hybrid Saiyan","Son Family"]},{"name":"LF Vegito Blue","rarity":"LF","role":"damage","tags":["Saiyan","God Ki","Fusion Warrior","Future"]},{"name":"LF Super Saiyan God Goku","rarity":"LF","role":"damage","tags":["Saiyan","Son Family","God Ki"]},{"name":"LF Bardock","rarity":"LF","role":"damage","tags":["Saiyan","Son Family"]},{"name":"LF Majin Buu: Good","rarity":"LF","role":"tank","tags":["Regeneration"]},{"name":"LF Super Baby 2","rarity":"LF","role":"damage","tags":["Regeneration","GT","Lineage of Evil"]},{"name":"LF Super Trunks","rarity":"LF","role":"damage","tags":["Hybrid Saiyan","Vegeta Family","Future"]},{"name":"LF Goku Black (Super Saiyan Rosé)","rarity":"LF","role":"damage","tags":["God Ki","Future","Lineage of Evil"]},{"name":"LF Android #17 & #18","rarity":"LF","role":"tank","tags":["Android","Future"]},{"name":"LF Full Power Broly","rarity":"LF","role":"damage","tags":["Saiyan","Movies","Powerful Opponent"]},{"name":"LF Full Power Frieza","rarity":"LF","role":"damage","tags":["Lineage of Evil","Powerful Opponent"]},{"name":"SP Super Gogeta (Red)","rarity":"SP","role":"damage","tags":["Saiyan","Fusion Warrior","Movies"]},{"name":"SP Super Saiyan God SS Evolved Vegeta","rarity":"SP","role":"damage","tags":["Saiyan","Vegeta Family","God Ki"]},{"name":"SP God of Destruction Beerus","rarity":"SP","role":"support","tags":["God Ki","Powerful Opponent"]},{"name":"SP Super Saiyan God Goku","rarity":"SP","role":"support","tags":["Saiyan","Son Family","God Ki"]},{"name":"SP Super Saiyan Goten (Kid)","rarity":"SP","role":"support","tags":["Hybrid Saiyan","Son Family"]},{"name":"SP Super Saiyan Trunks (Kid)","rarity":"SP","role":"support","tags":["Hybrid Saiyan","Vegeta Family"]},{"name":"SP Orange Piccolo","rarity":"SP","role":"tank","tags":["Regeneration","Movies"]},{"name":"SP Perfect Cell (Revived)","rarity":"SP","role":"tank","tags":["Regeneration","Android","Lineage of Evil"]},{"name":"SP Ultimate Gohan","rarity":"SP","role":"damage","tags":["Hybrid Saiyan","Son Family"]},{"name":"SP Pan (GT)","rarity":"SP","role":"support","tags":["Hybrid Saiyan","Son Family","GT","Girls"]},{"name":"SP Majuub","rarity":"SP","role":"damage","tags":["GT","Regeneration"]}];
+  var ROSTER = [{"name":"ULTRA Super Full Power Saiyan 4 Goku","rarity":"UL","role":"damage","tags":["Saiyan","Son Family","GT"]},{"name":"ULTRA Ultra Instinct Goku","rarity":"UL","role":"damage","tags":["Saiyan","Son Family","God Ki"]},{"name":"ULTRA Super Saiyan God SS Gogeta","rarity":"UL","role":"damage","tags":["Saiyan","God Ki","Fusion Warrior","Movies"]},{"name":"ULTRA Beast Gohan","rarity":"UL","role":"damage","tags":["Hybrid Saiyan","Son Family","Movies"]},{"name":"ULTRA Janemba","rarity":"UL","role":"damage","tags":["Regeneration","Movies","Powerful Opponent"]},{"name":"ULTRA Ultra Instinct -Sign- Goku","rarity":"UL","role":"tank","tags":["Saiyan","Son Family","God Ki"]},{"name":"ULTRA Super Saiyan 3 Goku","rarity":"UL","role":"damage","tags":["Saiyan","Son Family"]},{"name":"ULTRA Super Vegito","rarity":"UL","role":"tank","tags":["Saiyan","Fusion Warrior"]},{"name":"ULTRA Super Saiyan Goku","rarity":"UL","role":"damage","tags":["Saiyan","Son Family"]},{"name":"ULTRA Majin Vegeta","rarity":"UL","role":"damage","tags":["Saiyan","Vegeta Family"]},{"name":"ULTRA Super Saiyan 2 Gohan (Youth)","rarity":"UL","role":"damage","tags":["Hybrid Saiyan","Son Family"]},{"name":"ULTRA Vegito","rarity":"UL","role":"damage","tags":["Saiyan","Fusion Warrior"]},{"name":"LF Fused Zamasu (Red)","rarity":"LF","role":"tank","tags":["God Ki","Fusion Warrior","Future","Regeneration"]},{"name":"LF Half-Corrupted Fusion Zamasu","rarity":"LF","role":"support","tags":["God Ki","Fusion Warrior","Future","Regeneration"]},{"name":"LF Super Saiyan 4 Goku","rarity":"LF","role":"damage","tags":["Saiyan","Son Family","GT"]},{"name":"LF Super Saiyan 4 Vegeta","rarity":"LF","role":"tank","tags":["Saiyan","Vegeta Family","GT"]},{"name":"LF Super Saiyan 4 Gogeta","rarity":"LF","role":"damage","tags":["Saiyan","Fusion Warrior","GT"]},{"name":"LF Ultra Instinct Goku","rarity":"LF","role":"damage","tags":["Saiyan","Son Family","God Ki"]},{"name":"LF Super Saiyan God SS Gogeta","rarity":"LF","role":"damage","tags":["Saiyan","Fusion Warrior","God Ki","Movies"]},{"name":"LF Super Saiyan God SS Evolved Vegeta","rarity":"LF","role":"damage","tags":["Saiyan","Vegeta Family","God Ki"]},{"name":"LF Gohan & Trunks (Adult)","rarity":"LF","role":"damage","tags":["Hybrid Saiyan","Son Family","Vegeta Family","Future"]},{"name":"LF Super Saiyan 2 Youth Gohan","rarity":"LF","role":"tank","tags":["Hybrid Saiyan","Son Family"]},{"name":"LF Vegito Blue","rarity":"LF","role":"damage","tags":["Saiyan","God Ki","Fusion Warrior","Future"]},{"name":"LF Super Saiyan God Goku","rarity":"LF","role":"damage","tags":["Saiyan","Son Family","God Ki"]},{"name":"LF Bardock","rarity":"LF","role":"damage","tags":["Saiyan","Son Family"]},{"name":"LF Super Saiyan 2 Kefla","rarity":"LF","role":"damage","tags":["Saiyan","Fusion Warrior","Girls"]},{"name":"LF Majin Buu: Good","rarity":"LF","role":"tank","tags":["Regeneration"]},{"name":"LF Kid Buu","rarity":"LF","role":"damage","tags":["Regeneration","Powerful Opponent"]},{"name":"LF Super Baby 2","rarity":"LF","role":"damage","tags":["Regeneration","GT","Lineage of Evil"]},{"name":"LF Super Trunks","rarity":"LF","role":"damage","tags":["Hybrid Saiyan","Vegeta Family","Future"]},{"name":"LF Goku Black (Super Saiyan Rosé)","rarity":"LF","role":"damage","tags":["God Ki","Future","Lineage of Evil"]},{"name":"LF Android #17 & #18","rarity":"LF","role":"tank","tags":["Android","Future"]},{"name":"LF Perfect Cell","rarity":"LF","role":"tank","tags":["Android","Regeneration","Lineage of Evil"]},{"name":"LF Cell Max","rarity":"LF","role":"tank","tags":["Android","Powerful Opponent","Movies"]},{"name":"LF Jiren","rarity":"LF","role":"damage","tags":["Powerful Opponent"]},{"name":"LF Full Power Broly","rarity":"LF","role":"damage","tags":["Saiyan","Movies","Powerful Opponent"]},{"name":"LF Full Power Frieza","rarity":"LF","role":"damage","tags":["Lineage of Evil","Powerful Opponent"]},{"name":"SP Super Gogeta (Red)","rarity":"SP","role":"damage","tags":["Saiyan","Fusion Warrior","Movies"]},{"name":"SP Super Saiyan God SS Evolved Vegeta","rarity":"SP","role":"damage","tags":["Saiyan","Vegeta Family","God Ki"]},{"name":"SP God of Destruction Beerus","rarity":"SP","role":"support","tags":["God Ki","Powerful Opponent"]},{"name":"SP Super Saiyan God Goku","rarity":"SP","role":"support","tags":["Saiyan","Son Family","God Ki"]},{"name":"SP Super Saiyan Goten (Kid)","rarity":"SP","role":"support","tags":["Hybrid Saiyan","Son Family"]},{"name":"SP Super Saiyan Trunks (Kid)","rarity":"SP","role":"support","tags":["Hybrid Saiyan","Vegeta Family"]},{"name":"SP Orange Piccolo","rarity":"SP","role":"tank","tags":["Regeneration","Movies"]},{"name":"SP Perfect Cell (Revived)","rarity":"SP","role":"tank","tags":["Regeneration","Android","Lineage of Evil"]},{"name":"SP Ultimate Gohan","rarity":"SP","role":"damage","tags":["Hybrid Saiyan","Son Family"]},{"name":"SP Android #21 (Evil)","rarity":"SP","role":"support","tags":["Android","Regeneration","Girls"]},{"name":"SP Videl","rarity":"SP","role":"support","tags":["Girls"]},{"name":"SP Golden Frieza","rarity":"SP","role":"damage","tags":["Lineage of Evil","Powerful Opponent"]},{"name":"SP Final Form Cooler","rarity":"SP","role":"damage","tags":["Lineage of Evil","Movies","Powerful Opponent"]},{"name":"SP Pan (GT)","rarity":"SP","role":"support","tags":["Hybrid Saiyan","Son Family","GT","Girls"]},{"name":"SP Super Baby 2","rarity":"SP","role":"damage","tags":["Regeneration","GT","Lineage of Evil"]},{"name":"SP Majuub","rarity":"SP","role":"damage","tags":["GT","Regeneration"]}];
   var TEXT = {"count":"Tu equipo ({n}/6)","roleDamage":"Daño","roleTank":"Defensa","roleSupport":"Soporte","tipAllShare":"Perfecto: todos los luchadores seleccionados comparten el tag «{tag}»; las Z-Abilities potencian a todos.","tipNoShared":"Aún no hay un tag común: las Z-Abilities no se potencian entre sí. Intenta construir en torno a un tag principal.","tipNeedDamage":"Añade un atacante: sin él no puedes cerrar las partidas.","tipNeedTank":"Añade un luchador defensivo para poder cambiar con seguridad bajo presión.","tipFull":"¡Equipo completo! Tres luchadores combaten y tres potencian al equipo desde el banquillo con sus Z-Abilities."};
   var MAX = 6;
   var selected = [];
@@ -605,6 +644,37 @@ footer a { color: var(--dim); }
     });
     grid.appendChild(btn);
   });
+
+  var searchEl = document.getElementById('builderSearch');
+  var filterEl = document.getElementById('builderFilter');
+  var noneEl = document.getElementById('builderNone');
+
+  var allTags = {};
+  ROSTER.forEach(function (c) {
+    c.tags.forEach(function (tag) { allTags[tag] = true; });
+  });
+  Object.keys(allTags).sort().forEach(function (tag) {
+    var opt = document.createElement('option');
+    opt.value = tag;
+    opt.textContent = tag;
+    filterEl.appendChild(opt);
+  });
+
+  function applyFilter() {
+    var q = searchEl.value.trim().toLowerCase();
+    var tag = filterEl.value;
+    var visible = 0;
+    grid.querySelectorAll('button').forEach(function (btn, i) {
+      var c = ROSTER[i];
+      var match = (!q || c.name.toLowerCase().indexOf(q) !== -1) &&
+        (!tag || c.tags.indexOf(tag) !== -1);
+      btn.hidden = !match;
+      if (match) visible++;
+    });
+    noneEl.hidden = visible > 0;
+  }
+  searchEl.addEventListener('input', applyFilter);
+  filterEl.addEventListener('change', applyFilter);
 
   document.getElementById('builderReset').addEventListener('click', function () {
     selected = [];
