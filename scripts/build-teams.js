@@ -176,8 +176,36 @@ function loadEquipsByTag() {
   return JSON.parse(fs.readFileSync(path.join(SRC, 'data', 'equips-by-tag.json'), 'utf8'));
 }
 
-function renderPage(template, css, lang, data, characters, equips) {
+// Optional official in-game equip names per language:
+// { "<english name>": { "de": "...", "fr": "..." } }. Missing file or
+// missing entries fall back to the English names.
+function loadEquipsI18n() {
+  const file = path.join(SRC, 'data', 'equips-i18n.json');
+  if (!fs.existsSync(file)) return {};
+  return JSON.parse(fs.readFileSync(file, 'utf8'));
+}
+
+// Returns the tag->equips map with names localized for lang, plus whether
+// coverage is good enough to drop the "English names" hint.
+function localizeEquips(equips, equipsI18n, lang) {
+  if (lang === 'en') return { equips, localized: true };
+  let total = 0;
+  let hit = 0;
+  const out = {};
+  for (const [tag, names] of Object.entries(equips)) {
+    out[tag] = names.map((name) => {
+      total++;
+      const loc = equipsI18n[name] && equipsI18n[name][lang];
+      if (loc) hit++;
+      return loc || name;
+    });
+  }
+  return { equips: out, localized: total > 0 && hit / total >= 0.8 };
+}
+
+function renderPage(template, css, lang, data, characters, equips, equipsI18n) {
   const dict = I18N[lang];
+  const { equips: langEquips, localized } = localizeEquips(equips, equipsI18n, lang);
   const cards = data.teams
     .map((team, i) => renderTeamCard(team, lang, i === 0 ? bestBadgeText(lang, data.updatedAt) : null))
     .join('\n');
@@ -191,6 +219,7 @@ function renderPage(template, css, lang, data, characters, equips) {
     verdictWeak: dict.builderVerdictWeak,
     recPerfect: dict.builderRecPerfect,
     recSwap: dict.builderRecSwap,
+    recEither: dict.builderRecEither,
     recRoleDamage: dict.builderRecRoleDamage,
     recRoleTank: dict.builderRecRoleTank,
     recRoleSupport: dict.builderRecRoleSupport,
@@ -207,7 +236,7 @@ function renderPage(template, css, lang, data, characters, equips) {
     equipBlast: dict.builderEquipBlast,
     equipMixed: dict.builderEquipMixed,
     equipDefense: dict.builderEquipDefense,
-    recEquipItems: dict.builderRecEquipItems,
+    recEquipItems: localized ? dict.builderRecEquipItems : dict.builderRecEquipItemsEn,
     starsLabel: dict.builderStarsLabel,
     awakeLabel: dict.builderAwakeLabel,
     moveUp: dict.builderMoveUp,
@@ -263,7 +292,7 @@ function renderPage(template, css, lang, data, characters, equips) {
     .replaceAll('{{ICON_BASE}}', iconBase())
     .replaceAll('{{BUILDER_NO_MATCHES}}', escapeHtmlText(dict.builderNoMatches))
     .replaceAll('{{ROSTER_JSON}}', jsonSafe(characters))
-    .replaceAll('{{EQUIPS_JSON}}', jsonSafe(equips))
+    .replaceAll('{{EQUIPS_JSON}}', jsonSafe(langEquips))
     .replaceAll('{{BUILDER_TEXT_JSON}}', jsonSafe(builderText))
     .replaceAll('{{CTA_HTML}}', dict.blogIndexCtaHtml)
     .replaceAll('{{CTA_BTN}}', escapeHtmlText(dict.blogIndexCtaBtn))
@@ -288,10 +317,11 @@ function main() {
   const data = loadTeams(SUPPORTED_LANGS);
   const characters = loadCharacters();
   const equips = loadEquipsByTag();
+  const equipsI18n = loadEquipsI18n();
   const css = fs.readFileSync(path.join(ROOT, 'src', 'blog', 'blog.css'), 'utf8').trim();
   const template = fs.readFileSync(path.join(SRC, 'index.template.html'), 'utf8');
   for (const lang of SUPPORTED_LANGS) {
-    const html = renderPage(template, css, lang, data, characters, equips);
+    const html = renderPage(template, css, lang, data, characters, equips, equipsI18n);
     checkNoLeftoverTokens(html, `${lang}/teams/index`);
     const outDir = outDirForLang(lang);
     fs.mkdirSync(outDir, { recursive: true });
