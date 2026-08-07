@@ -1,0 +1,46 @@
+name: Fetch card icons
+
+# Lädt alle Karten-Icons nach assets/card_icons/ und baut die Seiten neu,
+# damit der Team-Builder (Grid + Screenshot-Scan) die Icons selbst hostet.
+# Der Screenshot-Scan braucht CORS-lesbare Icons; die von dblegends.net
+# gehotlinkten Bilder liefern keine CORS-Header, selbst gehostete schon
+# (same-origin). Läuft auf dem Branch, auf dem er gestartet wird.
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/fetch-card-icons.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch icons
+        # Einzelne fehlende Icons (z. B. Roster-Extras) sollen den Lauf
+        # nicht abbrechen; ohne einen einzigen Treffer wird nichts committet.
+        run: python3 scripts/fetch_card_icons.py --workers 10 || echo "some icons failed"
+
+      - name: Rebuild pages
+        run: npm run build
+
+      - name: Commit
+        run: |
+          if ! ls assets/card_icons/*.webp >/dev/null 2>&1; then
+            echo "No icons fetched, nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+          git commit -m "Self-host card icons for the team builder and screenshot scan"
+          git push
