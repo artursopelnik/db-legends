@@ -206,6 +206,7 @@ function renderPage(template, css, lang, data, characters, equips) {
     equipDefense: dict.builderEquipDefense,
     recEquipItems: dict.builderRecEquipItems,
     starsLabel: dict.builderStarsLabel,
+    awakeLabel: dict.builderAwakeLabel,
     moveUp: dict.builderMoveUp,
     moveDown: dict.builderMoveDown,
     preview: dict.builderPreview,
