@@ -1,44 +1,44 @@
 {
-  "updatedAt": "2026-08-06",
+  "updatedAt": "2026-08-07",
   "teams": [
     {
       "slug": "fusion-warrior",
       "tag": "Fusion Warrior",
       "emoji": "🔀",
       "core": [
+        { "name": "LEGEND Super Saiyan God Shallet", "role": "damage" },
         { "name": "ULTRA Super Saiyan God SS Gogeta", "role": "damage" },
-        { "name": "LF Fused Zamasu (Red)", "role": "tank" },
-        { "name": "LF Half-Corrupted Fusion Zamasu", "role": "support" }
+        { "name": "LF Fused Zamasu (Red)", "role": "tank" }
       ],
-      "bench": ["LF Super Saiyan 4 Gogeta", "LF Vegito Blue", "SP Super Gogeta (Red)"],
+      "bench": ["LF Half-Corrupted Fusion Zamasu", "LF Super Saiyan 4 Gogeta", "SP Super Saiyan God Giblet"],
       "text": {
         "en": {
-          "why": "The poster team of the current meta: ULTRA SSGSS Gogeta delivers enormous strike damage while both Zamasu builds add healing and punish careless switches. The Z-Abilities line up almost perfectly, so the core works even without the newest banner units.",
-          "equip": "Pure strike-attack equips on Gogeta, a mixed attack/defense set on Fused Zamasu and one health-focused equip on the support slot. Fusion Warrior tag equips give the biggest flat boosts."
+          "why": "Ablaze in divine crimson: the new 8th-anniversary LEGEND Super Saiyan God Shallet – the red-haired fusion of Shallot and Giblet – now leads the tag. His blast arts hit brutally hard, and his switch to the LGT element means he never fights at an element disadvantage. ULTRA SSGSS Gogeta brings strike damage on a second front while Fused Zamasu tanks and heals.",
+          "equip": "Blast-attack equips on Shallet, pure strike equips on Gogeta and a defensive health set on Fused Zamasu. Fusion Warrior tag equips give the biggest flat boosts."
         },
         "de": {
-          "why": "Das Aushängeschild der aktuellen Meta: ULTRA SSGSS Gogeta liefert enormen Strike-Schaden, während beide Zamasu-Varianten heilen und unvorsichtige Wechsel bestrafen. Die Z-Abilities greifen fast perfekt ineinander. Der Kern funktioniert auch ohne die neuesten Banner-Einheiten.",
-          "equip": "Reine Strike-Attack-Equips auf Gogeta, ein gemischtes Angriff/Verteidigung-Set auf Fused Zamasu und ein Health-Equip auf dem Support-Slot. Equips mit Fusion-Warrior-Bedingung geben die größten Boosts."
+          "why": "In göttlichem Karmesinrot: Der neue 8th-Anniversary-LEGEND Super Saiyan God Shallet – die rothaarige Fusion aus Shallot und Giblet – führt den Tag jetzt an. Seine Blast-Arts treffen brutal hart, und dank des Wechsels auf das LGT-Element kämpft er nie mit Element-Nachteil. ULTRA SSGSS Gogeta liefert Strike-Schaden auf der zweiten Front, während Fused Zamasu tankt und heilt.",
+          "equip": "Blast-Attack-Equips auf Shallet, reine Strike-Equips auf Gogeta und ein defensives Health-Set auf Fused Zamasu. Equips mit Fusion-Warrior-Bedingung geben die größten Boosts."
         },
         "es": {
-          "why": "El equipo estrella del meta actual: ULTRA SSGSS Gogeta inflige un daño de golpe enorme mientras ambos Zamasu curan y castigan los cambios descuidados. Las Z-Abilities encajan casi a la perfección, así que el núcleo funciona incluso sin las unidades más nuevas.",
-          "equip": "Equipos de ataque de golpe puros para Gogeta, un set mixto de ataque/defensa para Fused Zamasu y un equipo de salud en el soporte: los equipos con condición Fusion Warrior dan los mayores aumentos."
+          "why": "Ardiendo en carmesí divino: el nuevo LEGEND del octavo aniversario, Super Saiyan God Shallet – la fusión pelirroja de Shallot y Giblet – lidera ahora la etiqueta. Sus artes de ráfaga golpean durísimo y puede cambiar al elemento LGT, así que nunca pelea con desventaja de elemento. ULTRA SSGSS Gogeta añade daño de golpe en un segundo frente mientras Fused Zamasu aguanta y cura.",
+          "equip": "Equipos de ataque de ráfaga para Shallet, equipos de golpe puros para Gogeta y un set defensivo de salud para Fused Zamasu. Los equipos con condición Fusion Warrior dan los mayores aumentos."
         },
         "pt": {
-          "why": "O time símbolo do meta atual: ULTRA SSGSS Gogeta causa dano de golpe enorme enquanto os dois Zamasu curam e punem trocas descuidadas. As Z-Abilities se encaixam quase perfeitamente. O núcleo funciona mesmo sem as unidades mais novas.",
-          "equip": "Equipamentos puros de ataque de golpe no Gogeta, um conjunto misto de ataque/defesa no Fused Zamasu e um equipamento de vida no suporte. Equipamentos com condição Fusion Warrior dão os maiores bônus."
+          "why": "Em chamas no carmesim divino: o novo LEGEND do 8º aniversário, Super Saiyan God Shallet – a fusão de cabelos vermelhos de Shallot e Giblet – agora lidera a tag. Suas artes de rajada batem fortíssimo e ele pode mudar para o elemento LGT, então nunca luta em desvantagem de elemento. ULTRA SSGSS Gogeta adiciona dano de golpe numa segunda frente enquanto Fused Zamasu tanka e cura.",
+          "equip": "Equipamentos de ataque de rajada no Shallet, equipamentos puros de golpe no Gogeta e um conjunto defensivo de vida no Fused Zamasu. Equipamentos com condição Fusion Warrior dão os maiores bônus."
         },
         "fr": {
-          "why": "L'équipe vitrine de la méta actuelle : ULTRA SSGSS Gogeta inflige d'énormes dégâts de frappe tandis que les deux Zamasu soignent et punissent les changements imprudents. Les Z-Abilities s'alignent presque parfaitement. Le noyau fonctionne même sans les toutes dernières unités.",
-          "equip": "Équipements purs d'attaque de frappe sur Gogeta, un set mixte attaque/défense sur Fused Zamasu et un équipement de santé sur le support. Les équipements à condition Fusion Warrior donnent les plus gros bonus."
+          "why": "Embrasée de cramoisi divin : le nouveau LEGEND du 8e anniversaire, Super Saiyan God Shallet – la fusion aux cheveux rouges de Shallot et Giblet – mène désormais le tag. Ses arts de tir frappent très fort et il peut passer à l'élément LGT, il ne combat donc jamais avec un désavantage d'élément. ULTRA SSGSS Gogeta ajoute des dégâts de frappe sur un second front tandis que Fused Zamasu encaisse et soigne.",
+          "equip": "Équipements d'attaque de tir sur Shallet, équipements purs de frappe sur Gogeta et un set défensif de santé sur Fused Zamasu. Les équipements à condition Fusion Warrior donnent les plus gros bonus."
         },
         "ru": {
-          "why": "Визитная карточка текущей меты: ULTRA SSGSS Гогета наносит огромный strike-урон, а оба Замасу лечат и наказывают неосторожные смены. Z-Abilities сочетаются почти идеально. Ядро работает даже без самых новых юнитов.",
-          "equip": "Чистые strike-attack экипировки на Гогету, смешанный набор атака/защита на Слитого Замасу и экипировка на здоровье для саппорта. Экипировки с условием Fusion Warrior дают самые большие бонусы."
+          "why": "В божественном багрянце: новый LEGEND 8-й годовщины Супер Саян Бог Шаллет – рыжеволосая фузия Шаллота и Гиблета – теперь возглавляет тег. Его blast-арты бьют чудовищно сильно, а благодаря переключению на элемент LGT он никогда не дерётся с невыгодным элементом. ULTRA SSGSS Гогета добавляет strike-урон вторым фронтом, пока Слитый Замасу танкует и лечит.",
+          "equip": "Blast-экипировки на Шаллета, чистые strike-экипировки на Гогету и защитный набор на здоровье для Слитого Замасу. Экипировки с условием Fusion Warrior дают самые большие бонусы."
         },
         "ja": {
-          "why": "現環境の看板チーム。ULTRA SSGSSゴジータが圧倒的な打撃ダメージを出し、2種のザマスが回復と交代狩りで支えます。Zアビリティの噛み合いがほぼ完璧で、最新ガシャキャラなしでもコアが成立します。",
-          "equip": "ゴジータには打撃攻撃特化の装備、合体ザマスには攻防ミックス、サポート枠には体力重視の装備を。「合体戦士」条件付き装備が最も大きく伸びます。"
+          "why": "神々しき深紅の切り札。8周年の新LEGEND「超サイヤ人ゴッド シャレット」――シャロットとギブレットの赤髪の合体戦士――がこのタグの主役になりました。射撃アーツの火力が凄まじく、LGT属性への切り替えで属性不利を打ち消せます。ULTRA SSGSSゴジータが打撃の第二火力を担い、合体ザマスが耐久と回復で支えます。",
+          "equip": "シャレットには射撃攻撃装備、ゴジータには打撃特化装備、合体ザマスには体力重視の防御セットを。「合体戦士」条件付き装備が最も大きく伸びます。"
         }
       }
     },

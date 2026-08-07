@@ -75,6 +75,37 @@ function localizeBodyLinks(body, lang) {
   return body.replace(/href="\/blog\//g, `href="${target}`);
 }
 
+// Splits a localized page H1 around the "Dragon Ball Legends" brand so brand
+// and page name render as two stacked lines (mirrors the generator's
+// <h1>Dragon Ball Legends<br>QR Generator</h1>); on narrow phones the long
+// one-line title used to wrap mid-word ("Team-" / "Guide"). Falls back to the
+// plain escaped title when a translation doesn't contain the brand.
+const H1_BRANDS = ['Dragon Ball Legends', 'ドラゴンボール レジェンズ'];
+
+function escapeH1Text(s) {
+  return String(s)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+}
+
+function splitH1Html(title) {
+  for (const brand of H1_BRANDS) {
+    const idx = title.indexOf(brand);
+    if (idx === -1) continue;
+    const rest = `${title.slice(0, idx)} ${title.slice(idx + brand.length)}`
+      .replace(/\s+/g, ' ')
+      .trim()
+      // Drop a connector left dangling once the brand moves to its own line
+      // ("Guía de equipos de …" → "Guía de equipos").
+      .replace(/\s+(de|do|da|des|of)$/i, '');
+    if (!rest) break;
+    return `<span class="h1-brand">${escapeH1Text(brand)}</span> ` +
+      `<span class="h1-page">${escapeH1Text(rest)}</span>`;
+  }
+  return escapeH1Text(title);
+}
+
 function loadPosts(lang) {
   const dir = path.join(POSTS_ROOT, lang);
   if (!fs.existsSync(dir)) {
@@ -101,6 +132,7 @@ function loadPosts(lang) {
 
 module.exports = {
   loadPosts,
+  splitH1Html,
   SITE_URL,
   DEFAULT_LANG,
   blogPathForLang,

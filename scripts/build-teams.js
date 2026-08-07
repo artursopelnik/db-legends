@@ -18,7 +18,7 @@ const SRC = path.join(ROOT, 'src', 'teams');
 
 const { loadTeams, loadCharacters, teamsPathForLang, teamsUrlForLang, SITE_URL, DEFAULT_LANG } =
   require('./teams-lib.js');
-const { blogPathForLang, homePathForLang } = require('./blog-lib.js');
+const { blogPathForLang, homePathForLang, splitH1Html } = require('./blog-lib.js');
 const { promoPathForLang } = require('./promo-lib.js');
 const { I18N, SUPPORTED_LANGS } = require(path.join(ROOT, 'i18n.js'));
 
@@ -206,6 +206,7 @@ function renderPage(template, css, lang, data, characters, equips) {
     equipDefense: dict.builderEquipDefense,
     recEquipItems: dict.builderRecEquipItems,
     starsLabel: dict.builderStarsLabel,
+    awakeLabel: dict.builderAwakeLabel,
     moveUp: dict.builderMoveUp,
     moveDown: dict.builderMoveDown,
     scanLoading: dict.builderScanLoading,
@@ -215,6 +216,7 @@ function renderPage(template, css, lang, data, characters, equips) {
     scanUnavailable: dict.builderScanUnavailable,
     scanSlot: dict.builderScanSlot,
     scanUncertain: dict.builderScanUncertain,
+    preview: dict.builderPreview,
   };
   return template
     .replaceAll('{{LANG}}', lang)
@@ -233,7 +235,7 @@ function renderPage(template, css, lang, data, characters, equips) {
     .replaceAll('{{NAV_GENERATOR_LABEL}}', escapeHtmlText(dict.blogNavGenerator))
     .replaceAll('{{PROMO_URL}}', promoPathForLang(lang))
     .replaceAll('{{NAV_PROMO_LABEL}}', escapeHtmlText(dict.navPromo))
-    .replaceAll('{{TEAMS_H1}}', escapeHtmlText(dict.teamsH1))
+    .replaceAll('{{TEAMS_H1}}', splitH1Html(dict.teamsH1))
     .replaceAll('{{TEAMS_INTRO}}', escapeHtmlText(dict.teamsIntro))
     .replaceAll('{{UPDATED_LABEL}}', escapeHtmlText(dict.blogPostUpdatedLabel))
     .replaceAll('{{UPDATED_ISO}}', data.updatedAt)
