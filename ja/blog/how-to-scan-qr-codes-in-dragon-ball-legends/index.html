@@ -108,6 +108,11 @@ body {
   color: transparent;
 }
 .site-nav .spacer { flex: 1; }
+@media (max-width: 560px) {
+  .site-nav { row-gap: 6px; }
+  .site-nav .brand { flex-basis: 100%; }
+  .site-nav .spacer { display: none; }
+}
 
 h1 {
   font-family: var(--display);
