@@ -521,7 +521,30 @@ details.team-card[open] summary { margin-bottom: 10px; }
 }
 .b-scan-btn:hover { background: linear-gradient(180deg, rgba(255,148,36,0.3), rgba(248,85,31,0.2)); }
 .b-scan-btn:disabled { opacity: 0.5; cursor: wait; }
-.builder-scan-hint { color: var(--dim); font-size: 0.88rem; line-height: 1.5; margin: 8px 0 0; }
+.builder-scan-intro {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin: 10px 0 0;
+}
+.builder-scan-example {
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  text-decoration: none;
+}
+.builder-scan-example img {
+  width: 72px;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  display: block;
+}
+.builder-scan-example:hover img { border-color: var(--orange); }
+.builder-scan-example span { color: var(--dim); font-size: 0.7rem; }
+.builder-scan-hint { color: var(--dim); font-size: 0.88rem; line-height: 1.5; margin: 0; }
 .builder-scan-status { color: var(--dim); font-size: 0.9rem; margin: 10px 0 0; }
 .builder-scan-status.scan-error { color: var(--orange-soft); }
 .builder-scan-report[hidden] { display: none; }
@@ -670,7 +693,13 @@ details.team-card[open] summary { margin-bottom: 10px; }
     <div class="builder-scan">
       <input type="file" id="builderShotFile" accept="image/*" hidden>
       <button type="button" class="b-scan-btn" id="builderShotBtn">📷 Upload team screenshot</button>
-      <p class="builder-scan-hint">Take a screenshot of the in-game home screen with your party visible on the right and upload it here – the fighters are detected and filled in automatically, in the right order.</p>
+      <div class="builder-scan-intro">
+        <a class="builder-scan-example" href="/teams/example-team-screenshot.webp" target="_blank" rel="noopener">
+          <img src="/teams/example-team-screenshot.webp" alt="Example screenshot" loading="lazy" width="585" height="1266">
+          <span>Example screenshot</span>
+        </a>
+        <p class="builder-scan-hint">Take a screenshot of the in-game home screen with your party visible on the right and upload it here – the fighters are detected and filled in automatically, in the right order.</p>
+      </div>
       <p class="builder-scan-status" id="builderScanStatus" hidden></p>
       <ul class="builder-scan-report" id="builderScanReport" hidden></ul>
     </div>
