@@ -219,7 +219,7 @@ function renderPage(template, css, lang, data, characters, equips, equipsI18n) {
     verdictWeak: dict.builderVerdictWeak,
     recPerfect: dict.builderRecPerfect,
     recSwap: dict.builderRecSwap,
-    recDeepen: dict.builderRecDeepen,
+    recEither: dict.builderRecEither,
     recRoleDamage: dict.builderRecRoleDamage,
     recRoleTank: dict.builderRecRoleTank,
     recRoleSupport: dict.builderRecRoleSupport,

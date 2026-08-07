@@ -866,8 +866,8 @@ details.team-card[open] summary { margin-bottom: 10px; }
         var alt = onTag.filter(function (p) { return p.role === c.role; }).sort(byRarity)[0] ||
           onTag.sort(byRarity)[0];
         // A built-up fighter (stars, Zenkai) can outclass any on-tag
-        // replacement: keep it and suggest deepening its own strongest
-        // side synergy instead of swapping it out.
+        // replacement. Present both directions as alternatives: swap for
+        // main-tag synergy, or keep it and build up its own side synergy.
         if (alt && effScore(alt, -1, mainTag) <= effScore(c, idx, mainTag)) {
           var altTag = null;
           c.tags.forEach(function (tag) {
@@ -877,9 +877,12 @@ details.team-card[open] summary { margin-bottom: 10px; }
             return p.tags.indexOf(altTag) !== -1;
           }).sort(byRarity).slice(0, 2) : [];
           if (deepen.length) {
-            recs.push(TEXT.recDeepen
-              .replace('{name}', c.name)
-              .replace('{tag}', altTag)
+            usedAlts[alt.name] = true;
+            recs.push(TEXT.recEither
+              .replace(/\{name\}/g, c.name)
+              .replace('{alt}', alt.name)
+              .replace('{tag}', mainTag)
+              .replace('{tag2}', altTag)
               .replace('{names}', deepen.map(function (p) { return p.name; }).join(', ')));
           }
           return;
