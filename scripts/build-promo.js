@@ -19,7 +19,7 @@ const ROOT = path.resolve(__dirname, '..');
 const SRC = path.join(ROOT, 'src', 'promo');
 
 const { promoUrlForLang, SITE_URL, DEFAULT_LANG } = require('./promo-lib.js');
-const { blogPathForLang, homePathForLang, postPath } = require('./blog-lib.js');
+const { blogPathForLang, homePathForLang, postPath, splitH1Html } = require('./blog-lib.js');
 const { teamsPathForLang } = require('./teams-lib.js');
 const { I18N, SUPPORTED_LANGS } = require(path.join(ROOT, 'i18n.js'));
 
@@ -114,7 +114,7 @@ function renderPage(template, css, lang) {
     .replaceAll('{{NAV_TEAMS_LABEL}}', escapeHtmlText(dict.navTeams))
     .replaceAll('{{NAV_BLOG_LABEL}}', escapeHtmlText(dict.blogNavBlog))
     .replaceAll('{{NAV_GENERATOR_LABEL}}', escapeHtmlText(dict.blogNavGenerator))
-    .replaceAll('{{PROMO_H1}}', escapeHtmlText(dict.promoH1))
+    .replaceAll('{{PROMO_H1}}', splitH1Html(dict.promoH1))
     .replaceAll('{{PROMO_INTRO}}', escapeHtmlText(dict.promoIntro))
     .replaceAll('{{PROMO_EMPTY}}', escapeHtmlText(dict.promoEmpty))
     .replaceAll('{{UPDATED_LABEL}}', escapeHtmlText(dict.blogPostUpdatedLabel))
