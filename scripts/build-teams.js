@@ -163,6 +163,14 @@ ${body}
   </details>`;
 }
 
+// Card icons are optional: scripts/fetch_card_icons.py fills assets/card_icons
+// on a machine that can reach dblegends.net. Without them the builder shows
+// element dots only instead of firing 700 broken image requests.
+function iconsAvailable() {
+  const dir = path.join(ROOT, 'assets', 'card_icons');
+  return fs.existsSync(dir) && fs.readdirSync(dir).some((f) => f.endsWith('.webp'));
+}
+
 function loadEquipsByTag() {
   return JSON.parse(fs.readFileSync(path.join(SRC, 'data', 'equips-by-tag.json'), 'utf8'));
 }
@@ -232,6 +240,8 @@ function renderPage(template, css, lang, data, characters, equips) {
     .replaceAll('{{BUILDER_CLEAR}}', escapeHtmlText(dict.builderClear))
     .replaceAll('{{BUILDER_SEARCH}}', escapeHtmlAttr(dict.builderSearch))
     .replaceAll('{{BUILDER_FILTER_ALL}}', escapeHtmlText(dict.builderFilterAll))
+    .replaceAll('{{BUILDER_FILTER_RARITY}}', escapeHtmlText(dict.builderFilterRarity))
+    .replaceAll('{{ICONS_AVAILABLE}}', iconsAvailable() ? 'true' : 'false')
     .replaceAll('{{BUILDER_NO_MATCHES}}', escapeHtmlText(dict.builderNoMatches))
     .replaceAll('{{ROSTER_JSON}}', jsonSafe(characters))
     .replaceAll('{{EQUIPS_JSON}}', jsonSafe(equips))

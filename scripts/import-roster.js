@@ -122,6 +122,7 @@ function main() {
       rarity,
       role: roleFromTags(entry.tags),
       stat: entry.stat || 'mixed',
+      icon: entry.icon || null,
       tags,
     };
   });
@@ -140,8 +141,8 @@ function main() {
   all.sort((a, b) =>
     RARITY_ORDER[a.rarity] - RARITY_ORDER[b.rarity] || a.name.localeCompare(b.name));
 
-  const characters = all.map(({ name, rarity, role, stat, tags }) =>
-    ({ name, rarity, role, stat: stat || 'mixed', tags }));
+  const characters = all.map(({ name, rarity, role, stat, color, icon, tags }) =>
+    ({ name, rarity, role, stat: stat || 'mixed', color: color || null, icon: icon || null, tags }));
   fs.writeFileSync(OUT, JSON.stringify({ characters }, null, 2) + '\n', 'utf8');
   console.log(`Wrote ${characters.length} characters to ${path.relative(ROOT, OUT)}`);
 }

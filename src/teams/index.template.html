@@ -154,6 +154,38 @@ details.team-card[open] summary { margin-bottom: 10px; }
 .builder-controls input { flex: 1 1 160px; min-width: 0; }
 .builder-controls input:focus,
 .builder-controls select:focus { outline: none; border-color: var(--orange); }
+.builder-elements {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 10px 0 0;
+}
+.b-elem {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  padding: 0;
+  cursor: pointer;
+  box-shadow: none;
+  opacity: 0.4;
+}
+.b-elem:hover { opacity: 0.75; }
+.b-elem[aria-pressed="true"] { opacity: 1; border-color: var(--text); }
+.b-dot {
+  display: inline-block;
+  flex: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.35);
+}
+.b-icon {
+  flex: none;
+  width: 26px;
+  height: 26px;
+  border-radius: 6px;
+}
 .builder-none { color: var(--dim); font-size: 0.9rem; margin: 0 0 10px; }
 .builder-grid {
   display: flex;
@@ -322,7 +354,11 @@ details.team-card[open] summary { margin-bottom: 10px; }
       <select id="builderFilter" aria-label="{{BUILDER_FILTER_ALL}}">
         <option value="">{{BUILDER_FILTER_ALL}}</option>
       </select>
+      <select id="builderRarity" aria-label="{{BUILDER_FILTER_RARITY}}">
+        <option value="">{{BUILDER_FILTER_RARITY}}</option>
+      </select>
     </div>
+    <div class="builder-elements" id="builderElements"></div>
     <div class="builder-grid" id="builderGrid"></div>
     <p class="builder-none" id="builderNone" hidden>{{BUILDER_NO_MATCHES}}</p>
     <div class="builder-summary" id="builderSummary">
@@ -363,6 +399,12 @@ details.team-card[open] summary { margin-bottom: 10px; }
   var ROSTER = {{ROSTER_JSON}};
   var EQUIPS = {{EQUIPS_JSON}};
   var TEXT = {{BUILDER_TEXT_JSON}};
+  var ICONS = {{ICONS_AVAILABLE}};
+  var ELEMENT_COLORS = {
+    RED: '#e23b3b', YEL: '#e5c033', PUR: '#a052e0', GRN: '#43c55f',
+    BLU: '#3f8fe8', LGT: '#e8e8f2', DRK: '#5a4a80'
+  };
+  var baseColor = function (c) { return (c.color || '').replace('+', ''); };
   var MAX = 6;
   var selected = [];
   var stars = {};
@@ -397,6 +439,7 @@ details.team-card[open] summary { margin-bottom: 10px; }
     selected.forEach(function (idx, pos) {
       var c = ROSTER[idx];
       var li = document.createElement('li');
+      li.appendChild(elementDot(c));
       var name = document.createElement('span');
       name.className = 'fighter-name';
       name.textContent = (pos === 0 ? '👑 ' : '') + c.name;
@@ -605,11 +648,29 @@ details.team-card[open] summary { margin-bottom: 10px; }
     });
   }
 
+  function elementDot(c) {
+    var dot = document.createElement('span');
+    dot.className = 'b-dot';
+    dot.style.background = ELEMENT_COLORS[baseColor(c)] || 'transparent';
+    dot.title = c.color || '';
+    return dot;
+  }
+
   ROSTER.forEach(function (c, i) {
     var btn = document.createElement('button');
     btn.type = 'button';
     btn.className = 'b-chip';
     btn.setAttribute('aria-pressed', 'false');
+    if (ICONS && c.icon) {
+      var img = document.createElement('img');
+      img.className = 'b-icon';
+      img.loading = 'lazy';
+      img.alt = '';
+      img.src = '/assets/card_icons/' + c.icon;
+      img.addEventListener('error', function () { img.remove(); });
+      btn.appendChild(img);
+    }
+    btn.appendChild(elementDot(c));
     var rar = document.createElement('span');
     rar.className = 'b-rarity b-rarity-' + c.rarity;
     rar.textContent = c.rarity;
@@ -631,7 +692,10 @@ details.team-card[open] summary { margin-bottom: 10px; }
 
   var searchEl = document.getElementById('builderSearch');
   var filterEl = document.getElementById('builderFilter');
+  var rarityEl = document.getElementById('builderRarity');
+  var elementsEl = document.getElementById('builderElements');
   var noneEl = document.getElementById('builderNone');
+  var selectedElements = {};
 
   var allTags = {};
   ROSTER.forEach(function (c) {
@@ -644,16 +708,44 @@ details.team-card[open] summary { margin-bottom: 10px; }
     filterEl.appendChild(opt);
   });
 
+  var RARITY_LABELS = { LG: 'LEGEND', UL: 'ULTRA', LF: 'LF', SP: 'SP', EX: 'EX', HE: 'HERO' };
+  ['LG', 'UL', 'LF', 'SP', 'EX', 'HE'].forEach(function (rarity) {
+    var opt = document.createElement('option');
+    opt.value = rarity;
+    opt.textContent = RARITY_LABELS[rarity];
+    rarityEl.appendChild(opt);
+  });
+
+  Object.keys(ELEMENT_COLORS).forEach(function (code) {
+    var btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'b-elem';
+    btn.style.background = ELEMENT_COLORS[code];
+    btn.setAttribute('aria-pressed', 'false');
+    btn.setAttribute('aria-label', code);
+    btn.title = code;
+    btn.addEventListener('click', function () {
+      selectedElements[code] = !selectedElements[code];
+      btn.setAttribute('aria-pressed', selectedElements[code] ? 'true' : 'false');
+      applyFilter();
+    });
+    elementsEl.appendChild(btn);
+  });
+
   function applyFilter() {
     var q = searchEl.value.trim().toLowerCase();
     var tag = filterEl.value;
+    var rarity = rarityEl.value;
+    var anyElement = Object.keys(selectedElements).some(function (k) { return selectedElements[k]; });
     var visible = 0;
     grid.querySelectorAll('button').forEach(function (btn, i) {
       var c = ROSTER[i];
       var nameHit = c.name.toLowerCase().indexOf(q) !== -1;
       var tagHit = c.tags.some(function (t) { return t.toLowerCase().indexOf(q) !== -1; });
       var match = (!q || nameHit || tagHit) &&
-        (!tag || c.tags.indexOf(tag) !== -1);
+        (!tag || c.tags.indexOf(tag) !== -1) &&
+        (!rarity || c.rarity === rarity) &&
+        (!anyElement || selectedElements[baseColor(c)]);
       btn.hidden = !match;
       if (match) visible++;
     });
@@ -661,6 +753,7 @@ details.team-card[open] summary { margin-bottom: 10px; }
   }
   searchEl.addEventListener('input', applyFilter);
   filterEl.addEventListener('change', applyFilter);
+  rarityEl.addEventListener('change', applyFilter);
 
   document.getElementById('builderReset').addEventListener('click', function () {
     selected = [];
