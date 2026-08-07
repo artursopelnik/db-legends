@@ -125,6 +125,10 @@ h1 {
   color: transparent;
   margin-bottom: 10px;
 }
+/* Brand and page name as two stacked lines, like the generator's H1 –
+   keeps "Dragon Ball Legends" from wrapping mid-word on phones. */
+h1 .h1-brand,
+h1 .h1-page { display: block; }
 
 .post-meta { color: var(--dim); font-size: 0.88rem; margin-bottom: 26px; }
 
@@ -282,7 +286,7 @@ footer a { color: var(--dim); }
     <a href="/pt/">Gerador de QR</a>
   </nav>
 
-  <h1>Códigos promocionais de Dragon Ball Legends</h1>
+  <h1><span class="h1-brand">Dragon Ball Legends</span> <span class="h1-page">Códigos promocionais</span></h1>
   <p class="post-meta">Todos os códigos ativos no momento, atualizados automaticamente. Toque em um código para copiá-lo e resgate no jogo.</p>
   <p class="post-meta" id="promoUpdated" hidden>Atualizado: <span id="promoUpdatedDate"></span></p>
 

@@ -183,9 +183,66 @@ details.team-card[open] summary { margin-bottom: 10px; }
 }
 .b-icon {
   flex: none;
-  width: 26px;
-  height: 26px;
-  border-radius: 6px;
+  width: 44px;
+  height: 44px;
+  border-radius: 9px;
+  cursor: zoom-in;
+}
+.b-icon-sm {
+  width: 30px;
+  height: 30px;
+  border-radius: 7px;
+}
+/* Fullscreen character preview (tap an icon to open). */
+.b-preview[hidden] { display: none; }
+.b-preview {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: rgba(4, 7, 16, 0.82);
+  cursor: zoom-out;
+}
+.b-preview-card {
+  background: linear-gradient(180deg, var(--panel-2), var(--panel));
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.55);
+  padding: 20px 22px;
+  max-width: min(320px, 88vw);
+  text-align: center;
+}
+.b-preview-card img {
+  width: min(200px, 60vw);
+  height: auto;
+  aspect-ratio: 1;
+  border-radius: 16px;
+  border: 1px solid var(--line);
+  background: #0e1428;
+}
+.b-preview-name {
+  font-family: var(--display);
+  font-weight: 400;
+  font-size: 1.15rem;
+  letter-spacing: 1px;
+  color: var(--orange-soft);
+  text-transform: uppercase;
+  margin: 10px 0 6px;
+}
+.b-preview-meta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+.b-preview-tags {
+  color: var(--dim);
+  font-size: 0.85rem;
+  line-height: 1.5;
 }
 .builder-none { color: var(--dim); font-size: 0.9rem; margin: 0 0 10px; }
 .builder-grid {
@@ -196,7 +253,7 @@ details.team-card[open] summary { margin-bottom: 10px; }
 }
 @media (max-width: 640px) {
   .builder-grid {
-    max-height: 300px;
+    max-height: 340px;
     overflow-y: auto;
     align-content: flex-start;
     border: 1px solid var(--line);
@@ -208,8 +265,8 @@ details.team-card[open] summary { margin-bottom: 10px; }
 .b-chip {
   display: inline-flex;
   align-items: center;
-  gap: 7px;
-  padding: 7px 12px;
+  gap: 8px;
+  padding: 6px 13px 6px 7px;
   border-radius: 999px;
   border: 1.5px solid var(--line);
   background: #0e1428;
@@ -424,6 +481,69 @@ details.team-card[open] summary { margin-bottom: 10px; }
     return role === 'damage' ? TEXT.roleDamage : role === 'tank' ? TEXT.roleTank : TEXT.roleSupport;
   }
 
+  // Fullscreen preview: the grid icons are tiny on phones, so tapping an
+  // icon opens the artwork big with name, rarity and tags.
+  var preview = document.createElement('div');
+  preview.className = 'b-preview';
+  preview.hidden = true;
+  preview.setAttribute('role', 'dialog');
+  preview.setAttribute('aria-modal', 'true');
+  var previewCard = document.createElement('div');
+  previewCard.className = 'b-preview-card';
+  var previewImg = document.createElement('img');
+  previewImg.alt = '';
+  previewImg.referrerPolicy = 'no-referrer';
+  var previewName = document.createElement('p');
+  previewName.className = 'b-preview-name';
+  var previewMeta = document.createElement('p');
+  previewMeta.className = 'b-preview-meta';
+  var previewTags = document.createElement('p');
+  previewTags.className = 'b-preview-tags';
+  previewCard.appendChild(previewImg);
+  previewCard.appendChild(previewName);
+  previewCard.appendChild(previewMeta);
+  previewCard.appendChild(previewTags);
+  preview.appendChild(previewCard);
+  document.body.appendChild(preview);
+
+  function closePreview() { preview.hidden = true; }
+  preview.addEventListener('click', closePreview);
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closePreview();
+  });
+
+  function openPreview(c) {
+    previewImg.src = ICON_BASE + c.icon;
+    previewName.textContent = c.name.replace(/^(LEGEND|ULTRA|LF|SP|EX|HE) /, '');
+    preview.setAttribute('aria-label', c.name);
+    previewMeta.innerHTML = '';
+    var rar = document.createElement('span');
+    rar.className = 'b-rarity b-rarity-' + c.rarity;
+    rar.textContent = c.rarity;
+    previewMeta.appendChild(rar);
+    previewMeta.appendChild(elementDot(c));
+    previewTags.textContent = c.tags.join(' · ');
+    preview.hidden = false;
+  }
+
+  // Icon that opens the preview on tap/click without triggering the
+  // surrounding select/deselect button.
+  function previewIcon(c, small) {
+    var img = document.createElement('img');
+    img.className = small ? 'b-icon b-icon-sm' : 'b-icon';
+    img.loading = 'lazy';
+    img.alt = '';
+    img.title = TEXT.preview;
+    img.referrerPolicy = 'no-referrer';
+    img.src = ICON_BASE + c.icon;
+    img.addEventListener('error', function () { img.remove(); });
+    img.addEventListener('click', function (e) {
+      e.stopPropagation();
+      openPreview(c);
+    });
+    return img;
+  }
+
   function moveBtn(label, symbol, disabled, onClick) {
     var btn = document.createElement('button');
     btn.type = 'button';
@@ -440,10 +560,11 @@ details.team-card[open] summary { margin-bottom: 10px; }
     selected.forEach(function (idx, pos) {
       var c = ROSTER[idx];
       var li = document.createElement('li');
+      if (ICON_BASE && c.icon) li.appendChild(previewIcon(c, true));
       li.appendChild(elementDot(c));
       var name = document.createElement('span');
       name.className = 'fighter-name';
-      name.textContent = (pos === 0 ? '👑 ' : '') + c.name;
+      name.textContent = (pos === 0 ? '👑 ' : '') + c.name.replace(/^(LEGEND|ULTRA|LF|SP|EX|HE) /, '');
       var sel = document.createElement('select');
       sel.setAttribute('aria-label', TEXT.starsLabel + ': ' + c.name);
       for (var s = 0; s <= 14; s++) {
@@ -662,16 +783,7 @@ details.team-card[open] summary { margin-bottom: 10px; }
     btn.type = 'button';
     btn.className = 'b-chip';
     btn.setAttribute('aria-pressed', 'false');
-    if (ICON_BASE && c.icon) {
-      var img = document.createElement('img');
-      img.className = 'b-icon';
-      img.loading = 'lazy';
-      img.alt = '';
-      img.referrerPolicy = 'no-referrer';
-      img.src = ICON_BASE + c.icon;
-      img.addEventListener('error', function () { img.remove(); });
-      btn.appendChild(img);
-    }
+    if (ICON_BASE && c.icon) btn.appendChild(previewIcon(c, false));
     btn.appendChild(elementDot(c));
     var rar = document.createElement('span');
     rar.className = 'b-rarity b-rarity-' + c.rarity;

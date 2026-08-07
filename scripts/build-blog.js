@@ -27,6 +27,7 @@ const {
   blogUrlForLang,
   homePathForLang,
   postUrl,
+  splitH1Html,
 } = require('./blog-lib.js');
 const { I18N, SUPPORTED_LANGS } = require(path.join(ROOT, 'i18n.js'));
 const { teamsPathForLang } = require('./teams-lib.js');
@@ -229,7 +230,7 @@ function renderIndex(template, css, lang, posts) {
     .replaceAll('{{NAV_TEAMS_LABEL}}', escapeHtmlText(dict.navTeams))
     .replaceAll('{{PROMO_URL}}', promoPathForLang(lang))
     .replaceAll('{{NAV_PROMO_LABEL}}', escapeHtmlText(dict.navPromo))
-    .replaceAll('{{INDEX_H1}}', escapeHtmlText(dict.blogIndexH1))
+    .replaceAll('{{INDEX_H1}}', splitH1Html(dict.blogIndexH1))
     .replaceAll('{{INDEX_INTRO_HTML}}', introHtml)
     .replaceAll('{{CTA_HTML}}', dict.blogIndexCtaHtml)
     .replaceAll('{{CTA_BTN}}', escapeHtmlText(dict.blogIndexCtaBtn))

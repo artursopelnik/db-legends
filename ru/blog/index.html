@@ -124,6 +124,10 @@ h1 {
   color: transparent;
   margin-bottom: 10px;
 }
+/* Brand and page name as two stacked lines, like the generator's H1 –
+   keeps "Dragon Ball Legends" from wrapping mid-word on phones. */
+h1 .h1-brand,
+h1 .h1-page { display: block; }
 
 .post-meta { color: var(--dim); font-size: 0.88rem; margin-bottom: 26px; }
 
@@ -214,7 +218,7 @@ footer a { color: var(--dim); }
     <a href="/ru/">Генератор QR</a>
   </nav>
 
-  <h1>Гайды Dragon Ball Legends</h1>
+  <h1><span class="h1-brand">Dragon Ball Legends</span> <span class="h1-page">Гайды</span></h1>
   <p class="post-meta">Friend-коды, сканирование QR, промокоды и Шенрон – короткие практичные гайды от команды <a href="/ru/" style="color:inherit">бесплатного генератора QR DBL</a>.</p>
 
   <ul class="post-list">
