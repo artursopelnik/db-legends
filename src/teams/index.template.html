@@ -478,6 +478,12 @@ details.team-card[open] summary { margin-bottom: 10px; }
   padding: 4px 8px;
 }
 .builder-scan-report .scan-flag { flex: none; cursor: help; }
+.builder-scan-report .scan-extras {
+  flex: none;
+  color: var(--dim);
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
 </style>
 </head>
 <body>
@@ -1180,8 +1186,28 @@ details.team-card[open] summary { margin-bottom: 10px; }
     var data = ctx.getImageData(0, 0, W, H).data;
     var rects = detectBands(data, W, H, Math.floor(W * 0.5));
     if (rects.length < 3) rects = detectBands(data, W, H, 0);
-    return rects.map(function (r) {
+    return regularizeCards(rects.map(function (r) {
       return { x: r.x / scale, y: r.y / scale, w: r.w / scale, h: r.h / scale };
+    }));
+  }
+
+  // Cards in the stack share size and alignment; the right edge and height
+  // are detected reliably while the left edge often bleeds into background
+  // art, so all rects get snapped to the common geometry.
+  function regularizeCards(rects) {
+    if (rects.length < 3) return rects;
+    var median = function (arr) {
+      var s = arr.slice().sort(function (a, b) { return a - b; });
+      return s[Math.floor(s.length / 2)];
+    };
+    var right = median(rects.map(function (r) { return r.x + r.w; }));
+    var h = median(rects.map(function (r) { return r.h; }));
+    var left = Math.max(
+      Math.max.apply(null, rects.map(function (r) { return r.x; })),
+      right - 2.6 * h
+    );
+    return rects.map(function (r) {
+      return { x: left, y: r.y + (r.h - h) / 2, w: right - left, h: h };
     });
   }
 
@@ -1333,6 +1359,233 @@ details.team-card[open] summary { margin-bottom: 10px; }
     });
   }
 
+  // Reads the Limit Break stars and the Zenkai Awakening plaque off one card
+  // at native screenshot resolution. Both are best-effort: -1 / 0 mean
+  // "could not read", and the team-list selects stay editable either way.
+  function analyzeCardExtras(fctx, rect) {
+    var x0 = Math.round(rect.x);
+    var y0 = Math.round(rect.y);
+    var w = Math.round(rect.w);
+    var h = Math.round(rect.h);
+    var data;
+    try {
+      data = fctx.getImageData(x0, y0, w, h).data;
+    } catch (e) {
+      return { stars: -1, zenkai: 0 };
+    }
+    function px(x, y) {
+      var i = (y * w + x) * 4;
+      return [data[i], data[i + 1], data[i + 2]];
+    }
+    function median(arr) {
+      var s = arr.slice().sort(function (a, b) { return a - b; });
+      return s[Math.floor(s.length / 2)];
+    }
+    var isGoldPx = function (p) { return p[0] > 185 && p[1] > 120 && p[1] < 235 && p[2] < 130 && p[0] - p[2] > 80; };
+    var isRedPx = function (p) { return p[0] > 160 && p[1] < 125 && p[2] < 130 && p[0] - p[1] > 55; };
+
+    // --- Limit Break stars: a regular row of small stars, optionally ended
+    // by one big gold star worth 7. Red stars flood on red cards, so a
+    // gold-only pass runs as fallback.
+    var xa = Math.round(w * 0.045);
+    var xb = Math.round(w * 0.44);
+    var bandH = Math.round(h * 0.085);
+    function scanStars(useRed) {
+      var best = null;
+      var isStar = function (p) { return isGoldPx(p) || (useRed && isRedPx(p)); };
+      for (var top = Math.round(h * 0.5); top + bandH < h * 0.82; top += 2) {
+        var runs = [];
+        var cur = null;
+        var gap = 0;
+        for (var x = xa; x < xb; x++) {
+          var n = 0;
+          for (var y = top; y < top + bandH; y++) {
+            if (isStar(px(x, y))) n++;
+          }
+          if (n >= 3) {
+            if (!cur) cur = { xa: x, xb: x };
+            cur.xb = x;
+            gap = 0;
+          } else if (cur && ++gap > 3) {
+            runs.push(cur);
+            cur = null;
+          }
+        }
+        if (cur) runs.push(cur);
+        runs = runs.filter(function (r) {
+          var wd = r.xb - r.xa + 1;
+          return wd >= h * 0.02 && wd <= h * 0.13;
+        });
+        if (runs.length < 4 || runs.length > 9) continue;
+        // vertical extent per glyph: contiguous run through the strongest
+        // band row, so the lettering below the stars is not picked up
+        var vy0 = Math.max(0, top - Math.round(h * 0.05));
+        var vy1 = Math.min(h - 1, top + bandH + Math.round(h * 0.05));
+        var glyphs = runs.map(function (r) {
+          var counts = [];
+          var gold = 0;
+          var red = 0;
+          var seed = -1;
+          var seedN = -1;
+          for (var y2 = vy0; y2 <= vy1; y2++) {
+            var n2 = 0;
+            for (var x2 = r.xa; x2 <= r.xb; x2++) {
+              var p = px(x2, y2);
+              if (isStar(p)) {
+                n2++;
+                if (isGoldPx(p)) gold++; else red++;
+              }
+            }
+            counts.push(n2);
+            if (y2 >= top && y2 < top + bandH && n2 > seedN) { seedN = n2; seed = y2; }
+          }
+          var ya2 = seed;
+          var yb2 = seed;
+          while (ya2 - 1 >= vy0 && counts[ya2 - 1 - vy0] >= 2) ya2--;
+          while (yb2 + 1 <= vy1 && counts[yb2 + 1 - vy0] >= 2) yb2++;
+          return { xa: r.xa, xb: r.xb, vh: yb2 - ya2 + 1, gold: gold, red: red };
+        });
+        // only the LAST glyph can be the big (+7) star
+        var last = glyphs[glyphs.length - 1];
+        var restVh = median(glyphs.slice(0, -1).map(function (g) { return g.vh; }));
+        var hasBig = glyphs.length >= 2 && last.gold >= last.red &&
+          last.vh >= Math.max(restVh * 1.35, h * 0.07);
+        var smalls = hasBig ? glyphs.slice(0, -1) : glyphs;
+        if (smalls.length < 4 || smalls.length > 7) continue;
+        var cxs = smalls.map(function (g) { return (g.xa + g.xb) / 2; });
+        var gaps = [];
+        for (var k = 1; k < cxs.length; k++) gaps.push(cxs[k] - cxs[k - 1]);
+        var meanGap = gaps.reduce(function (a, b) { return a + b; }, 0) / gaps.length;
+        var sd = Math.sqrt(gaps.reduce(function (a, b) { return a + (b - meanGap) * (b - meanGap); }, 0) / gaps.length);
+        if (sd / meanGap > 0.22 || meanGap > h * 0.11 || meanGap < h * 0.03) continue;
+        var score = smalls.length + (hasBig ? 2 : 0) - (sd / meanGap) * 5;
+        if (!best || score > best.score) best = { score: score, stars: smalls.length + (hasBig ? 7 : 0) };
+      }
+      return best ? Math.min(14, best.stars) : -1;
+    }
+    var stars = scanStars(true);
+    if (stars === -1) stars = scanStars(false);
+
+    // --- Zenkai Awakening: gold plaque with a dark roman numeral on the
+    // card's left edge.
+    var zenkai = 0;
+    var fx0 = Math.round(w * 0.04);
+    var fx1 = Math.round(w * 0.14);
+    var isPlaqueGold = function (p) {
+      return p[0] > 150 && p[1] > 100 && p[1] < 215 && p[2] < 125 &&
+        p[0] - p[2] > 55 && p[1] - p[2] > 25;
+    };
+    var goldRows = [];
+    var gy0 = Math.round(h * 0.16);
+    for (var gy = gy0; gy < Math.round(h * 0.52); gy++) {
+      var gn = 0;
+      for (var gx = fx0; gx < fx1; gx++) {
+        if (isPlaqueGold(px(gx, gy))) gn++;
+      }
+      goldRows.push(gn);
+    }
+    var gbands = [];
+    var gs = -1;
+    var miss = 0;
+    for (var gk = 0; gk <= goldRows.length; gk++) {
+      var gOn = gk < goldRows.length && goldRows[gk] >= (fx1 - fx0) * 0.28;
+      if (gOn) {
+        if (gs === -1) gs = gk;
+        miss = 0;
+      } else if (gs !== -1 && ++miss > 1) {
+        gbands.push([gs + gy0, gk - miss + gy0]);
+        gs = -1;
+      }
+    }
+    var plaque = null;
+    gbands.forEach(function (b) {
+      var bh = b[1] - b[0] + 1;
+      if (!plaque && bh >= h * 0.05 && bh <= h * 0.13) plaque = b;
+    });
+    if (plaque) {
+      var ya = plaque[0];
+      var yb = plaque[1];
+      var gh = yb - ya + 1;
+      var pxa = -1;
+      var pxb = -1;
+      for (var zx = fx0; zx < fx1; zx++) {
+        var zn = 0;
+        for (var zy = ya; zy <= yb; zy++) {
+          if (isPlaqueGold(px(zx, zy))) zn++;
+        }
+        if (zn >= gh * 0.4) {
+          if (pxa === -1) pxa = zx;
+          pxb = zx;
+        }
+      }
+      if (pxa !== -1 && pxb - pxa >= gh) {
+        // 2D components of dark ink in the upper part of the plaque (its
+        // outline rows and the shadow under the digits are eroded away)
+        var er = Math.max(2, Math.round(gh * 0.15));
+        var iy0 = ya + er;
+        var iy1 = yb - Math.max(er, Math.round(gh * 0.32));
+        var rw = pxb - pxa + 1;
+        var rh = iy1 - iy0 + 1;
+        var mask = new Uint8Array(rw * rh);
+        for (var my = 0; my < rh; my++) {
+          for (var mx = 0; mx < rw; mx++) {
+            var mp = px(pxa + mx, iy0 + my);
+            if (mp[0] + mp[1] + mp[2] < 340) mask[my * rw + mx] = 1;
+          }
+        }
+        var seen = new Uint8Array(rw * rh);
+        var comps = [];
+        for (var ci = 0; ci < mask.length; ci++) {
+          if (!mask[ci] || seen[ci]) continue;
+          var stack = [ci];
+          seen[ci] = 1;
+          var cmp = { minX: rw, maxX: -1, minY: rh, maxY: -1, size: 0 };
+          while (stack.length) {
+            var ii = stack.pop();
+            var cx = ii % rw;
+            var cy = (ii / rw) | 0;
+            cmp.size++;
+            if (cx < cmp.minX) cmp.minX = cx;
+            if (cx > cmp.maxX) cmp.maxX = cx;
+            if (cy < cmp.minY) cmp.minY = cy;
+            if (cy > cmp.maxY) cmp.maxY = cy;
+            for (var dy = -1; dy <= 1; dy++) {
+              for (var dx = -1; dx <= 1; dx++) {
+                var nx = cx + dx;
+                var ny = cy + dy;
+                if (nx < 0 || ny < 0 || nx >= rw || ny >= rh) continue;
+                var jj = ny * rw + nx;
+                if (mask[jj] && !seen[jj]) {
+                  seen[jj] = 1;
+                  stack.push(jj);
+                }
+              }
+            }
+          }
+          comps.push(cmp);
+        }
+        // digits sit centered; dark slivers at the pointed ends are frame
+        var digits = comps.filter(function (c2) {
+          return c2.minX >= rw * 0.12 && c2.maxX <= rw * 0.88 &&
+            c2.maxY - c2.minY + 1 >= rh * 0.5 && c2.size >= 4;
+        }).sort(function (a, b) { return a.minX - b.minX; });
+        var parts = digits.map(function (c2) {
+          return (c2.maxX - c2.minX + 1) / (c2.maxY - c2.minY + 1) > 0.6 ? 5 : 1;
+        });
+        var wides = parts.filter(function (p2) { return p2 === 5; }).length;
+        if (parts.length >= 1 && parts.length <= 3 && wides <= 1) {
+          var vi = parts.indexOf(5);
+          var val = vi === -1 ? parts.length : vi === 0 ? 5 + parts.length - 1 : 4;
+          if (val >= 1 && val <= 7) zenkai = val;
+        }
+        // plaque clearly present but numeral unreadable at this size:
+        // assume the common max rank, the select stays editable
+        if (!zenkai && digits.length) zenkai = 7;
+      }
+    }
+    return { stars: stars, zenkai: zenkai };
+  }
+
   function matchCards(img, rects, fps) {
     var slotScores = rects.map(function (rect) { return cardScores(img, rect, fps); });
     // Greedy unique assignment: best (card, fighter) pairs first, so the same
@@ -1373,7 +1626,13 @@ details.team-card[open] summary { margin-bottom: 10px; }
   function applyScanSelection(slots) {
     selected = [];
     slots.forEach(function (slot) {
-      if (slot.pick !== -1 && selected.indexOf(slot.pick) === -1) selected.push(slot.pick);
+      if (slot.pick === -1 || selected.indexOf(slot.pick) !== -1) return;
+      selected.push(slot.pick);
+      var extras = slot.extras;
+      if (extras) {
+        stars[slot.pick] = extras.stars > 0 ? extras.stars : 0;
+        awake[slot.pick] = extras.zenkai > 0 && isZenkai(ROSTER[slot.pick]) ? extras.zenkai : 0;
+      }
     });
     render();
   }
@@ -1419,6 +1678,16 @@ details.team-card[open] summary { margin-bottom: 10px; }
         applyScanSelection(slots);
       });
       li.appendChild(sel);
+      var extras = slot.extras;
+      if (extras && (extras.stars > 0 || extras.zenkai > 0)) {
+        var ex = document.createElement('span');
+        ex.className = 'scan-extras';
+        var bits = [];
+        if (extras.stars > 0) bits.push(extras.stars + '★');
+        if (extras.zenkai > 0 && slot.pick !== -1 && isZenkai(ROSTER[slot.pick])) bits.push('Z' + extras.zenkai);
+        ex.textContent = bits.join(' · ');
+        li.appendChild(ex);
+      }
       if (slot.uncertain) {
         var flag = document.createElement('span');
         flag.className = 'scan-flag';
@@ -1458,6 +1727,15 @@ details.team-card[open] summary { margin-bottom: 10px; }
         setTimeout(function () {
           try {
             var slots = matchCards(img, rects, fps);
+            // stars + zenkai rank are read per card at native resolution
+            var fullC = document.createElement('canvas');
+            fullC.width = img.naturalWidth;
+            fullC.height = img.naturalHeight;
+            var fullCtx = fullC.getContext('2d', { willReadFrequently: true });
+            fullCtx.drawImage(img, 0, 0);
+            slots.forEach(function (slot, i) {
+              slot.extras = analyzeCardExtras(fullCtx, rects[i]);
+            });
             applyScanSelection(slots);
             renderScanReport(slots);
             showStatus(TEXT.scanDone.replace('{n}', String(selected.length)), false);
