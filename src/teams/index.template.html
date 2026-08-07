@@ -826,8 +826,8 @@ details.team-card[open] summary { margin-bottom: 10px; }
 
     // Recommendations.
     var byRarity = function (a, b) {
-      var rank = { UL: 3, LF: 2, SP: 1 };
-      return rank[b.rarity] - rank[a.rarity];
+      var rank = { LG: 6, UL: 5, LF: 4, SP: 3, EX: 2, HE: 1 };
+      return (rank[b.rarity] || 0) - (rank[a.rarity] || 0);
     };
     var selectedNames = {};
     chars.forEach(function (c) { selectedNames[c.name] = true; });
@@ -857,13 +857,33 @@ details.team-card[open] summary { margin-bottom: 10px; }
 
     if (mainTag && mainCount >= 2) {
       var usedAlts = {};
-      chars.forEach(function (c) {
+      chars.forEach(function (c, pos) {
         if (c.tags.indexOf(mainTag) !== -1) return;
+        var idx = selected[pos];
         var onTag = pool.filter(function (p) {
           return p.tags.indexOf(mainTag) !== -1 && !usedAlts[p.name];
         });
         var alt = onTag.filter(function (p) { return p.role === c.role; }).sort(byRarity)[0] ||
           onTag.sort(byRarity)[0];
+        // A built-up fighter (stars, Zenkai) can outclass any on-tag
+        // replacement: keep it and suggest deepening its own strongest
+        // side synergy instead of swapping it out.
+        if (alt && effScore(alt, -1, mainTag) <= effScore(c, idx, mainTag)) {
+          var altTag = null;
+          c.tags.forEach(function (tag) {
+            if (tag !== mainTag && counts[tag] >= 2 && (!altTag || counts[tag] > counts[altTag])) altTag = tag;
+          });
+          var deepen = altTag ? pool.filter(function (p) {
+            return p.tags.indexOf(altTag) !== -1;
+          }).sort(byRarity).slice(0, 2) : [];
+          if (deepen.length) {
+            recs.push(TEXT.recDeepen
+              .replace('{name}', c.name)
+              .replace('{tag}', altTag)
+              .replace('{names}', deepen.map(function (p) { return p.name; }).join(', ')));
+          }
+          return;
+        }
         if (alt) {
           usedAlts[alt.name] = true;
           issues++;
