@@ -7,6 +7,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0000_Goku_01.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -21,6 +22,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0001_Goku_02.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -35,6 +37,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0002_GohanKid_01.webp",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -50,6 +53,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0003_GohanKid_02.webp",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -65,6 +69,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0004_Piccolo_01.webp",
   "tags": [
    "Regeneration",
    "Namekian",
@@ -79,6 +84,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0005_Krillin_01.webp",
   "tags": [
    "Super Warrior",
    "Support Type"
@@ -92,6 +98,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0006_Krillin_02.webp",
   "tags": [
    "Super Warrior",
    "Defense Type"
@@ -105,6 +112,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0007_Yamucha_01.webp",
   "tags": [
    "Super Warrior",
    "Melee Type"
@@ -118,6 +126,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0008_TienShinhan_01.webp",
   "tags": [
    "Super Warrior",
    "Defense Type"
@@ -131,6 +140,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0009_Chaozu_01.webp",
   "tags": [
    "Super Warrior",
    "Support Type"
@@ -144,6 +154,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0010_Raditz_01.webp",
   "tags": [
    "Frieza Force",
    "Saiyan",
@@ -158,6 +169,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0011_Saibaiman_01.webp",
   "tags": [
    "Minion",
    "Support Type"
@@ -171,6 +183,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0012_Nappa_01.webp",
   "tags": [
    "Frieza Force",
    "Saiyan",
@@ -185,6 +198,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0013_Nappa_02.webp",
   "tags": [
    "Frieza Force",
    "Saiyan",
@@ -199,6 +213,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0014_Vegeta_01.webp",
   "tags": [
    "Frieza Force",
    "Saiyan",
@@ -215,6 +230,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0015_Goku_03.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -229,6 +245,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0016_GokuSS1_01.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -244,6 +261,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0017_Piccolo_02.webp",
   "tags": [
    "Super Warrior",
    "Regeneration",
@@ -259,6 +277,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0018_Vegeta_02.webp",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -273,6 +292,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0019_Vegeta_03.webp",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -287,6 +307,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0020_Zarbon_01.webp",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -301,6 +322,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0021_Dodoria_01.webp",
   "tags": [
    "Frieza Force",
    "Melee Type"
@@ -314,6 +336,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0022_Guldo_01.webp",
   "tags": [
    "Frieza Force",
    "Ginyu Force",
@@ -328,6 +351,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0023_Burter_01.webp",
   "tags": [
    "Frieza Force",
    "Ginyu Force",
@@ -342,6 +366,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0024_Recoome_01.webp",
   "tags": [
    "Frieza Force",
    "Ginyu Force",
@@ -356,6 +381,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0025_Jeice_01.webp",
   "tags": [
    "Frieza Force",
    "Ginyu Force",
@@ -370,6 +396,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0026_Ginyu_01.webp",
   "tags": [
    "Frieza Force",
    "Ginyu Force",
@@ -384,6 +411,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0027_Ginyu_02.webp",
   "tags": [
    "Frieza Force",
    "Ginyu Force",
@@ -398,6 +426,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0028_Frieza1st_01.webp",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -414,6 +443,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0029_Frieza1st_02.webp",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -430,6 +460,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0030_Frieza2nd_01.webp",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -446,6 +477,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0031_Frieza3rd_01.webp",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -462,6 +494,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0032_Frieza4th_01.webp",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -478,6 +511,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0033_TaoPaiPai_01.webp",
   "tags": [
    "Support Type"
   ]
@@ -490,6 +524,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0034_Paikuhan_01.webp",
   "tags": [
    "Otherworld Warrior",
    "Defense Type",
@@ -504,6 +539,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0035_Paikuhan_02.webp",
   "tags": [
    "Otherworld Warrior",
    "Melee Type",
@@ -518,6 +554,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0036_Jaco_01.webp",
   "tags": [
    "Weapon Wielder",
    "Defense Type"
@@ -531,6 +568,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0037_Frost3rd_01.webp",
   "tags": [
    "Universe 6",
    "Transforming Warrior",
@@ -549,6 +587,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0038_Pan_01.webp",
   "tags": [
    "Hybrid Saiyan",
    "GT",
@@ -566,6 +605,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0039_Pan_02.webp",
   "tags": [
    "Hybrid Saiyan",
    "GT",
@@ -583,6 +623,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0040_Piccolo_03.webp",
   "tags": [
    "Super Warrior",
    "Regeneration",
@@ -598,6 +639,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0041_Yamucha_02.webp",
   "tags": [
    "Super Warrior",
    "Support Type"
@@ -611,6 +653,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0042_TienShinhan_02.webp",
   "tags": [
    "Super Warrior",
    "Defense Type"
@@ -624,6 +667,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0043_Chaozu_02.webp",
   "tags": [
    "Super Warrior",
    "Ranged Type"
@@ -637,6 +681,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0044_Frost3rd_02.webp",
   "tags": [
    "Universe 6",
    "Transforming Warrior",
@@ -655,6 +700,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0045_GokuSS1_02.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -671,6 +717,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0046_VegetaSS1_01.webp",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -686,6 +733,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0047_TrunksSS1_01.webp",
   "tags": [
    "Hybrid Saiyan",
    "Vegeta Clan",
@@ -703,6 +751,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0048_Android20_01.webp",
   "tags": [
    "Android",
    "Ranged Type"
@@ -716,6 +765,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0049_Android19_01.webp",
   "tags": [
    "Android",
    "Melee Type"
@@ -729,6 +779,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0050_Turles_01.webp",
   "tags": [
    "Saiyan",
    "Powerful Opponent",
@@ -745,6 +796,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0051_MaiFuture_01.webp",
   "tags": [
    "Girls",
    "Future",
@@ -761,6 +813,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0052_Trunks_01.webp",
   "tags": [
    "Hybrid Saiyan",
    "Vegeta Clan",
@@ -777,6 +830,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0053_Vegeta_04.webp",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -791,6 +845,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0054_Turles_02.webp",
   "tags": [
    "Saiyan",
    "Powerful Opponent",
@@ -807,6 +862,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0055_Android20_02.webp",
   "tags": [
    "Android",
    "Defense Type"
@@ -820,6 +876,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0056_Android19_02.webp",
   "tags": [
    "Android",
    "Support Type"
@@ -833,6 +890,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0057_Yamucha_03.webp",
   "tags": [
    "Super Warrior",
    "Defense Type"
@@ -846,6 +904,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0058_Saibaiman_02.webp",
   "tags": [
    "Minion",
    "Defense Type"
@@ -859,6 +918,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0059_Jaco_02.webp",
   "tags": [
    "Weapon Wielder",
    "Support Type"
@@ -872,6 +932,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0060_GokuSS1_03.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -887,6 +948,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0061_Krillin_03.webp",
   "tags": [
    "Super Warrior",
    "Ranged Type"
@@ -900,6 +962,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0062_Android17_01.webp",
   "tags": [
    "Android",
    "Defense Type"
@@ -913,6 +976,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0063_Android18_01.webp",
   "tags": [
    "Android",
    "Girls",
@@ -928,6 +992,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0064_Cell1st_01.webp",
   "tags": [
    "Android",
    "Regeneration",
@@ -944,6 +1009,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0065_KameSennin_01.webp",
   "tags": [
    "Support Type"
   ]
@@ -956,6 +1022,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0066_CabbeSS1_01.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -973,6 +1040,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0068_Android18_02.webp",
   "tags": [
    "Android",
    "Girls",
@@ -988,6 +1056,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0069_Cabbe_01.webp",
   "tags": [
    "Saiyan",
    "Universe 6",
@@ -1004,6 +1073,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0070_KameSennin_02.webp",
   "tags": [
    "Ranged Type"
   ]
@@ -1016,6 +1086,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0071_Android17_02.webp",
   "tags": [
    "Android",
    "Melee Type"
@@ -1029,6 +1100,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0072_Goku_04.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -1043,6 +1115,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0073_Cell1st_02.webp",
   "tags": [
    "Android",
    "Regeneration",
@@ -1059,6 +1132,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0075_GokuSS1_04.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -1075,6 +1149,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0076_GokuTeen_01.webp",
   "tags": [
    "Saiyan",
    "Kids",
@@ -1092,6 +1167,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0077_VegetaGTSS1_01.webp",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -1108,6 +1184,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0078_Bardock_01.webp",
   "tags": [
    "Saiyan",
    "Team Bardock",
@@ -1122,6 +1199,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0079_PiccoloKing_01.webp",
   "tags": [
    "Regeneration",
    "Namekian",
@@ -1137,6 +1215,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0080_BrolySS1_01.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -1153,6 +1232,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0081_Frieza1stPod_01.webp",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -1169,6 +1249,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0082_GokuKidGTSS1_01.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -1186,6 +1267,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0083_TrunksGT_01.webp",
   "tags": [
    "Hybrid Saiyan",
    "Vegeta Clan",
@@ -1201,6 +1283,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0084_PiccoloKing_02.webp",
   "tags": [
    "Regeneration",
    "Namekian",
@@ -1216,6 +1299,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0085_Pan_03.webp",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -1233,6 +1317,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0086_Frieza1stPod_02.webp",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -1249,6 +1334,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0087_Bardock_02.webp",
   "tags": [
    "Saiyan",
    "Team Bardock",
@@ -1263,6 +1349,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0090_Raditz_02.webp",
   "tags": [
    "Frieza Force",
    "Saiyan",
@@ -1277,6 +1364,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0091_Zarbon_91.webp",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -1291,6 +1379,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0092_Dodoria_92.webp",
   "tags": [
    "Frieza Force",
    "Support Type"
@@ -1304,6 +1393,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0093_VegetaSV_01.webp",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -1319,6 +1409,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0094_Piccolo_94.webp",
   "tags": [
    "Regeneration",
    "Super Warrior",
@@ -1334,6 +1425,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0095_Android16_95.webp",
   "tags": [
    "Android",
    "Defense Type"
@@ -1347,6 +1439,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0096_Cell2nd_01.webp",
   "tags": [
    "Android",
    "Regeneration",
@@ -1363,6 +1456,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0097_Cooler1st_01.webp",
   "tags": [
    "Transforming Warrior",
    "Lineage of Evil",
@@ -1379,6 +1473,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0099_Thouser_99.webp",
   "tags": [
    "Melee Type",
    "Sagas From the Movies"
@@ -1392,6 +1487,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0100_Cooler1st_02.webp",
   "tags": [
    "Transforming Warrior",
    "Lineage of Evil",
@@ -1408,6 +1504,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0101_GokuSS1_101.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -1423,6 +1520,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0102_TrunksTeen_01.webp",
   "tags": [
    "Hybrid Saiyan",
    "Kids",
@@ -1438,6 +1536,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0103_GotenTeen_01.webp",
   "tags": [
    "Hybrid Saiyan",
    "Kids",
@@ -1453,6 +1552,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0104_Cell3rd_104.webp",
   "tags": [
    "Android",
    "Regeneration",
@@ -1469,6 +1569,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0105_Thouser_105.webp",
   "tags": [
    "Support Type",
    "Sagas From the Movies"
@@ -1482,6 +1583,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0106_Android16_106.webp",
   "tags": [
    "Android",
    "Support Type"
@@ -1495,6 +1597,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0107_Android18_107.webp",
   "tags": [
    "Android",
    "Girls",
@@ -1510,6 +1613,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0108_Cell3rd_01.webp",
   "tags": [
    "Android",
    "Regeneration",
@@ -1526,6 +1630,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0109_TrunksST_01.webp",
   "tags": [
    "Hybrid Saiyan",
    "Vegeta Clan",
@@ -1542,6 +1647,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0110_CellJr_01.webp",
   "tags": [
    "Android",
    "Minion",
@@ -1556,6 +1662,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0111_GohanTeenSS2_01.webp",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -1571,6 +1678,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0112_GokuSS3_112.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan 3",
@@ -1587,6 +1695,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0113_Buu1st_113.webp",
   "tags": [
    "Regeneration",
    "Powerful Opponent",
@@ -1601,6 +1710,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0114_GokuSS1_114.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -1616,6 +1726,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0115_Satan_115.webp",
   "tags": [
    "Defense Type"
   ]
@@ -1628,6 +1739,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0117_Buu1st_117.webp",
   "tags": [
    "Regeneration",
    "Powerful Opponent",
@@ -1642,6 +1754,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0118_GohanTeen_118.webp",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -1656,6 +1769,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0119_CellJr_119.webp",
   "tags": [
    "Android",
    "Minion",
@@ -1670,6 +1784,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0120_Turles_120.webp",
   "tags": [
    "Saiyan",
    "Powerful Opponent",
@@ -1686,6 +1801,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0121_GokuSS1_121.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -1701,6 +1817,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0122_Krillin_122.webp",
   "tags": [
    "Super Warrior",
    "Support Type"
@@ -1714,6 +1831,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0123_GohanFSS1_123.webp",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -1730,6 +1848,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0124_TrunksFutureSS2_124.webp",
   "tags": [
    "Hybrid Saiyan",
    "Vegeta Clan",
@@ -1747,6 +1866,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0125_GokuK_125.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -1761,6 +1881,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0126_GokuBlack_126.webp",
   "tags": [
    "Saiyan",
    "Future",
@@ -1776,6 +1897,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0127_Zamas_127.webp",
   "tags": [
    "God Ki",
    "Future",
@@ -1792,6 +1914,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0128_KaleBSS1_128.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -1811,6 +1934,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0130_MaiFuture_130.webp",
   "tags": [
    "Girls",
    "Future",
@@ -1827,6 +1951,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0131_GokuBlack_131.webp",
   "tags": [
    "Saiyan",
    "Future",
@@ -1842,6 +1967,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0133_VegetaT_133.webp",
   "tags": [
    "Saiyan",
    "Frieza Force",
@@ -1858,6 +1984,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0134_Zamas_134.webp",
   "tags": [
    "God Ki",
    "Future",
@@ -1874,6 +2001,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0136_Android17_136.webp",
   "tags": [
    "Android",
    "Future",
@@ -1889,6 +2017,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0137_Android18_137.webp",
   "tags": [
    "Android",
    "Girls",
@@ -1906,6 +2035,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0138_Vegeta_138.webp",
   "tags": [
    "Frieza Force",
    "Saiyan",
@@ -1922,6 +2052,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0139_Cell2nd_139.webp",
   "tags": [
    "Android",
    "Regeneration",
@@ -1938,6 +2069,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0140_Vegito_140.webp",
   "tags": [
    "Saiyan",
    "Fusion Warrior",
@@ -1953,6 +2085,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0141_TrunksTeenSS1_01.webp",
   "tags": [
    "Hybrid Saiyan",
    "Vegeta Clan",
@@ -1969,6 +2102,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0142_GotenTeenSS1_01.webp",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -1985,6 +2119,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0143_VegetaM_143.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan 2",
@@ -2000,6 +2135,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0144_GotenksSS1_144.webp",
   "tags": [
    "Hybrid Saiyan",
    "Super Saiyan",
@@ -2016,6 +2152,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0145_Dabura_145.webp",
   "tags": [
    "Weapon Wielder",
    "Support Type"
@@ -2029,6 +2166,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0146_Dabura_146.webp",
   "tags": [
    "Weapon Wielder",
    "Defense Type"
@@ -2042,6 +2180,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0147_BrolyB_147.webp",
   "tags": [
    "Saiyan",
    "Frieza Force",
@@ -2058,6 +2197,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0148_GogetaSS1_148.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -2075,6 +2215,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0149_JanembaS_149.webp",
   "tags": [
    "Transforming Warrior",
    "Regeneration",
@@ -2092,6 +2233,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0150_GokuSS2_150.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan 2",
@@ -2108,6 +2250,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0151_BardockSS1_151.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -2123,6 +2266,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0152_Chilled_152.webp",
   "tags": [
    "Lineage of Evil",
    "Powerful Opponent",
@@ -2137,6 +2281,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0154_TrunksSS1_154.webp",
   "tags": [
    "Hybrid Saiyan",
    "Vegeta Clan",
@@ -2153,6 +2298,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0155_Pan_155.webp",
   "tags": [
    "Hybrid Saiyan",
    "GT",
@@ -2170,6 +2316,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0156_VegetaSS1_156.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -2187,6 +2334,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0157_GohanSS1_157.webp",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -2203,6 +2351,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0158_Selypa_158.webp",
   "tags": [
    "Saiyan",
    "Girls",
@@ -2219,6 +2368,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0159_Toma_159.webp",
   "tags": [
    "Saiyan",
    "Team Bardock",
@@ -2233,6 +2383,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0160_Goku_160.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -2248,6 +2399,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0161_Cabbe_161.webp",
   "tags": [
    "Saiyan",
    "Universe 6",
@@ -2264,6 +2416,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0162_Nappa_162.webp",
   "tags": [
    "Frieza Force",
    "Saiyan",
@@ -2279,6 +2432,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0163_Nappa_163.webp",
   "tags": [
    "Frieza Force",
    "Saiyan",
@@ -2293,6 +2447,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0164_BrolyBSS1_164.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -2309,6 +2464,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0165_GokuSSG_165.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -2325,6 +2481,7 @@
   "is_lf": true,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0166_Beerus_166.webp",
   "tags": [
    "God of Destruction",
    "God Ki",
@@ -2340,6 +2497,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0167_Bojack_167.webp",
   "tags": [
    "Transforming Warrior",
    "Powerful Opponent",
@@ -2356,6 +2514,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0168_Cooler2nd_168.webp",
   "tags": [
    "Transforming Warrior",
    "Lineage of Evil",
@@ -2372,6 +2531,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0169_TrunksTF_169.webp",
   "tags": [
    "Hybrid Saiyan",
    "Vegeta Clan",
@@ -2389,6 +2549,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0170_Whis_170.webp",
   "tags": [
    "Angel",
    "God Ki",
@@ -2404,6 +2565,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0171_GohanF_171.webp",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -2419,6 +2581,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0172_CauliflaSS2_172.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan 2",
@@ -2438,6 +2601,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0173_Ribrianne_173.webp",
   "tags": [
    "Transforming Warrior",
    "Girls",
@@ -2456,6 +2620,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0174_Chichi_174.webp",
   "tags": [
    "Girls",
    "Weapon Wielder",
@@ -2471,6 +2636,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0175_Bulma_175.webp",
   "tags": [
    "Girls",
    "Weapon Wielder",
@@ -2486,6 +2652,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0176_Videl_176.webp",
   "tags": [
    "Girls",
    "Female",
@@ -2500,6 +2667,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0177_Lunch_177.webp",
   "tags": [
    "Girls",
    "Weapon Wielder",
@@ -2515,6 +2683,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0178_Caulifla_178.webp",
   "tags": [
    "Saiyan",
    "Girls",
@@ -2533,6 +2702,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0179_Kakunsa_179.webp",
   "tags": [
    "Transforming Warrior",
    "Girls",
@@ -2551,6 +2721,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0180_Rozie_180.webp",
   "tags": [
    "Transforming Warrior",
    "Girls",
@@ -2569,6 +2740,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0181_Chichi_181.webp",
   "tags": [
    "Girls",
    "Weapon Wielder",
@@ -2584,6 +2756,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0182_Videl_182.webp",
   "tags": [
    "Girls",
    "Female",
@@ -2598,6 +2771,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0183_GreatSaiyaman1_183.webp",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -2614,6 +2788,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0184_GreatSaiyaman2_184.webp",
   "tags": [
    "Girls",
    "Transforming Warrior",
@@ -2630,6 +2805,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0185_VegetaSSG_185.webp",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -2647,6 +2823,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0186_GohanUltimate_186.webp",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -2661,6 +2838,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0187_GokuSS3_187.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan 3",
@@ -2676,6 +2854,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0188_VegetaSS2_188.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan 2",
@@ -2691,6 +2870,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0189_Slug_189.webp",
   "tags": [
    "Regeneration",
    "Namekian",
@@ -2707,6 +2887,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0190_PerfectCell_190.webp",
   "tags": [
    "Android",
    "Regeneration",
@@ -2723,6 +2904,7 @@
   "is_lf": true,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0191_GohanTeenSS2_191.webp",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -2738,6 +2920,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0192_Gtn_192.webp",
   "tags": [
    "Saiyan",
    "Fusion Warrior",
@@ -2754,6 +2937,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0193_Gotenks_193.webp",
   "tags": [
    "Hybrid Saiyan",
    "Fusion Warrior",
@@ -2770,6 +2954,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0194_Trunks_194.webp",
   "tags": [
    "Hybrid Saiyan",
    "Vegeta Clan",
@@ -2785,6 +2970,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0195_TienShinhan_195.webp",
   "tags": [
    "Super Warrior",
    "Support Type"
@@ -2798,6 +2984,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0196_Buu2nd_196.webp",
   "tags": [
    "Regeneration",
    "Powerful Opponent",
@@ -2812,6 +2999,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0197_VegetaSS1_197.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -2827,6 +3015,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0198_HyperMegaRilldo_198.webp",
   "tags": [
    "GT",
    "Powerful Opponent",
@@ -2842,6 +3031,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0199_GotenksSS3_199.webp",
   "tags": [
    "Hybrid Saiyan",
    "Super Saiyan 3",
@@ -2858,6 +3048,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0200_Buu3rd_200.webp",
   "tags": [
    "Regeneration",
    "Powerful Opponent",
@@ -2872,6 +3063,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0201_Yamucha_201.webp",
   "tags": [
    "Super Warrior",
    "Melee Type"
@@ -2885,6 +3077,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0202_Slug_202.webp",
   "tags": [
    "Regeneration",
    "Namekian",
@@ -2901,6 +3094,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0203_Bulma_203.webp",
   "tags": [
    "Girls",
    "Weapon Wielder",
@@ -2916,6 +3110,7 @@
   "is_lf": true,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0204_GotenTeenSS1_204.webp",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -2933,6 +3128,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0205_GohanSS1_205.webp",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -2949,6 +3145,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0206_GokuSS1_206.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -2966,6 +3163,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0207_BrolySS1_207.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -2982,6 +3180,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0208_MetalCooler_208.webp",
   "tags": [
    "Lineage of Evil",
    "Regeneration",
@@ -2998,6 +3197,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0209_Zangya_209.webp",
   "tags": [
    "Girls",
    "Hera Clan",
@@ -3014,6 +3214,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0210_Videl_210.webp",
   "tags": [
    "Girls",
    "Female",
@@ -3028,6 +3229,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0212_Satan_212.webp",
   "tags": [
    "Support Type"
   ]
@@ -3040,6 +3242,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0213_Piccolo_213.webp",
   "tags": [
    "Regeneration",
    "Super Warrior",
@@ -3056,6 +3259,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0214_Bojack_214.webp",
   "tags": [
    "Transforming Warrior",
    "Powerful Opponent",
@@ -3072,6 +3276,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0215_BuuGohan_215.webp",
   "tags": [
    "Regeneration",
    "Powerful Opponent",
@@ -3086,6 +3291,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0216_GokuSSGSS_216.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -3102,6 +3308,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0217_VegetaSSGSS_217.webp",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -3118,6 +3325,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0218_GoldenFrieza_218.webp",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -3134,6 +3342,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0219_FriezaFP_219.webp",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -3150,6 +3359,7 @@
   "is_lf": true,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0220_Goku_220.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -3165,6 +3375,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0221_JanembaS_221.webp",
   "tags": [
    "Transforming Warrior",
    "Regeneration",
@@ -3182,6 +3393,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0222_Chilled_222.webp",
   "tags": [
    "Lineage of Evil",
    "Powerful Opponent",
@@ -3196,6 +3408,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0223_Beerus_223.webp",
   "tags": [
    "God of Destruction",
    "God Ki",
@@ -3211,6 +3424,7 @@
   "is_lf": true,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0224_VegitoSV_224.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -3227,6 +3441,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0225_BuuFinal_225.webp",
   "tags": [
    "Regeneration",
    "Powerful Opponent",
@@ -3241,6 +3456,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0226_Trunks_226.webp",
   "tags": [
    "Hybrid Saiyan",
    "Vegeta Clan",
@@ -3259,6 +3475,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0227_Android13_227.webp",
   "tags": [
    "Android",
    "Powerful Opponent",
@@ -3274,6 +3491,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0228_Android14_228.webp",
   "tags": [
    "Android",
    "Melee Type",
@@ -3288,6 +3506,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0229_Android15_229.webp",
   "tags": [
    "Android",
    "Support Type",
@@ -3302,6 +3521,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0230_Vados_230.webp",
   "tags": [
    "Angel",
    "God Ki",
@@ -3322,6 +3542,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0231_Guldo_231.webp",
   "tags": [
    "Frieza Force",
    "Ginyu Force",
@@ -3336,6 +3557,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0232_Burter_232.webp",
   "tags": [
    "Frieza Force",
    "Ginyu Force",
@@ -3350,6 +3572,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0233_Recoome_233.webp",
   "tags": [
    "Frieza Force",
    "Ginyu Force",
@@ -3364,6 +3587,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0234_Jeice_234.webp",
   "tags": [
    "Frieza Force",
    "Ginyu Force",
@@ -3378,6 +3602,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0235_Ginyu_235.webp",
   "tags": [
    "Frieza Force",
    "Ginyu Force",
@@ -3392,6 +3617,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0236_GokuSSGSSK_236.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -3409,6 +3635,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0237_Hit_237.webp",
   "tags": [
    "Universe 6",
    "Powerful Opponent",
@@ -3425,6 +3652,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0238_GohanTeenSS1_238.webp",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -3442,6 +3670,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0240_GokuKidGT_240.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -3458,6 +3687,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0241_Super17_241.webp",
   "tags": [
    "Android",
    "Fusion Warrior",
@@ -3474,6 +3704,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0242_Android13M_242.webp",
   "tags": [
    "Android",
    "Fusion Warrior",
@@ -3490,6 +3721,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0243_Goku_243.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -3505,6 +3737,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0244_Android18_244.webp",
   "tags": [
    "Android",
    "Girls",
@@ -3520,6 +3753,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0245_Bulma_245.webp",
   "tags": [
    "Girls",
    "Weapon Wielder",
@@ -3535,6 +3769,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0246_GinyuGoku_246.webp",
   "tags": [
    "Frieza Force",
    "Ginyu Force",
@@ -3550,6 +3785,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0247_GohanKid_247.webp",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -3565,6 +3801,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0248_Krillin_248.webp",
   "tags": [
    "Super Warrior",
    "Support Type"
@@ -3578,6 +3815,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0249_Nail_249.webp",
   "tags": [
    "Regeneration",
    "Namekian",
@@ -3592,6 +3830,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0250_Nail_250.webp",
   "tags": [
    "Regeneration",
    "Namekian",
@@ -3606,6 +3845,7 @@
   "is_lf": true,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0251_GokuSS3_251.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan 3",
@@ -3621,6 +3861,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0252_Goku_252.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -3635,6 +3876,7 @@
   "is_lf": true,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0253_PiccoloA_253.webp",
   "tags": [
    "Regeneration",
    "Namekian",
@@ -3649,6 +3891,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0254_Champa_254.webp",
   "tags": [
    "God of Destruction",
    "God Ki",
@@ -3666,6 +3909,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0255_Bardock_255.webp",
   "tags": [
    "Saiyan",
    "Defense Type",
@@ -3680,6 +3924,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0256_BojackFP_256.webp",
   "tags": [
    "Transforming Warrior",
    "Powerful Opponent",
@@ -3696,6 +3941,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0257_Vegeta_257.webp",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -3712,6 +3958,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0258_GohanFuture_258.webp",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -3728,6 +3975,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0259_Raditz_259.webp",
   "tags": [
    "Frieza Force",
    "Saiyan",
@@ -3742,6 +3990,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0260_BuuGohan_260.webp",
   "tags": [
    "Regeneration",
    "Powerful Opponent",
@@ -3756,6 +4005,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0261_BuuFinal_261.webp",
   "tags": [
    "Regeneration",
    "Powerful Opponent",
@@ -3770,6 +4020,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0262_BrolySS1_262.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -3786,6 +4037,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0263_Android13_263.webp",
   "tags": [
    "Android",
    "Powerful Opponent",
@@ -3801,6 +4053,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0264_GokuBlackRose_264.webp",
   "tags": [
    "Saiyan",
    "Future",
@@ -3818,6 +4071,7 @@
   "is_lf": true,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0265_VegetaSSGSS_265.webp",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -3835,6 +4089,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0266_Cooler1st_266.webp",
   "tags": [
    "Transforming Warrior",
    "Lineage of Evil",
@@ -3851,6 +4106,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0268_Frieza4th_268.webp",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -3867,6 +4123,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0269_Shisami_269.webp",
   "tags": [
    "Frieza Force",
    "Melee Type"
@@ -3880,6 +4137,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0270_GokuSS4_270.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -3896,6 +4154,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0271_VegetaSS4_271.webp",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -3912,6 +4171,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0272_Shenron4_272.webp",
   "tags": [
    "Shadow Dragon",
    "GT",
@@ -3926,6 +4186,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0273_Shenron1_273.webp",
   "tags": [
    "Shadow Dragon",
    "GT",
@@ -3941,6 +4202,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0275_Shenron3_275.webp",
   "tags": [
    "Shadow Dragon",
    "GT",
@@ -3955,6 +4217,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0276_Tapion_276.webp",
   "tags": [
    "Weapon Wielder",
    "Melee Type",
@@ -3969,6 +4232,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0277_BrolyBN_277.webp",
   "tags": [
    "Saiyan",
    "Frieza Force",
@@ -3986,6 +4250,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0278_Kakarot_278.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -4000,6 +4265,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0279_Buu3rd_279.webp",
   "tags": [
    "Regeneration",
    "Powerful Opponent",
@@ -4014,6 +4280,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0280_GokuKidGT_280.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -4030,6 +4297,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0281_TrunksTeen_281.webp",
   "tags": [
    "Hybrid Saiyan",
    "Vegeta Clan",
@@ -4047,6 +4315,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0282_Frieza2nd_282.webp",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -4063,6 +4332,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0283_TrunksST_283.webp",
   "tags": [
    "Hybrid Saiyan",
    "Vegeta Clan",
@@ -4079,6 +4349,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0284_HyperMegaRilldo_284.webp",
   "tags": [
    "GT",
    "Powerful Opponent",
@@ -4094,6 +4365,7 @@
   "is_lf": true,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0285_Gtb_285.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan God SS",
@@ -4111,6 +4383,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0286_GokuSSG_286.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -4128,6 +4401,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0287_VegetaSS1_287.webp",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -4146,6 +4420,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0288_GogetaSS1_288.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -4163,6 +4438,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0289_JanembaS_289.webp",
   "tags": [
    "Transforming Warrior",
    "Regeneration",
@@ -4180,6 +4456,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0290_SuperBaby2_290.webp",
   "tags": [
    "GT",
    "Transforming Warrior",
@@ -4197,6 +4474,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0291_Android14_291.webp",
   "tags": [
    "Android",
    "Melee Type",
@@ -4211,6 +4489,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0292_Android15_292.webp",
   "tags": [
    "Android",
    "Ranged Type",
@@ -4225,6 +4504,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0293_KeflaSS2_293.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan 2",
@@ -4246,6 +4526,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0294_TrunksSS1_294.webp",
   "tags": [
    "Hybrid Saiyan",
    "Super Saiyan",
@@ -4262,6 +4543,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0295_Cell1st_295.webp",
   "tags": [
    "Android",
    "Regeneration",
@@ -4278,6 +4560,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0296_VegetaBaby_296.webp",
   "tags": [
    "GT",
    "Transforming Warrior",
@@ -4295,6 +4578,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0297_Android21_297.webp",
   "tags": [
    "Android",
    "Regeneration",
@@ -4313,6 +4597,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0298_Android21_298.webp",
   "tags": [
    "Android",
    "Regeneration",
@@ -4331,6 +4616,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0299_Android21_299.webp",
   "tags": [
    "Android",
    "Regeneration",
@@ -4348,6 +4634,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0300_Android21_300.webp",
   "tags": [
    "Android",
    "Regeneration",
@@ -4365,6 +4652,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0301_Basil_301.webp",
   "tags": [
    "Universe 9",
    "Rival Universe",
@@ -4380,6 +4668,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0302_Bergamo_302.webp",
   "tags": [
    "Universe 9",
    "Rival Universe",
@@ -4395,6 +4684,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0303_Lavender_303.webp",
   "tags": [
    "Universe 9",
    "Rival Universe",
@@ -4410,6 +4700,7 @@
   "is_lf": true,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0304_Frieza1st_304.webp",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -4426,6 +4717,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0305_BardockNoBandana_305.webp",
   "tags": [
    "Saiyan",
    "Team Bardock",
@@ -4440,6 +4732,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0306_Vegito_306.webp",
   "tags": [
    "Saiyan",
    "Fusion Warrior",
@@ -4456,6 +4749,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0307_Pumbukin_307.webp",
   "tags": [
    "Saiyan",
    "Team Bardock",
@@ -4470,6 +4764,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0308_Totapo_308.webp",
   "tags": [
    "Saiyan",
    "Team Bardock",
@@ -4484,6 +4779,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0309_TaoPaiPai_309.webp",
   "tags": [
    "Support Type"
   ]
@@ -4496,6 +4792,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0310_GokuSSK_310.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -4512,6 +4809,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0311_Paikuhan_311.webp",
   "tags": [
    "Otherworld Warrior",
    "Powerful Opponent",
@@ -4526,6 +4824,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0312_Kale_312.webp",
   "tags": [
    "Saiyan",
    "Girls",
@@ -4544,6 +4843,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0313_GotenksSS1_313.webp",
   "tags": [
    "Hybrid Saiyan",
    "Super Saiyan",
@@ -4561,6 +4861,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0314_GokuSSGSS_314.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -4578,6 +4879,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0315_VegetaSSGSS_315.webp",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -4595,6 +4897,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0316_GokuTeen_316.webp",
   "tags": [
    "Saiyan",
    "Kids",
@@ -4611,6 +4914,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0317_Hit_317.webp",
   "tags": [
    "Universe 6",
    "Powerful Opponent",
@@ -4627,6 +4931,7 @@
   "is_lf": true,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0318_VegitoSSGSS_318.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan God SS",
@@ -4645,6 +4950,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0319_TrunksFutureSSA_319.webp",
   "tags": [
    "Hybrid Saiyan",
    "Super Saiyan",
@@ -4662,6 +4968,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0320_ZamasM_320.webp",
   "tags": [
    "God Ki",
    "Future",
@@ -4680,6 +4987,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0321_ShenronS1_321.webp",
   "tags": [
    "Shadow Dragon",
    "GT",
@@ -4697,6 +5005,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0322_GokuSS4FP_322.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan 4",
@@ -4713,6 +5022,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0323_Shenron1_323.webp",
   "tags": [
    "Shadow Dragon",
    "GT",
@@ -4728,6 +5038,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0324_Gtn_324.webp",
   "tags": [
    "Saiyan",
    "Fusion Warrior",
@@ -4743,6 +5054,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0325_VegetaSV_325.webp",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -4758,6 +5070,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0326_GohanDBS_326.webp",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -4773,6 +5086,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0327_BuuGotenks_327.webp",
   "tags": [
    "Regeneration",
    "Powerful Opponent",
@@ -4787,6 +5101,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0328_YoungYamcha_328.webp",
   "tags": [
    "Weapon Wielder",
    "Melee Type"
@@ -4800,6 +5115,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0329_TienShinhan_329.webp",
   "tags": [
    "Super Warrior",
    "Defense Type"
@@ -4813,6 +5129,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0330_Krillin_330.webp",
   "tags": [
    "Super Warrior",
    "Support Type"
@@ -4826,6 +5143,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0331_Yamucha_331.webp",
   "tags": [
    "Super Warrior",
    "Ranged Type"
@@ -4839,6 +5157,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0332_Bido_332.webp",
   "tags": [
    "Hera Clan",
    "Support Type",
@@ -4853,6 +5172,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0333_Bujin_333.webp",
   "tags": [
    "Hera Clan",
    "Support Type",
@@ -4867,6 +5187,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0334_Gokua_334.webp",
   "tags": [
    "Transforming Warrior",
    "Hera Clan",
@@ -4883,6 +5204,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0337_Hit_337.webp",
   "tags": [
    "Universe 6",
    "Rival Universe",
@@ -4897,6 +5219,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0338_Turles_338.webp",
   "tags": [
    "Saiyan",
    "Powerful Opponent",
@@ -4913,6 +5236,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0339_GokuSS1_339.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -4929,6 +5253,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0340_Jiren_340.webp",
   "tags": [
    "Rival Universe",
    "Universe 11",
@@ -4945,6 +5270,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0341_Toppo_341.webp",
   "tags": [
    "Rival Universe",
    "Universe 11",
@@ -4960,6 +5286,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0342_Dyspo_342.webp",
   "tags": [
    "Rival Universe",
    "Universe 11",
@@ -4975,6 +5302,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0343_GotenTeen_343.webp",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -4991,6 +5319,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0344_TrunksTeen_344.webp",
   "tags": [
    "Hybrid Saiyan",
    "Vegeta Clan",
@@ -5007,6 +5336,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0345_Cell3rd_345.webp",
   "tags": [
    "Android",
    "Regeneration",
@@ -5023,6 +5353,7 @@
   "is_lf": true,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0346_Vegeta_346.webp",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -5038,6 +5369,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0347_GokuSS2_0347.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan 2",
@@ -5054,6 +5386,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0348_Videl_348.webp",
   "tags": [
    "Girls",
    "Female",
@@ -5068,6 +5401,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0349_GreatSaiyaman1_349.webp",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -5085,6 +5419,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0350_GokuBlack_350.webp",
   "tags": [
    "Saiyan",
    "Future",
@@ -5102,6 +5437,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0351_Ribrianne_351.webp",
   "tags": [
    "Transforming Warrior",
    "Girls",
@@ -5120,6 +5456,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0352_Kakunsa_352.webp",
   "tags": [
    "Transforming Warrior",
    "Girls",
@@ -5138,6 +5475,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0353_Rozie_353.webp",
   "tags": [
    "Transforming Warrior",
    "Girls",
@@ -5156,6 +5494,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0354_GohanKid_354.webp",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -5171,6 +5510,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0362_Yurin_362.webp",
   "tags": [
    "Girls",
    "Female",
@@ -5185,6 +5525,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0363_VegetaSS1_363.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -5201,6 +5542,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0364_MetalCooler_364.webp",
   "tags": [
    "Lineage of Evil",
    "Regeneration",
@@ -5217,6 +5559,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0365_BojackFP_365.webp",
   "tags": [
    "Transforming Warrior",
    "Powerful Opponent",
@@ -5233,6 +5576,7 @@
   "is_lf": true,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0366_GokuUIS_366.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -5249,6 +5593,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0367_Frieza4th_367.webp",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -5265,6 +5610,7 @@
   "is_lf": true,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0370_BrolyBFP_370.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -5281,6 +5627,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0371_Frieza4th_371.webp",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -5297,6 +5644,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0372_BrolyBN_372.webp",
   "tags": [
    "Saiyan",
    "Frieza Force",
@@ -5312,6 +5660,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0373_Vegeta_373.webp",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -5327,6 +5676,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0374_Goku_374.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -5342,6 +5692,7 @@
   "is_lf": true,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0375_GohanFSS1_375.webp",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -5358,6 +5709,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0376_KameSennin_376.webp",
   "tags": [
    "Support Type"
   ]
@@ -5370,6 +5722,7 @@
   "is_lf": true,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0377_BuuFinal_377.webp",
   "tags": [
    "Regeneration",
    "Powerful Opponent",
@@ -5384,6 +5737,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0378_Vegeta_378.webp",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -5399,6 +5753,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0379_Bulma_379.webp",
   "tags": [
    "Girls",
    "Weapon Wielder",
@@ -5415,6 +5770,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0380_BrolyNSS1_380.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -5431,6 +5787,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0381_PiccoloRotor_381.webp",
   "tags": [
    "Regeneration",
    "Namekian",
@@ -5446,6 +5803,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0382_TrunksTF_382.webp",
   "tags": [
    "Hybrid Saiyan",
    "Vegeta Clan",
@@ -5461,6 +5819,7 @@
   "is_lf": true,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0383_GokuBlackRose_383.webp",
   "tags": [
    "Saiyan",
    "Future",
@@ -5478,6 +5837,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0384_TrunksFuture_384.webp",
   "tags": [
    "Hybrid Saiyan",
    "Future",
@@ -5495,6 +5855,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0385_GokuSS1_385.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -5510,6 +5871,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0386_GokuSSGSS_386.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -5526,6 +5888,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0387_GokuBlack_387.webp",
   "tags": [
    "Saiyan",
    "Future",
@@ -5541,6 +5904,7 @@
   "is_lf": true,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0388_GokuSS4_388.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -5557,6 +5921,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0389_Android18_389.webp",
   "tags": [
    "Android",
    "Girls",
@@ -5573,6 +5938,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0390_Android17_390.webp",
   "tags": [
    "Android",
    "Universe Rep",
@@ -5587,6 +5953,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0391_VegetaBaby_391.webp",
   "tags": [
    "GT",
    "Transforming Warrior",
@@ -5604,6 +5971,7 @@
   "is_lf": true,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0392_GogetaSS4_392.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan 4",
@@ -5620,6 +5988,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0393_Super17_393.webp",
   "tags": [
    "Android",
    "Fusion Warrior",
@@ -5636,6 +6005,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0394_SuperBaby2_394.webp",
   "tags": [
    "GT",
    "Transforming Warrior",
@@ -5653,6 +6023,7 @@
   "is_lf": true,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0395_ZamasMD_395.webp",
   "tags": [
    "God Ki",
    "Future",
@@ -5671,6 +6042,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0396_VegitoSSGSS_396.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan God SS",
@@ -5689,6 +6061,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0397_KeflaSS2_397.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan 2",
@@ -5710,6 +6083,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0398_GotenksSS3_398.webp",
   "tags": [
    "Hybrid Saiyan",
    "Super Saiyan 3",
@@ -5726,6 +6100,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0399_GokuBlackRose_399.webp",
   "tags": [
    "Saiyan",
    "Future",
@@ -5743,6 +6118,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0400_Vegeta_400.webp",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -5757,6 +6133,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0401_Goku_401.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -5771,6 +6148,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0402_GokuSS1_402.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -5786,6 +6164,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0403_GokuSS2_403.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan 2",
@@ -5802,6 +6181,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0404_GokuSS3_404.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan 3",
@@ -5817,6 +6197,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0405_GokuSSG_405.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -5833,6 +6214,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0406_GokuSSGSS_406.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -5849,6 +6231,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0407_GohanKid_407.webp",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -5864,6 +6247,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0408_TrunksTeenSS1_408.webp",
   "tags": [
    "Hybrid Saiyan",
    "Vegeta Clan",
@@ -5880,6 +6264,7 @@
   "is_lf": true,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0409_GohanTeenSS1_409.webp",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -5897,6 +6282,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0410_Zangya_410.webp",
   "tags": [
    "Girls",
    "Hera Clan",
@@ -5913,6 +6299,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0411_Bojack_411.webp",
   "tags": [
    "Transforming Warrior",
    "Powerful Opponent",
@@ -5929,6 +6316,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0412_TrunksSS1_412.webp",
   "tags": [
    "Hybrid Saiyan",
    "Super Saiyan",
@@ -5946,6 +6334,7 @@
   "is_lf": true,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0414_FriezaFP_414.webp",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -5962,6 +6351,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0415_Appule_415.webp",
   "tags": [
    "Frieza Force",
    "Minion",
@@ -5976,6 +6366,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0416_Ramon_416.webp",
   "tags": [
    "Frieza Force",
    "Minion",
@@ -5990,6 +6381,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0417_Orlen_417.webp",
   "tags": [
    "Frieza Force",
    "Minion",
@@ -6004,6 +6396,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0418_Nabana_418.webp",
   "tags": [
    "Frieza Force",
    "Minion",
@@ -6018,6 +6411,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0419_Roberry_419.webp",
   "tags": [
    "Frieza Force",
    "Minion",
@@ -6032,6 +6426,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0420_Raspberry_420.webp",
   "tags": [
    "Frieza Force",
    "Minion",
@@ -6047,6 +6442,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0421_Navel_421.webp",
   "tags": [
    "Frieza Force",
    "Minion",
@@ -6062,6 +6458,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0422_Monrei_422.webp",
   "tags": [
    "Frieza Force",
    "Minion",
@@ -6077,6 +6474,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0423_Guprei_423.webp",
   "tags": [
    "Frieza Force",
    "Minion",
@@ -6092,6 +6490,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0424_GokuKidGTSS3_424.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan 3",
@@ -6109,6 +6508,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0425_SuperUub_425.webp",
   "tags": [
    "GT",
    "Fusion Warrior",
@@ -6123,6 +6523,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0426_GokuSS1_426.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -6138,6 +6539,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0427_BrolySS1_427.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -6154,6 +6556,7 @@
   "is_lf": true,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0428_VegetaSSGSSEvo_428.webp",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -6171,6 +6574,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0429_Jiren_429.webp",
   "tags": [
    "Universe 11",
    "Rival Universe",
@@ -6187,6 +6591,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0430_ToppoGod_430.webp",
   "tags": [
    "God of Destruction",
    "God Ki",
@@ -6204,6 +6609,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0431_CauliflaSS2_431.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan 2",
@@ -6223,6 +6629,7 @@
   "is_lf": true,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0432_PerfectCell_432.webp",
   "tags": [
    "Android",
    "Regeneration",
@@ -6239,6 +6646,7 @@
   "is_lf": true,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0433_VegetaT_433.webp",
   "tags": [
    "Frieza Force",
    "Saiyan",
@@ -6255,6 +6663,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0434_Yajirobe_434.webp",
   "tags": [
    "Super Warrior",
    "Weapon Wielder",
@@ -6269,6 +6678,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0435_Saibaiman_435.webp",
   "tags": [
    "Minion",
    "Melee Type"
@@ -6282,6 +6692,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0436_Kaiwareman_436.webp",
   "tags": [
    "Minion",
    "Ranged Type",
@@ -6296,6 +6707,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0437_Kyukonman_437.webp",
   "tags": [
    "Minion",
    "Defense Type",
@@ -6310,6 +6722,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0438_Tennenman_438.webp",
   "tags": [
    "Minion",
    "Ranged Type",
@@ -6324,6 +6737,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0439_Jinkoman_439.webp",
   "tags": [
    "Minion",
    "Melee Type",
@@ -6338,6 +6752,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0440_Copyman_440.webp",
   "tags": [
    "Minion",
    "Support Type",
@@ -6352,6 +6767,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0441_GohanKid_441.webp",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -6370,6 +6786,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0442_GohanTeenSS2_442.webp",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -6385,6 +6802,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0443_ShenronS1_443.webp",
   "tags": [
    "Shadow Dragon",
    "GT",
@@ -6402,6 +6820,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0444_GokuSS1_444.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -6418,6 +6837,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0445_PiccoloHL_445.webp",
   "tags": [
    "Super Warrior",
    "Regeneration",
@@ -6434,6 +6854,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0447_GokuBlackRose_447.webp",
   "tags": [
    "Saiyan",
    "Future",
@@ -6451,6 +6872,7 @@
   "is_lf": true,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0448_GokuSSGSS_448.webp",
   "tags": [
    "Saiyan",
    "God Ki",
@@ -6469,6 +6891,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0449_BrolyB_449.webp",
   "tags": [
    "Saiyan",
    "Frieza Force",
@@ -6485,6 +6908,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0450_Frieza4th_450.webp",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -6501,6 +6925,7 @@
   "is_lf": true,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0451_TrunksFutureSS1_451.webp",
   "tags": [
    "Hybrid Saiyan",
    "Super Saiyan",
@@ -6518,6 +6943,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0452_Zamas_452.webp",
   "tags": [
    "God Ki",
    "Future",
@@ -6536,6 +6962,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0453_MaiFuture_453.webp",
   "tags": [
    "Girls",
    "Future",
@@ -6552,6 +6979,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0454_GogetaSS1_454.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -6569,6 +6997,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0455_Frieza1stPod_455.webp",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -6585,6 +7014,7 @@
   "is_lf": true,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0456_Bardock_456.webp",
   "tags": [
    "Saiyan",
    "Team Bardock",
@@ -6599,6 +7029,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0457_Toma_457.webp",
   "tags": [
    "Saiyan",
    "Team Bardock",
@@ -6613,6 +7044,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0458_Selypa_458.webp",
   "tags": [
    "Saiyan",
    "Girls",
@@ -6629,6 +7061,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0459_GokuKAIOU_459.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -6643,6 +7076,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0460_Frieza4th_460.webp",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -6659,6 +7093,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0461_Android18_461.webp",
   "tags": [
    "Android",
    "Girls",
@@ -6674,6 +7109,7 @@
   "is_lf": true,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0462_JirenFP_462.webp",
   "tags": [
    "Rival Universe",
    "Universe 11",
@@ -6690,6 +7126,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0463_Beerus_463.webp",
   "tags": [
    "God of Destruction",
    "God Ki",
@@ -6705,6 +7142,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0464_Toppo_464.webp",
   "tags": [
    "Rival Universe",
    "Universe 11",
@@ -6720,6 +7158,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0465_Dyspo_465.webp",
   "tags": [
    "Rival Universe",
    "Universe 11",
@@ -6735,6 +7174,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0466_GokuSSGSS_466.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -6751,6 +7191,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0467_VegetaSSGSS_467.webp",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -6767,6 +7208,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0468_GokuSSGSSKAIOU_468.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -6784,6 +7226,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0469_FriezaGold_469.webp",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -6801,6 +7244,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0470_Whis_470.webp",
   "tags": [
    "Angel",
    "God Ki",
@@ -6816,6 +7260,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0471_TrunksSS1_471.webp",
   "tags": [
    "Hybrid Saiyan",
    "Vegeta Clan",
@@ -6833,6 +7278,7 @@
   "is_lf": true,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0472_Android17_472.webp",
   "tags": [
    "Android",
    "Girls",
@@ -6850,6 +7296,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0473_GohanF_473.webp",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -6866,6 +7313,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0474_GogetaSS1_474.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -6882,6 +7330,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0475_Gamma1_475.webp",
   "tags": [
    "Android",
    "Weapon Wielder",
@@ -6897,6 +7346,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0476_Gamma2_476.webp",
   "tags": [
    "Android",
    "Weapon Wielder",
@@ -6912,6 +7362,7 @@
   "is_lf": true,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0477_GokuUI_477.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -6928,6 +7379,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0478_VegetaSS1_478.webp",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -6946,6 +7398,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0479_Goku_479.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -6961,6 +7414,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0480_Krillin_480.webp",
   "tags": [
    "Super Warrior",
    "Universe Rep",
@@ -6975,6 +7429,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0481_TienShinhan_481.webp",
   "tags": [
    "Super Warrior",
    "Universe Rep",
@@ -6989,6 +7444,7 @@
   "is_lf": true,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0482_GokuSS3_482.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan 3",
@@ -7005,6 +7461,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0483_Tapion_483.webp",
   "tags": [
    "Powerful Opponent",
    "Weapon Wielder",
@@ -7020,6 +7477,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0484_Turles_484.webp",
   "tags": [
    "Saiyan",
    "Powerful Opponent",
@@ -7036,6 +7494,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0485_Cooler2nd_485.webp",
   "tags": [
    "Transforming Warrior",
    "Lineage of Evil",
@@ -7052,6 +7511,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0486_VegetaM_486.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan 2",
@@ -7067,6 +7527,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0487_VegitoSV_487.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -7083,6 +7544,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0488_BuuGohan_488.webp",
   "tags": [
    "Regeneration",
    "Powerful Opponent",
@@ -7097,6 +7559,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0489_TienShinhan_489.webp",
   "tags": [
    "Super Warrior",
    "Ranged Type"
@@ -7110,6 +7573,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0490_Cell3rd_490.webp",
   "tags": [
    "Android",
    "Regeneration",
@@ -7126,6 +7590,7 @@
   "is_lf": true,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0491_GohanSHB_491.webp",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -7141,6 +7606,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0492_PiccoloSHAP_492.webp",
   "tags": [
    "Regeneration",
    "Super Warrior",
@@ -7158,6 +7624,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0493_MetalCooler_493.webp",
   "tags": [
    "Lineage of Evil",
    "Regeneration",
@@ -7174,6 +7641,7 @@
   "is_lf": true,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0494_Cooler2nd_494.webp",
   "tags": [
    "Transforming Warrior",
    "Lineage of Evil",
@@ -7190,6 +7658,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0495_BrolySS1_495.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -7206,6 +7675,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0496_Thouser_496.webp",
   "tags": [
    "Melee Type",
    "Sagas From the Movies"
@@ -7219,6 +7689,7 @@
   "is_lf": true,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0497_TrunksSS1_497.webp",
   "tags": [
    "Hybrid Saiyan",
    "Vegeta Clan",
@@ -7236,6 +7707,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0498_FriezaMecha_498.webp",
   "tags": [
    "Frieza Force",
    "Lineage of Evil",
@@ -7250,6 +7722,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0499_GokuBlack_499.webp",
   "tags": [
    "Saiyan",
    "Future",
@@ -7265,6 +7738,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0500_PanSH_500.webp",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -7283,6 +7757,7 @@
   "is_lf": true,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0501_GokuSS4_501.webp",
   "tags": [
    "Saiyan",
    "GT",
@@ -7300,6 +7775,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0502_Android17_502.webp",
   "tags": [
    "Android",
    "GT",
@@ -7315,6 +7791,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0503_Buu3rd_503.webp",
   "tags": [
    "Regeneration",
    "Powerful Opponent",
@@ -7329,6 +7806,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0507_Super17_507.webp",
   "tags": [
    "Android",
    "Fusion Warrior",
@@ -7345,6 +7823,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0508_GogetaSSGSS_508.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan God SS",
@@ -7362,6 +7841,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0509_Android18_509.webp",
   "tags": [
    "Android",
    "Girls",
@@ -7378,6 +7858,7 @@
   "is_lf": true,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0510_Android17_510.webp",
   "tags": [
    "Android",
    "Universe Rep",
@@ -7392,6 +7873,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0511_Hit_511.webp",
   "tags": [
    "Universe 6",
    "Powerful Opponent",
@@ -7408,6 +7890,7 @@
   "is_lf": true,
   "is_zenkai": true,
   "stat": "blast",
+  "icon": "BChaIco_0514_TrunksFutureSS2_514.webp",
   "tags": [
    "Vegeta Clan",
    "Hybrid Saiyan",
@@ -7428,6 +7911,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0515_Zamas_515.webp",
   "tags": [
    "God Ki",
    "Future",
@@ -7444,6 +7928,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0516_ZamasM_516.webp",
   "tags": [
    "God Ki",
    "Future",
@@ -7462,6 +7947,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0517_GokuSSGSS_517.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -7479,6 +7965,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0518_VegetaSSGSS_518.webp",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -7496,6 +7983,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0519_BrolyBSS1MAX_519.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -7512,6 +8000,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0520_ShenronS1_520.webp",
   "tags": [
    "Shadow Dragon",
    "GT",
@@ -7529,6 +8018,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0521_SuperUub_521.webp",
   "tags": [
    "GT",
    "Fusion Warrior",
@@ -7543,6 +8033,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0522_GokuKidGTSS1_522.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -7560,6 +8051,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0523_Jiblet_523.webp",
   "tags": [
    "Saiyan",
    "Defense Type",
@@ -7574,6 +8066,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0524_Zach_524.webp",
   "tags": [
    "Weapon Wielder",
    "Support Type",
@@ -7588,6 +8081,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0525_Nameless_525.webp",
   "tags": [
    "Saiyan",
    "Ranged Type",
@@ -7602,6 +8096,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0526_KeflaSS2_526.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan 2",
@@ -7623,6 +8118,7 @@
   "is_lf": true,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0527_GokuSSGSS_527.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -7640,6 +8136,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0528_KameSenninSP_528.webp",
   "tags": [
    "Super Warrior",
    "Universe Rep",
@@ -7654,6 +8151,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0529_Bergamo_529.webp",
   "tags": [
    "Universe 9",
    "Rival Universe",
@@ -7669,6 +8167,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0530_KaleBSS1_530.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -7688,6 +8187,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0531_TrunksFutureSS2_531.webp",
   "tags": [
    "Hybrid Saiyan",
    "Vegeta Clan",
@@ -7705,6 +8205,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0532_GokuBlackRose_532.webp",
   "tags": [
    "Saiyan",
    "Future",
@@ -7723,6 +8224,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0533_TrunksFutureSS1_533.webp",
   "tags": [
    "Hybrid Saiyan",
    "Vegeta Clan",
@@ -7740,6 +8242,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0534_Cell2nd_534.webp",
   "tags": [
    "Android",
    "Regeneration",
@@ -7756,6 +8259,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0535_Puipui_535.webp",
   "tags": [
    "Ranged Type"
   ]
@@ -7768,6 +8272,7 @@
   "is_lf": true,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0536_GokuSS3_536.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan 3",
@@ -7786,6 +8291,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0538_BuuFinal_538.webp",
   "tags": [
    "Regeneration",
    "Powerful Opponent",
@@ -7800,6 +8306,7 @@
   "is_lf": true,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0539_Goku_539.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -7819,6 +8326,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0540_Jiren_540.webp",
   "tags": [
    "Rival Universe",
    "Universe 11",
@@ -7835,6 +8343,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0541_Kahseral_541.webp",
   "tags": [
    "Rival Universe",
    "Universe 11",
@@ -7850,6 +8359,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0542_Caway_542.webp",
   "tags": [
    "Rival Universe",
    "Universe 4",
@@ -7868,6 +8378,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0543_Champa_543.webp",
   "tags": [
    "God of Destruction",
    "God Ki",
@@ -7885,6 +8396,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0544_Vados_544.webp",
   "tags": [
    "Angel",
    "God Ki",
@@ -7905,6 +8417,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0545_GohanUltimate_545.webp",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -7920,6 +8433,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0546_VegetaSSGSS_546.webp",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -7937,6 +8451,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0547_Cooler2nd_547.webp",
   "tags": [
    "Transforming Warrior",
    "Lineage of Evil",
@@ -7953,6 +8468,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0548_Android13_548.webp",
   "tags": [
    "Android",
    "Powerful Opponent",
@@ -7968,6 +8484,7 @@
   "is_lf": true,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0549_Gamma1_549.webp",
   "tags": [
    "Android",
    "Weapon Wielder",
@@ -7983,6 +8500,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0550_Magenta_550.webp",
   "tags": [
    "Powerful Opponent",
    "Android",
@@ -7998,6 +8516,7 @@
   "is_lf": true,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0551_PiccoloSHAP_551.webp",
   "tags": [
    "Regeneration",
    "Super Warrior",
@@ -8015,6 +8534,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0552_GohanSH_552.webp",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -8030,6 +8550,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0553_GokuBlack_553.webp",
   "tags": [
    "Saiyan",
    "Future",
@@ -8045,6 +8566,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0554_VegitoSSGSS_554.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan God SS",
@@ -8063,6 +8585,7 @@
   "is_lf": true,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0555_Cell3rd_555.webp",
   "tags": [
    "Android",
    "Regeneration",
@@ -8079,6 +8602,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0556_GohanTeenSS1_556.webp",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -8094,6 +8618,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0557_CellJr_557.webp",
   "tags": [
    "Android",
    "Minion",
@@ -8108,6 +8633,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0558_Android18_558.webp",
   "tags": [
    "Android",
    "Girls",
@@ -8123,6 +8649,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0559_Goku_559.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -8137,6 +8664,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0560_Ginyu_560.webp",
   "tags": [
    "Frieza Force",
    "Ginyu Force",
@@ -8152,6 +8680,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0561_Jeice_561.webp",
   "tags": [
    "Frieza Force",
    "Ginyu Force",
@@ -8166,6 +8695,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0562_Recoome_562.webp",
   "tags": [
    "Frieza Force",
    "Ginyu Force",
@@ -8180,6 +8710,7 @@
   "is_lf": true,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0563_GokuSS1_563.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -8195,6 +8726,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0564_GohanKid_564.webp",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -8211,6 +8743,7 @@
   "is_lf": true,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0565_GokuTeen_565.webp",
   "tags": [
    "Saiyan",
    "Kids",
@@ -8228,6 +8761,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0566_Android08_566.webp",
   "tags": [
    "Android",
    "Melee Type",
@@ -8242,6 +8776,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0567_KameSenninPPM_567.webp",
   "tags": [
    "Ranged Type",
    "Sagas From the Movies"
@@ -8255,6 +8790,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0568_Goku_568.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -8269,6 +8805,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0569_Majunior_569.webp",
   "tags": [
    "Regeneration",
    "Namekian",
@@ -8284,6 +8821,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0570_PiccoloKing_570.webp",
   "tags": [
    "Regeneration",
    "Namekian",
@@ -8299,6 +8837,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0571_Tapion_571.webp",
   "tags": [
    "Weapon Wielder",
    "Defense Type",
@@ -8313,6 +8852,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0572_JanembaS_572.webp",
   "tags": [
    "Transforming Warrior",
    "Regeneration",
@@ -8330,6 +8870,7 @@
   "is_lf": true,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0573_Paikuhan_573.webp",
   "tags": [
    "Otherworld Warrior",
    "Saiyan",
@@ -8347,6 +8888,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0574_MetalCooler_574.webp",
   "tags": [
    "Lineage of Evil",
    "Regeneration",
@@ -8363,6 +8905,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0575_GohanTeenSS1_575.webp",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -8379,6 +8922,7 @@
   "is_lf": true,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0576_VegetaSSGSSEvo_576.webp",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -8397,6 +8941,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0577_GoldenFrieza_577.webp",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -8414,6 +8959,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0578_Cooler1st_578.webp",
   "tags": [
    "Transforming Warrior",
    "Lineage of Evil",
@@ -8430,6 +8976,7 @@
   "is_lf": true,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0579_GohanSHU_579.webp",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -8445,6 +8992,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0580_GotenksSH_580.webp",
   "tags": [
    "Hybrid Saiyan",
    "Fusion Warrior",
@@ -8460,6 +9008,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0581_GoldenFrieza_581.webp",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -8477,6 +9026,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0582_Frieza4th_582.webp",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -8493,6 +9043,7 @@
   "is_lf": true,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0583_Goku_583.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -8509,6 +9060,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0584_Frieza4th_584.webp",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -8525,6 +9077,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0585_Bardock_585.webp",
   "tags": [
    "Saiyan",
    "Ranged Type",
@@ -8539,6 +9092,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0586_GokuUIS_586.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -8555,6 +9109,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0587_Beerus_587.webp",
   "tags": [
    "God of Destruction",
    "God Ki",
@@ -8570,6 +9125,7 @@
   "is_lf": true,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0588_GokuKidGT_588.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -8586,6 +9142,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0589_Pan_589.webp",
   "tags": [
    "Hybrid Saiyan",
    "GT",
@@ -8604,6 +9161,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0590_TrunksGT_590.webp",
   "tags": [
    "Hybrid Saiyan",
    "Vegeta Clan",
@@ -8619,6 +9177,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0591_Whis_591.webp",
   "tags": [
    "Angel",
    "God Ki",
@@ -8634,6 +9193,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0592_Bulla_592.webp",
   "tags": [
    "Hybrid Saiyan",
    "GT",
@@ -8652,6 +9212,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0593_Shenron5_593.webp",
   "tags": [
    "Shadow Dragon",
    "GT",
@@ -8667,6 +9228,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0594_PiccoloSH_594.webp",
   "tags": [
    "Regeneration",
    "Super Warrior",
@@ -8684,6 +9246,7 @@
   "is_lf": true,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0595_Super17_595.webp",
   "tags": [
    "Android",
    "Fusion Warrior",
@@ -8700,6 +9263,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0596_Cell1st_596.webp",
   "tags": [
    "Android",
    "Regeneration",
@@ -8716,6 +9280,7 @@
   "is_lf": true,
   "is_zenkai": true,
   "stat": "mixed",
+  "icon": "BChaIco_0597_VegetaSV_597.webp",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -8731,6 +9296,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0598_Android16_598.webp",
   "tags": [
    "Android",
    "Melee Type"
@@ -8744,6 +9310,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0599_GohanTeenSS2_599.webp",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -8759,6 +9326,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0600_BrolyB_600.webp",
   "tags": [
    "Saiyan",
    "Frieza Force",
@@ -8775,6 +9343,7 @@
   "is_lf": true,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0601_SuperBaby2_601.webp",
   "tags": [
    "GT",
    "Transforming Warrior",
@@ -8792,6 +9361,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0602_TrunksGT_602.webp",
   "tags": [
    "GT",
    "Transforming Warrior",
@@ -8809,6 +9379,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0603_FriezaGold_603.webp",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -8826,6 +9397,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0604_Raditz_604.webp",
   "tags": [
    "Frieza Force",
    "Saiyan",
@@ -8840,6 +9412,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0605_Goku_605.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -8854,6 +9427,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0606_Yamucha_606.webp",
   "tags": [
    "Super Warrior",
    "Melee Type"
@@ -8867,6 +9441,7 @@
   "is_lf": true,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0607_Nappa_607.webp",
   "tags": [
    "Frieza Force",
    "Saiyan",
@@ -8883,6 +9458,7 @@
   "is_lf": true,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0608_GokuSSGSS_608.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -8902,6 +9478,7 @@
   "is_lf": true,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0609_Vegeta_609.webp",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -8921,6 +9498,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0610_BrolyB_610.webp",
   "tags": [
    "Saiyan",
    "Frieza Force",
@@ -8937,6 +9515,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0611_Shin_611.webp",
   "tags": [
    "God Ki",
    "Support Type"
@@ -8950,6 +9529,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0612_Android18_612.webp",
   "tags": [
    "Android",
    "Girls",
@@ -8965,6 +9545,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0614_Bulma_614.webp",
   "tags": [
    "Girls",
    "Weapon Wielder",
@@ -8980,6 +9561,7 @@
   "is_lf": true,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0615_GokuSSG_615.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -8997,6 +9579,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0616_Beerus_616.webp",
   "tags": [
    "God of Destruction",
    "God Ki",
@@ -9013,6 +9596,7 @@
   "is_lf": true,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0617_GohanUltimate_617.webp",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -9027,6 +9611,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0618_Buu2nd_618.webp",
   "tags": [
    "Regeneration",
    "Powerful Opponent",
@@ -9041,6 +9626,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0619_TrunksFutureSSA_619.webp",
   "tags": [
    "Hybrid Saiyan",
    "Super Saiyan",
@@ -9058,6 +9644,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0620_Shenron1_620.webp",
   "tags": [
    "Shadow Dragon",
    "GT",
@@ -9073,6 +9660,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0621_GogetaSS4_621.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan 4",
@@ -9089,6 +9677,7 @@
   "is_lf": true,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0622_ShenronS1_622.webp",
   "tags": [
    "Shadow Dragon",
    "GT",
@@ -9106,6 +9695,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0623_GotenTeenSS1_623.webp",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -9123,6 +9713,7 @@
   "is_lf": true,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0624_BrolyNSS1_624.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -9139,6 +9730,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0625_GokuSS1_625.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -9156,6 +9748,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0626_VidelM13_626.webp",
   "tags": [
    "Girls",
    "Female",
@@ -9171,6 +9764,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0627_Jiren_627.webp",
   "tags": [
    "Rival Universe",
    "Universe 11",
@@ -9187,6 +9781,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0628_GohanSS1_628.webp",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -9203,6 +9798,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0629_Piccolo_629.webp",
   "tags": [
    "Regeneration",
    "Namekian",
@@ -9220,6 +9816,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0630_GarlicJr_630.webp",
   "tags": [
    "Transforming Warrior",
    "Regeneration",
@@ -9236,6 +9833,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0631_Bojack_631.webp",
   "tags": [
    "Transforming Warrior",
    "Powerful Opponent",
@@ -9252,6 +9850,7 @@
   "is_lf": true,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0632_Goku_632.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -9267,6 +9866,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0633_Daiz_633.webp",
   "tags": [
    "Turles Crusher Corps",
    "Melee Type",
@@ -9281,6 +9881,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0634_Amond_634.webp",
   "tags": [
    "Turles Crusher Corps",
    "Ranged Type",
@@ -9295,6 +9896,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0635_Cacao_635.webp",
   "tags": [
    "Turles Crusher Corps",
    "Defense Type",
@@ -9309,6 +9911,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0636_Turles_636.webp",
   "tags": [
    "Saiyan",
    "Powerful Opponent",
@@ -9325,6 +9928,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0637_Rasin_637.webp",
   "tags": [
    "Turles Crusher Corps",
    "Support Type",
@@ -9339,6 +9943,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0638_GokuSS3_638.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan 3",
@@ -9354,6 +9959,7 @@
   "is_lf": true,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0639_GotenksSS3_639.webp",
   "tags": [
    "Hybrid Saiyan",
    "Super Saiyan 3",
@@ -9370,6 +9976,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0640_Buu1st_640.webp",
   "tags": [
    "Regeneration",
    "Support Type"
@@ -9383,6 +9990,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0641_VegetaM_641.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan 2",
@@ -9398,6 +10006,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0642_GokuKidDM_642.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -9415,6 +10024,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0643_HyperMegaRilldo_643.webp",
   "tags": [
    "GT",
    "Powerful Opponent",
@@ -9430,6 +10040,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0644_GokuKidDM_644.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -9447,6 +10058,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0645_Glo_645.webp",
   "tags": [
    "DAIMA",
    "Weapon Wielder",
@@ -9461,6 +10073,7 @@
   "is_lf": true,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0646_Vegito_646.webp",
   "tags": [
    "Saiyan",
    "Future",
@@ -9479,6 +10092,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0647_MaiFuture_647.webp",
   "tags": [
    "Girls",
    "Future",
@@ -9495,6 +10109,7 @@
   "is_lf": true,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0648_GokuBlack_648.webp",
   "tags": [
    "Saiyan",
    "Future",
@@ -9512,6 +10127,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0649_Cell3rd_649.webp",
   "tags": [
    "Android",
    "Regeneration",
@@ -9532,6 +10148,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0650_TrunksSS1_650.webp",
   "tags": [
    "Hybrid Saiyan",
    "Vegeta Clan",
@@ -9550,6 +10167,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0651_Vegeta_651.webp",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -9565,6 +10183,7 @@
   "is_lf": true,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0652_GokuSS2_652.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan 2",
@@ -9582,6 +10201,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0653_Videl_653.webp",
   "tags": [
    "Girls",
    "Female",
@@ -9596,6 +10216,7 @@
   "is_lf": true,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0654_GokuKidDMSS1_654.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -9614,6 +10235,7 @@
   "is_lf": false,
   "is_zenkai": true,
   "stat": "strike",
+  "icon": "BChaIco_0655_Tgm3_655.webp",
   "tags": [
    "DAIMA",
    "Weapon Wielder",
@@ -9628,6 +10250,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0656_GohanSHB_656.webp",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -9643,6 +10266,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0657_GokuSSGSS_657.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -9660,6 +10284,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0658_GotenTeenSS1_658.webp",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -9676,6 +10301,7 @@
   "is_lf": true,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0659_GohanFSS1_659.webp",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -9693,6 +10319,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0660_Android18_660.webp",
   "tags": [
    "Android",
    "Girls",
@@ -9710,6 +10337,7 @@
   "is_lf": true,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0661_ZamasM_661.webp",
   "tags": [
    "God Ki",
    "Future",
@@ -9728,6 +10356,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0662_Android17_662.webp",
   "tags": [
    "Android",
    "Future",
@@ -9743,6 +10372,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0663_Piccolo_663.webp",
   "tags": [
    "Regeneration",
    "Super Warrior",
@@ -9758,6 +10388,7 @@
   "is_lf": true,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0664_GokuSS1_664.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -9773,6 +10404,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0665_TrunksST_665.webp",
   "tags": [
    "Hybrid Saiyan",
    "Vegeta Clan",
@@ -9789,6 +10421,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0666_PerfectCell_666.webp",
   "tags": [
    "Android",
    "Regeneration",
@@ -9805,6 +10438,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0667_Cell2nd_667.webp",
   "tags": [
    "Android",
    "Regeneration",
@@ -9821,6 +10455,7 @@
   "is_lf": true,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0668_Vtt_668.webp",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -9837,6 +10472,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0669_Kuu_669.webp",
   "tags": [
    "DAIMA",
    "Support Type"
@@ -9850,6 +10486,7 @@
   "is_lf": true,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0670_Gkf_670.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -9866,6 +10503,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0671_Doo_671.webp",
   "tags": [
    "DAIMA",
    "Ranged Type"
@@ -9879,6 +10517,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0672_TaoPaiPaiCbg_672.webp",
   "tags": [
    "Weapon Wielder",
    "Melee Type"
@@ -9892,6 +10531,7 @@
   "is_lf": true,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0673_PiccoloKing_673.webp",
   "tags": [
    "Regeneration",
    "Namekian",
@@ -9907,6 +10547,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0674_Tambourine_674.webp",
   "tags": [
    "Support Type"
   ]
@@ -9919,6 +10560,7 @@
   "is_lf": true,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0675_GokuTeen_675.webp",
   "tags": [
    "Saiyan",
    "Kids",
@@ -9935,6 +10577,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0676_JackyCheung_676.webp",
   "tags": [
    "Defense Type"
   ]
@@ -9947,6 +10590,7 @@
   "is_lf": true,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0677_Goku_677.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -9961,6 +10605,7 @@
   "is_lf": true,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0678_Vegeta_678.webp",
   "tags": [
    "Frieza Force",
    "Saiyan",
@@ -9977,6 +10622,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0680_GokuSS1_680.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -9992,6 +10638,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0681_Krillin_681.webp",
   "tags": [
    "Super Warrior",
    "Support Type"
@@ -10005,6 +10652,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0683_JirenFP_683.webp",
   "tags": [
    "Rival Universe",
    "Universe 11",
@@ -10021,6 +10669,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0684_ShalletSSG_684.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan God",
@@ -10038,6 +10687,7 @@
   "is_lf": true,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0688_GokuUIS_688.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -10054,6 +10704,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0689_CauliflaSS2_689.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan 2",
@@ -10073,6 +10724,7 @@
   "is_lf": true,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0690_VegetaSSGSS_690.webp",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -10090,6 +10742,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0691_CabbeSS1_691.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -10108,6 +10761,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0692_TienShinhan_692.webp",
   "tags": [
    "Super Warrior",
    "Melee Type"
@@ -10121,6 +10775,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0693_Nappa_693.webp",
   "tags": [
    "Frieza Force",
    "Saiyan",
@@ -10136,6 +10791,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0694_FriezaFP_694.webp",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -10152,6 +10808,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0695_Frieza3rd_695.webp",
   "tags": [
    "Frieza Force",
    "Transforming Warrior",
@@ -10168,6 +10825,7 @@
   "is_lf": true,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0696_KeflaSS2_696.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan 2",
@@ -10189,6 +10847,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0697_FrostFP_697.webp",
   "tags": [
    "Universe 6",
    "Transforming Warrior",
@@ -10206,6 +10865,7 @@
   "is_lf": true,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0698_MetalCooler_698.webp",
   "tags": [
    "Lineage of Evil",
    "Regeneration",
@@ -10222,6 +10882,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0699_Cold_699.webp",
   "tags": [
    "Lineage of Evil",
    "Weapon Wielder",
@@ -10236,6 +10897,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0700_VegetaSS4_700.webp",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -10252,6 +10914,7 @@
   "is_lf": true,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0701_GokuKidGTSS3_701.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan 3",
@@ -10269,6 +10932,7 @@
   "is_lf": true,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0702_Android13_702.webp",
   "tags": [
    "Android",
    "Powerful Opponent",
@@ -10285,6 +10949,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0703_Android14_703.webp",
   "tags": [
    "Android",
    "Melee Type",
@@ -10299,6 +10964,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0704_ZamasMD_704.webp",
   "tags": [
    "God Ki",
    "Future",
@@ -10317,6 +10983,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0705_Goku_705.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -10331,6 +10998,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0706_GohanTeenSS1_706.webp",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -10346,6 +11014,7 @@
   "is_lf": true,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0707_Goku_707.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -10365,6 +11034,7 @@
   "is_lf": true,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0708_JanembaS_708.webp",
   "tags": [
    "Transforming Warrior",
    "Regeneration",
@@ -10382,6 +11052,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0709_GotenksSS1_709.webp",
   "tags": [
    "Hybrid Saiyan",
    "Super Saiyan",
@@ -10399,6 +11070,7 @@
   "is_lf": true,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0710_GohanTeenSS2_710.webp",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -10414,6 +11086,7 @@
   "is_lf": true,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0711_GokuSSG_711.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -10433,6 +11106,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0712_GokuSS4FP_712.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan 4",
@@ -10449,6 +11123,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0713_GokuKidGTSS1_713.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -10466,6 +11141,7 @@
   "is_lf": true,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0714_VegetaKidDMSS3_714.webp",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -10483,6 +11159,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0715_Tamagami2_715.webp",
   "tags": [
    "DAIMA",
    "Weapon Wielder",
@@ -10497,6 +11174,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0716_BuuGohan_716.webp",
   "tags": [
    "Regeneration",
    "Powerful Opponent",
@@ -10511,6 +11189,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0717_VegitoSV_717.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan",
@@ -10527,6 +11206,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0718_GokuSSGSS_718.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -10544,6 +11224,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0719_Piccolo_719.webp",
   "tags": [
    "Regeneration",
    "Super Warrior",
@@ -10559,6 +11240,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0720_MaiFuture_720.webp",
   "tags": [
    "Girls",
    "Future",
@@ -10575,6 +11257,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0721_TrunksFutureSS1_721.webp",
   "tags": [
    "Hybrid Saiyan",
    "Super Saiyan",
@@ -10592,6 +11275,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0722_GokuKidDMSS3_722.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -10609,6 +11293,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0723_Tamagami1_723.webp",
   "tags": [
    "DAIMA",
    "Weapon Wielder",
@@ -10623,6 +11308,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0724_Goku_724.webp",
   "tags": [
    "Saiyan",
    "Son Family",
@@ -10637,6 +11323,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0725_Bardock_725.webp",
   "tags": [
    "Saiyan",
    "Team Bardock",
@@ -10651,6 +11338,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0726_GokuBlackXV2_726.webp",
   "tags": [
    "Saiyan",
    "Future",
@@ -10669,6 +11357,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0727_VegetaSSGXV2_727.webp",
   "tags": [
    "Saiyan",
    "Vegeta Clan",
@@ -10685,6 +11374,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0728_TrunksXV2_728.webp",
   "tags": [
    "Hybrid Saiyan",
    "Vegeta Clan",
@@ -10701,6 +11391,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0729_GogetaSSGSS_729.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan God SS",
@@ -10718,6 +11409,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0730_BrolyB_730.webp",
   "tags": [
    "Saiyan",
    "Frieza Force",
@@ -10735,6 +11427,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0731_Paragus_731.webp",
   "tags": [
    "Saiyan",
    "Frieza Force",
@@ -10751,6 +11444,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0732_Whis_732.webp",
   "tags": [
    "Angel",
    "God Ki",
@@ -10766,6 +11460,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "blast",
+  "icon": "BChaIco_0733_TrunksSS1_733.webp",
   "tags": [
    "Hybrid Saiyan",
    "Vegeta Clan",
@@ -10785,6 +11480,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0734_PanSH_734.webp",
   "tags": [
    "Hybrid Saiyan",
    "Son Family",
@@ -10803,6 +11499,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "strike",
+  "icon": "BChaIco_0735_GokuSS3_735.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan 3",
@@ -10821,6 +11518,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0736_Vados_736.webp",
   "tags": [
    "Angel",
    "God Ki",
@@ -10841,6 +11539,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0737_Android17_737.webp",
   "tags": [
    "Android",
    "Universe Rep",
@@ -10859,6 +11558,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_0747_NamelessSSG_747.webp",
   "tags": [
    "Saiyan",
    "God Ki",
@@ -10875,6 +11575,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_9000_Shallot_01.webp",
   "tags": [
    "Saiyan",
    "Melee Type",
@@ -10894,6 +11595,7 @@
   "is_lf": false,
   "is_zenkai": false,
   "stat": "mixed",
+  "icon": "BChaIco_9800_Shallot_01.webp",
   "tags": [
    "Saiyan",
    "Super Saiyan",

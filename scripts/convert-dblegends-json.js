@@ -54,6 +54,7 @@ function main() {
       is_lf: !!c.legends_limited,
       is_zenkai: !!c.zenkai,
       stat,
+      icon: c.image ? c.image.split('/').pop() : null,
       tags: [...new Set(c.tags.map(mapTag).filter(Boolean))],
     };
   });
