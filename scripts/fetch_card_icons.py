@@ -1,8 +1,14 @@
 #!/usr/bin/env python3
 """
-Lädt die Karten-Icons aller Charaktere aus data/dblegends_full.json nach
-assets/card_icons/. Bereits vorhandene Dateien werden übersprungen, danach
-zeigt der Team-Builder die Bilder an (npm run update-roster nicht vergessen).
+Lädt die Karten-Icons aller Charaktere nach assets/card_icons/. Die Icon-Liste
+kommt aus data/dblegends_full.json (Scrape) oder – falls der Dump fehlt – aus
+src/teams/characters.json, sodass das Script auf jedem frischen Clone läuft.
+Bereits vorhandene Dateien werden übersprungen, danach zeigt der Team-Builder
+die Bilder selbst gehostet an (npm run build nicht vergessen).
+
+Selbst gehostete Icons sind auch Voraussetzung für den Screenshot-Scan im
+Team-Builder: Der Pixel-Abgleich braucht CORS-lesbare Bilder, was bei den
+gehotlinkten Icons von dblegends.net nicht garantiert ist.
 
 Verwendung:
   python3 scripts/fetch_card_icons.py [--workers 10]
@@ -22,6 +28,8 @@ UA = {"User-Agent": "Mozilla/5.0 (compatible; dblegends-scraper)"}
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT_DIR = os.path.join(ROOT, "assets", "card_icons")
 DATA = os.path.join(ROOT, "data", "dblegends_full.json")
+ROSTER = os.path.join(ROOT, "src", "teams", "characters.json")
+ICON_BASE = "https://dblegends.net/assets/card_icons/"
 
 
 def fetch(url: str, dest: str) -> bool:
@@ -38,15 +46,19 @@ def main() -> int:
     p.add_argument("--workers", type=int, default=10)
     args = p.parse_args()
 
-    with open(DATA, encoding="utf-8") as fh:
-        chars = json.load(fh)["characters"]
+    if os.path.exists(DATA):
+        with open(DATA, encoding="utf-8") as fh:
+            chars = json.load(fh)["characters"]
+        urls = [c["image"] for c in chars if c.get("image")]
+    else:
+        print(f"{DATA} fehlt – nutze Icon-Liste aus {ROSTER}")
+        with open(ROSTER, encoding="utf-8") as fh:
+            chars = json.load(fh)["characters"]
+        urls = [ICON_BASE + c["icon"] for c in chars if c.get("icon")]
     os.makedirs(OUT_DIR, exist_ok=True)
 
     jobs = []
-    for c in chars:
-        url = c.get("image")
-        if not url:
-            continue
+    for url in urls:
         dest = os.path.join(OUT_DIR, url.split("/")[-1])
         if not os.path.exists(dest) or os.path.getsize(dest) == 0:
             jobs.append((url, dest))
