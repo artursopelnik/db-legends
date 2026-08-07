@@ -1272,11 +1272,14 @@ details.team-card[open] summary { margin-bottom: 10px; }
   var shotFile = document.getElementById('builderShotFile');
   var scanStatus = document.getElementById('builderScanStatus');
   var scanReport = document.getElementById('builderScanReport');
-  var FP = 12;
+  // Fingerprints are color histograms (HB³ RGB bins): translation invariant,
+  // so it does not matter where exactly the fighter sits in the card art.
+  var HB = 8;
+  var FP_RES = 48;
   var iconFpsPromise = null;
   var fpCanvas = document.createElement('canvas');
-  fpCanvas.width = FP;
-  fpCanvas.height = FP;
+  fpCanvas.width = FP_RES;
+  fpCanvas.height = FP_RES;
   var fpCtx = fpCanvas.getContext('2d', { willReadFrequently: true });
 
   function showStatus(msg, isErr) {
@@ -1303,40 +1306,61 @@ details.team-card[open] summary { margin-bottom: 10px; }
     });
   }
 
-  function fingerprintFrom(src, sx, sy, sw, sh) {
-    fpCtx.drawImage(src, sx, sy, sw, sh, 0, 0, FP, FP);
-    var d = fpCtx.getImageData(0, 0, FP, FP).data;
-    var out = new Uint8ClampedArray(FP * FP * 3);
-    for (var i = 0, j = 0; i < d.length; i += 4, j += 3) {
-      out[j] = d[i];
-      out[j + 1] = d[i + 1];
-      out[j + 2] = d[i + 2];
+  // alphaOnly: count only opaque pixels — for the transparent-background
+  // roster icons this keeps the background out of the fingerprint.
+  function fingerprintFrom(src, sx, sy, sw, sh, alphaOnly) {
+    fpCtx.clearRect(0, 0, FP_RES, FP_RES);
+    fpCtx.drawImage(src, sx, sy, sw, sh, 0, 0, FP_RES, FP_RES);
+    var d = fpCtx.getImageData(0, 0, FP_RES, FP_RES).data;
+    var hist = new Float32Array(HB * HB * HB);
+    var total = 0;
+    var q = 256 / HB;
+    for (var i = 0; i < d.length; i += 4) {
+      if (alphaOnly && d[i + 3] < 128) continue;
+      var bin = ((d[i] / q) | 0) * HB * HB + ((d[i + 1] / q) | 0) * HB + ((d[i + 2] / q) | 0);
+      hist[bin]++;
+      total++;
     }
-    return out;
+    if (total) {
+      for (var k = 0; k < hist.length; k++) hist[k] /= total;
+    }
+    return hist;
   }
 
-  function fpDist(a, b) {
-    var sum = 0;
-    for (var i = 0; i < a.length; i++) sum += Math.abs(a[i] - b[i]);
-    return sum / a.length;
+  // 0..100: how much of the icon's color mass is missing from the window.
+  // Extra window colors (card background, overlays) do not hurt the score.
+  function fpDist(iconHist, winHist) {
+    var inter = 0;
+    for (var i = 0; i < iconHist.length; i++) inter += Math.min(iconHist[i], winHist[i]);
+    return 100 * (1 - inter);
   }
 
-  function u8ToB64(u8) {
+  // Sparse base64 codec for cached histograms: (uint16 bin, uint16 value)
+  // pairs for the non-zero bins only.
+  function histToB64(hist) {
     var s = '';
-    for (var i = 0; i < u8.length; i++) s += String.fromCharCode(u8[i]);
+    for (var i = 0; i < hist.length; i++) {
+      if (hist[i] > 0) {
+        var v = Math.round(hist[i] * 65535);
+        s += String.fromCharCode(i & 255, i >> 8, v & 255, v >> 8);
+      }
+    }
     return btoa(s);
   }
 
-  function b64ToU8(str) {
-    var bin = atob(str);
-    var out = new Uint8ClampedArray(bin.length);
-    for (var i = 0; i < bin.length; i++) out[i] = bin.charCodeAt(i);
-    return out;
+  function b64ToHist(str) {
+    var s = atob(str);
+    var hist = new Float32Array(HB * HB * HB);
+    for (var i = 0; i + 3 < s.length; i += 4) {
+      var bin = s.charCodeAt(i) | (s.charCodeAt(i + 1) << 8);
+      hist[bin] = (s.charCodeAt(i + 2) | (s.charCodeAt(i + 3) << 8)) / 65535;
+    }
+    return hist;
   }
 
   // Icon fingerprints are computed once per browser and cached, so repeat
   // scans skip re-downloading the whole icon set.
-  var FP_STORE_KEY = 'dblScanFp1';
+  var FP_STORE_KEY = 'dblScanFp2';
   function ensureFingerprints(onProgress) {
     if (iconFpsPromise) return iconFpsPromise;
     iconFpsPromise = new Promise(function (resolve) {
@@ -1344,13 +1368,13 @@ details.team-card[open] summary { margin-bottom: 10px; }
       var cache = {};
       try {
         var stored = JSON.parse(localStorage.getItem(FP_STORE_KEY) || 'null');
-        if (stored && stored.base === ICON_BASE && stored.fp === FP) cache = stored.icons || {};
+        if (stored && stored.base === ICON_BASE && stored.fp === HB) cache = stored.icons || {};
       } catch (e) {}
       var todo = [];
       ROSTER.forEach(function (c, i) {
         if (!c.icon) return;
         if (cache[c.icon]) {
-          try { fps[i] = b64ToU8(cache[c.icon]); return; } catch (e) {}
+          try { fps[i] = b64ToHist(cache[c.icon]); return; } catch (e) {}
         }
         todo.push(i);
       });
@@ -1364,7 +1388,7 @@ details.team-card[open] summary { margin-bottom: 10px; }
       function finish() {
         if (dirty) {
           try {
-            localStorage.setItem(FP_STORE_KEY, JSON.stringify({ base: ICON_BASE, fp: FP, icons: cache }));
+            localStorage.setItem(FP_STORE_KEY, JSON.stringify({ base: ICON_BASE, fp: HB, icons: cache }));
           } catch (e) {}
         }
         resolve(fps);
@@ -1383,10 +1407,11 @@ details.team-card[open] summary { margin-bottom: 10px; }
               try {
                 var w = img.naturalWidth;
                 var h = img.naturalHeight;
-                // Central crop: skip the element-colored card frame.
-                var fp = fingerprintFrom(img, w * 0.15, h * 0.15, w * 0.7, h * 0.7);
+                // Central crop skips most of the element-colored card frame;
+                // alphaOnly keeps the transparent background out.
+                var fp = fingerprintFrom(img, w * 0.15, h * 0.15, w * 0.7, h * 0.7, true);
                 fps[idx] = fp;
-                cache[ROSTER[idx].icon] = u8ToB64(fp);
+                cache[ROSTER[idx].icon] = histToB64(fp);
                 dirty = true;
               } catch (e) {}
               step();
@@ -1543,14 +1568,19 @@ details.team-card[open] summary { margin-bottom: 10px; }
   }
 
   // The card art and the roster icon are crops of the same illustration, so a
-  // small window search across each card finds the icon's face region.
+  // small window search across each card finds the region covering the
+  // fighter. Windows stay in the top 75% of the card, below sit overlays
+  // (level, stars, equipment sub-icons) that would pollute the histogram.
   function cardScores(img, rect, fps) {
     var wins = [];
-    [1, 0.82].forEach(function (s) {
+    [1, 0.7].forEach(function (s) {
       var side = Math.min(rect.h * s, rect.w);
       var xSpan = rect.w - side;
-      [0.15, 0.35, 0.55, 0.75, 0.92].forEach(function (fx) {
-        wins.push(fingerprintFrom(img, rect.x + xSpan * fx, rect.y + (rect.h - side) * 0.35, side, side));
+      var ySpan = Math.max(0, rect.h * 0.75 - side);
+      [0.3, 0.55, 0.8].forEach(function (fx) {
+        [0, 1].forEach(function (fy) {
+          wins.push(fingerprintFrom(img, rect.x + xSpan * fx, rect.y + ySpan * fy, side, side, false));
+        });
       });
     });
     return fps.map(function (fp) {
@@ -1596,7 +1626,7 @@ details.team-card[open] summary { margin-bottom: 10px; }
       return {
         pick: pick,
         cands: cands,
-        uncertain: pick === -1 || scores[pick] > 60 || margin < 3.5,
+        uncertain: pick === -1 || scores[pick] > 55 || margin < 5,
       };
     });
   }
