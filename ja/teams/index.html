@@ -1288,7 +1288,15 @@ details.team-card[open] summary { margin-bottom: 10px; }
   function loadImage(src, cross) {
     return new Promise(function (resolve, reject) {
       var img = new Image();
-      if (cross) img.crossOrigin = 'anonymous';
+      if (cross) {
+        img.crossOrigin = 'anonymous';
+        // The grid may have cached the icons without CORS; a cache-busting
+        // param keeps those responses from poisoning the CORS request.
+        if (src.indexOf('//') !== -1 && src.indexOf(location.origin + '/') !== 0) {
+          src += (src.indexOf('?') === -1 ? '?' : '&') + 'cors=1';
+        }
+      }
+      img.referrerPolicy = 'no-referrer';
       img.onload = function () { resolve(img); };
       img.onerror = reject;
       img.src = src;

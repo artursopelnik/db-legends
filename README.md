@@ -45,7 +45,15 @@ Der Team-Builder auf `/teams/` kennt alle Charaktere aus
 auch einen Screenshot des Spiel-Hauptbildschirms hochladen: Die sechs
 Team-Karten werden im Browser erkannt (Kartenerkennung + Bildabgleich gegen
 die Roster-Icons, rein clientseitig) und in der richtigen Reihenfolge ins Team
-übernommen; jeder Slot lässt sich danach per Dropdown korrigieren. Die Datei wird aus einem Scrape von
+übernommen; jeder Slot lässt sich danach per Dropdown korrigieren.
+
+**Wichtig:** Der Bildabgleich braucht CORS-lesbare Icons. Solange die Icons
+von dblegends.net gehotlinkt werden, kann der Scan daran scheitern („Icons
+konnten nicht geladen werden“). Die zuverlässige Lösung ist Selbst-Hosting:
+`python3 scripts/fetch_card_icons.py` (läuft auch ohne Scrape-Dump, nutzt dann
+`src/teams/characters.json`) lädt alle Icons nach `assets/card_icons/`;
+anschließend `npm run build`, committen – der Builder nutzt lokale Icons dann
+automatisch, same-origin und ohne CORS-Probleme. Die Datei wird aus einem Scrape von
 de.dblegends.net generiert. So bringst du sie auf den neuesten Stand:
 
 1. `python3 scripts/scrape_dblegends.py` – lädt alle Charakter- und
