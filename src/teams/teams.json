@@ -6,11 +6,24 @@
       "tag": "Fusion Warrior",
       "emoji": "🔀",
       "core": [
-        { "name": "LEGEND Super Saiyan God Shallet", "role": "damage" },
-        { "name": "ULTRA Super Saiyan God SS Gogeta", "role": "damage" },
-        { "name": "LF Fused Zamasu (Red)", "role": "tank" }
+        {
+          "name": "LEGEND Super Saiyan God Shallet",
+          "role": "damage"
+        },
+        {
+          "name": "ULTRA Super Saiyan God SS Gogeta",
+          "role": "damage"
+        },
+        {
+          "name": "LF Fused Zamasu (Red)",
+          "role": "tank"
+        }
       ],
-      "bench": ["LF Half-Corrupted Fusion Zamasu", "LF Super Saiyan 4 Gogeta", "SP Super Saiyan God Giblet"],
+      "bench": [
+        "LF Half-Corrupted Fusion Zamasu",
+        "LF Super Saiyan 4 Gogeta",
+        "SP Super Saiyan God Giblet"
+      ],
       "text": {
         "en": {
           "why": "Ablaze in divine crimson: the new 8th-anniversary LEGEND Super Saiyan God Shallet – the red-haired fusion of Shallot and Giblet – now leads the tag. His blast arts hit brutally hard, and his switch to the LGT element means he never fights at an element disadvantage. ULTRA SSGSS Gogeta brings strike damage on a second front while Fused Zamasu tanks and heals.",
@@ -43,15 +56,82 @@
       }
     },
     {
+      "slug": "broly",
+      "tag": "Broly",
+      "emoji": "💥",
+      "core": [
+        {
+          "name": "LEGEND Broly: Fury",
+          "role": "tank"
+        },
+        {
+          "name": "ULTRA Legendary Super Saiyan Broly",
+          "role": "damage"
+        },
+        {
+          "name": "LF Super Saiyan Broly: Full Power",
+          "role": "damage"
+        }
+      ],
+      "bench": [
+        "LF Super Saiyan Broly",
+        "SP Broly: Cheelai (Assist)",
+        "SP Paragus: Broly (Assist)"
+      ],
+      "text": {
+        "en": {
+          "why": "The Legendary Super Saiyan is all over PvP right now, and this build shows why. LEGEND Broly: Fury opens as a tank that is almost impossible to put down and only gets angrier as the match drags on, ULTRA Legendary Super Saiyan Broly deletes anything he catches with his strike arts, and LF Super Saiyan Broly: Full Power at Zenkai 7 keeps up endless combo pressure. Three colors, one shared tag: Powerful Opponent.",
+          "equip": "Pure strike equips on both Legendary Brolys and a defensive health set on Broly: Fury. Equips with the Powerful Opponent condition boost all three at once."
+        },
+        "de": {
+          "why": "Der Legendäre Super-Saiyajin dominiert gerade das PvP – und dieses Team zeigt, warum. LEGEND Broly: Fury eröffnet als kaum totzukriegender Tank und wird mit jeder Minute wütender, ULTRA Legendary Super Saiyan Broly zerlegt mit seinen Strike-Arts alles, was er erwischt, und LF Super Saiyan Broly: Full Power hält auf Zenkai 7 endlosen Combo-Druck aufrecht. Drei Farben, ein gemeinsamer Tag: Powerful Opponent.",
+          "equip": "Reine Strike-Equips auf beide Legendary Brolys und ein defensives Health-Set auf Broly: Fury. Equips mit Powerful-Opponent-Bedingung boosten alle drei gleichzeitig."
+        },
+        "es": {
+          "why": "El Super Saiyan Legendario está por todas partes en el PvP ahora mismo, y este equipo demuestra por qué. LEGEND Broly: Fury abre como un tanque casi imposible de tumbar que se enfurece cuanto más dura el combate, ULTRA Legendary Super Saiyan Broly borra del mapa todo lo que atrapa con sus artes de golpe, y LF Super Saiyan Broly: Full Power con Zenkai 7 mantiene una presión de combos infinita. Tres colores, una etiqueta compartida: Powerful Opponent.",
+          "equip": "Equipos puros de golpe en ambos Legendary Broly y un set defensivo de salud en Broly: Fury. Los equipos con condición Powerful Opponent potencian a los tres a la vez."
+        },
+        "pt": {
+          "why": "O Super Saiyajin Lendário está em todo lugar no PvP agora, e este time mostra o porquê. LEGEND Broly: Fury abre como um tanque quase impossível de derrubar que fica mais furioso conforme a luta se estende, ULTRA Legendary Super Saiyan Broly apaga tudo o que alcança com suas artes de golpe, e LF Super Saiyan Broly: Full Power no Zenkai 7 mantém pressão infinita de combos. Três cores, uma tag em comum: Powerful Opponent.",
+          "equip": "Equipamentos puros de golpe nos dois Legendary Broly e um conjunto defensivo de vida no Broly: Fury. Equipamentos com condição Powerful Opponent reforçam os três ao mesmo tempo."
+        },
+        "fr": {
+          "why": "Le Super Saiyan Légendaire est partout en PvP en ce moment, et cette équipe montre pourquoi. LEGEND Broly: Fury ouvre en tank quasi impossible à abattre qui devient plus enragé à mesure que le combat s'éternise, ULTRA Legendary Super Saiyan Broly efface tout ce qu'il attrape avec ses arts de frappe, et LF Super Saiyan Broly: Full Power en Zenkai 7 maintient une pression de combos sans fin. Trois couleurs, un tag commun : Powerful Opponent.",
+          "equip": "Des équipements full frappe sur les deux Legendary Broly et un set défensif de santé sur Broly: Fury. Les équipements à condition Powerful Opponent boostent les trois à la fois."
+        },
+        "ru": {
+          "why": "Легендарный Супер Саян сейчас повсюду в PvP, и эта сборка показывает почему. LEGEND Broly: Fury начинает бой как почти неубиваемый танк, который злится тем сильнее, чем дольше идёт матч; ULTRA Legendary Super Saiyan Broly сносит ударными артами всё, что поймает, а LF Super Saiyan Broly: Full Power на Zenkai 7 держит бесконечное комбо-давление. Три цвета — один общий тег: Powerful Opponent.",
+          "equip": "Чисто ударная экипировка на обоих Legendary Broly и защитный набор здоровья на Broly: Fury. Экипировка с условием Powerful Opponent усиливает всех троих сразу."
+        },
+        "ja": {
+          "why": "伝説の超サイヤ人は今PvPのあらゆる場所で暴れており、このチームがその理由を示しています。LEGEND ブロリー：フューリーはほぼ倒れないタンクとして試合が長引くほど怒りを増し、ULTRA 伝説の超サイヤ人ブロリーは打撃アーツで捕えた相手を消し飛ばし、LF 超サイヤ人ブロリー：フルパワーはゼンカイ7で無限のコンボ圧をかけ続けます。3色で属性を分散しつつ、共通タグは「強敵」です。",
+          "equip": "両方の伝説ブロリーには打撃特化の装備を、ブロリー：フューリーには防御寄りの体力セットを。「強敵」条件の装備なら3体同時に強化できます。"
+        }
+      }
+    },
+    {
       "slug": "god-ki",
       "tag": "God Ki",
       "emoji": "✨",
       "core": [
-        { "name": "ULTRA Super Saiyan God SS Gogeta", "role": "damage" },
-        { "name": "ULTRA Ultra Instinct -Sign- Goku", "role": "damage" },
-        { "name": "LF Fused Zamasu (Red)", "role": "tank" }
+        {
+          "name": "ULTRA Super Saiyan God SS Gogeta",
+          "role": "damage"
+        },
+        {
+          "name": "ULTRA Ultra Instinct -Sign- Goku",
+          "role": "damage"
+        },
+        {
+          "name": "LF Fused Zamasu (Red)",
+          "role": "tank"
+        }
       ],
-      "bench": ["LF Super Saiyan God Goku", "SP Super Saiyan God SS Evolved Vegeta", "SP God of Destruction Beerus"],
+      "bench": [
+        "LF Super Saiyan God Goku",
+        "SP Super Saiyan God SS Evolved Vegeta",
+        "SP God of Destruction Beerus"
+      ],
       "text": {
         "en": {
           "why": "Combines the two strongest attackers in the game, ULTRA SSGSS Gogeta and ULTRA Ultra Instinct -Sign- Goku, with Fused Zamasu as a durable anchor. Massive burst damage with enough sustain to recover from a lost exchange.",
@@ -88,11 +168,24 @@
       "tag": "Son Family",
       "emoji": "👨‍👦",
       "core": [
-        { "name": "ULTRA Ultra Instinct -Sign- Goku", "role": "damage" },
-        { "name": "ULTRA Beast Gohan", "role": "damage" },
-        { "name": "LF Super Saiyan 2 Youth Gohan", "role": "tank" }
+        {
+          "name": "ULTRA Ultra Instinct -Sign- Goku",
+          "role": "damage"
+        },
+        {
+          "name": "ULTRA Beast Gohan",
+          "role": "damage"
+        },
+        {
+          "name": "LF Super Saiyan 2 Youth Gohan",
+          "role": "tank"
+        }
       ],
-      "bench": ["LF Bardock", "SP Super Saiyan God Goku", "SP Super Saiyan Goten (Kid)"],
+      "bench": [
+        "LF Bardock",
+        "SP Super Saiyan God Goku",
+        "SP Super Saiyan Goten (Kid)"
+      ],
       "text": {
         "en": {
           "why": "The classic all-rounder: huge health pools, strong strike defense and big damage multipliers thanks to perfectly aligned Z-Abilities. Beast Gohan and UI Goku carry the damage, Youth Gohan holds the defensive slot.",
@@ -129,11 +222,24 @@
       "tag": "Regeneration",
       "emoji": "♻️",
       "core": [
-        { "name": "ULTRA Janemba", "role": "damage" },
-        { "name": "LF Half-Corrupted Fusion Zamasu", "role": "support" },
-        { "name": "LF Majin Buu: Good", "role": "tank" }
+        {
+          "name": "ULTRA Janemba",
+          "role": "damage"
+        },
+        {
+          "name": "LF Half-Corrupted Fusion Zamasu",
+          "role": "support"
+        },
+        {
+          "name": "LF Majin Buu: Good",
+          "role": "tank"
+        }
       ],
-      "bench": ["LF Super Baby 2", "SP Orange Piccolo", "SP Perfect Cell (Revived)"],
+      "bench": [
+        "LF Super Baby 2",
+        "SP Orange Piccolo",
+        "SP Perfect Cell (Revived)"
+      ],
       "text": {
         "en": {
           "why": "Wins the long game: Janemba, Fusion Zamasu and Majin Buu heal every turn and simply outlast burst-oriented teams. Ideal if you like defensive, patient PvP.",
@@ -170,11 +276,24 @@
       "tag": "Hybrid Saiyan",
       "emoji": "⚡",
       "core": [
-        { "name": "ULTRA Beast Gohan", "role": "damage" },
-        { "name": "LF Gohan & Trunks (Adult)", "role": "damage" },
-        { "name": "LF Super Saiyan 2 Youth Gohan", "role": "tank" }
+        {
+          "name": "ULTRA Beast Gohan",
+          "role": "damage"
+        },
+        {
+          "name": "LF Gohan & Trunks (Adult)",
+          "role": "damage"
+        },
+        {
+          "name": "LF Super Saiyan 2 Youth Gohan",
+          "role": "tank"
+        }
       ],
-      "bench": ["SP Super Saiyan Trunks (Kid)", "SP Super Saiyan Goten (Kid)", "LF Super Trunks"],
+      "bench": [
+        "SP Super Saiyan Trunks (Kid)",
+        "SP Super Saiyan Goten (Kid)",
+        "LF Super Trunks"
+      ],
       "text": {
         "en": {
           "why": "Hybrid Saiyans hit fast and often: Beast Gohan and Gohan & Trunks chain combos while Youth Gohan covers defense. A strong pick if you pulled the 8th-anniversary units.",
@@ -211,11 +330,24 @@
       "tag": "GT",
       "emoji": "🐒",
       "core": [
-        { "name": "ULTRA Super Full Power Saiyan 4 Goku", "role": "damage" },
-        { "name": "LF Super Saiyan 4 Vegeta", "role": "tank" },
-        { "name": "LF Super Saiyan 4 Gogeta", "role": "damage" }
+        {
+          "name": "ULTRA Super Full Power Saiyan 4 Goku",
+          "role": "damage"
+        },
+        {
+          "name": "LF Super Saiyan 4 Vegeta",
+          "role": "tank"
+        },
+        {
+          "name": "LF Super Saiyan 4 Gogeta",
+          "role": "damage"
+        }
       ],
-      "bench": ["SP Pan (GT)", "SP Super Baby 2", "SP Majuub"],
+      "bench": [
+        "SP Pan (GT)",
+        "SP Super Baby 2",
+        "SP Majuub"
+      ],
       "text": {
         "en": {
           "why": "Pure aggression around ULTRA Super Full Power Saiyan 4 Goku: SS4 Vegeta and SS4 Gogeta keep up the ki pressure and end matches before sustain teams come online. Simple game plan, very high damage ceiling.",
