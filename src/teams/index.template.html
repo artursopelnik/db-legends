@@ -329,6 +329,66 @@ details.team-card[open] summary { margin-bottom: 10px; }
   letter-spacing: 0;
   padding: 8px 14px;
 }
+.builder-scan { margin: 14px 0 0; }
+.b-scan-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: system-ui, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  color: var(--orange-soft);
+  background: linear-gradient(180deg, rgba(255,148,36,0.18), rgba(248,85,31,0.12));
+  border: 1.5px solid var(--orange);
+  border-radius: 10px;
+  padding: 9px 14px;
+  box-shadow: none;
+  cursor: pointer;
+}
+.b-scan-btn:hover { background: linear-gradient(180deg, rgba(255,148,36,0.3), rgba(248,85,31,0.2)); }
+.b-scan-btn:disabled { opacity: 0.5; cursor: wait; }
+.builder-scan-hint { color: var(--dim); font-size: 0.88rem; line-height: 1.5; margin: 8px 0 0; }
+.builder-scan-status { color: var(--dim); font-size: 0.9rem; margin: 10px 0 0; }
+.builder-scan-status.scan-error { color: var(--orange-soft); }
+.builder-scan-report[hidden] { display: none; }
+.builder-scan-report {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 10px 0 0;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: #0e1428;
+  padding: 12px 14px;
+}
+.builder-scan-report li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9rem;
+  color: var(--text);
+}
+.builder-scan-report .scan-slot-no {
+  flex: none;
+  color: var(--dim);
+  font-size: 0.8rem;
+  min-width: 1.4em;
+  text-align: right;
+}
+.builder-scan-report select {
+  flex: 1;
+  min-width: 0;
+  font: inherit;
+  font-size: 1rem;
+  color: var(--text);
+  background: #0e1428;
+  border: 1.5px solid var(--line);
+  border-radius: 10px;
+  padding: 4px 8px;
+}
+.builder-scan-report .scan-flag { flex: none; cursor: help; }
 </style>
 </head>
 <body>
@@ -350,6 +410,13 @@ details.team-card[open] summary { margin-bottom: 10px; }
   <section class="team-card builder" id="builder">
     <h2>🛠️ {{BUILDER_HEADING}}</h2>
     <p>{{BUILDER_INTRO}}</p>
+    <div class="builder-scan">
+      <input type="file" id="builderShotFile" accept="image/*" hidden>
+      <button type="button" class="b-scan-btn" id="builderShotBtn">📷 {{BUILDER_SCAN_BUTTON}}</button>
+      <p class="builder-scan-hint">{{BUILDER_SCAN_HINT}}</p>
+      <p class="builder-scan-status" id="builderScanStatus" hidden></p>
+      <ul class="builder-scan-report" id="builderScanReport" hidden></ul>
+    </div>
     <div class="builder-controls">
       <input type="search" id="builderSearch" placeholder="{{BUILDER_SEARCH}}" aria-label="{{BUILDER_SEARCH}}">
       <select id="builderFilter" aria-label="{{BUILDER_FILTER_ALL}}">
@@ -759,7 +826,451 @@ details.team-card[open] summary { margin-bottom: 10px; }
 
   document.getElementById('builderReset').addEventListener('click', function () {
     selected = [];
+    scanStatus.hidden = true;
+    scanReport.hidden = true;
     render();
+  });
+
+  // ---- Team screenshot scan ----
+  // Detects the six party cards in an uploaded screenshot of the in-game home
+  // screen and matches each card against the roster icons, fully client-side.
+  var shotBtn = document.getElementById('builderShotBtn');
+  var shotFile = document.getElementById('builderShotFile');
+  var scanStatus = document.getElementById('builderScanStatus');
+  var scanReport = document.getElementById('builderScanReport');
+  var FP = 12;
+  var iconFpsPromise = null;
+  var fpCanvas = document.createElement('canvas');
+  fpCanvas.width = FP;
+  fpCanvas.height = FP;
+  var fpCtx = fpCanvas.getContext('2d', { willReadFrequently: true });
+
+  function showStatus(msg, isErr) {
+    scanStatus.textContent = msg;
+    scanStatus.className = 'builder-scan-status' + (isErr ? ' scan-error' : '');
+    scanStatus.hidden = false;
+  }
+
+  function loadImage(src, cross) {
+    return new Promise(function (resolve, reject) {
+      var img = new Image();
+      if (cross) img.crossOrigin = 'anonymous';
+      img.onload = function () { resolve(img); };
+      img.onerror = reject;
+      img.src = src;
+    });
+  }
+
+  function fingerprintFrom(src, sx, sy, sw, sh) {
+    fpCtx.drawImage(src, sx, sy, sw, sh, 0, 0, FP, FP);
+    var d = fpCtx.getImageData(0, 0, FP, FP).data;
+    var out = new Uint8ClampedArray(FP * FP * 3);
+    for (var i = 0, j = 0; i < d.length; i += 4, j += 3) {
+      out[j] = d[i];
+      out[j + 1] = d[i + 1];
+      out[j + 2] = d[i + 2];
+    }
+    return out;
+  }
+
+  function fpDist(a, b) {
+    var sum = 0;
+    for (var i = 0; i < a.length; i++) sum += Math.abs(a[i] - b[i]);
+    return sum / a.length;
+  }
+
+  function u8ToB64(u8) {
+    var s = '';
+    for (var i = 0; i < u8.length; i++) s += String.fromCharCode(u8[i]);
+    return btoa(s);
+  }
+
+  function b64ToU8(str) {
+    var bin = atob(str);
+    var out = new Uint8ClampedArray(bin.length);
+    for (var i = 0; i < bin.length; i++) out[i] = bin.charCodeAt(i);
+    return out;
+  }
+
+  // Icon fingerprints are computed once per browser and cached, so repeat
+  // scans skip re-downloading the whole icon set.
+  var FP_STORE_KEY = 'dblScanFp1';
+  function ensureFingerprints(onProgress) {
+    if (iconFpsPromise) return iconFpsPromise;
+    iconFpsPromise = new Promise(function (resolve) {
+      var fps = new Array(ROSTER.length);
+      var cache = {};
+      try {
+        var stored = JSON.parse(localStorage.getItem(FP_STORE_KEY) || 'null');
+        if (stored && stored.base === ICON_BASE && stored.fp === FP) cache = stored.icons || {};
+      } catch (e) {}
+      var todo = [];
+      ROSTER.forEach(function (c, i) {
+        if (!c.icon) return;
+        if (cache[c.icon]) {
+          try { fps[i] = b64ToU8(cache[c.icon]); return; } catch (e) {}
+        }
+        todo.push(i);
+      });
+      if (!todo.length || !ICON_BASE) { resolve(fps); return; }
+      var total = todo.length;
+      var done = 0;
+      var active = 0;
+      var qi = 0;
+      var dirty = false;
+      onProgress(0, total);
+      function finish() {
+        if (dirty) {
+          try {
+            localStorage.setItem(FP_STORE_KEY, JSON.stringify({ base: ICON_BASE, fp: FP, icons: cache }));
+          } catch (e) {}
+        }
+        resolve(fps);
+      }
+      function next() {
+        while (active < 8 && qi < todo.length) {
+          (function (idx) {
+            active++;
+            function step() {
+              active--;
+              done++;
+              onProgress(done, total);
+              if (done >= total) finish(); else next();
+            }
+            loadImage(ICON_BASE + ROSTER[idx].icon, true).then(function (img) {
+              try {
+                var w = img.naturalWidth;
+                var h = img.naturalHeight;
+                // Central crop: skip the element-colored card frame.
+                var fp = fingerprintFrom(img, w * 0.15, h * 0.15, w * 0.7, h * 0.7);
+                fps[idx] = fp;
+                cache[ROSTER[idx].icon] = u8ToB64(fp);
+                dirty = true;
+              } catch (e) {}
+              step();
+            }, step);
+          })(todo[qi++]);
+        }
+      }
+      next();
+    });
+    return iconFpsPromise;
+  }
+
+  // Finds the stacked party cards: bands of colorful rows on the right half
+  // (full width as fallback for cropped screenshots), grouped into the longest
+  // run of similar-sized, left-aligned bands.
+  function detectCards(img) {
+    var iw = img.naturalWidth;
+    var ih = img.naturalHeight;
+    var W = 360;
+    var scale = W / iw;
+    var H = Math.max(1, Math.round(ih * scale));
+    var c = document.createElement('canvas');
+    c.width = W;
+    c.height = H;
+    var ctx = c.getContext('2d', { willReadFrequently: true });
+    ctx.drawImage(img, 0, 0, W, H);
+    var data = ctx.getImageData(0, 0, W, H).data;
+    var rects = detectBands(data, W, H, Math.floor(W * 0.5));
+    if (rects.length < 3) rects = detectBands(data, W, H, 0);
+    return rects.map(function (r) {
+      return { x: r.x / scale, y: r.y / scale, w: r.w / scale, h: r.h / scale };
+    });
+  }
+
+  function detectBands(data, W, H, x0) {
+    var span = W - x0;
+    var chromaAt = function (x, y) {
+      var i = (y * W + x) * 4;
+      var r = data[i], g = data[i + 1], b = data[i + 2];
+      return Math.max(r, g, b) - Math.min(r, g, b);
+    };
+    var rowFrac = new Float32Array(H);
+    for (var y = 0; y < H; y++) {
+      var cnt = 0;
+      for (var x = x0; x < W; x++) {
+        if (chromaAt(x, y) > 30) cnt++;
+      }
+      rowFrac[y] = cnt / span;
+    }
+    // Coarse blocks of colorful rows, small gaps bridged.
+    var blocks = [];
+    var maxGap = Math.max(3, Math.round(H * 0.005));
+    var minH = Math.max(6, Math.round(H * 0.02));
+    var start = -1;
+    var gap = 0;
+    for (y = 0; y <= H; y++) {
+      var on = y < H && rowFrac[y] > 0.08;
+      if (on) {
+        if (start === -1) start = y;
+        gap = 0;
+      } else if (start !== -1 && ++gap > maxGap) {
+        var end = y - gap;
+        if (end - start + 1 >= minH) blocks.push({ y0: start, y1: end });
+        start = -1;
+        gap = 0;
+      }
+    }
+    function xExtent(top, bot) {
+      var rows = bot - top;
+      var xa = -1;
+      var xb = -1;
+      for (var x = x0; x < W; x++) {
+        var cc = 0;
+        for (var yy = top; yy < bot; yy++) {
+          if (chromaAt(x, yy) > 30) cc++;
+        }
+        if (cc / rows > 0.2) {
+          if (xa === -1) xa = x;
+          xb = x;
+        }
+      }
+      if (xa === -1 || xb - xa + 1 < span * 0.25) return null;
+      return { x: xa, y: top, w: xb - xa + 1, h: rows };
+    }
+    // Party cards are ~2.25× wider than tall and their right edge sits on
+    // plain background, so overly wide boxes (background art bleeding in on
+    // the left) get clamped from the right.
+    function clampCard(b) {
+      var maxW = b.h * 2.4;
+      if (b.w > maxW) {
+        b.x += b.w - maxW;
+        b.w = maxW;
+      }
+      return b;
+    }
+    var boxes = [];
+    blocks.forEach(function (b) {
+      var box = xExtent(b.y0, b.y1 + 1);
+      if (box) boxes.push(box);
+    });
+    // Case 1: the cards show up as separate boxes — take the longest run of
+    // vertically stacked, similar boxes.
+    var runs = [];
+    boxes.forEach(function (box) {
+      var run = runs[runs.length - 1];
+      if (run) {
+        var ref = run[0];
+        var prev = run[run.length - 1];
+        var hOk = box.h > ref.h * 0.6 && box.h < ref.h * 1.6;
+        var xOk = Math.abs(box.x - ref.x) < ref.w * 0.3;
+        var gapOk = box.y - (prev.y + prev.h) < ref.h * 1.5;
+        if (hOk && xOk && gapOk) { run.push(box); return; }
+      }
+      runs.push([box]);
+    });
+    var best = [];
+    runs.forEach(function (run) {
+      if (run.length > best.length) best = run;
+    });
+    if (best.length >= 4) return best.slice(0, MAX).map(clampCard);
+    // Case 2: shadows and overlapping badges merge the whole party stack into
+    // one tall block. Trim its pale edges, split it into six equal cards, and
+    // snap each boundary to the nearest local color minimum.
+    var block = null;
+    boxes.forEach(function (b) {
+      if (!block || b.h > block.h) block = b;
+    });
+    if (!block || block.h < H * 0.12) return [];
+    var y0 = block.y;
+    var y1 = block.y + block.h - 1;
+    while (y0 < y1 - 1 && (rowFrac[y0] < 0.22 || rowFrac[y0 + 1] < 0.22)) y0++;
+    while (y1 > y0 + 1 && (rowFrac[y1] < 0.22 || rowFrac[y1 - 1] < 0.22)) y1--;
+    var pitch = (y1 + 1 - y0) / MAX;
+    if (pitch < minH) return [];
+    var bounds = [y0];
+    for (var k = 1; k < MAX; k++) {
+      var guess = Math.round(y0 + k * pitch);
+      var r = Math.max(2, Math.round(pitch * 0.22));
+      var bestY = guess;
+      var bestV = Infinity;
+      for (var yy = Math.max(y0, guess - r); yy <= Math.min(y1, guess + r); yy++) {
+        if (rowFrac[yy] < bestV) { bestV = rowFrac[yy]; bestY = yy; }
+      }
+      bounds.push(bestY);
+    }
+    bounds.push(y1 + 1);
+    var rects = [];
+    for (k = 0; k < MAX; k++) {
+      if (bounds[k + 1] - bounds[k] < pitch * 0.5) continue;
+      var card = xExtent(bounds[k], bounds[k + 1]);
+      if (card) rects.push(clampCard(card));
+    }
+    return rects;
+  }
+
+  // The card art and the roster icon are crops of the same illustration, so a
+  // small window search across each card finds the icon's face region.
+  function cardScores(img, rect, fps) {
+    var wins = [];
+    [1, 0.82].forEach(function (s) {
+      var side = Math.min(rect.h * s, rect.w);
+      var xSpan = rect.w - side;
+      [0.15, 0.35, 0.55, 0.75, 0.92].forEach(function (fx) {
+        wins.push(fingerprintFrom(img, rect.x + xSpan * fx, rect.y + (rect.h - side) * 0.35, side, side));
+      });
+    });
+    return fps.map(function (fp) {
+      if (!fp) return Infinity;
+      var bestD = Infinity;
+      for (var k = 0; k < wins.length; k++) {
+        var d = fpDist(fp, wins[k]);
+        if (d < bestD) bestD = d;
+      }
+      return bestD;
+    });
+  }
+
+  function matchCards(img, rects, fps) {
+    var slotScores = rects.map(function (rect) { return cardScores(img, rect, fps); });
+    // Greedy unique assignment: best (card, fighter) pairs first, so the same
+    // fighter cannot fill two slots.
+    var pairs = [];
+    slotScores.forEach(function (scores, s) {
+      scores.forEach(function (d, i) {
+        if (d < Infinity) pairs.push([d, s, i]);
+      });
+    });
+    pairs.sort(function (a, b) { return a[0] - b[0]; });
+    var picks = new Array(slotScores.length);
+    picks.fill(-1);
+    var used = {};
+    pairs.forEach(function (p) {
+      if (picks[p[1]] !== -1 || used[p[2]]) return;
+      picks[p[1]] = p[2];
+      used[p[2]] = true;
+    });
+    return slotScores.map(function (scores, s) {
+      var order = [];
+      scores.forEach(function (d, i) {
+        if (d < Infinity) order.push([d, i]);
+      });
+      order.sort(function (a, b) { return a[0] - b[0]; });
+      var cands = order.slice(0, 8).map(function (x) { return x[1]; });
+      var pick = picks[s];
+      if (pick !== -1 && cands.indexOf(pick) === -1) cands.unshift(pick);
+      var margin = order.length > 1 ? order[1][0] - order[0][0] : Infinity;
+      return {
+        pick: pick,
+        cands: cands,
+        uncertain: pick === -1 || scores[pick] > 60 || margin < 3.5,
+      };
+    });
+  }
+
+  function applyScanSelection(slots) {
+    selected = [];
+    slots.forEach(function (slot) {
+      if (slot.pick !== -1 && selected.indexOf(slot.pick) === -1) selected.push(slot.pick);
+    });
+    render();
+  }
+
+  function renderScanReport(slots) {
+    scanReport.innerHTML = '';
+    var selects = [];
+    slots.forEach(function (slot, s) {
+      var li = document.createElement('li');
+      var no = document.createElement('span');
+      no.className = 'scan-slot-no';
+      no.textContent = String(s + 1) + '.';
+      li.appendChild(no);
+      var sel = document.createElement('select');
+      sel.setAttribute('aria-label', TEXT.scanSlot.replace('{n}', String(s + 1)));
+      slot.cands.forEach(function (idx) {
+        var opt = document.createElement('option');
+        opt.value = String(idx);
+        opt.textContent = ROSTER[idx].name;
+        sel.appendChild(opt);
+      });
+      if (slot.pick !== -1) sel.value = String(slot.pick);
+      sel.addEventListener('change', function () {
+        var newIdx = parseInt(sel.value, 10);
+        var other = -1;
+        slots.forEach(function (o, t) {
+          if (t !== s && o.pick === newIdx) other = t;
+        });
+        if (other !== -1) {
+          // Fighter already sits in another slot: swap the two slots.
+          slots[other].pick = slot.pick;
+          if (slot.pick !== -1) {
+            if (slots[other].cands.indexOf(slot.pick) === -1) {
+              var opt2 = document.createElement('option');
+              opt2.value = String(slot.pick);
+              opt2.textContent = ROSTER[slot.pick].name;
+              selects[other].appendChild(opt2);
+            }
+            selects[other].value = String(slot.pick);
+          }
+        }
+        slot.pick = newIdx;
+        applyScanSelection(slots);
+      });
+      li.appendChild(sel);
+      if (slot.uncertain) {
+        var flag = document.createElement('span');
+        flag.className = 'scan-flag';
+        flag.textContent = '❓';
+        flag.title = TEXT.scanUncertain;
+        li.appendChild(flag);
+      }
+      selects.push(sel);
+      scanReport.appendChild(li);
+    });
+    scanReport.hidden = !slots.length;
+  }
+
+  function runScan(file) {
+    shotBtn.disabled = true;
+    scanReport.hidden = true;
+    showStatus(TEXT.scanAnalyzing, false);
+    var url = URL.createObjectURL(file);
+    function fail(msg) {
+      showStatus(msg, true);
+      shotBtn.disabled = false;
+    }
+    loadImage(url, false).then(function (img) {
+      URL.revokeObjectURL(url);
+      var rects = detectCards(img);
+      if (!rects.length) { fail(TEXT.scanNone); return; }
+      ensureFingerprints(function (n, total) {
+        showStatus(TEXT.scanLoading.replace('{n}', String(n)).replace('{total}', String(total)), false);
+      }).then(function (fps) {
+        if (!fps.some(function (fp) { return fp; })) {
+          // Nothing loaded (offline or icons blocked): allow a retry later.
+          iconFpsPromise = null;
+          fail(TEXT.scanUnavailable);
+          return;
+        }
+        showStatus(TEXT.scanAnalyzing, false);
+        setTimeout(function () {
+          try {
+            var slots = matchCards(img, rects, fps);
+            applyScanSelection(slots);
+            renderScanReport(slots);
+            showStatus(TEXT.scanDone.replace('{n}', String(selected.length)), false);
+          } catch (e) {
+            fail(TEXT.scanUnavailable);
+            return;
+          }
+          shotBtn.disabled = false;
+        }, 30);
+      });
+    }, function () {
+      URL.revokeObjectURL(url);
+      fail(TEXT.scanNone);
+    });
+  }
+
+  // Debug hook for the card detection (used by tests and troubleshooting).
+  window.__dblScanDebug = { detectCards: detectCards };
+
+  shotBtn.addEventListener('click', function () { shotFile.click(); });
+  shotFile.addEventListener('change', function () {
+    var file = shotFile.files && shotFile.files[0];
+    shotFile.value = '';
+    if (file) runScan(file);
   });
 
   render();

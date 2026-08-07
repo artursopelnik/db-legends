@@ -41,7 +41,11 @@ Im Spiel: **Menü → Freunde → QR-Code scannen** und die Codes vom Bildschirm
 ## Team-Builder-Roster aktualisieren
 
 Der Team-Builder auf `/teams/` kennt alle Charaktere aus
-`src/teams/characters.json`. Die Datei wird aus einem Scrape von
+`src/teams/characters.json`. Statt alle Kämpfer einzeln anzuklicken, kann man
+auch einen Screenshot des Spiel-Hauptbildschirms hochladen: Die sechs
+Team-Karten werden im Browser erkannt (Kartenerkennung + Bildabgleich gegen
+die Roster-Icons, rein clientseitig) und in der richtigen Reihenfolge ins Team
+übernommen; jeder Slot lässt sich danach per Dropdown korrigieren. Die Datei wird aus einem Scrape von
 de.dblegends.net generiert. So bringst du sie auf den neuesten Stand:
 
 1. `python3 scripts/scrape_dblegends.py` – lädt alle Charakter- und

@@ -208,6 +208,13 @@ function renderPage(template, css, lang, data, characters, equips) {
     starsLabel: dict.builderStarsLabel,
     moveUp: dict.builderMoveUp,
     moveDown: dict.builderMoveDown,
+    scanLoading: dict.builderScanLoading,
+    scanAnalyzing: dict.builderScanAnalyzing,
+    scanDone: dict.builderScanDone,
+    scanNone: dict.builderScanNone,
+    scanUnavailable: dict.builderScanUnavailable,
+    scanSlot: dict.builderScanSlot,
+    scanUncertain: dict.builderScanUncertain,
   };
   return template
     .replaceAll('{{LANG}}', lang)
@@ -239,6 +246,8 @@ function renderPage(template, css, lang, data, characters, equips) {
     .replaceAll('{{BUILDER_ROLES}}', escapeHtmlText(dict.builderRoles))
     .replaceAll('{{BUILDER_TIPS}}', escapeHtmlText(dict.builderTips))
     .replaceAll('{{BUILDER_CLEAR}}', escapeHtmlText(dict.builderClear))
+    .replaceAll('{{BUILDER_SCAN_BUTTON}}', escapeHtmlText(dict.builderScanButton))
+    .replaceAll('{{BUILDER_SCAN_HINT}}', escapeHtmlText(dict.builderScanHint))
     .replaceAll('{{BUILDER_SEARCH}}', escapeHtmlAttr(dict.builderSearch))
     .replaceAll('{{BUILDER_FILTER_ALL}}', escapeHtmlText(dict.builderFilterAll))
     .replaceAll('{{BUILDER_FILTER_RARITY}}', escapeHtmlText(dict.builderFilterRarity))
