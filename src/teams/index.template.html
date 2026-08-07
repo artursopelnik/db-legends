@@ -151,7 +151,8 @@ details.team-card[open] summary { margin-bottom: 10px; }
   border-radius: 10px;
   padding: 8px 12px;
 }
-.builder-controls input { flex: 1 1 160px; min-width: 0; }
+.builder-controls input,
+.builder-controls select { flex: 1 1 100%; min-width: 0; }
 .builder-controls input:focus,
 .builder-controls select:focus { outline: none; border-color: var(--orange); }
 .builder-elements {
@@ -399,7 +400,7 @@ details.team-card[open] summary { margin-bottom: 10px; }
   var ROSTER = {{ROSTER_JSON}};
   var EQUIPS = {{EQUIPS_JSON}};
   var TEXT = {{BUILDER_TEXT_JSON}};
-  var ICONS = {{ICONS_AVAILABLE}};
+  var ICON_BASE = '{{ICON_BASE}}';
   var ELEMENT_COLORS = {
     RED: '#e23b3b', YEL: '#e5c033', PUR: '#a052e0', GRN: '#43c55f',
     BLU: '#3f8fe8', LGT: '#e8e8f2', DRK: '#5a4a80'
@@ -661,12 +662,13 @@ details.team-card[open] summary { margin-bottom: 10px; }
     btn.type = 'button';
     btn.className = 'b-chip';
     btn.setAttribute('aria-pressed', 'false');
-    if (ICONS && c.icon) {
+    if (ICON_BASE && c.icon) {
       var img = document.createElement('img');
       img.className = 'b-icon';
       img.loading = 'lazy';
       img.alt = '';
-      img.src = '/assets/card_icons/' + c.icon;
+      img.referrerPolicy = 'no-referrer';
+      img.src = ICON_BASE + c.icon;
       img.addEventListener('error', function () { img.remove(); });
       btn.appendChild(img);
     }
