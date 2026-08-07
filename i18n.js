@@ -1182,9 +1182,27 @@ function t(key, vars) {
   return str;
 }
 
+// Interne Links auf die aktive Sprachversion umbiegen: die Root-Seite wird
+// clientseitig uebersetzt (z. B. PWA-Start auf "/" mit deutscher Sprache),
+// ihre statischen Links zeigen aber auf die englischen Unterseiten.
+const LOCALIZED_SECTIONS = ['teams', 'blog', 'promo-codes'];
+
+function localizeHref(href, lang) {
+  const langAlt = SUPPORTED_LANGS.filter((l) => l !== 'en').join('|');
+  const m = href.match(new RegExp('^\\/(?:(' + langAlt + ')\\/)?([^#?]*)([#?].*)?$'));
+  if (!m) return href;
+  const rest = m[2] || '';
+  const suffix = m[3] || '';
+  if (rest !== '' && !LOCALIZED_SECTIONS.includes(rest.split('/')[0])) return href;
+  return (lang === 'en' ? '/' : '/' + lang + '/') + rest + suffix;
+}
+
 // Uebertraegt alle data-i18n-Attribute (Text, Placeholder, Alt) in den DOM.
 function applyStaticTranslations() {
   document.documentElement.lang = currentLang;
+  document.querySelectorAll('a[href^="/"]').forEach((el) => {
+    el.setAttribute('href', localizeHref(el.getAttribute('href'), currentLang));
+  });
   document.querySelectorAll('[data-i18n]').forEach((el) => {
     let vars;
     if (el.dataset.i18nVars) {
