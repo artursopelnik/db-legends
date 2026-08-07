@@ -195,6 +195,7 @@ function renderPage(template, css, lang, data, characters, equips) {
     recRoleTank: dict.builderRecRoleTank,
     recRoleSupport: dict.builderRecRoleSupport,
     recFill: dict.builderRecFill,
+    recTrio: dict.builderRecTrio,
     recLead: dict.builderRecLead,
     recLeadBase: dict.builderRecLeadBase,
     recLeadOk: dict.builderRecLeadOk,
