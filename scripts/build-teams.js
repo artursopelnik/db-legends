@@ -196,6 +196,8 @@ function renderPage(template, css, lang, data, characters, equips) {
     recRoleSupport: dict.builderRecRoleSupport,
     recFill: dict.builderRecFill,
     recTrio: dict.builderRecTrio,
+    recUpgrade: dict.builderRecUpgrade,
+    ownedToggle: dict.builderOwnedToggle,
     recLead: dict.builderRecLead,
     recLeadBase: dict.builderRecLeadBase,
     recLeadOk: dict.builderRecLeadOk,
@@ -252,6 +254,9 @@ function renderPage(template, css, lang, data, characters, equips) {
     .replaceAll('{{BUILDER_SCAN_BUTTON}}', escapeHtmlText(dict.builderScanButton))
     .replaceAll('{{BUILDER_SCAN_HINT}}', escapeHtmlText(dict.builderScanHint))
     .replaceAll('{{BUILDER_SCAN_EXAMPLE}}', escapeHtmlAttr(dict.builderScanExample))
+    .replaceAll('{{BUILDER_OWNED_HINT}}', escapeHtmlText(dict.builderOwnedHint))
+    .replaceAll('{{BUILDER_OWNED_ALL}}', escapeHtmlText(dict.builderOwnedAll))
+    .replaceAll('{{BUILDER_OWNED_CLEAR}}', escapeHtmlText(dict.builderOwnedClear))
     .replaceAll('{{BUILDER_SEARCH}}', escapeHtmlAttr(dict.builderSearch))
     .replaceAll('{{BUILDER_FILTER_ALL}}', escapeHtmlText(dict.builderFilterAll))
     .replaceAll('{{BUILDER_FILTER_RARITY}}', escapeHtmlText(dict.builderFilterRarity))

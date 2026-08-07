@@ -395,6 +395,9 @@ details.team-card[open] summary { margin-bottom: 10px; }
   letter-spacing: 0;
   padding: 8px 14px;
 }
+.builder-box { margin: 10px 0 0; }
+.b-chip .own-dot { display: none; color: var(--green); font-weight: 800; }
+.b-chip.b-owned .own-dot { display: inline; }
 .builder-scan { margin: 14px 0 0; }
 .b-scan-btn {
   display: inline-flex;
@@ -528,6 +531,12 @@ details.team-card[open] summary { margin-bottom: 10px; }
       </select>
     </div>
     <div class="builder-elements" id="builderElements"></div>
+    <div class="builder-box">
+      <button type="button" class="b-chip" id="builderBoxMode" aria-pressed="false"></button>
+      <button type="button" class="b-chip" id="builderBoxAll" hidden>✓ {{BUILDER_OWNED_ALL}}</button>
+      <button type="button" class="b-chip" id="builderBoxClear" hidden>✕ {{BUILDER_OWNED_CLEAR}}</button>
+      <p class="builder-scan-hint" id="builderBoxHint" hidden>{{BUILDER_OWNED_HINT}}</p>
+    </div>
     <div class="builder-grid" id="builderGrid"></div>
     <p class="builder-none" id="builderNone" hidden>{{BUILDER_NO_MATCHES}}</p>
     <div class="builder-summary" id="builderSummary">
@@ -577,6 +586,18 @@ details.team-card[open] summary { margin-bottom: 10px; }
   var MAX = 6;
   var selected = [];
   var stars = {};
+  // Owned fighters ("my box"): once at least MIN_OWNED are marked, the
+  // recommendations only suggest fighters the user actually has.
+  var MIN_OWNED = 3;
+  var owned = {};
+  try { owned = JSON.parse(localStorage.getItem('dblOwned1') || '{}') || {}; } catch (e) {}
+  var boxMode = false;
+  function saveOwned() {
+    try { localStorage.setItem('dblOwned1', JSON.stringify(owned)); } catch (e) {}
+  }
+  function ownedActive() {
+    return Object.keys(owned).length >= MIN_OWNED;
+  }
   var awake = {};
   var isZenkai = function (c) { return c.tags.indexOf('Zenkai') !== -1; };
 
@@ -745,7 +766,8 @@ details.team-card[open] summary { margin-bottom: 10px; }
     grid.querySelectorAll('button').forEach(function (btn, i) {
       var on = selected.indexOf(i) !== -1;
       btn.setAttribute('aria-pressed', on ? 'true' : 'false');
-      btn.disabled = full && !on;
+      btn.disabled = !boxMode && full && !on;
+      btn.classList.toggle('b-owned', !!owned[ROSTER[i].name]);
     });
 
     if (selected.length < 2) {
@@ -809,7 +831,11 @@ details.team-card[open] summary { margin-bottom: 10px; }
     };
     var selectedNames = {};
     chars.forEach(function (c) { selectedNames[c.name] = true; });
-    var pool = ROSTER.filter(function (c) { return !selectedNames[c.name]; });
+    // With a maintained box, only suggest fighters the user actually owns.
+    var useOwned = ownedActive();
+    var pool = ROSTER.filter(function (c) {
+      return !selectedNames[c.name] && (!useOwned || owned[c.name]);
+    });
     var recs = [];
     var issues = 0;
 
@@ -847,6 +873,29 @@ details.team-card[open] summary { margin-bottom: 10px; }
             .replace('{tag}', mainTag));
         }
       });
+    }
+
+    // Upgrade hint from the box: a stronger owned fighter with the same
+    // role and the team's main tag beats a weaker slot.
+    if (useOwned && mainTag) {
+      var rarRank = { LG: 6, UL: 5, LF: 4, SP: 3, EX: 2, HE: 1 };
+      var bestUp = null;
+      chars.forEach(function (c) {
+        if (c.tags.indexOf(mainTag) === -1) return;
+        var alt = pool.filter(function (p) {
+          return p.role === c.role && rarRank[p.rarity] > rarRank[c.rarity] &&
+            p.tags.indexOf(mainTag) !== -1;
+        }).sort(function (a, b) { return rarRank[b.rarity] - rarRank[a.rarity]; })[0];
+        if (!alt) return;
+        var gain = rarRank[alt.rarity] - rarRank[c.rarity];
+        if (!bestUp || gain > bestUp.gain) bestUp = { from: c, to: alt, gain: gain };
+      });
+      if (bestUp) {
+        issues++;
+        recs.push(TEXT.recUpgrade
+          .replace('{name}', bestUp.from.name)
+          .replace('{alt}', bestUp.to.name));
+      }
     }
 
     if (chars.length < MAX) recs.push(TEXT.recFill);
@@ -940,8 +989,21 @@ details.team-card[open] summary { margin-bottom: 10px; }
     rar.textContent = c.rarity;
     btn.appendChild(rar);
     btn.appendChild(document.createTextNode(c.name.replace(/^(LEGEND|ULTRA|LF|SP|EX|HE) /, '')));
+    var ownDot = document.createElement('span');
+    ownDot.className = 'own-dot';
+    ownDot.textContent = '✓';
+    ownDot.setAttribute('aria-hidden', 'true');
+    btn.appendChild(ownDot);
     btn.title = c.tags.join(' · ');
     btn.addEventListener('click', function () {
+      if (boxMode) {
+        if (owned[c.name]) delete owned[c.name];
+        else owned[c.name] = true;
+        saveOwned();
+        updateBoxButton();
+        render();
+        return;
+      }
       var pos = selected.indexOf(i);
       if (pos === -1) {
         if (selected.length >= MAX) return;
@@ -1018,6 +1080,38 @@ details.team-card[open] summary { margin-bottom: 10px; }
   searchEl.addEventListener('input', applyFilter);
   filterEl.addEventListener('change', applyFilter);
   rarityEl.addEventListener('change', applyFilter);
+
+  var boxBtn = document.getElementById('builderBoxMode');
+  var boxHint = document.getElementById('builderBoxHint');
+  var boxAllBtn = document.getElementById('builderBoxAll');
+  var boxClearBtn = document.getElementById('builderBoxClear');
+  function updateBoxButton() {
+    var n = Object.keys(owned).length;
+    boxBtn.textContent = '📦 ' + TEXT.ownedToggle + (n ? ' (' + n + ')' : '');
+  }
+  boxBtn.addEventListener('click', function () {
+    boxMode = !boxMode;
+    boxBtn.setAttribute('aria-pressed', boxMode ? 'true' : 'false');
+    boxHint.hidden = !boxMode;
+    boxAllBtn.hidden = !boxMode;
+    boxClearBtn.hidden = !boxMode;
+    render();
+  });
+  // Bulk actions honor the active search/tag/rarity/element filters, so
+  // "mark everything, then unmark the few missing ones" works in seconds.
+  function bulkOwned(mark) {
+    grid.querySelectorAll('button').forEach(function (btn, i) {
+      if (btn.hidden) return;
+      if (mark) owned[ROSTER[i].name] = true;
+      else delete owned[ROSTER[i].name];
+    });
+    saveOwned();
+    updateBoxButton();
+    render();
+  }
+  boxAllBtn.addEventListener('click', function () { bulkOwned(true); });
+  boxClearBtn.addEventListener('click', function () { bulkOwned(false); });
+  updateBoxButton();
 
   document.getElementById('builderReset').addEventListener('click', function () {
     selected = [];
@@ -1649,7 +1743,13 @@ details.team-card[open] summary { margin-bottom: 10px; }
         stars[slot.pick] = extras.stars > 0 ? extras.stars : 0;
         awake[slot.pick] = extras.zenkai > 0 && isZenkai(ROSTER[slot.pick]) ? extras.zenkai : 0;
       }
+      // Scanned fighters are clearly owned: grow an already maintained box.
+      if (Object.keys(owned).length) owned[ROSTER[slot.pick].name] = true;
     });
+    if (Object.keys(owned).length) {
+      saveOwned();
+      updateBoxButton();
+    }
     render();
   }
 
