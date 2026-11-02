@@ -18,7 +18,7 @@ const SRC = path.join(ROOT, 'src', 'teams');
 
 const { loadTeams, loadCharacters, teamsPathForLang, teamsUrlForLang, SITE_URL, DEFAULT_LANG } =
   require('./teams-lib.js');
-const { blogPathForLang, homePathForLang, splitH1Html } = require('./blog-lib.js');
+const { blogPathForLang, homePathForLang, splitH1Html, thirdPartyScripts } = require('./blog-lib.js');
 const { promoPathForLang } = require('./promo-lib.js');
 const { I18N, SUPPORTED_LANGS } = require(path.join(ROOT, 'i18n.js'));
 
@@ -299,6 +299,7 @@ function renderPage(template, css, lang, data, characters, equips, equipsI18n) {
     .replaceAll('{{FOOTER_DISCLAIMER}}', escapeHtmlText(dict.blogFooterDisclaimer))
     .replaceAll('{{LEGAL_NOTICE_LABEL}}', escapeHtmlText(dict.legalNotice))
     .replaceAll('{{PRIVACY_LABEL}}', escapeHtmlText(dict.privacy))
+    .replaceAll('{{THIRD_PARTY_SCRIPTS}}', thirdPartyScripts(dict.supportHeadline))
     .replace('{{TEAM_CARDS}}', cards);
 }
 

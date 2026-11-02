@@ -19,7 +19,7 @@ const SITEMAP_PATH = path.join(ROOT, 'sitemap.xml');
 const SITE_URL = 'https://dblqr.org';
 
 const { I18N, SUPPORTED_LANGS } = require(path.join(ROOT, 'i18n.js'));
-const { loadPosts, blogUrlForLang, postUrl } = require('./blog-lib.js');
+const { loadPosts, blogUrlForLang, postUrl, thirdPartyScripts } = require('./blog-lib.js');
 const { loadTeams, teamsPathForLang, teamsUrlForLang } = require('./teams-lib.js');
 const { promoPathForLang, promoUrlForLang } = require('./promo-lib.js');
 
@@ -172,6 +172,7 @@ function renderPage(template, lang) {
   html = html.replaceAll('{{OG_LOCALE}}', OG_LOCALE[lang]);
   html = html.replaceAll('{{OG_LOCALE_ALTERNATES}}', buildOgLocaleAlternates(lang));
   html = html.replaceAll('{{JSON_LD}}', buildJsonLd(lang));
+  html = html.replaceAll('{{THIRD_PARTY_SCRIPTS}}', thirdPartyScripts(dict.supportHeadline));
   html = html.replaceAll('{{BLOG_HREF}}', lang === DEFAULT_LANG ? '/blog/' : `/${lang}/blog/`);
   html = html.replaceAll('{{TEAMS_HREF}}', teamsPathForLang(lang));
   html = html.replaceAll('{{PROMO_HREF}}', promoPathForLang(lang));

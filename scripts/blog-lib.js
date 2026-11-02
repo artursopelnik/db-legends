@@ -130,7 +130,28 @@ function loadPosts(lang) {
   return posts;
 }
 
+// Analytics (Umami, cookieless, self-hosted) + QuietJar donation widget.
+// Shared by the app page and all blog pages; headline is localized per lang.
+function thirdPartyScripts(headline) {
+  const quietJar = {
+    site: 'qj_ae2a4ff5e98980524f9dc1cb',
+    currency: 'eur',
+    labels: { headline, body: '', action: 'Support', icon: 'piggy' },
+    style: { color: '#0369a1', font: 'rounded' },
+    close: { enabled: true, after: 'session', days: 7 },
+    donation: { hideDays: 30 },
+    position: { corner: 'bottom-right' },
+  };
+  const json = JSON.stringify(quietJar).replace(/</g, '\\u003c');
+  return [
+    '<script defer src="https://umami.sotec.app/script.js" data-website-id="2c0fd1dc-6440-4e0b-961b-3f0c84f343eb"></script>',
+    `<script>window.QuietJar = ${json};</script>`,
+    '<script src="https://quietjar.com/js/latest/quietjar.js" async></script>',
+  ].join('\n');
+}
+
 module.exports = {
+  thirdPartyScripts,
   loadPosts,
   splitH1Html,
   SITE_URL,

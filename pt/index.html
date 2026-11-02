@@ -397,9 +397,6 @@
   }
 
   footer { text-align: center; margin-top: 36px; color: var(--dim); font-size: 0.8rem; }
-  .bmc-link { display: inline-block; margin-bottom: 14px; transition: transform 0.1s ease; }
-  .bmc-link:hover { transform: scale(1.04); }
-  .bmc-link img { border-radius: 12px; box-shadow: 0 4px 14px rgba(0,0,0,0.35); }
 
   .toast {
     position: fixed;
@@ -663,7 +660,6 @@
   </div>
 
   <footer>
-    <a href="https://www.buymeacoffee.com/artursopely" target="_blank" rel="noopener noreferrer" class="bmc-link"><img src="/bmc-button.png" alt="Buy Me a Coffee" style="height:48px;width:auto"></a>
     <p data-i18n="footer">Ferramenta de fãs não oficial – sem vínculo com a Bandai Namco. Formato QR compatível com o leitor de amigos do Dragon Ball Legends.</p>
     <p class="data-tools">
       <button type="button" class="linklike" id="exportBtn" data-i18n="export">Exportar</button> ·
@@ -688,21 +684,9 @@
   <div class="modal-hint" data-i18n="modalHint">Toque e segure para salvar a imagem na galeria – toque para fechar</div>
 </div>
 
-<!-- Matomo (cookielos, DSGVO-freundlich) -->
-<script>
-  var _paq = window._paq = window._paq || [];
-  _paq.push(['disableCookies']);
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="https://artursopelnik.de/matomo/";
-    _paq.push(['setTrackerUrl', u+'matomo.php']);
-    _paq.push(['setSiteId', '5']);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<!-- End Matomo Code -->
+<script defer src="https://umami.sotec.app/script.js" data-website-id="2c0fd1dc-6440-4e0b-961b-3f0c84f343eb"></script>
+<script>window.QuietJar = {"site":"qj_ae2a4ff5e98980524f9dc1cb","currency":"eur","labels":{"headline":"Apoie-nos","body":"","action":"Support","icon":"piggy"},"style":{"color":"#0369a1","font":"rounded"},"close":{"enabled":true,"after":"session","days":7},"donation":{"hideDays":30},"position":{"corner":"bottom-right"}};</script>
+<script src="https://quietjar.com/js/latest/quietjar.js" async></script>
 <script src="/lib/qrcode.js"></script>
 <script src="/i18n.js"></script>
 <script src="/app.js"></script>
