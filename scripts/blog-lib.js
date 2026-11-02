@@ -176,16 +176,44 @@ function siteNav(dict, lang, current, exactPage = true) {
     return `    <a${attrs} href="${prefix}${item.path}"><span class="snav-icon" aria-hidden="true">${item.icon}</span>` +
       `<span class="snav-label" data-i18n="${item.key}">${label}</span></a>`;
   });
-  return `<nav class="snav" aria-label="dblqr.org">\n${links.join('\n')}\n  </nav>`;
+  const options = LANG_OPTIONS.map(([code, flag, name]) =>
+    `      <option value="${code}" aria-label="${name}"${code === lang ? ' selected' : ''}>${flag}</option>`,
+  ).join('\n');
+  // Language switch: jump to the same page in the chosen language via the
+  // page's hreflang alternates and remember the choice (same key as i18n.js).
+  const langSwitch = `    <label class="snav-lang"><span class="snav-icon" aria-hidden="true">🌐</span>
+      <select id="langSelect" aria-label="Language / Sprache">
+${options}
+      </select></label>`;
+  const script = `<script>
+document.getElementById('langSelect').addEventListener('change', function (e) {
+  var l = e.target.value;
+  try { localStorage.setItem('dbl-lang', l); } catch (_) {}
+  var alt = document.querySelector('link[rel="alternate"][hreflang="' + l + '"]');
+  var to = alt ? new URL(alt.href).pathname : (l === 'en' ? '/' : '/' + l + '/');
+  location.assign(to + location.hash);
+});
+</script>`;
+  return `<nav class="snav" aria-label="dblqr.org">\n${links.join('\n')}\n${langSwitch}\n  </nav>\n  ${script}`;
 }
+
+const LANG_OPTIONS = [
+  ['en', '🇬🇧', 'English'],
+  ['de', '🇩🇪', 'Deutsch'],
+  ['es', '🇪🇸', 'Español'],
+  ['pt', '🇧🇷', 'Português'],
+  ['fr', '🇫🇷', 'Français'],
+  ['ru', '🇷🇺', 'Русский'],
+  ['ja', '🇯🇵', '日本語'],
+];
 
 const SITE_NAV_CSS = `
 .snav {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr)) auto;
   gap: 6px;
   max-width: 760px;
-  margin: 0 auto 24px;
+  margin: 0 auto 40px;
   padding: 5px;
   border: 1.5px solid var(--line);
   border-radius: 16px;
@@ -212,6 +240,31 @@ const SITE_NAV_CSS = `
 .snav-item:hover { color: var(--orange-soft); }
 .snav-item.active { color: #26130a; background: linear-gradient(180deg, var(--orange-soft), var(--orange)); }
 .snav-item:focus-visible { outline: 2px solid var(--orange); outline-offset: 2px; }
+.snav-lang {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 4px;
+  border-left: 1.5px solid var(--line);
+}
+.snav-lang .snav-icon { display: none; }
+.snav-lang select {
+  appearance: none;
+  -webkit-appearance: none;
+  background: transparent;
+  color: var(--text);
+  border: 1.5px solid transparent;
+  border-radius: 10px;
+  padding: 8px 6px;
+  font-size: 1.3rem;
+  line-height: 1;
+  font-family: system-ui, sans-serif;
+  cursor: pointer;
+}
+.snav-lang select:hover { border-color: var(--line); }
+.snav-lang select:focus-visible { outline: 2px solid var(--orange); outline-offset: 1px; }
+.snav-lang select option { background: var(--panel); color: var(--text); }
 @media (min-width: 640px) {
   .snav-item { flex-direction: row; gap: 7px; font-size: 0.9rem; min-height: 44px; }
 }

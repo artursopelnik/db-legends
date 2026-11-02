@@ -90,7 +90,7 @@
   .wrap { max-width: 1080px; margin: 0 auto; }
 
   /* ---- Header ---- */
-  header { position: relative; text-align: center; margin-bottom: 26px; }
+  header { text-align: center; margin-bottom: 26px; }
   .dballs {
     display: flex;
     justify-content: center;
@@ -146,10 +146,10 @@
 
 .snav {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr)) auto;
   gap: 6px;
   max-width: 760px;
-  margin: 0 auto 24px;
+  margin: 0 auto 40px;
   padding: 5px;
   border: 1.5px solid var(--line);
   border-radius: 16px;
@@ -176,6 +176,31 @@
 .snav-item:hover { color: var(--orange-soft); }
 .snav-item.active { color: #26130a; background: linear-gradient(180deg, var(--orange-soft), var(--orange)); }
 .snav-item:focus-visible { outline: 2px solid var(--orange); outline-offset: 2px; }
+.snav-lang {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 4px;
+  border-left: 1.5px solid var(--line);
+}
+.snav-lang .snav-icon { display: none; }
+.snav-lang select {
+  appearance: none;
+  -webkit-appearance: none;
+  background: transparent;
+  color: var(--text);
+  border: 1.5px solid transparent;
+  border-radius: 10px;
+  padding: 8px 6px;
+  font-size: 1.3rem;
+  line-height: 1;
+  font-family: system-ui, sans-serif;
+  cursor: pointer;
+}
+.snav-lang select:hover { border-color: var(--line); }
+.snav-lang select:focus-visible { outline: 2px solid var(--orange); outline-offset: 1px; }
+.snav-lang select option { background: var(--panel); color: var(--text); }
 @media (min-width: 640px) {
   .snav-item { flex-direction: row; gap: 7px; font-size: 0.9rem; min-height: 44px; }
 }
@@ -478,29 +503,10 @@
     letter-spacing: 0;
   }
 
-  .lang-pick {
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 45;
-  }
-  .lang-pick select {
-    background: rgba(21, 28, 51, 0.9);
-    color: var(--text);
-    border: 1.5px solid var(--line);
-    border-radius: 10px;
-    padding: 6px 8px;
-    font-size: 1.15rem;
-    line-height: 1;
-    font-family: system-ui, sans-serif;
-    cursor: pointer;
-  }
-  .lang-pick select:focus-visible { outline: 2px solid var(--orange); }
-
   /* ---- Mobile: App-Leiste unten ---- */
   @media (max-width: 640px) {
     body { padding: calc(24px + env(safe-area-inset-top, 0px)) 10px 108px; }
-    .snav { margin: 0 6px 24px; } /* same inset as subpages (16px) */
+    .snav { margin: 0 6px 40px; } /* same inset as subpages (16px) */
     header { margin-bottom: 18px; }
     .card img { width: 168px; height: 168px; }
 
@@ -549,20 +555,27 @@
     <a class="snav-item" href="/ja/promo-codes/"><span class="snav-icon" aria-hidden="true">🎁</span><span class="snav-label" data-i18n="navPromo">プロモコード</span></a>
     <a class="snav-item" href="/ja/teams/"><span class="snav-icon" aria-hidden="true">⚔️</span><span class="snav-label" data-i18n="navTeams">チームガイド</span></a>
     <a class="snav-item" href="/ja/blog/"><span class="snav-icon" aria-hidden="true">📖</span><span class="snav-label" data-i18n="blogNavBlog">ブログ</span></a>
-  </nav>
-  <header>
-  <div class="lang-pick">
-    <select id="langSelect" aria-label="Language / Sprache">
+    <label class="snav-lang"><span class="snav-icon" aria-hidden="true">🌐</span>
+      <select id="langSelect" aria-label="Language / Sprache">
       <option value="en" aria-label="English">🇬🇧</option>
       <option value="de" aria-label="Deutsch">🇩🇪</option>
       <option value="es" aria-label="Español">🇪🇸</option>
       <option value="pt" aria-label="Português">🇧🇷</option>
       <option value="fr" aria-label="Français">🇫🇷</option>
       <option value="ru" aria-label="Русский">🇷🇺</option>
-      <option value="ja" aria-label="日本語">🇯🇵</option>
-    </select>
-  </div>
-
+      <option value="ja" aria-label="日本語" selected>🇯🇵</option>
+      </select></label>
+  </nav>
+  <script>
+document.getElementById('langSelect').addEventListener('change', function (e) {
+  var l = e.target.value;
+  try { localStorage.setItem('dbl-lang', l); } catch (_) {}
+  var alt = document.querySelector('link[rel="alternate"][hreflang="' + l + '"]');
+  var to = alt ? new URL(alt.href).pathname : (l === 'en' ? '/' : '/' + l + '/');
+  location.assign(to + location.hash);
+});
+</script>
+  <header>
     <div class="dballs" aria-hidden="true">
       <span class="dball">★</span><span class="dball">★</span><span class="dball">★</span>
       <span class="dball">★</span><span class="dball">★</span><span class="dball">★</span>

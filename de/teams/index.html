@@ -35,7 +35,7 @@
 <meta name="twitter:title" content="Dragon Ball Legends Team-Guide">
 <meta name="twitter:description" content="Kuratierte Dragon Ball Legends Team-Builds für die aktuelle Meta: die stärksten Tags mit drei Kern-Kämpfern, Bank-Optionen und Equipment-Tipps pro Team.">
 <meta name="twitter:image" content="https://dblqr.org/icons/icon-512.png">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"Dragon Ball Legends Team-Guide","description":"Kuratierte Dragon Ball Legends Team-Builds für die aktuelle Meta: die stärksten Tags mit drei Kern-Kämpfern, Bank-Optionen und Equipment-Tipps pro Team.","url":"https://dblqr.org/de/teams/","inLanguage":"de","itemListElement":[{"@type":"ListItem","position":1,"name":"Fusion Warrior Team","url":"https://dblqr.org/de/teams/#fusion-warrior"},{"@type":"ListItem","position":2,"name":"Son Family Team","url":"https://dblqr.org/de/teams/#son-family"},{"@type":"ListItem","position":3,"name":"Majin Buu Saga Team","url":"https://dblqr.org/de/teams/#majin-buu-saga"},{"@type":"ListItem","position":4,"name":"Hybrid Saiyan Team","url":"https://dblqr.org/de/teams/#hybrid-saiyan"},{"@type":"ListItem","position":5,"name":"Future Team","url":"https://dblqr.org/de/teams/#future"},{"@type":"ListItem","position":6,"name":"God Ki Team","url":"https://dblqr.org/de/teams/#god-ki"},{"@type":"ListItem","position":7,"name":"Lineage of Evil Team","url":"https://dblqr.org/de/teams/#lineage-of-evil"},{"@type":"ListItem","position":8,"name":"GT Team","url":"https://dblqr.org/de/teams/#gt"},{"@type":"ListItem","position":9,"name":"Sagas From the Movies Team","url":"https://dblqr.org/de/teams/#sagas-from-the-movies"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"Dragon Ball Legends Team-Guide","description":"Kuratierte Dragon Ball Legends Team-Builds für die aktuelle Meta: die stärksten Tags mit drei Kern-Kämpfern, Bank-Optionen und Equipment-Tipps pro Team.","url":"https://dblqr.org/de/teams/","inLanguage":"de","itemListElement":[{"@type":"ListItem","position":1,"name":"Fusion Warrior Team","url":"https://dblqr.org/de/teams/#fusion-warrior"},{"@type":"ListItem","position":2,"name":"Son Family Team","url":"https://dblqr.org/de/teams/#son-family"},{"@type":"ListItem","position":3,"name":"Majin Buu Saga Team","url":"https://dblqr.org/de/teams/#majin-buu-saga"},{"@type":"ListItem","position":4,"name":"Hybrid Saiyan Team","url":"https://dblqr.org/de/teams/#hybrid-saiyan"},{"@type":"ListItem","position":5,"name":"Future Team","url":"https://dblqr.org/de/teams/#future"},{"@type":"ListItem","position":6,"name":"God Ki Team","url":"https://dblqr.org/de/teams/#god-ki"},{"@type":"ListItem","position":7,"name":"Lineage of Evil Team","url":"https://dblqr.org/de/teams/#lineage-of-evil"},{"@type":"ListItem","position":8,"name":"GT Team","url":"https://dblqr.org/de/teams/#gt"},{"@type":"ListItem","position":9,"name":"Sagas From the Movies Team","url":"https://dblqr.org/de/teams/#sagas-from-the-movies"},{"@type":"ListItem","position":10,"name":"Powerful Opponent Team","url":"https://dblqr.org/de/teams/#powerful-opponent"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"DBL QR Generator","item":"https://dblqr.org/de/"},{"@type":"ListItem","position":2,"name":"Team-Guide","item":"https://dblqr.org/de/teams/"}]}</script>
 <meta name="theme-color" content="#0a0e1c">
 <link rel="preload" href="/fonts/bangers.woff2" as="font" type="font/woff2" crossorigin>
@@ -183,10 +183,10 @@ footer a { color: var(--dim); }
 
 .snav {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr)) auto;
   gap: 6px;
   max-width: 760px;
-  margin: 0 auto 24px;
+  margin: 0 auto 40px;
   padding: 5px;
   border: 1.5px solid var(--line);
   border-radius: 16px;
@@ -213,6 +213,31 @@ footer a { color: var(--dim); }
 .snav-item:hover { color: var(--orange-soft); }
 .snav-item.active { color: #26130a; background: linear-gradient(180deg, var(--orange-soft), var(--orange)); }
 .snav-item:focus-visible { outline: 2px solid var(--orange); outline-offset: 2px; }
+.snav-lang {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 4px;
+  border-left: 1.5px solid var(--line);
+}
+.snav-lang .snav-icon { display: none; }
+.snav-lang select {
+  appearance: none;
+  -webkit-appearance: none;
+  background: transparent;
+  color: var(--text);
+  border: 1.5px solid transparent;
+  border-radius: 10px;
+  padding: 8px 6px;
+  font-size: 1.3rem;
+  line-height: 1;
+  font-family: system-ui, sans-serif;
+  cursor: pointer;
+}
+.snav-lang select:hover { border-color: var(--line); }
+.snav-lang select:focus-visible { outline: 2px solid var(--orange); outline-offset: 1px; }
+.snav-lang select option { background: var(--panel); color: var(--text); }
 @media (min-width: 640px) {
   .snav-item { flex-direction: row; gap: 7px; font-size: 0.9rem; min-height: 44px; }
 }
@@ -328,7 +353,26 @@ details.team-card[open] summary { margin-bottom: 10px; }
     <a class="snav-item" href="/de/promo-codes/"><span class="snav-icon" aria-hidden="true">🎁</span><span class="snav-label" data-i18n="navPromo">Promo-Codes</span></a>
     <a class="snav-item active" aria-current="page" href="/de/teams/"><span class="snav-icon" aria-hidden="true">⚔️</span><span class="snav-label" data-i18n="navTeams">Team-Guide</span></a>
     <a class="snav-item" href="/de/blog/"><span class="snav-icon" aria-hidden="true">📖</span><span class="snav-label" data-i18n="blogNavBlog">Blog</span></a>
+    <label class="snav-lang"><span class="snav-icon" aria-hidden="true">🌐</span>
+      <select id="langSelect" aria-label="Language / Sprache">
+      <option value="en" aria-label="English">🇬🇧</option>
+      <option value="de" aria-label="Deutsch" selected>🇩🇪</option>
+      <option value="es" aria-label="Español">🇪🇸</option>
+      <option value="pt" aria-label="Português">🇧🇷</option>
+      <option value="fr" aria-label="Français">🇫🇷</option>
+      <option value="ru" aria-label="Русский">🇷🇺</option>
+      <option value="ja" aria-label="日本語">🇯🇵</option>
+      </select></label>
   </nav>
+  <script>
+document.getElementById('langSelect').addEventListener('change', function (e) {
+  var l = e.target.value;
+  try { localStorage.setItem('dbl-lang', l); } catch (_) {}
+  var alt = document.querySelector('link[rel="alternate"][hreflang="' + l + '"]');
+  var to = alt ? new URL(alt.href).pathname : (l === 'en' ? '/' : '/' + l + '/');
+  location.assign(to + location.hash);
+});
+</script>
 
   <h1><span class="h1-brand">Dragon Ball Legends</span> <span class="h1-page">Team-Guide</span></h1>
   <p class="post-meta">Die Top-Teams der aktuellen Meta, nach Stärke gerankt: drei Kern-Kämpfer, Bank-Optionen und Equipment-Tipps für jedes Team.</p>
@@ -460,6 +504,20 @@ details.team-card[open] summary { margin-bottom: 10px; }
     <p class="bench-list">SP Super Saiyan Broly · SP Turles · SP Super Saiyan 3 Goku</p>
     <h3>Equipment-Tipps</h3>
     <p>Sagas-From-the-Movies-Tag-Equips; Angriffs-Sets auf Cooler und Broly.</p>
+  </details>
+  <details class="team-card" id="powerful-opponent">
+    <summary><h2><span class="team-rank">#10</span> 💀 Powerful Opponent</h2></summary>
+    <p>LEGEND Android #17 &amp; Golden Frieza führt an, ULTRA Final Form Cooler und LEGEND Broly: Fury machen den Schaden. Eine gute Alternative, wenn du Cooler und Broly hast, aber nicht die Top-Fusionen.</p>
+    <h3>Kern-Team</h3>
+    <ul class="fighter-list">
+      <li><span class="fighter-name">LEGEND Android #17 &amp; Golden Frieza</span><span class="role-chip role-support">Support</span></li>
+      <li><span class="fighter-name">ULTRA Final Form Cooler</span><span class="role-chip role-damage">Schaden</span></li>
+      <li><span class="fighter-name">LEGEND Broly: Fury</span><span class="role-chip role-damage">Schaden</span></li>
+    </ul>
+    <h3>Bank</h3>
+    <p class="bench-list">SP Super Saiyan Broly · SP Turles · SP Super Saiyan 3 Goku</p>
+    <h3>Equipment-Tipps</h3>
+    <p>Powerful-Opponent-Tag-Equips; Angriffs-Sets auf Cooler und Broly, Health auf #17 &amp; Frieza.</p>
   </details>
 
   <p class="teams-disclaimer">Die Meta verschiebt sich mit jedem neuen Banner. Nimm diese Builds als bewährten Startpunkt, nicht als einzige Option. Charakternamen folgen der englischen Spielversion.</p>

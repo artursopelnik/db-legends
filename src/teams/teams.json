@@ -482,6 +482,60 @@
           "equip": "劇場版タグの装備を。CoolerとBrolyには攻撃系を。"
         }
       }
+    },
+    {
+      "slug": "powerful-opponent",
+      "tag": "Powerful Opponent",
+      "emoji": "💀",
+      "core": [
+        {
+          "name": "LEGEND Android #17 & Golden Frieza",
+          "role": "support"
+        },
+        {
+          "name": "ULTRA Final Form Cooler",
+          "role": "damage"
+        },
+        {
+          "name": "LEGEND Broly: Fury",
+          "role": "damage"
+        }
+      ],
+      "bench": [
+        "SP Super Saiyan Broly",
+        "SP Turles",
+        "SP Super Saiyan 3 Goku"
+      ],
+      "text": {
+        "en": {
+          "why": "LEGEND Android #17 & Golden Frieza leads, with ULTRA Final Form Cooler and LEGEND Broly: Fury as the damage dealers. A good alternative if you own Cooler and Broly but not the top fusions.",
+          "equip": "Powerful Opponent tag equips; attack sets on Cooler and Broly, health on #17 & Frieza."
+        },
+        "de": {
+          "why": "LEGEND Android #17 & Golden Frieza führt an, ULTRA Final Form Cooler und LEGEND Broly: Fury machen den Schaden. Eine gute Alternative, wenn du Cooler und Broly hast, aber nicht die Top-Fusionen.",
+          "equip": "Powerful-Opponent-Tag-Equips; Angriffs-Sets auf Cooler und Broly, Health auf #17 & Frieza."
+        },
+        "es": {
+          "why": "LEGEND Android #17 & Golden Frieza lidera, con ULTRA Final Form Cooler y LEGEND Broly: Fury como fuentes de daño. Una buena alternativa si tienes a Cooler y Broly pero no las mejores fusiones.",
+          "equip": "Equipos de etiqueta Powerful Opponent; sets de ataque en Cooler y Broly, salud en #17 & Frieza."
+        },
+        "pt": {
+          "why": "LEGEND Android #17 & Golden Frieza lidera, com ULTRA Final Form Cooler e LEGEND Broly: Fury causando o dano. Uma boa alternativa se você tem Cooler e Broly, mas não as melhores fusões.",
+          "equip": "Equipamentos de tag Powerful Opponent; sets de ataque em Cooler e Broly, vida em #17 & Frieza."
+        },
+        "fr": {
+          "why": "LEGEND Android #17 & Golden Frieza mène, avec ULTRA Final Form Cooler et LEGEND Broly: Fury pour les dégâts. Une bonne alternative si vous avez Cooler et Broly mais pas les meilleures fusions.",
+          "equip": "Équipements de tag Powerful Opponent ; sets d’attaque sur Cooler et Broly, santé sur #17 & Frieza."
+        },
+        "ru": {
+          "why": "Ведёт LEGEND Android #17 & Golden Frieza, урон наносят ULTRA Final Form Cooler и LEGEND Broly: Fury. Хорошая альтернатива, если у вас есть Кулер и Броли, но нет топовых слияний.",
+          "equip": "Экипировка тега Powerful Opponent; атакующие сеты на Cooler и Broly, здоровье на #17 & Frieza."
+        },
+        "ja": {
+          "why": "LEGEND Android #17 & Golden Friezaが主軸で、ULTRA Final Form CoolerとLEGEND Broly: Furyが火力を担当。クウラとブロリーはいるけれど最上位のフュージョンがいない人に良い選択肢です。",
+          "equip": "強敵タグの装備を。CoolerとBrolyには攻撃系、#17 & Friezaには体力を。"
+        }
+      }
     }
   ]
 }

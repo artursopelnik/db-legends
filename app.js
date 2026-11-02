@@ -503,10 +503,6 @@ if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
   });
 }
 
-document.getElementById('langSelect').addEventListener('change', (event) => {
-  navigateToLang(event.target.value);
-});
-
 applyStaticTranslations();
 setInterval(updateAges, 1000);
 render();

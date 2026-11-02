@@ -76,7 +76,7 @@
   .wrap { max-width: 1080px; margin: 0 auto; }
 
   /* ---- Header ---- */
-  header { position: relative; text-align: center; margin-bottom: 26px; }
+  header { text-align: center; margin-bottom: 26px; }
   .dballs {
     display: flex;
     justify-content: center;
@@ -428,29 +428,10 @@
     letter-spacing: 0;
   }
 
-  .lang-pick {
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 45;
-  }
-  .lang-pick select {
-    background: rgba(21, 28, 51, 0.9);
-    color: var(--text);
-    border: 1.5px solid var(--line);
-    border-radius: 10px;
-    padding: 6px 8px;
-    font-size: 1.15rem;
-    line-height: 1;
-    font-family: system-ui, sans-serif;
-    cursor: pointer;
-  }
-  .lang-pick select:focus-visible { outline: 2px solid var(--orange); }
-
   /* ---- Mobile: App-Leiste unten ---- */
   @media (max-width: 640px) {
     body { padding: calc(24px + env(safe-area-inset-top, 0px)) 10px 108px; }
-    .snav { margin: 0 6px 24px; } /* same inset as subpages (16px) */
+    .snav { margin: 0 6px 40px; } /* same inset as subpages (16px) */
     header { margin-bottom: 18px; }
     .card img { width: 168px; height: 168px; }
 
@@ -496,18 +477,6 @@
 <div class="wrap">
   {{SITE_NAV}}
   <header>
-  <div class="lang-pick">
-    <select id="langSelect" aria-label="Language / Sprache">
-      <option value="en" aria-label="English">🇬🇧</option>
-      <option value="de" aria-label="Deutsch">🇩🇪</option>
-      <option value="es" aria-label="Español">🇪🇸</option>
-      <option value="pt" aria-label="Português">🇧🇷</option>
-      <option value="fr" aria-label="Français">🇫🇷</option>
-      <option value="ru" aria-label="Русский">🇷🇺</option>
-      <option value="ja" aria-label="日本語">🇯🇵</option>
-    </select>
-  </div>
-
     <div class="dballs" aria-hidden="true">
       <span class="dball">★</span><span class="dball">★</span><span class="dball">★</span>
       <span class="dball">★</span><span class="dball">★</span><span class="dball">★</span>
