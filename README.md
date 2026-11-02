@@ -38,35 +38,6 @@ Alternativ einfach `index.html` im Browser öffnen – kein Server, kein Build-S
 
 Im Spiel: **Menü → Freunde → QR-Code scannen** und die Codes vom Bildschirm abscannen.
 
-## Team-Builder-Roster aktualisieren
-
-Der Team-Builder auf `/teams/` kennt alle Charaktere aus
-`src/teams/characters.json`. Statt alle Kämpfer einzeln anzuklicken, kann man
-auch einen Screenshot des Spiel-Hauptbildschirms hochladen: Die sechs
-Team-Karten werden im Browser erkannt (Kartenerkennung + Bildabgleich gegen
-die Roster-Icons, rein clientseitig) und in der richtigen Reihenfolge ins Team
-übernommen; jeder Slot lässt sich danach per Dropdown korrigieren.
-
-**Wichtig:** Der Bildabgleich braucht CORS-lesbare Icons. Solange die Icons
-von dblegends.net gehotlinkt werden, kann der Scan daran scheitern („Icons
-konnten nicht geladen werden“). Die zuverlässige Lösung ist Selbst-Hosting:
-`python3 scripts/fetch_card_icons.py` (läuft auch ohne Scrape-Dump, nutzt dann
-`src/teams/characters.json`) lädt alle Icons nach `assets/card_icons/`;
-anschließend `npm run build`, committen – der Builder nutzt lokale Icons dann
-automatisch, same-origin und ohne CORS-Probleme. Die Datei wird aus einem Scrape von
-de.dblegends.net generiert. So bringst du sie auf den neuesten Stand:
-
-1. `python3 scripts/scrape_dblegends.py` – lädt alle Charakter- und
-   Equipment-Seiten der englischen Seite (dblegends.net) und schreibt
-   `data/dblegends_full.json` sowie `data/dblegends_equipment.json`
-   (auf einem Rechner ausführen, der dblegends.net erreichen kann;
-   braucht nur die Python-Standardbibliothek).
-2. `npm run update-roster` – konvertiert beide Scrapes, generiert Roster und
-   Equip-Empfehlungen und baut alle Seiten neu.
-
-Manuelle Ausnahmen für Einheiten, die dem Scrape fehlen, kommen nach
-`src/teams/data/roster-extra.json`.
-
 ## Technik
 
 Der QR-Inhalt entspricht dem Format des DB-Legends-Freundes-Scanners:

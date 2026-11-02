@@ -19,7 +19,7 @@ const ROOT = path.resolve(__dirname, '..');
 const SRC = path.join(ROOT, 'src', 'promo');
 
 const { promoUrlForLang, SITE_URL, DEFAULT_LANG } = require('./promo-lib.js');
-const { blogPathForLang, homePathForLang, postPath, splitH1Html, thirdPartyScripts } = require('./blog-lib.js');
+const { blogPathForLang, homePathForLang, postPath, splitH1Html, thirdPartyScripts, siteNav, SITE_NAV_CSS } = require('./blog-lib.js');
 const { teamsPathForLang } = require('./teams-lib.js');
 const { I18N, SUPPORTED_LANGS } = require(path.join(ROOT, 'i18n.js'));
 
@@ -127,6 +127,8 @@ function renderPage(template, css, lang) {
     .replaceAll('{{FOOTER_DISCLAIMER}}', escapeHtmlText(dict.blogFooterDisclaimer))
     .replaceAll('{{LEGAL_NOTICE_LABEL}}', escapeHtmlText(dict.legalNotice))
     .replaceAll('{{PRIVACY_LABEL}}', escapeHtmlText(dict.privacy))
+    .replaceAll('{{SITE_NAV}}', siteNav(dict, lang, 'promo'))
+    .replaceAll('{{SITE_NAV_CSS}}', SITE_NAV_CSS)
     .replaceAll('{{THIRD_PARTY_SCRIPTS}}', thirdPartyScripts(dict.supportHeadline));
 }
 

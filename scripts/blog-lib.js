@@ -132,7 +132,12 @@ function loadPosts(lang) {
 
 // Analytics (Umami, cookieless, self-hosted) + QuietJar donation widget.
 // Shared by the app page and all blog pages; headline is localized per lang.
+// QuietJar is switched off for now; flip to true to show the widget again.
+const QUIETJAR_ENABLED = false;
+
 function thirdPartyScripts(headline) {
+  const umami = '<script defer src="https://umami.sotec.app/script.js" data-website-id="2c0fd1dc-6440-4e0b-961b-3f0c84f343eb"></script>';
+  if (!QUIETJAR_ENABLED) return umami;
   const quietJar = {
     site: 'qj_ae2a4ff5e98980524f9dc1cb',
     currency: 'eur',
@@ -144,13 +149,77 @@ function thirdPartyScripts(headline) {
   };
   const json = JSON.stringify(quietJar).replace(/</g, '\\u003c');
   return [
-    '<script defer src="https://umami.sotec.app/script.js" data-website-id="2c0fd1dc-6440-4e0b-961b-3f0c84f343eb"></script>',
+    umami,
     `<script>window.QuietJar = ${json};</script>`,
     '<script src="https://quietjar.com/js/latest/quietjar.js" async></script>',
   ].join('\n');
 }
 
+// One site-wide navigation, rendered identically at the top of every page:
+// QR generator, promo codes, team guide, blog – always in this order.
+// `current` is one of 'home' | 'promo' | 'teams' | 'blog'.
+const NAV_ITEMS = [
+  { id: 'home', icon: '🔲', key: 'blogNavGenerator', path: '' },
+  { id: 'promo', icon: '🎁', key: 'navPromo', path: 'promo-codes/' },
+  { id: 'teams', icon: '⚔️', key: 'navTeams', path: 'teams/' },
+  { id: 'blog', icon: '📖', key: 'blogNavBlog', path: 'blog/' },
+];
+
+function siteNav(dict, lang, current, exactPage = true) {
+  const prefix = lang === DEFAULT_LANG ? '/' : `/${lang}/`;
+  const links = NAV_ITEMS.map((item) => {
+    const active = item.id === current;
+    const attrs = active
+      ? ` class="snav-item active"${exactPage ? ' aria-current="page"' : ''}`
+      : ' class="snav-item"';
+    const label = String(dict[item.key]).replace(/&/g, '&amp;').replace(/</g, '&lt;');
+    return `    <a${attrs} href="${prefix}${item.path}"><span class="snav-icon" aria-hidden="true">${item.icon}</span>` +
+      `<span class="snav-label" data-i18n="${item.key}">${label}</span></a>`;
+  });
+  return `<nav class="snav" aria-label="dblqr.org">\n${links.join('\n')}\n  </nav>`;
+}
+
+const SITE_NAV_CSS = `
+.snav {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 6px;
+  max-width: 760px;
+  margin: 0 auto 24px;
+  padding: 5px;
+  border: 1.5px solid var(--line);
+  border-radius: 16px;
+  background: linear-gradient(180deg, var(--panel-2), var(--panel));
+}
+.snav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  min-height: 52px;
+  padding: 6px 4px;
+  border-radius: 11px;
+  color: var(--dim);
+  text-decoration: none;
+  text-align: center;
+  font-size: 0.76rem;
+  font-weight: 600;
+  line-height: 1.15;
+}
+.snav-icon { font-size: 1.15rem; line-height: 1; }
+.snav-label { hyphens: auto; -webkit-hyphens: auto; overflow-wrap: break-word; max-width: 100%; }
+.snav-item:hover { color: var(--orange-soft); }
+.snav-item.active { color: #26130a; background: linear-gradient(180deg, var(--orange-soft), var(--orange)); }
+.snav-item:focus-visible { outline: 2px solid var(--orange); outline-offset: 2px; }
+@media (min-width: 640px) {
+  .snav-item { flex-direction: row; gap: 7px; font-size: 0.9rem; min-height: 44px; }
+}
+`;
+
 module.exports = {
+  siteNav,
+  SITE_NAV_CSS,
   thirdPartyScripts,
   loadPosts,
   splitH1Html,

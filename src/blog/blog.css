@@ -41,33 +41,6 @@ body {
 
 .wrap { max-width: 760px; margin: 0 auto; }
 
-.site-nav {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 8px 14px;
-  margin-bottom: 28px;
-  font-size: 0.95rem;
-}
-.site-nav a { color: var(--dim); text-decoration: none; }
-.site-nav a:hover { color: var(--orange-soft); }
-.site-nav .brand {
-  font-family: var(--display);
-  font-size: 1.25rem;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-  background: linear-gradient(180deg, #ffe9b8 0%, var(--orange-soft) 35%, var(--orange) 68%, var(--flame) 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-}
-.site-nav .spacer { flex: 1; }
-@media (max-width: 560px) {
-  .site-nav { row-gap: 6px; }
-  .site-nav .brand { flex-basis: 100%; }
-  .site-nav .spacer { display: none; }
-}
-
 h1 {
   font-family: var(--display);
   font-weight: 400;

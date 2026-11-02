@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07",
+  "updatedAt": "2026-11-02",
   "teams": [
     {
       "slug": "fusion-warrior",
@@ -7,159 +7,51 @@
       "emoji": "🔀",
       "core": [
         {
-          "name": "LEGEND Super Saiyan God Shallet",
+          "name": "LEGEND Super Vegito",
           "role": "damage"
         },
         {
-          "name": "ULTRA Super Saiyan God SS Gogeta",
-          "role": "damage"
-        },
-        {
-          "name": "LF Fused Zamasu (Red)",
-          "role": "tank"
-        }
-      ],
-      "bench": [
-        "LF Half-Corrupted Fusion Zamasu",
-        "LF Super Saiyan 4 Gogeta",
-        "SP Super Saiyan God Giblet"
-      ],
-      "text": {
-        "en": {
-          "why": "Ablaze in divine crimson: the new 8th-anniversary LEGEND Super Saiyan God Shallet – the red-haired fusion of Shallot and Giblet – now leads the tag. His blast arts hit brutally hard, and his switch to the LGT element means he never fights at an element disadvantage. ULTRA SSGSS Gogeta brings strike damage on a second front while Fused Zamasu tanks and heals.",
-          "equip": "Blast-attack equips on Shallet, pure strike equips on Gogeta and a defensive health set on Fused Zamasu. Fusion Warrior tag equips give the biggest flat boosts."
-        },
-        "de": {
-          "why": "In göttlichem Karmesinrot: Der neue 8th-Anniversary-LEGEND Super Saiyan God Shallet – die rothaarige Fusion aus Shallot und Giblet – führt den Tag jetzt an. Seine Blast-Arts treffen brutal hart, und dank des Wechsels auf das LGT-Element kämpft er nie mit Element-Nachteil. ULTRA SSGSS Gogeta liefert Strike-Schaden auf der zweiten Front, während Fused Zamasu tankt und heilt.",
-          "equip": "Blast-Attack-Equips auf Shallet, reine Strike-Equips auf Gogeta und ein defensives Health-Set auf Fused Zamasu. Equips mit Fusion-Warrior-Bedingung geben die größten Boosts."
-        },
-        "es": {
-          "why": "Ardiendo en carmesí divino: el nuevo LEGEND del octavo aniversario, Super Saiyan God Shallet – la fusión pelirroja de Shallot y Giblet – lidera ahora la etiqueta. Sus artes de ráfaga golpean durísimo y puede cambiar al elemento LGT, así que nunca pelea con desventaja de elemento. ULTRA SSGSS Gogeta añade daño de golpe en un segundo frente mientras Fused Zamasu aguanta y cura.",
-          "equip": "Equipos de ataque de ráfaga para Shallet, equipos de golpe puros para Gogeta y un set defensivo de salud para Fused Zamasu. Los equipos con condición Fusion Warrior dan los mayores aumentos."
-        },
-        "pt": {
-          "why": "Em chamas no carmesim divino: o novo LEGEND do 8º aniversário, Super Saiyan God Shallet – a fusão de cabelos vermelhos de Shallot e Giblet – agora lidera a tag. Suas artes de rajada batem fortíssimo e ele pode mudar para o elemento LGT, então nunca luta em desvantagem de elemento. ULTRA SSGSS Gogeta adiciona dano de golpe numa segunda frente enquanto Fused Zamasu tanka e cura.",
-          "equip": "Equipamentos de ataque de rajada no Shallet, equipamentos puros de golpe no Gogeta e um conjunto defensivo de vida no Fused Zamasu. Equipamentos com condição Fusion Warrior dão os maiores bônus."
-        },
-        "fr": {
-          "why": "Embrasée de cramoisi divin : le nouveau LEGEND du 8e anniversaire, Super Saiyan God Shallet – la fusion aux cheveux rouges de Shallot et Giblet – mène désormais le tag. Ses arts de tir frappent très fort et il peut passer à l'élément LGT, il ne combat donc jamais avec un désavantage d'élément. ULTRA SSGSS Gogeta ajoute des dégâts de frappe sur un second front tandis que Fused Zamasu encaisse et soigne.",
-          "equip": "Équipements d'attaque de tir sur Shallet, équipements purs de frappe sur Gogeta et un set défensif de santé sur Fused Zamasu. Les équipements à condition Fusion Warrior donnent les plus gros bonus."
-        },
-        "ru": {
-          "why": "В божественном багрянце: новый LEGEND 8-й годовщины Супер Саян Бог Шаллет – рыжеволосая фузия Шаллота и Гиблета – теперь возглавляет тег. Его blast-арты бьют чудовищно сильно, а благодаря переключению на элемент LGT он никогда не дерётся с невыгодным элементом. ULTRA SSGSS Гогета добавляет strike-урон вторым фронтом, пока Слитый Замасу танкует и лечит.",
-          "equip": "Blast-экипировки на Шаллета, чистые strike-экипировки на Гогету и защитный набор на здоровье для Слитого Замасу. Экипировки с условием Fusion Warrior дают самые большие бонусы."
-        },
-        "ja": {
-          "why": "神々しき深紅の切り札。8周年の新LEGEND「超サイヤ人ゴッド シャレット」――シャロットとギブレットの赤髪の合体戦士――がこのタグの主役になりました。射撃アーツの火力が凄まじく、LGT属性への切り替えで属性不利を打ち消せます。ULTRA SSGSSゴジータが打撃の第二火力を担い、合体ザマスが耐久と回復で支えます。",
-          "equip": "シャレットには射撃攻撃装備、ゴジータには打撃特化装備、合体ザマスには体力重視の防御セットを。「合体戦士」条件付き装備が最も大きく伸びます。"
-        }
-      }
-    },
-    {
-      "slug": "broly",
-      "tag": "Broly",
-      "emoji": "💥",
-      "core": [
-        {
-          "name": "LEGEND Broly: Fury",
+          "name": "ULTRA Half-Corrupted Fusion Zamasu",
           "role": "tank"
         },
         {
-          "name": "ULTRA Legendary Super Saiyan Broly",
-          "role": "damage"
-        },
-        {
-          "name": "LF Super Saiyan Broly: Full Power",
+          "name": "LF Goku & Vegeta",
           "role": "damage"
         }
       ],
       "bench": [
-        "LF Super Saiyan Broly",
-        "SP Broly: Cheelai (Assist)",
-        "SP Paragus: Broly (Assist)"
+        "ULTRA Super Saiyan God SS Gogeta",
+        "ULTRA Super Saiyan God SS Vegito",
+        "LF Vegito"
       ],
       "text": {
         "en": {
-          "why": "The Legendary Super Saiyan is all over PvP right now, and this build shows why. LEGEND Broly: Fury opens as a tank that is almost impossible to put down and only gets angrier as the match drags on, ULTRA Legendary Super Saiyan Broly deletes anything he catches with his strike arts, and LF Super Saiyan Broly: Full Power at Zenkai 7 keeps up endless combo pressure. Three colors, one shared tag: Powerful Opponent.",
-          "equip": "Pure strike equips on both Legendary Brolys and a defensive health set on Broly: Fury. Equips with the Powerful Opponent condition boost all three at once."
+          "why": "The strongest team right now. LEGEND Super Vegito and LF Goku & Vegeta can end a fight in one long combo, while ULTRA Half-Corrupted Fusion Zamasu holds the line. The tag is deep – the Gogetas and Vegitos all slot in.",
+          "equip": "Fusion Warrior tag equips on the whole team: attack sets on Vegito and Goku & Vegeta, health and damage reduction on Zamasu."
         },
         "de": {
-          "why": "Der Legendäre Super-Saiyajin dominiert gerade das PvP – und dieses Team zeigt, warum. LEGEND Broly: Fury eröffnet als kaum totzukriegender Tank und wird mit jeder Minute wütender, ULTRA Legendary Super Saiyan Broly zerlegt mit seinen Strike-Arts alles, was er erwischt, und LF Super Saiyan Broly: Full Power hält auf Zenkai 7 endlosen Combo-Druck aufrecht. Drei Farben, ein gemeinsamer Tag: Powerful Opponent.",
-          "equip": "Reine Strike-Equips auf beide Legendary Brolys und ein defensives Health-Set auf Broly: Fury. Equips mit Powerful-Opponent-Bedingung boosten alle drei gleichzeitig."
+          "why": "Aktuell das stärkste Team. LEGEND Super Vegito und LF Goku & Vegeta beenden einen Kampf in einer einzigen langen Kombo, während ULTRA Half-Corrupted Fusion Zamasu die Stellung hält. Der Tag ist tief besetzt – alle Gogetas und Vegitos passen rein.",
+          "equip": "Fusion-Warrior-Tag-Equips auf das ganze Team: Angriffs-Sets auf Vegito und Goku & Vegeta, Health und Schadensreduktion auf Zamasu."
         },
         "es": {
-          "why": "El Super Saiyan Legendario está por todas partes en el PvP ahora mismo, y este equipo demuestra por qué. LEGEND Broly: Fury abre como un tanque casi imposible de tumbar que se enfurece cuanto más dura el combate, ULTRA Legendary Super Saiyan Broly borra del mapa todo lo que atrapa con sus artes de golpe, y LF Super Saiyan Broly: Full Power con Zenkai 7 mantiene una presión de combos infinita. Tres colores, una etiqueta compartida: Powerful Opponent.",
-          "equip": "Equipos puros de golpe en ambos Legendary Broly y un set defensivo de salud en Broly: Fury. Los equipos con condición Powerful Opponent potencian a los tres a la vez."
+          "why": "El equipo más fuerte ahora mismo. LEGEND Super Vegito y LF Goku & Vegeta pueden acabar un combate en un solo combo largo, mientras ULTRA Half-Corrupted Fusion Zamasu aguanta la línea. La etiqueta es profunda: todos los Gogeta y Vegito encajan.",
+          "equip": "Equipos con etiqueta Fusion Warrior en todo el equipo: sets de ataque en Vegito y Goku & Vegeta, salud y reducción de daño en Zamasu."
         },
         "pt": {
-          "why": "O Super Saiyajin Lendário está em todo lugar no PvP agora, e este time mostra o porquê. LEGEND Broly: Fury abre como um tanque quase impossível de derrubar que fica mais furioso conforme a luta se estende, ULTRA Legendary Super Saiyan Broly apaga tudo o que alcança com suas artes de golpe, e LF Super Saiyan Broly: Full Power no Zenkai 7 mantém pressão infinita de combos. Três cores, uma tag em comum: Powerful Opponent.",
-          "equip": "Equipamentos puros de golpe nos dois Legendary Broly e um conjunto defensivo de vida no Broly: Fury. Equipamentos com condição Powerful Opponent reforçam os três ao mesmo tempo."
+          "why": "O time mais forte no momento. LEGEND Super Vegito e LF Goku & Vegeta podem encerrar uma luta em um único combo longo, enquanto ULTRA Half-Corrupted Fusion Zamasu segura a linha. A tag é profunda: todos os Gogetas e Vegitos se encaixam.",
+          "equip": "Equipamentos de tag Fusion Warrior no time todo: sets de ataque em Vegito e Goku & Vegeta, vida e redução de dano em Zamasu."
         },
         "fr": {
-          "why": "Le Super Saiyan Légendaire est partout en PvP en ce moment, et cette équipe montre pourquoi. LEGEND Broly: Fury ouvre en tank quasi impossible à abattre qui devient plus enragé à mesure que le combat s'éternise, ULTRA Legendary Super Saiyan Broly efface tout ce qu'il attrape avec ses arts de frappe, et LF Super Saiyan Broly: Full Power en Zenkai 7 maintient une pression de combos sans fin. Trois couleurs, un tag commun : Powerful Opponent.",
-          "equip": "Des équipements full frappe sur les deux Legendary Broly et un set défensif de santé sur Broly: Fury. Les équipements à condition Powerful Opponent boostent les trois à la fois."
+          "why": "L’équipe la plus forte du moment. LEGEND Super Vegito et LF Goku & Vegeta peuvent finir un combat en un seul long combo, pendant que ULTRA Half-Corrupted Fusion Zamasu tient la ligne. Le tag est profond : tous les Gogeta et Vegito s’y intègrent.",
+          "equip": "Équipements de tag Fusion Warrior sur toute l’équipe : sets d’attaque sur Vegito et Goku & Vegeta, santé et réduction de dégâts sur Zamasu."
         },
         "ru": {
-          "why": "Легендарный Супер Саян сейчас повсюду в PvP, и эта сборка показывает почему. LEGEND Broly: Fury начинает бой как почти неубиваемый танк, который злится тем сильнее, чем дольше идёт матч; ULTRA Legendary Super Saiyan Broly сносит ударными артами всё, что поймает, а LF Super Saiyan Broly: Full Power на Zenkai 7 держит бесконечное комбо-давление. Три цвета — один общий тег: Powerful Opponent.",
-          "equip": "Чисто ударная экипировка на обоих Legendary Broly и защитный набор здоровья на Broly: Fury. Экипировка с условием Powerful Opponent усиливает всех троих сразу."
+          "why": "Сильнейшая команда на данный момент. LEGEND Super Vegito и LF Goku & Vegeta способны закончить бой одним длинным комбо, а ULTRA Half-Corrupted Fusion Zamasu держит оборону. Тег глубокий – подходят все Гогеты и Вегито.",
+          "equip": "Экипировка тега Fusion Warrior на всю команду: атакующие сеты на Vegito и Goku & Vegeta, здоровье и снижение урона на Zamasu."
         },
         "ja": {
-          "why": "伝説の超サイヤ人は今PvPのあらゆる場所で暴れており、このチームがその理由を示しています。LEGEND ブロリー：フューリーはほぼ倒れないタンクとして試合が長引くほど怒りを増し、ULTRA 伝説の超サイヤ人ブロリーは打撃アーツで捕えた相手を消し飛ばし、LF 超サイヤ人ブロリー：フルパワーはゼンカイ7で無限のコンボ圧をかけ続けます。3色で属性を分散しつつ、共通タグは「強敵」です。",
-          "equip": "両方の伝説ブロリーには打撃特化の装備を、ブロリー：フューリーには防御寄りの体力セットを。「強敵」条件の装備なら3体同時に強化できます。"
-        }
-      }
-    },
-    {
-      "slug": "god-ki",
-      "tag": "God Ki",
-      "emoji": "✨",
-      "core": [
-        {
-          "name": "ULTRA Super Saiyan God SS Gogeta",
-          "role": "damage"
-        },
-        {
-          "name": "ULTRA Ultra Instinct -Sign- Goku",
-          "role": "damage"
-        },
-        {
-          "name": "LF Fused Zamasu (Red)",
-          "role": "tank"
-        }
-      ],
-      "bench": [
-        "LF Super Saiyan God Goku",
-        "SP Super Saiyan God SS Evolved Vegeta",
-        "SP God of Destruction Beerus"
-      ],
-      "text": {
-        "en": {
-          "why": "Combines the two strongest attackers in the game, ULTRA SSGSS Gogeta and ULTRA Ultra Instinct -Sign- Goku, with Fused Zamasu as a durable anchor. Massive burst damage with enough sustain to recover from a lost exchange.",
-          "equip": "Strike equips on both Ultras, one God Ki tag equip for the big flat boosts, and a defensive health set on Zamasu for the late game."
-        },
-        "de": {
-          "why": "Kombiniert die zwei stärksten Angreifer des Spiels, ULTRA SSGSS Gogeta und ULTRA Ultra Instinct -Sign- Goku, mit Fused Zamasu als stabilem Anker. Massiver Burst-Schaden mit genug Nachhaltigkeit, um einen verlorenen Schlagabtausch aufzuholen.",
-          "equip": "Strike-Equips auf beide Ultras, ein Equip mit God-Ki-Bedingung für die großen Boosts und ein defensives Health-Set auf Zamasu fürs Lategame."
-        },
-        "es": {
-          "why": "Combina a los dos atacantes más fuertes del juego, ULTRA SSGSS Gogeta y ULTRA Ultra Instinct -Sign- Goku, con Fused Zamasu como ancla resistente. Daño explosivo masivo con suficiente aguante para recuperarse de un intercambio perdido.",
-          "equip": "Equipos de golpe para ambos Ultras, un equipo con condición God Ki para los grandes aumentos y un set defensivo de salud para Zamasu de cara al final de partida."
-        },
-        "pt": {
-          "why": "Combina os dois atacantes mais fortes do jogo, ULTRA SSGSS Gogeta e ULTRA Ultra Instinct -Sign- Goku, com Fused Zamasu como âncora resistente. Dano explosivo massivo com sustain suficiente para se recuperar de uma troca perdida.",
-          "equip": "Equipamentos de golpe nos dois Ultras, um equipamento com condição God Ki para os grandes bônus e um conjunto defensivo de vida no Zamasu para o fim de partida."
-        },
-        "fr": {
-          "why": "Combine les deux meilleurs attaquants du jeu, ULTRA SSGSS Gogeta et ULTRA Ultra Instinct -Sign- Goku, avec Fused Zamasu comme ancre solide. D'énormes dégâts éclatés avec assez d'endurance pour rattraper un échange perdu.",
-          "equip": "Équipements de frappe sur les deux Ultras, un équipement à condition God Ki pour les gros bonus et un set défensif de santé sur Zamasu pour la fin de match."
-        },
-        "ru": {
-          "why": "Объединяет двух сильнейших атакующих игры, ULTRA SSGSS Гогету и ULTRA Ultra Instinct -Sign- Гоку, со Слитым Замасу в роли прочного якоря. Огромный burst-урон и достаточно живучести, чтобы отыграться после неудачного размена.",
-          "equip": "Strike-экипировки на обоих Ультра, одна экипировка с условием God Ki для больших бонусов и защитный набор на здоровье для Замасу на позднюю игру."
-        },
-        "ja": {
-          "why": "ゲーム内最強のアタッカーであるULTRA SSGSSゴジータとULTRA身勝手の極意「兆」悟空を、耐久の高い合体ザマスで支える構成。爆発的な火力に加え、不利な交換から立て直せる持久力もあります。",
-          "equip": "両ULTRAには打撃装備、「神の気」条件付き装備を1枠、ザマスには終盤用の体力・防御セットを。"
+          "why": "現在最強のチーム。LEGEND Super VegitoとLF Goku & Vegetaは長いコンボ一回で試合を終わらせられ、ULTRA Half-Corrupted Fusion Zamasuが前線を支えます。層が厚く、ゴジータやベジットはどれも組み込めます。",
+          "equip": "全員にフュージョン戦士タグの装備を。VegitoとGoku & Vegetaには攻撃系、Zamasuには体力とダメージ軽減を。"
         }
       }
     },
@@ -169,213 +61,425 @@
       "emoji": "👨‍👦",
       "core": [
         {
-          "name": "ULTRA Ultra Instinct -Sign- Goku",
-          "role": "damage"
-        },
-        {
           "name": "ULTRA Beast Gohan",
           "role": "damage"
         },
         {
-          "name": "LF Super Saiyan 2 Youth Gohan",
-          "role": "tank"
+          "name": "ULTRA Super Full Power Saiyan 4 Goku",
+          "role": "damage"
+        },
+        {
+          "name": "LF Goku & Vegeta",
+          "role": "damage"
         }
       ],
       "bench": [
-        "LF Bardock",
-        "SP Super Saiyan God Goku",
-        "SP Super Saiyan Goten (Kid)"
+        "LF Ultra Instinct -Sign- Goku",
+        "LF Super Saiyan 2 Gohan (Youth)",
+        "LF Super Saiyan 2 Goku"
       ],
       "text": {
         "en": {
-          "why": "The classic all-rounder: huge health pools, strong strike defense and big damage multipliers thanks to perfectly aligned Z-Abilities. Beast Gohan and UI Goku carry the damage, Youth Gohan holds the defensive slot.",
-          "equip": "Blast-attack equips on Beast Gohan, strike on UI Goku, and health/strike-defense equips on Youth Gohan. Son Family tag equips play into the team's naturally high health."
+          "why": "The deepest pool in the game. ULTRA Beast Gohan, ULTRA Super Full Power Saiyan 4 Goku and LF Goku & Vegeta form the core, and the tag's Z-Abilities cover health, strike defense and blast damage.",
+          "equip": "Son Family tag equips; blast-damage sets match the Z-Abilities, plus strike defense on your front fighter."
         },
         "de": {
-          "why": "Der klassische Allrounder: riesige Lebenspools, starke Strike-Verteidigung und große Schadensmultiplikatoren dank perfekt abgestimmter Z-Abilities. Beast Gohan und UI Goku tragen den Schaden, Youth Gohan hält den defensiven Slot.",
-          "equip": "Blast-Attack-Equips auf Beast Gohan, Strike auf UI Goku und Health/Strike-Defense-Equips auf Youth Gohan. Equips mit Son-Family-Bedingung nutzen die von Natur aus hohen Lebenspunkte des Teams."
+          "why": "Der tiefste Charakter-Pool im Spiel. ULTRA Beast Gohan, ULTRA Super Full Power Saiyan 4 Goku und LF Goku & Vegeta bilden den Kern; die Z-Fähigkeiten des Tags decken Health, Strike-Verteidigung und Blast-Schaden ab.",
+          "equip": "Son-Family-Tag-Equips; Blast-Schaden-Sets passen zu den Z-Fähigkeiten, dazu Strike-Verteidigung auf dem vorderen Kämpfer."
         },
         "es": {
-          "why": "El todoterreno clásico: enormes reservas de salud, fuerte defensa contra golpes y grandes multiplicadores de daño gracias a Z-Abilities perfectamente alineadas. Beast Gohan y UI Goku llevan el daño; Youth Gohan ocupa el puesto defensivo.",
-          "equip": "Equipos de ataque de ráfaga para Beast Gohan, de golpe para UI Goku y equipos de salud/defensa de golpe para Youth Gohan. Los equipos con condición Son Family aprovechan la salud naturalmente alta del equipo."
+          "why": "El grupo de personajes más profundo del juego. ULTRA Beast Gohan, ULTRA Super Full Power Saiyan 4 Goku y LF Goku & Vegeta forman el núcleo, y las Habilidades Z de la etiqueta cubren salud, defensa de golpe y daño de ráfaga.",
+          "equip": "Equipos de etiqueta Son Family; sets de daño de ráfaga acordes a las Habilidades Z, más defensa de golpe en el luchador principal."
         },
         "pt": {
-          "why": "O clássico versátil: reservas enormes de vida, forte defesa de golpe e grandes multiplicadores de dano graças a Z-Abilities perfeitamente alinhadas. Beast Gohan e UI Goku carregam o dano; Youth Gohan segura a vaga defensiva.",
-          "equip": "Equipamentos de ataque de rajada no Beast Gohan, de golpe no UI Goku e equipamentos de vida/defesa de golpe no Youth Gohan. Equipamentos com condição Son Family aproveitam a vida naturalmente alta do time."
+          "why": "O maior leque de personagens do jogo. ULTRA Beast Gohan, ULTRA Super Full Power Saiyan 4 Goku e LF Goku & Vegeta formam o núcleo, e as Habilidades Z da tag cobrem vida, defesa de golpe e dano de rajada.",
+          "equip": "Equipamentos de tag Son Family; sets de dano de rajada combinam com as Habilidades Z, mais defesa de golpe no lutador da frente."
         },
         "fr": {
-          "why": "Le polyvalent classique : d'énormes réserves de santé, une forte défense de frappe et de gros multiplicateurs de dégâts grâce à des Z-Abilities parfaitement alignées. Beast Gohan et UI Goku portent les dégâts, Youth Gohan tient le rôle défensif.",
-          "equip": "Équipements d'attaque de tir sur Beast Gohan, de frappe sur UI Goku et équipements santé/défense de frappe sur Youth Gohan. Les équipements à condition Son Family exploitent la santé naturellement élevée de l'équipe."
+          "why": "Le vivier le plus profond du jeu. ULTRA Beast Gohan, ULTRA Super Full Power Saiyan 4 Goku et LF Goku & Vegeta forment le noyau, et les Capacités Z du tag couvrent santé, défense au corps-à-corps et dégâts d’énergie.",
+          "equip": "Équipements de tag Son Family ; des sets de dégâts d’énergie collent aux Capacités Z, plus de la défense au corps-à-corps sur le combattant en tête."
         },
         "ru": {
-          "why": "Классический универсал: огромный запас здоровья, сильная защита от strike-атак и большие множители урона благодаря идеально совпадающим Z-Abilities. Бист Гохан и UI Гоку несут урон, юный Гохан держит защитный слот.",
-          "equip": "Blast-экипировки на Бист Гохана, strike на UI Гоку, здоровье/защита на юного Гохана. Экипировки с условием Son Family усиливают и без того высокое здоровье команды."
+          "why": "Самый глубокий пул персонажей в игре. ULTRA Beast Gohan, ULTRA Super Full Power Saiyan 4 Goku и LF Goku & Vegeta – ядро, а Z-способности тега дают здоровье, защиту от ударов и урон бластами.",
+          "equip": "Экипировка тега Son Family; сеты на урон бластами подходят к Z-способностям, плюс защита от ударов на переднем бойце."
         },
         "ja": {
-          "why": "王道のバランス型。豊富な体力、高い打撃防御、そして完璧に揃ったZアビリティによる大きなダメージ倍率が魅力です。ビースト悟飯と身勝手悟空が火力を担い、少年悟飯が防御枠を支えます。",
-          "equip": "ビースト悟飯には射撃攻撃装備、身勝手悟空には打撃装備、少年悟飯には体力・打撃防御装備を。「孫一族」条件付き装備はチームの高い体力とよく噛み合います。"
+          "why": "ゲーム内で最も層の厚いタグ。ULTRA Beast Gohan、ULTRA Super Full Power Saiyan 4 Goku、LF Goku & Vegetaがコアで、タグのZアビリティが体力・打撃防御・射撃ダメージをカバーします。",
+          "equip": "孫一族タグの装備を。Zアビリティに合わせて射撃ダメージ系、先頭のキャラには打撃防御を。"
         }
       }
     },
     {
-      "slug": "regeneration",
-      "tag": "Regeneration",
-      "emoji": "♻️",
+      "slug": "majin-buu-saga",
+      "tag": "Majin Buu Saga",
+      "emoji": "🍬",
       "core": [
         {
-          "name": "ULTRA Janemba",
+          "name": "LEGEND Super Vegito",
           "role": "damage"
         },
         {
-          "name": "LF Half-Corrupted Fusion Zamasu",
-          "role": "support"
+          "name": "ULTRA Ultimate Gohan Absorbed Buu: Super",
+          "role": "damage"
         },
         {
-          "name": "LF Majin Buu: Good",
-          "role": "tank"
+          "name": "LF Super Saiyan 2 Goku",
+          "role": "damage"
         }
       ],
       "bench": [
-        "LF Super Baby 2",
-        "SP Orange Piccolo",
-        "SP Perfect Cell (Revived)"
+        "ULTRA Super Saiyan 3 & Super Saiyan 2 Goku & Vegeta",
+        "ULTRA Majin Vegeta",
+        "LF Super Saiyan 3 Gotenks"
       ],
       "text": {
         "en": {
-          "why": "Wins the long game: Janemba, Fusion Zamasu and Majin Buu heal every turn and simply outlast burst-oriented teams. Ideal if you like defensive, patient PvP.",
-          "equip": "Health and defense first: stack health-percentage equips on the whole core (Regeneration healing scales with max health) plus one damage equip on Janemba."
+          "why": "LEGEND Super Vegito leads, backed by ULTRA Ultimate Gohan Absorbed Buu: Super and LF Super Saiyan 2 Goku. ULTRA Super Saiyan 3 & Super Saiyan 2 Goku & Vegeta is the backbone of the bench.",
+          "equip": "Majin Buu Saga tag equips on all three; attack sets on Vegito and Gohan Buu."
         },
         "de": {
-          "why": "Gewinnt das lange Spiel: Janemba, Fusion Zamasu und Majin Buu heilen jede Runde und überdauern Burst-lastige Teams einfach. Ideal, wenn du defensives, geduldiges PvP magst.",
-          "equip": "Leben und Verteidigung zuerst: Health-Prozent-Equips auf den ganzen Kern (die Regeneration-Heilung skaliert mit maximalen Lebenspunkten) plus ein Schadens-Equip auf Janemba."
+          "why": "LEGEND Super Vegito führt an, unterstützt von ULTRA Ultimate Gohan Absorbed Buu: Super und LF Super Saiyan 2 Goku. ULTRA Super Saiyan 3 & Super Saiyan 2 Goku & Vegeta ist das Rückgrat der Bank.",
+          "equip": "Majin-Buu-Saga-Tag-Equips auf alle drei; Angriffs-Sets auf Vegito und Gohan-Buu."
         },
         "es": {
-          "why": "Gana la partida larga: Janemba, Fusion Zamasu y Majin Buu se curan cada turno y simplemente sobreviven a los equipos de daño explosivo. Ideal si te gusta el PvP defensivo y paciente.",
-          "equip": "Salud y defensa primero: acumula equipos de porcentaje de salud en todo el núcleo (la curación de Regeneration escala con la salud máxima) más un equipo de daño para Janemba."
+          "why": "LEGEND Super Vegito lidera, respaldado por ULTRA Ultimate Gohan Absorbed Buu: Super y LF Super Saiyan 2 Goku. ULTRA Super Saiyan 3 & Super Saiyan 2 Goku & Vegeta es la base del banquillo.",
+          "equip": "Equipos de etiqueta Majin Buu Saga en los tres; sets de ataque en Vegito y Gohan Buu."
         },
         "pt": {
-          "why": "Vence o jogo longo: Janemba, Fusion Zamasu e Majin Buu se curam a cada turno e simplesmente sobrevivem aos times de dano explosivo. Ideal se você gosta de PvP defensivo e paciente.",
-          "equip": "Vida e defesa primeiro: acumule equipamentos de porcentagem de vida em todo o núcleo (a cura de Regeneration escala com a vida máxima) mais um equipamento de dano no Janemba."
+          "why": "LEGEND Super Vegito lidera, apoiado por ULTRA Ultimate Gohan Absorbed Buu: Super e LF Super Saiyan 2 Goku. ULTRA Super Saiyan 3 & Super Saiyan 2 Goku & Vegeta é a base do banco.",
+          "equip": "Equipamentos de tag Majin Buu Saga nos três; sets de ataque em Vegito e Gohan Buu."
         },
         "fr": {
-          "why": "Gagne sur la durée : Janemba, Fusion Zamasu et Majin Buu se soignent à chaque tour et épuisent tout simplement les équipes orientées burst. Idéal si vous aimez un PvP défensif et patient.",
-          "equip": "Santé et défense d'abord : cumulez des équipements de pourcentage de santé sur tout le noyau (les soins de Regeneration dépendent de la santé max) plus un équipement de dégâts sur Janemba."
+          "why": "LEGEND Super Vegito mène, épaulé par ULTRA Ultimate Gohan Absorbed Buu: Super et LF Super Saiyan 2 Goku. ULTRA Super Saiyan 3 & Super Saiyan 2 Goku & Vegeta est le pilier du banc.",
+          "equip": "Équipements de tag Majin Buu Saga sur les trois ; sets d’attaque sur Vegito et Gohan Buu."
         },
         "ru": {
-          "why": "Выигрывает длинную игру: Джанемба, Слитый Замасу и Маджин Буу лечатся каждый ход и просто переживают burst-команды. Идеально, если вам нравится оборонительный, терпеливый PvP.",
-          "equip": "Сначала здоровье и защита: процентные экипировки на здоровье на весь костяк (лечение Regeneration зависит от максимального здоровья) плюс одна экипировка на урон для Джанембы."
+          "why": "Ведёт LEGEND Super Vegito при поддержке ULTRA Ultimate Gohan Absorbed Buu: Super и LF Super Saiyan 2 Goku. ULTRA Super Saiyan 3 & Super Saiyan 2 Goku & Vegeta – основа скамейки.",
+          "equip": "Экипировка тега Majin Buu Saga на всех троих; атакующие сеты на Vegito и Гохан-Буу."
         },
         "ja": {
-          "why": "長期戦の覇者。ジャネンバ、合体ザマス、魔人ブウが毎ターン回復し、瞬発力型チームを消耗戦で圧倒します。守り重視でじっくり戦うPvPが好きな人に最適です。",
-          "equip": "まず体力と防御。コア全員に体力％装備を積みましょう。「再生」の回復量は最大体力に依存します。ジャネンバにだけ火力装備を1枠。"
+          "why": "LEGEND Super Vegitoが主軸で、ULTRA Ultimate Gohan Absorbed Buu: SuperとLF Super Saiyan 2 Gokuが支えます。控えの柱はULTRA Super Saiyan 3 & Super Saiyan 2 Goku & Vegeta。",
+          "equip": "3体とも魔人ブウ編タグの装備を。VegitoとGohan Buuには攻撃系を。"
         }
       }
     },
     {
       "slug": "hybrid-saiyan",
       "tag": "Hybrid Saiyan",
-      "emoji": "⚡",
+      "emoji": "🧬",
       "core": [
         {
           "name": "ULTRA Beast Gohan",
           "role": "damage"
         },
         {
-          "name": "LF Gohan & Trunks (Adult)",
+          "name": "LF Super Saiyan Gohan & Trunks (Youth)",
           "role": "damage"
         },
         {
-          "name": "LF Super Saiyan 2 Youth Gohan",
-          "role": "tank"
+          "name": "SP Super Trunks",
+          "role": "support"
         }
       ],
       "bench": [
-        "SP Super Saiyan Trunks (Kid)",
-        "SP Super Saiyan Goten (Kid)",
-        "LF Super Trunks"
+        "LF Super Saiyan 2 Gohan (Youth)",
+        "LEGEND Super Saiyan Trunks (Teen) & Gohan"
       ],
       "text": {
         "en": {
-          "why": "Hybrid Saiyans hit fast and often: Beast Gohan and Gohan & Trunks chain combos while Youth Gohan covers defense. A strong pick if you pulled the 8th-anniversary units.",
-          "equip": "Split by main stat: blast equips for Beast Gohan, strike for Gohan & Trunks, plus one Hybrid Saiyan tag equip and a defensive set on the Youth Gohan slot."
+          "why": "ULTRA Beast Gohan, LF Super Saiyan Gohan & Trunks (Youth) and SP Super Trunks. From the bench, LF Super Saiyan 2 Gohan (Youth) gains extra damage and damage guard while another Hybrid Saiyan is on the field, and allies keep a damage buff after he revives.",
+          "equip": "Hybrid Saiyan tag equips; damage sets on Beast Gohan, health on Gohan & Trunks."
         },
         "de": {
-          "why": "Hybrid-Saiyajins schlagen schnell und oft zu: Beast Gohan und Gohan & Trunks ketten Combos aneinander, während Youth Gohan die Verteidigung übernimmt. Eine starke Wahl, wenn du die Einheiten vom 8. Jubiläum gezogen hast.",
-          "equip": "Nach Hauptwert aufteilen: Blast-Equips für Beast Gohan, Strike für Gohan & Trunks, dazu ein Equip mit Hybrid-Saiyan-Bedingung und ein defensives Set auf dem Youth-Gohan-Slot."
+          "why": "ULTRA Beast Gohan, LF Super Saiyan Gohan & Trunks (Youth) und SP Super Trunks. Von der Bank bekommt LF Super Saiyan 2 Gohan (Youth) Extra-Schaden und Damage Guard, solange ein weiterer Hybrid Saiyan im Feld steht, und Verbündete behalten nach seiner Wiederbelebung einen Schadens-Buff.",
+          "equip": "Hybrid-Saiyan-Tag-Equips; Schadens-Sets auf Beast Gohan, Health auf Gohan & Trunks."
         },
         "es": {
-          "why": "Los Hybrid Saiyan golpean rápido y a menudo: Beast Gohan y Gohan & Trunks encadenan combos mientras Youth Gohan cubre la defensa. Una gran elección si conseguiste las unidades del octavo aniversario.",
-          "equip": "Divide por estadística principal: equipos de ráfaga para Beast Gohan, de golpe para Gohan & Trunks, más un equipo con condición Hybrid Saiyan y un set defensivo en el puesto de Youth Gohan."
+          "why": "ULTRA Beast Gohan, LF Super Saiyan Gohan & Trunks (Youth) y SP Super Trunks. Desde el banquillo, LF Super Saiyan 2 Gohan (Youth) gana daño extra y protección de daño mientras haya otro Hybrid Saiyan en el campo, y los aliados conservan un aumento de daño tras su reanimación.",
+          "equip": "Equipos de etiqueta Hybrid Saiyan; sets de daño en Beast Gohan, salud en Gohan & Trunks."
         },
         "pt": {
-          "why": "Os Hybrid Saiyan batem rápido e com frequência: Beast Gohan e Gohan & Trunks emendam combos enquanto Youth Gohan cuida da defesa. Ótima escolha se você tirou as unidades do 8º aniversário.",
-          "equip": "Divida pela estatística principal: equipamentos de rajada para o Beast Gohan, de golpe para Gohan & Trunks, mais um equipamento com condição Hybrid Saiyan e um conjunto defensivo na vaga do Youth Gohan."
+          "why": "ULTRA Beast Gohan, LF Super Saiyan Gohan & Trunks (Youth) e SP Super Trunks. Do banco, LF Super Saiyan 2 Gohan (Youth) ganha dano extra e proteção de dano enquanto outro Hybrid Saiyan estiver em campo, e os aliados mantêm um bônus de dano depois que ele revive.",
+          "equip": "Equipamentos de tag Hybrid Saiyan; sets de dano em Beast Gohan, vida em Gohan & Trunks."
         },
         "fr": {
-          "why": "Les Hybrid Saiyan frappent vite et souvent : Beast Gohan et Gohan & Trunks enchaînent les combos tandis que Youth Gohan assure la défense. Un excellent choix si vous avez obtenu les unités du 8e anniversaire.",
-          "equip": "Répartissez selon la statistique principale : équipements de tir pour Beast Gohan, de frappe pour Gohan & Trunks, plus un équipement à condition Hybrid Saiyan et un set défensif sur le rôle de Youth Gohan."
+          "why": "ULTRA Beast Gohan, LF Super Saiyan Gohan & Trunks (Youth) et SP Super Trunks. Depuis le banc, LF Super Saiyan 2 Gohan (Youth) gagne des dégâts supplémentaires et une protection tant qu’un autre Hybrid Saiyan est sur le terrain, et les alliés gardent un bonus de dégâts après sa résurrection.",
+          "equip": "Équipements de tag Hybrid Saiyan ; sets de dégâts sur Beast Gohan, santé sur Gohan & Trunks."
         },
         "ru": {
-          "why": "Гибридные саяны бьют быстро и часто: Бист Гохан и Гохан и Транкс цепляют комбо одно за другим, а юный Гохан прикрывает оборону. Сильный выбор, если вы выбили юнитов 8-й годовщины.",
-          "equip": "Делите по основной характеристике: blast-экипировки для Бист Гохана, strike для Гохана и Транкса, плюс одна экипировка с условием Hybrid Saiyan и защитный набор на слот юного Гохана."
+          "why": "ULTRA Beast Gohan, LF Super Saiyan Gohan & Trunks (Youth) и SP Super Trunks. Со скамейки LF Super Saiyan 2 Gohan (Youth) получает доп. урон и защиту от урона, пока на поле есть другой Hybrid Saiyan, а союзники сохраняют бафф урона после его воскрешения.",
+          "equip": "Экипировка тега Hybrid Saiyan; сеты на урон для Beast Gohan, здоровье для Gohan & Trunks."
         },
         "ja": {
-          "why": "ハイブリッドサイヤ人は手数で圧倒します。ビースト悟飯と悟飯&トランクスがコンボを繋ぎ、少年悟飯が防御を担当。8周年キャラを引けたなら有力な選択肢です。",
-          "equip": "メインステータスで分担：ビースト悟飯は射撃装備、悟飯&トランクスは打撃装備。「ハイブリッドサイヤ人」条件付き装備を1枠と、少年悟飯枠には防御セットを。"
+          "why": "ULTRA Beast Gohan、LF Super Saiyan Gohan & Trunks (Youth)、SP Super Trunks。控えのLF Super Saiyan 2 Gohan (Youth)は、他のハイブリッドサイヤ人が場にいる間ダメージとダメージガードが上がり、復活後も味方にダメージバフが残ります。",
+          "equip": "ハイブリッドサイヤ人タグの装備を。Beast Gohanにはダメージ系、Gohan & Trunksには体力を。"
         }
       }
     },
     {
-      "slug": "gt-super-saiyan-4",
+      "slug": "future",
+      "tag": "Future",
+      "emoji": "⏳",
+      "core": [
+        {
+          "name": "ULTRA Half-Corrupted Fusion Zamasu",
+          "role": "tank"
+        },
+        {
+          "name": "ULTRA Perfect Cell",
+          "role": "damage"
+        },
+        {
+          "name": "LF Super Saiyan Gohan & Trunks (Youth)",
+          "role": "damage"
+        }
+      ],
+      "bench": [
+        "LF Fusion Zamasu",
+        "LF Goku Black",
+        "ULTRA Super Saiyan God SS Vegito"
+      ],
+      "text": {
+        "en": {
+          "why": "A build around ULTRA Half-Corrupted Fusion Zamasu with ULTRA Perfect Cell and LF Super Saiyan Gohan & Trunks (Youth). Future Trunks and Vegito Blue fit as well, and a Zenkai Sparking Zamasu works as a budget slot.",
+          "equip": "Future tag equips; defensive sets on Zamasu, damage sets on Cell."
+        },
+        "de": {
+          "why": "Ein Build um ULTRA Half-Corrupted Fusion Zamasu mit ULTRA Perfect Cell und LF Super Saiyan Gohan & Trunks (Youth). Future Trunks und Vegito Blue passen ebenfalls, ein Zenkai-Sparking-Zamasu ist die Budget-Option.",
+          "equip": "Future-Tag-Equips; defensive Sets auf Zamasu, Schadens-Sets auf Cell."
+        },
+        "es": {
+          "why": "Una formación en torno a ULTRA Half-Corrupted Fusion Zamasu con ULTRA Perfect Cell y LF Super Saiyan Gohan & Trunks (Youth). Future Trunks y Vegito Blue también encajan, y un Zamasu Sparking Zenkai sirve como opción económica.",
+          "equip": "Equipos de etiqueta Future; sets defensivos en Zamasu, sets de daño en Cell."
+        },
+        "pt": {
+          "why": "Uma formação em torno de ULTRA Half-Corrupted Fusion Zamasu com ULTRA Perfect Cell e LF Super Saiyan Gohan & Trunks (Youth). Future Trunks e Vegito Blue também se encaixam, e um Zamasu Sparking Zenkai é a opção econômica.",
+          "equip": "Equipamentos de tag Future; sets defensivos em Zamasu, sets de dano em Cell."
+        },
+        "fr": {
+          "why": "Une compo autour d’ULTRA Half-Corrupted Fusion Zamasu avec ULTRA Perfect Cell et LF Super Saiyan Gohan & Trunks (Youth). Future Trunks et Vegito Blue conviennent aussi, et un Zamasu Sparking Zenkai sert d’option économique.",
+          "equip": "Équipements de tag Future ; sets défensifs sur Zamasu, sets de dégâts sur Cell."
+        },
+        "ru": {
+          "why": "Сборка вокруг ULTRA Half-Corrupted Fusion Zamasu с ULTRA Perfect Cell и LF Super Saiyan Gohan & Trunks (Youth). Также подходят Future Trunks и Vegito Blue, а Zenkai Sparking Zamasu – бюджетный вариант.",
+          "equip": "Экипировка тега Future; защитные сеты на Zamasu, сеты на урон для Cell."
+        },
+        "ja": {
+          "why": "ULTRA Half-Corrupted Fusion ZamasuにULTRA Perfect CellとLF Super Saiyan Gohan & Trunks (Youth)を組み合わせた編成。未来トランクスやベジットブルーも合い、極限スパーキングのザマスは手軽な代替枠です。",
+          "equip": "未来タグの装備を。Zamasuには防御系、Cellにはダメージ系を。"
+        }
+      }
+    },
+    {
+      "slug": "god-ki",
+      "tag": "God Ki",
+      "emoji": "✨",
+      "core": [
+        {
+          "name": "ULTRA Half-Corrupted Fusion Zamasu",
+          "role": "tank"
+        },
+        {
+          "name": "LF Super Saiyan God SS Vegeta",
+          "role": "damage"
+        },
+        {
+          "name": "LF Ultra Instinct -Sign- Goku",
+          "role": "damage"
+        }
+      ],
+      "bench": [
+        "LEGEND Super Saiyan God SS Kaioken Goku",
+        "ULTRA Super Saiyan God SS Gogeta",
+        "ULTRA Super Saiyan God SS Vegito"
+      ],
+      "text": {
+        "en": {
+          "why": "A broad tag that covers much of the Super-era top end: ULTRA Half-Corrupted Fusion Zamasu, LF Super Saiyan God SS Vegeta and LF Ultra Instinct -Sign- Goku. The Blue Gogetas, Vegito Blue and the Kaioken Gokus all fit.",
+          "equip": "God Ki tag equips; damage sets on Vegeta and Goku, health and damage reduction on Zamasu."
+        },
+        "de": {
+          "why": "Ein breiter Tag, der einen Großteil der Super-Spitze abdeckt: ULTRA Half-Corrupted Fusion Zamasu, LF Super Saiyan God SS Vegeta und LF Ultra Instinct -Sign- Goku. Die Blue-Gogetas, Vegito Blue und die Kaioken-Gokus passen alle.",
+          "equip": "God-Ki-Tag-Equips; Schadens-Sets auf Vegeta und Goku, Health und Schadensreduktion auf Zamasu."
+        },
+        "es": {
+          "why": "Una etiqueta amplia que cubre gran parte de la élite de la era Super: ULTRA Half-Corrupted Fusion Zamasu, LF Super Saiyan God SS Vegeta y LF Ultra Instinct -Sign- Goku. Los Gogeta Blue, Vegito Blue y los Goku Kaioken encajan todos.",
+          "equip": "Equipos de etiqueta God Ki; sets de daño en Vegeta y Goku, salud y reducción de daño en Zamasu."
+        },
+        "pt": {
+          "why": "Uma tag ampla que cobre boa parte da elite da era Super: ULTRA Half-Corrupted Fusion Zamasu, LF Super Saiyan God SS Vegeta e LF Ultra Instinct -Sign- Goku. Os Gogetas Blue, Vegito Blue e os Gokus Kaioken se encaixam.",
+          "equip": "Equipamentos de tag God Ki; sets de dano em Vegeta e Goku, vida e redução de dano em Zamasu."
+        },
+        "fr": {
+          "why": "Un tag large qui couvre une grande partie du haut de tableau de l’ère Super : ULTRA Half-Corrupted Fusion Zamasu, LF Super Saiyan God SS Vegeta et LF Ultra Instinct -Sign- Goku. Les Gogeta Blue, Vegito Blue et les Goku Kaioken s’y intègrent tous.",
+          "equip": "Équipements de tag God Ki ; sets de dégâts sur Vegeta et Goku, santé et réduction de dégâts sur Zamasu."
+        },
+        "ru": {
+          "why": "Широкий тег, охватывающий большую часть топа эпохи Super: ULTRA Half-Corrupted Fusion Zamasu, LF Super Saiyan God SS Vegeta и LF Ultra Instinct -Sign- Goku. Подходят Гогеты Blue, Vegito Blue и Гоку с Кайокеном.",
+          "equip": "Экипировка тега God Ki; сеты на урон для Vegeta и Goku, здоровье и снижение урона на Zamasu."
+        },
+        "ja": {
+          "why": "超時代の上位キャラを幅広くカバーするタグ：ULTRA Half-Corrupted Fusion Zamasu、LF Super Saiyan God SS Vegeta、LF Ultra Instinct -Sign- Goku。ブルーのゴジータ、ベジットブルー、界王拳悟空もすべて合います。",
+          "equip": "神の気タグの装備を。VegetaとGokuにはダメージ系、Zamasuには体力とダメージ軽減を。"
+        }
+      }
+    },
+    {
+      "slug": "lineage-of-evil",
+      "tag": "Lineage of Evil",
+      "emoji": "👑",
+      "core": [
+        {
+          "name": "ULTRA Final Form Cooler",
+          "role": "damage"
+        },
+        {
+          "name": "LEGEND Android #17 & Golden Frieza",
+          "role": "support"
+        },
+        {
+          "name": "ULTRA Golden Frieza",
+          "role": "damage"
+        }
+      ],
+      "bench": [
+        "LEGEND Broly: Fury",
+        "SP Final Form Frieza: Full Power"
+      ],
+      "text": {
+        "en": {
+          "why": "ULTRA Final Form Cooler leads: he lands strong Rising Rushes and wins Dokabaki Impacts. LEGEND Android #17 & Golden Frieza and ULTRA Golden Frieza keep the buffs running.",
+          "equip": "Lineage of Evil tag equips; attack sets on Cooler and Golden Frieza, health on #17 & Frieza."
+        },
+        "de": {
+          "why": "ULTRA Final Form Cooler führt an: Er landet starke Rising Rushes und gewinnt Dokabaki-Impacts. LEGEND Android #17 & Golden Frieza und ULTRA Golden Frieza halten die Buffs aufrecht.",
+          "equip": "Lineage-of-Evil-Tag-Equips; Angriffs-Sets auf Cooler und Golden Frieza, Health auf #17 & Frieza."
+        },
+        "es": {
+          "why": "ULTRA Final Form Cooler lidera: conecta Rising Rush potentes y gana los Dokabaki Impact. LEGEND Android #17 & Golden Frieza y ULTRA Golden Frieza mantienen las mejoras activas.",
+          "equip": "Equipos de etiqueta Lineage of Evil; sets de ataque en Cooler y Golden Frieza, salud en #17 & Frieza."
+        },
+        "pt": {
+          "why": "ULTRA Final Form Cooler lidera: acerta Rising Rush fortes e vence os Dokabaki Impact. LEGEND Android #17 & Golden Frieza e ULTRA Golden Frieza mantêm os bônus ativos.",
+          "equip": "Equipamentos de tag Lineage of Evil; sets de ataque em Cooler e Golden Frieza, vida em #17 & Frieza."
+        },
+        "fr": {
+          "why": "ULTRA Final Form Cooler mène : il place de puissants Rising Rush et remporte les Dokabaki Impact. LEGEND Android #17 & Golden Frieza et ULTRA Golden Frieza maintiennent les bonus actifs.",
+          "equip": "Équipements de tag Lineage of Evil ; sets d’attaque sur Cooler et Golden Frieza, santé sur #17 & Frieza."
+        },
+        "ru": {
+          "why": "Ведёт ULTRA Final Form Cooler: он проводит мощные Rising Rush и выигрывает Dokabaki Impact. LEGEND Android #17 & Golden Frieza и ULTRA Golden Frieza поддерживают баффы.",
+          "equip": "Экипировка тега Lineage of Evil; атакующие сеты на Cooler и Golden Frieza, здоровье на #17 & Frieza."
+        },
+        "ja": {
+          "why": "ULTRA Final Form Coolerが主軸。強力なライジングラッシュを当て、ドカバキインパクトにも勝ちます。LEGEND Android #17 & Golden FriezaとULTRA Golden Friezaがバフを維持します。",
+          "equip": "悪の系譜タグの装備を。CoolerとGolden Friezaには攻撃系、#17 & Friezaには体力を。"
+        }
+      }
+    },
+    {
+      "slug": "gt",
       "tag": "GT",
-      "emoji": "🐒",
+      "emoji": "🐉",
       "core": [
         {
           "name": "ULTRA Super Full Power Saiyan 4 Goku",
           "role": "damage"
         },
         {
-          "name": "LF Super Saiyan 4 Vegeta",
-          "role": "tank"
-        },
-        {
           "name": "LF Super Saiyan 4 Gogeta",
           "role": "damage"
+        },
+        {
+          "name": "SP Majuub",
+          "role": "support"
         }
       ],
       "bench": [
-        "SP Pan (GT)",
-        "SP Super Baby 2",
-        "SP Majuub"
+        "LF Super Saiyan 4 Vegeta"
       ],
       "text": {
         "en": {
-          "why": "Pure aggression around ULTRA Super Full Power Saiyan 4 Goku: SS4 Vegeta and SS4 Gogeta keep up the ki pressure and end matches before sustain teams come online. Simple game plan, very high damage ceiling.",
-          "equip": "Full aggression: strike-attack equips on SS4 Goku and Gogeta, a mixed set on Vegeta, and one GT tag equip. Here damage wins before sustain matters."
+          "why": "Two win conditions in one team: ULTRA Super Full Power Saiyan 4 Goku and LF Super Saiyan 4 Gogeta both carry the damage, while SP Majuub rounds out the core.",
+          "equip": "GT tag equips; attack sets on Goku and Gogeta, health on Majuub."
         },
         "de": {
-          "why": "Pure Aggression rund um ULTRA Super Full Power Saiyan 4 Goku: SS4 Vegeta und SS4 Gogeta halten den Ki-Druck hoch und beenden Matches, bevor Sustain-Teams ins Spiel kommen. Simpler Spielplan, sehr hohe Schadensobergrenze.",
-          "equip": "Volle Offensive: Strike-Attack-Equips auf SS4 Goku und Gogeta, ein gemischtes Set auf Vegeta und ein Equip mit GT-Bedingung. Hier gewinnt Schaden, bevor Nachhaltigkeit zählt."
+          "why": "Zwei Siegbedingungen in einem Team: ULTRA Super Full Power Saiyan 4 Goku und LF Super Saiyan 4 Gogeta tragen beide den Schaden, SP Majuub rundet den Kern ab.",
+          "equip": "GT-Tag-Equips; Angriffs-Sets auf Goku und Gogeta, Health auf Majuub."
         },
         "es": {
-          "why": "Agresión pura en torno a ULTRA Super Full Power Saiyan 4 Goku: SS4 Vegeta y SS4 Gogeta mantienen la presión de ki y terminan las partidas antes de que los equipos de aguante despeguen. Plan de juego simple, techo de daño altísimo.",
-          "equip": "Ofensiva total: equipos de ataque de golpe para SS4 Goku y Gogeta, un set mixto para Vegeta y un equipo con condición GT. Aquí el daño gana antes de que importe el aguante."
+          "why": "Dos condiciones de victoria en un equipo: ULTRA Super Full Power Saiyan 4 Goku y LF Super Saiyan 4 Gogeta aportan el daño, y SP Majuub completa el núcleo.",
+          "equip": "Equipos de etiqueta GT; sets de ataque en Goku y Gogeta, salud en Majuub."
         },
         "pt": {
-          "why": "Agressão pura em torno do ULTRA Super Full Power Saiyan 4 Goku: SS4 Vegeta e SS4 Gogeta mantêm a pressão de ki e encerram as partidas antes que os times de sustain engatem. Plano de jogo simples, teto de dano altíssimo.",
-          "equip": "Ofensiva total: equipamentos de ataque de golpe no SS4 Goku e no Gogeta, um conjunto misto no Vegeta e um equipamento com condição GT. Aqui o dano vence antes que o sustain importe."
+          "why": "Duas condições de vitória em um time: ULTRA Super Full Power Saiyan 4 Goku e LF Super Saiyan 4 Gogeta carregam o dano, e SP Majuub completa o núcleo.",
+          "equip": "Equipamentos de tag GT; sets de ataque em Goku e Gogeta, vida em Majuub."
         },
         "fr": {
-          "why": "De l'agression pure autour d'ULTRA Super Full Power Saiyan 4 Goku : SS4 Vegeta et SS4 Gogeta maintiennent la pression de ki et terminent les matchs avant que les équipes d'endurance ne se mettent en place. Plan de jeu simple, plafond de dégâts très élevé.",
-          "equip": "Offensive totale : équipements d'attaque de frappe sur SS4 Goku et Gogeta, un set mixte sur Vegeta et un équipement à condition GT. Ici les dégâts gagnent avant que l'endurance ne compte."
+          "why": "Deux conditions de victoire dans une équipe : ULTRA Super Full Power Saiyan 4 Goku et LF Super Saiyan 4 Gogeta portent les dégâts, et SP Majuub complète le noyau.",
+          "equip": "Équipements de tag GT ; sets d’attaque sur Goku et Gogeta, santé sur Majuub."
         },
         "ru": {
-          "why": "Чистая агрессия вокруг ULTRA Супер Саяна 4 Полной Мощи Гоку: SS4 Веджета и SS4 Гогета держат ки-давление и заканчивают матчи до того, как раскачаются команды на выживание. Простой план игры, очень высокий потолок урона.",
-          "equip": "Полная атака: strike-экипировки на SS4 Гоку и Гогету, смешанный набор на Веджету и одна экипировка с условием GT. Здесь урон побеждает раньше, чем живучесть начнёт иметь значение."
+          "why": "Два источника победы в одной команде: ULTRA Super Full Power Saiyan 4 Goku и LF Super Saiyan 4 Gogeta несут урон, а SP Majuub дополняет ядро.",
+          "equip": "Экипировка тега GT; атакующие сеты на Goku и Gogeta, здоровье на Majuub."
         },
         "ja": {
-          "why": "ULTRA超フルパワーサイヤ人4悟空を軸にした超攻撃型。SS4ベジータとSS4ゴジータが気圧力を維持し、持久型チームが本領を発揮する前に試合を終わらせます。シンプルな戦略で火力上限は最高クラス。",
-          "equip": "全力攻撃：SS4悟空とゴジータには打撃攻撃装備、ベジータには攻防ミックス、「GT」条件付き装備を1枠。このチームは持久力より火力が正義です。"
+          "why": "勝ち筋が2つあるチーム：ULTRA Super Full Power Saiyan 4 GokuとLF Super Saiyan 4 Gogetaがともにダメージを担い、SP Majuubがコアを締めます。",
+          "equip": "GTタグの装備を。GokuとGogetaには攻撃系、Majuubには体力を。"
+        }
+      }
+    },
+    {
+      "slug": "sagas-from-the-movies",
+      "tag": "Sagas From the Movies",
+      "emoji": "🎬",
+      "core": [
+        {
+          "name": "ULTRA Final Form Cooler",
+          "role": "damage"
+        },
+        {
+          "name": "LEGEND Broly: Fury",
+          "role": "damage"
+        },
+        {
+          "name": "SP Android #13",
+          "role": "support"
+        }
+      ],
+      "bench": [
+        "SP Super Saiyan Broly",
+        "SP Turles",
+        "SP Super Saiyan 3 Goku"
+      ],
+      "text": {
+        "en": {
+          "why": "ULTRA Final Form Cooler and LEGEND Broly: Fury bring the damage, SP Android #13 supports. A strong option if you have Cooler but not the top fusions.",
+          "equip": "Sagas From the Movies tag equips; attack sets on Cooler and Broly."
+        },
+        "de": {
+          "why": "ULTRA Final Form Cooler und LEGEND Broly: Fury liefern den Schaden, SP Android #13 unterstützt. Eine starke Option, wenn du Cooler hast, aber nicht die Top-Fusionen.",
+          "equip": "Sagas-From-the-Movies-Tag-Equips; Angriffs-Sets auf Cooler und Broly."
+        },
+        "es": {
+          "why": "ULTRA Final Form Cooler y LEGEND Broly: Fury aportan el daño, SP Android #13 apoya. Una gran opción si tienes a Cooler pero no las mejores fusiones.",
+          "equip": "Equipos de etiqueta Sagas From the Movies; sets de ataque en Cooler y Broly."
+        },
+        "pt": {
+          "why": "ULTRA Final Form Cooler e LEGEND Broly: Fury trazem o dano, SP Android #13 dá suporte. Uma ótima opção se você tem Cooler, mas não as melhores fusões.",
+          "equip": "Equipamentos de tag Sagas From the Movies; sets de ataque em Cooler e Broly."
+        },
+        "fr": {
+          "why": "ULTRA Final Form Cooler et LEGEND Broly: Fury apportent les dégâts, SP Android #13 soutient. Une bonne option si vous avez Cooler mais pas les meilleures fusions.",
+          "equip": "Équipements de tag Sagas From the Movies ; sets d’attaque sur Cooler et Broly."
+        },
+        "ru": {
+          "why": "ULTRA Final Form Cooler и LEGEND Broly: Fury дают урон, SP Android #13 поддерживает. Сильный вариант, если у вас есть Кулер, но нет топовых слияний.",
+          "equip": "Экипировка тега Sagas From the Movies; атакующие сеты на Cooler и Broly."
+        },
+        "ja": {
+          "why": "ULTRA Final Form CoolerとLEGEND Broly: Furyが火力、SP Android #13がサポート。クウラはいるけれど最上位のフュージョンがいない人に強い選択肢です。",
+          "equip": "劇場版タグの装備を。CoolerとBrolyには攻撃系を。"
         }
       }
     }

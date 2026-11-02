@@ -29,6 +29,8 @@ const {
   postUrl,
   splitH1Html,
   thirdPartyScripts,
+  siteNav,
+  SITE_NAV_CSS,
 } = require('./blog-lib.js');
 const { I18N, SUPPORTED_LANGS } = require(path.join(ROOT, 'i18n.js'));
 const { teamsPathForLang } = require('./teams-lib.js');
@@ -197,6 +199,8 @@ function renderPost(template, css, post, allPosts) {
     .replaceAll('{{FOOTER_DISCLAIMER}}', escapeHtmlText(dict.blogFooterDisclaimer))
     .replaceAll('{{LEGAL_NOTICE_LABEL}}', escapeHtmlText(dict.legalNotice))
     .replaceAll('{{PRIVACY_LABEL}}', escapeHtmlText(dict.privacy))
+    .replaceAll('{{SITE_NAV}}', siteNav(dict, post.lang, 'blog', false))
+    .replaceAll('{{SITE_NAV_CSS}}', SITE_NAV_CSS)
     .replaceAll('{{THIRD_PARTY_SCRIPTS}}', thirdPartyScripts(dict.supportHeadline))
     .replace('{{RELATED}}', related)
     .replace('{{CONTENT}}', post.body);
@@ -239,6 +243,8 @@ function renderIndex(template, css, lang, posts) {
     .replaceAll('{{FOOTER_DISCLAIMER}}', escapeHtmlText(dict.blogFooterDisclaimer))
     .replaceAll('{{LEGAL_NOTICE_LABEL}}', escapeHtmlText(dict.legalNotice))
     .replaceAll('{{PRIVACY_LABEL}}', escapeHtmlText(dict.privacy))
+    .replaceAll('{{SITE_NAV}}', siteNav(dict, lang, 'blog'))
+    .replaceAll('{{SITE_NAV_CSS}}', SITE_NAV_CSS)
     .replaceAll('{{THIRD_PARTY_SCRIPTS}}', thirdPartyScripts(dict.supportHeadline))
     .replace('{{POST_LIST}}', list);
 }

@@ -76,7 +76,7 @@
   .wrap { max-width: 1080px; margin: 0 auto; }
 
   /* ---- Header ---- */
-  header { text-align: center; margin-bottom: 26px; }
+  header { position: relative; text-align: center; margin-bottom: 26px; }
   .dballs {
     display: flex;
     justify-content: center;
@@ -129,29 +129,7 @@
     line-height: 1.5;
   }
 
-  /* ---- Portal-Nav ---- */
-  .portal-nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 8px;
-    margin: 16px 0 24px;
-  }
-  .pchip {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    padding: 8px 14px;
-    border-radius: 999px;
-    border: 1.5px solid var(--line);
-    background: linear-gradient(180deg, var(--panel-2), var(--panel));
-    color: var(--text);
-    text-decoration: none;
-    font-size: 0.9rem;
-  }
-  .pchip:hover { border-color: var(--orange); color: var(--orange-soft); }
-  .pchip.active { border-color: var(--orange); color: var(--orange-soft); }
-
+{{SITE_NAV_CSS}}
   /* ---- Event-Hinweis ---- */
   .event-notice {
     border-left: 4px solid var(--orange);
@@ -452,8 +430,8 @@
 
   .lang-pick {
     position: absolute;
-    top: calc(12px + env(safe-area-inset-top, 0px));
-    right: calc(12px + env(safe-area-inset-right, 0px));
+    top: 0;
+    right: 0;
     z-index: 45;
   }
   .lang-pick select {
@@ -471,7 +449,8 @@
 
   /* ---- Mobile: App-Leiste unten ---- */
   @media (max-width: 640px) {
-    body { padding: calc(14px + env(safe-area-inset-top, 0px)) 10px 108px; }
+    body { padding: calc(24px + env(safe-area-inset-top, 0px)) 10px 108px; }
+    .snav { margin: 0 6px 24px; } /* same inset as subpages (16px) */
     header { margin-bottom: 18px; }
     .card img { width: 168px; height: 168px; }
 
@@ -514,19 +493,21 @@
 </style>
 </head>
 <body>
-<div class="lang-pick">
-  <select id="langSelect" aria-label="Language / Sprache">
-    <option value="en" aria-label="English">🇬🇧</option>
-    <option value="de" aria-label="Deutsch">🇩🇪</option>
-    <option value="es" aria-label="Español">🇪🇸</option>
-    <option value="pt" aria-label="Português">🇧🇷</option>
-    <option value="fr" aria-label="Français">🇫🇷</option>
-    <option value="ru" aria-label="Русский">🇷🇺</option>
-    <option value="ja" aria-label="日本語">🇯🇵</option>
-  </select>
-</div>
 <div class="wrap">
+  {{SITE_NAV}}
   <header>
+  <div class="lang-pick">
+    <select id="langSelect" aria-label="Language / Sprache">
+      <option value="en" aria-label="English">🇬🇧</option>
+      <option value="de" aria-label="Deutsch">🇩🇪</option>
+      <option value="es" aria-label="Español">🇪🇸</option>
+      <option value="pt" aria-label="Português">🇧🇷</option>
+      <option value="fr" aria-label="Français">🇫🇷</option>
+      <option value="ru" aria-label="Русский">🇷🇺</option>
+      <option value="ja" aria-label="日本語">🇯🇵</option>
+    </select>
+  </div>
+
     <div class="dballs" aria-hidden="true">
       <span class="dball">★</span><span class="dball">★</span><span class="dball">★</span>
       <span class="dball">★</span><span class="dball">★</span><span class="dball">★</span>
@@ -535,13 +516,6 @@
     <h1>Dragon Ball Legends<br>QR Generator</h1>
     <p data-i18n="subtitle">{{TEXT_subtitle}}</p>
   </header>
-
-  <nav class="portal-nav" aria-label="dblqr.org">
-    <span class="pchip active" aria-current="page">🔲 <span data-i18n="blogNavGenerator">{{TEXT_blogNavGenerator}}</span></span>
-    <a class="pchip" href="{{PROMO_HREF}}" data-i18n="promoHeading">{{TEXT_promoHeading}}</a>
-    <a class="pchip" href="{{TEAMS_HREF}}">⚔️ <span data-i18n="navTeams">{{TEXT_navTeams}}</span></a>
-    <a class="pchip" href="{{BLOG_HREF}}">📖 <span data-i18n="blogNavBlog">{{TEXT_blogNavBlog}}</span></a>
-  </nav>
 
   <section class="panel event-notice">
     <p>⏳ {{EVENT_NOTICE_SPAN}}</p>

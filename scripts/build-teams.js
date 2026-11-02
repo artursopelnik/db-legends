@@ -16,9 +16,9 @@ const path = require('path');
 const ROOT = path.resolve(__dirname, '..');
 const SRC = path.join(ROOT, 'src', 'teams');
 
-const { loadTeams, loadCharacters, teamsPathForLang, teamsUrlForLang, SITE_URL, DEFAULT_LANG } =
+const { loadTeams, teamsPathForLang, teamsUrlForLang, SITE_URL, DEFAULT_LANG } =
   require('./teams-lib.js');
-const { blogPathForLang, homePathForLang, splitH1Html, thirdPartyScripts } = require('./blog-lib.js');
+const { blogPathForLang, homePathForLang, splitH1Html, thirdPartyScripts, siteNav, SITE_NAV_CSS } = require('./blog-lib.js');
 const { promoPathForLang } = require('./promo-lib.js');
 const { I18N, SUPPORTED_LANGS } = require(path.join(ROOT, 'i18n.js'));
 
@@ -127,7 +127,7 @@ function bestBadgeText(lang, updatedAt) {
   return I18N[lang].teamsBestBadge.replace('{date}', date);
 }
 
-function renderTeamCard(team, lang, badge) {
+function renderTeamCard(team, rank, lang, badge) {
   const dict = I18N[lang];
   const roleLabel = {
     damage: dict.teamsRoleDamage,
@@ -153,103 +153,21 @@ ${core}
   if (badge) {
     return `  <section class="team-card team-card-best" id="${team.slug}">
     <p class="best-badge">🏆 ${escapeHtmlText(badge)}</p>
-    <h2>${team.emoji} ${escapeHtmlText(team.tag)}</h2>
+    <h2><span class="team-rank">#${rank}</span> ${team.emoji} ${escapeHtmlText(team.tag)}</h2>
 ${body}
   </section>`;
   }
   return `  <details class="team-card" id="${team.slug}">
-    <summary><h2>${team.emoji} ${escapeHtmlText(team.tag)}</h2></summary>
+    <summary><h2><span class="team-rank">#${rank}</span> ${team.emoji} ${escapeHtmlText(team.tag)}</h2></summary>
 ${body}
   </details>`;
 }
 
-// Card icons come from assets/card_icons when scripts/fetch_card_icons.py has
-// filled it (self hosted, preferred); otherwise the pages hotlink the source
-// database directly so the builder still shows images.
-function iconBase() {
-  const dir = path.join(ROOT, 'assets', 'card_icons');
-  const local = fs.existsSync(dir) && fs.readdirSync(dir).some((f) => f.endsWith('.webp'));
-  return local ? '/assets/card_icons/' : 'https://dblegends.net/assets/card_icons/';
-}
-
-function loadEquipsByTag() {
-  return JSON.parse(fs.readFileSync(path.join(SRC, 'data', 'equips-by-tag.json'), 'utf8'));
-}
-
-// Optional official in-game equip names per language:
-// { "<english name>": { "de": "...", "fr": "..." } }. Missing file or
-// missing entries fall back to the English names.
-function loadEquipsI18n() {
-  const file = path.join(SRC, 'data', 'equips-i18n.json');
-  if (!fs.existsSync(file)) return {};
-  return JSON.parse(fs.readFileSync(file, 'utf8'));
-}
-
-// Returns the tag->equips map with names localized for lang, plus whether
-// coverage is good enough to drop the "English names" hint.
-function localizeEquips(equips, equipsI18n, lang) {
-  if (lang === 'en') return { equips, localized: true };
-  let total = 0;
-  let hit = 0;
-  const out = {};
-  for (const [tag, names] of Object.entries(equips)) {
-    out[tag] = names.map((name) => {
-      total++;
-      const loc = equipsI18n[name] && equipsI18n[name][lang];
-      if (loc) hit++;
-      return loc || name;
-    });
-  }
-  return { equips: out, localized: total > 0 && hit / total >= 0.8 };
-}
-
-function renderPage(template, css, lang, data, characters, equips, equipsI18n) {
+function renderPage(template, css, lang, data) {
   const dict = I18N[lang];
-  const { equips: langEquips, localized } = localizeEquips(equips, equipsI18n, lang);
   const cards = data.teams
-    .map((team, i) => renderTeamCard(team, lang, i === 0 ? bestBadgeText(lang, data.updatedAt) : null))
+    .map((team, i) => renderTeamCard(team, i + 1, lang, i === 0 ? bestBadgeText(lang, data.updatedAt) : null))
     .join('\n');
-  const builderText = {
-    count: dict.builderCount,
-    roleDamage: dict.teamsRoleDamage,
-    roleTank: dict.teamsRoleTank,
-    roleSupport: dict.teamsRoleSupport,
-    verdictGreat: dict.builderVerdictGreat,
-    verdictOk: dict.builderVerdictOk,
-    verdictWeak: dict.builderVerdictWeak,
-    recPerfect: dict.builderRecPerfect,
-    recSwap: dict.builderRecSwap,
-    recEither: dict.builderRecEither,
-    recRoleDamage: dict.builderRecRoleDamage,
-    recRoleTank: dict.builderRecRoleTank,
-    recRoleSupport: dict.builderRecRoleSupport,
-    recFill: dict.builderRecFill,
-    recTrio: dict.builderRecTrio,
-    recUpgrade: dict.builderRecUpgrade,
-    ownedToggle: dict.builderOwnedToggle,
-    recLead: dict.builderRecLead,
-    recLeadBase: dict.builderRecLeadBase,
-    recLeadOk: dict.builderRecLeadOk,
-    recEquipParts: dict.builderRecEquipParts,
-    recEquipPartsNoTag: dict.builderRecEquipPartsNoTag,
-    equipStrike: dict.builderEquipStrike,
-    equipBlast: dict.builderEquipBlast,
-    equipMixed: dict.builderEquipMixed,
-    equipDefense: dict.builderEquipDefense,
-    recEquipItems: localized ? dict.builderRecEquipItems : dict.builderRecEquipItemsEn,
-    starsLabel: dict.builderStarsLabel,
-    awakeLabel: dict.builderAwakeLabel,
-    moveUp: dict.builderMoveUp,
-    moveDown: dict.builderMoveDown,
-    scanLoading: dict.builderScanLoading,
-    scanAnalyzing: dict.builderScanAnalyzing,
-    scanDone: dict.builderScanDone,
-    scanNone: dict.builderScanNone,
-    scanUnavailable: dict.builderScanUnavailable,
-    scanSlot: dict.builderScanSlot,
-    scanUncertain: dict.builderScanUncertain,
-    preview: dict.builderPreview,
-  };
   return template
     .replaceAll('{{LANG}}', lang)
     .replaceAll('{{META_TITLE}}', escapeHtmlAttr(dict.teamsMetaTitle))
@@ -273,32 +191,13 @@ function renderPage(template, css, lang, data, characters, equips, equipsI18n) {
     .replaceAll('{{UPDATED_ISO}}', data.updatedAt)
     .replaceAll('{{UPDATED_HUMAN}}', humanDate(data.updatedAt, lang))
     .replaceAll('{{TEAMS_DISCLAIMER}}', escapeHtmlText(dict.teamsDisclaimer))
-    .replaceAll('{{BUILDER_HEADING}}', escapeHtmlText(dict.builderHeading))
-    .replaceAll('{{BUILDER_INTRO}}', escapeHtmlText(dict.builderIntro))
-    .replaceAll('{{BUILDER_EMPTY}}', escapeHtmlText(dict.builderEmpty))
-    .replaceAll('{{BUILDER_SHARED_TAGS}}', escapeHtmlText(dict.builderSharedTags))
-    .replaceAll('{{BUILDER_ROLES}}', escapeHtmlText(dict.builderRoles))
-    .replaceAll('{{BUILDER_TIPS}}', escapeHtmlText(dict.builderTips))
-    .replaceAll('{{BUILDER_CLEAR}}', escapeHtmlText(dict.builderClear))
-    .replaceAll('{{BUILDER_SCAN_BUTTON}}', escapeHtmlText(dict.builderScanButton))
-    .replaceAll('{{BUILDER_SCAN_HINT}}', escapeHtmlText(dict.builderScanHint))
-    .replaceAll('{{BUILDER_SCAN_EXAMPLE}}', escapeHtmlAttr(dict.builderScanExample))
-    .replaceAll('{{BUILDER_OWNED_HINT}}', escapeHtmlText(dict.builderOwnedHint))
-    .replaceAll('{{BUILDER_OWNED_ALL}}', escapeHtmlText(dict.builderOwnedAll))
-    .replaceAll('{{BUILDER_OWNED_CLEAR}}', escapeHtmlText(dict.builderOwnedClear))
-    .replaceAll('{{BUILDER_SEARCH}}', escapeHtmlAttr(dict.builderSearch))
-    .replaceAll('{{BUILDER_FILTER_ALL}}', escapeHtmlText(dict.builderFilterAll))
-    .replaceAll('{{BUILDER_FILTER_RARITY}}', escapeHtmlText(dict.builderFilterRarity))
-    .replaceAll('{{ICON_BASE}}', iconBase())
-    .replaceAll('{{BUILDER_NO_MATCHES}}', escapeHtmlText(dict.builderNoMatches))
-    .replaceAll('{{ROSTER_JSON}}', jsonSafe(characters))
-    .replaceAll('{{EQUIPS_JSON}}', jsonSafe(langEquips))
-    .replaceAll('{{BUILDER_TEXT_JSON}}', jsonSafe(builderText))
     .replaceAll('{{CTA_HTML}}', dict.blogIndexCtaHtml)
     .replaceAll('{{CTA_BTN}}', escapeHtmlText(dict.blogIndexCtaBtn))
     .replaceAll('{{FOOTER_DISCLAIMER}}', escapeHtmlText(dict.blogFooterDisclaimer))
     .replaceAll('{{LEGAL_NOTICE_LABEL}}', escapeHtmlText(dict.legalNotice))
     .replaceAll('{{PRIVACY_LABEL}}', escapeHtmlText(dict.privacy))
+    .replaceAll('{{SITE_NAV}}', siteNav(dict, lang, 'teams'))
+    .replaceAll('{{SITE_NAV_CSS}}', SITE_NAV_CSS)
     .replaceAll('{{THIRD_PARTY_SCRIPTS}}', thirdPartyScripts(dict.supportHeadline))
     .replace('{{TEAM_CARDS}}', cards);
 }
@@ -316,13 +215,10 @@ function outDirForLang(lang) {
 
 function main() {
   const data = loadTeams(SUPPORTED_LANGS);
-  const characters = loadCharacters();
-  const equips = loadEquipsByTag();
-  const equipsI18n = loadEquipsI18n();
   const css = fs.readFileSync(path.join(ROOT, 'src', 'blog', 'blog.css'), 'utf8').trim();
   const template = fs.readFileSync(path.join(SRC, 'index.template.html'), 'utf8');
   for (const lang of SUPPORTED_LANGS) {
-    const html = renderPage(template, css, lang, data, characters, equips, equipsI18n);
+    const html = renderPage(template, css, lang, data);
     checkNoLeftoverTokens(html, `${lang}/teams/index`);
     const outDir = outDirForLang(lang);
     fs.mkdirSync(outDir, { recursive: true });

@@ -87,33 +87,6 @@ body {
 
 .wrap { max-width: 760px; margin: 0 auto; }
 
-.site-nav {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 8px 14px;
-  margin-bottom: 28px;
-  font-size: 0.95rem;
-}
-.site-nav a { color: var(--dim); text-decoration: none; }
-.site-nav a:hover { color: var(--orange-soft); }
-.site-nav .brand {
-  font-family: var(--display);
-  font-size: 1.25rem;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-  background: linear-gradient(180deg, #ffe9b8 0%, var(--orange-soft) 35%, var(--orange) 68%, var(--flame) 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-}
-.site-nav .spacer { flex: 1; }
-@media (max-width: 560px) {
-  .site-nav { row-gap: 6px; }
-  .site-nav .brand { flex-basis: 100%; }
-  .site-nav .spacer { display: none; }
-}
-
 h1 {
   font-family: var(--display);
   font-weight: 400;
@@ -209,17 +182,52 @@ footer {
   line-height: 1.7;
 }
 footer a { color: var(--dim); }
+
+.snav {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 6px;
+  max-width: 760px;
+  margin: 0 auto 24px;
+  padding: 5px;
+  border: 1.5px solid var(--line);
+  border-radius: 16px;
+  background: linear-gradient(180deg, var(--panel-2), var(--panel));
+}
+.snav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  min-height: 52px;
+  padding: 6px 4px;
+  border-radius: 11px;
+  color: var(--dim);
+  text-decoration: none;
+  text-align: center;
+  font-size: 0.76rem;
+  font-weight: 600;
+  line-height: 1.15;
+}
+.snav-icon { font-size: 1.15rem; line-height: 1; }
+.snav-label { hyphens: auto; -webkit-hyphens: auto; overflow-wrap: break-word; max-width: 100%; }
+.snav-item:hover { color: var(--orange-soft); }
+.snav-item.active { color: #26130a; background: linear-gradient(180deg, var(--orange-soft), var(--orange)); }
+.snav-item:focus-visible { outline: 2px solid var(--orange); outline-offset: 2px; }
+@media (min-width: 640px) {
+  .snav-item { flex-direction: row; gap: 7px; font-size: 0.9rem; min-height: 44px; }
+}
+
 </style>
 </head>
 <body>
 <div class="wrap">
-  <nav class="site-nav">
-    <a class="brand" href="/de/">DBL QR Generator</a>
-    <span class="spacer"></span>
-    <a href="/de/promo-codes/">Promo-Codes</a>
-    <a href="/de/teams/">Team-Guide</a>
-    <a href="/de/blog/">Blog</a>
-    <a href="/de/">QR-Generator</a>
+  <nav class="snav" aria-label="dblqr.org">
+    <a class="snav-item" href="/de/"><span class="snav-icon" aria-hidden="true">🔲</span><span class="snav-label" data-i18n="blogNavGenerator">QR-Generator</span></a>
+    <a class="snav-item" href="/de/promo-codes/"><span class="snav-icon" aria-hidden="true">🎁</span><span class="snav-label" data-i18n="navPromo">Promo-Codes</span></a>
+    <a class="snav-item" href="/de/teams/"><span class="snav-icon" aria-hidden="true">⚔️</span><span class="snav-label" data-i18n="navTeams">Team-Guide</span></a>
+    <a class="snav-item active" href="/de/blog/"><span class="snav-icon" aria-hidden="true">📖</span><span class="snav-label" data-i18n="blogNavBlog">Blog</span></a>
   </nav>
 
   <article>
@@ -281,7 +289,5 @@ footer a { color: var(--dim); }
 </div>
 
 <script defer src="https://umami.sotec.app/script.js" data-website-id="2c0fd1dc-6440-4e0b-961b-3f0c84f343eb"></script>
-<script>window.QuietJar = {"site":"qj_ae2a4ff5e98980524f9dc1cb","currency":"eur","labels":{"headline":"Unterstütze uns","body":"","action":"Support","icon":"piggy"},"style":{"color":"#0369a1","font":"rounded"},"close":{"enabled":true,"after":"session","days":7},"donation":{"hideDays":30},"position":{"corner":"bottom-right"}};</script>
-<script src="https://quietjar.com/js/latest/quietjar.js" async></script>
 </body>
 </html>

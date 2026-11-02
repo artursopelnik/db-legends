@@ -30,6 +30,7 @@
 <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
 <style>
 {{BLOG_CSS}}
+{{SITE_NAV_CSS}}
 
 /* ---- Promo codes page ---- */
 .promo-panel {
@@ -101,13 +102,7 @@
 </head>
 <body>
 <div class="wrap">
-  <nav class="site-nav">
-    <a class="brand" href="{{HOME_URL}}">DBL QR Generator</a>
-    <span class="spacer"></span>
-    <a href="{{TEAMS_URL}}">{{NAV_TEAMS_LABEL}}</a>
-    <a href="{{BLOG_URL}}">{{NAV_BLOG_LABEL}}</a>
-    <a href="{{HOME_URL}}">{{NAV_GENERATOR_LABEL}}</a>
-  </nav>
+  {{SITE_NAV}}
 
   <h1>{{PROMO_H1}}</h1>
   <p class="post-meta">{{PROMO_INTRO}}</p>
