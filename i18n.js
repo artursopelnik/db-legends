@@ -115,6 +115,10 @@ const I18N = {
     promoIntro: 'All currently active codes, automatically updated. Tap a code to copy it, then redeem it in-game.',
     promoEmpty: 'No active promo codes right now – new codes usually drop with events. Check back soon!',
     promoHowTo: 'Guide: how to redeem promo codes',
+    promoFeedTitle: 'Dragon Ball Legends promo codes – dblqr.org',
+    promoFeedDescription: 'New Dragon Ball Legends promo codes as soon as they appear, with reward and expiry date.',
+    promoFeedSubscribe: 'Subscribe via RSS',
+    promoFeedItem: 'Reward: {reward}. Valid until {date}. Redeem it in-game via the Menu.',
   },
   de: {
     metaTitle: 'Dragon Ball Legends QR-Generator – Anniversary 2026',
@@ -226,6 +230,10 @@ const I18N = {
     promoIntro: 'Alle aktuell aktiven Codes, automatisch aktualisiert. Code antippen zum Kopieren, dann im Spiel einlösen.',
     promoEmpty: 'Gerade keine aktiven Promo-Codes – neue Codes kommen meist mit Events. Schau bald wieder vorbei!',
     promoHowTo: 'Guide: So löst du Promo-Codes ein',
+    promoFeedTitle: 'Dragon Ball Legends Promo-Codes – dblqr.org',
+    promoFeedDescription: 'Neue Dragon Ball Legends Promo-Codes, sobald sie erscheinen – mit Belohnung und Ablaufdatum.',
+    promoFeedSubscribe: 'Per RSS abonnieren',
+    promoFeedItem: 'Belohnung: {reward}. Gültig bis {date}. Einlösen im Spiel über das Menü.',
   },
   es: {
     metaTitle: 'Generador de códigos QR de Dragon Ball Legends – Aniversario 2026',
@@ -337,6 +345,10 @@ const I18N = {
     promoIntro: 'Todos los códigos activos ahora mismo, actualizados automáticamente. Toca un código para copiarlo y canjéalo en el juego.',
     promoEmpty: 'Ahora mismo no hay códigos activos; los nuevos suelen llegar con los eventos. ¡Vuelve pronto!',
     promoHowTo: 'Guía: cómo canjear códigos promocionales',
+    promoFeedTitle: 'Códigos promocionales de Dragon Ball Legends – dblqr.org',
+    promoFeedDescription: 'Nuevos códigos promocionales de Dragon Ball Legends en cuanto aparecen, con recompensa y fecha de caducidad.',
+    promoFeedSubscribe: 'Suscribirse por RSS',
+    promoFeedItem: 'Recompensa: {reward}. Válido hasta {date}. Canjéalo en el juego desde el Menú.',
   },
   pt: {
     metaTitle: 'Gerador de QR do Dragon Ball Legends – Aniversário 2026',
@@ -448,6 +460,10 @@ const I18N = {
     promoIntro: 'Todos os códigos ativos no momento, atualizados automaticamente. Toque em um código para copiá-lo e resgate no jogo.',
     promoEmpty: 'Nenhum código ativo no momento – códigos novos costumam chegar com os eventos. Volte em breve!',
     promoHowTo: 'Guia: como resgatar códigos promocionais',
+    promoFeedTitle: 'Códigos promocionais de Dragon Ball Legends – dblqr.org',
+    promoFeedDescription: 'Novos códigos promocionais de Dragon Ball Legends assim que aparecem, com recompensa e data de validade.',
+    promoFeedSubscribe: 'Assinar via RSS',
+    promoFeedItem: 'Recompensa: {reward}. Válido até {date}. Resgate no jogo pelo Menu.',
   },
   fr: {
     metaTitle: 'Générateur de QR Dragon Ball Legends – Anniversaire 2026',
@@ -559,6 +575,10 @@ const I18N = {
     promoIntro: 'Tous les codes actuellement actifs, mis à jour automatiquement. Touchez un code pour le copier, puis échangez-le dans le jeu.',
     promoEmpty: 'Pas de code promo actif pour le moment – les nouveaux codes arrivent généralement avec les événements. Revenez bientôt !',
     promoHowTo: 'Guide : comment échanger les codes promo',
+    promoFeedTitle: 'Codes promo Dragon Ball Legends – dblqr.org',
+    promoFeedDescription: 'Les nouveaux codes promo Dragon Ball Legends dès leur sortie, avec récompense et date d’expiration.',
+    promoFeedSubscribe: 'S’abonner par RSS',
+    promoFeedItem: 'Récompense : {reward}. Valable jusqu’au {date}. À utiliser en jeu via le Menu.',
   },
   ru: {
     metaTitle: 'Генератор QR-кодов Dragon Ball Legends – Anniversary 2026',
@@ -670,6 +690,10 @@ const I18N = {
     promoIntro: 'Все активные на данный момент коды, обновляются автоматически. Нажмите на код, чтобы скопировать, затем активируйте в игре.',
     promoEmpty: 'Сейчас активных промокодов нет – новые обычно появляются с событиями. Заглядывайте позже!',
     promoHowTo: 'Гайд: как активировать промокоды',
+    promoFeedTitle: 'Промокоды Dragon Ball Legends – dblqr.org',
+    promoFeedDescription: 'Новые промокоды Dragon Ball Legends сразу после появления – с наградой и сроком действия.',
+    promoFeedSubscribe: 'Подписаться через RSS',
+    promoFeedItem: 'Награда: {reward}. Действует до {date}. Активируйте его в игре через Меню.',
   },
   ja: {
     metaTitle: 'ドラゴンボール レジェンズ QRコード生成 – Anniversary 2026',
@@ -781,6 +805,10 @@ const I18N = {
     promoIntro: '現在有効なコードの一覧です（自動更新）。コードをタップしてコピーし、ゲーム内で引き換えてください。',
     promoEmpty: '現在有効なプロモコードはありません。新しいコードはイベントに合わせて配布されることが多いので、また見に来てください！',
     promoHowTo: 'ガイド：プロモコードの引き換え方法',
+    promoFeedTitle: 'ドラゴンボール レジェンズ プロモコード – dblqr.org',
+    promoFeedDescription: 'ドラゴンボール レジェンズの新しいプロモコードを、報酬と有効期限つきでいち早くお届けします。',
+    promoFeedSubscribe: 'RSSで購読',
+    promoFeedItem: '報酬：{reward}。有効期限：{date}まで。ゲーム内のメニューから入力できます。',
   },
 };
 

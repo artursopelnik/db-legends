@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Códigos promocionales de Dragon Ball Legends – dblqr.org</title>
+    <link>https://dblqr.org/es/promo-codes/</link>
+    <description>Nuevos códigos promocionales de Dragon Ball Legends en cuanto aparecen, con recompensa y fecha de caducidad.</description>
+    <language>es</language>
+    <lastBuildDate>Tue, 20 Oct 2026 10:10:39 GMT</lastBuildDate>
+    <ttl>360</ttl>
+    <atom:link href="https://dblqr.org/es/promo-codes/feed.xml" rel="self" type="application/rss+xml"/>
+
+  </channel>
+</rss>

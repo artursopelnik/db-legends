@@ -104,17 +104,31 @@ def main():
         print(f'INFO: {candidates} Codes gefunden, aber keiner mit gueltigem Ablaufdatum.')
 
     old_codes = None
+    old_updated = None
     if OUT.exists():
         try:
-            old_codes = json.loads(OUT.read_text(encoding='utf-8')).get('codes')
+            old_data = json.loads(OUT.read_text(encoding='utf-8'))
+            old_codes = old_data.get('codes')
+            old_updated = old_data.get('updatedAt')
         except (json.JSONDecodeError, OSError):
             pass
+
+    # firstSeen: wann ein Code zum ersten Mal auftauchte (fuer den RSS-Feed).
+    # Bekannte Codes behalten ihr Datum; aeltere Eintraege ohne Feld fallen
+    # auf das bisherige updatedAt zurueck.
+    now = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
+    first_seen = {}
+    for c in old_codes or []:
+        first_seen[c.get('code')] = c.get('firstSeen') or old_updated or now
+    for c in codes:
+        c['firstSeen'] = first_seen.get(c['code'], now)
+
     if codes == old_codes:
         print(f'No changes ({len(codes)} codes).')
         return
 
     OUT.write_text(json.dumps({
-        'updatedAt': datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
+        'updatedAt': now,
         'source': URL,
         'codes': codes,
     }, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')

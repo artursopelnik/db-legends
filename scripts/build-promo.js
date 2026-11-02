@@ -21,6 +21,7 @@ const SRC = path.join(ROOT, 'src', 'promo');
 const { promoUrlForLang, SITE_URL, DEFAULT_LANG } = require('./promo-lib.js');
 const { blogPathForLang, homePathForLang, postPath, splitH1Html, thirdPartyScripts, siteNav, SITE_NAV_CSS } = require('./blog-lib.js');
 const { teamsPathForLang } = require('./teams-lib.js');
+const { feedPathForLang, feedUrlForLang } = require('./build-promo-feed.js');
 const { I18N, SUPPORTED_LANGS } = require(path.join(ROOT, 'i18n.js'));
 
 const HOWTO_POST_SLUG = 'dragon-ball-legends-promo-codes-how-to-redeem';
@@ -121,6 +122,10 @@ function renderPage(template, css, lang) {
     .replaceAll('{{SOURCE_LABEL}}', escapeHtmlText(dict.promoSource))
     .replaceAll('{{PROMO_HOWTO_URL}}', postPath(lang, HOWTO_POST_SLUG))
     .replaceAll('{{PROMO_HOWTO_LABEL}}', escapeHtmlText(dict.promoHowTo))
+    .replaceAll('{{PROMO_FEED_TITLE}}', escapeHtmlAttr(dict.promoFeedTitle))
+    .replaceAll('{{PROMO_FEED_URL}}', feedUrlForLang(lang))
+    .replaceAll('{{PROMO_FEED_PATH}}', feedPathForLang(lang))
+    .replaceAll('{{PROMO_FEED_SUBSCRIBE}}', escapeHtmlText(dict.promoFeedSubscribe))
     .replaceAll('{{PROMO_TEXT_JSON}}', jsonSafe(promoText))
     .replaceAll('{{CTA_HTML}}', dict.blogIndexCtaHtml)
     .replaceAll('{{CTA_BTN}}', escapeHtmlText(dict.blogIndexCtaBtn))

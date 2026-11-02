@@ -99,6 +99,7 @@
 }
 .toast.show { opacity: 1; }
 </style>
+<link rel="alternate" type="application/rss+xml" title="{{PROMO_FEED_TITLE}}" href="{{PROMO_FEED_URL}}">
 </head>
 <body>
 <div class="wrap">
@@ -116,6 +117,7 @@
   </section>
 
   <p class="promo-howto">📖 <a href="{{PROMO_HOWTO_URL}}">{{PROMO_HOWTO_LABEL}}</a></p>
+  <p class="promo-howto">📡 <a href="{{PROMO_FEED_PATH}}" type="application/rss+xml">{{PROMO_FEED_SUBSCRIBE}}</a></p>
 
   <div class="cta">
     <p>{{CTA_HTML}}</p>

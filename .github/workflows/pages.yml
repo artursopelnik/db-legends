@@ -27,6 +27,8 @@ jobs:
           node-version: '20'
       - name: Build multilingual HTML + sitemap
         run: node scripts/build-i18n.js
+      - name: Build promo-code RSS feeds
+        run: node scripts/build-promo-feed.js
       - uses: actions/configure-pages@v5
         with:
           enablement: true
